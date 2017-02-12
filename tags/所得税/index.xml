@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>所得税 on Academic</title>
+    <link>https://chengjun.github.io/tags/%E6%89%80%E5%BE%97%E7%A8%8E/index.xml</link>
+    <description>Recent content in 所得税 on Academic</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2016 Cheng-Jun Wang</copyright>
+    <atom:link href="/tags/%E6%89%80%E5%BE%97%E7%A8%8E/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>理解个人所得税</title>
+      <link>https://chengjun.github.io/note/2015-12-31-income/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://chengjun.github.io/note/2015-12-31-income/</guid>
+      <description>
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;学校财务处 &lt;a href=&#34;http://ndcw.nju.edu.cn/&#34; target=&#34;_blank&#34;&gt;http://ndcw.nju.edu.cn/&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;江苏省南京地方税务局 &lt;a href=&#34;http://nj.jsds.gov.cn/art/2011/6/28/art_16724_418203.html&#34; target=&#34;_blank&#34;&gt;http://nj.jsds.gov.cn/art/2011/6/28/art_16724_418203.html&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;薪资纳税计算&#34;&gt;薪资纳税计算&lt;/h2&gt;
+
+&lt;p&gt;交补300、会费50、大病互助20、公积金1200，不算入纳税范围。交补是交通补贴；会费是工会会费是在工资中提取的工会经费。大学没有医疗保险，只有大病互助。住房公积金是1200元，年初还会交一次失业险50。其中，*只有*住房公积金不交税。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;10000+300-1200 = 9100
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;3500以上为纳税标准，我的账单上写565元所得税，&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;应纳个人所得税税额=应纳税所得额×适用税率-速算扣除数；
+
+((10000- 1200 + 300)- 3500)*0.2 - 555 = 565
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;扣除标准3500元/月（2011年9月1日起正式执行）（工资、薪金所得适用）；个税免征额3500元（工资薪金所得适用）。关于税率和速算扣除数参见：&lt;a href=&#34;http://www.chinaacc.com/kuaijishiwu/gssw/ni1501272983.shtml&#34; target=&#34;_blank&#34;&gt;http://www.chinaacc.com/kuaijishiwu/gssw/ni1501272983.shtml&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;假设其它工薪收入为50万，那么可以使用以下公式计算。基本工资应交税部分9100元，该部分交税565。其它工薪收入x加上9100即为该月总纳税金额，应纳税所得额乘以税率，再减去速算扣除数就是本月应缴纳税收，减去基本工资缴纳税收565，就是本月其它工薪收入部分缴纳的税额。具体如下：&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;def tax(x, rate, extra):
+    return (x+9100-3500)*rate-extra-565
+
+tax(10000, 0.25, 1005)*50 = 116500
+tax(20000, 0.25, 1005)*25 = 120750
+tax(40000, 0.30, 2755)*12 + tax(20000, 0.25, 1005) = 129150
+tax(50000, 0.35, 5505)*10 = 133900
+tax(500000, 0.45, 13505) = 213450
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;劳务报酬纳税计算&#34;&gt;劳务报酬纳税计算&lt;/h2&gt;
+
+&lt;p&gt;您输入的税前劳务报酬总额为：500000， 应纳所得税额为：153000， 税后劳务报酬总额为：347000&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

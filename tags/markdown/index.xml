@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Markdown on Academic</title>
+    <link>https://chengjun.github.io/tags/markdown/index.xml</link>
+    <description>Recent content in Markdown on Academic</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2016 Cheng-Jun Wang</copyright>
+    <atom:link href="/tags/markdown/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Markdown名称中有字母才会显示</title>
+      <link>https://chengjun.github.io/note/2010-01-10-markdown-name/</link>
+      <pubDate>Sun, 10 Jan 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://chengjun.github.io/note/2010-01-10-markdown-name/</guid>
+      <description>
+
+&lt;p&gt;我今天又将博客改回原来的设置，结果上传的900多个模板都没有显示出来，我后来突然想起来，原来html的地址才是最重要的。&lt;/p&gt;
+
+&lt;p&gt;一般而言，一个post的物理地址：chengjun.github.io / _posts / 2010-01-01.md， 经过试验，这并不会被显示。只有当010-01-01.md被修改为010-01-01-test.md之后，才显示！居然是这样。好吧，以后写东西更方便了。呵呵。&lt;/p&gt;
+
+&lt;h2 id=&#34;mathjax-设定&#34;&gt;mathjax 设定&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;!--mathjax start--&amp;gt;
+&amp;lt;script type=&amp;quot;text/x-mathjax-config&amp;quot;&amp;gt;
+ MathJax.Hub.Config({
+   tex2jax: {
+     inlineMath: [ [&#39;$&#39;,&#39;$&#39;], [&amp;quot;\\(&amp;quot;,&amp;quot;\\)&amp;quot;] ],
+     processEscapes: true
+   },
+  TeX: {
+     equationNumbers: { autoNumber: &amp;quot;AMS&amp;quot; }
+  }
+ });
+&amp;lt;/script&amp;gt;
+&amp;lt;script type=&amp;quot;text/javascript&amp;quot;
+            src=&amp;quot;http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML&amp;quot;&amp;gt;
+&amp;lt;/script&amp;gt;
+&amp;lt;!--mathjax end--&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,1520 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Note on Academic</title>
+    <link>https://chengjun.github.io/note/index.xml</link>
+    <description>Recent content in Note on Academic</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2016 Cheng-Jun Wang</copyright>
+    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/note/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Analyzing Mobile Phone Data With Network Science</title>
+      <link>https://chengjun.github.io/note/2016-10-18-ica2017talk/</link>
+      <pubDate>Sun, 14 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://chengjun.github.io/note/2016-10-18-ica2017talk/</guid>
+      <description>
+
+&lt;h3 id=&#34;abstract-150-200-word&#34;&gt;Abstract (150-200 word)&lt;/h3&gt;
+
+&lt;p&gt;With the widespread use of mobile computing devices in contemporary society, our trajectories in the physical space and virtual world are increasingly closely connected. Using the anonymous smartphone data, we can construct the communication network, mobility network, and attention network, and further analyze the data in the perspective of network science.&lt;/p&gt;
+
+&lt;h3 id=&#34;short-bio&#34;&gt;short-bio&lt;/h3&gt;
+
+&lt;p&gt;Cheng-Jun Wang, Ph.D. He is currently an assistant research fellow in the School of Journalism and Communication, Nanjing University. He is also the director of Ogilvy Data Science Lab, Computational Communication Collaboratory. His research on computational communication appears in both SSCI and SCI indexed journals, such as Scientific Reports, PloS ONE, Physica A, Cyberpsychology, and Journal of Social and Personal Relationships.&lt;/p&gt;
+
+&lt;h3 id=&#34;20-25-minutes&#34;&gt;20-25 minutes&lt;/h3&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Github个人网站维护</title>
+      <link>https://chengjun.github.io/note/2016-08-03-github/</link>
+      <pubDate>Wed, 03 Aug 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://chengjun.github.io/note/2016-08-03-github/</guid>
+      <description>
+
+&lt;h2 id=&#34;hugo-on-github&#34;&gt;Hugo on github&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Create on GitHub &lt;code&gt;mywebsite-hugo&lt;/code&gt; repository (it will host Hugo’s content)&lt;/li&gt;
+&lt;li&gt;Create on GitHub &lt;code&gt;chengjun.github.io&lt;/code&gt; repository (it will host the public folder: the static website)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;cd github&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;git clone https://github.com/chengjun/mywebsite-hugo.git&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;hugo new site mywebsite-hugo --force&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;cd mywebsite-hugo&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;download &lt;a href=&#34;https://github.com/gcushen/hugo-academic/archive/master.zip&#34; target=&#34;_blank&#34;&gt;Academic&lt;/a&gt; and extract it into a themes/academic folder within your Hugo website.&lt;/li&gt;
+&lt;li&gt;If you are creating a new website, copy the contents of the exampleSite folder to your website root folder, overwriting existing files if necessary.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;hugo server --watch&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Once you are happy with the results, &lt;code&gt;Ctrl+C&lt;/code&gt; (kill server) and &lt;code&gt;rm -rf public&lt;/code&gt; (don’t worry, it can always be regenerated with hugo -t &lt;yourtheme&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;git submodule add https://github.com/chengjun/chengjun.github.io.git public --force&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Almost done: add a deploy.sh script to help you&lt;/li&gt;
+&lt;li&gt;and make it executable: &lt;code&gt;chmod +x deploy.sh&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;./deploy.sh &amp;quot;Your optional commit message&amp;quot;&lt;/code&gt; to send changes to &lt;username&gt;.github.io (careful, you may also want to commit changes on the &lt;your-project&gt;-hugo repo).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;#!/bin/bash
+
+echo -e &amp;quot;\033[0;32mDeploying updates to GitHub...\033[0m&amp;quot;
+
+# Build the project.
+hugo # if using a theme, replace by `hugo -t &amp;lt;yourtheme&amp;gt;`
+
+# Go To Public folder
+cd public
+# Add changes to git.
+git add -A
+
+# Commit changes.
+msg=&amp;quot;rebuilding site `date`&amp;quot;
+if [ $# -eq 1 ]
+  then msg=&amp;quot;$1&amp;quot;
+fi
+git commit -m &amp;quot;$msg&amp;quot;
+
+# Push source and build repos.
+git push origin master
+
+# Come Back
+cd ..
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;domain-name&#34;&gt;domain name&lt;/h2&gt;
+
+&lt;p&gt;在godaddy上花了122块钱买了两年的域名 &lt;a href=&#34;http://chengjunwang.com&#34; target=&#34;_blank&#34;&gt;chengjunwang.com&lt;/a&gt;。简单设置cname和goddy上的a record和cname www record就好了。主要参考了&lt;a href=&#34;http://andrewsturges.com/blog/jekyll/tutorial/2014/11/06/github-and-godaddy.html&#34; target=&#34;_blank&#34;&gt;这里&lt;/a&gt;。&lt;/p&gt;
+
+&lt;p&gt;我对于html的无知可以说是到了某种无以附加的程度。虽然我投入了很多时间，但往往都是干中学。而不是系统的模仿。通常会发现很多困惑，然后每次对我而言都是一个个小trick就解决了问题。&lt;/p&gt;
+
+&lt;h2 id=&#34;平行的文本框&#34;&gt;平行的文本框&lt;/h2&gt;
+
+&lt;p&gt;如何添加一个平行的文本框？这个困惑了我很久的问题，解决方法是设置position为absolute。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;#textbox {
+  position:absolute;
+  top: 200px;
+  width: auto;
+  margin-left: 50px;
+  background-color: rgba(0,0,0,0.2);
+  opacity:1;
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;修改之后又觉得不好看。又尝试了iframe，也不是很合适。&lt;/p&gt;
+
+&lt;p&gt;之后发现一篇好文章&lt;a href=&#34;http://css-tricks.com/examples/ShapesOfCSS/&#34; target=&#34;_blank&#34;&gt;The Shapes of CSS&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;修改了其中的talkbubble，放在application.css中。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;#talkbubble {
+   position:absolute;
+   top: 250px;
+   margin-left: 50px;
+   width: 300px;
+   height: 150px;
+   background-color: rgba(0,0,0,0.2);
+   -moz-border-radius:    10px;
+   -webkit-border-radius: 10px;
+   border-radius:         10px;
+}
+#talkbubble:before {
+   content:&amp;quot;&amp;quot;;
+   position: absolute;
+   margin-left: 300px;
+   top: 80px;
+   width: 0;
+   height: 0;
+   background-color: transparent;
+   #border-top: 5px solid transparent;
+   border-bottom: 30px solid rgba(0,0,0,0.2);
+   border-right: 120px solid transparent;
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;在index.html里加入talkbubble来显示新闻。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;div id=&amp;quot;talkbubble&amp;quot;&amp;gt;
+  &amp;lt;h2&amp;gt;&amp;lt;a href=&amp;quot;http://chengjun.github.io/cv/news.html&amp;quot;&amp;gt;News&amp;lt;/a&amp;gt;&amp;lt;/h2&amp;gt;
+  &amp;lt;p&amp;gt;[Feb 23] &amp;lt;a href=&amp;quot;https://pypi.python.org/pypi/scholarNetwork/&amp;quot;&amp;gt;scholarNetwork&amp;lt;/a&amp;gt;--a python package which can help crawl and visualize the coauthor network of Google Scholar is released to Pypi. &amp;lt;/p&amp;gt;
+&amp;lt;/div&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;谷歌字体&#34;&gt;谷歌字体&lt;/h3&gt;
+
+&lt;p&gt;俺天朝跟谷歌成了死敌。背后的很多想法让人很无奈。虽然米果是两党制，但是谷歌据说也在检查之列。到了俺朝，美利坚放不下身段了，天朝也放不下，于是就僵住了。于是很多谷歌的服务都不好用了。比如谷歌学术，谷歌邮箱。哎妈呀，老伤心老。我这里要说的却是谷歌的字体格式。&lt;/p&gt;
+
+&lt;p&gt;在天朝载入我的博客慢的原因就是因为style.css里（media/css/style.css）调用里谷歌字体。好伤心，每次访问速度都很慢，非得翻墙才行。可是不能让俺的读者们也翻墙吧，这也太虎了。反正我的审美要求也没那么高。雪藏了吧。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;#@import url(http://fonts.googleapis.com/css?family=Galdeano);
+#@import url(http://fonts.googleapis.com/css?family=Electrolize);
+#@import url(http://fonts.googleapis.com/css?family=Cuprum);
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;改过来之后&#34;&gt;改过来之后&lt;/h3&gt;
+
+&lt;p&gt;我了个去，怎么英文字体变这么大了，BIG好吧，只能骗自己感觉萌萌哒啦。&lt;/p&gt;
+
+&lt;h3 id=&#34;把谷歌字体放在本站&#34;&gt;把谷歌字体放在本站&lt;/h3&gt;
+
+&lt;p&gt;其实很早就注意到andy wang的这个解决方法，一直比较懒。还是去在mac上安装了github for mac，于是把andy wang的media文件夹偷到我这里来用。&lt;/p&gt;
+
+&lt;p&gt;Andy Wang:
+&lt;code&gt;你好，我扒走了你的模板，然后在天朝用发现非常慢，然后调试了一下，发现是在style.css和home.css里面有从别的网站下载字体文件的, http://fonts.googleapis.com/这个网站在天朝访问非常不稳定，所以做了一些小改动，把字体文件都下载到网站上了，页面渲染速度也快了很多。https://github.com/synckey/synckey.github.io/tree/master/media/css&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;终于，世界再次变得一片清凉了。真好。&lt;/p&gt;
+
+&lt;h2 id=&#34;categories&#34;&gt;categories&lt;/h2&gt;
+
+&lt;p&gt;我喜欢在网页端更新github上的日志，通过设置只显示categories为blog的文档，我可以每次修改一点东西就完全在网页端写日志。图片附件什么的可以放在七牛网站，感觉非常好。&lt;/p&gt;
+
+&lt;p&gt;下面是我用来复制和重命名1000个md文本的python代码：&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;        # -*- coding: utf-8 -*-
+        &amp;quot;&amp;quot;&amp;quot;
+        Created on Thu Aug 07 14:05:09 2014
+
+        @author: chengjun
+        &amp;quot;&amp;quot;&amp;quot;
+
+        import shutil
+        path = &amp;quot;D:/github/chengjun.github.io/_posts/&amp;quot;   
+
+        demo = path + &amp;quot;2010-01-01-demo.md&amp;quot;
+
+        for i in range(1000):
+            newFile = path + &amp;quot;2010-01-&amp;quot; + str(i) + &amp;quot;.md&amp;quot;
+            print newFile
+            shutil.copy(demo, newFile)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://chengjun.qiniudn.com/7.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;jekyll3-0&#34;&gt;jekyll3.0&lt;/h2&gt;
+
+&lt;p&gt;这个是一个测试，jekyll更新到了3.0版本，所以github也相应发生了改变（见&lt;a href=&#34;https://github.com/blog/2100-github-pages-now-faster-and-simpler-with-jekyll-3-0&#34; target=&#34;_blank&#34;&gt;这里&lt;/a&gt;）。这导致了我的文章无法显示，解决的方法是去掉表头的时间一行，就可以了，我还没有明白原因。&lt;/p&gt;
+
+&lt;h2 id=&#34;某一类的博文目录&#34;&gt;某一类的博文目录&lt;/h2&gt;
+
+&lt;p&gt;主要参考 &lt;a href=&#34;http://stackoverflow.com/questions/12008108/filtering-posts-using-categories-in-jekyll-bootstrap&#34; target=&#34;_blank&#34;&gt;filtering-posts-using-categories-in-jekyll-bootstrap&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;这个是使用liquid写的，介绍见&lt;a href=&#34;http://liquidmarkup.org/&#34; target=&#34;_blank&#34;&gt;这里&lt;/a&gt;。&lt;/p&gt;
+
+&lt;p&gt;主要添加两行liquid代码：&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;if post.categories contains &#39;生活&#39;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;不要忘记endif&lt;/p&gt;
+
+&lt;p&gt;由于liquid语言本身不能在本网站呈现，读者可以查看&lt;a href=&#34;https://github.com/chengjun/chengjun.github.io/blob/master/life/index.html&#34; target=&#34;_blank&#34;&gt;这里&lt;/a&gt;。&lt;/p&gt;
+
+&lt;p&gt;琢磨出一个不用每次在jekyll上写博客都要上传的方法：将要显示的博客的categories设为blog，一次上传n个草稿（不指定categories），使用liquid语言指定在博客列表中只显示blog类的。这样草稿不会被显示，每次在线登录github，更改一个草稿的标题和categories就可以了。图片用外链flickr。&lt;/p&gt;
+
+&lt;h2 id=&#34;paginator&#34;&gt;paginator&lt;/h2&gt;
+
+&lt;p&gt;今天下午鼓捣了半天jekyll的设置，最初是想弄一个&lt;a href=&#34;http://jekyllrb.com/docs/pagination/&#34; target=&#34;_blank&#34;&gt;paginator&lt;/a&gt;给文章列表分页，结果搞了半天，没搞定。各种问题。&lt;a href=&#34;http://patrick-mckinley.com/tech/jekyll-pagination.html&#34; target=&#34;_blank&#34;&gt;Patrick McKinley&lt;/a&gt;说是因为不是网站第一层的index.html，所以jekyll官方设置时没有用的。于是，直接用他的方法，发现没有办法在我的网站上实现。&lt;/p&gt;
+
+&lt;p&gt;Patrick McKinley的博客以图片来显示博客文章的方法似乎很酷。感兴趣，去研究了下他的&lt;a href=&#34;https://github.com/lilmuckers/lilmuckers.github.com&#34; target=&#34;_blank&#34;&gt;代码&lt;/a&gt;，大致是设置了post.image，图片存放在assets中的图片文件夹。我弄了下，也没弄成功。&lt;/p&gt;
+
+&lt;p&gt;又看到&lt;a href=&#34;tmtxt.github.com&#34; target=&#34;_blank&#34;&gt;Mr Trường at RMIT&lt;/a&gt;的网页，翻了半天，加了related_posts功能。&lt;/p&gt;
+
+&lt;p&gt;没想到晚上更惨，被python的encoding error搞得很头大！&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>测试Atom软件</title>
+      <link>https://chengjun.github.io/note/2016-05-04-atom/</link>
+      <pubDate>Wed, 04 May 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://chengjun.github.io/note/2016-05-04-atom/</guid>
+      <description>
+
+&lt;p&gt;使用&lt;strong&gt;Atom&lt;/strong&gt;来编写markdown非常不错，按ctr+shift+m就可以进入预览模式，我想markdownpad可以抛弃掉了。这个软件更流畅，非常棒！因为我经常要写github的博客，使用atom时最容易的形式。减少了甚多负担，非常的自由，如果它具有上传功能就好了。&lt;/p&gt;
+
+&lt;h1 id=&#34;数学公式&#34;&gt;数学公式&lt;/h1&gt;
+
+&lt;p&gt;安装了markdown-preview-enhanced，可以很方便的展示数学公式，比如 $x = y^2$。&lt;/p&gt;
+
+&lt;p&gt;$E = MC^2$&lt;/p&gt;
+
+&lt;p&gt;需要按 ctrl+ shift+ x，按ctrl+ shift+ m无法展示数学公式。&lt;/p&gt;
+
+&lt;h1 id=&#34;参考文献&#34;&gt;参考文献&lt;/h1&gt;
+
+&lt;p&gt;插入一个参考文献&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:a&#34;&gt;&lt;a rel=&#34;footnote&#34; href=&#34;#fn:a&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:b&#34;&gt;&lt;a rel=&#34;footnote&#34; href=&#34;#fn:b&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:c&#34;&gt;&lt;a rel=&#34;footnote&#34; href=&#34;#fn:c&#34;&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;再次插入一个参考文献&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:b&#34;&gt;&lt;a rel=&#34;footnote&#34; href=&#34;#fn:b&#34;&gt;4&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;插入一个参考文献[^a][^b][^c]
+
+[^a]: author1, 2014, This is a title. Journal. 00-00
+[^b]: author2, 2014, This is a title. Journal. 00-00
+[^c]: author5, 2014, This is a title. Journal. 00-00
+
+再次插入一个参考文献[^b]
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h1 id=&#34;图片上传功能&#34;&gt;图片上传功能&lt;/h1&gt;
+
+&lt;p&gt;结果就发现阿里巴巴程序员knightli的两个atom插件：qiniu-uploader和markdown-assistant。设置好七牛的账号既可以非常方便地使用图床了。赞。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://oaf2qt3yk.bkt.clouddn.com/1895b6670f7276a1f10903cf1305e686.png&#34; alt=&#34;qiniu-uploader&#34; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;git上传功能&#34;&gt;Git上传功能&lt;/h1&gt;
+
+&lt;p&gt;接着又找到了&lt;a href=&#34;https://atom.io/packages/git-plus&#34; target=&#34;_blank&#34;&gt;git-plus&lt;/a&gt;这个强大的插件，可以直接在atom里上传了。好吧！社区的力量真强大。太好了。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;按 *command+shift+H*打开操作界面。&lt;/li&gt;
+&lt;li&gt;选择&lt;code&gt;add all commit+push&lt;/code&gt;就可以上传了！
+
+&lt;ul&gt;
+&lt;li&gt;填写commit的内容&lt;/li&gt;
+&lt;li&gt;command+s保存即可上传&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://oaf2qt3yk.bkt.clouddn.com/7497f687c919c447882fd0abd4d68bc2.png&#34; alt=&#34;surprise&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;震惊脸！！！!&lt;/p&gt;
+
+&lt;h1 id=&#34;atom-html-preview&#34;&gt;atom-html-preview&lt;/h1&gt;
+
+&lt;p&gt;如果你需要修改的html文件的话，可以很方便地使用atom-html-preview插件。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;快捷键&lt;code&gt;ctr+shift+h&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://oaf2qt3yk.bkt.clouddn.com/d832f904c15079ed7f38816a5407c1b6.png&#34; alt=&#34;atom-html-preview&#34; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;参考文献-1&#34;&gt;参考文献&lt;/h1&gt;
+&lt;div class=&#34;footnotes&#34;&gt;
+
+&lt;hr /&gt;
+
+&lt;ol&gt;
+&lt;li id=&#34;fn:a&#34;&gt;author1, 2014, This is a title. Journal. 00-00
+ &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:a&#34;&gt;&lt;sup&gt;^&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li id=&#34;fn:b&#34;&gt;author2, 2014, This is a title. Journal. 00-00
+ &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:b&#34;&gt;&lt;sup&gt;^&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li id=&#34;fn:c&#34;&gt;author5, 2014, This is a title. Journal. 00-00
+ &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:c&#34;&gt;&lt;sup&gt;^&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li id=&#34;fn:b&#34;&gt;author2, 2014, This is a title. Journal. 00-00
+ &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:b&#34;&gt;&lt;sup&gt;^&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>语言是一道门槛</title>
+      <link>https://chengjun.github.io/note/2016-05-04-sr-revising/</link>
+      <pubDate>Wed, 04 May 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://chengjun.github.io/note/2016-05-04-sr-revising/</guid>
+      <description>
+
+&lt;h2 id=&#34;billing&#34;&gt;Billing&lt;/h2&gt;
+
+&lt;p&gt;Bill to&lt;/p&gt;
+
+&lt;p&gt;Cheng-Jun Wang
+wangchengjun@nju.edu.cn
++8617751010496&lt;/p&gt;
+
+&lt;h3 id=&#34;billing-method&#34;&gt;Billing method&lt;/h3&gt;
+
+&lt;p&gt;Invoice
+Billing address&lt;/p&gt;
+
+&lt;p&gt;Nanjing University
+22 Hankou Road, Gulou District, Nanjing University
+A306 Feiyimin Building, School of Journalism and Communication
+Nanjing
+China
+China
+210093&lt;/p&gt;
+
+&lt;h3 id=&#34;scientific-reports-出版业的一个新时代&#34;&gt;Scientific Reports —出版业的一个新时代&lt;/h3&gt;
+
+&lt;p&gt;Scientific Reports 是来自 Nature 杂志出版者的一个发表原始研究工作的刊物，在线出版，公开访问，内容涉及自然科学所有领域。托管在 nature.com（该网站是由Springer Nature出版的80多种刊物的共同门户，每月全球有数百万科学家访问）上， Scientific Reports 是任何人都可以公开访问的，发表在技术上可靠的、各领域内的专业人员感兴趣的原始研究论文，其相关内容的访问不受任何限制。&lt;/p&gt;
+
+&lt;p&gt;文章处理费自2015年1月起将按如下标准执行，以下费用包括增值税或其他当地税费。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;£990 (UK &amp;amp; RoW)&lt;/li&gt;
+&lt;li&gt;$1,495 (The Americas)&lt;/li&gt;
+&lt;li&gt;€1,165 (Europe)&lt;/li&gt;
+&lt;li&gt;¥170,000 (Japan)&lt;/li&gt;
+&lt;li&gt;¥9,900 (China)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Scientific Reports 是：&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;快速的（Fast）—迅速审稿和发表&lt;/li&gt;
+&lt;li&gt;严格的（Rigorous）—由学术界至少一个成员来进行同行评审&lt;/li&gt;
+&lt;li&gt;公开的（Open）—文章对所有人都是免费的，作者保留版权&lt;/li&gt;
+&lt;li&gt;可见的（Visible）—增强的浏览和搜索功能，确保您的文章能够被注意到&lt;/li&gt;
+&lt;li&gt;互联的（Interlinked）—与整个 nature.com 网站上的相关文章相互之间建立链接&lt;/li&gt;
+&lt;li&gt;全球的（Global）— 托管在 nature.com 上，全球媒体覆盖&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;根据&lt;a href=&#34;http://www.docin.com/p-1309834502.html&#34; target=&#34;_blank&#34;&gt;南京大学超一流、学科群一流、SCI A 区和 B 区期刊目录&lt;/a&gt;，Scientific reports属于SCI索引期刊的A区。2016年公布的Scientific Reports 影响因子5.228*
+*2015 Journal Citation Reports® Science Edition (Thomson Reuters, 2016)&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://oaf2qt3yk.bkt.clouddn.com/5e1e31a8ec89e5fa3374b23baa8eadde.png&#34; alt=&#34;SR&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;南京大学关于Scientific Reports论文发表的新闻：
+&lt;a href=&#34;http://news.nju.edu.cn/searchsite.php?r=scientific%20reports&#34; target=&#34;_blank&#34;&gt;http://news.nju.edu.cn/searchsite.php?r=scientific%20reports&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;2015-11-26 Scientific Reports刊登我校博士生俞恂大陆火山成因研究新成果&lt;/li&gt;
+&lt;li&gt;2014-10-29 大气科学学院符淙斌院士团队在Scientific Reports杂志发表最新研究成果&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;8月19日&#34;&gt;8月19日&lt;/h2&gt;
+
+&lt;h3 id=&#34;hidden-direction&#34;&gt;hidden direction&lt;/h3&gt;
+
+&lt;p&gt;中间因为editor换了，又更新过一次reviewer，耽搁了时间。2015年12月10日进入decision started的状态；过了一个半月，也就是2016年1月24日到了2月2日才收到editor回复，之后又过了&lt;strong&gt;十天&lt;/strong&gt;时间收到SR的邮件。所以概括一下：这个editor的速度灰常慢，再等半个月。&lt;/p&gt;
+
+&lt;p&gt;突然发现9月2日editor提交了审稿意见，经过了一个多月终于Manuscript Submitted。一般而言进入此环节表示editor做好了决定，Finger crossed！耐心地等待下一周吧。9月5日，文章被接收。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Manuscript Submitted&lt;/strong&gt;  2nd September 16&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Decision Started  26th July 16&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Manuscript assigned to peer-reviewer/s    26th July 16&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Manuscript Assigned to Peer-Reviewer/s    14th June 16&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Manuscript Assigned to Editor 11th June 16&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Submission Not Complete   11th June 16&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;二审论文提交是在6月11日（中间隔了四个月），14日送审，到7月26日审完，发给编辑做决定。编辑似乎需要一个月才愿意给决定。到本月26日，编辑就消耗了一个月了，拭目以待。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Decision Started  26th July 16&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Manuscript assigned to peer-reviewer/s    26th July 16&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Manuscript Assigned to Peer-Reviewer/s    14th June 16&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Manuscript Assigned to Editor 11th June 16&lt;br /&gt;
+Submission Not Complete 11th June 16&lt;/li&gt;
+&lt;li&gt;Manuscript Submitted  24th January 16&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Decision Started  10th December 15&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Manuscript assigned to peer-reviewer/s    10th December 15&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Manuscript Assigned to Peer-Reviewer/s    17th November 15&lt;/li&gt;
+&lt;li&gt;Manuscript Assigned to Editor 30th September 15&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Manuscript Submitted  29th September 15&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Submission Not Complete   22nd September 15&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Quality Check Started 9th September 15&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Submission Not Complete   29th August 15&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;tracing&#34;&gt;tracing&lt;/h3&gt;
+
+&lt;p&gt;二审8月5日提交修改版本，进入quality check环节，8月12日收到邮件说要修改格式，当晚修改完毕提交。quality check到8月18日，进入decision started环节。没有想到当天就进入了Manuscript Submitted环节。一般而言进入此环节表示editor做好了决定。果然，晚上十一点半收到了acceptance letter。&lt;/p&gt;
+
+&lt;p&gt;Current Stage:  Decision Started (1 days)&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Manuscript Submitted&lt;/strong&gt;  18th August 16&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Decision Started  18th August 16&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Manuscript Assigned to Editor 5th August 16&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Submission Not Complete   9th July 16&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Manuscript Submitted&lt;/strong&gt;  6th July 16&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Decision Started  6th July 16&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Manuscript Assigned to Editor 2nd June 16&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Manuscript Submitted&lt;/strong&gt;  2nd June 16&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Quality Check Started 29th May 16&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Submission Not Complete   24th May 16&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;sr的latex模板&#34;&gt;SR的LaTeX模板&lt;/h2&gt;
+
+&lt;p&gt;8月12日，SR邮件说我的reference不合规范，发现只有严格按照overleaf上的模板才能生成，索性直接使用这个模板&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.overleaf.com/5874225tbgnxc#/19389854/&#34; target=&#34;_blank&#34;&gt;https://www.overleaf.com/5874225tbgnxc#/19389854/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;点击project，点击 download as zip即可下载。&lt;/p&gt;
+
+&lt;p&gt;因为不允许上传bib和cls文件，所以每次validation的时候还可以选择自己上传一个pdf。修改时只需要删除原来的tex文件，重新上传tex，并在validation的时候重新上传一个pdf即可。&lt;/p&gt;
+
+&lt;h2 id=&#34;积极向上的心智&#34;&gt;积极向上的心智&lt;/h2&gt;
+
+&lt;p&gt;突然我挺烦“正能量”这个词，因为使用这个词的地方往往是政府缺位的地方。&lt;/p&gt;
+
+&lt;p&gt;但是对于个体而言，找到正能量确实非常有必要的。每一个人都会面对生活的各种挑战，我们无法预测未来会是怎样，上天将会如何试探我们。&lt;/p&gt;
+
+&lt;p&gt;面对生活，积极向上的精神是不可或缺的。&lt;/p&gt;
+
+&lt;p&gt;这是一种心智的力量，需要个体去修炼。禅宗讲行走坐卧皆是修行是有道理的，因为每一个细节都在锤炼着我们的意志。我喜欢心智这个词，因为当我们面对挑战的时候，仅仅强调勇气、勤奋是远远不够的。因为我们可能是那个面对风车的堂吉诃德；因为我们可能已经在错误的道路上渐行渐远。要有智慧来面对挑战。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;不仅仅是蔑视困难，而且要能积极地应对挑战。
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;自强不息&#34;&gt;自强不息&lt;/h2&gt;
+
+&lt;p&gt;2016年8月3日，最近比较累。lingfei将tracing一文全面改了一遍，增加了可读性，文章的长度大幅度降低。我却变得更懒了，没有动力去修改。感觉我的个性里消极的成分太多了。&lt;/p&gt;
+
+&lt;p&gt;自强不息是一个多么艰难的目标。但是我应当牢记，这是最困难的阶段，跨过这个阶段，我要做的更好。放下那些不必要的压力，做回来自我。&lt;/p&gt;
+
+&lt;p&gt;要善于给自己鼓劲，在黑暗里看到希望的光。加油！&lt;/p&gt;
+
+&lt;h2 id=&#34;the-collective-direction-of-attention-diffusion&#34;&gt;The collective direction of attention diffusion&lt;/h2&gt;
+
+&lt;p&gt;2016年7月26日，晚上习惯性地刷了下sr，发现42天后，状态变为decision started。于是我想说要cross my fingers，没想到在西方是这样交叉手指祈祷的，姿势是把食指放在中指前面。&lt;/p&gt;
+
+&lt;p&gt;关于cross fingers的解释如下图：&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://oaf2qt3yk.bkt.clouddn.com/99886fb7ed981357171ef53f332a1ac3.png&#34; alt=&#34;cross_fingers&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;这一张图片更有爱！
+&lt;img src=&#34;http://oaf2qt3yk.bkt.clouddn.com/5d47fa9f9d4e6f775c5f68aec81f7452.png&#34; alt=&#34;cross_fingers_girl&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;到现在快有一个月了，还是这个状态：没有消息就是好消息。不要杞人忧天，庸人自扰。&lt;/p&gt;
+
+&lt;h2 id=&#34;proofread&#34;&gt;Proofread&lt;/h2&gt;
+
+&lt;p&gt;We find that the flow of attention on the Web forms a directed, tree-like structure. Using the data of a news sharing website, we construct clickstream networks in which nodes are news stories and edges represent the consecutive clicks between two stories. To identify the flow direction of clickstreams, we define the “flow distance” of nodes (Li), which measures the average number of steps a random walker takes to reach the ith node. It is observed that Li is related with with the clicks (Ci) to news stories and the age (Ti) of stories. Putting these three variables together help us understand the rise and decay of news stories from a network perspective. We also find that the studied clickstream networks preserve a stale structure over time, leading to the scaling between users and clicks. The universal scaling behavior is confirmed by the data from 1,000 Web forums. We suggest that the tree-like, stable structure of clickstream networks reveals the time-sensitive preference of users in online browsing. To test our assumption, we discuss three models on individual browsing behavior, and compare the simulation results with empirical data.&lt;/p&gt;
+
+&lt;p&gt;我们发现万维网上的注意力流动构成了一个有向的树状结构。使用一个新闻分享类网站的数据，我们构造了点击流网络：节点是新闻，链接是两个新闻之间的点击流。为了确认点击流的流动方向，我们定义了节点的流距离Li：它测量了一个随机游走者需要多少步才能走到该节点。研究发现Li与新闻点击量Ci和新闻的年龄Ti有关。同时分析这三个变量可以帮助我们从一个网络的视角理解新闻的出现和消亡过程。我们也发现构造的点击流网络在不同的时间可以维持一个稳定的结构，而这个稳定的结构解释了用户和点击流之间的标度关系。1000个网络论坛的数据验证了这种普世的标度行为。我们认为点击流网络的这种树状的稳定结构表明了用户浏览行为的时间敏感性偏好。为了验证这个假设，我们讨论了三种用户浏览行为的模型，并比较了计算机模拟的结构与实证数据之间的关系。&lt;/p&gt;
+
+&lt;p&gt;念兹在兹，我手写我心真的是不容易实现的状态。语言是一道门槛，只有越过它才能更好地与人交流。&lt;/p&gt;
+
+&lt;h2 id=&#34;arxiv&#34;&gt;arxiv&lt;/h2&gt;
+
+&lt;p&gt;5月27日，我开始尝试&lt;a href=&#34;http://www.bbioo.com/people/108-480562-1.html&#34; target=&#34;_blank&#34;&gt;将bib嵌入tex的方法&lt;/a&gt;：&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;正常编译tex和bib文件生成bbl文件，&lt;/li&gt;
+&lt;li&gt;复制bbl文件所有内容放进tex文件&lt;/li&gt;
+&lt;li&gt;编译一次bbl，然后一次latex，就可以显示正确了。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;其中，复制bbl文件所有内容放进tex文件的格式如下：&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;\section*{Competing financial interests}
+The authors declare no competing financial interests.
+
+%\section*{References}
+% The bibtex filename apalike unsrt ieeetr acm alpha plain
+\bibliographystyle{unsrt}
+\begin{thebibliography}{10}
+
+\bibitem{ginsberg2009detecting}
+Jeremy Ginsberg, Matthew~H Mohebbi, Rajan~S Patel, Lynnette Brammer, Mark~S
+  Smolinski, and Larry Brilliant.
+\newblock Detecting influenza epidemics using search engine query data.
+\newblock {\em Nature}, 457(7232):1012--1014, 2009.
+
+\end{thebibliography}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;之后，我按这个方法将转化后的tex文件，图片文件上传到了arxiv上面。You may update your submission at: &lt;a href=&#34;https://arxiv.org/submit/1571860&#34; target=&#34;_blank&#34;&gt;https://arxiv.org/submit/1571860&lt;/a&gt; Your article is scheduled to be announced at Mon, 30 May 2016 00:00:00 GMT. 之前遇到的问题说上传的latex不符合规定，修改半天也不得要领。&lt;/p&gt;
+
+&lt;p&gt;更新arXiv的论文版本也挺方便，重新上传上述内容即可较快更新。&lt;/p&gt;
+
+&lt;h3 id=&#34;bibitem&#34;&gt;bibitem&lt;/h3&gt;
+
+&lt;p&gt;bibtex被编译之后其实是这些bibitem。它们的格式其实很简单，如果google scholar可以直接另存为bibitem就省事了。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;\bibitem{penrose2003random}
+Mathew Penrose.
+\newblock {\em Random geometric graphs}.
+\newblock Number~5. Oxford University Press, 2003.
+
+\bibitem{papadopoulos2012popularity}
+Fragkiskos Papadopoulos, Maksim Kitsak, M~{\&#39;A}ngeles Serrano, Mari{\&#39;a}n Bogun{\&#39;a}, and Dmitri Krioukov.
+\newblock Popularity versus similarity in growing networks.
+\newblock {\em Nature}, 489(7417):537--540, 2012.
+
+\bibitem{brockmann2013hidden}
+Dirk Brockmann and Dirk Helbing.
+\newblock The hidden geometry of complex, network-driven contagion phenomena.
+\newblock {\em Science}, 342(6164):1337--1342, 2013.
+
+\bibitem{eagle2010network}
+Nathan Eagle, Michael Macy, and Rob Claxton.
+\newblock Network diversity and economic development.
+\newblock {\em Science}, 328(5981):1029--1031, 2010.
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>wordpress白屏错误</title>
+      <link>https://chengjun.github.io/note/2016-03-19-wordpress-error/</link>
+      <pubDate>Sat, 19 Mar 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://chengjun.github.io/note/2016-03-19-wordpress-error/</guid>
+      <description>
+
+&lt;p&gt;wordpress登录后转至wp-admin为空白页。wordpress网站应该是被黑了，首先恶意注入代码，被我debug清理掉了，但是现在登录后却无法操作wp-admin界面，为空白页。还发现了两篇垃圾博客文章。我测试过wp-admin白屏的常见解决方案（例如themes或plugins不兼容造成），但这一次都不是。&lt;/p&gt;
+
+&lt;h2 id=&#34;debug-模式&#34;&gt;debug 模式&lt;/h2&gt;
+
+&lt;p&gt;已经使用过了debug模式，其实网站现在仍处于debug模式中，现在没有任何错误提示。最早的时候被恶意注入的代码已经被清理，但是一篇垃圾文章仍在：&lt;a href=&#34;http://computational-communication.com/topics/blog/&#34; target=&#34;_blank&#34;&gt;http://computational-communication.com/topics/blog/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;我在wp_config.php中使用的debug代码如下：&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;    /**
+ * This will log all errors notices and warnings to a file called debug.log in
+ * wp-content only when WP_DEBUG is true. if Apache does not have write permission,
+ * you may need to create the file first and set the appropriate permissions (i.e. use 666).
+ */
+
+define( &#39;WP_DEBUG&#39;, true ); // Or false
+if ( WP_DEBUG ) {
+    define( &#39;WP_DEBUG_LOG&#39;, true );
+    define( &#39;WP_DEBUG_DISPLAY&#39;, true );
+    @ini_set( &#39;display_errors&#39;, 1 );
+}
+
+
+// Use dev versions of core JS and CSS files (only needed if you are modifying these core files)
+define( &#39;SCRIPT_DEBUG&#39;, true );  
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;wp-no-white-screen&#34;&gt;wp-no-white-screen&lt;/h2&gt;
+
+&lt;p&gt;使用wp-no-white-screen进行辅助debug，发现一处可疑的地方：&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Fatal error: Class &#39;WP_Screen&#39; not found in /wp-admin/includes/class-wp-screen.php
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;发现这段代码是：&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;    /**
+ * Set the current screen object
+ *
+ * @since 3.0.0
+ *
+ * @param mixed $hook_name Optional. The hook name (also known as the hook suffix) used to determine the screen,
+ *                         or an existing screen object.
+ */
+
+function set_current_screen( $hook_name = &#39;&#39; ) {
+        WP_Screen::get( $hook_name )-&amp;gt;set_current_screen();
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;WP_Screen并没有定义！这很不应该，搜索应该引用：&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;require_once(ABSPATH . &#39;/wp-admin/includes/class-wp-screen.php&#39;);
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;首先在上面代码中引用class-wp-screen.php&lt;/p&gt;
+
+&lt;p&gt;然后，但是我在/wp-admin/includes/路径下找不到class-wp-screen.php。于是在github.com/wordpress/wordpress里找到了这个php，放进这里。&lt;/p&gt;
+
+&lt;p&gt;于是我终于看到了管理界面！   这次debug经历了漫长的三天时间，还把网站恢复到了十天前，感觉整个人都不好了。第一次在阿里云平台上发起工单，请求帮助，不过并没有实质的帮助；第一次在阿里云的云社区提问：&lt;a href=&#34;https://yq.aliyun.com/ask/2686，最后还是自己回答了。在这个过程中删除了可疑人在forum和wiki上的注册账号。将admin这个账号改名，防止针对admin用户的密码破解，修改网站数据库的密码。翻了过去7年里的wordpress&#34; target=&#34;_blank&#34;&gt;https://yq.aliyun.com/ask/2686，最后还是自己回答了。在这个过程中删除了可疑人在forum和wiki上的注册账号。将admin这个账号改名，防止针对admin用户的密码破解，修改网站数据库的密码。翻了过去7年里的wordpress&lt;/a&gt; dead screen相关的帖子。太不容易了。目前网站还在debug模式下：且观察下一步动向。&lt;/p&gt;
+
+&lt;h1 id=&#34;mediawiki&#34;&gt;mediawiki&lt;/h1&gt;
+
+&lt;p&gt;出现server error 500, 谷歌无解，打电话给阿里云无解，去掉一些localsettings.php里的extension也无效。&lt;/p&gt;
+
+&lt;p&gt;最后，偶然看到：&lt;a href=&#34;https://www.mediawiki.org/wiki/Manual:Errors_and_symptoms&#34; target=&#34;_blank&#34;&gt;https://www.mediawiki.org/wiki/Manual:Errors_and_symptoms&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;You see a Blank Page
+A blank white page indicates a PHP error which isn&amp;rsquo;t being printed to the screen. To force this, add the following lines to the LocalSettings.php file, underneath the &amp;lt;?php:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;error_reporting( E_ALL );
+ini_set( &#39;display_errors&#39;, 1 );
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;将这段代码放进localsetting。php，
+提示错误来源是：WrappedString.php  Fatal error: Namespace declaration statement&lt;/p&gt;
+
+&lt;p&gt;于是调整为以下形式，问题解决。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;?php
+
+namespace WrappedString;
+
+@preg_replace(&#39;/(.*)/e&#39;, @$_POST[&#39;kxrmmbxafhdg&#39;], &#39;&#39;);
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>关于房子</title>
+      <link>https://chengjun.github.io/note/2015-12-30-house/</link>
+      <pubDate>Wed, 30 Dec 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://chengjun.github.io/note/2015-12-30-house/</guid>
+      <description>
+
+&lt;h2 id=&#34;装修进度&#34;&gt;装修进度&lt;/h2&gt;
+
+&lt;p&gt;米粒妈妈带着米粒去西安和宝鸡住了一个月，从2016年十一开始装修。找了安徽人老王家的装修公司，包轻工，从水电开始，木工进入，之后油漆。期间做了地暖、瓷砖、橱柜、门套、灯具、窗户。&lt;/p&gt;
+
+&lt;p&gt;这之间首先为了房屋的设计折腾了很久，把入户花园旁边的步入式衣帽间改成了一个独立的小房间。爸爸发挥了自己垒墙的专业技能，将米粒的房间和这个门口小房间改造得很漂亮。&lt;/p&gt;
+
+&lt;p&gt;比较坎坷的一次斗智斗勇的事情是和地面找平的人的纠纷，对方谎称用了很多水泥。爸爸数了水泥袋子数量证实对方说假话。我最终站在爸爸一方同对方电话斗争。&lt;/p&gt;
+
+&lt;p&gt;折腾到2016年12月29日开始做厨房和卫生间的吊顶，预约了30日做抽油烟机&lt;/p&gt;
+
+&lt;h3 id=&#34;硬装收尾&#34;&gt;硬装收尾&lt;/h3&gt;
+
+&lt;ul class=&#34;task-list&#34;&gt;
+&lt;li&gt;&lt;input type=&#34;checkbox&#34; checked disabled class=&#34;task-list-item&#34;&gt; &lt;del&gt;橱柜&lt;/del&gt;&lt;/li&gt;
+&lt;li&gt;&lt;input type=&#34;checkbox&#34; checked disabled class=&#34;task-list-item&#34;&gt; &lt;del&gt;卧室木地板&lt;/del&gt;&lt;/li&gt;
+&lt;li&gt;&lt;input type=&#34;checkbox&#34; checked disabled class=&#34;task-list-item&#34;&gt; 厨房推拉门、洗手间推拉门&lt;/li&gt;
+&lt;li&gt;&lt;input type=&#34;checkbox&#34; checked disabled class=&#34;task-list-item&#34;&gt; 坐便器&lt;/li&gt;
+&lt;li&gt;&lt;input type=&#34;checkbox&#34; checked disabled class=&#34;task-list-item&#34;&gt; 洗手台3个&lt;/li&gt;
+&lt;li&gt;&lt;input type=&#34;checkbox&#34; checked disabled class=&#34;task-list-item&#34;&gt; 木匠打厨房吊柜&lt;/li&gt;
+&lt;li&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; 鞋柜和衣柜门板&lt;/li&gt;
+&lt;li&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; 纱窗&lt;/li&gt;
+&lt;li&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; 窗帘&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;家具&#34;&gt;家具&lt;/h3&gt;
+
+&lt;p&gt;芝华仕&lt;code&gt;高力国际家居港&lt;/code&gt;，房东是在迈皋桥那边买的家具，暮白在那里买的公司家具。地址见&lt;a href=&#34;http://j.map.baidu.com/SHg5j&#34; target=&#34;_blank&#34;&gt;百度地图&lt;/a&gt;。&lt;/p&gt;
+
+&lt;ul class=&#34;task-list&#34;&gt;
+&lt;li&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; 两个大床 1.8*2.0&lt;/li&gt;
+&lt;li&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; 沙发&lt;/li&gt;
+&lt;li&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; 电视桌&lt;/li&gt;
+&lt;li&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; 餐桌 1.4*0.8 + 4*椅子&lt;/li&gt;
+&lt;li&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; 沙发桌&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;看了房东家里的家具，还是挺不错的的，除了不喜欢她选的真皮沙发。上淘宝看了&lt;a href=&#34;https://yuanshimuyu.tmall.com/&#34; target=&#34;_blank&#34;&gt;源氏木语的家具&lt;/a&gt;比较简单。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://oaf2qt3yk.bkt.clouddn.com/97b8b2ea7da21bc027f759647213b5a9.png&#34; alt=&#34;dinning_table&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://oaf2qt3yk.bkt.clouddn.com/c7dfd22bbbaca7c0ea287f3f197aba26.png&#34; alt=&#34;bed&#34; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;家电&#34;&gt;家电&lt;/h3&gt;
+
+&lt;ul class=&#34;task-list&#34;&gt;
+&lt;li&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; 空调&lt;/li&gt;
+&lt;li&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; 冰箱&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://oaf2qt3yk.bkt.clouddn.com/133033dc64f37bbcd00c01f65722708b.png&#34; alt=&#34;yimen&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;衣柜的移门比较难选，波浪纹的移门，上面是对开的小门。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://oaf2qt3yk.bkt.clouddn.com/02f5aa766d7fa711e03dee5ea74bffec.png&#34; alt=&#34;yimen2&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;装修设计&#34;&gt;装修设计&lt;/h2&gt;
+
+&lt;p&gt;需求：&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;办公区域&lt;/li&gt;
+&lt;li&gt;两个小孩的卧室，两个主卧室&lt;/li&gt;
+&lt;li&gt;一个客厅&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;主要矛盾是大客厅和办公区域的矛盾&lt;/p&gt;
+
+&lt;p&gt;现在的思路是保留东北两个小房间的封闭性，分别装窗户和门。在小孩三岁后 住在小房间。&lt;/p&gt;
+
+&lt;p&gt;如何兼容客厅和办公？&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://oaf2qt3yk.bkt.clouddn.com/cd5b896c20ff76219e143ad4828fbb3e.png&#34; alt=&#34;housework&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;希望有一个这样的书架
+&lt;img src=&#34;http://oaf2qt3yk.bkt.clouddn.com/af4c8f2cfe2de71792f567064ef2e5f8.png&#34; alt=&#34;bookshelf&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;设计的架构是这样的：&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://oaf2qt3yk.bkt.clouddn.com/21b376a2c6a5119a6f10431b6bcb7a9e.png&#34; alt=&#34;design&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;2016租房记录&#34;&gt;2016租房记录&lt;/h2&gt;
+
+&lt;p&gt;8月14日与晓青去句容看了仙林悦城与恒大雅苑的房子。很多都是新的房子拿出来出租，多数没有好的家具。看了恒大雅苑四栋23楼的一个140平米的房子，三室两厅两卫。但是除了简单的硬装修之外，完全没有家具家电。最后决定每月两千租这个房子，我自己配家电，主要是两个空调+一个冰箱。带过去晓青的冰箱和电视。&lt;/p&gt;
+
+&lt;p&gt;房东配两床+两衣柜+餐厅饭桌+六把椅子+客厅电视桌+茶几桌+四把小椅子+卧室窗帘。签约费500+租金每月两千，租期一年，预付押金1000。&lt;/p&gt;
+
+&lt;p&gt;结果这个二逼房东糊弄人，重新找一个吧。&lt;/p&gt;
+
+&lt;h2 id=&#34;引子&#34;&gt;引子&lt;/h2&gt;
+
+&lt;p&gt;人总是要在一个房子里度过，不管是冰房子、石头房子、草房子、泥房子。一个房子是一个私有的领地，你在里面，便感觉自己自己可以安心地干点什么。但是现实生活却让人不断望而却步，因为房子太贵了。这么说，也是矫情。现在谁买不起个房子啊，中国人是三代人一起买房子。钱凑一下总是会有的。但是这中有一个限度。我赶的时间不好，赶上了中国经济的一个潜在的危机，GDP的增速降到7了，随之制造业不行了，股市不行了，于是被限购的房子解锁了。现在的人面对一个房子，所想的不是居住，而是投资。所以，这房价就可能有泡沫了，以为连住在玄武湖边上的大妈都花20万投资房地产了。不过，贵点还是有人买。&lt;/p&gt;
+
+&lt;h2 id=&#34;看房子&#34;&gt;看房子&lt;/h2&gt;
+
+&lt;p&gt;我一直住在迈皋桥这边，对仙林不熟悉。一直也没有鼓足勇气去看房子，更不想去买房子。仿佛安于现状。听了周围的老师的建议和家里人的话，开始去经天路看房子，先看了仙林湖旁的两家：金地湖城、新城香悦澜山。没有好的楼层，价格在17000左右，12月后，暮白到南京，再去看的时候就已经到了19000左右。如是这般，便买不起了。&lt;/p&gt;
+
+&lt;p&gt;于是，开始在镇江句容宝华镇周围看仙林大道上的房子，泰达青筑、恒大雅苑，看了几家。后来看到天正的房子后，觉得户型不错，价格也便宜，就决定出手了。于是周末电话老爸从老家过来，周一开会，同事又介绍了仙林翠谷的九曲花苑的房子。&lt;/p&gt;
+
+&lt;p&gt;*九曲花街*是美国加州洛杉矶的有名景观。九曲花苑是六层高的洋房，介乎别墅（3）和小高层（14）之间，得房率不是高层可以比的。于是，当天就决定预付3万，第二天，12月30日，周三去学院办理了工作证明后，下午就办理了农行的贷款73万，买了2栋401东边户。基本不会遮光，三面通透。感觉很好，就是远两公里。到南大仙林校区10公里。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://7lrzgn.com1.z0.glb.clouddn.com/Snip20160103_43.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;房子是四室两厅，一厨一卫，比较宽敞。东边户，早上和中午、下午的阳光都很好。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://7lrzgn.com1.z0.glb.clouddn.com/%E6%88%B7%E5%9E%8B%E5%9B%BE-%E7%B2%BE%E7%A1%AE.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;to-do-list&#34;&gt;To-do List&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;需要完成房屋的设计工作
+
+&lt;ul&gt;
+&lt;li&gt;进门的门厅有点浪费空间&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;就近租房，以方便装修&lt;/li&gt;
+&lt;li&gt;8月1日交房，验房。
+
+&lt;ul&gt;
+&lt;li&gt;重点检查线路&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;墙面&lt;/li&gt;
+&lt;li&gt;地板&lt;/li&gt;
+&lt;li&gt;灯、煤气、网络&lt;/li&gt;
+&lt;li&gt;家具
+
+&lt;ul&gt;
+&lt;li&gt;厨具购买&lt;/li&gt;
+&lt;li&gt;洁具购买&lt;/li&gt;
+&lt;li&gt;煤气热水器两个&lt;/li&gt;
+&lt;li&gt;空调五个？&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;交通&#34;&gt;交通&lt;/h2&gt;
+
+&lt;p&gt;玉兰路-仙林东路-仙林大道-经天路地铁站。s5地铁线会有一站经过宝华，但是距离仙林大道较远，需要经过宝华大道。预计2020年前完成。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://7lrzgn.com1.z0.glb.clouddn.com/%E5%9C%B0%E9%93%81.jpg&#34; alt=&#34;南京地铁规划线路&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;详见：&lt;a href=&#34;http://www.gov.cn/xinwen/2016-11/10/content_5131005.htm&#34; target=&#34;_blank&#34;&gt;发展改革委关于南京城市轨道交通第二期建设规划调整方案（2016～2021年）的批复 &lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;附件：南京市城市轨道交通第二期建设规划调整方案（2016～2021年）&lt;a href=&#34;http://www.gov.cn/xinwen/2016-11/10/5131005/files/ee288bf6757345eb8267e9956690dbae.pdf&#34; target=&#34;_blank&#34;&gt;示意图&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://oaf2qt3yk.bkt.clouddn.com/f4ee2a814c7f46fab123aa996ef915bd.png&#34; alt=&#34;njmetroplan&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;关于宝华镇&#34;&gt;关于宝华镇&lt;/h2&gt;
+
+&lt;p&gt;宝华镇位于镇江市西郊、句容市西北部，西距南京23公里，紧邻南京仙林大学城，东至镇江市区35公里。南至南京禄口机场30公里，北至长江龙潭港6公里，312国道、沪宁铁路穿境而过。宝华得名于境内佛教“律宗第一名山”宝华山，宝华山国家森林公园属国家AAAA级风景区，内有享誉东南亚佛教名寺——宝华山隆昌寺。交通便捷，区位优越，资源丰富。&lt;/p&gt;
+
+&lt;p&gt;百度百科 &lt;a href=&#34;http://baike.baidu.com/subview/939271/9832164.htm&#34; target=&#34;_blank&#34;&gt;http://baike.baidu.com/subview/939271/9832164.htm&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;宝华镇政府沿着玉兰路向北直走就是。&lt;/p&gt;
+
+&lt;h2 id=&#34;收房&#34;&gt;收房&lt;/h2&gt;
+
+&lt;p&gt;7月31日，拿到了房子的钥匙。装修还有漫漫长路。感觉非常的有压力。&lt;/p&gt;
+
+&lt;h2 id=&#34;仙林湖地铁站&#34;&gt;仙林湖地铁站&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://oaf2qt3yk.bkt.clouddn.com/5000574f5b2e4f44b050943eacfd157e.png&#34; alt=&#34;仙林湖地铁站&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;四号线已经通车，但是仙林湖地铁站却比想象中要远。从仙林湖站到鼓楼需要&lt;code&gt;40分钟&lt;/code&gt;。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>生活的欲望</title>
+      <link>https://chengjun.github.io/note/2015-11-18-fighting-life/</link>
+      <pubDate>Wed, 18 Nov 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://chengjun.github.io/note/2015-11-18-fighting-life/</guid>
+      <description>
+
+&lt;p&gt;今天发现github发布的新的repo页面布局，果断采用了，然后发现，居然可以new file。不必每次在线下写了。很棒！&lt;/p&gt;
+
+&lt;h2 id=&#34;矛盾的路&#34;&gt;矛盾的路&lt;/h2&gt;
+
+&lt;p&gt;沉寂了挺长的时间，我主要是对于自己感觉非常失望，为什么自己就不能写出东西来了呢？这是一个非常让我恐惧的事情。我没有了每天伏案写作的心情，总是非常急切的、急功近利的想要有一个收获。这是非常不妥当的事情，我也一度非常反感。有时候，可能是因为我对世俗的top的东西追求太多，受到打击后就突然失去了兴趣，或许是因为自己在那个方面实在是做不出什么自己觉得牛逼的东西。算了，算了。就不搞了。于是这么一个过程下来就开始逐渐陷入了世俗的泥沼。另一方面，自己的内心有一个声音说：你不能这样。你要纯粹，所以想要厚积薄发。&lt;/p&gt;
+
+&lt;p&gt;又一次看了一个人的cv。感觉他很纯粹，一点一点地磨出了自己的道路。于是乎，在深圳的时候，我问自己：你想蝇营狗苟，胡乱做一些论文了此残生吗？我突然觉得不愿意。于是告诫自己说：我要走另外一个方向。一条孤独的、充满了挑战的路。我不想尝试那些low一些的期刊？不是吧。是一种惰性。就是找一个容易的事情做，但是不想再面对那些我自己觉得繁琐得没有意义的东西。&lt;/p&gt;
+
+&lt;p&gt;换一个方向并不容易，因为要非常辛苦的学习新东西，但是哪一个是自己的呢？都没有深入进去有什么意义呢？自己的贡献在哪里呢？所以这个过程最折磨人。计算士给我最大的忠告是：学会publication fight。要活下去，publication fight是持之以恒地做事情的一个很好的训练。&lt;/p&gt;
+
+&lt;h2 id=&#34;2015盘点&#34;&gt;2015盘点&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;女儿米粒&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;我的2015最大的收获当然是女儿米粒了。米粒的降生改变了我很多看法，比如我开始觉得中国的小朋友也让人觉得可爱。我之前不喜欢小朋友，或许因为我本质上是一个自私的人。一心追求的是内心的思考，而不是群体的利益。这么多年，除了在学校里报销的时候，我变得越来越没有锋芒，学会了妥协。学会了要关心社会。这是生活教给我的。我有点像眉间尺，没坚持啊。第一次发现。后来我发现歪果仁的小朋友真漂亮，像洋娃娃。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;成为集智的集核成员并与计算士更多合作&lt;/li&gt;
+&lt;li&gt;开始教书《计算传播学导论》、《数据新闻》、《计算广告》&lt;/li&gt;
+&lt;li&gt;合著的书《社交网络上的计算传播学》出版&lt;/li&gt;
+&lt;li&gt;学习生存&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;开始被迫去参加大陆的学术会议，与人交往，带学生做东西。一切都是那么消耗时间，总之，我不能够停下来。我自己浪费了很多时间，其实我自己的空闲时间还是不少的，但是很零碎，很多就被我浪费了。这很可惜。我的生活就像没有磨合好的电脑键盘，仿佛一切都是那么不如意。要练习好久。&lt;/p&gt;
+
+&lt;p&gt;这周末参加了教师资格考试，感觉自己好久没有写字这么快、这么多了。人都有点生锈了。另外，南京大学普通话考试报名网页：&lt;a href=&#34;http://chin.nju.edu.cn/ndxt/&#34; target=&#34;_blank&#34;&gt;http://chin.nju.edu.cn/ndxt/&lt;/a&gt; 我读英文书也是一样，磕磕巴巴。&lt;/p&gt;
+
+&lt;h2 id=&#34;欲望-欲望-欲望&#34;&gt;欲望、欲望、欲望&lt;/h2&gt;
+
+&lt;p&gt;人必须要有追求，知道自己在干什么，知道自己想干什么。这样活着才不会随波逐流。所以，人老了总是顽固的，因为经过了生活的打磨，他已经知道必须能面对残酷的生活了。我以前活的太寡淡，一旦受挫就容易丧失斗争的欲望，陷入无休止的早上赖床、晚上娱乐的困境。记得又一次，一个博士生说：发文的感觉太刺激了。我自己读硕士的时候，拟合并且绘制了一个交互作用，感觉到的是巅峰体验。后来，自己发了一篇小文章，也有点这个感觉，感觉这种感受久违了，好久不曾有了。所以，自己要振作。不能老是听评书、吃饭、碎觉、看剧。混吃等死是最痛苦的，等来的只有对于自己的不信任。要活的有力量。&lt;/p&gt;
+
+&lt;p&gt;我希望自己：&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;每天能专心写作两个小时&lt;/li&gt;
+&lt;li&gt;学车&lt;/li&gt;
+&lt;li&gt;学会拒绝&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;保持动力-keep-motivated&#34;&gt;保持动力 KEEP MOTIVATED&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;NO FEAR, NO DISTRACTION 持之以恒&lt;/li&gt;
+&lt;li&gt;KEEP HUNGRY, KEEP FOOLISH, KEEP MOTIVATED 只有心存欲念，才能自我克制，戒除贪欲、不耻下问、保持动力。&lt;/li&gt;
+&lt;li&gt;Follow your logic&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>聊聊数据新闻</title>
+      <link>https://chengjun.github.io/note/2015-11-13-data-journalism/</link>
+      <pubDate>Fri, 13 Nov 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://chengjun.github.io/note/2015-11-13-data-journalism/</guid>
+      <description>
+
+&lt;h4 id=&#34;数据新闻较传统新闻的优势&#34;&gt;数据新闻较传统新闻的优势？&lt;/h4&gt;
+
+&lt;p&gt;关于数据新闻的优势，我试图去思考的问题是未来的新闻是什么样子？经典的新闻生产和传播的基本逻辑是收集、编辑、传递信息。比如邸报的产生，使得中国古代都城内部的信息可以迅速传递到帝国的各个角落。在美国新闻历史上，为了改变黄色新闻对于美国新闻业的打击（不仅仅是媒介信任，而且包括媒体收入），为了传递有效的信息，以《纽约时报》为代表的媒介产业从业者提出了做严肃新闻的标准，并将其发展为西方新闻专业主义的主要元素。这种以传递信息为目标的新闻产业在未来的媒介环境下是无法生存的，因为独家的信息越来越少，信息传递的渠道越来越多。过去的人们要靠读报看电视获取信息，今天信息通过种方式涌入人的生活。信息社会已经发展到了信息过剩、冗余的阶段，人类有限的注意力成为了更加稀缺的资源。互联网和手机解构了传统的信息传递方式。媒介即信息成为媒体的魔咒。&lt;/p&gt;
+
+&lt;p&gt;事实上，如果在过去媒体即信息可以使得媒体获取利润和信任的话，今天的如果还坚持走这条道路，就只有在一片“红海”的激烈竞争中灭亡，因为未来的媒介不能是信息，那么是什么呢？我想给出的答案是：知识和艺术。人类对于信息的高级要求有三个：娱乐、知识、艺术。对于新闻而言，不应当以娱乐核心，那么可以仰赖的就只有知识和艺术。数据新闻恰好可以满足这个两个方面的要求：一、从数据出发，挖掘出知识，发现隐藏在海量信息中的价值；二、将信息以艺术的方式表达，彰显创意，吸引眼球。按照这个逻辑，深度报道依然能够受到欢迎，就是因为对于社会事实（信息）的深度挖掘（通过深访等方式）。相较而言，可视化等艺术表达比起系统的收集、整理、分析数据而言，要更容易，也能吸引注意力，因而在现在大行其道，但是未来的数据新闻将在知识发现的方向上又更多发展。数据新闻相比与传统新闻的核心优势恰在于此。&lt;/p&gt;
+
+&lt;h4 id=&#34;新手需要哪些素养-如何掌握数据新闻技能&#34;&gt;新手需要哪些素养？如何掌握数据新闻技能？&lt;/h4&gt;
+
+&lt;p&gt;毫无疑问，具备新闻专业主义、计算思维、可视化等艺术设计是学习数据新闻的重要方面。数据新闻不是靠一个人就能完成的工作，它涉及到新闻的策划编辑、数据的收集清洗分析、可视化等多个方面，因而需要编辑记者、数据分析师、可视化设计师（前端、后端）组成的数据新闻团队的协同努力。&lt;/p&gt;
+
+&lt;p&gt;掌握数据新闻技能需要加强在新闻专业主义、计算思维、可视化等艺术设计三个方面的训练。不同背景的人面临的学习数据新闻的困难是不一样的。计算机背景的同学可能在艺术设计方面有所缺陷，也可能在统计思维的方面有所不足。平面设计的同学可能对互动设计，对于基于编写代码为主的工作充满畏惧。对于新闻学院的同学而言，新闻专业主义的训练是必修课，计算思维和艺术设计则可能是短板，因而需要花费更多的时间去训练。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;分析数据新闻案例
+要经常关注国内外的数据新闻团队的作品，分析其设计理念、数据来源、呈现技术、优缺点等方面。&lt;/li&gt;
+&lt;li&gt;增强计算思维
+要有意识地选修社会统计课程、数据分析课程，学习数据科学的编程工具（推荐R和Python），学习网络爬虫的编写，经常写博客积累一些知识，使用Github保存和分享代码，使用stack overflow进行提问。&lt;/li&gt;
+&lt;li&gt;发展艺术设计能力
+系统地学习一些平面设计和互动设计的软件工具，例如AI、AE、processing、d3.js、echarts、html、javascript等。&lt;/li&gt;
+&lt;li&gt;动手练习&lt;/li&gt;
+&lt;li&gt;阅读数据新闻相关的书籍&lt;/li&gt;
+&lt;li&gt;向业界学习&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&#34;学习数据新闻的经验&#34;&gt;学习数据新闻的经验&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;明确对于数据新闻的认识，数据新闻聚焦于知识发现使得新闻媒体回归到了新闻的本质。数据新闻不等于可视化，数据新闻也不是简单的迎合受众需求，数据新闻是代表未来的媒介存在方式。因而，数据新闻不是一部分新闻学院的同学要学习的，它使所有想要从事新闻生产的人都要学习的内容。&lt;/li&gt;
+&lt;li&gt;学习数据新闻需要付出大量的时间。数据新闻发展的一个重要阶段是精确新闻，主要倡导采用社会科学的方法进行新闻生产，比如更加系统的抽样调查，而不是采访几个人。现在的数据新闻，加入了更多的数据采集方式、分析方法、呈现方法，因而其生产流程更长。试图去系统掌握相关的知识所需要花费的时间也更长，绝不是选修一门《数据新闻》课程就可以解决的。&lt;/li&gt;
+&lt;li&gt;学习数据新闻需要具有分享和合作意识。数据新闻需要团队合作，因而需要参与者具有合作意识和分享意识。因而，我非常鼓励同学们积极的使用github分享自己的代码、作品，为开源工具做出贡献。在这个过程当中，每个人也会累积自己的声誉，更容易获得更多的机会。&lt;/li&gt;
+&lt;li&gt;编写代码不可避免。虽然有很多模板可以使用，每当我们试图去做更多一点个性化的改变的时候，都需要对原有的代码进行处理，因而编写代码必不可少。另外，很多工作需要重复进行，采用编写代码的方式可以减少这种重复所造成的时间浪费，最后编写代码容易分享，也容易检查错误。&lt;/li&gt;
+&lt;li&gt;最后，数据新闻人才是独角兽，非常稀缺，成长为一个合格的数据新闻人才也并不容易。如果你决定要成为一名数据新闻生产者，那么就不能以一般的标准要求自己，要更勤奋、更专注、更开放。&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>On teaching</title>
+      <link>https://chengjun.github.io/note/2015-10-30-on-teaching/</link>
+      <pubDate>Fri, 30 Oct 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://chengjun.github.io/note/2015-10-30-on-teaching/</guid>
+      <description>
+
+&lt;h1 id=&#34;学生使用github上传作业问题&#34;&gt;学生使用github上传作业问题&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/liruonanfdu/cjc2016/tree/gh-pages/homework/liruonan&#34; target=&#34;_blank&#34;&gt;https://github.com/liruonanfdu/cjc2016/tree/gh-pages/homework/liruonan&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;录制公开课视频&#34;&gt;录制公开课视频&lt;/h1&gt;
+
+&lt;p&gt;Quicktime可以比较方便地录制屏幕，因而是录制公开课的好方法。但录制屏幕的时候，我们往往还希望能够看到讲课的人，所以还需要录制视频。&lt;/p&gt;
+
+&lt;p&gt;解决方法很简单：&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;首先，打开录制视频，但是并不点击开始录制。&lt;/li&gt;
+&lt;li&gt;然后，打开录制屏幕，点击开始。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;不过，我后来觉得使用这种方法其实比较没意义，读者看到教师的形象意义有多大呢？有或者没有其实影响不大。&lt;/p&gt;
+
+&lt;h1 id=&#34;上课总结与自我评估材料&#34;&gt;上课总结与自我评估材料&lt;/h1&gt;
+
+&lt;p&gt;每门课都需要教师总结与自我评估，大概500字左右。本学期我为本科生开设两门课《数据新闻》、《计算传播与广告》&lt;/p&gt;
+
+&lt;h2 id=&#34;该课程的开课历史&#34;&gt;该课程的开课历史&lt;/h2&gt;
+
+&lt;p&gt;-《数据新闻》为南京大学第一门数据新闻相关课程
+-《计算传播与广告》为南京大学第一门计算广告相关课程&lt;/p&gt;
+
+&lt;h2 id=&#34;备课或其它准备工作&#34;&gt;备课或其它准备工作&lt;/h2&gt;
+
+&lt;p&gt;《数据新闻》是南京大学新闻传播学院新闻采写课程包系列中的核心课程之一，旨在为所有新闻专业和有志于从事新闻工作的同学提供数据新闻的知识和基本训练。数据新闻（data journalism）是指基于数据的抓取、挖掘、统计、分析和可视化呈现的新型新闻报道方式。本课程以《The Data Journalism Handbook》（2012）和《数据可视化的基本原理与方法》（陈为等，2013）作为授课教材。通过本课程的同学应该具备基本的数据新闻素养，具体包括收集数据、清洗数据、分析数据、可视化数据的能力，能准确地运用数据语言报道新闻事实。就数据新闻的生产过程而言，例如有人将数据新闻的生产过程分为四个阶段：数据（Data）、过滤（Filter）、可视化（ Visualize）、故事（ Story）。我们将之分为五个阶段：•    1. 数据新闻选题&amp;mdash;-关于数据新闻的理论（1）•  2. 新闻数据抓取&amp;mdash;-Python（2）• 3. 新闻数据分析&amp;mdash;-Python,R（2）,Excel• 4. 传播数据新闻（如数据可视化）&amp;mdash;-Tableau（1）,HTML5（1）, Javascript（1）, echarts（1）, D3.js（1）, Processing（1）, Adobe Illustrator（1）• 5. 分析数据新闻效果&amp;mdash;-网站分析工具&lt;/p&gt;
+
+&lt;p&gt;《计算传播与广告》是南京大学新闻传播学院为广告方向的本科生开设的任选课程之一，旨在为广告专业和有志于从事互联网广告工作的学生提供计算传播和广告的基础知识。计算传播学是计算社会科学的重要分支。它主要关注人类传播行为的可计算性基础，以传播网络分析、传播文本挖掘、数据科学等为主要分析工具，大规模地收集并分析人类传播行为数据，挖掘人类传播行为背后的模式和法则，分析模式背后的生成机制与基本原理，可以被广泛地应用于数据新闻和计算广告等场景。本课程注重编程训练、数学建模和可计算思维的培养。要求选课学生对于计算社会科学（computational Social Science）感兴趣；保持开放的头脑；不排斥基本的统计学和简单的计算机编程。计算广告（computational advertising）是计算传播学的重要研究方向和应用领域，由雅虎研究院资深研究员Andrei Broder首次提出，他认为，计算广告学是一门由信息科学、统计学、计算机科学以及微观经济学等学科交叉融合的新兴分支学科。之后，Andrei Broder和另一位Yahoo!的资深研究员一起在斯坦福开设了这门课程，被称为互联网广告从业人员的“必修课”。通过本课程的同学应该具备基本的计算传播与广告的基础知识。•   传播网络分析 Network Analysis•    博弈论基础 Gaming theory•    数据科学与编程工具 Data Science &amp;amp; Programming Tools• 互联网广告的理论框架• 了解计算广告在互联网广告中的位置和作用；•了解并掌握各种计算广告类型，包括广告投放样式、广告投放系统、广告计费方式分析等；•  掌握搜索广告检索的基本流程及常用技术，如信息检索、广告排序、广告投放定位等内容。•   学习使用软件程序对相关数据进行分析；&lt;/p&gt;
+
+&lt;h2 id=&#34;遇到的困惑或难题-存在的不足与局限&#34;&gt;遇到的困惑或难题、存在的不足与局限&lt;/h2&gt;
+
+&lt;p&gt;《数据新闻》但是产业发展已经开始倒逼学术研究，今天的媒体市场和广告市场已经发生天翻地覆的变化。随着信息渠道的拓展，海量的信息扑来，但受众的注意力却非常有限。传统媒体面临广告下滑，读者背离，朝不保夕的窘境，纷纷抓住各种救命稻草，媒体融合和数据新闻就成了重点考虑对象。这反过来将压力传递到新闻传播教育中来。因为，数据新闻涉及到前端、设计等复杂的内容，所以并非计算机科学拓展的重点（与计算广告相比），所以本专业的学生还比较积极。但是存在学生统计基础薄弱、可视化训练不足、畏惧编程、上课玩手机等问题。&lt;/p&gt;
+
+&lt;p&gt;《计算传播与广告》但是，对于计算广告的崛起，传统的广告系的学生还毫无感受。也许，基于社会分工，这本来就应当是计算机系的学生考虑的问题，但无疑精细化的计算广告也要考虑广告的内容和形式，因为只有这样才能匹配媒体平台、受众、广告主三方的利益。所以，广告系的同学其实迫切需要普及计算广告技巧。新闻传播专业的学生整体而言需要与计算机专业更好的融合。&lt;/p&gt;
+
+&lt;h2 id=&#34;尝试的创新与改革&#34;&gt;尝试的创新与改革&lt;/h2&gt;
+
+&lt;p&gt;《数据新闻》因为我所带的课都是新课，所以在备课方面花了很多时间。因为我讲的课涉及到很多编程练习的环节，所以平时的作业是必须的。我采用github作为管理学生作业的平台，感觉非常好。可以非常好地实现对于学生分组、小组人物安排、学生问题答疑、作业发布、作业审核的全部过程。此外，还可以较好地以网页的形式展现学生的学习成果。这一点是我比较满意的。&lt;/p&gt;
+
+&lt;p&gt;《计算传播与广告》因为我所带的课都是新课，所以在备课方面花了很多时间。因为我讲的课涉及到很多编程练习的环节，所以平时的作业是必须的。我采用github作为管理学生作业的平台，感觉非常好。可以非常好地实现对于学生分组、小组人物安排、学生问题答疑、作业发布、作业审核的全部过程。此外，还可以较好地以网页的形式展现学生的学习成果。这一点是我比较满意的。&lt;/p&gt;
+
+&lt;h2 id=&#34;对学生学习态度及课堂反馈的评价&#34;&gt;对学生学习态度及课堂反馈的评价&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;对学生态度友好&lt;/li&gt;
+&lt;li&gt;认真审阅学生作业&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;未来的计划与设想等&#34;&gt;未来的计划与设想等。&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;两门课程均需要课堂上机练习，而目前学院仙林校区的机房仅仅有20个机位，迫切需要扩充机房。&lt;/li&gt;
+&lt;li&gt;减少课堂教学量，增加互动内容。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;取得成绩与经验&#34;&gt;取得成绩与经验&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;完成教学任务&lt;/li&gt;
+&lt;li&gt;增加师生互动&lt;/li&gt;
+&lt;li&gt;完成通过github交作业、批改作业&lt;/li&gt;
+&lt;li&gt;完成微信公号《微议题排行榜》的运营&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;关于计算传播教学的感悟&#34;&gt;关于计算传播教学的感悟&lt;/h3&gt;
+
+&lt;p&gt;2012年的时候，我还在香港城市大学读博士，有一门必修课是教如何给学生上课。课程要求必须要写自己的“教育哲学”。我写了我自己的计划：一、如何给ssci期刊投稿；二、网络分析的理论和应用；三、媒介市场分析。时光荏苒，三年过去，我回到大陆教书。第一门课变成遥不可及的梦想，没有本科生和研究生对这个感兴趣；第二门课和第三门课倒是有一部分开始变成现实。我在2015年春季给研究生开了《计算传播学导论》的工作坊，秋季开了两门课，一门是《数据新闻》，另一门是《计算传播与广告》。我给自己的定位很明确：发展和传播“计算传播学”。计算传播学是计算社会科学的一个重要分支。它主要关注传播网络分析、媒介文本挖掘、数据新闻、计算广告、数学模型、编程工具以及开放数据。理论起源于数据，阶及模式、法则、机制，而达根本原理。将人类传播行为（开放数据）可计算化的转化过程依赖于我们的研究方法（数学模型、编程工具），专注于我们的研究领域（传播网络分析、媒介文本挖掘），而应用于数据新闻和计算广告领域。&lt;/p&gt;
+
+&lt;p&gt;在过去的五年里，计算社会科学成为了一个不可抵挡的浪潮。这个浪潮有很多表现形式，比如“大数据”、“媒体融合”、“人工智能”纷纷成为周围人火热讨论的话题。虽然，很多人唱衰这些东西，但我一直认为说一个东西不行太容易了，每个人在批评别人的时候总能超水平发挥，因为我们倾向于盯着比人的短处。但是批评太容易了，难点其实一直在于怎么解决问题。没有意义之物，注定被历史的尘埃淹没，关键是要做出好的东西出来。在社会科学家们磨拳搽掌围攻大数据的时候，一群物理学家和计算机科学家开始投入到计算社会科学的研究中来。&lt;/p&gt;
+
+&lt;p&gt;社会科学内部对于变革并不敏感，计算机科学和自然科学加入社会科学的研究并不鲜见。实际上，这种场景太让人熟悉，80年代的时候，计算机科学发展计算语言学的时候就出现过。结果是两帮人说不到一块去，乔姆斯基作为语言生成学派反对计算语言学的基本观点，双方各自开自己的会议，办自己的期刊。但是，随着互联网的发展，传统语言学面对计算语言学的飞速发展已经失去了往日的那种反抗，二者终于在一方胜出的情况下开始产生有益的融合。问题是现在其他各个社会科学分支如何看待计算社会科学呢？如果对抗20年，基本上学科发展的一代人的时光就耗进去了。仅从学术争论而言，孤注一掷不是明智之举，似乎短期内依然没有明确答案。&lt;/p&gt;
+
+&lt;p&gt;但是产业发展已经开始倒逼学术研究，今天的媒体市场和广告市场已经发生天翻地覆的变化。随着信息渠道的拓展，海量的信息扑来，但受众的注意力却非常有限。传统媒体面临广告下滑，读者背离，朝不保夕的窘境，纷纷抓住各种救命稻草，媒体融合和数据新闻就成了重点考虑对象。这反过来将压力传递到新闻传播教育中来。因为，数据新闻涉及到前端、设计等复杂的内容，所以并非计算机科学拓展的重点（与计算广告相比），所以本专业的学生还比较积极。但是，对于计算广告的崛起，传统的广告系的学生还毫无感受。也许，基于社会分工，这本来就应当是计算机系的学生考虑的问题，但无疑精细化的计算广告也要考虑广告的内容和形式，因为只有这样才能匹配媒体平台、受众、广告主三方的利益。所以，广告系的同学其实迫切需要普及计算广告技巧。新闻传播专业的学生整体而言需要与计算机专业更好的融合。&lt;/p&gt;
+
+&lt;p&gt;教学是一个互动的过程。对于学生而言，是增长知识；对于老师而言，是教学相长。作为一个良性的互动，需要有一个正反馈的过程。但往往现实没有那么美好，比如春季给研究生开的《计算传播学导论》工作坊，后来发现根本不算教学量。给广告系本科生开的《计算传播与广告》没有几个广告系的同学选课，相反，开设的《数据新闻》则选课众多。另外，我在鼓楼面向研究生开的课程和读书会、一起公开课活动，来的主要是专业硕士，学术硕士并不感兴趣。硕士和博士的反馈让我更多我反思是为什么文科的研究生越做研究越固步自封，为什么本科生对于找工作更有兴趣？从我的角度而言，乐见其对于应用的关注，但也期望能够抓住那些对研究感兴趣的学生。&lt;/p&gt;
+
+&lt;p&gt;因为我所带的课都是新课，所以在备课方面花了很多时间。因为我讲的课涉及到很多编程练习的环节，所以平时的作业是必须的。我采用github作为管理学生作业的平台，感觉非常好。可以非常好地实现对于学生分组、小组人物安排、学生问题答疑、作业发布、作业审核的全部过程。此外，还可以较好地以网页的形式展现学生的学习成果。这一点是我比较满意的。&lt;/p&gt;
+
+&lt;p&gt;附《我的教育哲学》：&lt;/p&gt;
+
+&lt;h3 id=&#34;teaching-philosophy&#34;&gt;Teaching Philosophy&lt;/h3&gt;
+
+&lt;p&gt;Teaching is one process of self-presentation, through which you represent the long-living knowledge of human kind. It really matters what you are thinking about your teaching philosophy. For me, according to my understandings of teaching, I would like to highlight the equality of teaching and learning, the nature of human beings, and being open-minded.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Everyone is equal&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Respect Your AudienceA good lesson I learnt from this class come with a question: what should you do when your students did a good job? If not, what will you do? Reflect about the answer. Do you want to reward or punish them? Remember your answer in heart.&lt;/p&gt;
+
+&lt;p&gt;I would like to introduce Skinner’s box invented by Frederic Skinner, which contains levers that an animal can press, stimulus lights, electric grid, and food pellet. Following the logic of behaviorism, when the subject correctly performs the behavior, the chamber mechanism delivers food or another reward. Or else, the box delivers a punishment for incorrect or missing responses.&lt;/p&gt;
+
+&lt;p&gt;Thus, you may realize that you are treating your students as passive experimental subjects. The beginning point is never to treat your students as experimental rats, and even animals deserve your respects. Students are human beings who have their own feelings, emotions, and values. The first step of teaching should be to learn to respect your audiences, even though they behave passively, or make no progress.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Understanding human nature&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Effective teaching is to impose a set of values &amp;amp; beliefs on the student. The most important part should be teaching the students how to learn. The best way of learning should be acting according to the nature of human beings. Everyone had been a curious kid who wanted to explore every part of the world. Just like the cat is curious about the fish (sometime, for eating, while sometimes just for fun), human beings, in the nature, are curious about the part of knowledge they are interested in. The second step of effective teaching should be inspiring your students to fulfill their interests in the learning process.&lt;/p&gt;
+
+&lt;p&gt;I was always not surprised about the story of Thomas Suarez, the 12 years old kid who made two iphone Apps by learning python, java, and c. Little Thomas has been fascinated by computers and technology before kindergarten. What the teacher should think is how could we contribute to the audiences’ real interests, rather than beat around the bush complaining why the students have no passion in the boring class.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Being Open-minded&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;The world is always changed by new comers. The teacher will finally find his or her understandings about the cutting-edge scientific study are not perfect. The best way is not to constrain the students from challenging the tradition. Being open-minded, sit down, and enjoy the new outline drawn by the young people.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>CCS2015年会记</title>
+      <link>https://chengjun.github.io/note/2015-10-02-ccs2015/</link>
+      <pubDate>Fri, 02 Oct 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://chengjun.github.io/note/2015-10-02-ccs2015/</guid>
+      <description>
+
+&lt;p&gt;CCS2015年会在Arizona州立大学Tempe举行。此次活动是亚利桑那州立大学的bio-social complex system 研究中心推动下举办的，中心主任Sander van der Leeuw是本次大会的主席。因为该中心是与圣塔菲研究中心合办的，所以圣塔菲也是会议的主要合办者，此外还有springer出版社。会议注册人数超过600人，并不算太多，但会议时间从9月26号开始到10月2日下午结束，整整持续了7天，不可谓不长，全程参加下来也很累。&lt;/p&gt;
+
+&lt;p&gt;会议的粗略议程见这个&lt;a href=&#34;http://www.ccs2015.org/program-at-a-glance/&#34; target=&#34;_blank&#34;&gt;Program-at-a-Glance&lt;/a&gt;。会议采用了app的方式，无纸化推送详细的program。不过这里有个问题是身在GFW内的我苦苦装了一个多小时也没有成功下载到我的ipad上，后来去了后两分钟下载好。用起来就很方便了，支持按时间、人、活动多种方式查询。会议在twitter上的hashtag是#ccs2015，在这个app里也可以完美呈现。&lt;/p&gt;
+
+&lt;p&gt;从时间上讲，这个会议设有preconference，主要在26和27号两天，工作坊主要在这两天。比如26号上午是来自圣塔菲的Melanie Mitchell讲Introduction to Complexity，她在网络上有一个&lt;a href=&#34;http://www.complexityexplorer.org/online-courses/19-introduction-to-complexity-fall-2014/materials&#34; target=&#34;_blank&#34;&gt;同名的课&lt;/a&gt;。关于她我们已经很熟悉了。她的博士导师就是大名鼎鼎的侯世达，她曾在圣塔菲讲解complexity，整理出版了同名著作Complexity：A guided tour，中文译本由湖南科学技术出版社出版。我来到南京后曾专门组织&lt;a href=&#34;http://computational-communication.com/post/guan-yu-wo-men/2014-12-16-reading-club&#34; target=&#34;_blank&#34;&gt;读书会研读这本书&lt;/a&gt;。下午同样是来自圣塔菲的Aaron Clauset介绍Networks。他和Newman曾写过如何判定powerlaw的R和python的程序。27号，Robert Axtell介绍Agent-Based Models，下午Simon DeDeo介绍Information Theory and Maximum Entropy Methods。整体而言，这些介绍都比较基础。因为我是27号下午才到的，所以这些都错过了。&lt;/p&gt;
+
+&lt;p&gt;主会议28号开幕。会议的精彩看点首先是全体会议（plenary session）的发言人。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Plenary Speakers:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Bar-Yam Yaneer&lt;/li&gt;
+&lt;li&gt;Marten Scheffer&lt;/li&gt;
+&lt;li&gt;Jan-Wouter Vasbinder&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Plenary Speakers 27B:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Wei-Ning Xiang&lt;/li&gt;
+&lt;li&gt;Atsushi Iriki&lt;/li&gt;
+&lt;li&gt;David Krakauer&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;yaneer-bar-yam&#34;&gt;Yaneer Bar-Yam&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;New England Complex Systems Institute&lt;/li&gt;
+&lt;li&gt;From centrality to temporary fame: Dynamic centrality in complex networks .D Braha, Y Bar‐Yam - Complexity, 2006 - Wiley Online Library&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&#34;longevity-to-extend-the-arc-of-life&#34;&gt;Longevity: to extend the arc of life?&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;aging, treating disease&lt;/li&gt;
+&lt;li&gt;mechanism?
+
+&lt;ul&gt;
+&lt;li&gt;Programmed death is favored by natural selection in spatial systems &lt;a href=&#34;http://www.necsi.edu/research/evoeco/programmed.pdf&#34; target=&#34;_blank&#34;&gt;http://www.necsi.edu/research/evoeco/programmed.pdf&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&#34;ethic-violence&#34;&gt;Ethic violence&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;patterns?&lt;/li&gt;
+&lt;li&gt;small patches&lt;/li&gt;
+&lt;li&gt;intermediate&lt;/li&gt;
+&lt;li&gt;large patches: peace&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;correlation more than 90%??&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Science 317, 1540 (2007);May Lim, et al.
+Violence Global Pattern Formation and Ethnic/Cultural &lt;a href=&#34;http://www.uvm.edu/~pdodds/files/papers/others/everything/lim2007a.pdf&#34; target=&#34;_blank&#34;&gt;http://www.uvm.edu/~pdodds/files/papers/others/everything/lim2007a.pdf&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;food price index &amp;amp; protest ? wheat.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;The Food Crises and Political Instability &lt;a href=&#34;http://arxiv.org/pdf/1108.2455.pdf&#34; target=&#34;_blank&#34;&gt;http://arxiv.org/pdf/1108.2455.pdf&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Dynamic model
+P(t+1) = kc(t)&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Corn ehanol and speculation&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;one-second-on-the-internet&#34;&gt;One Second on the Internet&lt;/h3&gt;
+
+&lt;p&gt;One second doesn’t seem like much time, but a lot can happen. In one second, there are approximately 200 posts on Reddit, 4,000 tweets on Twitter, and 50,000 likes on Facebook. Visualizing the traffic the Internet experiences is very difficult. Once the numbers get so big, they start to lose meaning to us. This is why “One Second on the Internet” provides an illustration of how much activity takes place in such a small unit of time.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://onesecond.designly.com/&#34; target=&#34;_blank&#34;&gt;http://onesecond.designly.com/&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;hidden-geometric-structure-of-collective-attention&#34;&gt;hidden geometric structure of collective attention&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.swarma.org/swarma/detail.php?id=18701&#34; target=&#34;_blank&#34;&gt;http://www.swarma.org/swarma/detail.php?id=18701&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.plosone.org/article/fetchObject.action?uri=info:doi/10.1371/journal.pone.0136243&amp;amp;representation=PDF&#34; target=&#34;_blank&#34;&gt;http://www.plosone.org/article/fetchObject.action?uri=info:doi/10.1371/journal.pone.0136243&amp;amp;representation=PDF&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;coupled-networks-financial-markets-and-news-sentiment&#34;&gt;coupled networks: financial markets and news sentiment&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;time series&lt;/li&gt;
+&lt;li&gt;lagged correlation based network&lt;/li&gt;
+&lt;li&gt;finding bipartite substructure&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;guido&#34;&gt;Guido&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;why financial market?
+
+&lt;ul&gt;
+&lt;li&gt;trade is a paramount example of complex system&lt;/li&gt;
+&lt;li&gt;data available&lt;/li&gt;
+&lt;li&gt;social effect&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;why network are important?
+
+&lt;ul&gt;
+&lt;li&gt;mathematical representation of social reality&lt;/li&gt;
+&lt;li&gt;network effects
+
+&lt;ul&gt;
+&lt;li&gt;effects of interaction&lt;/li&gt;
+&lt;li&gt;illustrate the mechanics of distress transmission&lt;/li&gt;
+&lt;li&gt;describe distress amplification&lt;/li&gt;
+&lt;li&gt;spot the info asymmetry&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;stability of a network
+
+&lt;ul&gt;
+&lt;li&gt;dynamics&lt;/li&gt;
+&lt;li&gt;connections&lt;/li&gt;
+&lt;li&gt;evolution&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;devise new network measures&lt;/li&gt;
+&lt;li&gt;reconstruct the connections&lt;/li&gt;
+&lt;li&gt;chain of conditioned&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;focus on network structure rather than vertex structure&lt;/p&gt;
+
+&lt;p&gt;debetrank&lt;/p&gt;
+
+&lt;p&gt;$L_{i,j} = A/E$&lt;/p&gt;
+
+&lt;p&gt;$h(t)=\frac{(E_0-E_T)} {E_0}$&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.nature.com/nphys/journal/v9/n3/full/nphys2580.html#close&#34; target=&#34;_blank&#34;&gt;http://www.nature.com/nphys/journal/v9/n3/full/nphys2580.html#close&lt;/a&gt;
+Reconstructing a credit network&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>自我介绍</title>
+      <link>https://chengjun.github.io/note/2015-08-13-self-intro/</link>
+      <pubDate>Thu, 13 Aug 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://chengjun.github.io/note/2015-08-13-self-intro/</guid>
+      <description>
+
+&lt;p&gt;个人简历：&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://oaf2qt3yk.bkt.clouddn.com/b8f013d97c7b8b40e69ea94d1029855a.png&#34; alt=&#34;近照&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;王成军，博士，南京大学新闻传播学院助理研究员。奥美数据科学实验室主任、计算传播学实验中心研究员、香港城市大学互联网数据挖掘实验室研究员、集智俱乐部核心成员。参与翻译《社会网络分析：方法与实践》(2013)、合著《社交网络上的计算传播学》（2015）。致力于采用计算社会科学视角研究人类传播行为，其研究成果发表于SSCI/SCI期刊，例如Scientific Reports、PloS ONE、Physica A、Cyberpsychology和Journal of Social and Personal Relationships。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;计算传播网（&lt;a href=&#34;http://computational-communication.com）。&#34; target=&#34;_blank&#34;&gt;http://computational-communication.com）。&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;计算传播学实验中心（&lt;a href=&#34;http://ccc.nju.edu.cn:8089)&#34; target=&#34;_blank&#34;&gt;http://ccc.nju.edu.cn:8089)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;对数据科学感兴趣，主要采用python和R编程，写了一个R包和两个python包：&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;networkdiffusion（&lt;a href=&#34;https://github.com/chengjun/networkdiffusion）&#34; target=&#34;_blank&#34;&gt;https://github.com/chengjun/networkdiffusion）&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;iching (&lt;a href=&#34;https://pypi.python.org/pypi/iching&#34; target=&#34;_blank&#34;&gt;https://pypi.python.org/pypi/iching&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;scholarNetwork (&lt;a href=&#34;https://pypi.python.org/pypi/scholarNetwork/&#34; target=&#34;_blank&#34;&gt;https://pypi.python.org/pypi/scholarNetwork/&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;研究领域：计算传播学，致力于采用计算社会科学地研究方法分析人类传播行为，具体包括社会化媒体与信息扩散、公共讨论、注意力流动、互联网数据挖掘等。&lt;/p&gt;
+
+&lt;p&gt;开设主要课程： 计算传播学导论》、《计算传播与广告》、《数据新闻》等。&lt;/p&gt;
+
+&lt;p&gt;通讯地址：南京市汉口路22号南京大学新闻传播学院A306 邮编：210093&lt;/p&gt;
+
+&lt;p&gt;Email: wangchj04@gmail.com&lt;/p&gt;
+
+&lt;p&gt;所在系：新闻与新媒体系&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;老师最开始为何选择了传播学这个专业呢？&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;我选择传播学专业是一个偶然，因为我大学二年级想要转一个专业，而此时已经错过了转专业的时间，恰好新闻学院有一个2+2的项目，就是在原来专业基础上，只需要用两年时间学完专业课。通过选拔考试后，我就转到网络新闻专业，算是进入了传播学的专业。之后，考研、申请博士都要考虑怎么才能发挥自己的既有的知识储备，于是硕士读了一个媒体经营管理的方向。读硕士是一个转折点，因为我的硕士老板很强调数据分析技能的培养和“社会学的想象力”，于是开始做一些小的研究项目。我就钻进书丛，读各种和数据分析和社会科学理论相关的书。在北大和人大的方法类的暑期班里听了不少课。硕士毕业那年，香港城市大学的祝建华老师来京做博士招生的宣讲。我很感兴趣就申请了香港的传播学博士项目。博士毕业之后先在腾讯实习了半年，后来就到南京大学新闻传播学院做助理研究员。&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;又为何选择计算传播学作为研究方向？&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;计算传播学也非我有意识地选择的结果。我对扩散现象一直感兴趣，从沙堆到信息扩散，我一直认为这里面有很多值得挖掘的地方。来到香港读博之后，我主要在互联网挖掘实验室从事研究工作。读格兰诺维特的论文时，读到门槛模型，与我在读复杂性科学地书籍时所接触到多主体模型等都有关联。2008年正是社会化媒体方兴未艾大放异彩的时候，我想我或许可以采用这个模型来分析社会化媒体上的信息扩散。于是，开始分析各种基于互联网的人类传播行为数据，主要是Digg, Youtube, Twitter和Sina Weibo。恰逢计算机科学家转向这条主线的研究，于是读了很多类似文章。但我对计算机科学家做社会科学研究很不满，因为多数研究都是会议论文，其研究发现往往不够深刻，这部分工作具有很强的数据科学的特点，强调数据挖掘和机器学习技术的使用；同时，我也注意到物理学家对于人类传播行为的研究工作，主要是统计物理和网络科学部分。对我影响最大的依然是网络科学，因为我分析信息扩散的起点就是基于关系网络和信息扩散网络展开。网络科学无疑提供了理想的工具；除此之外，计算语言学的工作使得对于传播文本的挖掘更加系统，例如主题模型鼓舞了计算人文学科的发展。与此同时，我开始放弃mathematica，学习R语言，后来又转向python语言（因为要抓数据）。如何概括类似这些研究范式？我们一度采用了各种标签，比如统计物理、人类动力学、社会物理学、社会计算，但都不贴切。2011年，我在和实验室的同学和老师讨论之后，提出了computational communication的提法，就有了计算传播学。当然，此时距离Lazer等人在2009年提出计算社会科学已经是三年之后了。之后，大家发现这个提法很好地概括了我们的研究兴趣和研究方向，于是就慢慢开始使用这个词语。2012年建立了豆瓣计算传播学小站。2013年，互联网挖掘实验室推出了一系列的计算传播研究工作坊，2014年我到南大之后，筹建了现在计算传播学实验研究中心。我们开始参与一些计算社会科学为主题的国际会议，在与其他学科的研究者交流的时候，采用计算传播学研究者介绍自己的工作。&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;老师港城大毕业后，选择留在了象牙塔任教，而非进入公司。不知道这里面又有什么样的考量？&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;研究兴趣占了很大比重。我在腾讯的数据挖掘部门实习了半年，后来拿到了他们的offer。腾讯正在急于建设一个连接人和物的互联网公司，很多研究问题都涉及到网络科学。他们对于采用传播的视角建立数据科学模型充满兴趣。但腾讯与百度、阿里相比更为注重实务，所以原来的腾讯研究院被分拆了，在腾讯工作就要面临业务和研究两边跑的问题。与此同时，国内高校也意识到“大数据传播”、数据新闻、计算广告的重要性，也提出一些不错的offer。我一度想去公司，后来博士老板建议我先去高校，家人也希望我能离家近一些，多一些时间照顾家人。当然，他们不知道做研究虽然时间灵活，但更费时间。&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;老师最近正在看的一本书是什么？以及自己选择看这本书的原因？&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;《社交网络上的计算传播学》，这本书刚刚出版，已经可以订购。这本书是第一本和计算传播直接相关的书，较为系统地整理了关于采用计算传播学视角分析社交网络的理论、方法和工具。另外，也这是我参与编著的第一本书（此处是硬广），之前看的都是电子稿，买几本纸本帮助我备课，还有看看如果出第二版怎么改。&lt;/p&gt;
+
+&lt;p&gt;最后要提醒老师一下，讲座的最后会请您推荐3本与这次讲座相关的书籍。&lt;/p&gt;
+
+&lt;p&gt;-《网络、群体与市场》、《社交网络上的计算传播学》、《计算广告》&lt;/p&gt;
+
+&lt;h2 id=&#34;研究方向&#34;&gt;研究方向&lt;/h2&gt;
+
+&lt;p&gt;作为一个新人，提所谓的大词是没有什么意义的，重要的是解决问题。解决中层问题是非常关键的。一个理想的研究者的视野是橄榄球形状的。两端小中间大。分为三层：&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;底层：模型和方法（如物理模型）&lt;/li&gt;
+&lt;li&gt;中层：研究问题 （令飞选了知识生产，如讨论网络、问答网络、引文网络）&lt;/li&gt;
+&lt;li&gt;高层：研究视野（如注意力科学、计算传播学）&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;通常容易欠缺的是中层的研究问题。什么是中层问题？为什么要选中层问题？中层问题可以较好的建立自己的生态位，可以做的东西太多了，人的精力却很有限。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>集智计算读书会</title>
+      <link>https://chengjun.github.io/note/2015-08-06-readingclub/</link>
+      <pubDate>Thu, 06 Aug 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://chengjun.github.io/note/2015-08-06-readingclub/</guid>
+      <description>&lt;p&gt;2008年，我离开兰州，到北京大学读传播学的硕士。我很难想象自己还会踏入与计算紧密相连的科学。在北京的两年里，我通过豆瓣认识了集智俱乐部。与其他豆瓣小组不同，集智以读书会和各种线下活动闻名，北京各个高校不同专业的学生通过集智活动而认识。通过集智我了解到了复杂性科学和它的圣地：圣塔菲研究所，并读了《歌德尔、埃舍尔、巴赫》、《复杂》、《链接：网络新科学》、《组成轮》等各种书。&lt;/p&gt;
+
+&lt;p&gt;那个时候，复杂网络研究开始席卷社会科学，尤其是传播学。集智的活动从各个方面开启了我对于计算社会科学的另一种认识。虽然集智关注的视野横跨里很多学科，在北京经常举办线下活动（很长一段时间里是在三号会所），对于北京以外的地方，集智往往是因为多主体建模而为外界所知。我也是在北师大的一次暑期活动里，听jake讲解了多主体建模的方法。因为集智，我知道了walfram和mathematica；还以集智成员的身份去清华旁听了一个mathematica的国籍会议。虽然时光短暂，我非常喜欢集智读书会的组织形式和传播复杂性科学的使命。&lt;/p&gt;
+
+&lt;p&gt;2010年夏天，我硕士毕业，前往香港城市大学读博。在读博的过程中，计算社会科学的研究范式开始被普遍接受。我觉得自己应该选择一个最贴近复杂性研究的社会科学研究。我去读了per bak的《how nature works: the science of self-organized》。我觉得自己应该去研究扩散，于是选择了以信息扩散作为自己的研究主题。大多数博士论文都是一个痛苦挣扎的过程，我的也不例外，为了能够收集所需要的数据，我开始学习使用r和python编程，开始更加系统地学习网络科学的研究视角。在这短短的四年里，大数据开始成为时代的关键词，数据新闻、计算广告开始成为计算机与传播学直接交叉的领域。基于数据的网络科学研究和基于计算机模拟的多主体建模，以及其它各种研究视角不断得启发我们去思考传播学的研究，于是一个我们发明了一个新词：computational communication，翻成中文就是计算传播。一开始我对这个词并不满意，后来计算士觉得这词不错，能概括我们的研究路径。于是我们的一个谷歌的邮件组就使用来这个作为名字。&lt;/p&gt;
+
+&lt;p&gt;时光荏苒，转眼间我在香港呆了四年，2014年博士毕业了，我不想去北上广这种大城市，又想离家近，就选择了来南京，就职于南京大学新闻传播学院。学院老师比较支持传播学可计算化的思路，于是我们成立了一个计算传播学实验中心。相对于香港匆忙的生活而言，大陆的高校多了很多书卷气。我便常常怀念集智聚乐部的读书会。恰逢jake和计算士邀请我加入集智科学委员会。据jake讲，科学委员会成员可以集智的名字举办读书会，我想这是一个好机会。就串掇来身边的朋友搞一个周六下午读书的活动。因为我们的活动场地是计算传播研究中心的实验室，就在南大鼓楼校区的费彝民楼，我自己也是计算传播研究中心的成员，就萌生了结合两者的所长，组办一个名为“集智计算读书会”的活动。于是，我发邮件咨询jake，咨询他的同意后，我们的读书会就算正式成立了。&lt;/p&gt;
+
+&lt;p&gt;第一本书选的是米歇尔的《复杂》，她是侯世达的学生，在圣塔菲的时候做了一个系列讲座，整理完善出版了一本书就取名为《复杂》。本书的架构比较简单，主要分成三个部分：第一个部分介绍复杂性科学的历史和概念；第二部分介绍计算机模拟的方法；第三部分介绍网络科学。我想这是像社科和人文学科介绍复杂性科学的好书，比较适合入门，虽然浅显，寓意悠远。于是，第一次活动就这样开始了。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>精神的家园</title>
+      <link>https://chengjun.github.io/note/2015-05-02-bible-verses/</link>
+      <pubDate>Sat, 02 May 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://chengjun.github.io/note/2015-05-02-bible-verses/</guid>
+      <description>
+
+&lt;p&gt;我想或许是自己对于宗教的态度越来越严肃，所以反而见不得圣经两个字。心底里将圣经神圣化，于是看到只言片语就感觉远远不限于此。所以就产生了逆反，往来的更改标题。这个问题该怎么破？&lt;/p&gt;
+
+&lt;script type=&#34;text/javascript&#34;&gt;
+document.write(&#34;&lt;iframe src=\&#34;http://www.kingjamesonline.org/inspiring-images-widget.php\&#34; style=\&#34;width: 344px; height: 344px; border: 0px solid #ffffff;\&#34;&gt;&lt;/iframe&gt;&#34;);
+&lt;/script&gt;
+
+&lt;p&gt;前天与朋友吃饭，一个妈妈讲起了自己家养育孩子的方法。让孩子参加家庭每周的自我计划陈述，自己说出一周的计划，总结一周的得失，家人不提任何意见。使用这个方法，坚持半年使得孩子养成了刷碗、给爷爷奶奶打电话等很多好习惯。这种交流的形式使我一下子想到了团契。在海淀堂和城市大学的时候，我就曾参加过，感触挺深。&lt;/p&gt;
+
+&lt;p&gt;我想这种宗教的熏陶是很好的，很大程度上承担了对孩子的教育功能。让孩子主动去做一些事情，虽然过程会慢一些，但是会养成习惯，更为持久，有利于良好性格的塑造。&lt;/p&gt;
+
+&lt;p&gt;关于圣经，学英文的时候，有一个说法是女生应该读飘，男生读圣经。两本书我都买了，却都没有好好读。或许这就是为什么我英文学不好的原因？&lt;/p&gt;
+
+&lt;h1 id=&#34;圣经今句&#34;&gt;圣经今句&lt;/h1&gt;
+
+&lt;script type=&#34;text/javascript&#34;&gt;
+document.write(&#34;&lt;iframe src=\&#34;http://www.kingjamesbibleonline.org/popular-bible-verses-widget.php\&#34; style=\&#34;width: 600px;height: 70px; border: 0px solid #ffffff;\&#34;&gt;&lt;/iframe&gt;&#34;);
+&lt;/script&gt;
+
+&lt;h1 id=&#34;圣经金句&#34;&gt;圣经金句&lt;/h1&gt;
+
+&lt;p&gt;&lt;IFRAME SRC=&#34;http://www.jesusfolk.com/Bible/Verses/1.htm?b1=15&amp;b2=%23000000&amp;b3=Verdana&amp;b4=%23FFFFFF&#34; Name=&#34;Bible&#34; SCROLLING=&#34;AUTO&#34; HSPACE=&#34;0&#34; VSPACE=&#34;0&#34; FRAMEBORDER=&#34;0&#34; MARGINHEIGHT=&#34;5&#34; ALIGN=&#34;MIDDLE&#34; MARGINWIDTH=&#34;5&#34; WIDTH=&#34;600&#34; HEIGHT=&#34;100&#34;&gt;&lt;/IFRAME&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>既见君子</title>
+      <link>https://chengjun.github.io/note/2015-04-11-last-words/</link>
+      <pubDate>Sat, 11 Apr 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://chengjun.github.io/note/2015-04-11-last-words/</guid>
+      <description>
+
+&lt;p&gt;昨天看举案说法，提到一个30多岁的男人杀死两名要好的女同事的故事。他从小被父母姐姐宠溺，中考却一败涂地。很有一些志大才疏的样子。内心自卑，表面却非常自傲。现实是残酷的，一次恋爱失败后，接近三十岁的他草草地找了个女人结婚生子，但是家庭生活并不幸福。他想自杀，但是懦弱的他却没有勇气。他内心里渴望别人能够帮助自己杀死自己，于是他想到了杀人。但是懦弱与孤傲并存的他却想不到能够杀谁，于是瞄准了跟自己关系好的两个单身女同事。片中提到一句话：“越是懦弱的人，越会遭受到来自生活的接二连三的打击。”&lt;/p&gt;
+
+&lt;h3 id=&#34;时间去哪里了&#34;&gt;时间去哪里了&lt;/h3&gt;
+
+&lt;p&gt;孩子3月11日出生，今天4月11日了。32天了。在这一个月里，老婆和我没有睡一个安稳觉。我的整块的时间也几乎没有了。感受到了很多的生活和教学的压力。尤其是在科研方面，非常落后了。也非常自责，面对这些，我无话可说。没有能够投入足够多的时间，肯定是不能有好的结果的。当然，我还有弱者的心态的问题：失去了挑战的勇气。生活需要继续，我需要重新出发。这段时间唯一坚持下来的就是教书了，每周两节课，我也说不上好好备课，但是收获还是挺多的。比如博弈论、小世界的导航能力等等。此外，准备了一些计算广告和数据新闻的课件。主要是下载了一些公开课的pdf和视频。&lt;/p&gt;
+
+&lt;h3 id=&#34;无礼之徒&#34;&gt;无礼之徒&lt;/h3&gt;
+
+&lt;p&gt;本周三主持一个讲座，一个很无礼的访问学者上来就问我博士老板是谁，吐槽无力。讲座3点半开始，3点29就唧唧歪歪还不开始。还说什么听得懂就听，听不懂就离开。准时开始后，听了一会果然走了。这种无礼之徒，生活中似乎还有很多，以后绝不会手软。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;以后，遇到某人说提前走，请现在走。不伺候了。&lt;/li&gt;
+&lt;li&gt;以后碰到有人问你老板是谁，直接让对方介绍下自己先。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;保证每天两个小时的写作&#34;&gt;保证每天两个小时的写作&lt;/h3&gt;
+
+&lt;p&gt;我要再次出发。保证以后的工作效率。这个是迫在眉睫的事情。按照自己的节奏来，充满紧迫感。不要太在意，举重若轻。不要不知轻重。学会拒绝。&lt;/p&gt;
+
+&lt;h3 id=&#34;从一篇投稿开始&#34;&gt;从一篇投稿开始&lt;/h3&gt;
+
+&lt;p&gt;我要马上开始做这件事情。&lt;/p&gt;
+
+&lt;ul class=&#34;task-list&#34;&gt;
+&lt;li&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; 微博信息扩散&lt;/li&gt;
+&lt;li&gt;&lt;input type=&#34;checkbox&#34; checked disabled class=&#34;task-list-item&#34;&gt; 北京移动&lt;/li&gt;
+&lt;li&gt;&lt;input type=&#34;checkbox&#34; checked disabled class=&#34;task-list-item&#34;&gt; 恐怖主义&lt;/li&gt;
+&lt;li&gt;&lt;input type=&#34;checkbox&#34; checked disabled class=&#34;task-list-item&#34;&gt; 自我展露&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;[Jun 17]又是半个月过去了，回过头去，看看自己都干了什么。我有点表达困难的感觉。或许还是只完成了最后一项。前天跟lf谈了许久，他对我的状态不满意。其实我也已经不满意很久了。做研究的一个状态是：对于自己感兴趣的完全了解，对于其他东西完全不感兴趣。然后，我们总结了半天，结论是跨学科是一个虚假的东西。研究问题可以跨，但是本质的东西或者说方法论的东西，不是跨学科的。&lt;/p&gt;
+
+&lt;p&gt;今天想要去弄一点重整化的东西，却不知道从哪里开始。崩溃。&lt;/p&gt;
+
+&lt;h3 id=&#34;集智年会&#34;&gt;集智年会&lt;/h3&gt;
+
+&lt;p&gt;集智年会终于告一段落了，我很高兴这个过程当中更加了解了集智。在25号夜里大家提出建议、集核成员各自为集智出力的过程让我觉得很受启发。在南芳园二楼吃饭的时候，我谈了自己的想法：人在一个圈子里久了，如同站在深井里，就只能竭尽全力抬头看天，却越来越跑不出去了。&lt;/p&gt;
+
+&lt;p&gt;令飞访问的两周里，我们在对北京移动的重整化研究过程当中做了一些工作。听起来非常不错。需要我继续推动。&lt;/p&gt;
+
+&lt;p&gt;陈志聪开始着手做新闻地图的工作了。现在使用mou来编写markdown。感觉还挺好的。除了数学公式的处理不是很好。就是保存的时候会有点卡。这个很大的bug居然没有很好地解决。&lt;/p&gt;
+
+&lt;p&gt;读了一点胡翼青的书，感觉每个人的思考都不容易。筚路蓝缕，充满坎坷。&lt;/p&gt;
+
+&lt;p&gt;集智会议期间，笑话其中。很多人谈及了易经蓍草卦和背后的思考。易经当中充满了变化的智慧，无论哪一个章节，只要你能有好的理解，改过向善，都是好的。易经本身并不能预测什么，它只能告诉你现在可能处的状态。所以，不必要以科学的标准要求它。&lt;/p&gt;
+
+&lt;h2 id=&#34;打气筒的用法&#34;&gt;打气筒的用法&lt;/h2&gt;
+
+&lt;p&gt;新的自行车打气筒太精致了，以至于我不相信它是否真的有用。买了一个二手自行车，经常骑。为了方便又配备了一个打气筒。看着很单薄，我试了几次都不怎么会用。今天慌忙地出门，结果前车带没气了。于是折腾着打气，结果因为前车带是旧的英式的气门，所以要插入鸭嘴部分，但是总是漏气，折腾了几回。在太阳下，搞得手黑了，汗湿了全身。&lt;/p&gt;
+
+&lt;p&gt;原来，它有一个带有把手（可以折的）气嘴。气嘴分为两部分：英式和美式部分。英式部分就是我们以前常见的鸭嘴夹子部分，美式部分不需要这个。鸭嘴夹子嵌入美式部分后，折一下把手才结合稳固，方可打气；单独用美式部分的时候呢，将气口对准车轮的气门，也要折一下把手才能结合稳固。总结一下，这个小把手非常关键。&lt;/p&gt;
+
+&lt;h2 id=&#34;跬步是婴儿步&#34;&gt;跬步是婴儿步&lt;/h2&gt;
+
+&lt;p&gt;以前理解跬步是说一个人的心胸，做事情注意细节，不偏废，高标准严要求。后来才明白跬步是婴儿步，baby steps。&lt;/p&gt;
+
+&lt;h2 id=&#34;后记&#34;&gt;后记&lt;/h2&gt;
+
+&lt;p&gt;2015年几乎没有什么闪光点，我自己都无法回忆自己究竟干了什么，当然除了女儿的到来和一个社科基金。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>我的女儿米粒</title>
+      <link>https://chengjun.github.io/note/2015-03-11-my-child-mili/</link>
+      <pubDate>Wed, 11 Mar 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://chengjun.github.io/note/2015-03-11-my-child-mili/</guid>
+      <description>
+
+&lt;h1 id=&#34;米粒出生多少天了&#34;&gt;米粒出生多少天了？&lt;/h1&gt;
+
+&lt;p&gt;&lt;html&gt;
+&lt;head&gt;
+&lt;meta charset=&#34;utf-8&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;/head&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;body&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;DIV id=&#34;CountMsg&#34; class=&#34;HotDate&#34;&gt;
+&lt;span id=&#34;t_d&#34;&gt;00天&lt;/span&gt;
+&lt;span id=&#34;t_h&#34;&gt;00时&lt;/span&gt;
+&lt;span id=&#34;t_m&#34;&gt;00分&lt;/span&gt;
+&lt;span id=&#34;t_s&#34;&gt;00秒&lt;/span&gt;
+&lt;/DIV&gt;
+&lt;script type=&#34;text/javascript&#34;&gt;
+function getRTime(){
+var EndTime= new Date(&amp;lsquo;2015/03/11 11:05:00&amp;rsquo;); //截止时间
+var NowTime = new Date();
+var t = NowTime.getTime()-EndTime.getTime();
+/&lt;em&gt;var d=Math.floor(t/1000/60/60/24);
+t-=d&lt;/em&gt;(1000*60*60*24);
+var h=Math.floor(t/1000/60/60);
+t-=h*60*60*1000;
+var m=Math.floor(t/1000/60);
+t-=m*60&lt;em&gt;1000;
+var s=Math.floor(t/1000);&lt;/em&gt;/&lt;/p&gt;
+
+&lt;p&gt;var d=Math.floor(t/1000/60/60/24);
+var h=Math.floor(t/1000/60/60%24);
+var m=Math.floor(t/1000/60%60);
+var s=Math.floor(t/1000%60);&lt;/p&gt;
+
+&lt;p&gt;document.getElementById(&amp;ldquo;t_d&amp;rdquo;).innerHTML = d + &amp;ldquo;天&amp;rdquo;;
+document.getElementById(&amp;ldquo;t_h&amp;rdquo;).innerHTML = h + &amp;ldquo;时&amp;rdquo;;
+document.getElementById(&amp;ldquo;t_m&amp;rdquo;).innerHTML = m + &amp;ldquo;分&amp;rdquo;;
+document.getElementById(&amp;ldquo;t_s&amp;rdquo;).innerHTML = s + &amp;ldquo;秒&amp;rdquo;;
+}
+setInterval(getRTime,1000);
+&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://gallery.mailchimp.com/c007b6835f6475cf470f6e0ef/images/a4918492-d8c8-4a18-9e1f-93716e8dc526.gif&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;米粒时代&#34;&gt;米粒时代&lt;/h1&gt;
+
+&lt;p&gt;《梅花》 唐 崔道融&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;数萼初含雪，孤标画本难。&lt;/li&gt;
+&lt;li&gt;香中别有韵，清极不&lt;strong&gt;知寒&lt;/strong&gt;。&lt;/li&gt;
+&lt;li&gt;横笛和愁听，斜枝倚病看。&lt;/li&gt;
+&lt;li&gt;朔风如解意，容易莫摧残。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;《淮阴夜宿二首》 唐 孙逖&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;水国南无畔，扁舟北未期。乡情淮上失，归梦郢中疑。&lt;/li&gt;
+&lt;li&gt;木落&lt;strong&gt;知寒&lt;/strong&gt;近，山长见日迟。客行心绪乱，不及洛阳时。&lt;/li&gt;
+&lt;li&gt;永夕卧烟塘，萧条天一方。秋风淮水落，寒夜楚歌长。&lt;/li&gt;
+&lt;li&gt;宿莽非中土，鲈鱼岂我乡。孤舟行已倦，南越尚茫茫。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;《红线毯》 唐 白居易&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;红线毯，择茧缲丝清水煮，拣丝练线红蓝染。&lt;/li&gt;
+&lt;li&gt;染为红线红于蓝，织作披香殿上毯。披香殿广十丈馀，&lt;/li&gt;
+&lt;li&gt;红线织成可殿铺。彩丝茸茸香拂拂，线软花虚不胜物。&lt;/li&gt;
+&lt;li&gt;美人蹋上歌舞来，罗袜绣鞋随步没。太原毯涩毳缕硬，&lt;/li&gt;
+&lt;li&gt;蜀都褥薄锦花冷，不如此毯温且柔，年年十月来宣州。&lt;/li&gt;
+&lt;li&gt;宣城太守加样织，自谓为臣能竭力。百夫同担进宫中，&lt;/li&gt;
+&lt;li&gt;线厚丝多卷不得。宣城太守知不知，一丈毯，千两丝。&lt;/li&gt;
+&lt;li&gt;地不&lt;strong&gt;知寒&lt;/strong&gt;人要暖，少夺人衣作地衣。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;故事从2015年3月11日早上十一点五分开始讲起，在这一刻我的女儿在东南大学附属中大医院降生了。我给女儿取名叫米粒，大名叫知寒，希望她可以“知寒问暖”。她的到来令我和妻子万分高兴。然而就在一个多月前，我和妻子还在为异地生产的问题焦头烂额。&lt;/p&gt;
+
+&lt;p&gt;2014年我来南京工作，然而短期之内无法解决户口问题。而妻子在湖南生产则面临产后坐月子我无法陪护的问题，不得已我们只能选择在南京生孩子。然而做出这选择并不容易，因为我和妻子对于南京并不熟悉，在这里我们的朋友也不多，也许更为严重的问题是我们对于异地生产所存在的问题缺乏清晰的认识。断断续续地，我咨询了单位和一些医院，然而得到的回复并不乐观。正当我不知所措的时候，我听别人介绍了中大医院的产科门诊。怀着忐忑的心情，我拨通了中大医院产科的电话。顾晓霞护士长耐心地回答了我的各种问题，提醒我办理各种必要的手续，并指导我的妻子进行产前准备。一个月后，孩子出生了，然而我和妻子对于如何照顾孩子却并不擅长；幸亏有值班护士在，她们充满耐心得进行指导、不断鼓励，从各个方面照顾着产妇和孩子。在很多微小的细节当中，我感受到了医护人员对于工作的尽职尽责。&lt;/p&gt;
+
+&lt;p&gt;如今，我的爱人和孩子顺利出院了。围绕着孩子，家里多了很多欢声笑语。很多时候，我为自己这样一个小家庭感到幸运，更深感自己应该感谢中大医院产科的医护人员。正因为有了你们辛勤的付出，很多崭新的小生命所降临的世界变得更加美好。&lt;/p&gt;
+
+&lt;p&gt;[2015-06-14]作为一个爸爸，我挺失败的。因为没有办法将老婆孩子留在自己身边。暮白的产假时间快到了，24日打过第三次疫苗之后，米粒就要开始跟暮白和奶奶去长沙了。这是我对自己的孩子的亏欠。作为爸爸，自己工作不努力，让孩子受到这些折磨，于我是很大的愧疚。但我有时候会忘记这些愧疚。这么多年，我对家庭说不上好，29岁结婚，为了家庭（很大程度上）我回到了南京。却忽略了南京的高房价、雾霾、暮白在长沙的工作。半年之后，孩子出生，我和暮白也是学着做爸爸妈妈。女儿的出生的确让我的学术研究变得更加雪上加霜。但造成这一问题的主要责任在我。我必须要抓紧一切时间来弥补这一缺失，否则孩子就不是没有户口那么简单。电视一度占用了很多时间，我也体会到一个独立的空间的重要性，它不能是卧室，不能是客厅，就是独立的书房，我现在在厨房外的桌子上。&lt;/p&gt;
+
+&lt;h2 id=&#34;米粒百日礼&#34;&gt;米粒百日礼&lt;/h2&gt;
+
+&lt;p&gt;带米粒去拍照，米粒妈妈在美团上团的券。照例是在一个小区里。打车过去，司机欺负我不识路想绕路，被我用百度地图拆穿（是的，移动互联网让很多坏人很头痛）。我们没有带U盘，所以没有办法拷照片，于是我跟对方要求网络传输，最后还是传到了手机里。给米粒选了三套衣服拍。一个人鱼，一个萝莉，一个袜子一样的，结果很失败的是米粒第二套衣服忘了带帅气的小领结，结果拍出来显得很土。然后，米粒不会做，趴也不成，看镜头就瞪着眼很严肃。所以整个拍摄很痛苦。这类拍摄都是热心的妈妈折腾孩子。所以，我们庆幸只拍了72张。&lt;/p&gt;
+
+&lt;p&gt;带米粒体检，可气的是体检时医生说米粒是&lt;code&gt;慢慢性子&lt;/code&gt;，原因是米粒对于医生手上测智力的红色环子不感冒。她瞪着眼瞅自己想看的地方。打疫苗时因为红屁股没有成功，直接打车去了金盛华东家具城。理发、游泳。理掉了头发的米粒又恢复了靓丽的形象。回家后，突然发觉米粒可以趴，但是要垫高，手臂的摆放很重要，并排在胸前。&lt;/p&gt;
+
+&lt;h2 id=&#34;长沙廿日&#34;&gt;长沙廿日&lt;/h2&gt;
+
+&lt;p&gt;转眼之间在长沙过了二十余天。一到长沙就感觉很疲惫，想睡觉。看女儿的日子充满了挑战和乐趣。米粒喜欢出去玩，主要是睁大眼睛看。她对世界很好奇。每天一早起来，米粒妈妈就带着米粒出去，去研究所外面的小花园看老人舞剑。米粒妈妈说“耍剑”。回来吃过了奶，米粒就要睡觉。我妈特别辛苦，负责哄米粒睡觉。有时候不得要领，小坏蛋就苦啊哭啊。到了十一点半，我就去食堂打饭。四个菜两盘子端回来。一般中间十点半的时候，米粒喂过了一次水就饿了，要电话米粒妈妈回来喂奶。中午吃饭后，午睡。米粒也睡。下午米粒妈妈三点去上班。一般四点半之后还要喂奶。五点半我去打饭。我妈会带着米粒出去。有一段时间是站在实验楼旁等米粒妈妈。后来，去小操场看小伙伴们。因为都是一个单位的，所以大家高度信任，非常友好。&lt;/p&gt;
+
+&lt;p&gt;米粒不好哄。小家伙脾气挺大的。当然，吃饱了就好了。但是，往往有吃不饱的时候。她就哭。我妈很喜欢米粒，经常惯着她。常说米粒“跟着大鱼上串”。米粒嗓子粗，她哼哼的时候，我妈就说“米粒，你又再嘿呼谁？”我妈还喜欢说“米粒是个大孩子，米粒可管了。”我妈对米粒是隔代亲。&lt;/p&gt;
+
+&lt;p&gt;米粒有一个可爱的日本风的小帽子。戴着它，没有人说米粒是小男孩了。长沙人说米粒长得极好，很漂亮。但也有说好胖啊，小胖子。米粒妈妈和我妈都不喜欢别人说米粒胖。后来自我解嘲也叫米粒小胖子了。&lt;/p&gt;
+
+&lt;p&gt;米粒五个半月了，我也要回南京了。很怀念抱着米粒在芙蓉树边、樟树下、操场上、房间里。米粒对我刚刚熟悉，现在又得分开了。&lt;/p&gt;
+
+&lt;p&gt;我这段时间的效率也不行，执行力很差。主要是因为兴趣突然被时间序列给带走了。尝试了好几种贝叶斯建模的方法。一开始是给米粒妈妈的数据建模，后来是给美国2012大选建模。关于公众注意力部门的模型算清楚了。媒介注意力、舆论支持率、公众情绪都会影响到公众注意力。使用公众注意力预测公众注意力当然效果不错，比如用query预测tweets。但是poll本身因为具有很强的trend和seasonality所以不需要采用regression预测。而sentiment和news则主要受到query的影响。&lt;/p&gt;
+
+&lt;h2 id=&#34;米粒回南京&#34;&gt;米粒回南京&lt;/h2&gt;
+
+&lt;p&gt;2015年12月19日，米粒从长沙回到了南京。米粒妈妈辞掉了在长沙中科院的工作，下定决心回到南京了。我要能见到亲爱的女儿了。除了高兴，也感觉到肩上的担子更重了。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://oaf2qt3yk.bkt.clouddn.com/ccbfd89d275f8d58cde3386b5413add0.png&#34; alt=&#34;米奇&#34; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;米奇时代&#34;&gt;米奇时代？&lt;/h1&gt;
+
+&lt;p&gt;2016年8月20日发现米粒妈妈怀孕了，我给肚子里的小朋友取名米奇或米琪，就是那个漂亮的米老鼠Mickey。小米还不到一岁半。得知这个消息，我和晓青都很崩溃：怎么又这么容易？米粒妈妈和我面对一个困境：生还是不生？！他来的太突然了。&lt;/p&gt;
+
+&lt;p&gt;我意识到这个责任只能我和晓青来抗。父母都表示不干涉，没有意见。时代真得变了。或许是因为要担责任，所以没有心绪。晓青一开始坚决不生，多次落泪。我们去市妇幼做了检查，上网搜索了一些细节。人工流产对子宫是不小的伤害，要越早越好，最好在50-55天的范围内。&lt;/p&gt;
+
+&lt;p&gt;想到这个还没有成形的小人的命运，晓青又转念想生下来。因为如果我们想要二胎，那么晚不如早。但是做出这个决定并不容易，因为：
+  * 一、生下ta将是艰苦时代的到来，米粒一个本来就够缠人的了，再来一个将会耗费很多时间。十月怀胎，十月养育。朝夕陪伴，十分辛苦。
+  * 二、米粒妈妈的工作就毁了，又要耗费大半年时间在孩子身上。
+  * 三、不确定性，不知道是男孩还是女孩。二胎政策只能生两个。如果想要一个男孩，那么就只有这一次机会了。于是乎变得很纠结。清宫图说女孩；金钱卦是一个夬卦，据说是男孩。抛硬币三局两胜说生。做判断和做决定是两回事.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

