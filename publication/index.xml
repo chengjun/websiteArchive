@@ -2,30 +2,50 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Publications on Academic</title>
-    <link>https://example.com/publication/index.xml</link>
+    <link>https://chengjun.github.io/publication/index.xml</link>
     <description>Recent content in Publications on Academic</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2016 Your Name</copyright>
+    <copyright>&amp;copy; 2016 Cheng-Jun Wang</copyright>
     <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
     <atom:link href="/publication/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>A Person Re-Identification System For Mobile Devices</title>
-      <link>https://example.com/publication/person-re-identification/</link>
-      <pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate>
+      <title>Tracing the Attention of Moving Citizens</title>
+      <link>https://chengjun.github.io/publication/tracing-attention/</link>
+      <pubDate>Fri, 09 Sep 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/publication/person-re-identification/</guid>
+      <guid>https://chengjun.github.io/publication/tracing-attention/</guid>
       <description>&lt;p&gt;More detail can easily be written here using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>Mobile visual clothing search</title>
-      <link>https://example.com/publication/clothing-search/</link>
-      <pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate>
+      <title>The Collective Direction of Attention Diffusion</title>
+      <link>https://chengjun.github.io/publication/collective-direction/</link>
+      <pubDate>Mon, 05 Sep 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/publication/clothing-search/</guid>
+      <guid>https://chengjun.github.io/publication/collective-direction/</guid>
+      <description>&lt;p&gt;More detail can easily be written here using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The scaling of attention networks</title>
+      <link>https://chengjun.github.io/publication/scaling-networks/</link>
+      <pubDate>Thu, 31 Dec 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://chengjun.github.io/publication/scaling-networks/</guid>
+      <description>&lt;p&gt;More detail can easily be written here using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Discussing Occupy Wall Street on Twitter</title>
+      <link>https://chengjun.github.io/publication/dicuss-ows-tweets/</link>
+      <pubDate>Thu, 12 Sep 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://chengjun.github.io/publication/dicuss-ows-tweets/</guid>
       <description>&lt;p&gt;More detail can easily be written here using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
 </description>
     </item>
