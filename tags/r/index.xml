@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>R on Academic</title>
+    <link>https://chengjun.github.io/tags/r/index.xml</link>
+    <description>Recent content in R on Academic</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2016 Cheng-Jun Wang</copyright>
+    <atom:link href="/tags/r/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>networkdiffusion: Simulate and Visualize Network Diffusion</title>
+      <link>https://chengjun.github.io/post/networkdiffusion/</link>
+      <pubDate>Mon, 13 Feb 2017 14:16:05 +0800</pubDate>
+      
+      <guid>https://chengjun.github.io/post/networkdiffusion/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://github.com/chengjun/networkdiffusion&#34; target=&#34;_blank&#34;&gt;networkdiffusion&lt;/a&gt;, a R package which can help simulate and visualize the network diffusion.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

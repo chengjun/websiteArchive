@@ -34,11 +34,11 @@
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/apple-touch-icon.png">
 
-  <link rel="canonical" href="https://chengjun.github.io/post/hugo2github/">
+  <link rel="canonical" href="https://chengjun.github.io/post/iching/">
 
   
 
-  <title>Deploy Hugo-Academic on Github Pages | Academic</title>
+  <title>iching: Practising Divination of I Ching | Academic</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#navbar-main" data-offset="71">
@@ -148,13 +148,13 @@
   
 
   <div class="article-container">
-    <h1 itemprop="name">Deploy Hugo-Academic on Github Pages</h1>
+    <h1 itemprop="name">iching: Practising Divination of I Ching</h1>
     
 
 <div class="article-metadata">
 
   <span class="article-date">
-    <time datetime="2017-02-13 12:54:27 &#43;0800 CST" itemprop="datePublished">
+    <time datetime="2017-02-13 14:15:36 &#43;0800 CST" itemprop="datePublished">
       Mon, Feb 13, 2017
     </time>
   </span>
@@ -167,10 +167,10 @@
   <span class="article-tags">
     <i class="fa fa-tags"></i>
     
-    <a href="/tags/hugo">hugo</a
+    <a href="/tags/news">news</a
     >, 
     
-    <a href="/tags/news">news</a
+    <a href="/tags/python">Python</a
     >
     
   </span>
@@ -183,35 +183,35 @@
   <ul class="share">
     <li>
       <a class="facebook"
-         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fchengjun.github.io%2fpost%2fhugo2github%2f"
+         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fchengjun.github.io%2fpost%2fiching%2f"
          target="_blank">
         <i class="fa fa-facebook"></i>
       </a>
     </li>
     <li>
       <a class="twitter"
-         href="https://twitter.com/intent/tweet?text=Deploy%20Hugo-Academic%20on%20Github%20Pages&amp;url=https%3a%2f%2fchengjun.github.io%2fpost%2fhugo2github%2f"
+         href="https://twitter.com/intent/tweet?text=iching%3a%20Practising%20Divination%20of%20I%20Ching&amp;url=https%3a%2f%2fchengjun.github.io%2fpost%2fiching%2f"
          target="_blank">
         <i class="fa fa-twitter"></i>
       </a>
     </li>
     <li>
       <a class="linkedin"
-         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fchengjun.github.io%2fpost%2fhugo2github%2f&amp;title=Deploy%20Hugo-Academic%20on%20Github%20Pages"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fchengjun.github.io%2fpost%2fiching%2f&amp;title=iching%3a%20Practising%20Divination%20of%20I%20Ching"
          target="_blank">
         <i class="fa fa-linkedin"></i>
       </a>
     </li>
     <li>
       <a class="weibo"
-         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2fchengjun.github.io%2fpost%2fhugo2github%2f&amp;title=Deploy%20Hugo-Academic%20on%20Github%20Pages"
+         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2fchengjun.github.io%2fpost%2fiching%2f&amp;title=iching%3a%20Practising%20Divination%20of%20I%20Ching"
          target="_blank">
         <i class="fa fa-weibo"></i>
       </a>
     </li>
     <li>
       <a class="email"
-         href="mailto:?subject=Deploy%20Hugo-Academic%20on%20Github%20Pages&amp;body=https%3a%2f%2fchengjun.github.io%2fpost%2fhugo2github%2f">
+         href="mailto:?subject=iching%3a%20Practising%20Divination%20of%20I%20Ching&amp;body=https%3a%2f%2fchengjun.github.io%2fpost%2fiching%2f">
         <i class="fa fa-envelope"></i>
       </a>
     </li>
@@ -224,72 +224,9 @@
 </div>
 
     <div class="article-style" itemprop="articleBody">
-      <p>I tried to move from jekyll to hugo to enhance my personal website. But I still want to use Github Pages to host the generated html files (in the <code>Public</code> folder). The trick is you have to move the files in the <code>Public</code> folder to the local folder of your github folder.</p>
+      <p><a href="https://pypi.python.org/pypi/iching/" target="_blank">iching</a>, a Python package that employs the Achillea millefolium method to practise divination of I Ching (易经的蓍草卜卦方法).</p>
 
-<ul>
-<li>Create on GitHub <code>mywebsite-hugo</code> repository (it will host Hugo’s content)</li>
-<li>Create on GitHub <code>chengjun.github.io</code> repository (it will host the public folder: the static website)</li>
-<li><code>cd github</code></li>
-<li><code>git clone https://github.com/chengjun/mywebsite-hugo.git</code></li>
-<li><code>hugo new site mywebsite-hugo --force</code></li>
-<li><code>cd mywebsite-hugo</code></li>
-<li>download <a href="https://github.com/gcushen/hugo-academic/archive/master.zip" target="_blank">Academic</a> and extract it into a themes/academic folder within your Hugo website.</li>
-<li>If you are creating a new website, copy the contents of the exampleSite folder to your website root folder, overwriting existing files if necessary.</li>
-<li>Manage the content and <code>hugo server --watch</code></li>
-<li>Once you are happy with the results, <code>Ctrl+C</code> (kill server)</li>
-<li>Almost done: add a <code>deploy.sh</code> script to help you (see the following script)</li>
-<li>and make it executable: <code>chmod +x deploy.sh</code></li>
-<li><code>./deploy.sh &quot;Your optional commit message&quot;</code> to send changes to <username>.github.io</li>
-<li>(careful, you may also want to commit changes on the <your-project>-hugo repo).</li>
-</ul>
-
-<p>The following script is content of the deploy.sh.</p>
-
-<pre><code class="language-bash">#!/bin/bash
-
-echo -e &quot;\033[0;32mDeploying updates to GitHub...\033[0m&quot;
-
-# Build the project.
-hugo # if using a theme, replace by `hugo -t &lt;yourtheme&gt;`
-
-# Go To Public folder
-cd ..
-
-cd chengjun.github.io
-
-cp -av /Users/chengjun/github/mywebsite-hugo/public/* .
-
-
-# Add changes to git.
-git add -A
-
-# Commit changes.
-msg=&quot;rebuilding site `date`&quot;
-if [ $# -eq 1 ]
-  then msg=&quot;$1&quot;
-fi
-git commit -m &quot;$msg&quot;
-
-# Push source and build repos.
-git push origin master
-
-# Come Back
-cd ..
-</code></pre>
-
-<p>Each time when I want to add some files, I can easily do it using atom and terminal. for exmaple, add a markdown file to the post, I can simply run <code>hugo new post/example.md</code> in my terminal, and then edit it using atom.</p>
-
-<p>I can inspect the effect by running <code>hugo server --watch</code></p>
-
-<p>After I make some changes, I can conveniently run the following code to deploy the html files to github pages.</p>
-
-<div class="alert alert-note">
-  <p><code>./deploy.sh &quot;Your optional commit message&quot;</code></p>
-
-</div>
-
-
-<p>For the source code in the mywebsite-hugo folder, I can also easily archive them within Atom using the &lsquo;Git Plus&rsquo; package.</p>
+<iframe src="http://nbviewer.ipython.org/github/chengjun/iching/blob/master/iching_intro.ipynb" scrolling="no" width="700" height="6500"></iframe>
 
     </div>
   </div>
@@ -300,12 +237,12 @@ cd ..
   <nav>
   <ul class="pager">
     
-    <li class="previous"><a href="https://chengjun.github.io/post/getting-started/"><span
-      aria-hidden="true">&larr;</span> Getting started with the Academic framework for Hugo</a></li>
+    <li class="previous"><a href="https://chengjun.github.io/post/hugo2github/"><span
+      aria-hidden="true">&larr;</span> Deploy Hugo-Academic on Github Pages</a></li>
     
 
     
-    <li class="next"><a href="https://chengjun.github.io/post/iching/">iching: Practising Divination of I Ching <span
+    <li class="next"><a href="https://chengjun.github.io/post/scholarnetwork/">scholarnetwork: Crawl and Visualize the Coauthor Network <span
       aria-hidden="true">&rarr;</span></a></li>
     
   </ul>
@@ -320,9 +257,9 @@ cd ..
     <div id="disqus_thread"></div>
 <script type="text/javascript">
     var disqus_shortname = 'ChengjunWang';
-    var disqus_identifier = 'https:\/\/chengjun.github.io\/post\/hugo2github\/';
-    var disqus_title = 'Deploy Hugo-Academic on Github Pages';
-    var disqus_url = 'https:\/\/chengjun.github.io\/post\/hugo2github\/';
+    var disqus_identifier = 'https:\/\/chengjun.github.io\/post\/iching\/';
+    var disqus_title = 'iching: Practising Divination of I Ching';
+    var disqus_url = 'https:\/\/chengjun.github.io\/post\/iching\/';
 
     (function() {
         var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
