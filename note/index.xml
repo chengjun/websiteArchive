@@ -65,7 +65,13 @@ echo -e &amp;quot;\033[0;32mDeploying updates to GitHub...\033[0m&amp;quot;
 hugo # if using a theme, replace by `hugo -t &amp;lt;yourtheme&amp;gt;`
 
 # Go To Public folder
-cd public
+cd ..
+
+cd chengjun.github.io
+
+cp -av /Users/chengjun/github/mywebsite-hugo/public/* .
+
+
 # Add changes to git.
 git add -A
 

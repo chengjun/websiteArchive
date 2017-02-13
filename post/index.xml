@@ -11,6 +11,79 @@
     <atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Deploy Hugo-Academic on Github Pages</title>
+      <link>https://chengjun.github.io/post/hugo2github/</link>
+      <pubDate>Mon, 13 Feb 2017 12:54:27 +0800</pubDate>
+      
+      <guid>https://chengjun.github.io/post/hugo2github/</guid>
+      <description>&lt;p&gt;I tried to move from jekyll to hugo to enhance my personal website. But I still want to use Github Pages to host the generated html files (in the &lt;code&gt;Public&lt;/code&gt; folder). The trick is you have to move the files in the &lt;code&gt;Public&lt;/code&gt; folder to the local folder of your github folder.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Create on GitHub &lt;code&gt;mywebsite-hugo&lt;/code&gt; repository (it will host Hugo’s content)&lt;/li&gt;
+&lt;li&gt;Create on GitHub &lt;code&gt;chengjun.github.io&lt;/code&gt; repository (it will host the public folder: the static website)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;cd github&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;git clone https://github.com/chengjun/mywebsite-hugo.git&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;hugo new site mywebsite-hugo --force&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;cd mywebsite-hugo&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;download &lt;a href=&#34;https://github.com/gcushen/hugo-academic/archive/master.zip&#34; target=&#34;_blank&#34;&gt;Academic&lt;/a&gt; and extract it into a themes/academic folder within your Hugo website.&lt;/li&gt;
+&lt;li&gt;If you are creating a new website, copy the contents of the exampleSite folder to your website root folder, overwriting existing files if necessary.&lt;/li&gt;
+&lt;li&gt;Manage the content and &lt;code&gt;hugo server --watch&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Once you are happy with the results, &lt;code&gt;Ctrl+C&lt;/code&gt; (kill server)&lt;/li&gt;
+&lt;li&gt;Almost done: add a &lt;code&gt;deploy.sh&lt;/code&gt; script to help you (see the following script)&lt;/li&gt;
+&lt;li&gt;and make it executable: &lt;code&gt;chmod +x deploy.sh&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;./deploy.sh &amp;quot;Your optional commit message&amp;quot;&lt;/code&gt; to send changes to &lt;username&gt;.github.io&lt;/li&gt;
+&lt;li&gt;(careful, you may also want to commit changes on the &lt;your-project&gt;-hugo repo).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The following script is content of the deploy.sh.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;#!/bin/bash
+
+echo -e &amp;quot;\033[0;32mDeploying updates to GitHub...\033[0m&amp;quot;
+
+# Build the project.
+hugo # if using a theme, replace by `hugo -t &amp;lt;yourtheme&amp;gt;`
+
+# Go To Public folder
+cd ..
+
+cd chengjun.github.io
+
+cp -av /Users/chengjun/github/mywebsite-hugo/public/* .
+
+
+# Add changes to git.
+git add -A
+
+# Commit changes.
+msg=&amp;quot;rebuilding site `date`&amp;quot;
+if [ $# -eq 1 ]
+  then msg=&amp;quot;$1&amp;quot;
+fi
+git commit -m &amp;quot;$msg&amp;quot;
+
+# Push source and build repos.
+git push origin master
+
+# Come Back
+cd ..
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Each time when I want to add some files, I can easily do it using atom and terminal. for exmaple, add a markdown file to the post, I can simply run &lt;code&gt;hugo new post/example.md&lt;/code&gt; in my terminal, and then edit it using atom.&lt;/p&gt;
+
+&lt;p&gt;I can inspect the effect by running &lt;code&gt;hugo server --watch&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;After I make some changes, I can conveniently run the following code to deploy the html files to github pages.&lt;/p&gt;
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;p&gt;&lt;code&gt;./deploy.sh &amp;quot;Your optional commit message&amp;quot;&lt;/code&gt;&lt;/p&gt;
+
+&lt;/div&gt;
+
+</description>
+    </item>
+    
+    <item>
       <title>Getting started with the Academic framework for Hugo</title>
       <link>https://chengjun.github.io/post/getting-started/</link>
       <pubDate>Wed, 20 Apr 2016 12:00:00 +0000</pubDate>
