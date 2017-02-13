@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>4 on Academic</title>
+    <link>https://chengjun.github.io/publication_types/4/index.xml</link>
+    <description>Recent content in 4 on Academic</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2016 Cheng-Jun Wang</copyright>
+    <atom:link href="/publication_types/4/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>计算传播学的起源、概念和应用</title>
+      <link>https://chengjun.github.io/publication/cc-orgin/</link>
+      <pubDate>Sun, 15 May 2016 11:53:36 +0800</pubDate>
+      
+      <guid>https://chengjun.github.io/publication/cc-orgin/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>大数据计算与《纸牌屋》生成</title>
+      <link>https://chengjun.github.io/publication/big-data-house/</link>
+      <pubDate>Thu, 05 May 2016 12:12:10 +0800</pubDate>
+      
+      <guid>https://chengjun.github.io/publication/big-data-house/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>“今日头条”的技术逻辑：网络爬虫&#43;矩阵筛选</title>
+      <link>https://chengjun.github.io/publication/toutiao-logic/</link>
+      <pubDate>Mon, 05 Oct 2015 12:15:21 +0800</pubDate>
+      
+      <guid>https://chengjun.github.io/publication/toutiao-logic/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>计算传播学:作为计算社会科学的传播学</title>
+      <link>https://chengjun.github.io/publication/cc-intro/</link>
+      <pubDate>Fri, 13 Feb 2015 12:03:36 +0800</pubDate>
+      
+      <guid>https://chengjun.github.io/publication/cc-intro/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>计算社会科学在新闻传播研究中的应用</title>
+      <link>https://chengjun.github.io/publication/ccs-application/</link>
+      <pubDate>Thu, 20 Mar 2014 12:18:49 +0800</pubDate>
+      
+      <guid>https://chengjun.github.io/publication/ccs-application/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

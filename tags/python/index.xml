@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Python on Academic</title>
+    <link>https://chengjun.github.io/tags/python/index.xml</link>
+    <description>Recent content in Python on Academic</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2016 Cheng-Jun Wang</copyright>
+    <atom:link href="/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>世界之外的角落</title>
+      <link>https://chengjun.github.io/note/2014-07-01-life-is-hard/</link>
+      <pubDate>Tue, 01 Jul 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://chengjun.github.io/note/2014-07-01-life-is-hard/</guid>
+      <description>
+
+&lt;p&gt;最近的压力有一点大。新网站、老板的中文情感分析任务、和Yanto等新启动的项目、和小可的论文、和计算士的合作。一个一个说说看，缓解一下压力。&lt;/p&gt;
+
+&lt;h4 id=&#34;新的网站终于上线了-还有一堆问题没有搞定&#34;&gt;新的网站终于上线了，还有一堆问题没有搞定。&lt;/h4&gt;
+
+&lt;p&gt;自己泡在farbox的api文档中一段时间啦。在we.farbox.com上问hepochen两个问题。第一个问题是如何多人上传；第二个问题是如何建立多个作者的列表。hepochen一个人做起了farbox的各种工作，颇有些程序员创业的艰辛。我还在执著地要给作者建立post的索引。&lt;/p&gt;
+
+&lt;p&gt;说到上线，更多是符号的意义。因为就是将域名设定为了&lt;a href=&#34;http://computational-communication.com。这个域名里有三个com。可以简称之为3com网站，&#34; target=&#34;_blank&#34;&gt;http://computational-communication.com。这个域名里有三个com。可以简称之为3com网站，&lt;/a&gt; 英文讲起来是Triple Com，颇有点EEE和WWW的霸气。期间跟远在新加坡的godaddy客服英文电话了两次，主要是解决nameserver和dns里的mx设定的问题。&lt;/p&gt;
+
+&lt;h4 id=&#34;中文情感分析&#34;&gt;中文情感分析&lt;/h4&gt;
+
+&lt;p&gt;改动了tt小合子的python代码，把这个东西写得更完备了一些。算是一个锻炼吧。不过想想或许不如直接用原作者开源的python代码。我称之为使用中文文法分析为情感分析重新造轮子。最难的是发展字典，到这里了。例会的时候，我问了老板的意见，决定先搁置这个任务。&lt;/p&gt;
+
+&lt;h4 id=&#34;yanto这边的论文&#34;&gt;Yanto这边的论文&lt;/h4&gt;
+
+&lt;p&gt;主题模型做了差不多一年啦，初稿才出来。期间太艰辛了，不过结果的确比我一个人能做出的要好。是一个collective思维的流动的过程。&lt;/p&gt;
+
+&lt;p&gt;Yanto大手一挥，我们要开启一个method paper。我对此很怀疑。去查了论文，从spatial pattern的角度去做不是太相关的。&lt;/p&gt;
+
+&lt;h4 id=&#34;小可这边的合作&#34;&gt;小可这边的合作&lt;/h4&gt;
+
+&lt;p&gt;小可的要求不算高，我们统计了校内网络初期两年增长的一些基本特征。没有做深入，他发过来一篇论文过来，我还没好好看。&lt;/p&gt;
+
+&lt;h4 id=&#34;计算士的idea&#34;&gt;计算士的idea&lt;/h4&gt;
+
+&lt;p&gt;计算士是我见到的不多的非常投入研究的人。方向对了，感觉整个人过了几年的积累完全不一样了。谈好了我去抓一个网站，于是开始写代码，结果腾讯的内网结结实实地把我挡住了。小郁闷下，转过身去在自己电脑上开始鼓捣起来。一定要有点起色。&lt;/p&gt;
+
+&lt;p&gt;又写了一天代码。终于可以运转了。自己这一年好像经常抓数据了。挺喜欢github这个空间，没有太多的花哨的东西，一切有的只是一个自己写字的地方。不过运算的时间太长了，得找找有没有什么方法可以避免。我能想到的是多线程的抓取数据。&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
