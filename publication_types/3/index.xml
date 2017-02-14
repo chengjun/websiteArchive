@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>3 on Academic</title>
+    <link>https://chengjun.github.io/publication_types/3/index.xml</link>
+    <description>Recent content in 3 on Academic</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2016 Cheng-Jun Wang</copyright>
+    <atom:link href="/publication_types/3/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>计算社会科学视野下的新闻学研究</title>
+      <link>https://chengjun.github.io/publication/computational-journalism/</link>
+      <pubDate>Tue, 14 Feb 2017 11:33:49 +0800</pubDate>
+      
+      <guid>https://chengjun.github.io/publication/computational-journalism/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
