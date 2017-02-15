@@ -10,6 +10,28 @@
     <atom:link href="/tags/python/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>scholarnetwork: Crawl and Visualize the Coauthor Network</title>
+      <link>https://chengjun.github.io/post/scholarnetwork/</link>
+      <pubDate>Mon, 13 Feb 2017 14:15:51 +0800</pubDate>
+      
+      <guid>https://chengjun.github.io/post/scholarnetwork/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://pypi.python.org/pypi/scholarNetwork/&#34; target=&#34;_blank&#34;&gt;scholarNetwork&lt;/a&gt;, a Python package to crawl and visualize the coauthor network of Google Scholars.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>iching: Practising Divination of I Ching</title>
+      <link>https://chengjun.github.io/post/iching/</link>
+      <pubDate>Mon, 13 Feb 2017 14:15:36 +0800</pubDate>
+      
+      <guid>https://chengjun.github.io/post/iching/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://pypi.python.org/pypi/iching/&#34; target=&#34;_blank&#34;&gt;iching&lt;/a&gt;, a Python package that employs the Achillea millefolium method to practise divination of I Ching (易经的蓍草卜卦方法).&lt;/p&gt;
+
+&lt;iframe src=&#34;http://nbviewer.ipython.org/github/chengjun/iching/blob/master/iching_intro.ipynb&#34; scrolling=&#34;no&#34; width=&#34;700&#34; height=&#34;6500&#34;&gt;&lt;/iframe&gt;
+</description>
+    </item>
+    
+    <item>
       <title>世界之外的角落</title>
       <link>https://chengjun.github.io/note/2014-07-01-life-is-hard/</link>
       <pubDate>Tue, 01 Jul 2014 00:00:00 +0000</pubDate>
