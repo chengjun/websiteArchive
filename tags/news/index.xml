@@ -10,6 +10,141 @@
     <atom:link href="/tags/news/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>News Map of China</title>
+      <link>https://chengjun.github.io/post/news-map/</link>
+      <pubDate>Mon, 13 Feb 2017 14:32:07 +0800</pubDate>
+      
+      <guid>https://chengjun.github.io/post/news-map/</guid>
+      <description>
+
+&lt;p&gt;&lt;a href=&#34;http://chengjunwang.com/newsmap/#edu/2011&#34; target=&#34;_blank&#34;&gt;News Map&lt;/a&gt; is built upon cartogram.js (a JavaScript implementation of an algoritm to construct continuous area cartograms ©1985), d3.js and colorbrewer. This visualization combines TopoJSON-encoded boundaries of the Chinese provinces with GDP data from National Bureau Statistics of the People&amp;rsquo;s Republic of China to size each province proportionally. Designed and built by Chengjun Wang and Zhicong Chen at Computational Communication Collaboratory, School of Journalism and Communication, Nanjing University.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://chengjunwang.com/newsmap/#edu/2011&#34; target=&#34;_blank&#34;&gt;Read More &amp;gt;&amp;gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;related-publication&#34;&gt;Related Publication:&lt;/h2&gt;
+
+&lt;p&gt;王成军 (2016) &lt;a href=&#34;http://chengjunwang.com/publication/cc-orgin/&#34; target=&#34;_blank&#34;&gt;计算传播学的起源、概念与应用&lt;/a&gt;. 编辑学刊,3:59-64.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Visualizing Global Terrorism using googleVis</title>
+      <link>https://chengjun.github.io/post/global-terrorism/</link>
+      <pubDate>Mon, 13 Feb 2017 14:32:07 +0800</pubDate>
+      
+      <guid>https://chengjun.github.io/post/global-terrorism/</guid>
+      <description>&lt;p&gt;Using the Data from Global Terrorism Database (GTD) and googleVis-0.5.8, I visualize the global terrorism attacks over time. The remarkable negative relationship between kills and political stability can clearly observed. &lt;a href=&#34;http://chengjun.github.io/datajournalism/vis/terrorism/&#34; target=&#34;_blank&#34;&gt;Read More &amp;gt;&amp;gt;&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>networkdiffusion: Simulate and Visualize Network Diffusion</title>
+      <link>https://chengjun.github.io/post/networkdiffusion/</link>
+      <pubDate>Mon, 13 Feb 2017 14:16:05 +0800</pubDate>
+      
+      <guid>https://chengjun.github.io/post/networkdiffusion/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://github.com/chengjun/networkdiffusion&#34; target=&#34;_blank&#34;&gt;networkdiffusion&lt;/a&gt;, a R package which can help simulate and visualize the network diffusion.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>scholarnetwork: Crawl and Visualize the Coauthor Network</title>
+      <link>https://chengjun.github.io/post/scholarnetwork/</link>
+      <pubDate>Mon, 13 Feb 2017 14:15:51 +0800</pubDate>
+      
+      <guid>https://chengjun.github.io/post/scholarnetwork/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://pypi.python.org/pypi/scholarNetwork/&#34; target=&#34;_blank&#34;&gt;scholarNetwork&lt;/a&gt;, a Python package to crawl and visualize the coauthor network of Google Scholars.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>iching: Practising Divination of I Ching</title>
+      <link>https://chengjun.github.io/post/iching/</link>
+      <pubDate>Mon, 13 Feb 2017 14:15:36 +0800</pubDate>
+      
+      <guid>https://chengjun.github.io/post/iching/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://pypi.python.org/pypi/iching/&#34; target=&#34;_blank&#34;&gt;iching&lt;/a&gt;, a Python package that employs the Achillea millefolium method to practise divination of I Ching (易经的蓍草卜卦方法).&lt;/p&gt;
+
+&lt;iframe src=&#34;http://nbviewer.ipython.org/github/chengjun/iching/blob/master/iching_intro.ipynb&#34; scrolling=&#34;no&#34; width=&#34;700&#34; height=&#34;6500&#34;&gt;&lt;/iframe&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Deploy Hugo-Academic on Github Pages</title>
+      <link>https://chengjun.github.io/post/hugo2github/</link>
+      <pubDate>Mon, 13 Feb 2017 12:54:27 +0800</pubDate>
+      
+      <guid>https://chengjun.github.io/post/hugo2github/</guid>
+      <description>&lt;p&gt;I tried to move from jekyll to hugo to enhance my personal website. But I still want to use Github Pages to host the generated html files (in the &lt;code&gt;Public&lt;/code&gt; folder). The trick is you have to move the files in the &lt;code&gt;Public&lt;/code&gt; folder to the local folder of your github folder.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Create on GitHub &lt;code&gt;mywebsite-hugo&lt;/code&gt; repository (it will host Hugo’s content)&lt;/li&gt;
+&lt;li&gt;Create on GitHub &lt;code&gt;chengjun.github.io&lt;/code&gt; repository (it will host the public folder: the static website)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;cd github&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;git clone https://github.com/chengjun/mywebsite-hugo.git&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;hugo new site mywebsite-hugo --force&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;cd mywebsite-hugo&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;download &lt;a href=&#34;https://github.com/gcushen/hugo-academic/archive/master.zip&#34; target=&#34;_blank&#34;&gt;Academic&lt;/a&gt; and extract it into a themes/academic folder within your Hugo website.&lt;/li&gt;
+&lt;li&gt;If you are creating a new website, copy the contents of the exampleSite folder to your website root folder, overwriting existing files if necessary.&lt;/li&gt;
+&lt;li&gt;Manage the content and &lt;code&gt;hugo server --watch&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Once you are happy with the results, &lt;code&gt;Ctrl+C&lt;/code&gt; (kill server)&lt;/li&gt;
+&lt;li&gt;Almost done: add a &lt;code&gt;deploy.sh&lt;/code&gt; script to help you (see the following script)&lt;/li&gt;
+&lt;li&gt;and make it executable: &lt;code&gt;chmod +x deploy.sh&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;./deploy.sh &amp;quot;Your optional commit message&amp;quot;&lt;/code&gt; to send changes to &lt;username&gt;.github.io&lt;/li&gt;
+&lt;li&gt;(careful, you may also want to commit changes on the &lt;your-project&gt;-hugo repo).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The following script is content of the deploy.sh.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;#!/bin/bash
+
+echo -e &amp;quot;\033[0;32mDeploying updates to GitHub...\033[0m&amp;quot;
+
+# Build the project.
+hugo # if using a theme, replace by `hugo -t &amp;lt;yourtheme&amp;gt;`
+
+# Go To Public folder
+cd ..
+
+cd chengjun.github.io
+
+cp -av /Users/chengjun/github/mywebsite-hugo/public/* .
+
+
+# Add changes to git.
+git add -A
+
+# Commit changes.
+msg=&amp;quot;rebuilding site `date`&amp;quot;
+if [ $# -eq 1 ]
+  then msg=&amp;quot;$1&amp;quot;
+fi
+git commit -m &amp;quot;$msg&amp;quot;
+
+# Push source and build repos.
+git push origin master
+
+# Come Back
+cd ..
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Each time when I want to add some files, I can easily do it using atom and terminal. for exmaple, add a markdown file to the post, I can simply run &lt;code&gt;hugo new post/example.md&lt;/code&gt; in my terminal, and then edit it using atom.&lt;/p&gt;
+
+&lt;p&gt;I can inspect the effect by running &lt;code&gt;hugo server --watch&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;After I make some changes, I can conveniently run the following code to deploy the html files to github pages.&lt;/p&gt;
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;p&gt;&lt;code&gt;./deploy.sh &amp;quot;Your optional commit message&amp;quot;&lt;/code&gt;&lt;/p&gt;
+
+&lt;/div&gt;
+
+
+&lt;p&gt;For the source code in the mywebsite-hugo folder, I can also easily archive them within Atom using the &amp;lsquo;Git Plus&amp;rsquo; package.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Getting started with the Academic framework for Hugo</title>
       <link>https://chengjun.github.io/post/getting-started/</link>
       <pubDate>Wed, 20 Apr 2016 12:00:00 +0000</pubDate>
