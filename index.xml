@@ -31,6 +31,79 @@
     </item>
     
     <item>
+      <title>数据洞察：掘地三尺的研究路径</title>
+      <link>https://chengjun.github.io/note/data-insight/</link>
+      <pubDate>Fri, 17 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://chengjun.github.io/note/data-insight/</guid>
+      <description>
+
+&lt;p&gt;最近一年多一直和令飞折腾团队合作的东西，也在思考如何进行团队合作。之前是把开会当成头脑风暴，后来发现太浪费时间，尤其是团队成员超过三个人之后（也要兼顾别人没有那么多时间），合作的成本开始上升，如何高效地进行合作就成了一个重要的问题。我们研究的主题也就是这个东西。&lt;/p&gt;
+
+&lt;h2 id=&#34;直接表达claim&#34;&gt;直接表达claim&lt;/h2&gt;
+
+&lt;p&gt;团队成员的意见只是帮助我思考，我要领导这个研究项目向前。直接地表达claim，然后使用数据证明自己的观点，就会发现其中的断裂的逻辑链条，进而不断完善。&lt;/p&gt;
+
+&lt;h2 id=&#34;polish-your-claim&#34;&gt;Polish your claim&lt;/h2&gt;
+
+&lt;p&gt;比如，我去统计了用户在不同的repos里的push的次数计算其multi-tasking的香农熵和core team ratio，发现：
+&amp;gt; Github用户倾向于比较平均但深入地参与到团队项目（&lt;code&gt;claim&lt;/code&gt;）。&lt;/p&gt;
+
+&lt;p&gt;俗话说用志不分乃凝于神。最近有点分心，精力不集中，产生了很多问题。一个问题是计算士这边的活落下来了。昨天跟小可聊天，也因为不熟悉整个脉络被抢白了半天。于是自己也在思索：解决了什么问题？研究的意义是什么？&lt;/p&gt;
+
+&lt;h3 id=&#34;从异速增长率开始&#34;&gt;从异速增长率开始！&lt;/h3&gt;
+
+&lt;p&gt;从异速增长率开始！It all starts with a big allowmetric growth rate! 异速增长率：这是一个重要的问题。比如一个流系统的节点是N， 产出是P,那么满足 $P = N^\theta$的关系。在互联网中，它就是PV和UV的关系。它提出了一个问题，即：为什么生物、城市、互联网都满足一个普世规律？它定量地表达了投入和产出的关系。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://wiki.swarma.net/images/thumb/c/c5/Allowmetric_growht_digg_36_days.png/400px-Allowmetric_growht_digg_36_days.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;为什么会有异速增长？一个可能的答案是流网络的自相似性。自己的哪里相似？究竟是什么地方？注意：异速增长是一个时间维度的系统状态的变化。它满足标度率，那么它本身就是自相似的。可以究竟什么才是自相似？（似乎马上回到了以前的问题：什么是无标度网络？）&lt;/p&gt;
+
+&lt;p&gt;引入耗散的视角：耗散阻碍了生长。每个小时里流网络而言，可以算每个节点i的耗散与流入。流入$T&lt;em&gt;{i}$和耗散$D&lt;/em&gt;{i}$的差值就是节点i的流存量。&lt;/p&gt;
+
+&lt;p&gt;我们知道$T&lt;em&gt;{i}$和耗散$D&lt;/em&gt;{i}$的关系同样满足一个标度规律。放在直角坐标系中，我们可以画出这种关系。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://wiki.swarma.net/images/d/d9/Dissipation_digg_36_days.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;直角坐标系隐含了一些潜在的假设：我们要按照从小到大的顺序（我称之为序假设，rank assumption）排列才能看到这种规律。坐标轴的作用就是这样。但要注意：流冰不是这样从耗散小的节点留到耗散大的节点。&lt;/p&gt;
+
+&lt;h3 id=&#34;几何化&#34;&gt;几何化&lt;/h3&gt;
+
+&lt;p&gt;将流网络几何化，看成是一个由源向外的耗散。一个流网络，就可以算出任一节点到源头的流距离$L_{i}$。算法暂时省略。&lt;/p&gt;
+
+&lt;p&gt;整个网络按照半径重排：保持了网络的自相似性。这里的自相似是指Dreyer球意义上的自相似，即沿着半径由球心向外走，每个半径上的$T&lt;em&gt;{i}$和耗散$D&lt;/em&gt;{i}$各自的积分（即流的累加）保持标度关系。这个时候，尺度便成了球半径（流距离），而不是直角坐标系里的序了。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://wiki.swarma.net/images/thumb/5/58/Hour23.png/400px-Hour23.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;但是，换成了流距离作序参量（这里我是乱用的）的话，这种效果依然不好：&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://wiki.swarma.net/images/thumb/8/84/Les.png/800px-Les.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;看到数据里的平行四边形，而不是相互遮盖成为一个直线。&lt;/p&gt;
+
+&lt;p&gt;结果导致了拟合的耗散率$\mu$和异速增长率$\theta$之间的关系具有较大的噪音：&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://wiki.swarma.net/images/thumb/c/ce/MuAndTheta.png/600px-MuAndTheta.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;怎么办？引入系统规模UV。&lt;/p&gt;
+
+&lt;p&gt;$
+T&amp;reg; = A*D_{rmax}^aD&amp;reg;^b
+$&lt;/p&gt;
+
+&lt;p&gt;T&amp;reg;和D&amp;reg;代表沿半径r从source到sink对节点的直接流通量$t&lt;em&gt;{i}$和耗散量$d&lt;/em&gt;{i}$进行积分。当r=rmax时，D&amp;reg;=D(rmax)=UV。&lt;/p&gt;
+
+&lt;p&gt;果然效果好了。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://wiki.swarma.net/images/thumb/c/c1/Dreyerballscaling.png/800px-Dreyerballscaling.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;看到这里我自愧弗如远甚。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://wiki.swarma.net/images/7/7e/Addjustedthetaprediction.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>计算社会科学视野下的新闻学研究</title>
       <link>https://chengjun.github.io/publication/computational-journalism/</link>
       <pubDate>Tue, 14 Feb 2017 11:33:49 +0800</pubDate>
@@ -423,92 +496,6 @@ cd ..
       
       <guid>https://chengjun.github.io/publication/big-data-house/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>测试Atom软件</title>
-      <link>https://chengjun.github.io/note/2016-05-04-atom/</link>
-      <pubDate>Wed, 04 May 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://chengjun.github.io/note/2016-05-04-atom/</guid>
-      <description>
-
-&lt;p&gt;使用&lt;strong&gt;Atom&lt;/strong&gt;来编写markdown非常不错，按ctr+shift+m就可以进入预览模式，我想markdownpad可以抛弃掉了。这个软件更流畅，非常棒！因为我经常要写github的博客，使用atom时最容易的形式。减少了甚多负担，非常的自由，如果它具有上传功能就好了。&lt;/p&gt;
-
-&lt;h1 id=&#34;数学公式&#34;&gt;数学公式&lt;/h1&gt;
-
-&lt;p&gt;安装了markdown-preview-enhanced，可以很方便的展示数学公式，比如 $x = y^2$。&lt;/p&gt;
-
-&lt;p&gt;$E = MC^2$&lt;/p&gt;
-
-&lt;p&gt;需要按 ctrl+ shift+ x，按ctrl+ shift+ m无法展示数学公式。&lt;/p&gt;
-
-&lt;h1 id=&#34;参考文献&#34;&gt;参考文献&lt;/h1&gt;
-
-&lt;p&gt;插入一个参考文献&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:a&#34;&gt;&lt;a rel=&#34;footnote&#34; href=&#34;#fn:a&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:b&#34;&gt;&lt;a rel=&#34;footnote&#34; href=&#34;#fn:b&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:c&#34;&gt;&lt;a rel=&#34;footnote&#34; href=&#34;#fn:c&#34;&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
-
-&lt;p&gt;再次插入一个参考文献&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:b&#34;&gt;&lt;a rel=&#34;footnote&#34; href=&#34;#fn:b&#34;&gt;4&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;插入一个参考文献[^a][^b][^c]
-
-[^a]: author1, 2014, This is a title. Journal. 00-00
-[^b]: author2, 2014, This is a title. Journal. 00-00
-[^c]: author5, 2014, This is a title. Journal. 00-00
-
-再次插入一个参考文献[^b]
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h1 id=&#34;图片上传功能&#34;&gt;图片上传功能&lt;/h1&gt;
-
-&lt;p&gt;结果就发现阿里巴巴程序员knightli的两个atom插件：qiniu-uploader和markdown-assistant。设置好七牛的账号既可以非常方便地使用图床了。赞。&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://oaf2qt3yk.bkt.clouddn.com/1895b6670f7276a1f10903cf1305e686.png&#34; alt=&#34;qiniu-uploader&#34; /&gt;&lt;/p&gt;
-
-&lt;h1 id=&#34;git上传功能&#34;&gt;Git上传功能&lt;/h1&gt;
-
-&lt;p&gt;接着又找到了&lt;a href=&#34;https://atom.io/packages/git-plus&#34; target=&#34;_blank&#34;&gt;git-plus&lt;/a&gt;这个强大的插件，可以直接在atom里上传了。好吧！社区的力量真强大。太好了。&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;按 *command+shift+H*打开操作界面。&lt;/li&gt;
-&lt;li&gt;选择&lt;code&gt;add all commit+push&lt;/code&gt;就可以上传了！
-
-&lt;ul&gt;
-&lt;li&gt;填写commit的内容&lt;/li&gt;
-&lt;li&gt;command+s保存即可上传&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://oaf2qt3yk.bkt.clouddn.com/7497f687c919c447882fd0abd4d68bc2.png&#34; alt=&#34;surprise&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;震惊脸！！！!&lt;/p&gt;
-
-&lt;h1 id=&#34;atom-html-preview&#34;&gt;atom-html-preview&lt;/h1&gt;
-
-&lt;p&gt;如果你需要修改的html文件的话，可以很方便地使用atom-html-preview插件。&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;快捷键&lt;code&gt;ctr+shift+h&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://oaf2qt3yk.bkt.clouddn.com/d832f904c15079ed7f38816a5407c1b6.png&#34; alt=&#34;atom-html-preview&#34; /&gt;&lt;/p&gt;
-
-&lt;h1 id=&#34;参考文献-1&#34;&gt;参考文献&lt;/h1&gt;
-&lt;div class=&#34;footnotes&#34;&gt;
-
-&lt;hr /&gt;
-
-&lt;ol&gt;
-&lt;li id=&#34;fn:a&#34;&gt;author1, 2014, This is a title. Journal. 00-00
- &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:a&#34;&gt;&lt;sup&gt;^&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li id=&#34;fn:b&#34;&gt;author2, 2014, This is a title. Journal. 00-00
- &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:b&#34;&gt;&lt;sup&gt;^&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li id=&#34;fn:c&#34;&gt;author5, 2014, This is a title. Journal. 00-00
- &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:c&#34;&gt;&lt;sup&gt;^&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li id=&#34;fn:b&#34;&gt;author2, 2014, This is a title. Journal. 00-00
- &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:b&#34;&gt;&lt;sup&gt;^&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/div&gt;
-</description>
     </item>
     
   </channel>

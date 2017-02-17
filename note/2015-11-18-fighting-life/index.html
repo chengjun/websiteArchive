@@ -307,24 +307,25 @@
 
 <div class="article-container">
   
-<section id="comments">
-  <div id="disqus_thread">
-    <div id="disqus_thread"></div>
-<script type="text/javascript">
-    var disqus_shortname = 'ChengjunWang';
-    var disqus_identifier = 'https:\/\/chengjun.github.io\/note\/2015-11-18-fighting-life\/';
-    var disqus_title = '生活的欲望';
-    var disqus_url = 'https:\/\/chengjun.github.io\/note\/2015-11-18-fighting-life\/';
 
-    (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
-  </div>
+<section id="comments">
+  <div id="disqus_thread"></div>
+  <script>
+  
+  (function() {
+   var inIFrame = function() {
+      var iframe = true;
+      try { iframe = window.self !== window.top; } catch (e) {}
+      return iframe;
+    };
+    if (inIFrame()) return;
+    var d = document, s = d.createElement('script');
+    s.src = '//ChengjunWang.disqus.com/embed.js'; s.async = true;
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+  })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 </section>
 
 
