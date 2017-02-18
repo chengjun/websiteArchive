@@ -38,7 +38,7 @@
       <guid>https://chengjun.github.io/note/data-insight/</guid>
       <description>
 
-&lt;p&gt;最近一年多一直和令飞折腾团队合作的东西，也在思考如何进行团队合作。之前是把开会当成头脑风暴，后来发现太浪费时间，尤其是团队成员超过三个人之后（也要兼顾别人没有那么多时间），合作的成本开始上升，如何高效地进行合作就成了一个重要的问题。我们研究的主题也就是这个东西。&lt;/p&gt;
+&lt;p&gt;最近一年多一直和令飞折腾&lt;code&gt;团队合作&lt;/code&gt;的东西，也在思考如何进行团队合作。之前是把开会当成头脑风暴，后来发现太浪费时间，尤其是团队成员超过三个人之后（也要兼顾别人没有那么多时间），合作的成本开始上升，如何高效地进行合作就成了一个重要的问题。我们研究的主题也就是这个东西。&lt;/p&gt;
 
 &lt;h2 id=&#34;直接表达claim&#34;&gt;直接表达claim&lt;/h2&gt;
 
@@ -49,9 +49,53 @@
 &lt;p&gt;比如，我去统计了用户在不同的repos里的push的次数计算其multi-tasking的香农熵和core team ratio，发现：
 &amp;gt; Github用户倾向于比较平均但深入地参与到团队项目（&lt;code&gt;claim&lt;/code&gt;）。&lt;/p&gt;
 
-&lt;p&gt;俗话说用志不分乃凝于神。最近有点分心，精力不集中，产生了很多问题。一个问题是计算士这边的活落下来了。昨天跟小可聊天，也因为不熟悉整个脉络被抢白了半天。于是自己也在思索：解决了什么问题？研究的意义是什么？&lt;/p&gt;
+&lt;h2 id=&#34;写一个abstract&#34;&gt;写一个abstract&lt;/h2&gt;
+
+&lt;p&gt;找一个novelty的点，需要一个narrow down的concrete的research question。&lt;/p&gt;
+
+&lt;p&gt;一开始要有一个想法，somehow connect to something, 挖来挖去做出来很多unconnected的findings。apparent team不是真实的team， real team， workload distribution and skillset overlapped，对于impact的影响。metric correct team size. team的充水程度。story！what is a real team is research topic。怎么定义水分就靠近hypothesis。&lt;/p&gt;
+
+&lt;p&gt;我之前说的一大堆只是想说一个论点：因为我们不是duncan watts，所以我们还是要用正轨的research道路。define topics, narrow it down, implement, provide prospects四部曲的方式。令飞之前说的“什么样是真正有效的合作，从技能的重合度和贡献量来衡量”是research topic, 不是一篇文章的research question。&lt;/p&gt;
+
+&lt;p&gt;general trend， team up. No real collaboration. How to measure&lt;/p&gt;
+
+&lt;p&gt;从workload的分布定义一个metric，&lt;/p&gt;
+
+&lt;p&gt;core team size or effective team size
+- 加一个时间维度， 新陈代谢， m(t)
+- diversity，做过多少个不同的项目，experience好测量
+- repeated collaboration&lt;/p&gt;
+
+&lt;p&gt;组织为什么会失败。&lt;/p&gt;
+
+&lt;p&gt;junior和senior scholar合作效果不错。&lt;/p&gt;
+
+&lt;p&gt;Uzzi B, Mukherjee S, Stringer M, Jones B. 2013. Atypical combinations and scientific impact. Science 342:468–72&lt;/p&gt;
+
+&lt;p&gt;Lee Y N, Walsh J P, Wang J. Creativity in scientific teams: Unpacking novelty and impact. Research Policy, 2015, 44(3):684-697.&lt;/p&gt;
+
+&lt;h2 id=&#34;因公出国护照办理&#34;&gt;因公出国护照办理&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://wb.nju.edu.cn/zzbl/list.htm&#34; target=&#34;_blank&#34;&gt;http://wb.nju.edu.cn/zzbl/list.htm&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;一、公务（普通）护照办理
+（一）办证要求
+1、在办结因公出国校内审批后，由申请者本人到仙林校区行政楼818室采集指纹，并提交以下材料：
+（1）身份证原件
+（2）身份证复印件（标明出生地所在省、直辖市或自治区名）
+（3）两寸白底彩照1张
+2、现无公务（普通）护照/护照过期/护照有效期不足（本次出访后，距护照到期不足6个月；部分国家所需有效期更长）
+（二）办理时间：1至2周（不含节假日）&lt;/p&gt;
+
+&lt;h3 id=&#34;因公出国人员申报流程及材料须知&#34;&gt;因公出国人员申报流程及材料须知&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://wb.nju.edu.cn/splc/list.htm&#34; target=&#34;_blank&#34;&gt;http://wb.nju.edu.cn/splc/list.htm&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;因公临时出国人员根据“OA申报材料清单”,通过OA系统提交申报材料；&lt;/p&gt;
 
 &lt;h3 id=&#34;从异速增长率开始&#34;&gt;从异速增长率开始！&lt;/h3&gt;
+
+&lt;p&gt;俗话说用志不分乃凝于神。最近有点分心，精力不集中，产生了很多问题。一个问题是计算士这边的活落下来了。昨天跟小可聊天，也因为不熟悉整个脉络被抢白了半天。于是自己也在思索：解决了什么问题？研究的意义是什么？&lt;/p&gt;
 
 &lt;p&gt;从异速增长率开始！It all starts with a big allowmetric growth rate! 异速增长率：这是一个重要的问题。比如一个流系统的节点是N， 产出是P,那么满足 $P = N^\theta$的关系。在互联网中，它就是PV和UV的关系。它提出了一个问题，即：为什么生物、城市、互联网都满足一个普世规律？它定量地表达了投入和产出的关系。&lt;/p&gt;
 

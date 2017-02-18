@@ -11,6 +11,16 @@
     <atom:link href="/publication/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Analyzing Mobile Phone Data With Network Science</title>
+      <link>https://chengjun.github.io/publication/ica2017/</link>
+      <pubDate>Sun, 14 May 2017 22:03:57 +0800</pubDate>
+      
+      <guid>https://chengjun.github.io/publication/ica2017/</guid>
+      <description>&lt;p&gt;2017 ICA Conference&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>计算社会科学视野下的新闻学研究</title>
       <link>https://chengjun.github.io/publication/computational-journalism/</link>
       <pubDate>Tue, 14 Feb 2017 11:33:49 +0800</pubDate>
