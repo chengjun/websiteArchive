@@ -41,6 +41,16 @@
     </item>
     
     <item>
+      <title>The Landscape of Information Diffusion on Sina Weibo</title>
+      <link>https://chengjun.github.io/publication/weibo-landscape/</link>
+      <pubDate>Sat, 18 Feb 2017 22:13:01 +0800</pubDate>
+      
+      <guid>https://chengjun.github.io/publication/weibo-landscape/</guid>
+      <description>&lt;p&gt;Under review.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>数据洞察：掘地三尺的研究路径</title>
       <link>https://chengjun.github.io/note/data-insight/</link>
       <pubDate>Fri, 17 Feb 2017 00:00:00 +0000</pubDate>
@@ -532,15 +542,6 @@ cd ..
 
 &lt;p&gt;没想到晚上更惨，被python的encoding error搞得很头大！&lt;/p&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>计算传播学的起源、概念和应用</title>
-      <link>https://chengjun.github.io/publication/cc-orgin/</link>
-      <pubDate>Sun, 15 May 2016 11:53:36 +0800</pubDate>
-      
-      <guid>https://chengjun.github.io/publication/cc-orgin/</guid>
-      <description></description>
     </item>
     
   </channel>
