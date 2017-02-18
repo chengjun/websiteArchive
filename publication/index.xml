@@ -21,6 +21,27 @@
     </item>
     
     <item>
+      <title>Information Diffusion on Microblogs</title>
+      <link>https://chengjun.github.io/publication/weibo-threshold/</link>
+      <pubDate>Sat, 18 Feb 2017 22:20:56 +0800</pubDate>
+      
+      <guid>https://chengjun.github.io/publication/weibo-threshold/</guid>
+      <description>&lt;p&gt;To be submitted.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>找回失落的参考群体：对“沉默的螺旋”进行多主体建模</title>
+      <link>https://chengjun.github.io/publication/sos-agent/</link>
+      <pubDate>Sat, 18 Feb 2017 22:20:24 +0800</pubDate>
+      
+      <guid>https://chengjun.github.io/publication/sos-agent/</guid>
+      <description>&lt;p&gt;Abstract：The purpose of this study is threefold: first, to bring reference groups back into the framework of spiral of silence (SOS) by proposing an integrated framework of dual opinion climate; second, to investigate the boundary conditions of SOS; third, to identify the characteristics of SOS in terms of spatial variation and temporal evolution. Modeling SOS with agent-based models, the findings suggest that there is no guarantee of SOS with reference groups being brought back; the stable existence of SOS is contingent upon the comparative strength of mass media over reference groups; SOS is size-dependent upon reference groups and the population; the growth rate of SOS decreases over time. Thus, this research presents an extension of the SOS theory.&lt;br /&gt;
+Key Words: spiral of silence; willingness to express; agent-based model; reference group; size-dependent&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>The Landscape of Information Diffusion on Sina Weibo</title>
       <link>https://chengjun.github.io/publication/weibo-landscape/</link>
       <pubDate>Sat, 18 Feb 2017 22:13:01 +0800</pubDate>
@@ -130,16 +151,6 @@
       
       <guid>https://chengjun.github.io/publication/ccs-application/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>Discussing Occupy Wall Street on Twitter</title>
-      <link>https://chengjun.github.io/publication/dicuss-ows-tweets/</link>
-      <pubDate>Thu, 12 Sep 2013 00:00:00 +0000</pubDate>
-      
-      <guid>https://chengjun.github.io/publication/dicuss-ows-tweets/</guid>
-      <description>&lt;p&gt;More detail can easily be written here using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
-</description>
     </item>
     
   </channel>

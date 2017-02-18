@@ -41,6 +41,27 @@
     </item>
     
     <item>
+      <title>Information Diffusion on Microblogs</title>
+      <link>https://chengjun.github.io/publication/weibo-threshold/</link>
+      <pubDate>Sat, 18 Feb 2017 22:20:56 +0800</pubDate>
+      
+      <guid>https://chengjun.github.io/publication/weibo-threshold/</guid>
+      <description>&lt;p&gt;To be submitted.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>找回失落的参考群体：对“沉默的螺旋”进行多主体建模</title>
+      <link>https://chengjun.github.io/publication/sos-agent/</link>
+      <pubDate>Sat, 18 Feb 2017 22:20:24 +0800</pubDate>
+      
+      <guid>https://chengjun.github.io/publication/sos-agent/</guid>
+      <description>&lt;p&gt;Abstract：The purpose of this study is threefold: first, to bring reference groups back into the framework of spiral of silence (SOS) by proposing an integrated framework of dual opinion climate; second, to investigate the boundary conditions of SOS; third, to identify the characteristics of SOS in terms of spatial variation and temporal evolution. Modeling SOS with agent-based models, the findings suggest that there is no guarantee of SOS with reference groups being brought back; the stable existence of SOS is contingent upon the comparative strength of mass media over reference groups; SOS is size-dependent upon reference groups and the population; the growth rate of SOS decreases over time. Thus, this research presents an extension of the SOS theory.&lt;br /&gt;
+Key Words: spiral of silence; willingness to express; agent-based model; reference group; size-dependent&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>The Landscape of Information Diffusion on Sina Weibo</title>
       <link>https://chengjun.github.io/publication/weibo-landscape/</link>
       <pubDate>Sat, 18 Feb 2017 22:13:01 +0800</pubDate>
@@ -330,217 +351,6 @@ cd ..
       
       <guid>https://chengjun.github.io/publication/tracing-attention/</guid>
       <description>&lt;p&gt;More detail can easily be written here using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>The Collective Direction of Attention Diffusion</title>
-      <link>https://chengjun.github.io/publication/collective-direction/</link>
-      <pubDate>Mon, 05 Sep 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://chengjun.github.io/publication/collective-direction/</guid>
-      <description>&lt;p&gt;More detail can easily be written here using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Github个人网站维护</title>
-      <link>https://chengjun.github.io/note/2016-08-03-github/</link>
-      <pubDate>Wed, 03 Aug 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://chengjun.github.io/note/2016-08-03-github/</guid>
-      <description>
-
-&lt;h2 id=&#34;hugo-on-github&#34;&gt;Hugo on github&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Create on GitHub &lt;code&gt;mywebsite-hugo&lt;/code&gt; repository (it will host Hugo’s content)&lt;/li&gt;
-&lt;li&gt;Create on GitHub &lt;code&gt;chengjun.github.io&lt;/code&gt; repository (it will host the public folder: the static website)&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;cd github&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;git clone https://github.com/chengjun/mywebsite-hugo.git&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;hugo new site mywebsite-hugo --force&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;cd mywebsite-hugo&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;download &lt;a href=&#34;https://github.com/gcushen/hugo-academic/archive/master.zip&#34; target=&#34;_blank&#34;&gt;Academic&lt;/a&gt; and extract it into a themes/academic folder within your Hugo website.&lt;/li&gt;
-&lt;li&gt;If you are creating a new website, copy the contents of the exampleSite folder to your website root folder, overwriting existing files if necessary.&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;hugo server --watch&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Once you are happy with the results, &lt;code&gt;Ctrl+C&lt;/code&gt; (kill server) and &lt;code&gt;rm -rf public&lt;/code&gt; (don’t worry, it can always be regenerated with hugo -t &lt;yourtheme&gt;)&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;git submodule add https://github.com/chengjun/chengjun.github.io.git public --force&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Almost done: add a deploy.sh script to help you&lt;/li&gt;
-&lt;li&gt;and make it executable: &lt;code&gt;chmod +x deploy.sh&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;./deploy.sh &amp;quot;Your optional commit message&amp;quot;&lt;/code&gt; to send changes to &lt;username&gt;.github.io (careful, you may also want to commit changes on the &lt;your-project&gt;-hugo repo).&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;#!/bin/bash
-
-echo -e &amp;quot;\033[0;32mDeploying updates to GitHub...\033[0m&amp;quot;
-
-# Build the project.
-hugo # if using a theme, replace by `hugo -t &amp;lt;yourtheme&amp;gt;`
-
-# Go To Public folder
-cd ..
-
-cd chengjun.github.io
-
-cp -av /Users/chengjun/github/mywebsite-hugo/public/* .
-
-
-# Add changes to git.
-git add -A
-
-# Commit changes.
-msg=&amp;quot;rebuilding site `date`&amp;quot;
-if [ $# -eq 1 ]
-  then msg=&amp;quot;$1&amp;quot;
-fi
-git commit -m &amp;quot;$msg&amp;quot;
-
-# Push source and build repos.
-git push origin master
-
-# Come Back
-cd ..
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h2 id=&#34;domain-name&#34;&gt;domain name&lt;/h2&gt;
-
-&lt;p&gt;在godaddy上花了122块钱买了两年的域名 &lt;a href=&#34;http://chengjunwang.com&#34; target=&#34;_blank&#34;&gt;chengjunwang.com&lt;/a&gt;。简单设置cname和goddy上的a record和cname www record就好了。主要参考了&lt;a href=&#34;http://andrewsturges.com/blog/jekyll/tutorial/2014/11/06/github-and-godaddy.html&#34; target=&#34;_blank&#34;&gt;这里&lt;/a&gt;。&lt;/p&gt;
-
-&lt;p&gt;我对于html的无知可以说是到了某种无以附加的程度。虽然我投入了很多时间，但往往都是干中学。而不是系统的模仿。通常会发现很多困惑，然后每次对我而言都是一个个小trick就解决了问题。&lt;/p&gt;
-
-&lt;h2 id=&#34;平行的文本框&#34;&gt;平行的文本框&lt;/h2&gt;
-
-&lt;p&gt;如何添加一个平行的文本框？这个困惑了我很久的问题，解决方法是设置position为absolute。&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;#textbox {
-  position:absolute;
-  top: 200px;
-  width: auto;
-  margin-left: 50px;
-  background-color: rgba(0,0,0,0.2);
-  opacity:1;
-}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;修改之后又觉得不好看。又尝试了iframe，也不是很合适。&lt;/p&gt;
-
-&lt;p&gt;之后发现一篇好文章&lt;a href=&#34;http://css-tricks.com/examples/ShapesOfCSS/&#34; target=&#34;_blank&#34;&gt;The Shapes of CSS&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;修改了其中的talkbubble，放在application.css中。&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;#talkbubble {
-   position:absolute;
-   top: 250px;
-   margin-left: 50px;
-   width: 300px;
-   height: 150px;
-   background-color: rgba(0,0,0,0.2);
-   -moz-border-radius:    10px;
-   -webkit-border-radius: 10px;
-   border-radius:         10px;
-}
-#talkbubble:before {
-   content:&amp;quot;&amp;quot;;
-   position: absolute;
-   margin-left: 300px;
-   top: 80px;
-   width: 0;
-   height: 0;
-   background-color: transparent;
-   #border-top: 5px solid transparent;
-   border-bottom: 30px solid rgba(0,0,0,0.2);
-   border-right: 120px solid transparent;
-}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;在index.html里加入talkbubble来显示新闻。&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;&amp;lt;div id=&amp;quot;talkbubble&amp;quot;&amp;gt;
-  &amp;lt;h2&amp;gt;&amp;lt;a href=&amp;quot;http://chengjun.github.io/cv/news.html&amp;quot;&amp;gt;News&amp;lt;/a&amp;gt;&amp;lt;/h2&amp;gt;
-  &amp;lt;p&amp;gt;[Feb 23] &amp;lt;a href=&amp;quot;https://pypi.python.org/pypi/scholarNetwork/&amp;quot;&amp;gt;scholarNetwork&amp;lt;/a&amp;gt;--a python package which can help crawl and visualize the coauthor network of Google Scholar is released to Pypi. &amp;lt;/p&amp;gt;
-&amp;lt;/div&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h3 id=&#34;谷歌字体&#34;&gt;谷歌字体&lt;/h3&gt;
-
-&lt;p&gt;俺天朝跟谷歌成了死敌。背后的很多想法让人很无奈。虽然米果是两党制，但是谷歌据说也在检查之列。到了俺朝，美利坚放不下身段了，天朝也放不下，于是就僵住了。于是很多谷歌的服务都不好用了。比如谷歌学术，谷歌邮箱。哎妈呀，老伤心老。我这里要说的却是谷歌的字体格式。&lt;/p&gt;
-
-&lt;p&gt;在天朝载入我的博客慢的原因就是因为style.css里（media/css/style.css）调用里谷歌字体。好伤心，每次访问速度都很慢，非得翻墙才行。可是不能让俺的读者们也翻墙吧，这也太虎了。反正我的审美要求也没那么高。雪藏了吧。&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;#@import url(http://fonts.googleapis.com/css?family=Galdeano);
-#@import url(http://fonts.googleapis.com/css?family=Electrolize);
-#@import url(http://fonts.googleapis.com/css?family=Cuprum);
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h3 id=&#34;改过来之后&#34;&gt;改过来之后&lt;/h3&gt;
-
-&lt;p&gt;我了个去，怎么英文字体变这么大了，BIG好吧，只能骗自己感觉萌萌哒啦。&lt;/p&gt;
-
-&lt;h3 id=&#34;把谷歌字体放在本站&#34;&gt;把谷歌字体放在本站&lt;/h3&gt;
-
-&lt;p&gt;其实很早就注意到andy wang的这个解决方法，一直比较懒。还是去在mac上安装了github for mac，于是把andy wang的media文件夹偷到我这里来用。&lt;/p&gt;
-
-&lt;p&gt;Andy Wang:
-&lt;code&gt;你好，我扒走了你的模板，然后在天朝用发现非常慢，然后调试了一下，发现是在style.css和home.css里面有从别的网站下载字体文件的, http://fonts.googleapis.com/这个网站在天朝访问非常不稳定，所以做了一些小改动，把字体文件都下载到网站上了，页面渲染速度也快了很多。https://github.com/synckey/synckey.github.io/tree/master/media/css&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;终于，世界再次变得一片清凉了。真好。&lt;/p&gt;
-
-&lt;h2 id=&#34;categories&#34;&gt;categories&lt;/h2&gt;
-
-&lt;p&gt;我喜欢在网页端更新github上的日志，通过设置只显示categories为blog的文档，我可以每次修改一点东西就完全在网页端写日志。图片附件什么的可以放在七牛网站，感觉非常好。&lt;/p&gt;
-
-&lt;p&gt;下面是我用来复制和重命名1000个md文本的python代码：&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;        # -*- coding: utf-8 -*-
-        &amp;quot;&amp;quot;&amp;quot;
-        Created on Thu Aug 07 14:05:09 2014
-
-        @author: chengjun
-        &amp;quot;&amp;quot;&amp;quot;
-
-        import shutil
-        path = &amp;quot;D:/github/chengjun.github.io/_posts/&amp;quot;   
-
-        demo = path + &amp;quot;2010-01-01-demo.md&amp;quot;
-
-        for i in range(1000):
-            newFile = path + &amp;quot;2010-01-&amp;quot; + str(i) + &amp;quot;.md&amp;quot;
-            print newFile
-            shutil.copy(demo, newFile)
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://chengjun.qiniudn.com/7.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;jekyll3-0&#34;&gt;jekyll3.0&lt;/h2&gt;
-
-&lt;p&gt;这个是一个测试，jekyll更新到了3.0版本，所以github也相应发生了改变（见&lt;a href=&#34;https://github.com/blog/2100-github-pages-now-faster-and-simpler-with-jekyll-3-0&#34; target=&#34;_blank&#34;&gt;这里&lt;/a&gt;）。这导致了我的文章无法显示，解决的方法是去掉表头的时间一行，就可以了，我还没有明白原因。&lt;/p&gt;
-
-&lt;h2 id=&#34;某一类的博文目录&#34;&gt;某一类的博文目录&lt;/h2&gt;
-
-&lt;p&gt;主要参考 &lt;a href=&#34;http://stackoverflow.com/questions/12008108/filtering-posts-using-categories-in-jekyll-bootstrap&#34; target=&#34;_blank&#34;&gt;filtering-posts-using-categories-in-jekyll-bootstrap&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;这个是使用liquid写的，介绍见&lt;a href=&#34;http://liquidmarkup.org/&#34; target=&#34;_blank&#34;&gt;这里&lt;/a&gt;。&lt;/p&gt;
-
-&lt;p&gt;主要添加两行liquid代码：&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;if post.categories contains &#39;生活&#39;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;不要忘记endif&lt;/p&gt;
-
-&lt;p&gt;由于liquid语言本身不能在本网站呈现，读者可以查看&lt;a href=&#34;https://github.com/chengjun/chengjun.github.io/blob/master/life/index.html&#34; target=&#34;_blank&#34;&gt;这里&lt;/a&gt;。&lt;/p&gt;
-
-&lt;p&gt;琢磨出一个不用每次在jekyll上写博客都要上传的方法：将要显示的博客的categories设为blog，一次上传n个草稿（不指定categories），使用liquid语言指定在博客列表中只显示blog类的。这样草稿不会被显示，每次在线登录github，更改一个草稿的标题和categories就可以了。图片用外链flickr。&lt;/p&gt;
-
-&lt;h2 id=&#34;paginator&#34;&gt;paginator&lt;/h2&gt;
-
-&lt;p&gt;今天下午鼓捣了半天jekyll的设置，最初是想弄一个&lt;a href=&#34;http://jekyllrb.com/docs/pagination/&#34; target=&#34;_blank&#34;&gt;paginator&lt;/a&gt;给文章列表分页，结果搞了半天，没搞定。各种问题。&lt;a href=&#34;http://patrick-mckinley.com/tech/jekyll-pagination.html&#34; target=&#34;_blank&#34;&gt;Patrick McKinley&lt;/a&gt;说是因为不是网站第一层的index.html，所以jekyll官方设置时没有用的。于是，直接用他的方法，发现没有办法在我的网站上实现。&lt;/p&gt;
-
-&lt;p&gt;Patrick McKinley的博客以图片来显示博客文章的方法似乎很酷。感兴趣，去研究了下他的&lt;a href=&#34;https://github.com/lilmuckers/lilmuckers.github.com&#34; target=&#34;_blank&#34;&gt;代码&lt;/a&gt;，大致是设置了post.image，图片存放在assets中的图片文件夹。我弄了下，也没弄成功。&lt;/p&gt;
-
-&lt;p&gt;又看到&lt;a href=&#34;tmtxt.github.com&#34; target=&#34;_blank&#34;&gt;Mr Trường at RMIT&lt;/a&gt;的网页，翻了半天，加了related_posts功能。&lt;/p&gt;
-
-&lt;p&gt;没想到晚上更惨，被python的encoding error搞得很头大！&lt;/p&gt;
 </description>
     </item>
     
