@@ -42,10 +42,10 @@
     
     <item>
       <title></title>
-      <link>https://chengjun.github.io/about/cv/</link>
+      <link>https://chengjun.github.io/cv/</link>
       <pubDate>Sun, 19 Feb 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://chengjun.github.io/about/cv/</guid>
+      <guid>https://chengjun.github.io/cv/</guid>
       <description>
 
 &lt;h1 id=&#34;cheng-jun-wang&#34;&gt;Cheng-Jun Wang&lt;/h1&gt;
@@ -215,8 +215,6 @@
 &lt;li&gt;&lt;a href=&#34;http://chengjun.github.io/newsmap/#edu/2011&#34; target=&#34;_blank&#34;&gt;News Map of China&lt;/a&gt; using D3.js.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://chengjun.github.io/datajournalism/vis/terrorism/&#34; target=&#34;_blank&#34;&gt;Global Terrorism&lt;/a&gt; using googleVis.&lt;/li&gt;
 &lt;/ol&gt;
-
-&lt;hr /&gt;
 </description>
     </item>
     
