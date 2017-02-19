@@ -303,9 +303,9 @@
 
 <p>为什么会有异速增长？一个可能的答案是流网络的自相似性。自己的哪里相似？究竟是什么地方？注意：异速增长是一个时间维度的系统状态的变化。它满足标度率，那么它本身就是自相似的。可以究竟什么才是自相似？（似乎马上回到了以前的问题：什么是无标度网络？）</p>
 
-<p>引入耗散的视角：耗散阻碍了生长。每个小时里流网络而言，可以算每个节点i的耗散与流入。流入$T<em>{i}$和耗散$D</em>{i}$的差值就是节点i的流存量。</p>
+<p>引入耗散的视角：耗散阻碍了生长。每个小时里流网络而言，可以算每个节点i的耗散与流入。流入$T_{i}$和耗散$D_i$的差值就是节点i的流存量。</p>
 
-<p>我们知道$T<em>{i}$和耗散$D</em>{i}$的关系同样满足一个标度规律。放在直角坐标系中，我们可以画出这种关系。</p>
+<p>我们知道$T_i$和耗散 $D_i$的关系同样满足一个标度规律。放在直角坐标系中，我们可以画出这种关系。</p>
 
 <p><img src="http://wiki.swarma.net/images/d/d9/Dissipation_digg_36_days.png" alt="" /></p>
 
@@ -315,7 +315,7 @@
 
 <p>将流网络几何化，看成是一个由源向外的耗散。一个流网络，就可以算出任一节点到源头的流距离$L_{i}$。算法暂时省略。</p>
 
-<p>整个网络按照半径重排：保持了网络的自相似性。这里的自相似是指Dreyer球意义上的自相似，即沿着半径由球心向外走，每个半径上的$T<em>{i}$和耗散$D</em>{i}$各自的积分（即流的累加）保持标度关系。这个时候，尺度便成了球半径（流距离），而不是直角坐标系里的序了。</p>
+<p>整个网络按照半径重排：保持了网络的自相似性。这里的自相似是指Dreyer球意义上的自相似，即沿着半径由球心向外走，每个半径上的$T_i$和耗散$D_i$各自的积分（即流的累加）保持标度关系。这个时候，尺度便成了球半径（流距离），而不是直角坐标系里的序了。</p>
 
 <p><img src="http://wiki.swarma.net/images/thumb/5/58/Hour23.png/400px-Hour23.png" alt="" /></p>
 
@@ -331,11 +331,9 @@
 
 <p>怎么办？引入系统规模UV。</p>
 
-<p>$
-T&reg; = A*D_{rmax}^aD&reg;^b
-$</p>
+<p>$$T(r) = A D_{rmax}^a D(r)^b$$</p>
 
-<p>T&reg;和D&reg;代表沿半径r从source到sink对节点的直接流通量$t<em>{i}$和耗散量$d</em>{i}$进行积分。当r=rmax时，D&reg;=D(rmax)=UV。</p>
+<p>T(r)和D(r)代表沿半径r从source到sink对节点的直接流通量$t_i$和耗散量$d_i$进行积分。当r=rmax时，D(r)=D(rmax)=UV。</p>
 
 <p>果然效果好了。</p>
 
@@ -444,9 +442,17 @@ $</p>
     
     
     <script type="text/x-mathjax-config">
-        MathJax.Hub.Config({ tex2jax: { inlineMath: [['$','$'], ['\\(','\\)']] } });
+        MathJax.Hub.Config({ tex2jax: { inlineMath: [['$','$'], ['\\(','\\)']] ,
+        processEscapes: true
+      },
+        TeX: {
+           equationNumbers: { autoNumber: "AMS" }
+        }
+       });
     </script>
-    <script async src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_CHTML"></script>
+    <script async src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    
+
     
 
   </body>
