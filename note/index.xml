@@ -40,20 +40,20 @@
 
 &lt;p&gt;最近一年多一直和令飞折腾&lt;code&gt;团队合作&lt;/code&gt;的东西，也在思考如何进行团队合作。之前是把开会当成头脑风暴，后来发现太浪费时间，尤其是团队成员超过三个人之后（也要兼顾别人没有那么多时间），合作的成本开始上升，如何高效地进行合作就成了一个重要的问题。我们研究的主题也就是这个东西。&lt;/p&gt;
 
-&lt;h2 id=&#34;直接表达claim&#34;&gt;直接表达claim&lt;/h2&gt;
+&lt;h1 id=&#34;直接表达claim&#34;&gt;直接表达claim&lt;/h1&gt;
 
 &lt;p&gt;团队成员的意见只是帮助我思考，我要领导这个研究项目向前。直接地表达claim，然后使用数据证明自己的观点，就会发现其中的断裂的逻辑链条，进而不断完善。&lt;/p&gt;
 
-&lt;h2 id=&#34;polish-your-claim&#34;&gt;Polish your claim&lt;/h2&gt;
-
-&lt;p&gt;比如，我去统计了用户在不同的repos里的push的次数计算其multi-tasking的香农熵和core team ratio，发现：
+&lt;p&gt;&lt;strong&gt;Polish your claim&lt;/strong&gt; 比如，我去统计了用户在不同的repos里的push的次数计算其multi-tasking的香农熵和core team ratio，发现：
 &amp;gt; Github用户倾向于比较平均但深入地参与到团队项目（&lt;code&gt;claim&lt;/code&gt;）。&lt;/p&gt;
 
-&lt;h2 id=&#34;写一个abstract&#34;&gt;写一个abstract&lt;/h2&gt;
+&lt;h1 id=&#34;abstract&#34;&gt;Abstract&lt;/h1&gt;
 
-&lt;p&gt;找一个novelty的点，需要一个narrow down的concrete的research question。&lt;/p&gt;
+&lt;p&gt;找一个novelty的点，需要一个narrow down的concrete的research question。要避免一开始要有一个想法，somehow connect to something, 挖来挖去做出来很多unconnected的findings。&lt;/p&gt;
 
-&lt;p&gt;一开始要有一个想法，somehow connect to something, 挖来挖去做出来很多unconnected的findings。apparent team不是真实的team， real team， workload distribution and skillset overlapped，对于impact的影响。metric correct team size. team的充水程度。story！what is a real team is research topic。怎么定义水分就靠近hypothesis。&lt;/p&gt;
+&lt;p&gt;apparent team不是真实的team， 我们想要找到real team， 因此可以去分析workload distribution and skill set overlapped，及其对于impact的影响。&lt;/p&gt;
+
+&lt;p&gt;我们想要找一个metric to correct team size. team的&lt;strong&gt;充水&lt;/strong&gt;程度。story！what is a real team is research topic。怎么定义水分就靠近hypothesis。&lt;/p&gt;
 
 &lt;p&gt;我之前说的一大堆只是想说一个论点：因为我们不是duncan watts，所以我们还是要用正轨的research道路。define topics, narrow it down, implement, provide prospects四部曲的方式。令飞之前说的“什么样是真正有效的合作，从技能的重合度和贡献量来衡量”是research topic, 不是一篇文章的research question。&lt;/p&gt;
 
@@ -69,6 +69,12 @@
 &lt;p&gt;组织为什么会失败。&lt;/p&gt;
 
 &lt;p&gt;junior和senior scholar合作效果不错。&lt;/p&gt;
+
+&lt;p&gt;C(t)=A(1-exp(-t/tau))&lt;/p&gt;
+
+&lt;p&gt;可以先把10个人的team的代码总量随（绝对）时间的变化看一下&lt;/p&gt;
+
+&lt;p&gt;C是t时刻的代码总量，A是无穷远时代码总量，tau大概就是半衰期。然后画一个所有大team的tau的分布，如果是双峰的分布，说明确实有两种team。20120311之后出现的team好像都有显示代码量。&lt;/p&gt;
 
 &lt;p&gt;Uzzi B, Mukherjee S, Stringer M, Jones B. 2013. Atypical combinations and scientific impact. Science 342:468–72&lt;/p&gt;
 
