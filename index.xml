@@ -41,6 +41,16 @@
     </item>
     
     <item>
+      <title>空间约束的人类行为</title>
+      <link>https://chengjun.github.io/publication/lbs-behavior/</link>
+      <pubDate>Fri, 24 Feb 2017 15:23:43 +0800</pubDate>
+      
+      <guid>https://chengjun.github.io/publication/lbs-behavior/</guid>
+      <description>&lt;p&gt;王成军、吴令飞 （2017）空间约束的人类行为. 《连接之后》，胡泳、王俊秀（主编）.人民邮电出版社. pp. 262-271&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title></title>
       <link>https://chengjun.github.io/cv/</link>
       <pubDate>Sun, 19 Feb 2017 00:00:00 +0000</pubDate>
@@ -518,18 +528,6 @@ cd ..
 
 
 &lt;p&gt;For the source code in the mywebsite-hugo folder, I can also easily archive them within Atom using the &amp;lsquo;Git Plus&amp;rsquo; package.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>The Origin, Concept, and Applications of Computational Communication</title>
-      <link>https://chengjun.github.io/talk/pku-shenzhen-talk/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://chengjun.github.io/talk/pku-shenzhen-talk/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;http://oaf2qt3yk.bkt.clouddn.com/06ac05ad66faaaea73ade02ec4bdd608.png&#34; alt=&#34;sz-talk&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;讲座：计算传播学的起源、概念与应用&lt;/p&gt;
 </description>
     </item>
     

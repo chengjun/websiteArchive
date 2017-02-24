@@ -20,6 +20,14 @@
     
     
     <url>
+      <loc>https://chengjun.github.io/publication/lbs-behavior/</loc>
+      <lastmod>2017-02-24T15:23:43+08:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
       <loc>https://chengjun.github.io/cv/</loc>
       <lastmod>2017-02-19T00:00:00+00:00</lastmod>
     </url>
@@ -566,7 +574,7 @@
     
     <url>
       <loc>https://chengjun.github.io/publication_types/4/</loc>
-      <lastmod>2016-05-15T11:53:36+08:00</lastmod>
+      <lastmod>2017-02-24T15:23:43+08:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -576,6 +584,15 @@
     <url>
       <loc>https://chengjun.github.io/</loc>
       <lastmod>2016-04-20T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+      <loc>https://chengjun.github.io/tags/attention-networks/</loc>
+      <lastmod>2016-04-27T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -612,6 +629,42 @@
     
     
     <url>
+      <loc>https://chengjun.github.io/tags/hugo/</loc>
+      <lastmod>2017-02-13T12:54:27+08:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+      <loc>https://chengjun.github.io/tags/jekyll/</loc>
+      <lastmod>2014-03-10T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+      <loc>https://chengjun.github.io/tags/markdown/</loc>
+      <lastmod>2010-01-10T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+      <loc>https://chengjun.github.io/tags/news/</loc>
+      <lastmod>2016-04-20T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
       <loc>https://chengjun.github.io/project/</loc>
       <lastmod>2016-04-27T00:00:00+00:00</lastmod>
       <priority>0</priority>
@@ -638,6 +691,15 @@
     
     
     <url>
+      <loc>https://chengjun.github.io/tags/r/</loc>
+      <lastmod>2017-02-13T14:16:05+08:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
       <loc>https://chengjun.github.io/tags/</loc>
       <priority>0</priority>
     </url>
@@ -647,6 +709,15 @@
     
     <url>
       <loc>https://chengjun.github.io/note/2016-10-19-postdoc-hukou/</loc>
+    </url>
+    
+  
+    
+    
+    <url>
+      <loc>https://chengjun.github.io/tags/%E5%9C%A3%E7%BB%8F/</loc>
+      <lastmod>2015-05-02T00:00:00+00:00</lastmod>
+      <priority>0</priority>
     </url>
     
   
@@ -663,24 +734,6 @@
     <url>
       <loc>https://chengjun.github.io/categories/%E5%AD%A6%E6%9C%AF/</loc>
       <lastmod>2014-10-07T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-      <loc>https://chengjun.github.io/tags/%E5%AE%9E%E9%AA%8C%E5%AE%A4/</loc>
-      <lastmod>2014-10-07T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-      <loc>https://chengjun.github.io/tags/%E5%AE%B6%E4%B9%A1/</loc>
-      <lastmod>2014-05-08T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -705,6 +758,33 @@
     
     
     <url>
+      <loc>https://chengjun.github.io/tags/%E6%95%B0%E6%8D%AE%E6%96%B0%E9%97%BB/</loc>
+      <lastmod>2015-11-13T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+      <loc>https://chengjun.github.io/tags/%E6%96%87%E6%A1%A3/</loc>
+      <lastmod>2010-03-30T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+      <loc>https://chengjun.github.io/tags/%E6%A8%A1%E6%9D%BF/</loc>
+      <lastmod>2010-01-10T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
       <loc>https://chengjun.github.io/note/2015-12-31-income/</loc>
     </url>
     
@@ -713,6 +793,15 @@
     
     <url>
       <loc>https://chengjun.github.io/note/2016-07-17-xiaoqing-job/</loc>
+    </url>
+    
+  
+    
+    
+    <url>
+      <loc>https://chengjun.github.io/tags/%E7%94%9F%E6%B4%BB/</loc>
+      <lastmod>2015-11-18T00:00:00+00:00</lastmod>
+      <priority>0</priority>
     </url>
     
   
@@ -755,8 +844,14 @@
     
     
     <url>
-      <loc>https://chengjun.github.io/tags/%E8%A5%BF%E5%AE%89/</loc>
-      <lastmod>2014-07-17T00:00:00+00:00</lastmod>
+      <loc>https://chengjun.github.io/note/2016-10-13-swarma-camp/</loc>
+    </url>
+    
+  
+    
+    
+    <url>
+      <loc>https://chengjun.github.io/tags/%E8%AE%B0%E5%BD%95/</loc>
       <priority>0</priority>
     </url>
     
@@ -764,7 +859,17 @@
     
     
     <url>
-      <loc>https://chengjun.github.io/note/2016-10-13-swarma-camp/</loc>
+      <loc>https://chengjun.github.io/tags/%E8%AF%AD%E5%BD%95/</loc>
+      <lastmod>2014-08-29T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+      <loc>https://chengjun.github.io/tags/%E9%9B%86%E6%99%BA%E4%BF%B1%E4%B9%90%E9%83%A8/</loc>
+      <priority>0</priority>
     </url>
     
   
