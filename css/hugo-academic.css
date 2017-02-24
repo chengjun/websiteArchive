@@ -487,7 +487,7 @@ article {
 }
 
 #comments {
-  padding-top: 1rem;
+  padding-top: 0rem;
 }
 
 /*************************************************
@@ -730,8 +730,8 @@ article {
  **************************************************/
 
 footer {
-  margin: 4rem 0 0;
-  padding: 2rem 0;
+  margin: 0rem 0 0;
+  padding: 1rem 0;
   width: 100%;
 }
 
@@ -1107,5 +1107,3 @@ div.alert a:hover {
   background-color: #f44336; /* Material Red500 */
   border-color: #ebccd1;
 }
-
-
