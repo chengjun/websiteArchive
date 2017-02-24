@@ -72,7 +72,13 @@
 
 &lt;p&gt;C(t)=A(1-exp(-t/tau))&lt;/p&gt;
 
+&lt;p&gt;两边求导再离散化&lt;/p&gt;
+
+&lt;p&gt;C(t+1)-C(t) = A/tau*exp(-t/tau)&lt;/p&gt;
+
 &lt;p&gt;可以先把10个人的team的代码总量随（绝对）时间的变化看一下&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://sciencepaths.kimalbrecht.com/&#34; target=&#34;_blank&#34;&gt;http://sciencepaths.kimalbrecht.com/&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;C是t时刻的代码总量，A是无穷远时代码总量，tau大概就是半衰期。然后画一个所有大team的tau的分布，如果是双峰的分布，说明确实有两种team。20120311之后出现的team好像都有显示代码量。&lt;/p&gt;
 
