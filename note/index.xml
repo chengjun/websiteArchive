@@ -157,10 +157,13 @@ plt.show()
 
 &lt;p&gt;&lt;img src=&#34;http://oaf2qt3yk.bkt.clouddn.com/19d58b4deb8a292c287dc692898a89af.png&#34; alt=&#34;tau&#34; /&gt;&lt;/p&gt;
 
-&lt;p&gt;To-do:
-- 最大的push次数的人和最多push代码量的人是否一个人，计算一个rate
-- 算sleeping beauty index
-- 如果把每个人的工作量换算成绝对代码增减量, 还是可以仿照m的定义计算熵。熵小的大石头放好了，大部分人都是添沙子。大石头什么时候放进去的也很有信息量。&lt;/p&gt;
+&lt;p&gt;To-do:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;最大的push次数的人和最多push代码量的人是否一个人，计算一个rate&lt;/li&gt;
+&lt;li&gt;算sleeping beauty index&lt;/li&gt;
+&lt;li&gt;如果把每个人的工作量换算成绝对代码增减量, 还是可以仿照m的定义计算熵。熵小的大石头放好了，大部分人都是添沙子。大石头什么时候放进去的也很有信息量。&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;p&gt;尽快确定一下最大代码贡献者和最频繁贡献者的重合率，感觉这个还是比较影响整个故事走向的。另外，试一下最大代码出现时间的分布。&lt;/p&gt;
 
