@@ -331,11 +331,11 @@ Key Words: spiral of silence; willingness to express; agent-based model; referen
 
 &lt;p&gt;$y = constant + \beta t$&lt;/p&gt;
 
-&lt;p&gt;对数据进行处理得到$y$和$t$，采用线性回归进行拟合，即可得到constant和$\beta$。那么显然：&lt;/p&gt;
+&lt;p&gt;对数据进行处理得到$y$和$t$，采用线性回归进行拟合，即可得到constant和$\beta$。那么显然：$\tau = -1/\beta$, $ A = e^{constant} $, $\tau = - e^{constant}/\beta $&lt;/p&gt;
 
-&lt;p&gt;$\tau = -1/\beta$, $ A = e^{constant} \tau = - e^{constant}/\beta $&lt;/p&gt;
+&lt;p&gt;我尝试去拟合了tau和A, 结果产生了大量的负的tau和A，另外，多数R方都不大，效果不好。这里的$\tau$与这个代码增长速度随时间变化是负的反比关系。因为挺多项目的代码增长速度是非线性的，比如相邻两次的变化量是先递增，后减小，或者一直增加。都会导致线性拟合的效果不好。&lt;/p&gt;
 
-&lt;p&gt;我尝试去拟合了tau和A, 结果产生了大量的负的tau和A，一个例子见以下代码：&lt;/p&gt;
+&lt;p&gt;一个例子见以下代码：&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;import statsmodels.api as sm
 import numpy as np
@@ -387,11 +387,18 @@ plt.show()
 
 &lt;p&gt;&lt;img src=&#34;http://oaf2qt3yk.bkt.clouddn.com/19d58b4deb8a292c287dc692898a89af.png&#34; alt=&#34;tau&#34; /&gt;&lt;/p&gt;
 
+&lt;p&gt;To-do:
+- 最大的push次数的人和最多push代码量的人是否一个人，计算一个rate
+- 算sleeping beauty index
+- 如果把每个人的工作量换算成绝对代码增减量, 还是可以仿照m的定义计算熵。熵小的大石头放好了，大部分人都是添沙子。大石头什么时候放进去的也很有信息量。&lt;/p&gt;
+
+&lt;p&gt;尽快确定一下最大代码贡献者和最频繁贡献者的重合率，感觉这个还是比较影响整个故事走向的。另外，试一下最大代码出现时间的分布。&lt;/p&gt;
+
 &lt;h3 id=&#34;数据&#34;&gt;数据&lt;/h3&gt;
 
 &lt;p&gt;&lt;strong&gt;arXiv bulk data access amazon S3&lt;/strong&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;因公出国护照办理&#34;&gt;因公出国护照办理&lt;/h2&gt;
+&lt;h1 id=&#34;因公出国护照办理&#34;&gt;因公出国护照办理&lt;/h1&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://wb.nju.edu.cn/zzbl/list.htm&#34; target=&#34;_blank&#34;&gt;http://wb.nju.edu.cn/zzbl/list.htm&lt;/a&gt;&lt;/p&gt;
 
@@ -410,7 +417,7 @@ plt.show()
 
 &lt;p&gt;因公临时出国人员根据“OA申报材料清单”,通过OA系统提交申报材料；&lt;/p&gt;
 
-&lt;h3 id=&#34;从异速增长率开始&#34;&gt;从异速增长率开始！&lt;/h3&gt;
+&lt;h1 id=&#34;从异速增长率开始&#34;&gt;从异速增长率开始！&lt;/h1&gt;
 
 &lt;p&gt;俗话说用志不分乃凝于神。最近有点分心，精力不集中，产生了很多问题。一个问题是计算士这边的活落下来了。昨天跟小可聊天，也因为不熟悉整个脉络被抢白了半天。于是自己也在思索：解决了什么问题？研究的意义是什么？&lt;/p&gt;
 

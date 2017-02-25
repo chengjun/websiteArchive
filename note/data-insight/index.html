@@ -228,10 +228,18 @@
 <ul>
 <li><a href="#数据">数据</a></li>
 </ul></li>
+</ul></li>
 <li><a href="#因公出国护照办理">因公出国护照办理</a>
 <ul>
+<li>
+<ul>
 <li><a href="#因公出国人员申报流程及材料须知">因公出国人员申报流程及材料须知</a></li>
-<li><a href="#从异速增长率开始">从异速增长率开始！</a></li>
+</ul></li>
+</ul></li>
+<li><a href="#从异速增长率开始">从异速增长率开始！</a>
+<ul>
+<li>
+<ul>
 <li><a href="#几何化">几何化</a></li>
 </ul></li>
 </ul></li>
@@ -306,11 +314,11 @@
 
 <p>$y = constant + \beta t$</p>
 
-<p>对数据进行处理得到$y$和$t$，采用线性回归进行拟合，即可得到constant和$\beta$。那么显然：</p>
+<p>对数据进行处理得到$y$和$t$，采用线性回归进行拟合，即可得到constant和$\beta$。那么显然：$\tau = -1/\beta$, $ A = e^{constant} $, $\tau = - e^{constant}/\beta $</p>
 
-<p>$\tau = -1/\beta$, $ A = e^{constant} \tau = - e^{constant}/\beta $</p>
+<p>我尝试去拟合了tau和A, 结果产生了大量的负的tau和A，另外，多数R方都不大，效果不好。这里的$\tau$与这个代码增长速度随时间变化是负的反比关系。因为挺多项目的代码增长速度是非线性的，比如相邻两次的变化量是先递增，后减小，或者一直增加。都会导致线性拟合的效果不好。</p>
 
-<p>我尝试去拟合了tau和A, 结果产生了大量的负的tau和A，一个例子见以下代码：</p>
+<p>一个例子见以下代码：</p>
 
 <pre><code class="language-python">import statsmodels.api as sm
 import numpy as np
@@ -362,11 +370,18 @@ plt.show()
 
 <p><img src="http://oaf2qt3yk.bkt.clouddn.com/19d58b4deb8a292c287dc692898a89af.png" alt="tau" /></p>
 
+<p>To-do:
+- 最大的push次数的人和最多push代码量的人是否一个人，计算一个rate
+- 算sleeping beauty index
+- 如果把每个人的工作量换算成绝对代码增减量, 还是可以仿照m的定义计算熵。熵小的大石头放好了，大部分人都是添沙子。大石头什么时候放进去的也很有信息量。</p>
+
+<p>尽快确定一下最大代码贡献者和最频繁贡献者的重合率，感觉这个还是比较影响整个故事走向的。另外，试一下最大代码出现时间的分布。</p>
+
 <h3 id="数据">数据</h3>
 
 <p><strong>arXiv bulk data access amazon S3</strong></p>
 
-<h2 id="因公出国护照办理">因公出国护照办理</h2>
+<h1 id="因公出国护照办理">因公出国护照办理</h1>
 
 <p><a href="http://wb.nju.edu.cn/zzbl/list.htm" target="_blank">http://wb.nju.edu.cn/zzbl/list.htm</a></p>
 
@@ -385,7 +400,7 @@ plt.show()
 
 <p>因公临时出国人员根据“OA申报材料清单”,通过OA系统提交申报材料；</p>
 
-<h3 id="从异速增长率开始">从异速增长率开始！</h3>
+<h1 id="从异速增长率开始">从异速增长率开始！</h1>
 
 <p>俗话说用志不分乃凝于神。最近有点分心，精力不集中，产生了很多问题。一个问题是计算士这边的活落下来了。昨天跟小可聊天，也因为不熟悉整个脉络被抢白了半天。于是自己也在思索：解决了什么问题？研究的意义是什么？</p>
 
