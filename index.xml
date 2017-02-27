@@ -399,7 +399,13 @@ plt.show()
 
 &lt;p&gt;&lt;img src=&#34;http://oaf2qt3yk.bkt.clouddn.com/bd3743ee8842b10dcd0e33142af77b5e.png&#34; alt=&#34;overlap rate&#34; /&gt;&lt;/p&gt;
 
+&lt;p&gt;&lt;img src=&#34;http://oaf2qt3yk.bkt.clouddn.com/c315dfd9d7cbab768b9c5615813d00df.png&#34; alt=&#34;overlap rate single size&#34; /&gt;&lt;/p&gt;
+
 &lt;p&gt;结论：随着团队规模增加，团队内部的确变得多元化，有人频繁参与，有人则高强度参与，二者未必相同。的确可能出现大象🐘和老鼠🐭并存的情况。按照&lt;code&gt;“固定”任务空间&lt;/code&gt;的假设，在位者有累积优势（经验、任务分配、责任心），但人多了竞争激烈，也会给在位者带来冲击，尤其是大象的进入，他们可以靠少数的push，贡献大量的代码。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://oaf2qt3yk.bkt.clouddn.com/71219d7043e62aed77d1761afceb73cf.png&#34; alt=&#34;water&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;水分不仅在活跃次数衡量的有效团队中发挥作用，同样在代码量衡量的有效团队中发挥作用，应该有点深刻的东西在这里。Lakhani (2011)发表在Management Science上的文章要回答一个问题&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:Lakhani&#34;&gt;&lt;a rel=&#34;footnote&#34; href=&#34;#fn:Lakhani&#34;&gt;3&lt;/a&gt;&lt;/sup&gt;，像Netflix 这样的竞赛，团队多好还是少好？传统经济学理论认为参与团队越多，单个团队获奖概率越低，团队越没有积极性，平均表现越差。他们分析数据发现，扩大参赛团队数后，平均表现变差，但最强团队的表现变好。&lt;/p&gt;
 
 &lt;h3 id=&#34;数据&#34;&gt;数据&lt;/h3&gt;
 
@@ -434,6 +440,8 @@ plt.show()
  &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:Sinatra&#34;&gt;&lt;sup&gt;^&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;li id=&#34;fn:Guimer&#34;&gt;Guimerà R, Uzzi B, Spiro J, et al. Team Assembly Mechanisms Determine Collaboration Network Structure and Team Performance. Science, 2005, 308(5722):697-702
  &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:Guimer&#34;&gt;&lt;sup&gt;^&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li id=&#34;fn:Lakhani&#34;&gt;Boudreau, K. J., Lacetera, N., &amp;amp; Lakhani, K. R. (2011). Incentives and problem uncertainty in innovation contests: an empirical analysis. Management Science, 57(5), 843-863.
+ &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:Lakhani&#34;&gt;&lt;sup&gt;^&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;/div&gt;
 </description>
