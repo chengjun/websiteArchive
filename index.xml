@@ -58,6 +58,16 @@ Every human behavior, including communicative behavior, involves four basic elem
     </item>
     
     <item>
+      <title>作为社会动员过程的互联网众筹公益：以腾讯乐捐为例</title>
+      <link>https://chengjun.github.io/publication/crowdfunding-charity/</link>
+      <pubDate>Thu, 09 Mar 2017 10:49:09 +0800</pubDate>
+      
+      <guid>https://chengjun.github.io/publication/crowdfunding-charity/</guid>
+      <description>&lt;p&gt;In submission.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>2015年中国新闻传播学论著评析</title>
       <link>https://chengjun.github.io/publication/com-books2015/</link>
       <pubDate>Wed, 08 Mar 2017 12:15:21 +0800</pubDate>
@@ -552,16 +562,6 @@ plt.show()
       
       <guid>https://chengjun.github.io/post/global-terrorism/</guid>
       <description>&lt;p&gt;Using the Data from Global Terrorism Database (GTD) and googleVis-0.5.8, I visualize the global terrorism attacks over time. The remarkable negative relationship between kills and political stability can clearly observed. &lt;a href=&#34;http://chengjun.github.io/datajournalism/vis/terrorism/&#34; target=&#34;_blank&#34;&gt;Read More &amp;gt;&amp;gt;&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>networkdiffusion: Simulate and Visualize Network Diffusion</title>
-      <link>https://chengjun.github.io/post/networkdiffusion/</link>
-      <pubDate>Mon, 13 Feb 2017 14:16:05 +0800</pubDate>
-      
-      <guid>https://chengjun.github.io/post/networkdiffusion/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://github.com/chengjun/networkdiffusion&#34; target=&#34;_blank&#34;&gt;networkdiffusion&lt;/a&gt;, a R package which can help simulate and visualize the network diffusion.&lt;/p&gt;
 </description>
     </item>
     
