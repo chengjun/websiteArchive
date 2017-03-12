@@ -1,219 +1,7 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Slides on Academic</title>
-    <link>https://chengjun.github.io/slides/index.xml</link>
-    <description>Recent content in Slides on Academic</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>&amp;copy; 2016 Cheng-Jun Wang</copyright>
-    <atom:link href="/slides/index.xml" rel="self" type="application/rss+xml" />
-    
-    <item>
-      <title></title>
-      <link>https://chengjun.github.io/slides/slides/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://chengjun.github.io/slides/slides/</guid>
-      <description>
-
-&lt;!-- slide data-notes:&#34;Congrats! You just opened speaker notes&#34; --&gt;
-
-&lt;h1 id=&#34;presentation-writer-beta&#34;&gt;Presentation Writer (Beta)&lt;/h1&gt;
-
-&lt;p&gt;by &lt;strong&gt;Markdown Preview Enhanced&lt;/strong&gt;&lt;br /&gt;
-powered by &lt;a href=&#34;https://github.com/hakimel/reveal.js&#34; target=&#34;_blank&#34;&gt;reveal.js&lt;/a&gt;&lt;br /&gt;
-&lt;br&gt;
-&lt;p style=&#34;font-size: 18px;&#34;&gt;press &lt;kbd&gt;?&lt;/kbd&gt; key to see keyboard help.&lt;/p&gt;&lt;br /&gt;
-&lt;p style=&#34;font-size: 18px;&#34;&gt;press &lt;kbd&gt;s&lt;/kbd&gt; key to open note window.&lt;/p&gt;&lt;/p&gt;
-
-&lt;!-- slide --&gt;
-
-&lt;p&gt;You can easily create beautiful presentation by running command&lt;br /&gt;
-&lt;center&gt; &lt;code&gt;Markdown Preview Enhanced: Insert New Slide&lt;/code&gt; &lt;/center&gt;&lt;br /&gt;
-&lt;aside class=&#34;notes&#34;&gt;
-    Pretty cool haha ;)
-&lt;/aside&gt;&lt;/p&gt;
-
-&lt;!-- slide --&gt;
-
-&lt;p&gt;Just like this&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://ooo.0o0.ooo/2016/07/17/578c61408dd73.gif&#34; alt=&#34;presentation&#34; /&gt;&lt;/p&gt;
-
-&lt;!-- slide --&gt;
-
-&lt;p&gt;The style of the presentation is consistent with the style of your beloved &lt;strong&gt;Atom&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;const さかもと = &#39;cool cooler coolest&#39;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;!-- slide --&gt;  
-
-&lt;p&gt;You can change your presentation theme very easily:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://cloud.githubusercontent.com/assets/1908863/23577767/951531b2-008d-11e7-95d0-08cd53d277a6.gif&#34; alt=&#34;presentation-theme&#34; /&gt;&lt;/p&gt;
-
-&lt;!-- slide --&gt;
-
-&lt;p&gt;All features of &lt;strong&gt;Markdown Preview Enhanced&lt;/strong&gt; are supported.&lt;br /&gt;
-Such as Math typesetting, mermaid graph, code chunk etc&amp;hellip;&lt;br /&gt;
-&lt;br&gt;
-$$
-f(x) = \int_{-\infty}^\infty
-    \hat f(\xi)\,e^{2 \pi i \xi x}
-    \,d\xi
-$$&lt;/p&gt;
-
-&lt;!-- slide --&gt;   
-
-&lt;p&gt;You can set initialization config for your presentation.&lt;br /&gt;
-Just add front-matter to your presentation markdown file.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-yaml&#34;&gt;---
-presentation:
-  width: 800
-  height: 600
-  controls: false
----
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;More information about front-matter settings can be found &lt;a href=&#34;https://github.com/shd101wyy/markdown-preview-enhanced/blob/master/docs/presentation-front-matter.md&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
-
-&lt;!-- slide data-notes:&#34;This is speaker note&#34;--&gt;  
-
-&lt;p&gt;&lt;strong&gt;Speaker notes&lt;/strong&gt; is also supported.&lt;br /&gt;
-Press the &lt;kbd&gt;s&lt;/kbd&gt; key on your keyboard to open the notes window.&lt;/p&gt;
-
-&lt;p&gt;To enable speaker notes, set front-matter as:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-yaml&#34;&gt;---
-presentation:
-  enableSpeakerNotes: true
----
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;To add notes, simply set &lt;code&gt;data-notes&lt;/code&gt; property:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-html&#34;&gt;&amp;lt;!-- slide data-notes:&amp;quot;Write your note here&amp;quot; --&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;check &lt;a href=&#34;https://github.com/hakimel/reveal.js#speaker-notes&#34; target=&#34;_blank&#34;&gt;Reveal.js Speaker Notes&lt;/a&gt; section for more information.&lt;/p&gt;
-
-&lt;!-- slide --&gt;
-
-&lt;p&gt;By default, all slides are aligned horizontally, but you can also create vertical slides by adding &lt;code&gt;vertical:true&lt;/code&gt;.&lt;br /&gt;
-For example:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-html&#34;&gt;&amp;lt;!-- slide vertical:true --&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;!-- slide vertical:true --&gt;
-
-&lt;p&gt;You just discovered a vertical slide!&lt;/p&gt;
-
-&lt;!-- slide --&gt;
-
-&lt;p&gt;You can set slide background very easily.&lt;br /&gt;
-For example:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-html&#34;&gt;&amp;lt;!-- slide data-background-color:&amp;quot;#ff0000&amp;quot; --&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;!-- slide data-background-color:&#34;#ffebcf&#34;--&gt;
-
-&lt;p&gt;Of course you can do more about slide background.&lt;br /&gt;
-&lt;strong&gt;Image Background&lt;/strong&gt;
-| Atribute | Default | Description |&lt;br /&gt;
-|&amp;mdash;|&amp;mdash;|&amp;mdash;|&lt;br /&gt;
-| data-background-image  |  | URL of the image to show. GIFs restart when the slide opens.|&lt;br /&gt;
-| data-background-size  | cover | See &lt;a href=&#34;https://developer.mozilla.org/docs/Web/CSS/background-size&#34; target=&#34;_blank&#34;&gt;background-size&lt;/a&gt; on MDN.|&lt;br /&gt;
-| data-background-position| center |See &lt;a href=&#34;https://developer.mozilla.org/docs/Web/CSS/background-position&#34; target=&#34;_blank&#34;&gt;background-position&lt;/a&gt; on MDN.|&lt;br /&gt;
-|data-background-repeat |no-repeat  |See &lt;a href=&#34;https://developer.mozilla.org/docs/Web/CSS/background-repeat&#34; target=&#34;_blank&#34;&gt;background-repeat&lt;/a&gt; on MDN.|&lt;/p&gt;
-
-&lt;!-- slide --&gt;
-
-&lt;p&gt;You can also set &lt;strong&gt;video background&lt;/strong&gt; and &lt;strong&gt;iframe background&lt;/strong&gt;.&lt;br /&gt;
-&lt;em&gt;Please note that video background doesn&amp;rsquo;t work in preview&lt;/em&gt;
-| Attribute  | Default  | Description |
-|&amp;mdash;|&amp;mdash;|&amp;mdash;|
-| data-background-video   |   | A single video source, or a comma separated list of video sources. |
-|data-background-video-loop|false|Flags if the video should play repeatedly.|
-|data-background-video-muted|false|Flags if the audio should be muted.|
-|data-background-iframe||Embeds a web page as a background. |&lt;/p&gt;
-
-&lt;!-- slide --&gt;
-
-&lt;p&gt;For example, the markdown snippet below will generate slide like&amp;hellip;&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-html&#34;&gt;&amp;lt;!-- slide data-background-image:&amp;quot;http://ooo.0o0.ooo/2016/10/27/581167987ec08.jpg&amp;quot; data-transition:&amp;quot;zoom&amp;quot; --&amp;gt;
-&amp;lt;p style=&amp;quot;color: #fff;&amp;quot;&amp;gt;国漫大法好！&amp;lt;/p&amp;gt;
-&amp;lt;p style=&amp;quot;color: #fff;&amp;quot;&amp;gt;国漫大法好！&amp;lt;/p&amp;gt;
-&amp;lt;p style=&amp;quot;color: #fff;&amp;quot;&amp;gt;国漫大法好！&amp;lt;/p&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;!-- slide data-background-image:&#34;http://ooo.0o0.ooo/2016/10/27/581167987ec08.jpg&#34;
-data-transition:&#34;zoom&#34;
---&gt;
-
-&lt;p style=&#34;color: #fff;&#34;&gt;国漫大法好！&lt;/p&gt;
-&lt;p style=&#34;color: #fff;&#34;&gt;国漫大法好！&lt;/p&gt;
-&lt;p style=&#34;color: #fff;&#34;&gt;国漫大法好！&lt;/p&gt;
-
-&lt;!-- slide --&gt;
-
-&lt;p&gt;It is also very easy to customize presentation css.&lt;br /&gt;
-Run &lt;code&gt;Markdown Preview Enhanced: Customize Css&lt;/code&gt; command,&lt;br /&gt;
-then edit section:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-less&#34;&gt;.preview-slides .slide,
-&amp;amp;[data-presentation-mode] {
-  // eg
-  // background-color: #000;
-}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;!-- slide --&gt;
-
-&lt;p&gt;You can check your presentation in browser by&lt;br /&gt;
-right clicking at the preview, then choose &lt;code&gt;Open in Browser&lt;/code&gt; option.&lt;/p&gt;
-
-&lt;!-- slide --&gt;
-
-&lt;p&gt;&lt;strong&gt;Markdown Preview Enhanced&lt;/strong&gt; can also generate beautiful &lt;strong&gt;HTML&lt;/strong&gt; or &lt;strong&gt;PDF&lt;/strong&gt; files for your presentation.&lt;/p&gt;
-
-&lt;!-- slide --&gt;  
-
-&lt;h4 id=&#34;star-this-project-if-you-like-it&#34;&gt;Star this project if you like it ;)&lt;/h4&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Github Repository can be found &lt;a href=&#34;https://github.com/shd101wyy/markdown-preview-enhanced&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Feel free to post issues and request new features &lt;a href=&#34;https://github.com/shd101wyy/markdown-preview-enhanced/issues&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Source code of this presentation can be found &lt;a href=&#34;https://github.com/shd101wyy/markdown-preview-enhanced/blob/master/docs/presentation-intro.md&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;, &lt;a href=&#34;https://raw.githubusercontent.com/shd101wyy/markdown-preview-enhanced/master/docs/presentation-intro.md&#34; target=&#34;_blank&#34;&gt;raw&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;!-- slide data-background-image:&#34;http://ooo.0o0.ooo/2016/07/18/578c66da6a5a3.jpg&#34; --&gt;
-</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://chengjun.github.io/slides/test/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://chengjun.github.io/slides/test/</guid>
-      <description>&lt;!DOCTYPE html&gt; &lt;html&gt; &lt;head&gt; &lt;title&gt;slides&lt;/title&gt; &lt;meta charset=&#34;utf-8&#34;&gt; &lt;meta name=&#34;viewport&#34; content=&#34;width=device-width, initial-scale=1.0&#34;&gt; 
-&lt;style&gt;
-/*!
- * reveal.js
- * http://lab.hakim.se/reveal-js
- * MIT licensed
- *
- * Copyright (C) 2016 Hakim El Hattab, http://hakim.se
- */
-/*********************************************
- * RESET STYLES
- *********************************************/
+<!DOCTYPE html> <html> <head> <title>slides</title> <meta charset="utf-8"> <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+<style>
+ 
+ 
 html, body, .reveal div, .reveal span, .reveal applet, .reveal object, .reveal iframe,
 .reveal h1, .reveal h2, .reveal h3, .reveal h4, .reveal h5, .reveal h6, .reveal p, .reveal blockquote, .reveal pre,
 .reveal a, .reveal abbr, .reveal acronym, .reveal address, .reveal big, .reveal cite, .reveal code,
@@ -237,9 +25,7 @@ html, body, .reveal div, .reveal span, .reveal applet, .reveal object, .reveal i
 .reveal footer, .reveal header, .reveal hgroup, .reveal menu, .reveal nav, .reveal section {
   display: block; }
 
-/*********************************************
- * GLOBAL STYLES
- *********************************************/
+ 
 html,
 body {
   width: 100%;
@@ -252,9 +38,7 @@ body {
   background-color: #fff;
   color: #000; }
 
-/*********************************************
- * VIEW FRAGMENTS
- *********************************************/
+ 
 .reveal .slides section .fragment {
   opacity: 0;
   visibility: hidden;
@@ -367,18 +151,16 @@ body {
 .reveal .slides section .fragment.highlight-current-blue.current-fragment {
   color: #1b91ff; }
 
-/*********************************************
- * DEFAULT ELEMENT STYLES
- *********************************************/
-/* Fixes issue in Chrome where italic fonts did not appear when printing to PDF */
+ 
+ 
 .reveal:after {
-  content: &#39;&#39;;
+  content: '';
   font-style: italic; }
 
 .reveal iframe {
   z-index: 1; }
 
-/** Prevents layering issues in certain browser/transition combinations */
+ 
 .reveal a {
   position: relative; }
 
@@ -391,9 +173,7 @@ body {
   max-height: 100%;
   box-sizing: border-box; }
 
-/*********************************************
- * CONTROLS
- *********************************************/
+ 
 .reveal .controls {
   display: none;
   position: fixed;
@@ -460,9 +240,7 @@ body {
 .reveal .controls .navigate-down.fragmented {
   opacity: 0.3; }
 
-/*********************************************
- * PROGRESS BAR
- *********************************************/
+ 
 .reveal .progress {
   position: fixed;
   display: none;
@@ -474,7 +252,7 @@ body {
   background-color: rgba(0, 0, 0, 0.2); }
 
 .reveal .progress:after {
-  content: &#39;&#39;;
+  content: '';
   display: block;
   position: absolute;
   height: 20px;
@@ -489,9 +267,7 @@ body {
   -webkit-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
           transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985); }
 
-/*********************************************
- * SLIDE NUMBER
- *********************************************/
+ 
 .reveal .slide-number {
   position: fixed;
   display: block;
@@ -508,9 +284,7 @@ body {
 .reveal .slide-number-delimiter {
   margin: 0 3px; }
 
-/*********************************************
- * SLIDES
- *********************************************/
+ 
 .reveal {
   position: relative;
   width: 100%;
@@ -536,11 +310,11 @@ body {
   -webkit-perspective-origin: 50% 40%;
           perspective-origin: 50% 40%; }
 
-.reveal .slides &gt; section {
+.reveal .slides > section {
   -ms-perspective: 600px; }
 
-.reveal .slides &gt; section,
-.reveal .slides &gt; section &gt; section {
+.reveal .slides > section,
+.reveal .slides > section > section {
   display: none;
   position: absolute;
   width: 100%;
@@ -551,30 +325,30 @@ body {
   -webkit-transition: -webkit-transform-origin 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985), -webkit-transform 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985), visibility 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985), opacity 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
           transition: transform-origin 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985), transform 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985), visibility 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985), opacity 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985); }
 
-/* Global transition speed settings */
-.reveal[data-transition-speed=&#34;fast&#34;] .slides section {
+ 
+.reveal[data-transition-speed="fast"] .slides section {
   -webkit-transition-duration: 400ms;
           transition-duration: 400ms; }
 
-.reveal[data-transition-speed=&#34;slow&#34;] .slides section {
+.reveal[data-transition-speed="slow"] .slides section {
   -webkit-transition-duration: 1200ms;
           transition-duration: 1200ms; }
 
-/* Slide-specific transition speed overrides */
-.reveal .slides section[data-transition-speed=&#34;fast&#34;] {
+ 
+.reveal .slides section[data-transition-speed="fast"] {
   -webkit-transition-duration: 400ms;
           transition-duration: 400ms; }
 
-.reveal .slides section[data-transition-speed=&#34;slow&#34;] {
+.reveal .slides section[data-transition-speed="slow"] {
   -webkit-transition-duration: 1200ms;
           transition-duration: 1200ms; }
 
-.reveal .slides &gt; section.stack {
+.reveal .slides > section.stack {
   padding-top: 0;
   padding-bottom: 0; }
 
-.reveal .slides &gt; section.present,
-.reveal .slides &gt; section &gt; section.present {
+.reveal .slides > section.present,
+.reveal .slides > section > section.present {
   display: block;
   z-index: 11;
   opacity: 1; }
@@ -584,55 +358,50 @@ body {
 .reveal.center .slides section {
   min-height: 0 !important; }
 
-/* Don&#39;t allow interaction with invisible slides */
-.reveal .slides &gt; section.future,
-.reveal .slides &gt; section &gt; section.future,
-.reveal .slides &gt; section.past,
-.reveal .slides &gt; section &gt; section.past {
+ 
+.reveal .slides > section.future,
+.reveal .slides > section > section.future,
+.reveal .slides > section.past,
+.reveal .slides > section > section.past {
   pointer-events: none; }
 
-.reveal.overview .slides &gt; section,
-.reveal.overview .slides &gt; section &gt; section {
+.reveal.overview .slides > section,
+.reveal.overview .slides > section > section {
   pointer-events: auto; }
 
-.reveal .slides &gt; section.past,
-.reveal .slides &gt; section.future,
-.reveal .slides &gt; section &gt; section.past,
-.reveal .slides &gt; section &gt; section.future {
+.reveal .slides > section.past,
+.reveal .slides > section.future,
+.reveal .slides > section > section.past,
+.reveal .slides > section > section.future {
   opacity: 0; }
 
-/*********************************************
- * Mixins for readability of transitions
- *********************************************/
-/*********************************************
- * SLIDE TRANSITION
- * Aliased &#39;linear&#39; for backwards compatibility
- *********************************************/
+ 
+ 
 .reveal.slide section {
   -webkit-backface-visibility: hidden;
           backface-visibility: hidden; }
 
-.reveal .slides &gt; section[data-transition=slide].past,
-.reveal .slides &gt; section[data-transition~=slide-out].past,
-.reveal.slide .slides &gt; section:not([data-transition]).past {
+.reveal .slides > section[data-transition=slide].past,
+.reveal .slides > section[data-transition~=slide-out].past,
+.reveal.slide .slides > section:not([data-transition]).past {
   -webkit-transform: translate(-150%, 0);
           transform: translate(-150%, 0); }
 
-.reveal .slides &gt; section[data-transition=slide].future,
-.reveal .slides &gt; section[data-transition~=slide-in].future,
-.reveal.slide .slides &gt; section:not([data-transition]).future {
+.reveal .slides > section[data-transition=slide].future,
+.reveal .slides > section[data-transition~=slide-in].future,
+.reveal.slide .slides > section:not([data-transition]).future {
   -webkit-transform: translate(150%, 0);
           transform: translate(150%, 0); }
 
-.reveal .slides &gt; section &gt; section[data-transition=slide].past,
-.reveal .slides &gt; section &gt; section[data-transition~=slide-out].past,
-.reveal.slide .slides &gt; section &gt; section:not([data-transition]).past {
+.reveal .slides > section > section[data-transition=slide].past,
+.reveal .slides > section > section[data-transition~=slide-out].past,
+.reveal.slide .slides > section > section:not([data-transition]).past {
   -webkit-transform: translate(0, -150%);
           transform: translate(0, -150%); }
 
-.reveal .slides &gt; section &gt; section[data-transition=slide].future,
-.reveal .slides &gt; section &gt; section[data-transition~=slide-in].future,
-.reveal.slide .slides &gt; section &gt; section:not([data-transition]).future {
+.reveal .slides > section > section[data-transition=slide].future,
+.reveal .slides > section > section[data-transition~=slide-in].future,
+.reveal.slide .slides > section > section:not([data-transition]).future {
   -webkit-transform: translate(0, 150%);
           transform: translate(0, 150%); }
 
@@ -640,60 +409,57 @@ body {
   -webkit-backface-visibility: hidden;
           backface-visibility: hidden; }
 
-.reveal .slides &gt; section[data-transition=linear].past,
-.reveal .slides &gt; section[data-transition~=linear-out].past,
-.reveal.linear .slides &gt; section:not([data-transition]).past {
+.reveal .slides > section[data-transition=linear].past,
+.reveal .slides > section[data-transition~=linear-out].past,
+.reveal.linear .slides > section:not([data-transition]).past {
   -webkit-transform: translate(-150%, 0);
           transform: translate(-150%, 0); }
 
-.reveal .slides &gt; section[data-transition=linear].future,
-.reveal .slides &gt; section[data-transition~=linear-in].future,
-.reveal.linear .slides &gt; section:not([data-transition]).future {
+.reveal .slides > section[data-transition=linear].future,
+.reveal .slides > section[data-transition~=linear-in].future,
+.reveal.linear .slides > section:not([data-transition]).future {
   -webkit-transform: translate(150%, 0);
           transform: translate(150%, 0); }
 
-.reveal .slides &gt; section &gt; section[data-transition=linear].past,
-.reveal .slides &gt; section &gt; section[data-transition~=linear-out].past,
-.reveal.linear .slides &gt; section &gt; section:not([data-transition]).past {
+.reveal .slides > section > section[data-transition=linear].past,
+.reveal .slides > section > section[data-transition~=linear-out].past,
+.reveal.linear .slides > section > section:not([data-transition]).past {
   -webkit-transform: translate(0, -150%);
           transform: translate(0, -150%); }
 
-.reveal .slides &gt; section &gt; section[data-transition=linear].future,
-.reveal .slides &gt; section &gt; section[data-transition~=linear-in].future,
-.reveal.linear .slides &gt; section &gt; section:not([data-transition]).future {
+.reveal .slides > section > section[data-transition=linear].future,
+.reveal .slides > section > section[data-transition~=linear-in].future,
+.reveal.linear .slides > section > section:not([data-transition]).future {
   -webkit-transform: translate(0, 150%);
           transform: translate(0, 150%); }
 
-/*********************************************
- * CONVEX TRANSITION
- * Aliased &#39;default&#39; for backwards compatibility
- *********************************************/
+ 
 .reveal .slides section[data-transition=default].stack,
 .reveal.default .slides section.stack {
   -webkit-transform-style: preserve-3d;
           transform-style: preserve-3d; }
 
-.reveal .slides &gt; section[data-transition=default].past,
-.reveal .slides &gt; section[data-transition~=default-out].past,
-.reveal.default .slides &gt; section:not([data-transition]).past {
+.reveal .slides > section[data-transition=default].past,
+.reveal .slides > section[data-transition~=default-out].past,
+.reveal.default .slides > section:not([data-transition]).past {
   -webkit-transform: translate3d(-100%, 0, 0) rotateY(-90deg) translate3d(-100%, 0, 0);
           transform: translate3d(-100%, 0, 0) rotateY(-90deg) translate3d(-100%, 0, 0); }
 
-.reveal .slides &gt; section[data-transition=default].future,
-.reveal .slides &gt; section[data-transition~=default-in].future,
-.reveal.default .slides &gt; section:not([data-transition]).future {
+.reveal .slides > section[data-transition=default].future,
+.reveal .slides > section[data-transition~=default-in].future,
+.reveal.default .slides > section:not([data-transition]).future {
   -webkit-transform: translate3d(100%, 0, 0) rotateY(90deg) translate3d(100%, 0, 0);
           transform: translate3d(100%, 0, 0) rotateY(90deg) translate3d(100%, 0, 0); }
 
-.reveal .slides &gt; section &gt; section[data-transition=default].past,
-.reveal .slides &gt; section &gt; section[data-transition~=default-out].past,
-.reveal.default .slides &gt; section &gt; section:not([data-transition]).past {
+.reveal .slides > section > section[data-transition=default].past,
+.reveal .slides > section > section[data-transition~=default-out].past,
+.reveal.default .slides > section > section:not([data-transition]).past {
   -webkit-transform: translate3d(0, -300px, 0) rotateX(70deg) translate3d(0, -300px, 0);
           transform: translate3d(0, -300px, 0) rotateX(70deg) translate3d(0, -300px, 0); }
 
-.reveal .slides &gt; section &gt; section[data-transition=default].future,
-.reveal .slides &gt; section &gt; section[data-transition~=default-in].future,
-.reveal.default .slides &gt; section &gt; section:not([data-transition]).future {
+.reveal .slides > section > section[data-transition=default].future,
+.reveal .slides > section > section[data-transition~=default-in].future,
+.reveal.default .slides > section > section:not([data-transition]).future {
   -webkit-transform: translate3d(0, 300px, 0) rotateX(-70deg) translate3d(0, 300px, 0);
           transform: translate3d(0, 300px, 0) rotateX(-70deg) translate3d(0, 300px, 0); }
 
@@ -702,99 +468,93 @@ body {
   -webkit-transform-style: preserve-3d;
           transform-style: preserve-3d; }
 
-.reveal .slides &gt; section[data-transition=convex].past,
-.reveal .slides &gt; section[data-transition~=convex-out].past,
-.reveal.convex .slides &gt; section:not([data-transition]).past {
+.reveal .slides > section[data-transition=convex].past,
+.reveal .slides > section[data-transition~=convex-out].past,
+.reveal.convex .slides > section:not([data-transition]).past {
   -webkit-transform: translate3d(-100%, 0, 0) rotateY(-90deg) translate3d(-100%, 0, 0);
           transform: translate3d(-100%, 0, 0) rotateY(-90deg) translate3d(-100%, 0, 0); }
 
-.reveal .slides &gt; section[data-transition=convex].future,
-.reveal .slides &gt; section[data-transition~=convex-in].future,
-.reveal.convex .slides &gt; section:not([data-transition]).future {
+.reveal .slides > section[data-transition=convex].future,
+.reveal .slides > section[data-transition~=convex-in].future,
+.reveal.convex .slides > section:not([data-transition]).future {
   -webkit-transform: translate3d(100%, 0, 0) rotateY(90deg) translate3d(100%, 0, 0);
           transform: translate3d(100%, 0, 0) rotateY(90deg) translate3d(100%, 0, 0); }
 
-.reveal .slides &gt; section &gt; section[data-transition=convex].past,
-.reveal .slides &gt; section &gt; section[data-transition~=convex-out].past,
-.reveal.convex .slides &gt; section &gt; section:not([data-transition]).past {
+.reveal .slides > section > section[data-transition=convex].past,
+.reveal .slides > section > section[data-transition~=convex-out].past,
+.reveal.convex .slides > section > section:not([data-transition]).past {
   -webkit-transform: translate3d(0, -300px, 0) rotateX(70deg) translate3d(0, -300px, 0);
           transform: translate3d(0, -300px, 0) rotateX(70deg) translate3d(0, -300px, 0); }
 
-.reveal .slides &gt; section &gt; section[data-transition=convex].future,
-.reveal .slides &gt; section &gt; section[data-transition~=convex-in].future,
-.reveal.convex .slides &gt; section &gt; section:not([data-transition]).future {
+.reveal .slides > section > section[data-transition=convex].future,
+.reveal .slides > section > section[data-transition~=convex-in].future,
+.reveal.convex .slides > section > section:not([data-transition]).future {
   -webkit-transform: translate3d(0, 300px, 0) rotateX(-70deg) translate3d(0, 300px, 0);
           transform: translate3d(0, 300px, 0) rotateX(-70deg) translate3d(0, 300px, 0); }
 
-/*********************************************
- * CONCAVE TRANSITION
- *********************************************/
+ 
 .reveal .slides section[data-transition=concave].stack,
 .reveal.concave .slides section.stack {
   -webkit-transform-style: preserve-3d;
           transform-style: preserve-3d; }
 
-.reveal .slides &gt; section[data-transition=concave].past,
-.reveal .slides &gt; section[data-transition~=concave-out].past,
-.reveal.concave .slides &gt; section:not([data-transition]).past {
+.reveal .slides > section[data-transition=concave].past,
+.reveal .slides > section[data-transition~=concave-out].past,
+.reveal.concave .slides > section:not([data-transition]).past {
   -webkit-transform: translate3d(-100%, 0, 0) rotateY(90deg) translate3d(-100%, 0, 0);
           transform: translate3d(-100%, 0, 0) rotateY(90deg) translate3d(-100%, 0, 0); }
 
-.reveal .slides &gt; section[data-transition=concave].future,
-.reveal .slides &gt; section[data-transition~=concave-in].future,
-.reveal.concave .slides &gt; section:not([data-transition]).future {
+.reveal .slides > section[data-transition=concave].future,
+.reveal .slides > section[data-transition~=concave-in].future,
+.reveal.concave .slides > section:not([data-transition]).future {
   -webkit-transform: translate3d(100%, 0, 0) rotateY(-90deg) translate3d(100%, 0, 0);
           transform: translate3d(100%, 0, 0) rotateY(-90deg) translate3d(100%, 0, 0); }
 
-.reveal .slides &gt; section &gt; section[data-transition=concave].past,
-.reveal .slides &gt; section &gt; section[data-transition~=concave-out].past,
-.reveal.concave .slides &gt; section &gt; section:not([data-transition]).past {
+.reveal .slides > section > section[data-transition=concave].past,
+.reveal .slides > section > section[data-transition~=concave-out].past,
+.reveal.concave .slides > section > section:not([data-transition]).past {
   -webkit-transform: translate3d(0, -80%, 0) rotateX(-70deg) translate3d(0, -80%, 0);
           transform: translate3d(0, -80%, 0) rotateX(-70deg) translate3d(0, -80%, 0); }
 
-.reveal .slides &gt; section &gt; section[data-transition=concave].future,
-.reveal .slides &gt; section &gt; section[data-transition~=concave-in].future,
-.reveal.concave .slides &gt; section &gt; section:not([data-transition]).future {
+.reveal .slides > section > section[data-transition=concave].future,
+.reveal .slides > section > section[data-transition~=concave-in].future,
+.reveal.concave .slides > section > section:not([data-transition]).future {
   -webkit-transform: translate3d(0, 80%, 0) rotateX(70deg) translate3d(0, 80%, 0);
           transform: translate3d(0, 80%, 0) rotateX(70deg) translate3d(0, 80%, 0); }
 
-/*********************************************
- * ZOOM TRANSITION
- *********************************************/
+ 
 .reveal .slides section[data-transition=zoom],
 .reveal.zoom .slides section:not([data-transition]) {
   -webkit-transition-timing-function: ease;
           transition-timing-function: ease; }
 
-.reveal .slides &gt; section[data-transition=zoom].past,
-.reveal .slides &gt; section[data-transition~=zoom-out].past,
-.reveal.zoom .slides &gt; section:not([data-transition]).past {
+.reveal .slides > section[data-transition=zoom].past,
+.reveal .slides > section[data-transition~=zoom-out].past,
+.reveal.zoom .slides > section:not([data-transition]).past {
   visibility: hidden;
   -webkit-transform: scale(16);
           transform: scale(16); }
 
-.reveal .slides &gt; section[data-transition=zoom].future,
-.reveal .slides &gt; section[data-transition~=zoom-in].future,
-.reveal.zoom .slides &gt; section:not([data-transition]).future {
+.reveal .slides > section[data-transition=zoom].future,
+.reveal .slides > section[data-transition~=zoom-in].future,
+.reveal.zoom .slides > section:not([data-transition]).future {
   visibility: hidden;
   -webkit-transform: scale(0.2);
           transform: scale(0.2); }
 
-.reveal .slides &gt; section &gt; section[data-transition=zoom].past,
-.reveal .slides &gt; section &gt; section[data-transition~=zoom-out].past,
-.reveal.zoom .slides &gt; section &gt; section:not([data-transition]).past {
+.reveal .slides > section > section[data-transition=zoom].past,
+.reveal .slides > section > section[data-transition~=zoom-out].past,
+.reveal.zoom .slides > section > section:not([data-transition]).past {
   -webkit-transform: translate(0, -150%);
           transform: translate(0, -150%); }
 
-.reveal .slides &gt; section &gt; section[data-transition=zoom].future,
-.reveal .slides &gt; section &gt; section[data-transition~=zoom-in].future,
-.reveal.zoom .slides &gt; section &gt; section:not([data-transition]).future {
+.reveal .slides > section > section[data-transition=zoom].future,
+.reveal .slides > section > section[data-transition~=zoom-in].future,
+.reveal.zoom .slides > section > section:not([data-transition]).future {
   -webkit-transform: translate(0, 150%);
           transform: translate(0, 150%); }
 
-/*********************************************
- * CUBE TRANSITION
- *********************************************/
+ 
 .reveal.cube .slides {
   -webkit-perspective: 1300px;
           perspective: 1300px; }
@@ -812,7 +572,7 @@ body {
   min-height: 0; }
 
 .reveal.cube .slides section:not(.stack):before {
-  content: &#39;&#39;;
+  content: '';
   position: absolute;
   display: block;
   width: 100%;
@@ -825,7 +585,7 @@ body {
           transform: translateZ(-20px); }
 
 .reveal.cube .slides section:not(.stack):after {
-  content: &#39;&#39;;
+  content: '';
   position: absolute;
   display: block;
   width: 90%;
@@ -839,37 +599,35 @@ body {
   -webkit-transform: translateZ(-90px) rotateX(65deg);
           transform: translateZ(-90px) rotateX(65deg); }
 
-.reveal.cube .slides &gt; section.stack {
+.reveal.cube .slides > section.stack {
   padding: 0;
   background: none; }
 
-.reveal.cube .slides &gt; section.past {
+.reveal.cube .slides > section.past {
   -webkit-transform-origin: 100% 0%;
           transform-origin: 100% 0%;
   -webkit-transform: translate3d(-100%, 0, 0) rotateY(-90deg);
           transform: translate3d(-100%, 0, 0) rotateY(-90deg); }
 
-.reveal.cube .slides &gt; section.future {
+.reveal.cube .slides > section.future {
   -webkit-transform-origin: 0% 0%;
           transform-origin: 0% 0%;
   -webkit-transform: translate3d(100%, 0, 0) rotateY(90deg);
           transform: translate3d(100%, 0, 0) rotateY(90deg); }
 
-.reveal.cube .slides &gt; section &gt; section.past {
+.reveal.cube .slides > section > section.past {
   -webkit-transform-origin: 0% 100%;
           transform-origin: 0% 100%;
   -webkit-transform: translate3d(0, -100%, 0) rotateX(90deg);
           transform: translate3d(0, -100%, 0) rotateX(90deg); }
 
-.reveal.cube .slides &gt; section &gt; section.future {
+.reveal.cube .slides > section > section.future {
   -webkit-transform-origin: 0% 0%;
           transform-origin: 0% 0%;
   -webkit-transform: translate3d(0, 100%, 0) rotateX(-90deg);
           transform: translate3d(0, 100%, 0) rotateX(-90deg); }
 
-/*********************************************
- * PAGE TRANSITION
- *********************************************/
+ 
 .reveal.page .slides {
   -webkit-perspective-origin: 0% 50%;
           perspective-origin: 0% 50%;
@@ -887,7 +645,7 @@ body {
   z-index: 12; }
 
 .reveal.page .slides section:not(.stack):before {
-  content: &#39;&#39;;
+  content: '';
   position: absolute;
   display: block;
   width: 100%;
@@ -899,7 +657,7 @@ body {
           transform: translateZ(-20px); }
 
 .reveal.page .slides section:not(.stack):after {
-  content: &#39;&#39;;
+  content: '';
   position: absolute;
   display: block;
   width: 90%;
@@ -912,53 +670,49 @@ body {
   box-shadow: 0px 95px 25px rgba(0, 0, 0, 0.2);
   -webkit-transform: translateZ(-90px) rotateX(65deg); }
 
-.reveal.page .slides &gt; section.stack {
+.reveal.page .slides > section.stack {
   padding: 0;
   background: none; }
 
-.reveal.page .slides &gt; section.past {
+.reveal.page .slides > section.past {
   -webkit-transform-origin: 0% 0%;
           transform-origin: 0% 0%;
   -webkit-transform: translate3d(-40%, 0, 0) rotateY(-80deg);
           transform: translate3d(-40%, 0, 0) rotateY(-80deg); }
 
-.reveal.page .slides &gt; section.future {
+.reveal.page .slides > section.future {
   -webkit-transform-origin: 100% 0%;
           transform-origin: 100% 0%;
   -webkit-transform: translate3d(0, 0, 0);
           transform: translate3d(0, 0, 0); }
 
-.reveal.page .slides &gt; section &gt; section.past {
+.reveal.page .slides > section > section.past {
   -webkit-transform-origin: 0% 0%;
           transform-origin: 0% 0%;
   -webkit-transform: translate3d(0, -40%, 0) rotateX(80deg);
           transform: translate3d(0, -40%, 0) rotateX(80deg); }
 
-.reveal.page .slides &gt; section &gt; section.future {
+.reveal.page .slides > section > section.future {
   -webkit-transform-origin: 0% 100%;
           transform-origin: 0% 100%;
   -webkit-transform: translate3d(0, 0, 0);
           transform: translate3d(0, 0, 0); }
 
-/*********************************************
- * FADE TRANSITION
- *********************************************/
+ 
 .reveal .slides section[data-transition=fade],
 .reveal.fade .slides section:not([data-transition]),
-.reveal.fade .slides &gt; section &gt; section:not([data-transition]) {
+.reveal.fade .slides > section > section:not([data-transition]) {
   -webkit-transform: none;
           transform: none;
   -webkit-transition: opacity 0.5s;
           transition: opacity 0.5s; }
 
 .reveal.fade.overview .slides section,
-.reveal.fade.overview .slides &gt; section &gt; section {
+.reveal.fade.overview .slides > section > section {
   -webkit-transition: none;
           transition: none; }
 
-/*********************************************
- * NO TRANSITION
- *********************************************/
+ 
 .reveal .slides section[data-transition=none],
 .reveal.none .slides section:not([data-transition]) {
   -webkit-transform: none;
@@ -966,9 +720,7 @@ body {
   -webkit-transition: none;
           transition: none; }
 
-/*********************************************
- * PAUSED MODE
- *********************************************/
+ 
 .reveal .pause-overlay {
   position: absolute;
   top: 0;
@@ -986,9 +738,7 @@ body {
   visibility: visible;
   opacity: 1; }
 
-/*********************************************
- * FALLBACK
- *********************************************/
+ 
 .no-transforms {
   overflow-y: auto; }
 
@@ -1025,9 +775,7 @@ body {
   -webkit-transition: none !important;
           transition: none !important; }
 
-/*********************************************
- * PER-SLIDE BACKGROUNDS
- *********************************************/
+ 
 .reveal .backgrounds {
   position: absolute;
   width: 100%;
@@ -1062,7 +810,7 @@ body {
   opacity: 1 !important;
   visibility: visible !important; }
 
-/* Video backgrounds */
+ 
 .reveal .slide-background video {
   position: absolute;
   width: 100%;
@@ -1072,135 +820,133 @@ body {
   top: 0;
   left: 0; }
 
-/* Immediate transition style */
-.reveal[data-background-transition=none] &gt; .backgrounds .slide-background,
-.reveal &gt; .backgrounds .slide-background[data-background-transition=none] {
+ 
+.reveal[data-background-transition=none] > .backgrounds .slide-background,
+.reveal > .backgrounds .slide-background[data-background-transition=none] {
   -webkit-transition: none;
           transition: none; }
 
-/* Slide */
-.reveal[data-background-transition=slide] &gt; .backgrounds .slide-background,
-.reveal &gt; .backgrounds .slide-background[data-background-transition=slide] {
+ 
+.reveal[data-background-transition=slide] > .backgrounds .slide-background,
+.reveal > .backgrounds .slide-background[data-background-transition=slide] {
   opacity: 1;
   -webkit-backface-visibility: hidden;
           backface-visibility: hidden; }
 
-.reveal[data-background-transition=slide] &gt; .backgrounds .slide-background.past,
-.reveal &gt; .backgrounds .slide-background.past[data-background-transition=slide] {
+.reveal[data-background-transition=slide] > .backgrounds .slide-background.past,
+.reveal > .backgrounds .slide-background.past[data-background-transition=slide] {
   -webkit-transform: translate(-100%, 0);
           transform: translate(-100%, 0); }
 
-.reveal[data-background-transition=slide] &gt; .backgrounds .slide-background.future,
-.reveal &gt; .backgrounds .slide-background.future[data-background-transition=slide] {
+.reveal[data-background-transition=slide] > .backgrounds .slide-background.future,
+.reveal > .backgrounds .slide-background.future[data-background-transition=slide] {
   -webkit-transform: translate(100%, 0);
           transform: translate(100%, 0); }
 
-.reveal[data-background-transition=slide] &gt; .backgrounds .slide-background &gt; .slide-background.past,
-.reveal &gt; .backgrounds .slide-background &gt; .slide-background.past[data-background-transition=slide] {
+.reveal[data-background-transition=slide] > .backgrounds .slide-background > .slide-background.past,
+.reveal > .backgrounds .slide-background > .slide-background.past[data-background-transition=slide] {
   -webkit-transform: translate(0, -100%);
           transform: translate(0, -100%); }
 
-.reveal[data-background-transition=slide] &gt; .backgrounds .slide-background &gt; .slide-background.future,
-.reveal &gt; .backgrounds .slide-background &gt; .slide-background.future[data-background-transition=slide] {
+.reveal[data-background-transition=slide] > .backgrounds .slide-background > .slide-background.future,
+.reveal > .backgrounds .slide-background > .slide-background.future[data-background-transition=slide] {
   -webkit-transform: translate(0, 100%);
           transform: translate(0, 100%); }
 
-/* Convex */
-.reveal[data-background-transition=convex] &gt; .backgrounds .slide-background.past,
-.reveal &gt; .backgrounds .slide-background.past[data-background-transition=convex] {
+ 
+.reveal[data-background-transition=convex] > .backgrounds .slide-background.past,
+.reveal > .backgrounds .slide-background.past[data-background-transition=convex] {
   opacity: 0;
   -webkit-transform: translate3d(-100%, 0, 0) rotateY(-90deg) translate3d(-100%, 0, 0);
           transform: translate3d(-100%, 0, 0) rotateY(-90deg) translate3d(-100%, 0, 0); }
 
-.reveal[data-background-transition=convex] &gt; .backgrounds .slide-background.future,
-.reveal &gt; .backgrounds .slide-background.future[data-background-transition=convex] {
+.reveal[data-background-transition=convex] > .backgrounds .slide-background.future,
+.reveal > .backgrounds .slide-background.future[data-background-transition=convex] {
   opacity: 0;
   -webkit-transform: translate3d(100%, 0, 0) rotateY(90deg) translate3d(100%, 0, 0);
           transform: translate3d(100%, 0, 0) rotateY(90deg) translate3d(100%, 0, 0); }
 
-.reveal[data-background-transition=convex] &gt; .backgrounds .slide-background &gt; .slide-background.past,
-.reveal &gt; .backgrounds .slide-background &gt; .slide-background.past[data-background-transition=convex] {
+.reveal[data-background-transition=convex] > .backgrounds .slide-background > .slide-background.past,
+.reveal > .backgrounds .slide-background > .slide-background.past[data-background-transition=convex] {
   opacity: 0;
   -webkit-transform: translate3d(0, -100%, 0) rotateX(90deg) translate3d(0, -100%, 0);
           transform: translate3d(0, -100%, 0) rotateX(90deg) translate3d(0, -100%, 0); }
 
-.reveal[data-background-transition=convex] &gt; .backgrounds .slide-background &gt; .slide-background.future,
-.reveal &gt; .backgrounds .slide-background &gt; .slide-background.future[data-background-transition=convex] {
+.reveal[data-background-transition=convex] > .backgrounds .slide-background > .slide-background.future,
+.reveal > .backgrounds .slide-background > .slide-background.future[data-background-transition=convex] {
   opacity: 0;
   -webkit-transform: translate3d(0, 100%, 0) rotateX(-90deg) translate3d(0, 100%, 0);
           transform: translate3d(0, 100%, 0) rotateX(-90deg) translate3d(0, 100%, 0); }
 
-/* Concave */
-.reveal[data-background-transition=concave] &gt; .backgrounds .slide-background.past,
-.reveal &gt; .backgrounds .slide-background.past[data-background-transition=concave] {
+ 
+.reveal[data-background-transition=concave] > .backgrounds .slide-background.past,
+.reveal > .backgrounds .slide-background.past[data-background-transition=concave] {
   opacity: 0;
   -webkit-transform: translate3d(-100%, 0, 0) rotateY(90deg) translate3d(-100%, 0, 0);
           transform: translate3d(-100%, 0, 0) rotateY(90deg) translate3d(-100%, 0, 0); }
 
-.reveal[data-background-transition=concave] &gt; .backgrounds .slide-background.future,
-.reveal &gt; .backgrounds .slide-background.future[data-background-transition=concave] {
+.reveal[data-background-transition=concave] > .backgrounds .slide-background.future,
+.reveal > .backgrounds .slide-background.future[data-background-transition=concave] {
   opacity: 0;
   -webkit-transform: translate3d(100%, 0, 0) rotateY(-90deg) translate3d(100%, 0, 0);
           transform: translate3d(100%, 0, 0) rotateY(-90deg) translate3d(100%, 0, 0); }
 
-.reveal[data-background-transition=concave] &gt; .backgrounds .slide-background &gt; .slide-background.past,
-.reveal &gt; .backgrounds .slide-background &gt; .slide-background.past[data-background-transition=concave] {
+.reveal[data-background-transition=concave] > .backgrounds .slide-background > .slide-background.past,
+.reveal > .backgrounds .slide-background > .slide-background.past[data-background-transition=concave] {
   opacity: 0;
   -webkit-transform: translate3d(0, -100%, 0) rotateX(-90deg) translate3d(0, -100%, 0);
           transform: translate3d(0, -100%, 0) rotateX(-90deg) translate3d(0, -100%, 0); }
 
-.reveal[data-background-transition=concave] &gt; .backgrounds .slide-background &gt; .slide-background.future,
-.reveal &gt; .backgrounds .slide-background &gt; .slide-background.future[data-background-transition=concave] {
+.reveal[data-background-transition=concave] > .backgrounds .slide-background > .slide-background.future,
+.reveal > .backgrounds .slide-background > .slide-background.future[data-background-transition=concave] {
   opacity: 0;
   -webkit-transform: translate3d(0, 100%, 0) rotateX(90deg) translate3d(0, 100%, 0);
           transform: translate3d(0, 100%, 0) rotateX(90deg) translate3d(0, 100%, 0); }
 
-/* Zoom */
-.reveal[data-background-transition=zoom] &gt; .backgrounds .slide-background,
-.reveal &gt; .backgrounds .slide-background[data-background-transition=zoom] {
+ 
+.reveal[data-background-transition=zoom] > .backgrounds .slide-background,
+.reveal > .backgrounds .slide-background[data-background-transition=zoom] {
   -webkit-transition-timing-function: ease;
           transition-timing-function: ease; }
 
-.reveal[data-background-transition=zoom] &gt; .backgrounds .slide-background.past,
-.reveal &gt; .backgrounds .slide-background.past[data-background-transition=zoom] {
+.reveal[data-background-transition=zoom] > .backgrounds .slide-background.past,
+.reveal > .backgrounds .slide-background.past[data-background-transition=zoom] {
   opacity: 0;
   visibility: hidden;
   -webkit-transform: scale(16);
           transform: scale(16); }
 
-.reveal[data-background-transition=zoom] &gt; .backgrounds .slide-background.future,
-.reveal &gt; .backgrounds .slide-background.future[data-background-transition=zoom] {
+.reveal[data-background-transition=zoom] > .backgrounds .slide-background.future,
+.reveal > .backgrounds .slide-background.future[data-background-transition=zoom] {
   opacity: 0;
   visibility: hidden;
   -webkit-transform: scale(0.2);
           transform: scale(0.2); }
 
-.reveal[data-background-transition=zoom] &gt; .backgrounds .slide-background &gt; .slide-background.past,
-.reveal &gt; .backgrounds .slide-background &gt; .slide-background.past[data-background-transition=zoom] {
+.reveal[data-background-transition=zoom] > .backgrounds .slide-background > .slide-background.past,
+.reveal > .backgrounds .slide-background > .slide-background.past[data-background-transition=zoom] {
   opacity: 0;
   visibility: hidden;
   -webkit-transform: scale(16);
           transform: scale(16); }
 
-.reveal[data-background-transition=zoom] &gt; .backgrounds .slide-background &gt; .slide-background.future,
-.reveal &gt; .backgrounds .slide-background &gt; .slide-background.future[data-background-transition=zoom] {
+.reveal[data-background-transition=zoom] > .backgrounds .slide-background > .slide-background.future,
+.reveal > .backgrounds .slide-background > .slide-background.future[data-background-transition=zoom] {
   opacity: 0;
   visibility: hidden;
   -webkit-transform: scale(0.2);
           transform: scale(0.2); }
 
-/* Global transition speed settings */
-.reveal[data-transition-speed=&#34;fast&#34;] &gt; .backgrounds .slide-background {
+ 
+.reveal[data-transition-speed="fast"] > .backgrounds .slide-background {
   -webkit-transition-duration: 400ms;
           transition-duration: 400ms; }
 
-.reveal[data-transition-speed=&#34;slow&#34;] &gt; .backgrounds .slide-background {
+.reveal[data-transition-speed="slow"] > .backgrounds .slide-background {
   -webkit-transition-duration: 1200ms;
           transition-duration: 1200ms; }
 
-/*********************************************
- * OVERVIEW
- *********************************************/
+ 
 .reveal.overview {
   -webkit-perspective-origin: 50% 50%;
           perspective-origin: 50% 50%;
@@ -1227,7 +973,7 @@ body {
   .reveal.overview .slides section:after,
   .reveal.overview .slides section:before {
     display: none !important; }
-  .reveal.overview .slides &gt; section.stack {
+  .reveal.overview .slides > section.stack {
     padding: 0;
     top: 0 !important;
     background: none;
@@ -1257,9 +1003,7 @@ body {
   -webkit-transition: -webkit-transform 0.4s ease;
           transition: transform 0.4s ease; }
 
-/*********************************************
- * RTL SUPPORT
- *********************************************/
+ 
 .reveal.rtl .slides,
 .reveal.rtl .slides h1,
 .reveal.rtl .slides h2,
@@ -1281,25 +1025,21 @@ body {
 .reveal.rtl .progress span {
   float: right; }
 
-/*********************************************
- * PARALLAX BACKGROUND
- *********************************************/
+ 
 .reveal.has-parallax-background .backgrounds {
   -webkit-transition: all 0.8s ease;
           transition: all 0.8s ease; }
 
-/* Global transition speed settings */
-.reveal.has-parallax-background[data-transition-speed=&#34;fast&#34;] .backgrounds {
+ 
+.reveal.has-parallax-background[data-transition-speed="fast"] .backgrounds {
   -webkit-transition-duration: 400ms;
           transition-duration: 400ms; }
 
-.reveal.has-parallax-background[data-transition-speed=&#34;slow&#34;] .backgrounds {
+.reveal.has-parallax-background[data-transition-speed="slow"] .backgrounds {
   -webkit-transition-duration: 1200ms;
           transition-duration: 1200ms; }
 
-/*********************************************
- * LINK PREVIEW OVERLAY
- *********************************************/
+ 
 .reveal .overlay {
   position: absolute;
   top: 0;
@@ -1447,9 +1187,7 @@ body {
   padding-top: 20px;
   padding-bottom: 20px; }
 
-/*********************************************
- * PLAYBACK COMPONENT
- *********************************************/
+ 
 .reveal .playback {
   position: fixed;
   left: 15px;
@@ -1463,9 +1201,7 @@ body {
   opacity: 0;
   visibility: hidden; }
 
-/*********************************************
- * ROLLING LINKS
- *********************************************/
+ 
 .reveal .roll {
   display: inline-block;
   line-height: 1.2;
@@ -1513,9 +1249,7 @@ body {
   -webkit-transform: translate3d(0px, 110%, 0px) rotateX(-90deg);
           transform: translate3d(0px, 110%, 0px) rotateX(-90deg); }
 
-/*********************************************
- * SPEAKER NOTES
- *********************************************/
+ 
 .reveal aside.notes {
   display: none; }
 
@@ -1550,9 +1284,7 @@ body {
     width: 90%;
     left: 5%; } }
 
-/*********************************************
- * ZOOM PLUGIN
- *********************************************/
+ 
 .zoomed .reveal *,
 .zoomed .reveal *:before,
 .zoomed .reveal *:after {
@@ -1571,7 +1303,7 @@ body {
 
 
 
-&lt;/style&gt; &lt;style&gt; .markdown-preview-enhanced pre { color: rgb(197, 200, 198); background-color: rgb(29, 31, 33); }
+</style> <style> .markdown-preview-enhanced pre { color: rgb(197, 200, 198); background-color: rgb(29, 31, 33); }
 .markdown-preview-enhanced pre .invisible-character { color: rgba(197, 200, 198, 0.2); }
 .markdown-preview-enhanced pre .indent-guide { color: rgba(197, 200, 198, 0.2); }
 .markdown-preview-enhanced pre .wrap-guide { background-color: rgba(197, 200, 198, 0.0980392); }
@@ -1595,13 +1327,13 @@ body {
 .markdown-preview-enhanced pre .markdown .link { color: rgb(85, 85, 85); }
 .markdown-preview-enhanced pre .markdown .link .string { color: rgb(85, 85, 85); }
 .markdown-preview-enhanced pre .markdown .link .string.title { color: rgb(221, 221, 221); }
-.markdown-preview-enhanced { font-family: &#34;Helvetica Neue&#34;, Helvetica, &#34;Segoe UI&#34;, Arial, freesans, sans-serif; font-size: 16px; line-height: 1.6; color: rgb(197, 200, 198); overflow: initial; margin: 10px 13px; padding: 2em; box-sizing: border-box; word-wrap: break-word; background-color: rgb(29, 31, 33); }
+.markdown-preview-enhanced { font-family: "Helvetica Neue", Helvetica, "Segoe UI", Arial, freesans, sans-serif; font-size: 16px; line-height: 1.6; color: rgb(197, 200, 198); overflow: initial; margin: 10px 13px; padding: 2em; box-sizing: border-box; word-wrap: break-word; background-color: rgb(29, 31, 33); }
 .markdown-preview-enhanced[data-use-github-style] { color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); }
-.markdown-preview-enhanced &gt; :first-child { margin-top: 0px; }
-.markdown-preview-enhanced[is=&#34;space-pen-div&#34;] { width: 100%; margin: 0px; z-index: 999; overflow: scroll; font-size: 16px; display: block; position: absolute; }
-.markdown-preview-enhanced[is=&#34;space-pen-div&#34;][data-use-github-style] { }
-.markdown-preview-enhanced[is=&#34;space-pen-div&#34;][data-use-github-style] ::-webkit-scrollbar-track { box-shadow: rgba(218, 218, 218, 0.6) 0px 0px 3px inset; background-color: rgb(244, 244, 244); }
-.markdown-preview-enhanced[is=&#34;space-pen-div&#34;][data-use-github-style] ::-webkit-scrollbar-thumb { border-radius: 10px; border-color: transparent; background-color: rgb(204, 204, 204); }
+.markdown-preview-enhanced > :first-child { margin-top: 0px; }
+.markdown-preview-enhanced[is="space-pen-div"] { width: 100%; margin: 0px; z-index: 999; overflow: scroll; font-size: 16px; display: block; position: absolute; }
+.markdown-preview-enhanced[is="space-pen-div"][data-use-github-style] { }
+.markdown-preview-enhanced[is="space-pen-div"][data-use-github-style] ::-webkit-scrollbar-track { box-shadow: rgba(218, 218, 218, 0.6) 0px 0px 3px inset; background-color: rgb(244, 244, 244); }
+.markdown-preview-enhanced[is="space-pen-div"][data-use-github-style] ::-webkit-scrollbar-thumb { border-radius: 10px; border-color: transparent; background-color: rgb(204, 204, 204); }
 .markdown-preview-enhanced h1, .markdown-preview-enhanced h2, .markdown-preview-enhanced h3, .markdown-preview-enhanced h4, .markdown-preview-enhanced h5, .markdown-preview-enhanced h6 { line-height: 1.2; margin-top: 1em; margin-bottom: 16px; color: rgb(255, 255, 255); }
 .markdown-preview-enhanced[data-use-github-style] h1, .markdown-preview-enhanced[data-use-github-style] h2, .markdown-preview-enhanced[data-use-github-style] h3, .markdown-preview-enhanced[data-use-github-style] h4, .markdown-preview-enhanced[data-use-github-style] h5 { color: rgb(51, 51, 51); font-weight: 600; }
 .markdown-preview-enhanced[data-use-github-style] h5 { font-size: 1em; }
@@ -1620,19 +1352,19 @@ body {
 .markdown-preview-enhanced a { color: rgb(0, 136, 204); text-decoration: none; }
 .markdown-preview-enhanced a:hover { color: rgb(0, 80, 163); text-decoration: none; }
 .markdown-preview-enhanced img { max-width: 100%; }
-.markdown-preview-enhanced &gt; p { margin-top: 0px; margin-bottom: 16px; word-wrap: break-word; }
-.markdown-preview-enhanced &gt; ul, .markdown-preview-enhanced &gt; ol { margin-bottom: 16px; }
+.markdown-preview-enhanced > p { margin-top: 0px; margin-bottom: 16px; word-wrap: break-word; }
+.markdown-preview-enhanced > ul, .markdown-preview-enhanced > ol { margin-bottom: 16px; }
 .markdown-preview-enhanced ul, .markdown-preview-enhanced ol { padding-left: 2em; }
 .markdown-preview-enhanced ul.no-list, .markdown-preview-enhanced ol.no-list { padding: 0px; list-style-type: none; }
 .markdown-preview-enhanced ul ul, .markdown-preview-enhanced ul ol, .markdown-preview-enhanced ol ol, .markdown-preview-enhanced ol ul { margin-top: 0px; margin-bottom: 0px; }
 .markdown-preview-enhanced li { margin-bottom: 0px; }
 .markdown-preview-enhanced li.task-list-item { list-style: none; }
-.markdown-preview-enhanced li &gt; p { margin-top: 0px; margin-bottom: 0px; }
+.markdown-preview-enhanced li > p { margin-top: 0px; margin-bottom: 0px; }
 .markdown-preview-enhanced .task-list-item-checkbox { margin: 0px 0.2em 0.25em -1.6em; vertical-align: middle; }
 .markdown-preview-enhanced .task-list-item-checkbox:hover { cursor: pointer; }
 .markdown-preview-enhanced blockquote { margin: 16px 0px; font-size: inherit; padding: 0px 15px; color: rgb(155, 160, 157); border-left: 4px solid rgb(67, 72, 76); }
-.markdown-preview-enhanced blockquote &gt; :first-child { margin-top: 0px; }
-.markdown-preview-enhanced blockquote &gt; :last-child { margin-bottom: 0px; }
+.markdown-preview-enhanced blockquote > :first-child { margin-top: 0px; }
+.markdown-preview-enhanced blockquote > :last-child { margin-bottom: 0px; }
 .markdown-preview-enhanced[data-use-github-style] blockquote { color: rgb(119, 119, 119); border-left: 4px solid rgb(221, 221, 221); }
 .markdown-preview-enhanced hr { height: 4px; margin: 32px 0px; border: 0px none; background-color: rgb(67, 72, 76); }
 .markdown-preview-enhanced[data-use-github-style] hr { background-color: rgb(231, 231, 231); }
@@ -1644,12 +1376,12 @@ body {
 .markdown-preview-enhanced dl { padding: 0px; }
 .markdown-preview-enhanced dl dt { padding: 0px; margin-top: 16px; font-size: 1em; font-style: italic; font-weight: bold; }
 .markdown-preview-enhanced dl dd { padding: 0px 16px; margin-bottom: 16px; }
-.markdown-preview-enhanced code { font-family: Menlo, Monaco, Consolas, &#34;Courier New&#34;, monospace; color: rgb(255, 255, 255); border-radius: 3px; padding: 0.2em 0px; font-size: 0.85em !important; background-color: rgb(48, 51, 55); }
-.markdown-preview-enhanced code::before, .markdown-preview-enhanced code::after { letter-spacing: -0.2em; content: &#34; &#34;; }
+.markdown-preview-enhanced code { font-family: Menlo, Monaco, Consolas, "Courier New", monospace; color: rgb(255, 255, 255); border-radius: 3px; padding: 0.2em 0px; font-size: 0.85em !important; background-color: rgb(48, 51, 55); }
+.markdown-preview-enhanced code::before, .markdown-preview-enhanced code::after { letter-spacing: -0.2em; content: " "; }
 .markdown-preview-enhanced[data-use-github-style] code { color: inherit; background-color: rgba(0, 0, 0, 0.0392157) !important; }
-.markdown-preview-enhanced pre &gt; code { padding: 0px; margin: 0px; word-break: normal; white-space: pre; border: 0px; font-size: 0.85em !important; background: transparent; }
+.markdown-preview-enhanced pre > code { padding: 0px; margin: 0px; word-break: normal; white-space: pre; border: 0px; font-size: 0.85em !important; background: transparent; }
 .markdown-preview-enhanced .highlight { margin-bottom: 16px; }
-.markdown-preview-enhanced .highlight pre, .markdown-preview-enhanced pre { font-family: Menlo, Monaco, Consolas, &#34;Courier New&#34;, monospace; padding: 16px; overflow: auto; line-height: 1.45; color: rgb(197, 200, 198); border: rgb(67, 72, 76); border-radius: 3px; font-size: 0.85em !important; background-color: rgb(39, 41, 44); }
+.markdown-preview-enhanced .highlight pre, .markdown-preview-enhanced pre { font-family: Menlo, Monaco, Consolas, "Courier New", monospace; padding: 16px; overflow: auto; line-height: 1.45; color: rgb(197, 200, 198); border: rgb(67, 72, 76); border-radius: 3px; font-size: 0.85em !important; background-color: rgb(39, 41, 44); }
 .markdown-preview-enhanced .highlight pre { margin-bottom: 0px; word-break: normal; }
 .markdown-preview-enhanced pre { word-wrap: break-word; white-space: normal; word-break: break-all; }
 .markdown-preview-enhanced pre .section { opacity: 1; }
@@ -1693,22 +1425,22 @@ body {
 .markdown-preview-enhanced[data-use-github-style] .mermaid marker path { fill: rgb(51, 51, 51) !important; opacity: 1 !important; }
 .markdown-preview-enhanced[data-use-github-style] line, .markdown-preview-enhanced[data-use-github-style] marker { stroke: rgb(51, 51, 51) !important; opacity: 1 !important; }
 .markdown-preview-enhanced[data-use-github-style] .messageText { fill: rgb(51, 51, 51); }
-.markdown-preview-enhanced[is=&#34;space-pen-div&#34;] .code-chunk { position: relative; }
-.markdown-preview-enhanced[is=&#34;space-pen-div&#34;] .code-chunk .output-div { overflow-x: auto; }
-.markdown-preview-enhanced[is=&#34;space-pen-div&#34;] .code-chunk pre { cursor: text; }
-.markdown-preview-enhanced[is=&#34;space-pen-div&#34;] .code-chunk .btn-group { position: absolute; right: 0px; top: 0px; display: none; }
-.markdown-preview-enhanced[is=&#34;space-pen-div&#34;] .code-chunk .btn-group .run-btn, .markdown-preview-enhanced[is=&#34;space-pen-div&#34;] .code-chunk .btn-group .run-all-btn { float: right; margin-left: 4px; border-radius: 3px; font-size: 0.8em; color: rgb(238, 238, 238); border: none; background-image: none; background-color: rgb(82, 139, 255); }
-.markdown-preview-enhanced[is=&#34;space-pen-div&#34;] .code-chunk .btn-group .run-btn:hover, .markdown-preview-enhanced[is=&#34;space-pen-div&#34;] .code-chunk .btn-group .run-all-btn:hover { cursor: pointer; background-color: rgb(75, 127, 232); }
-.markdown-preview-enhanced[is=&#34;space-pen-div&#34;] .code-chunk:hover .btn-group { display: block; }
-.markdown-preview-enhanced[is=&#34;space-pen-div&#34;] .code-chunk .status { position: absolute; right: 0px; top: 0px; font-size: 0.85em; color: inherit; padding: 2px 6px; display: none; background-color: rgba(0, 0, 0, 0.0392157); }
-.markdown-preview-enhanced[is=&#34;space-pen-div&#34;] .code-chunk.running .btn-group { display: none; }
-.markdown-preview-enhanced[is=&#34;space-pen-div&#34;] .code-chunk.running .status { display: block; }
-.markdown-preview-enhanced[is=&#34;space-pen-div&#34;] .back-to-top-btn { position: fixed; display: none; right: 24px; top: 54px; }
-.markdown-preview-enhanced[is=&#34;space-pen-div&#34;]:hover .back-to-top-btn { display: block; opacity: 0.4; }
-.markdown-preview-enhanced[is=&#34;space-pen-div&#34;]:hover .back-to-top-btn:hover { opacity: 1; }
-.markdown-preview-enhanced:not([is=&#34;space-pen-div&#34;]) .code-chunk .btn-group { display: none; }
-.markdown-preview-enhanced:not([is=&#34;space-pen-div&#34;]) .code-chunk .status { display: none; }
-.markdown-preview-enhanced:not([is=&#34;space-pen-div&#34;]) .back-to-top-btn { display: none; }
+.markdown-preview-enhanced[is="space-pen-div"] .code-chunk { position: relative; }
+.markdown-preview-enhanced[is="space-pen-div"] .code-chunk .output-div { overflow-x: auto; }
+.markdown-preview-enhanced[is="space-pen-div"] .code-chunk pre { cursor: text; }
+.markdown-preview-enhanced[is="space-pen-div"] .code-chunk .btn-group { position: absolute; right: 0px; top: 0px; display: none; }
+.markdown-preview-enhanced[is="space-pen-div"] .code-chunk .btn-group .run-btn, .markdown-preview-enhanced[is="space-pen-div"] .code-chunk .btn-group .run-all-btn { float: right; margin-left: 4px; border-radius: 3px; font-size: 0.8em; color: rgb(238, 238, 238); border: none; background-image: none; background-color: rgb(82, 139, 255); }
+.markdown-preview-enhanced[is="space-pen-div"] .code-chunk .btn-group .run-btn:hover, .markdown-preview-enhanced[is="space-pen-div"] .code-chunk .btn-group .run-all-btn:hover { cursor: pointer; background-color: rgb(75, 127, 232); }
+.markdown-preview-enhanced[is="space-pen-div"] .code-chunk:hover .btn-group { display: block; }
+.markdown-preview-enhanced[is="space-pen-div"] .code-chunk .status { position: absolute; right: 0px; top: 0px; font-size: 0.85em; color: inherit; padding: 2px 6px; display: none; background-color: rgba(0, 0, 0, 0.0392157); }
+.markdown-preview-enhanced[is="space-pen-div"] .code-chunk.running .btn-group { display: none; }
+.markdown-preview-enhanced[is="space-pen-div"] .code-chunk.running .status { display: block; }
+.markdown-preview-enhanced[is="space-pen-div"] .back-to-top-btn { position: fixed; display: none; right: 24px; top: 54px; }
+.markdown-preview-enhanced[is="space-pen-div"]:hover .back-to-top-btn { display: block; opacity: 0.4; }
+.markdown-preview-enhanced[is="space-pen-div"]:hover .back-to-top-btn:hover { opacity: 1; }
+.markdown-preview-enhanced:not([is="space-pen-div"]) .code-chunk .btn-group { display: none; }
+.markdown-preview-enhanced:not([is="space-pen-div"]) .code-chunk .status { display: none; }
+.markdown-preview-enhanced:not([is="space-pen-div"]) .back-to-top-btn { display: none; }
 .markdown-preview-enhanced .github-syntax-theme pre.editor-colors, .markdown-preview-enhanced .github-syntax-theme .host { color: rgb(51, 51, 51); background-color: rgb(247, 247, 247); }
 .markdown-preview-enhanced .github-syntax-theme pre { color: rgb(51, 51, 51); background-color: rgb(247, 247, 247); }
 .markdown-preview-enhanced .github-syntax-theme pre.editor-colors .gutter, .markdown-preview-enhanced .github-syntax-theme .host .gutter { color: rgb(179, 179, 179); background-color: rgb(255, 255, 255); }
@@ -2067,13 +1799,13 @@ pre.editor-colors .markdown .link .string.title {
   color: #494949;
 }
 .meta.tag .entity,
-.meta.tag &gt; .punctuation,
+.meta.tag > .punctuation,
 .meta.tag.inline .entity {
   color: #C6C5FE;
 }
 .meta.tag .name,
 .meta.tag.inline .name,
-.meta.tag &gt; .punctuation {
+.meta.tag > .punctuation {
   color: #96CBFE;
 }
 .meta.selector.css .entity.name.tag {
@@ -2119,98 +1851,93 @@ pre.editor-colors .markdown .link .string.title {
 .meta.line.error.logfile {
   background-color: #751012;
 }
- &lt;/style&gt; &lt;script type=&#34;text/x-mathjax-config&#34;&gt; MathJax.Hub.Config({ messageStyle: &#39;none&#39;, tex2jax: {inlineMath: [[&#34;$&#34;, &#34;$&#34;]], displayMath: [[&#34;$$&#34;, &#34;$$&#34;]], processEscapes: true} }); &lt;/script&gt; &lt;script type=&#34;text/javascript&#34; async src=&#34;file:///Users/chengjun/.atom/packages/markdown-preview-enhanced/dependencies/mathjax/MathJax.js?config=TeX-AMS_CHTML&#34;&gt;&lt;/script&gt; &lt;script src=&#39;file:////Users/chengjun/.atom/packages/markdown-preview-enhanced/dependencies/reveal/lib/js/head.min.js&#39;&gt;&lt;/script&gt; &lt;script src=&#39;file:////Users/chengjun/.atom/packages/markdown-preview-enhanced/dependencies/reveal/js/reveal.js&#39;&gt;&lt;/script&gt; &lt;/head&gt; &lt;body class=&#34;markdown-preview-enhanced &#34; data-use-github-style data-use-github-syntax-theme data-presentation-mode&gt; &lt;div class=&#34;reveal&#34;&gt;
-  &lt;div class=&#34;slides&#34;&gt;
-    &lt;section  data-notes=&#39;Congrats! You just opened speaker notes&#39;&gt;&lt;h1 class=&#34;sync-line&#34; data-line=&#34;9&#34; id=&#34;presentation-writer-beta&#34;&gt;Presentation Writer (Beta)&lt;/h1&gt;
-&lt;p class=&#34;sync-line&#34; data-line=&#34;10&#34;&gt;by &lt;strong&gt;Markdown Preview Enhanced&lt;/strong&gt;  &lt;br&gt;
-powered by &lt;a href=&#34;https://github.com/hakimel/reveal.js&#34;&gt;reveal.js&lt;/a&gt;  &lt;br&gt;
-&lt;br&gt;&lt;/p&gt;
-&lt;p style=&#34;font-size: 18px;&#34;&gt;press &lt;kbd&gt;?&lt;/kbd&gt; key to see keyboard help.&lt;/p&gt;
-&lt;p style=&#34;font-size: 18px;&#34;&gt;press &lt;kbd&gt;s&lt;/kbd&gt; key to open note window.&lt;/p&gt;
-&lt;/section&gt;&lt;section &gt;&lt;p class=&#34;sync-line&#34; data-line=&#34;17&#34;&gt;You can easily create beautiful presentation by running command&lt;br&gt;
-&lt;center&gt; &lt;code&gt;Markdown Preview Enhanced: Insert New Slide&lt;/code&gt; &lt;/center&gt;&lt;/p&gt;
-&lt;aside class=&#34;notes&#34;&gt;
+ </style> <script type="text/x-mathjax-config"> MathJax.Hub.Config({ messageStyle: 'none', tex2jax: {inlineMath: [["$", "$"]], displayMath: [["$$", "$$"]], processEscapes: true} }); </script> <script type="text/javascript" async src="file:///Users/chengjun/.atom/packages/markdown-preview-enhanced/dependencies/mathjax/MathJax.js?config=TeX-AMS_CHTML"></script> <script src='file:////Users/chengjun/.atom/packages/markdown-preview-enhanced/dependencies/reveal/lib/js/head.min.js'></script> <script src='file:////Users/chengjun/.atom/packages/markdown-preview-enhanced/dependencies/reveal/js/reveal.js'></script> </head> <body class="markdown-preview-enhanced " data-use-github-style data-use-github-syntax-theme data-presentation-mode> <div class="reveal">
+  <div class="slides">
+    <section  data-notes='Congrats! You just opened speaker notes'><h1 class="sync-line" data-line="9" id="presentation-writer-beta">Presentation Writer (Beta)</h1>
+<p class="sync-line" data-line="10">by <strong>Markdown Preview Enhanced</strong>  <br>
+powered by <a href="https://github.com/hakimel/reveal.js">reveal.js</a>  <br>
+<br></p>
+<p style="font-size: 18px;">press <kbd>?</kbd> key to see keyboard help.</p>
+<p style="font-size: 18px;">press <kbd>s</kbd> key to open note window.</p>
+</section><section ><p class="sync-line" data-line="17">You can easily create beautiful presentation by running command<br>
+<center> <code>Markdown Preview Enhanced: Insert New Slide</code> </center></p>
+<aside class="notes">
     Pretty cool haha ;)
-&lt;/aside&gt;
-&lt;/section&gt;&lt;section &gt;&lt;p class=&#34;sync-line&#34; data-line=&#34;24&#34;&gt;Just like this&lt;/p&gt;
-&lt;p class=&#34;sync-line&#34; data-line=&#34;26&#34;&gt;&lt;img src=&#34;http://ooo.0o0.ooo/2016/07/17/578c61408dd73.gif&#34; alt=&#34;presentation&#34;&gt;&lt;/p&gt;
-&lt;/section&gt;&lt;section &gt;&lt;p class=&#34;sync-line&#34; data-line=&#34;29&#34;&gt;The style of the presentation is consistent with the style of your beloved &lt;strong&gt;Atom&lt;/strong&gt;.&lt;/p&gt;
-&lt;pre class=&#34;editor-colors lang-javascript sync-line&#34; data-line=&#34;30&#34;&gt;&lt;div class=&#34;line&#34;&gt;&lt;span class=&#34;source js&#34;&gt;&lt;span class=&#34;storage type const js&#34;&gt;&lt;span&gt;const&lt;/span&gt;&lt;/span&gt;&lt;span&gt;&amp;nbsp;さかもと&amp;nbsp;&lt;/span&gt;&lt;span class=&#34;keyword operator assignment js&#34;&gt;&lt;span&gt;=&lt;/span&gt;&lt;/span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;span class=&#34;string quoted single js&#34;&gt;&lt;span class=&#34;punctuation definition string begin js&#34;&gt;&lt;span&gt;&amp;#39;&lt;/span&gt;&lt;/span&gt;&lt;span&gt;cool&amp;nbsp;cooler&amp;nbsp;coolest&lt;/span&gt;&lt;span class=&#34;punctuation definition string end js&#34;&gt;&lt;span&gt;&amp;#39;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;/pre&gt;
-&lt;/section&gt;&lt;section &gt;&lt;p class=&#34;sync-line&#34; data-line=&#34;35&#34;&gt;You can change your presentation theme very easily:&lt;/p&gt;
-&lt;p class=&#34;sync-line&#34; data-line=&#34;37&#34;&gt;&lt;img src=&#34;https://cloud.githubusercontent.com/assets/1908863/23577767/951531b2-008d-11e7-95d0-08cd53d277a6.gif&#34; alt=&#34;presentation-theme&#34;&gt;&lt;/p&gt;
-&lt;/section&gt;&lt;section &gt;&lt;p class=&#34;sync-line&#34; data-line=&#34;41&#34;&gt;All features of &lt;strong&gt;Markdown Preview Enhanced&lt;/strong&gt; are supported.&lt;br&gt;
-Such as Math typesetting, mermaid graph, code chunk etc...&lt;br&gt;
-&lt;br&gt;&lt;br&gt;
-$$f(x) = \int_{-\infty}^\infty    \hat f(\xi)\,e^{2 \pi i \xi x}    \,d\xi$$&lt;/p&gt;
-&lt;/section&gt;&lt;section &gt;&lt;p class=&#34;sync-line&#34; data-line=&#34;51&#34;&gt;You can set initialization config for your presentation.&lt;br&gt;
-Just add front-matter to your presentation markdown file.&lt;/p&gt;
-&lt;pre class=&#34;editor-colors lang-yaml sync-line&#34; data-line=&#34;53&#34;&gt;&lt;div class=&#34;line&#34;&gt;&lt;span class=&#34;source yaml&#34;&gt;&lt;span class=&#34;punctuation definition directives end yaml&#34;&gt;&lt;span&gt;---&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div class=&#34;line&#34;&gt;&lt;span class=&#34;source yaml&#34;&gt;&lt;span class=&#34;entity name tag yaml&#34;&gt;&lt;span&gt;presentation&lt;/span&gt;&lt;span class=&#34;punctuation separator key-value yaml&#34;&gt;&lt;span&gt;:&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div class=&#34;line&#34;&gt;&lt;span class=&#34;source yaml&#34;&gt;&lt;span&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class=&#34;entity name tag yaml&#34;&gt;&lt;span&gt;width&lt;/span&gt;&lt;span class=&#34;punctuation separator key-value yaml&#34;&gt;&lt;span&gt;:&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;span class=&#34;constant numeric yaml&#34;&gt;&lt;span&gt;800&lt;/span&gt;&lt;/span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div class=&#34;line&#34;&gt;&lt;span class=&#34;source yaml&#34;&gt;&lt;span&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class=&#34;entity name tag yaml&#34;&gt;&lt;span&gt;height&lt;/span&gt;&lt;span class=&#34;punctuation separator key-value yaml&#34;&gt;&lt;span&gt;:&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;span class=&#34;constant numeric yaml&#34;&gt;&lt;span&gt;600&lt;/span&gt;&lt;/span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div class=&#34;line&#34;&gt;&lt;span class=&#34;source yaml&#34;&gt;&lt;span&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class=&#34;entity name tag yaml&#34;&gt;&lt;span&gt;controls&lt;/span&gt;&lt;span class=&#34;punctuation separator key-value yaml&#34;&gt;&lt;span&gt;:&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;span class=&#34;constant language yaml&#34;&gt;&lt;span&gt;false&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div class=&#34;line&#34;&gt;&lt;span class=&#34;source yaml&#34;&gt;&lt;span class=&#34;punctuation definition directives end yaml&#34;&gt;&lt;span&gt;---&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;/pre&gt;
-&lt;p class=&#34;sync-line&#34; data-line=&#34;61&#34;&gt;More information about front-matter settings can be found &lt;a href=&#34;https://github.com/shd101wyy/markdown-preview-enhanced/blob/master/docs/presentation-front-matter.md&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
-&lt;/section&gt;&lt;section  data-notes=&#39;This is speaker note&#39;&gt;&lt;p class=&#34;sync-line&#34; data-line=&#34;64&#34;&gt;&lt;strong&gt;Speaker notes&lt;/strong&gt; is also supported.&lt;br&gt;
-Press the &lt;kbd&gt;s&lt;/kbd&gt; key on your keyboard to open the notes window.&lt;/p&gt;
-&lt;p class=&#34;sync-line&#34; data-line=&#34;67&#34;&gt;To enable speaker notes, set front-matter as:&lt;/p&gt;
-&lt;pre class=&#34;editor-colors lang-yaml sync-line&#34; data-line=&#34;68&#34;&gt;&lt;div class=&#34;line&#34;&gt;&lt;span class=&#34;source yaml&#34;&gt;&lt;span class=&#34;punctuation definition directives end yaml&#34;&gt;&lt;span&gt;---&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div class=&#34;line&#34;&gt;&lt;span class=&#34;source yaml&#34;&gt;&lt;span class=&#34;entity name tag yaml&#34;&gt;&lt;span&gt;presentation&lt;/span&gt;&lt;span class=&#34;punctuation separator key-value yaml&#34;&gt;&lt;span&gt;:&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div class=&#34;line&#34;&gt;&lt;span class=&#34;source yaml&#34;&gt;&lt;span&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class=&#34;entity name tag yaml&#34;&gt;&lt;span&gt;enableSpeakerNotes&lt;/span&gt;&lt;span class=&#34;punctuation separator key-value yaml&#34;&gt;&lt;span&gt;:&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;span class=&#34;constant language yaml&#34;&gt;&lt;span&gt;true&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div class=&#34;line&#34;&gt;&lt;span class=&#34;source yaml&#34;&gt;&lt;span class=&#34;punctuation definition directives end yaml&#34;&gt;&lt;span&gt;---&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;/pre&gt;
-&lt;p class=&#34;sync-line&#34; data-line=&#34;74&#34;&gt;To add notes, simply set &lt;code&gt;data-notes&lt;/code&gt; property:&lt;/p&gt;
-&lt;pre class=&#34;editor-colors lang-html sync-line&#34; data-line=&#34;75&#34;&gt;&lt;div class=&#34;line&#34;&gt;&lt;span class=&#34;text html basic&#34;&gt;&lt;span class=&#34;comment block html&#34;&gt;&lt;span class=&#34;punctuation definition comment html&#34;&gt;&lt;span&gt;&amp;lt;!--&lt;/span&gt;&lt;/span&gt;&lt;span&gt;&amp;nbsp;slide&amp;nbsp;data-notes:&amp;quot;Write&amp;nbsp;your&amp;nbsp;note&amp;nbsp;here&amp;quot;&amp;nbsp;&lt;/span&gt;&lt;span class=&#34;punctuation definition comment html&#34;&gt;&lt;span&gt;--&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;/pre&gt;
-&lt;p class=&#34;sync-line&#34; data-line=&#34;78&#34;&gt;check &lt;a href=&#34;https://github.com/hakimel/reveal.js#speaker-notes&#34;&gt;Reveal.js Speaker Notes&lt;/a&gt; section for more information.&lt;/p&gt;
-&lt;/section&gt;&lt;section&gt;&lt;section &gt;&lt;p class=&#34;sync-line&#34; data-line=&#34;82&#34;&gt;By default, all slides are aligned horizontally, but you can also create vertical slides by adding &lt;code&gt;vertical:true&lt;/code&gt;.&lt;br&gt;
-For example:&lt;/p&gt;
-&lt;pre class=&#34;editor-colors lang-html sync-line&#34; data-line=&#34;84&#34;&gt;&lt;div class=&#34;line&#34;&gt;&lt;span class=&#34;text html basic&#34;&gt;&lt;span class=&#34;comment block html&#34;&gt;&lt;span class=&#34;punctuation definition comment html&#34;&gt;&lt;span&gt;&amp;lt;!--&lt;/span&gt;&lt;/span&gt;&lt;span&gt;&amp;nbsp;slide&amp;nbsp;vertical:true&amp;nbsp;&lt;/span&gt;&lt;span class=&#34;punctuation definition comment html&#34;&gt;&lt;span&gt;--&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;/pre&gt;
-&lt;/section&gt;&lt;section &gt;&lt;p class=&#34;sync-line&#34; data-line=&#34;89&#34;&gt;You just discovered a vertical slide!&lt;/p&gt;
-&lt;/section&gt;&lt;/section&gt;&lt;section &gt;&lt;p class=&#34;sync-line&#34; data-line=&#34;92&#34;&gt;You can set slide background very easily.&lt;br&gt;
-For example:&lt;/p&gt;
-&lt;pre class=&#34;editor-colors lang-html sync-line&#34; data-line=&#34;94&#34;&gt;&lt;div class=&#34;line&#34;&gt;&lt;span class=&#34;text html basic&#34;&gt;&lt;span class=&#34;comment block html&#34;&gt;&lt;span class=&#34;punctuation definition comment html&#34;&gt;&lt;span&gt;&amp;lt;!--&lt;/span&gt;&lt;/span&gt;&lt;span&gt;&amp;nbsp;slide&amp;nbsp;data-background-color:&amp;quot;#ff0000&amp;quot;&amp;nbsp;&lt;/span&gt;&lt;span class=&#34;punctuation definition comment html&#34;&gt;&lt;span&gt;--&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;/pre&gt;
-&lt;/section&gt;&lt;section  data-background-color=&#39;#ffebcf&#39;&gt;&lt;p class=&#34;sync-line&#34; data-line=&#34;99&#34;&gt;Of course you can do more about slide background.&lt;br&gt;
-&lt;strong&gt;Image Background&lt;/strong&gt;&lt;/p&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;&lt;th&gt;Atribute&lt;/th&gt;&lt;th&gt;Default&lt;/th&gt;&lt;th&gt;Description&lt;/th&gt;&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;&lt;td&gt;data-background-image&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;URL of the image to show. GIFs restart when the slide opens.&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;data-background-size&lt;/td&gt;&lt;td&gt;cover&lt;/td&gt;&lt;td&gt;See &lt;a href=&#34;https://developer.mozilla.org/docs/Web/CSS/background-size&#34;&gt;background-size&lt;/a&gt; on MDN.&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;data-background-position&lt;/td&gt;&lt;td&gt;center&lt;/td&gt;&lt;td&gt;See &lt;a href=&#34;https://developer.mozilla.org/docs/Web/CSS/background-position&#34;&gt;background-position&lt;/a&gt; on MDN.&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;data-background-repeat&lt;/td&gt;&lt;td&gt;no-repeat&lt;/td&gt;&lt;td&gt;See &lt;a href=&#34;https://developer.mozilla.org/docs/Web/CSS/background-repeat&#34;&gt;background-repeat&lt;/a&gt; on MDN.&lt;/td&gt;&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;/section&gt;&lt;section &gt;&lt;p class=&#34;sync-line&#34; data-line=&#34;109&#34;&gt;You can also set &lt;strong&gt;video background&lt;/strong&gt; and &lt;strong&gt;iframe background&lt;/strong&gt;.&lt;br&gt;
-&lt;em&gt;Please note that video background doesn&#39;t work in preview&lt;/em&gt;&lt;/p&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;&lt;th&gt;Attribute&lt;/th&gt;&lt;th&gt;Default&lt;/th&gt;&lt;th&gt;Description&lt;/th&gt;&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;&lt;td&gt;data-background-video&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;A single video source, or a comma separated list of video sources.&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;data-background-video-loop&lt;/td&gt;&lt;td&gt;false&lt;/td&gt;&lt;td&gt;Flags if the video should play repeatedly.&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;data-background-video-muted&lt;/td&gt;&lt;td&gt;false&lt;/td&gt;&lt;td&gt;Flags if the audio should be muted.&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;data-background-iframe&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;Embeds a web page as a background.&lt;/td&gt;&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;/section&gt;&lt;section &gt;&lt;p class=&#34;sync-line&#34; data-line=&#34;119&#34;&gt;For example, the markdown snippet below will generate slide like...&lt;/p&gt;
-&lt;pre class=&#34;editor-colors lang-html sync-line&#34; data-line=&#34;120&#34;&gt;&lt;div class=&#34;line&#34;&gt;&lt;span class=&#34;text html basic&#34;&gt;&lt;span class=&#34;comment block html&#34;&gt;&lt;span class=&#34;punctuation definition comment html&#34;&gt;&lt;span&gt;&amp;lt;!--&lt;/span&gt;&lt;/span&gt;&lt;span&gt;&amp;nbsp;slide&amp;nbsp;data-background-image:&amp;quot;&lt;/span&gt;&lt;span class=&#34;markup underline link http hyperlink&#34;&gt;&lt;span&gt;http://ooo.0o0.ooo/2016/10/27/581167987ec08.jpg&lt;/span&gt;&lt;/span&gt;&lt;span&gt;&amp;quot;&amp;nbsp;data-transition:&amp;quot;zoom&amp;quot;&amp;nbsp;&lt;/span&gt;&lt;span class=&#34;punctuation definition comment html&#34;&gt;&lt;span&gt;--&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div class=&#34;line&#34;&gt;&lt;span class=&#34;text html basic&#34;&gt;&lt;span class=&#34;meta tag block any html&#34;&gt;&lt;span class=&#34;punctuation definition tag begin html&#34;&gt;&lt;span&gt;&amp;lt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;entity name tag block any html&#34;&gt;&lt;span&gt;p&lt;/span&gt;&lt;/span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;span class=&#34;entity other attribute-name html&#34;&gt;&lt;span&gt;style&lt;/span&gt;&lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span class=&#34;string quoted double html&#34;&gt;&lt;span class=&#34;punctuation definition string begin html&#34;&gt;&lt;span&gt;&amp;quot;&lt;/span&gt;&lt;/span&gt;&lt;span&gt;color:&amp;nbsp;#fff;&lt;/span&gt;&lt;span class=&#34;punctuation definition string end html&#34;&gt;&lt;span&gt;&amp;quot;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;punctuation definition tag end html&#34;&gt;&lt;span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span&gt;国漫大法好！&lt;/span&gt;&lt;span class=&#34;meta tag block any html&#34;&gt;&lt;span class=&#34;punctuation definition tag begin html&#34;&gt;&lt;span&gt;&amp;lt;/&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;entity name tag block any html&#34;&gt;&lt;span&gt;p&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;punctuation definition tag end html&#34;&gt;&lt;span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div class=&#34;line&#34;&gt;&lt;span class=&#34;text html basic&#34;&gt;&lt;span class=&#34;meta tag block any html&#34;&gt;&lt;span class=&#34;punctuation definition tag begin html&#34;&gt;&lt;span&gt;&amp;lt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;entity name tag block any html&#34;&gt;&lt;span&gt;p&lt;/span&gt;&lt;/span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;span class=&#34;entity other attribute-name html&#34;&gt;&lt;span&gt;style&lt;/span&gt;&lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span class=&#34;string quoted double html&#34;&gt;&lt;span class=&#34;punctuation definition string begin html&#34;&gt;&lt;span&gt;&amp;quot;&lt;/span&gt;&lt;/span&gt;&lt;span&gt;color:&amp;nbsp;#fff;&lt;/span&gt;&lt;span class=&#34;punctuation definition string end html&#34;&gt;&lt;span&gt;&amp;quot;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;punctuation definition tag end html&#34;&gt;&lt;span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span&gt;国漫大法好！&lt;/span&gt;&lt;span class=&#34;meta tag block any html&#34;&gt;&lt;span class=&#34;punctuation definition tag begin html&#34;&gt;&lt;span&gt;&amp;lt;/&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;entity name tag block any html&#34;&gt;&lt;span&gt;p&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;punctuation definition tag end html&#34;&gt;&lt;span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div class=&#34;line&#34;&gt;&lt;span class=&#34;text html basic&#34;&gt;&lt;span class=&#34;meta tag block any html&#34;&gt;&lt;span class=&#34;punctuation definition tag begin html&#34;&gt;&lt;span&gt;&amp;lt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;entity name tag block any html&#34;&gt;&lt;span&gt;p&lt;/span&gt;&lt;/span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;span class=&#34;entity other attribute-name html&#34;&gt;&lt;span&gt;style&lt;/span&gt;&lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span class=&#34;string quoted double html&#34;&gt;&lt;span class=&#34;punctuation definition string begin html&#34;&gt;&lt;span&gt;&amp;quot;&lt;/span&gt;&lt;/span&gt;&lt;span&gt;color:&amp;nbsp;#fff;&lt;/span&gt;&lt;span class=&#34;punctuation definition string end html&#34;&gt;&lt;span&gt;&amp;quot;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;punctuation definition tag end html&#34;&gt;&lt;span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span&gt;国漫大法好！&lt;/span&gt;&lt;span class=&#34;meta tag block any html&#34;&gt;&lt;span class=&#34;punctuation definition tag begin html&#34;&gt;&lt;span&gt;&amp;lt;/&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;entity name tag block any html&#34;&gt;&lt;span&gt;p&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;punctuation definition tag end html&#34;&gt;&lt;span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;/pre&gt;
-&lt;/section&gt;&lt;section  data-background-image=&#39;http://ooo.0o0.ooo/2016/10/27/581167987ec08.jpg&#39; data-transition=&#39;zoom&#39;&gt;&lt;p style=&#34;color: #fff;&#34;&gt;国漫大法好！&lt;/p&gt;
-&lt;p style=&#34;color: #fff;&#34;&gt;国漫大法好！&lt;/p&gt;
-&lt;p style=&#34;color: #fff;&#34;&gt;国漫大法好！&lt;/p&gt;
-&lt;/section&gt;&lt;section &gt;&lt;p class=&#34;sync-line&#34; data-line=&#34;135&#34;&gt;It is also very easy to customize presentation css.&lt;br&gt;
-Run &lt;code&gt;Markdown Preview Enhanced: Customize Css&lt;/code&gt; command,&lt;br&gt;
-then edit section:&lt;/p&gt;
-&lt;pre class=&#34;editor-colors lang-less sync-line&#34; data-line=&#34;138&#34;&gt;&lt;div class=&#34;line&#34;&gt;&lt;span class=&#34;text plain null-grammar&#34;&gt;&lt;span&gt;.preview-slides&amp;nbsp;.slide,&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div class=&#34;line&#34;&gt;&lt;span class=&#34;text plain null-grammar&#34;&gt;&lt;span&gt;&amp;amp;[data-presentation-mode]&amp;nbsp;{&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div class=&#34;line&#34;&gt;&lt;span class=&#34;text plain null-grammar&#34;&gt;&lt;span&gt;&amp;nbsp;&amp;nbsp;//&amp;nbsp;eg&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div class=&#34;line&#34;&gt;&lt;span class=&#34;text plain null-grammar&#34;&gt;&lt;span&gt;&amp;nbsp;&amp;nbsp;//&amp;nbsp;background-color:&amp;nbsp;#000;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div class=&#34;line&#34;&gt;&lt;span class=&#34;text plain null-grammar&#34;&gt;&lt;span&gt;}&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;/pre&gt;
-&lt;/section&gt;&lt;section &gt;&lt;p class=&#34;sync-line&#34; data-line=&#34;147&#34;&gt;You can check your presentation in browser by&lt;br&gt;
-right clicking at the preview, then choose &lt;code&gt;Open in Browser&lt;/code&gt; option.&lt;/p&gt;
-&lt;/section&gt;&lt;section &gt;&lt;p class=&#34;sync-line&#34; data-line=&#34;151&#34;&gt;&lt;strong&gt;Markdown Preview Enhanced&lt;/strong&gt; can also generate beautiful &lt;strong&gt;HTML&lt;/strong&gt; or &lt;strong&gt;PDF&lt;/strong&gt; files for your presentation.&lt;/p&gt;
-&lt;/section&gt;&lt;section &gt;&lt;h4 class=&#34;sync-line&#34; data-line=&#34;154&#34; id=&#34;star-this-project-if-you-like-it&#34;&gt;Star this project if you like it ;)&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;p class=&#34;sync-line&#34; data-line=&#34;155&#34;&gt;Github Repository can be found &lt;a href=&#34;https://github.com/shd101wyy/markdown-preview-enhanced&#34;&gt;here&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p class=&#34;sync-line&#34; data-line=&#34;156&#34;&gt;Feel free to post issues and request new features &lt;a href=&#34;https://github.com/shd101wyy/markdown-preview-enhanced/issues&#34;&gt;here&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p class=&#34;sync-line&#34; data-line=&#34;157&#34;&gt;Source code of this presentation can be found &lt;a href=&#34;https://github.com/shd101wyy/markdown-preview-enhanced/blob/master/docs/presentation-intro.md&#34;&gt;here&lt;/a&gt;, &lt;a href=&#34;https://raw.githubusercontent.com/shd101wyy/markdown-preview-enhanced/master/docs/presentation-intro.md&#34;&gt;raw&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/section&gt;&lt;section  data-background-image=&#39;http://ooo.0o0.ooo/2016/07/18/578c66da6a5a3.jpg&#39;&gt;&lt;/section&gt;
-  &lt;/div&gt;
-&lt;/div&gt; &lt;/body&gt; &lt;script&gt;
-  Reveal.initialize({&#34;margin&#34;:0.1,&#34;width&#34;:960,&#34;height&#34;:700,&#34;help&#34;:true,&#34;enableSpeakerNotes&#34;:true,&#34;dependencies&#34;:[{&#34;src&#34;:&#34;/Users/chengjun/.atom/packages/markdown-preview-enhanced/dependencies/reveal/plugin/notes/notes.js&#34;,&#34;async&#34;:true}]})
-&lt;/script&gt; &lt;/html&gt;
-</description>
-    </item>
-    
-  </channel>
-</rss>
+</aside>
+</section><section ><p class="sync-line" data-line="24">Just like this</p>
+<p class="sync-line" data-line="26"><img src="http://ooo.0o0.ooo/2016/07/17/578c61408dd73.gif" alt="presentation"></p>
+</section><section ><p class="sync-line" data-line="29">The style of the presentation is consistent with the style of your beloved <strong>Atom</strong>.</p>
+<pre class="editor-colors lang-javascript sync-line" data-line="30"><div class="line"><span class="source js"><span class="storage type const js"><span>const</span></span><span>&nbsp;さかもと&nbsp;</span><span class="keyword operator assignment js"><span>=</span></span><span>&nbsp;</span><span class="string quoted single js"><span class="punctuation definition string begin js"><span>&#39;</span></span><span>cool&nbsp;cooler&nbsp;coolest</span><span class="punctuation definition string end js"><span>&#39;</span></span></span></span></div></pre>
+</section><section ><p class="sync-line" data-line="35">You can change your presentation theme very easily:</p>
+<p class="sync-line" data-line="37"><img src="https://cloud.githubusercontent.com/assets/1908863/23577767/951531b2-008d-11e7-95d0-08cd53d277a6.gif" alt="presentation-theme"></p>
+</section><section ><p class="sync-line" data-line="41">All features of <strong>Markdown Preview Enhanced</strong> are supported.<br>
+Such as Math typesetting, mermaid graph, code chunk etc...<br>
+<br><br>
+$$f(x) = \int_{-\infty}^\infty    \hat f(\xi)\,e^{2 \pi i \xi x}    \,d\xi$$</p>
+</section><section ><p class="sync-line" data-line="51">You can set initialization config for your presentation.<br>
+Just add front-matter to your presentation markdown file.</p>
+<pre class="editor-colors lang-yaml sync-line" data-line="53"><div class="line"><span class="source yaml"><span class="punctuation definition directives end yaml"><span>---</span></span></span></div><div class="line"><span class="source yaml"><span class="entity name tag yaml"><span>presentation</span><span class="punctuation separator key-value yaml"><span>:</span></span></span></span></div><div class="line"><span class="source yaml"><span>&nbsp;&nbsp;</span><span class="entity name tag yaml"><span>width</span><span class="punctuation separator key-value yaml"><span>:</span></span></span><span>&nbsp;</span><span class="constant numeric yaml"><span>800</span></span><span>&nbsp;</span></span></div><div class="line"><span class="source yaml"><span>&nbsp;&nbsp;</span><span class="entity name tag yaml"><span>height</span><span class="punctuation separator key-value yaml"><span>:</span></span></span><span>&nbsp;</span><span class="constant numeric yaml"><span>600</span></span><span>&nbsp;</span></span></div><div class="line"><span class="source yaml"><span>&nbsp;&nbsp;</span><span class="entity name tag yaml"><span>controls</span><span class="punctuation separator key-value yaml"><span>:</span></span></span><span>&nbsp;</span><span class="constant language yaml"><span>false</span></span></span></div><div class="line"><span class="source yaml"><span class="punctuation definition directives end yaml"><span>---</span></span></span></div></pre>
+<p class="sync-line" data-line="61">More information about front-matter settings can be found <a href="https://github.com/shd101wyy/markdown-preview-enhanced/blob/master/docs/presentation-front-matter.md">here</a>.</p>
+</section><section  data-notes='This is speaker note'><p class="sync-line" data-line="64"><strong>Speaker notes</strong> is also supported.<br>
+Press the <kbd>s</kbd> key on your keyboard to open the notes window.</p>
+<p class="sync-line" data-line="67">To enable speaker notes, set front-matter as:</p>
+<pre class="editor-colors lang-yaml sync-line" data-line="68"><div class="line"><span class="source yaml"><span class="punctuation definition directives end yaml"><span>---</span></span></span></div><div class="line"><span class="source yaml"><span class="entity name tag yaml"><span>presentation</span><span class="punctuation separator key-value yaml"><span>:</span></span></span></span></div><div class="line"><span class="source yaml"><span>&nbsp;&nbsp;</span><span class="entity name tag yaml"><span>enableSpeakerNotes</span><span class="punctuation separator key-value yaml"><span>:</span></span></span><span>&nbsp;</span><span class="constant language yaml"><span>true</span></span></span></div><div class="line"><span class="source yaml"><span class="punctuation definition directives end yaml"><span>---</span></span></span></div></pre>
+<p class="sync-line" data-line="74">To add notes, simply set <code>data-notes</code> property:</p>
+<pre class="editor-colors lang-html sync-line" data-line="75"><div class="line"><span class="text html basic"><span class="comment block html"><span class="punctuation definition comment html"><span>&lt;!--</span></span><span>&nbsp;slide&nbsp;data-notes:&quot;Write&nbsp;your&nbsp;note&nbsp;here&quot;&nbsp;</span><span class="punctuation definition comment html"><span>--&gt;</span></span></span></span></div></pre>
+<p class="sync-line" data-line="78">check <a href="https://github.com/hakimel/reveal.js#speaker-notes">Reveal.js Speaker Notes</a> section for more information.</p>
+</section><section><section ><p class="sync-line" data-line="82">By default, all slides are aligned horizontally, but you can also create vertical slides by adding <code>vertical:true</code>.<br>
+For example:</p>
+<pre class="editor-colors lang-html sync-line" data-line="84"><div class="line"><span class="text html basic"><span class="comment block html"><span class="punctuation definition comment html"><span>&lt;!--</span></span><span>&nbsp;slide&nbsp;vertical:true&nbsp;</span><span class="punctuation definition comment html"><span>--&gt;</span></span></span></span></div></pre>
+</section><section ><p class="sync-line" data-line="89">You just discovered a vertical slide!</p>
+</section></section><section ><p class="sync-line" data-line="92">You can set slide background very easily.<br>
+For example:</p>
+<pre class="editor-colors lang-html sync-line" data-line="94"><div class="line"><span class="text html basic"><span class="comment block html"><span class="punctuation definition comment html"><span>&lt;!--</span></span><span>&nbsp;slide&nbsp;data-background-color:&quot;#ff0000&quot;&nbsp;</span><span class="punctuation definition comment html"><span>--&gt;</span></span></span></span></div></pre>
+</section><section  data-background-color='#ffebcf'><p class="sync-line" data-line="99">Of course you can do more about slide background.<br>
+<strong>Image Background</strong></p>
+<table>
+<thead>
+<tr><th>Atribute</th><th>Default</th><th>Description</th></tr>
+</thead>
+<tbody>
+<tr><td>data-background-image</td><td></td><td>URL of the image to show. GIFs restart when the slide opens.</td></tr>
+<tr><td>data-background-size</td><td>cover</td><td>See <a href="https://developer.mozilla.org/docs/Web/CSS/background-size">background-size</a> on MDN.</td></tr>
+<tr><td>data-background-position</td><td>center</td><td>See <a href="https://developer.mozilla.org/docs/Web/CSS/background-position">background-position</a> on MDN.</td></tr>
+<tr><td>data-background-repeat</td><td>no-repeat</td><td>See <a href="https://developer.mozilla.org/docs/Web/CSS/background-repeat">background-repeat</a> on MDN.</td></tr>
+</tbody>
+</table>
+</section><section ><p class="sync-line" data-line="109">You can also set <strong>video background</strong> and <strong>iframe background</strong>.<br>
+<em>Please note that video background doesn't work in preview</em></p>
+<table>
+<thead>
+<tr><th>Attribute</th><th>Default</th><th>Description</th></tr>
+</thead>
+<tbody>
+<tr><td>data-background-video</td><td></td><td>A single video source, or a comma separated list of video sources.</td></tr>
+<tr><td>data-background-video-loop</td><td>false</td><td>Flags if the video should play repeatedly.</td></tr>
+<tr><td>data-background-video-muted</td><td>false</td><td>Flags if the audio should be muted.</td></tr>
+<tr><td>data-background-iframe</td><td></td><td>Embeds a web page as a background.</td></tr>
+</tbody>
+</table>
+</section><section ><p class="sync-line" data-line="119">For example, the markdown snippet below will generate slide like...</p>
+<pre class="editor-colors lang-html sync-line" data-line="120"><div class="line"><span class="text html basic"><span class="comment block html"><span class="punctuation definition comment html"><span>&lt;!--</span></span><span>&nbsp;slide&nbsp;data-background-image:&quot;</span><span class="markup underline link http hyperlink"><span>http://ooo.0o0.ooo/2016/10/27/581167987ec08.jpg</span></span><span>&quot;&nbsp;data-transition:&quot;zoom&quot;&nbsp;</span><span class="punctuation definition comment html"><span>--&gt;</span></span></span></span></div><div class="line"><span class="text html basic"><span class="meta tag block any html"><span class="punctuation definition tag begin html"><span>&lt;</span></span><span class="entity name tag block any html"><span>p</span></span><span>&nbsp;</span><span class="entity other attribute-name html"><span>style</span></span><span>=</span><span class="string quoted double html"><span class="punctuation definition string begin html"><span>&quot;</span></span><span>color:&nbsp;#fff;</span><span class="punctuation definition string end html"><span>&quot;</span></span></span><span class="punctuation definition tag end html"><span>&gt;</span></span></span><span>国漫大法好！</span><span class="meta tag block any html"><span class="punctuation definition tag begin html"><span>&lt;/</span></span><span class="entity name tag block any html"><span>p</span></span><span class="punctuation definition tag end html"><span>&gt;</span></span></span></span></div><div class="line"><span class="text html basic"><span class="meta tag block any html"><span class="punctuation definition tag begin html"><span>&lt;</span></span><span class="entity name tag block any html"><span>p</span></span><span>&nbsp;</span><span class="entity other attribute-name html"><span>style</span></span><span>=</span><span class="string quoted double html"><span class="punctuation definition string begin html"><span>&quot;</span></span><span>color:&nbsp;#fff;</span><span class="punctuation definition string end html"><span>&quot;</span></span></span><span class="punctuation definition tag end html"><span>&gt;</span></span></span><span>国漫大法好！</span><span class="meta tag block any html"><span class="punctuation definition tag begin html"><span>&lt;/</span></span><span class="entity name tag block any html"><span>p</span></span><span class="punctuation definition tag end html"><span>&gt;</span></span></span></span></div><div class="line"><span class="text html basic"><span class="meta tag block any html"><span class="punctuation definition tag begin html"><span>&lt;</span></span><span class="entity name tag block any html"><span>p</span></span><span>&nbsp;</span><span class="entity other attribute-name html"><span>style</span></span><span>=</span><span class="string quoted double html"><span class="punctuation definition string begin html"><span>&quot;</span></span><span>color:&nbsp;#fff;</span><span class="punctuation definition string end html"><span>&quot;</span></span></span><span class="punctuation definition tag end html"><span>&gt;</span></span></span><span>国漫大法好！</span><span class="meta tag block any html"><span class="punctuation definition tag begin html"><span>&lt;/</span></span><span class="entity name tag block any html"><span>p</span></span><span class="punctuation definition tag end html"><span>&gt;</span></span></span></span></div></pre>
+</section><section  data-background-image='http://ooo.0o0.ooo/2016/10/27/581167987ec08.jpg' data-transition='zoom'><p style="color: #fff;">国漫大法好！</p>
+<p style="color: #fff;">国漫大法好！</p>
+<p style="color: #fff;">国漫大法好！</p>
+</section><section ><p class="sync-line" data-line="135">It is also very easy to customize presentation css.<br>
+Run <code>Markdown Preview Enhanced: Customize Css</code> command,<br>
+then edit section:</p>
+<pre class="editor-colors lang-less sync-line" data-line="138"><div class="line"><span class="text plain null-grammar"><span>.preview-slides&nbsp;.slide,</span></span></div><div class="line"><span class="text plain null-grammar"><span>&amp;[data-presentation-mode]&nbsp;{</span></span></div><div class="line"><span class="text plain null-grammar"><span>&nbsp;&nbsp;//&nbsp;eg</span></span></div><div class="line"><span class="text plain null-grammar"><span>&nbsp;&nbsp;//&nbsp;background-color:&nbsp;#000;</span></span></div><div class="line"><span class="text plain null-grammar"><span>}</span></span></div></pre>
+</section><section ><p class="sync-line" data-line="147">You can check your presentation in browser by<br>
+right clicking at the preview, then choose <code>Open in Browser</code> option.</p>
+</section><section ><p class="sync-line" data-line="151"><strong>Markdown Preview Enhanced</strong> can also generate beautiful <strong>HTML</strong> or <strong>PDF</strong> files for your presentation.</p>
+</section><section ><h4 class="sync-line" data-line="154" id="star-this-project-if-you-like-it">Star this project if you like it ;)</h4>
+<ul>
+<li><p class="sync-line" data-line="155">Github Repository can be found <a href="https://github.com/shd101wyy/markdown-preview-enhanced">here</a></p></li>
+<li><p class="sync-line" data-line="156">Feel free to post issues and request new features <a href="https://github.com/shd101wyy/markdown-preview-enhanced/issues">here</a></p></li>
+<li><p class="sync-line" data-line="157">Source code of this presentation can be found <a href="https://github.com/shd101wyy/markdown-preview-enhanced/blob/master/docs/presentation-intro.md">here</a>, <a href="https://raw.githubusercontent.com/shd101wyy/markdown-preview-enhanced/master/docs/presentation-intro.md">raw</a></p></li>
+</ul>
+</section><section  data-background-image='http://ooo.0o0.ooo/2016/07/18/578c66da6a5a3.jpg'></section>
+  </div>
+</div> </body> <script>
+  Reveal.initialize({"margin":0.1,"width":960,"height":700,"help":true,"enableSpeakerNotes":true,"dependencies":[{"src":"/Users/chengjun/.atom/packages/markdown-preview-enhanced/dependencies/reveal/plugin/notes/notes.js","async":true}]})
+</script> </html>
