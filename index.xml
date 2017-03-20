@@ -88,6 +88,29 @@ Every human behavior, including communicative behavior, involves four basic elem
     </item>
     
     <item>
+      <title>大学财务报销</title>
+      <link>https://chengjun.github.io/note/ndcw/</link>
+      <pubDate>Mon, 20 Mar 2017 11:18:42 +0800</pubDate>
+      
+      <guid>https://chengjun.github.io/note/ndcw/</guid>
+      <description>
+
+&lt;h2 id=&#34;财务处网站&#34;&gt;财务处网站&lt;/h2&gt;
+
+&lt;p&gt;蓝鲸大学财务网站 &lt;a href=&#34;http://ndcw.nju.edu.cn/&#34; target=&#34;_blank&#34;&gt;http://ndcw.nju.edu.cn/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;如何发放专家咨询费？&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;学生劳务费&lt;/li&gt;
+&lt;li&gt;专家咨询费&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;公务卡&#34;&gt;公务卡&lt;/h2&gt;
+</description>
+    </item>
+    
+    <item>
       <title>找工作</title>
       <link>https://chengjun.github.io/note/job/</link>
       <pubDate>Wed, 15 Mar 2017 12:00:00 +0000</pubDate>
@@ -732,24 +755,6 @@ plt.show()
       
       <guid>https://chengjun.github.io/publication/computational-journalism/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>News Map of China</title>
-      <link>https://chengjun.github.io/post/news-map/</link>
-      <pubDate>Mon, 13 Feb 2017 14:32:07 +0800</pubDate>
-      
-      <guid>https://chengjun.github.io/post/news-map/</guid>
-      <description>
-
-&lt;p&gt;&lt;a href=&#34;http://chengjunwang.com/newsmap/#edu/2011&#34; target=&#34;_blank&#34;&gt;News Map&lt;/a&gt; is built upon cartogram.js (a JavaScript implementation of an algoritm to construct continuous area cartograms ©1985), d3.js and colorbrewer. This visualization combines TopoJSON-encoded boundaries of the Chinese provinces with GDP data from National Bureau Statistics of the People&amp;rsquo;s Republic of China to size each province proportionally. Designed and built by Chengjun Wang and Zhicong Chen at Computational Communication Collaboratory, School of Journalism and Communication, Nanjing University.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://chengjunwang.com/newsmap/#edu/2011&#34; target=&#34;_blank&#34;&gt;Read More &amp;gt;&amp;gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;related-publication&#34;&gt;Related Publication:&lt;/h2&gt;
-
-&lt;p&gt;王成军 (2016) &lt;a href=&#34;http://chengjunwang.com/publication/cc-orgin/&#34; target=&#34;_blank&#34;&gt;计算传播学的起源、概念与应用&lt;/a&gt;. 编辑学刊,3:59-64.&lt;/p&gt;
-</description>
     </item>
     
   </channel>
