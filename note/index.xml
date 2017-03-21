@@ -50,6 +50,8 @@
 &lt;/ul&gt;
 
 &lt;h2 id=&#34;公务卡&#34;&gt;公务卡&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://pan.baidu.com/s/1dF5ShNz&#34; target=&#34;_blank&#34;&gt;公务卡报销过程中的问题解答&lt;/a&gt; 2017年3月16日&lt;/p&gt;
 </description>
     </item>
     
@@ -81,7 +83,7 @@
 
 &lt;li&gt;&lt;p&gt;ISI Web of Knowledge &lt;a href=&#34;http://lib.nju.edu.cn/html/database.htm?id=6&amp;amp;fid=3&#34; target=&#34;_blank&#34;&gt;http://lib.nju.edu.cn/html/database.htm?id=6&amp;amp;fid=3&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 
-&lt;li&gt;&lt;p&gt;C刊被引用情况 &lt;a href=&#34;http://cssci.nju.edu.cn/&#34; target=&#34;_blank&#34;&gt;http://cssci.nju.edu.cn/&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;C刊被引用情况 &lt;a href=&#34;http://cssci.nju.edu.cn/&#34; target=&#34;_blank&#34;&gt;http://cssci.nju.edu.cn/&lt;/a&gt;  &lt;strong&gt;鼓楼&lt;/strong&gt;图书馆505&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;祝老师推荐信&lt;/p&gt;&lt;/li&gt;
@@ -1126,7 +1128,9 @@ namespace WrappedString;
       <guid>https://chengjun.github.io/note/house/</guid>
       <description>
 
-&lt;p&gt;人总是要在一个房子里度过，不管是冰房子、石头房子、草房子、泥房子。一个房子是一个私有的领地，你在里面，便感觉自己自己可以安心地干点什么。但是现实生活却让人不断望而却步，因为房子太贵了。这么说，也是矫情。现在谁买不起个房子啊，中国人是三代人一起买房子。钱凑一下总是会有的。但是这中有一个限度。我赶的时间不好，赶上了中国经济的一个潜在的危机，GDP的增速降到7了，随之制造业不行了，股市不行了，于是被限购的房子解锁了。现在的人面对一个房子，所想的不是居住，而是投资。所以，这房价就可能有泡沫了，以为连住在玄武湖边上的大妈都花20万投资房地产了。不过，贵点还是有人买。&lt;/p&gt;
+&lt;p&gt;人总是要在一个房子里度过，不管是冰房子、石头房子、草房子、泥房子。一个房子是一个私有的领地，你在里面，便感觉自己自己可以安心地干点什么。但是现实生活却让人不断望而却步，因为房子太贵了。这么说，也是矫情。现在谁买不起个房子啊，中国人是三代人一起买房子。钱凑一下总是会有的。但是这中有一个限度。&lt;/p&gt;
+
+&lt;p&gt;我赶的时间不好，赶上了中国经济的一个潜在的危机，GDP的增速降到7了，随之制造业不行了，股市不行了，于是被限购的房子解锁了。现在的人面对一个房子，所想的不是居住，而是投资。所以，这房价就可能有泡沫了，以为连住在玄武湖边上的大妈都花20万投资房地产了。不过，贵点还是有人买。&lt;/p&gt;
 
 &lt;h1 id=&#34;宝华双创示范园&#34;&gt;宝华双创示范园&lt;/h1&gt;
 
@@ -1148,7 +1152,7 @@ namespace WrappedString;
 &lt;li&gt;&lt;input type=&#34;checkbox&#34; checked disabled class=&#34;task-list-item&#34;&gt; 8月1日交房，验房。检查线路&lt;/li&gt;
 &lt;li&gt;&lt;input type=&#34;checkbox&#34; checked disabled class=&#34;task-list-item&#34;&gt; 墙面、地板、灯、煤气&lt;/li&gt;
 &lt;li&gt;&lt;input type=&#34;checkbox&#34; checked disabled class=&#34;task-list-item&#34;&gt; 家具、厨具、洁具、热水&lt;/li&gt;
-&lt;li&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; 空调、冰箱&lt;/li&gt;
+&lt;li&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; 空调、冰箱、窗帘&lt;/li&gt;
 &lt;li&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; 网络&lt;/li&gt;
 &lt;/ul&gt;
 
@@ -1174,7 +1178,6 @@ namespace WrappedString;
 &lt;li&gt;&lt;input type=&#34;checkbox&#34; checked disabled class=&#34;task-list-item&#34;&gt; 鞋柜和衣柜门板&lt;/li&gt;
 &lt;li&gt;&lt;input type=&#34;checkbox&#34; checked disabled class=&#34;task-list-item&#34;&gt; 厨房推拉门&lt;/li&gt;
 &lt;li&gt;&lt;input type=&#34;checkbox&#34; checked disabled class=&#34;task-list-item&#34;&gt; 纱窗&lt;/li&gt;
-&lt;li&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; 窗帘&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3 id=&#34;家具&#34;&gt;家具&lt;/h3&gt;
@@ -1191,7 +1194,7 @@ namespace WrappedString;
 
 &lt;p&gt;&lt;img src=&#34;http://oaf2qt3yk.bkt.clouddn.com/f73a04ecc4e903b6f69e6df86d674222.png&#34; alt=&#34;家具&#34; /&gt;&lt;/p&gt;
 
-&lt;p&gt;2017年2月19日在恒大旁边的家具城里的一家小店里预定了以上家具(总价13100元)。&lt;/p&gt;
+&lt;p&gt;2017年2月19日在恒大旁边的&lt;strong&gt;欢乐购家具城&lt;/strong&gt;里的一家小店里预定了以上家具(总价13100元)。&lt;/p&gt;
 
 &lt;p&gt;看了房东家里的家具，还是挺不错的的，除了不喜欢她选的真皮沙发。上淘宝看了&lt;a href=&#34;https://yuanshimuyu.tmall.com/&#34; target=&#34;_blank&#34;&gt;源氏木语的家具&lt;/a&gt;比较简单。&lt;/p&gt;
 
