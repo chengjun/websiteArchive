@@ -74,10 +74,10 @@
 &lt;h2 id=&#34;to-do-list&#34;&gt;To-do list&lt;/h2&gt;
 
 &lt;ul class=&#34;task-list&#34;&gt;
-&lt;li&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; 1. 任职资格&lt;strong&gt;申报表&lt;/strong&gt; 2份
+&lt;li&gt;&lt;input type=&#34;checkbox&#34; checked disabled class=&#34;task-list-item&#34;&gt; 1. 任职资格&lt;strong&gt;申报表&lt;/strong&gt; 2份
 
 &lt;ul class=&#34;task-list&#34;&gt;
-&lt;li&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; 格式调整，解决方法：在word里填写表格并打印&lt;/li&gt;
+&lt;li&gt;&lt;input type=&#34;checkbox&#34; checked disabled class=&#34;task-list-item&#34;&gt; &lt;del&gt;格式调整，解决方法：在word里填写表格并打印&lt;/del&gt;&lt;/li&gt;
 &lt;li&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; 打印2份&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;li&gt;&lt;input type=&#34;checkbox&#34; checked disabled class=&#34;task-list-item&#34;&gt; 2. &lt;del&gt;推荐信&lt;/del&gt;&lt;/li&gt;
