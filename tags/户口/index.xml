@@ -25,7 +25,25 @@
 
 &lt;h2 id=&#34;to-do-list&#34;&gt;To-do list&lt;/h2&gt;
 
-&lt;ul&gt;
+&lt;ul class=&#34;task-list&#34;&gt;
+&lt;li&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; 1. 任职资格&lt;strong&gt;申报表&lt;/strong&gt; 2份
+
+&lt;ul class=&#34;task-list&#34;&gt;
+&lt;li&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; 格式调整，解决方法：在word里填写表格并打印&lt;/li&gt;
+&lt;li&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; 打印2份&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;input type=&#34;checkbox&#34; checked disabled class=&#34;task-list-item&#34;&gt; 2. &lt;del&gt;推荐信&lt;/del&gt;&lt;/li&gt;
+&lt;li&gt;&lt;input type=&#34;checkbox&#34; checked disabled class=&#34;task-list-item&#34;&gt; 3. 教师系列&lt;strong&gt;申请表&lt;/strong&gt;
+
+&lt;ul class=&#34;task-list&#34;&gt;
+&lt;li&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; 打印6份&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;input type=&#34;checkbox&#34; checked disabled class=&#34;task-list-item&#34;&gt; 4. &lt;del&gt;打印5篇代表作6份&lt;/del&gt;&lt;/li&gt;
+&lt;li&gt;&lt;input type=&#34;checkbox&#34; checked disabled class=&#34;task-list-item&#34;&gt; 5. &lt;del&gt;科技查新&lt;/del&gt;&lt;/li&gt;
+&lt;li&gt;&lt;input type=&#34;checkbox&#34; checked disabled class=&#34;task-list-item&#34;&gt; 6. &lt;del&gt;学历学位&lt;/del&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;[x] 7. &lt;del&gt;教师资格&lt;/del&gt;&lt;/p&gt;&lt;/li&gt;
+
 &lt;li&gt;&lt;p&gt;科技查新 &lt;a href=&#34;http://lib.nju.edu.cn/html/article.htm?id=30&amp;amp;fid=24&#34; target=&#34;_blank&#34;&gt;http://lib.nju.edu.cn/html/article.htm?id=30&amp;amp;fid=24&lt;/a&gt;&lt;/p&gt;
 
 &lt;ul&gt;
@@ -37,15 +55,17 @@
 
 &lt;li&gt;&lt;p&gt;ISI Web of Knowledge &lt;a href=&#34;http://lib.nju.edu.cn/html/database.htm?id=6&amp;amp;fid=3&#34; target=&#34;_blank&#34;&gt;http://lib.nju.edu.cn/html/database.htm?id=6&amp;amp;fid=3&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 
-&lt;li&gt;&lt;p&gt;C刊被引用情况 &lt;a href=&#34;http://cssci.nju.edu.cn/&#34; target=&#34;_blank&#34;&gt;http://cssci.nju.edu.cn/&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;C刊被引用情况 &lt;a href=&#34;http://cssci.nju.edu.cn/&#34; target=&#34;_blank&#34;&gt;http://cssci.nju.edu.cn/&lt;/a&gt;  &lt;strong&gt;鼓楼&lt;/strong&gt;图书馆505&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;祝老师推荐信&lt;/p&gt;&lt;/li&gt;
 
-&lt;li&gt;&lt;p&gt;填两个表格?&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;填两个表格&lt;/p&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;学历、学位、英语&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;p&gt;发现图书馆里用的浏览器是Microsoft EDGE 20, 原来也不是IE。&lt;/p&gt;
 
 &lt;h2 id=&#34;注意事项&#34;&gt;注意事项&lt;/h2&gt;
 
@@ -61,7 +81,7 @@
 &lt;li&gt;二、申报教师高级职务人员所提供的研究成果必须为任现职以来的成果，同时提交的检索证明中，需提供申报人成果“被收录情况”和“被引用情况”，并分别标出“自引”和“他引”,成果截止至&lt;code&gt;2016年12月31日&lt;/code&gt;。&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h4 id=&#34;关于报送教师高级职务岗位评聘材料的要求&#34;&gt;关于报送教师高级职务岗位评聘材料的要求&lt;/h4&gt;
+&lt;h3 id=&#34;关于报送教师高级职务岗位评聘材料的要求&#34;&gt;关于报送教师高级职务岗位评聘材料的要求&lt;/h3&gt;
 
 &lt;p&gt;3、聘任候选人员应交的材料：&lt;/p&gt;
 
