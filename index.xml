@@ -108,6 +108,25 @@ Every human behavior, including communicative behavior, involves four basic elem
     </item>
     
     <item>
+      <title>计算传播学——用AI穿透你的注意力壁垒</title>
+      <link>https://chengjun.github.io/talk/swarma-cc-talk/</link>
+      <pubDate>Wed, 12 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://chengjun.github.io/talk/swarma-cc-talk/</guid>
+      <description>&lt;p&gt;&lt;iframe id=&#34;video&#34; controls=&#34;controls&#34; muted=&#34;muted&#34; style=&#34;object-fit: initial;&#34; src=&#34;http://api.duobeiyun.com/api/v3/room/enter?deviceType=2&amp;nickname=user7345&amp;partner=20150907105325&amp;roomId=jz155448e1f3a14bd0930c855ef72819b0&amp;timestamp=1492225737000&amp;uid=55ef14e8-9665-4dbc-a3fb-ca522d0d0710&amp;userRole=2&amp;sign=58a05a521ce5abfe6e64d166d90c4b41&#34; height=&#34;100%&#34; width=&#34;100%&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;AI时代，每一秒钟,整个互联网上就有 60 万条信息在 Facebook 上分享,2 亿个 Email、10 万条 推文被发送,571 个新网站被建立,1.9E(1018)字节数据被交换[1]。海量的信息不断涌现, 但是全球的互联网用户总数却仅有 30 多亿(截止到 2014 年底)。每个人的注意力是有限的，我们应该如何巧妙地穿透注意力的壁垒，让信息精准地传递到我们的目标受众？计算传播学会给你答案。&lt;/p&gt;
+
+&lt;p&gt;计算传播是指数据驱动的、借助于人工智能，及其可计算方法所进行的传播过程,而分析计算传播现象的研究领域就是计算传播学。在本次讲座中，我将尝试介绍计算传播的起源、概念和应用,然后从计算社会科学的角度对计算传播学的理论脉络进行了介绍。基于以上内容,我介绍了一些计算传播学研究的例子，总结计算传播学研究中存在的从数据到模式,再从模式到机制的研究思路，最后讨论一下可能的发展方向。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;时间：2017-04-12 20:00-23:00&lt;/li&gt;
+&lt;li&gt;集智学园简介：&lt;a href=&#34;http://campus.swarma.org/gvid=10140&#34; target=&#34;_blank&#34;&gt;http://campus.swarma.org/gvid=10140&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
       <title>计算传播学年会工作坊组办</title>
       <link>https://chengjun.github.io/note/conference-host/</link>
       <pubDate>Sat, 01 Apr 2017 10:00:52 +0800</pubDate>
@@ -634,203 +653,6 @@ Key Words: spiral of silence; willingness to express; agent-based model; referen
       
       <guid>https://chengjun.github.io/publication/weibo-landscape/</guid>
       <description>&lt;p&gt;Under review.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>团队合作中的任务分配</title>
-      <link>https://chengjun.github.io/note/data-insight/</link>
-      <pubDate>Fri, 17 Feb 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://chengjun.github.io/note/data-insight/</guid>
-      <description>
-
-&lt;p&gt;最近一年多一直和令飞折腾&lt;code&gt;团队合作&lt;/code&gt;的东西，也在思考如何进行团队合作。之前是把开会当成头脑风暴，后来发现太浪费时间，尤其是团队成员超过三个人之后（也要兼顾别人没有那么多时间），合作的成本开始上升，如何高效地进行合作就成了一个重要的问题。我们研究的主题也就是这个东西。&lt;/p&gt;
-
-&lt;h1 id=&#34;直接表达claim&#34;&gt;直接表达claim&lt;/h1&gt;
-
-&lt;p&gt;直接地表达claim，然后使用数据证明自己的观点，就会发现其中的断裂的逻辑链条，进而不断完善。&lt;strong&gt;Polish your claim&lt;/strong&gt; 比如，我去统计了用户在不同的repos里的push的次数计算其multi-tasking的香农熵和core team ratio，发现：
-&amp;gt; Github用户倾向于比较平均但深入地参与到团队项目（&lt;code&gt;claim&lt;/code&gt;）。&lt;/p&gt;
-
-&lt;h2 id=&#34;为什么水分可以增加影响&#34;&gt;为什么水分可以增加影响？&lt;/h2&gt;
-
-&lt;p&gt;找一个novelty的点，需要一个narrow down的concrete的research question。要避免一开始要有一个想法，somehow connect to something, 挖来挖去做出来很多unconnected的findings。apparent team不是真实的team， 我们想要找到real team， 因此可以去分析workload distribution and skill set overlapped，及其对于impact的影响。我们想要找一个metric to correct team size. team的&lt;strong&gt;充水&lt;/strong&gt;程度。story！为什么充了水的team的impact更大？what is a real team is research topic。怎么定义水分就靠近hypothesis。&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://oaf2qt3yk.bkt.clouddn.com/64335d80b0fc78f1bdaef76612e11750.png&#34; alt=&#34;water team&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;我之前说的一大堆只是想说一个论点：因为我们不是duncan watts，所以我们还是要用正轨的research道路。define topics, narrow it down, implement, provide prospects四部曲的方式。令飞之前说的“什么样是真正有效的合作，从技能的重合度和贡献量来衡量”是research topic, 不是一篇文章的research question。从workload的分布定义一个metric，core team size or effective team size&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;加一个时间维度， 新陈代谢， m(t)&lt;/li&gt;
-&lt;li&gt;diversity，做过多少个不同的项目，experience好测量&lt;/li&gt;
-&lt;li&gt;repeated collaboration&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;组织为什么会失败。junior和senior scholar合作效果不错。&lt;/p&gt;
-
-&lt;h3 id=&#34;task-assignment&#34;&gt;Task Assignment&lt;/h3&gt;
-
-&lt;p&gt;勾勒一个图景，早期/核心用户对任务的分配是如何切割了任务空间的。我们其实是观察不到用户之间的交流，所以只能通过用户各自的工作来推测他们协商任务分配的结果。一种分析角度是，大的任务会由核心用户在早起就“认领”吗？还是大任务（大修改）随时间分配是均匀的。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.robertasinatra.com/&#34; target=&#34;_blank&#34;&gt;Roberta Sinatra&lt;/a&gt;等人2016年发表Quantifying the evolution of individual scientific impact &lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:Sinatra&#34;&gt;&lt;a rel=&#34;footnote&#34; href=&#34;#fn:Sinatra&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;， 把一个科学家当一个sample,发现impact的分布无法简单用sample size N（发文章数量）rescale到一起。于是给每个sample一个参数Qi，这样就能把所有科学家的所有论文的影响力分布collapse 到一起，解释了为什么高量产的科学家，论文影响力极大值比根据样本规模随机从系统取还要大的问题-其实没有解释，就是管这个叫Q 了。&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;ttp://sciencepaths.kimalbrecht.com/&#34; target=&#34;_blank&#34;&gt;Science paths&lt;/a&gt; 网页可视化&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=qlnxM-ld4BU&#34; target=&#34;_blank&#34;&gt;Is a scientific career predictable?&lt;/a&gt; nature视频&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;科学探索和合作写代码还不一样，前者有可能真的不知道最重要的工作什么时候出现，后者的任务空间是个有限集合，任务的重要性和完成度是排他性的&lt;/p&gt;
-
-&lt;p&gt;Team Assembly Mechanisms Determine Collaboration Network Structure and Team Performance&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:Guimer&#34;&gt;&lt;a rel=&#34;footnote&#34; href=&#34;#fn:Guimer&#34;&gt;2&lt;/a&gt;&lt;/sup&gt; 一文题目应该叫“学术圈”。三个结论1. ）科学家是有圈子的，类似于渗流模型的giant cluster 好几个学科都是这样，越是好刊物的合作者数据，越能看到这个圈子存在2. ）模型参数m 团队规模, p 选择已经发表过文章老鸟合作的概率，q 选择已经合作过的人再次合作的概率，发现要想发高影响力的文章，p要大，q要小，也就是不要轻易和菜鸟合作，但也不要总是和同一批人合作；3）该模型可以复现团队规模的相变-稳定增长到收敛在一个优化值，和学科内部合作网络出现精英圈子的消息。&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;哈佛商业评论 Using the Crowd as an Innovation Partner&lt;/li&gt;
-&lt;li&gt;Management Science上的Incentives and Problem Uncertainty in Innovation Contests: An Empirical Analysis&lt;/li&gt;
-&lt;li&gt;Uzzi B, Mukherjee S, Stringer M, Jones B. 2013. Atypical combinations and scientific impact. Science 342:468–72&lt;/li&gt;
-&lt;li&gt;Lee Y N, Walsh J P, Wang J. Creativity in scientific teams: Unpacking novelty and impact. Research Policy, 2015, 44(3):684-697.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;拟合代码量的累积增长&#34;&gt;拟合代码量的累积增长&lt;/h2&gt;
-
-&lt;p&gt;可以先把10个人的team的代码总量随（绝对）时间的变化看一下C是t时刻的代码总量，A是无穷远时代码总量，tau大概就是半衰期。然后画一个所有大team的tau的分布，如果是双峰的分布，说明确实有两种team。20120311之后出现的team好像都有显示代码量。&lt;/p&gt;
-
-&lt;p&gt;$$C(t)=A(1-e^{-t/\tau})$$&lt;/p&gt;
-
-&lt;p&gt;两边求导再离散化,先求导的：$\frac{dC (t)}{dt} =\frac{A}{\tau} e^{-t/\tau}$&lt;/p&gt;
-
-&lt;p&gt;左边的导数可以用两点间的斜率近似， $\frac{dC (t)}{dt} =\frac{(C (t+\delta t)-C (t))}{\delta t} $，离散一下 $\delta t =1$，即：&lt;/p&gt;
-
-&lt;p&gt;$$C(t+1)-C(t) = \frac{A}{\tau} e^{-t/\tau}$$&lt;/p&gt;
-
-&lt;p&gt;两边取对数，$log(C(t+1)-C(t))= log\frac{A}{\tau} - t/\tau$&lt;/p&gt;
-
-&lt;p&gt;令$\beta = -1/\tau$，$y = log(C(t+1)-C(t))$, $constant = log\frac{A}{\tau}$, 则存在:&lt;/p&gt;
-
-&lt;p&gt;$y = constant + \beta t$&lt;/p&gt;
-
-&lt;p&gt;对数据进行处理得到$y$和$t$，采用线性回归进行拟合，即可得到constant和$\beta$。那么显然：$\tau = -1/\beta$, $ A = e^{constant} $, $\tau = - e^{constant}/\beta $&lt;/p&gt;
-
-&lt;p&gt;我尝试去拟合了tau和A, 结果产生了大量的负的tau和A，另外，多数R方都不大，效果不好。这里的$\tau$与这个代码增长速度随时间变化是负的反比关系。因为挺多项目的代码增长速度是非线性的，比如相邻两次的变化量是先递增，后减小，或者一直增加。都会导致线性拟合的效果不好。&lt;/p&gt;
-
-&lt;p&gt;一个例子见以下代码：&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;import statsmodels.api as sm
-import numpy as np
-import matplotlib.cm as cm
-from datetime import datetime
-
-def interpolating(data):
-    # To interpoloate data
-    bad_indexes = np.isnan(data)
-    good_indexes = np.logical_not(bad_indexes)
-    good_data = data[good_indexes]
-    interpolated = np.interp(bad_indexes.nonzero()[0], good_indexes.nonzero()[0], good_data)
-    data[bad_indexes] = interpolated
-    return data
-
-
-d = [&#39;2014-01&#39;, &#39;2012-09&#39;, &#39;2013-08&#39;, &#39;2013-09&#39;, &#39;2012-10&#39;, &#39;2013-05&#39;, &#39;2013-06&#39;]
-v = [&#39;1192&#39; ,&#39;163&#39;, &#39;605&#39;, &#39;1189&#39;, &#39;167&#39; ,&#39;199&#39;, &#39;199&#39;]
-d = [datetime.strptime(i+&#39;-01&#39;, &amp;quot;%Y-%m-%d&amp;quot;) for i in d]
-d = [(i - np.min(d)).days/30 + 1 for i in d]
-v = [int(i) for i in v]
-dv = zip(d, v)
-dv = sorted(dv,key=lambda x:x[0])
-d, v = np.array(dv).T
-yt = np.array(v[1:]) - np.array(v[:-1])
-t = d[:-1]
-x = t#np.log(t)
-y = np.log(yt+1)
-y = interpolating(y)
-# fit
-xx = sm.add_constant(x, prepend=True)
-res = sm.OLS(y,xx).fit()
-constant, beta = res.params
-r2 = res.rsquared
-tau = - 1.0/beta
-A = tau*np.exp(constant)
-print &#39;Tau = &#39;,tau,&#39;A=&#39;,  A, &#39;constant = &#39;,constant, &#39;beta =&#39;, beta,&#39;rsquare = &#39;, r2
-
-fig = plt.figure(figsize=(10, 5))
-ax = plt.subplot(1,2,1)  
-plt.plot(d, v, &#39;r-s&#39;)
-plt.xlabel(r&#39;month&#39;);plt.ylabel(r&#39;size&#39;)
-ax = plt.subplot(1,2,2)  
-plt.plot(x, y, &#39;rs&#39;)
-plt.plot(xx, constant+xx*beta,&amp;quot;red&amp;quot;)
-plt.xlabel(r&#39;t&#39;);plt.ylabel(r&#39;log(c(t+1)-c(t))&#39;)
-plt.show()
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://oaf2qt3yk.bkt.clouddn.com/19d58b4deb8a292c287dc692898a89af.png&#34; alt=&#34;tau&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;To-do:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;最大的push次数的人和最多push代码量的人是否一个人，计算一个rate&lt;/li&gt;
-&lt;li&gt;算sleeping beauty index&lt;/li&gt;
-&lt;li&gt;如果把每个人的工作量换算成绝对代码增减量, 还是可以仿照m的定义计算熵。熵小的大石头放好了，大部分人都是添沙子。大石头什么时候放进去的也很有信息量。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;尽快确定一下最大代码贡献者和最频繁贡献者的重合率，感觉这个还是比较影响整个故事走向的。另外，试一下最大代码出现时间的分布。&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://oaf2qt3yk.bkt.clouddn.com/bd3743ee8842b10dcd0e33142af77b5e.png&#34; alt=&#34;overlap rate&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://oaf2qt3yk.bkt.clouddn.com/c315dfd9d7cbab768b9c5615813d00df.png&#34; alt=&#34;overlap rate single size&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;结论：随着团队规模增加，团队内部的确变得多元化，有人频繁参与，有人则高强度参与，二者未必相同。的确可能出现大象🐘和老鼠🐭并存的情况。按照&lt;code&gt;“固定”任务空间&lt;/code&gt;的假设，在位者有累积优势（经验、任务分配、责任心），但人多了竞争激烈，也会给在位者带来冲击，尤其是大象的进入，他们可以靠少数的push，贡献大量的代码。&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://oaf2qt3yk.bkt.clouddn.com/71219d7043e62aed77d1761afceb73cf.png&#34; alt=&#34;water&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;水分不仅在活跃次数衡量的有效团队中发挥作用，同样在代码量衡量的有效团队中发挥作用，应该有点深刻的东西在这里。Lakhani (2011)发表在Management Science上的文章要回答一个问题&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:Lakhani&#34;&gt;&lt;a rel=&#34;footnote&#34; href=&#34;#fn:Lakhani&#34;&gt;3&lt;/a&gt;&lt;/sup&gt;，像Netflix 这样的竞赛，团队多好还是少好？传统经济学理论认为参与团队越多，单个团队获奖概率越低，团队越没有积极性，平均表现越差。他们分析数据发现，扩大参赛团队数后，平均表现变差，但最强团队的表现变好。&lt;/p&gt;
-
-&lt;h2 id=&#34;参与的均匀性&#34;&gt;参与的均匀性&lt;/h2&gt;
-
-&lt;p&gt;昨天看了一点Alex &amp;lsquo;SANDY&amp;rsquo; Pentland的书social physics，关于如何合作Sandy有很多看似惊世骇俗的观点，其中提到team的collective intelligence他说social sensitivity、话轮的均匀性可以提到团队绩效（群体智慧），见Evidence for a Collective Intelligence Factor in the Performance of Human Groups一文，sandy还在哈佛商业评论吹了一通The New Science of Building Great Teams，强调face-to-face的团队互动、均匀的参与对于team performance的重要性：&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;(Group intelligence) was negatively correlated with the variance in the number of speaking turns by group members.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;他们就用variance测量的参与的均匀程度，方差越小越好。variance越大，香农熵越大，m越大，m/M越大，绩效越低，与实际数据发现一致。&lt;/p&gt;
-
-&lt;h3 id=&#34;数据&#34;&gt;数据&lt;/h3&gt;
-
-&lt;p&gt;&lt;strong&gt;arXiv bulk data access amazon S3&lt;/strong&gt;&lt;/p&gt;
-
-&lt;h1 id=&#34;因公出国护照办理&#34;&gt;因公出国护照办理&lt;/h1&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://wb.nju.edu.cn/zzbl/list.htm&#34; target=&#34;_blank&#34;&gt;http://wb.nju.edu.cn/zzbl/list.htm&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;一、公务（普通）护照办理
-（一）办证要求
-1、在办结因公出国校内审批后，由申请者本人到仙林校区行政楼818室采集指纹，并提交以下材料：
-（1）身份证原件
-（2）身份证复印件（标明出生地所在省、直辖市或自治区名）
-（3）两寸白底彩照1张
-2、现无公务（普通）护照/护照过期/护照有效期不足（本次出访后，距护照到期不足6个月；部分国家所需有效期更长）
-（二）办理时间：1至2周（不含节假日）&lt;/p&gt;
-
-&lt;h3 id=&#34;因公出国人员申报流程及材料须知&#34;&gt;因公出国人员申报流程及材料须知&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://wb.nju.edu.cn/splc/list.htm&#34; target=&#34;_blank&#34;&gt;http://wb.nju.edu.cn/splc/list.htm&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;因公临时出国人员根据“OA申报材料清单”,通过OA系统提交申报材料；&lt;/p&gt;
-
-&lt;h1 id=&#34;reference&#34;&gt;Reference&lt;/h1&gt;
-&lt;div class=&#34;footnotes&#34;&gt;
-
-&lt;hr /&gt;
-
-&lt;ol&gt;
-&lt;li id=&#34;fn:Sinatra&#34;&gt;Sinatra, R., Wang, D., Deville, P., Song, C., &amp;amp; Barabási, A. L. (2016). Quantifying the evolution of individual scientific impact. Science, 354(6312), aaf5239-aaf5239.
- &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:Sinatra&#34;&gt;&lt;sup&gt;^&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li id=&#34;fn:Guimer&#34;&gt;Guimerà R, Uzzi B, Spiro J, et al. Team Assembly Mechanisms Determine Collaboration Network Structure and Team Performance. Science, 2005, 308(5722):697-702
- &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:Guimer&#34;&gt;&lt;sup&gt;^&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li id=&#34;fn:Lakhani&#34;&gt;Boudreau, K. J., Lacetera, N., &amp;amp; Lakhani, K. R. (2011). Incentives and problem uncertainty in innovation contests: an empirical analysis. Management Science, 57(5), 843-863.
- &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:Lakhani&#34;&gt;&lt;sup&gt;^&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/div&gt;
 </description>
     </item>
     
