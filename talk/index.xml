@@ -25,7 +25,7 @@
 &lt;li&gt;集智学园简介：&lt;a href=&#34;http://campus.swarma.org/gvid=10140&#34; target=&#34;_blank&#34;&gt;http://campus.swarma.org/gvid=10140&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;iframe id=&#34;video&#34; controls=&#34;controls&#34; muted=&#34;muted&#34; style=&#34;object-fit: initial;&#34; src=&#34;http://api.duobeiyun.com/api/v3/room/enter?deviceType=2&amp;nickname=user7345&amp;partner=20150907105325&amp;roomId=jz155448e1f3a14bd0930c855ef72819b0&amp;timestamp=1492225737000&amp;uid=55ef14e8-9665-4dbc-a3fb-ca522d0d0710&amp;userRole=2&amp;sign=58a05a521ce5abfe6e64d166d90c4b41&#34;  width=&#34;100%&#34;&gt;&lt;/iframe&gt;
+&lt;iframe id=&#34;video&#34; controls=&#34;controls&#34; muted=&#34;muted&#34;  src=&#34;http://api.duobeiyun.com/api/v3/room/enter?deviceType=2&amp;nickname=user7345&amp;partner=20150907105325&amp;roomId=jz155448e1f3a14bd0930c855ef72819b0&amp;timestamp=1492225737000&amp;uid=55ef14e8-9665-4dbc-a3fb-ca522d0d0710&amp;userRole=2&amp;sign=58a05a521ce5abfe6e64d166d90c4b41&#34; height=500 width=&#34;100%&#34;&gt;&lt;/iframe&gt;
 </description>
     </item>
     
