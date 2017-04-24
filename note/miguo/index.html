@@ -7,6 +7,8 @@
 <body>
 
 <DIV id="CountMsg" class="HotDate">
+<span id="t_y">00岁</span>
+<span id="t_Month">00月</span>
 <span id="t_d">00天</span>
 <span id="t_h">00时</span>
 <span id="t_m">00分</span>
@@ -17,6 +19,10 @@ function getRTime(){
 var EndTime= new Date('2017/04/10 01:58:00'); 
 var NowTime = new Date();
 var t = NowTime.getTime()-EndTime.getTime();
+var y=NowTime.getFullYear() - EndTime.getFullYear();
+var Month=NowTime.getMonth() - EndTime.getMonth();
+document.getElementById("t_y").innerHTML = y + "岁";
+document.getElementById("t_Month").innerHTML = Month + "个月：";
 var d=Math.floor(t/1000/60/60/24);
 var h=Math.floor(t/1000/60/60%24);
 var m=Math.floor(t/1000/60%60);
