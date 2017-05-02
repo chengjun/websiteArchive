@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Python on Academic</title>
+    <title>Python on </title>
     <link>https://chengjun.github.io/tags/python/index.xml</link>
-    <description>Recent content in Python on Academic</description>
+    <description>Recent content in Python on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2016 Cheng-Jun Wang</copyright>
