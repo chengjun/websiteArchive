@@ -18,6 +18,24 @@
       <guid>https://chengjun.github.io/post/news2017/</guid>
       <description>
 
+&lt;h1 id=&#34;云南白族扎染暑期社会实践指导&#34;&gt;云南白族扎染暑期社会实践指导&lt;/h1&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Q: 关于实际想探究问题，我们又探究了一下，但感觉都找不到很具体的研究方向，我整理了一下我们大概的想法，麻烦老师你看看有没有哪个想法具有可研究性😶&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+&lt;li&gt;1. 民族旅游发展下的“扎染女”的生存现状与角色变迁&lt;/li&gt;
+&lt;li&gt;2.扎染工艺需要做出怎样的改变，才能继续发展?&lt;/li&gt;
+&lt;li&gt;3.当地工艺在过去是怎么发展和延续的？&lt;/li&gt;
+&lt;li&gt;4.我们可以研究当地人在怎么努力挽救这个工艺么&lt;/li&gt;
+&lt;li&gt;5.从扎染看当地经济结构的变迁？&lt;/li&gt;
+&lt;li&gt;6.探究云南白族扎染工艺当前生存状况并以白族扎染为例探究对传统手工艺的生产性方式保护.&lt;/li&gt;
+&lt;li&gt;7.探究白族扎染的工艺特色，艺术特征，在现代社会的创新运用.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;A: 首先概念化，白族扎染是一种国家非物质文化遗产，也是一种传传统手工技艺。这背后对应着什么概念？然后是寻找新的问题。白族扎染作为一种手工技艺，在传承的过程中存在什么新的问题（其它手工艺没有的）？当前产业化的趋势使部分传统扎染技艺走向消亡，原有的民间特色开始退化，污染问题日益突出，市场经营滋生了对经济利益的过度追求，植物染料板兰根供不应求。在此情势下，白族扎染技艺的传承受到困扰。产业化是手工艺凋亡的关键原因，这个解释力很强，白族扎染很难幸免。要确保找到的问题是新的问题，即明确而且有意义。如有可能，要尝试理论化，找找既有的理论如何解释传统工艺的传承。研究问题要将个体（研究者）的困惑与社会结构（问题）联系起来。你们要好好琢磨一下，面对这种手工艺，你们有什么困惑？它又反应了什么social issue？强烈建议你们首先查询相关的论文和图书。&lt;/p&gt;
+
 &lt;h1 id=&#34;华人思想库-省侨办共建智库-华智-项目讨论&#34;&gt;华人思想库-省侨办共建智库（华智）项目讨论&lt;/h1&gt;
 
 &lt;p&gt;《全球治理时代的中国新型智库》&lt;/p&gt;
@@ -95,6 +113,49 @@ Every human behavior, including communicative behavior, involves four basic elem
 &lt;p&gt;The panel aims to help raise the awareness among communication scholars of opportunities and risks in the modelling of mobility data. Moreover, the panel will try to build an interdisciplinary dialogue on computational research between communication researchers, computer scientists, and research scientists from the industry.&lt;/p&gt;
 
 &lt;p&gt;Sub Unit： computational methods&lt;/p&gt;
+
+&lt;p&gt;Hello everyone. My name is Xinzhi Zhang, from baptist university of hong kong. The title of our presentation is analyzing mobile phone data with network science. I will briefly introduce the authors. Cheng-Jun Wang is currently an assistant research fellow in the School of Journalism and Communication, Nanjing University. And Xinzhi Zhang is currently a Research Assistant Professor at the Department of Journalism of Hong Kong Baptist University.&lt;/p&gt;
+
+&lt;p&gt;Computational social science provides a new lens for our research of human communication behaviors. Especially, it emphasizes the perspective of network science and big data,including website logs and web-based experiment. Duncan Watts claims that “If handled appropriately, data about Internet-based communication and interactivity could revolutionize our understanding of collective human behaviour”.  D. Watts, A twenty-first century science. Nature 445, 489 (2007).&lt;/p&gt;
+
+&lt;p&gt;Network science is important for communication research because: Firstly, we live our life in networks; and complex is a mathematical representation of various social systems. More important, compared with the other computational methods, such as computer simulations, network science is more closely connected with the real world data.&lt;/p&gt;
+
+&lt;p&gt;The mobile phone widely used in contemporary society supplies many social data for our studies, including the calling &amp;amp; messaging data, the online surfing data, and the mobility data. Just as Michael Macy said, it’s been really transformative. The digital traces help understand individual and group behavior at unprecedented scales and levels of detail.&lt;/p&gt;
+
+&lt;p&gt;For the human mobility data, we have small-scale travel surveys before, it can be coupled with GPS loggers. The rapid rise and prevalence of digital media provides a lot of big data, including: Mobile hone data, social media data, smartcard data, taxi trips data, game data.&lt;/p&gt;
+
+&lt;p&gt;Mobile phone positioning is required when a user communicates with the network. When a user initiates a network connection event (e.g. a voice-call), the cellular network operator needs to know his/her location in order to determine the cell tower used to channel this event. In this way, the subsequent positions of  the user can be well documented.&lt;/p&gt;
+
+&lt;p&gt;With the aid of the available data, researchers tried to study human mobility. For example, Brockman 2006 used the trajectories of dollar bills to study the dispersal of human, and they find that the distribution of length r can not be described as levy flights. Random processes with such a single-step distribution are known as Levy flights. Levy flights assumes that there is a power-law relationship between pr and r, the power exponent beta is usually smaller than 2. The simple Levy flight picture for dispersal is incomplete, since the dispersal is weak than expected. This is because the antagonistic interplay between scale-free displacements and waiting times: people might be less likely leave larger cities, and there are long periods of rest. Instead, they tried to describe human moblity as a continuous-time random walk, CTRW. The probability Wr(r,t) of having traversed a distance r at time t, where Lα,β is a universal scaling function that represents the characteristics of the process. According to ctrw model, t^(-α/β)*W(r, t) = Lα,β= (r/t^(α/β))**-gamma. Thus, they can fit the relationship between t^(-α/β)*W(r, t) and r/t^(α/β).&lt;/p&gt;
+
+&lt;p&gt;Gonzalez 2008 tried to study individual human mobility, and find that the distribution of both displacements and radius of gyration over all users is well approximated by a truncated power-law (see the left figures and the equations, here Rg is the radius of gyration for each user). However, after After rescaling the distance and the distribution with rg (main panel), the different curves collapse (see the right figure).&lt;/p&gt;
+
+&lt;p&gt;Song 2010 further finds that the predictions of the ctrw models are in systematic conflict with the empirical results. We introduce two principles that govern human trajectories, allowing us to build a statistically self-consistent microscopic model for individual human mobility. ” Give the number of distinct locations S(t) visited by a user is expected to follow the euation, S(t) ~ t^u, individuals has two choices, i) explore new locations. p_new = ro * s^(-gamma), and ii) preferential return to old locations, p_return = 1 – p_new&lt;/p&gt;
+
+&lt;p&gt;They observed that the distribution of time intervals of mobility follows a power law distribution, implies strong bursts. q stands for the probability of unknown locations, p(q) follows a normal distribution with a mean &lt;q&gt; = .7, indicating that we have no location update for about 70% of the hourly intervals, which masks the user’s real entropy S. The big nodes in the mobility networks are those old locations the individual preferentially return to.&lt;/p&gt;
+
+&lt;p&gt;Song measure the entropy of each individual’s trajectory to understand the potential predictability in user mobility. They distinguished three kinds of entropy, i) the random entropy s_rand, ii) the temporal uncorrelated entropy, s_unc, and iii) the reall entropy S. Let ∏ (/paɪ/ ) denote the predictability, it measures how can a algorithm predict correctly. Panel a shows the distribution of three kinds of entropies; Panel b shows the distribution of the predictability. Panel C shows the relationship between ∏max and rg We can find that a 93% of potential predictability in Panel C.&lt;/p&gt;
+
+&lt;p&gt;Brockmann and Helbing 2013 uses the global mobility network to study the arrival time of epidemics. The global mobility network is constructed from the worldwide air traffic between 4069 airports with 25,453 direct connections. Let pmn denote the fraction of travelers that leave node n and arrive  at node m, we define the effective distance dnm from a node n to a connected node m as dnm  = 1 – log pmn  &amp;gt;= 1 . The effective distance between two undirectly connected nodes can be computed as the minimum value of the product of a series of dij between m and n. In this way, the arrival time of epidemics can be precisely predicted.&lt;/p&gt;
+
+&lt;p&gt;Schich 2014 construct historical migration network using the birth-death location data of 120,211 individuals, which provide historical evidence for global patterns and local instabilities in human mobility dynamics.&lt;/p&gt;
+
+&lt;p&gt;We will talk in details about the study Titled Tracing the Attention of Moving Citizens. With the widespread use of mobile computing devices in contemporary society, our trajectories in the physical space and virtual world are increasingly closely connected. Using the anonymous smartphone data of 1×105 users in a major city of China, we study the interplay between online and offline human behaviors by constructing the mobility network (offline) and the attention network (online).&lt;/p&gt;
+
+&lt;p&gt;We can find strong correlations between offline and online behaviors.To systematically study the relationship between mobile users’ online surfing behaviors and offline mobility, we constructed mobility networks. Mobility network, nodes are physical locations and edges represent the movements between locations.Attention network, nodes are websites and edges represent the switch of users between websites&lt;/p&gt;
+
+&lt;p&gt;We primarily study their difference in terms of the network structure. Most complex networks are found to be small-world, but also many networks are fractal. For example, the internet is a small world. While the WWW is fractal. Fractals look the same on all scales = `scale-invariant’. There is a famous question about how long is the coastline of Norway. The answer depends on the length of your ruler. We can study the fractal patterns using the method of box covering. The box length is lb, and the number of boxes is nb, there is a power law relationship between them.&lt;/p&gt;
+
+&lt;p&gt;Using the box-covering method in networks, we can also calculate the box dimension db from the equation of nb(lb). Using the box-covering method, song renormalize the www network and find lb = 3, ie, within three steps, the www network can be transformed to a star network. We renormalize mobility network and attention network to compute db. There are 9899 nodes and 39,083 edges in the mobility network (Density = 7.9×10−4), and there are 16,476 nodes and 144,909 edges in the attention network (Density = 10.6 × 10−4). The diameter of the mobility network is 15, and the diameter of the attention network is only 10.&lt;/p&gt;
+
+&lt;p&gt;We find that (A) The number of boxes N(lB) is a power law function of box length lB in the attention network, and these two variables show an exponential relationship in the mobility network. (B) In the mobility network, the degree correlation (measured by the Pearson correlation coefficient Cor(Knn, k)) decreases from positive to negative when lB = 4, while the correlation remains negative in the attention network. Panel (C,D) show the transition of degree correlation in details. For the mobility network &amp;copy;, the slope of data points is positive when lB ⩽ 3, and the slope turns negative when lB ⩾ 4. Meanwhile, the correlation is always negative in the attention network (D).&lt;/p&gt;
+
+&lt;p&gt;The spatial division manifests the location-based online behaviors. There are obvious spatial constrained patterns. We show the geographical distribution of three kinds of mobile Internet use behaviors. A. Shopping (red), B. Dating (blue), and C. Taxi-calling (orange). The spatial-constrained attachment is well developed in geometric network models. We use it to reproduce our findings. We use geometric network models of different linking dynamics to test our assumptions on the origins of the observed fractal and small-world patterns in individual behaviors. In all, we suggest that we find that they belong to two different classes: the mobility network is small-world, whereas the attention network is fractal. online and offline behavior could be governed by very different mechanisms.&lt;/p&gt;
+
+&lt;p&gt;Finally, we would like to highlight some resources for human mobility research. NetworkX is a Python language software package for the creation, manipulation, and study of the structure, dynamics, and functions of complex networks. &lt;a href=&#34;http://networkx.github.io/&#34; target=&#34;_blank&#34;&gt;http://networkx.github.io/&lt;/a&gt; geopy is a Python client for several popular geocoding web services.  It helps to locate the coordinates of addresses, cities, countries, and landmarks across the globe using third-party geocoders and other data sources. bandicoot (&lt;a href=&#34;http://bandicoot.mit.edu&#34; target=&#34;_blank&#34;&gt;http://bandicoot.mit.edu&lt;/a&gt;) is Python toolbox to analyze mobile phone metadata.
+With only a few lines of code, load your datasets, visualize the data, perform analyses, and export the results. Folium builds on the data wrangling strengths of the Python ecosystem and the mapping strengths of the Leaflet.js library. Manipulate your data in Python, then visualize it in on a Leaflet map via Folium.&lt;/p&gt;
+
+&lt;p&gt;Thank you for your attention. This is the end.&lt;/p&gt;
 </description>
     </item>
     
@@ -115,6 +176,48 @@ Every human behavior, including communicative behavior, involves four basic elem
 &lt;p&gt;Cheng-Jun Wang, Ph.D. He is currently an assistant research fellow in the School of Journalism and Communication, Nanjing University. He is also the director of Ogilvy Data Science Lab, Computational Communication Collaboratory. His research on computational communication appears in both SSCI and SCI indexed journals, such as Scientific Reports, PloS ONE, Physica A, Cyberpsychology, and Journal of Social and Personal Relationships.&lt;/p&gt;
 
 &lt;h3 id=&#34;20-25-minutes&#34;&gt;20-25 minutes&lt;/h3&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>计算设备购买</title>
+      <link>https://chengjun.github.io/note/lab-thinktank/</link>
+      <pubDate>Sun, 07 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://chengjun.github.io/note/lab-thinktank/</guid>
+      <description>
+
+&lt;blockquote&gt;
+&lt;p&gt;全球华人思想库这个项目，资金到位了。现在需要开发一个工具，1、便于全球分主题投稿、整理、档案管理。2、自动生成分主题的元研究：学术搜索和整理综述。你看这个开发怎么做？需要多久？哪些成本？目前急于要开设备清单，以便李晓愚申述双创经费。你们可否在仙林或电话聊一下？只能买硬件。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+&lt;li&gt;投稿系统，可以考虑博客系统&lt;/li&gt;
+&lt;li&gt;Web服务器， 建设搜索引擎&lt;/li&gt;
+&lt;li&gt;自动主题生成&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;硬件&#34;&gt;硬件&lt;/h3&gt;
+
+&lt;p&gt;大数据实验室是计算传播学研究中心的一个重要组成部分。这个实验室目前落到了我和fm两个做project leader，系里从奥美研究院拿出50万支持这个实验室的硬件设施。&lt;/p&gt;
+
+&lt;p&gt;它的组成包括了分布式数据抓取和计算平台、共享计算平台、数据存储平台和实验室网站服务器四个部分组成。另外，接受计算士的意见，我决定购买2-3台macbook。&lt;/p&gt;
+
+&lt;h3 id=&#34;软件&#34;&gt;软件&lt;/h3&gt;
+
+&lt;p&gt;巢老师的意见是要实验室表现出传播力。因为我们从论文发表到资源积累，都落后与其他文科院系。但是即便是这些院系中的相关实验室，也较少为外界所知。这不得不让我好奇@北大新媒体这个微博账号是如何运营的啦。&lt;/p&gt;
+
+&lt;p&gt;同时他也告诉我近期的发展，实验室的人手缺乏是重要的问题。我想模仿城大的策略：吸引优秀的本系和外系本科生。目前南大鼓楼主要是商法传播物理这些院系。我想通过一些方式（读书会、沙龙）来吸引更多的本科生加入。采用一定的考核机制，实验室可以成为他们学习的空间，但他们必须参加实验室组会和其他活动，并承担一定的义务。&lt;/p&gt;
+
+&lt;p&gt;按照他的设想，11月完成硬件配置；11月和12月共组织四次活动；我在明年准备开设计算传播学导论的课程。&lt;/p&gt;
+
+&lt;p&gt;我将把我的一些合作者列为实验室的合作成员。参与weblab的组会、与计算士的午间讨论、与信纸的合作项目都可以展开了。&lt;/p&gt;
+
+&lt;p&gt;同时我自己的论文也迫在眉睫啦。&lt;/p&gt;
+
+&lt;h3 id=&#34;如何订购实验室电脑&#34;&gt;如何订购实验室电脑&lt;/h3&gt;
+
+&lt;p&gt;按要求填写申购贵重仪器设备可行性论证报告，需要寻找三家销售代理，细化装备的金额情况。在Hp和dell官网打电话找销售代理，打电话。看了apple中国的报价，以老师或学生身份购买会便宜很多。&lt;/p&gt;
 </description>
     </item>
     
@@ -221,6 +324,26 @@ from the RISE repository.&lt;/li&gt;
       
       <guid>https://chengjun.github.io/note/job/</guid>
       <description>
+
+&lt;h1 id=&#34;述职报告&#34;&gt;述职报告&lt;/h1&gt;
+
+&lt;p&gt;各位老师，大家好。我是王成军，来自南京大学新闻传播学院，我的述职报告的题目是《计算社会科学视角下的传播学研究》。具体包括四个部分，分别是：个人简介、研究成果、教学服务、工作计划。&lt;/p&gt;
+
+&lt;p&gt;我本科和硕士分别毕业于兰州大学和北京大学，2014年毕业于香港城市大学媒体与传播系，获传播学博士学位。9月加入南京大学新闻传播学院，担任奥美数据科学实验室主任，计算传播学实验中心成员、互联网挖掘实验室研究员。我的主要研究兴趣聚焦于计算传播学，具体包括：注意力流动网络、公共讨论，最近在做团队科学的研究。更多信息参见我的个人网站。&lt;/p&gt;
+
+&lt;p&gt;接下来介绍我的研究成果，英文发表包括：四篇SCI/SSCI一作或通讯作者论文、两篇SCI/SSCI三作论文、十五篇国际会议论文。其中，包括两篇自然出版集团期刊Scientific reports，一篇Physica A， 还有一篇Cyberpyschology。期刊的影响因子均较高，其中Cyberpyschology在2013年传播学72本国际期刊中排名第四。&lt;/p&gt;
+
+&lt;p&gt;人类传播行为的相关数据及其互动可能变革我们对于人类群体行为的理解。这是计算社会科学的领军人物Ducan Watts在2007年发表于Nature期刊的文章所提出的洞见，Watts认为社会科学将成为21世纪的科学，2009年Lazer， Pentland等一批研究者在Science上发表题为计算社会科学的文章。与之类似，在人文学科研究领域，也产生了“数字人文”的研究范式。&lt;/p&gt;
+
+&lt;p&gt;如何采用计算社会科学的视角理解传播现象？基于这一视角，我发表了几篇关于计算传播学的论文，确立了计算传播学的概念和目标。在这个过程中，参与翻译了一本使用Python进行社会网络分析的书籍，合著了《社交网络上的计算传播学》一书。&lt;/p&gt;
+
+&lt;p&gt;最近三年发表的论文主要是关于注意力流动网络的。处于注意力经济时代，人们每天都会接触大量的信息。研究个体和群体的注意力流动具有重要的理论和应用价值。逐渐确立了一种新的研究策略：即使用大规模数据，简单的计算机算法和物理学模型，回答社会科学的大问题。采用用这种方法，分析了百度贴吧用户的注意力流动中的标度现象，社交新闻网站的群体注意力流动的方向，北京移动用户的线上注意力流动和在物理空间的移动行为的关联，推特上的关于社会运动的公众讨论。&lt;/p&gt;
+
+&lt;p&gt;我申请了几个研究项目，主持了国家社会科学基金青年项目、博士后科学基金面上项目，并参与了一个自然科学基金项目。&lt;/p&gt;
+
+&lt;p&gt;在教学服务方面，也主要围绕建设计算传播学社区展开，为研究生和本科生课设《计算传播》、《数据新闻》、《计算广告》相关课程。为更好建设计算传播学社区，2014年发起建立了计算传播网，2015年参与创建了计算传播学实验中心，7月主办了集智注意力科学年会，2016年9月主办了第一届计算传播学论坛。2017年该会议发展为计算传播学年会，为期3天，并包括一个两天的工作坊。我还担任 IJPOR \ CHB \ JASIST \ICA 新闻与传播研究、新闻大学等期刊的的reviewer。我开发了两个python软件包iching和scholarnetwork， 一个R软件包networkdiffusion。&lt;/p&gt;
+
+&lt;p&gt;未来计划在教学方面：继续开设《数据新闻》、《计算传播》等课程。并将于2017年，开设233改革硕士品牌课程 《大数据挖掘与分析》；在科研方面，定位于定位高影响因子期刊的英文论文、兼顾中文论文；出版《计算传播学导论》一书。在社会服务方面：继续举办“计算传播学工作坊和年会”，积极参与学校智库和双创建设。&lt;/p&gt;
 
 &lt;h1 id=&#34;找工作&#34;&gt;找工作&lt;/h1&gt;
 
@@ -449,6 +572,8 @@ from the RISE repository.&lt;/li&gt;
 
 &lt;p&gt;走玉兰路，经过大宅门，过了沪霍线，就到了宝华镇所在，沿着159线路走就可以到达宝华卫生院，也叫宝华医院。赶不上159路，我徒步走到狮子山站公交坐D5路公交回到恒大雅苑。&lt;/p&gt;
 
+&lt;p&gt;5月8日，米果28天，我下午两点多打滴滴去了宝华卫生院，办理了&lt;strong&gt;接种证书&lt;/strong&gt;，4天后，本周五，给知乐打预防针，滴滴打车到宝华卫生院，去公共卫生楼一楼大厅排队，不要手机预约，10点之前到。下载了一个叫“金苗宝”的app &lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:app&#34;&gt;&lt;a rel=&#34;footnote&#34; href=&#34;#fn:app&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;。&lt;/p&gt;
+
 &lt;h2 id=&#34;米果降临&#34;&gt;米果降临&lt;/h2&gt;
 
 &lt;p&gt;2016年8月20日发现米粒妈妈怀孕了，我给肚子里的小朋友取名米奇或米琪，就是那个漂亮的米老鼠Mickey。小米还不到一岁半。得知这个消息，我和晓青都很崩溃：怎么又这么容易？米粒妈妈和我面对一个困境：生还是不生？！他来的太突然了。&lt;/p&gt;
@@ -541,7 +666,7 @@ from the RISE repository.&lt;/li&gt;
 
 &lt;p&gt;米粒五个半月了，我也要回南京了。很怀念抱着米粒在芙蓉树边、樟树下、操场上、房间里。米粒对我刚刚熟悉，现在又得分开了。&lt;/p&gt;
 
-&lt;p&gt;我这段时间的效率也不行，执行力很差。主要是因为兴趣突然被时间序列给带走了。尝试了好几种贝叶斯建模的方法。一开始是给米粒妈妈的数据建模，后来是给美国2012大选建模。关于公众注意力部门的模型算清楚了。媒介注意力、舆论支持率、公众情绪都会影响到公众注意力。使用公众注意力预测公众注意力当然效果不错，比如用query预测tweets。但是poll本身因为具有很强的trend和seasonality所以不需要采用regression预测。而sentiment和news则主要受到query的影响。&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:2&#34;&gt;&lt;a rel=&#34;footnote&#34; href=&#34;#fn:2&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;我这段时间的效率也不行，执行力很差。主要是因为兴趣突然被时间序列给带走了。尝试了好几种贝叶斯建模的方法。一开始是给米粒妈妈的数据建模，后来是给美国2012大选建模。关于公众注意力部门的模型算清楚了。媒介注意力、舆论支持率、公众情绪都会影响到公众注意力。使用公众注意力预测公众注意力当然效果不错，比如用query预测tweets。但是poll本身因为具有很强的trend和seasonality所以不需要采用regression预测。而sentiment和news则主要受到query的影响。&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:2&#34;&gt;&lt;a rel=&#34;footnote&#34; href=&#34;#fn:2&#34;&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;米粒回南京&#34;&gt;米粒回南京&lt;/h2&gt;
 
@@ -553,6 +678,8 @@ from the RISE repository.&lt;/li&gt;
 &lt;ol&gt;
 &lt;li id=&#34;fn:1&#34;&gt;知寒、知乐是我对两个女儿的寄托。希望她们能够晓得民间疾苦，可以享受知识带来的乐趣。我想的是论语里的意思：智者乐，“忍者瘦”😀。暮白想的是“知道享乐”。社区探访的阿姨听了小孩的名字说“真简单”。
  &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:1&#34;&gt;&lt;sup&gt;^&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li id=&#34;fn:app&#34;&gt;为什么现在app都比网站好用啊？我猜是因为背后
+ &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:app&#34;&gt;&lt;sup&gt;^&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;li id=&#34;fn:2&#34;&gt;我觉得自己很长时间都没有进入写作的流程，而是将精力浪费在了很多类似这种数据探索上面。
  &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:2&#34;&gt;&lt;sup&gt;^&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
@@ -787,16 +914,6 @@ from the RISE repository.&lt;/li&gt;
       
       <guid>https://chengjun.github.io/tweet/</guid>
       <description>&lt;p&gt;借助评论功能，发一些个人的只言片语、胡言乱语、风言风语。&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Information Diffusion on Microblogs</title>
-      <link>https://chengjun.github.io/publication/weibo-threshold/</link>
-      <pubDate>Sat, 18 Feb 2017 22:20:56 +0800</pubDate>
-      
-      <guid>https://chengjun.github.io/publication/weibo-threshold/</guid>
-      <description>&lt;p&gt;To be submitted.&lt;/p&gt;
 </description>
     </item>
     

@@ -31,6 +31,48 @@
     </item>
     
     <item>
+      <title>计算设备购买</title>
+      <link>https://chengjun.github.io/note/lab-thinktank/</link>
+      <pubDate>Sun, 07 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://chengjun.github.io/note/lab-thinktank/</guid>
+      <description>
+
+&lt;blockquote&gt;
+&lt;p&gt;全球华人思想库这个项目，资金到位了。现在需要开发一个工具，1、便于全球分主题投稿、整理、档案管理。2、自动生成分主题的元研究：学术搜索和整理综述。你看这个开发怎么做？需要多久？哪些成本？目前急于要开设备清单，以便李晓愚申述双创经费。你们可否在仙林或电话聊一下？只能买硬件。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+&lt;li&gt;投稿系统，可以考虑博客系统&lt;/li&gt;
+&lt;li&gt;Web服务器， 建设搜索引擎&lt;/li&gt;
+&lt;li&gt;自动主题生成&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;硬件&#34;&gt;硬件&lt;/h3&gt;
+
+&lt;p&gt;大数据实验室是计算传播学研究中心的一个重要组成部分。这个实验室目前落到了我和fm两个做project leader，系里从奥美研究院拿出50万支持这个实验室的硬件设施。&lt;/p&gt;
+
+&lt;p&gt;它的组成包括了分布式数据抓取和计算平台、共享计算平台、数据存储平台和实验室网站服务器四个部分组成。另外，接受计算士的意见，我决定购买2-3台macbook。&lt;/p&gt;
+
+&lt;h3 id=&#34;软件&#34;&gt;软件&lt;/h3&gt;
+
+&lt;p&gt;巢老师的意见是要实验室表现出传播力。因为我们从论文发表到资源积累，都落后与其他文科院系。但是即便是这些院系中的相关实验室，也较少为外界所知。这不得不让我好奇@北大新媒体这个微博账号是如何运营的啦。&lt;/p&gt;
+
+&lt;p&gt;同时他也告诉我近期的发展，实验室的人手缺乏是重要的问题。我想模仿城大的策略：吸引优秀的本系和外系本科生。目前南大鼓楼主要是商法传播物理这些院系。我想通过一些方式（读书会、沙龙）来吸引更多的本科生加入。采用一定的考核机制，实验室可以成为他们学习的空间，但他们必须参加实验室组会和其他活动，并承担一定的义务。&lt;/p&gt;
+
+&lt;p&gt;按照他的设想，11月完成硬件配置；11月和12月共组织四次活动；我在明年准备开设计算传播学导论的课程。&lt;/p&gt;
+
+&lt;p&gt;我将把我的一些合作者列为实验室的合作成员。参与weblab的组会、与计算士的午间讨论、与信纸的合作项目都可以展开了。&lt;/p&gt;
+
+&lt;p&gt;同时我自己的论文也迫在眉睫啦。&lt;/p&gt;
+
+&lt;h3 id=&#34;如何订购实验室电脑&#34;&gt;如何订购实验室电脑&lt;/h3&gt;
+
+&lt;p&gt;按要求填写申购贵重仪器设备可行性论证报告，需要寻找三家销售代理，细化装备的金额情况。在Hp和dell官网打电话找销售代理，打电话。看了apple中国的报价，以老师或学生身份购买会便宜很多。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>计算传播学年会工作坊组办</title>
       <link>https://chengjun.github.io/note/conference-host/</link>
       <pubDate>Sat, 01 Apr 2017 10:00:52 +0800</pubDate>
@@ -114,6 +156,26 @@ from the RISE repository.&lt;/li&gt;
       
       <guid>https://chengjun.github.io/note/job/</guid>
       <description>
+
+&lt;h1 id=&#34;述职报告&#34;&gt;述职报告&lt;/h1&gt;
+
+&lt;p&gt;各位老师，大家好。我是王成军，来自南京大学新闻传播学院，我的述职报告的题目是《计算社会科学视角下的传播学研究》。具体包括四个部分，分别是：个人简介、研究成果、教学服务、工作计划。&lt;/p&gt;
+
+&lt;p&gt;我本科和硕士分别毕业于兰州大学和北京大学，2014年毕业于香港城市大学媒体与传播系，获传播学博士学位。9月加入南京大学新闻传播学院，担任奥美数据科学实验室主任，计算传播学实验中心成员、互联网挖掘实验室研究员。我的主要研究兴趣聚焦于计算传播学，具体包括：注意力流动网络、公共讨论，最近在做团队科学的研究。更多信息参见我的个人网站。&lt;/p&gt;
+
+&lt;p&gt;接下来介绍我的研究成果，英文发表包括：四篇SCI/SSCI一作或通讯作者论文、两篇SCI/SSCI三作论文、十五篇国际会议论文。其中，包括两篇自然出版集团期刊Scientific reports，一篇Physica A， 还有一篇Cyberpyschology。期刊的影响因子均较高，其中Cyberpyschology在2013年传播学72本国际期刊中排名第四。&lt;/p&gt;
+
+&lt;p&gt;人类传播行为的相关数据及其互动可能变革我们对于人类群体行为的理解。这是计算社会科学的领军人物Ducan Watts在2007年发表于Nature期刊的文章所提出的洞见，Watts认为社会科学将成为21世纪的科学，2009年Lazer， Pentland等一批研究者在Science上发表题为计算社会科学的文章。与之类似，在人文学科研究领域，也产生了“数字人文”的研究范式。&lt;/p&gt;
+
+&lt;p&gt;如何采用计算社会科学的视角理解传播现象？基于这一视角，我发表了几篇关于计算传播学的论文，确立了计算传播学的概念和目标。在这个过程中，参与翻译了一本使用Python进行社会网络分析的书籍，合著了《社交网络上的计算传播学》一书。&lt;/p&gt;
+
+&lt;p&gt;最近三年发表的论文主要是关于注意力流动网络的。处于注意力经济时代，人们每天都会接触大量的信息。研究个体和群体的注意力流动具有重要的理论和应用价值。逐渐确立了一种新的研究策略：即使用大规模数据，简单的计算机算法和物理学模型，回答社会科学的大问题。采用用这种方法，分析了百度贴吧用户的注意力流动中的标度现象，社交新闻网站的群体注意力流动的方向，北京移动用户的线上注意力流动和在物理空间的移动行为的关联，推特上的关于社会运动的公众讨论。&lt;/p&gt;
+
+&lt;p&gt;我申请了几个研究项目，主持了国家社会科学基金青年项目、博士后科学基金面上项目，并参与了一个自然科学基金项目。&lt;/p&gt;
+
+&lt;p&gt;在教学服务方面，也主要围绕建设计算传播学社区展开，为研究生和本科生课设《计算传播》、《数据新闻》、《计算广告》相关课程。为更好建设计算传播学社区，2014年发起建立了计算传播网，2015年参与创建了计算传播学实验中心，7月主办了集智注意力科学年会，2016年9月主办了第一届计算传播学论坛。2017年该会议发展为计算传播学年会，为期3天，并包括一个两天的工作坊。我还担任 IJPOR \ CHB \ JASIST \ICA 新闻与传播研究、新闻大学等期刊的的reviewer。我开发了两个python软件包iching和scholarnetwork， 一个R软件包networkdiffusion。&lt;/p&gt;
+
+&lt;p&gt;未来计划在教学方面：继续开设《数据新闻》、《计算传播》等课程。并将于2017年，开设233改革硕士品牌课程 《大数据挖掘与分析》；在科研方面，定位于定位高影响因子期刊的英文论文、兼顾中文论文；出版《计算传播学导论》一书。在社会服务方面：继续举办“计算传播学工作坊和年会”，积极参与学校智库和双创建设。&lt;/p&gt;
 
 &lt;h1 id=&#34;找工作&#34;&gt;找工作&lt;/h1&gt;
 
@@ -342,6 +404,8 @@ from the RISE repository.&lt;/li&gt;
 
 &lt;p&gt;走玉兰路，经过大宅门，过了沪霍线，就到了宝华镇所在，沿着159线路走就可以到达宝华卫生院，也叫宝华医院。赶不上159路，我徒步走到狮子山站公交坐D5路公交回到恒大雅苑。&lt;/p&gt;
 
+&lt;p&gt;5月8日，米果28天，我下午两点多打滴滴去了宝华卫生院，办理了&lt;strong&gt;接种证书&lt;/strong&gt;，4天后，本周五，给知乐打预防针，滴滴打车到宝华卫生院，去公共卫生楼一楼大厅排队，不要手机预约，10点之前到。下载了一个叫“金苗宝”的app &lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:app&#34;&gt;&lt;a rel=&#34;footnote&#34; href=&#34;#fn:app&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;。&lt;/p&gt;
+
 &lt;h2 id=&#34;米果降临&#34;&gt;米果降临&lt;/h2&gt;
 
 &lt;p&gt;2016年8月20日发现米粒妈妈怀孕了，我给肚子里的小朋友取名米奇或米琪，就是那个漂亮的米老鼠Mickey。小米还不到一岁半。得知这个消息，我和晓青都很崩溃：怎么又这么容易？米粒妈妈和我面对一个困境：生还是不生？！他来的太突然了。&lt;/p&gt;
@@ -434,7 +498,7 @@ from the RISE repository.&lt;/li&gt;
 
 &lt;p&gt;米粒五个半月了，我也要回南京了。很怀念抱着米粒在芙蓉树边、樟树下、操场上、房间里。米粒对我刚刚熟悉，现在又得分开了。&lt;/p&gt;
 
-&lt;p&gt;我这段时间的效率也不行，执行力很差。主要是因为兴趣突然被时间序列给带走了。尝试了好几种贝叶斯建模的方法。一开始是给米粒妈妈的数据建模，后来是给美国2012大选建模。关于公众注意力部门的模型算清楚了。媒介注意力、舆论支持率、公众情绪都会影响到公众注意力。使用公众注意力预测公众注意力当然效果不错，比如用query预测tweets。但是poll本身因为具有很强的trend和seasonality所以不需要采用regression预测。而sentiment和news则主要受到query的影响。&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:2&#34;&gt;&lt;a rel=&#34;footnote&#34; href=&#34;#fn:2&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;我这段时间的效率也不行，执行力很差。主要是因为兴趣突然被时间序列给带走了。尝试了好几种贝叶斯建模的方法。一开始是给米粒妈妈的数据建模，后来是给美国2012大选建模。关于公众注意力部门的模型算清楚了。媒介注意力、舆论支持率、公众情绪都会影响到公众注意力。使用公众注意力预测公众注意力当然效果不错，比如用query预测tweets。但是poll本身因为具有很强的trend和seasonality所以不需要采用regression预测。而sentiment和news则主要受到query的影响。&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:2&#34;&gt;&lt;a rel=&#34;footnote&#34; href=&#34;#fn:2&#34;&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;米粒回南京&#34;&gt;米粒回南京&lt;/h2&gt;
 
@@ -446,6 +510,8 @@ from the RISE repository.&lt;/li&gt;
 &lt;ol&gt;
 &lt;li id=&#34;fn:1&#34;&gt;知寒、知乐是我对两个女儿的寄托。希望她们能够晓得民间疾苦，可以享受知识带来的乐趣。我想的是论语里的意思：智者乐，“忍者瘦”😀。暮白想的是“知道享乐”。社区探访的阿姨听了小孩的名字说“真简单”。
  &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:1&#34;&gt;&lt;sup&gt;^&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li id=&#34;fn:app&#34;&gt;为什么现在app都比网站好用啊？我猜是因为背后
+ &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:app&#34;&gt;&lt;sup&gt;^&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;li id=&#34;fn:2&#34;&gt;我觉得自己很长时间都没有进入写作的流程，而是将精力浪费在了很多类似这种数据探索上面。
  &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:2&#34;&gt;&lt;sup&gt;^&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
@@ -1658,127 +1724,6 @@ namespace WrappedString;
 &lt;li&gt;编写代码不可避免。虽然有很多模板可以使用，每当我们试图去做更多一点个性化的改变的时候，都需要对原有的代码进行处理，因而编写代码必不可少。另外，很多工作需要重复进行，采用编写代码的方式可以减少这种重复所造成的时间浪费，最后编写代码容易分享，也容易检查错误。&lt;/li&gt;
 &lt;li&gt;最后，数据新闻人才是独角兽，非常稀缺，成长为一个合格的数据新闻人才也并不容易。如果你决定要成为一名数据新闻生产者，那么就不能以一般的标准要求自己，要更勤奋、更专注、更开放。&lt;/li&gt;
 &lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>On teaching</title>
-      <link>https://chengjun.github.io/note/2015-10-30-on-teaching/</link>
-      <pubDate>Fri, 30 Oct 2015 00:00:00 +0000</pubDate>
-      
-      <guid>https://chengjun.github.io/note/2015-10-30-on-teaching/</guid>
-      <description>
-
-&lt;h1 id=&#34;学生使用github上传作业问题&#34;&gt;学生使用github上传作业问题&lt;/h1&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/liruonanfdu/cjc2016/tree/gh-pages/homework/liruonan&#34; target=&#34;_blank&#34;&gt;https://github.com/liruonanfdu/cjc2016/tree/gh-pages/homework/liruonan&lt;/a&gt;&lt;/p&gt;
-
-&lt;h1 id=&#34;录制公开课视频&#34;&gt;录制公开课视频&lt;/h1&gt;
-
-&lt;p&gt;Quicktime可以比较方便地录制屏幕，因而是录制公开课的好方法。但录制屏幕的时候，我们往往还希望能够看到讲课的人，所以还需要录制视频。&lt;/p&gt;
-
-&lt;p&gt;解决方法很简单：&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;首先，打开录制视频，但是并不点击开始录制。&lt;/li&gt;
-&lt;li&gt;然后，打开录制屏幕，点击开始。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;不过，我后来觉得使用这种方法其实比较没意义，读者看到教师的形象意义有多大呢？有或者没有其实影响不大。&lt;/p&gt;
-
-&lt;h1 id=&#34;上课总结与自我评估材料&#34;&gt;上课总结与自我评估材料&lt;/h1&gt;
-
-&lt;p&gt;每门课都需要教师总结与自我评估，大概500字左右。本学期我为本科生开设两门课《数据新闻》、《计算传播与广告》&lt;/p&gt;
-
-&lt;h2 id=&#34;该课程的开课历史&#34;&gt;该课程的开课历史&lt;/h2&gt;
-
-&lt;p&gt;-《数据新闻》为南京大学第一门数据新闻相关课程
--《计算传播与广告》为南京大学第一门计算广告相关课程&lt;/p&gt;
-
-&lt;h2 id=&#34;备课或其它准备工作&#34;&gt;备课或其它准备工作&lt;/h2&gt;
-
-&lt;p&gt;《数据新闻》是南京大学新闻传播学院新闻采写课程包系列中的核心课程之一，旨在为所有新闻专业和有志于从事新闻工作的同学提供数据新闻的知识和基本训练。数据新闻（data journalism）是指基于数据的抓取、挖掘、统计、分析和可视化呈现的新型新闻报道方式。本课程以《The Data Journalism Handbook》（2012）和《数据可视化的基本原理与方法》（陈为等，2013）作为授课教材。通过本课程的同学应该具备基本的数据新闻素养，具体包括收集数据、清洗数据、分析数据、可视化数据的能力，能准确地运用数据语言报道新闻事实。就数据新闻的生产过程而言，例如有人将数据新闻的生产过程分为四个阶段：数据（Data）、过滤（Filter）、可视化（ Visualize）、故事（ Story）。我们将之分为五个阶段：•    1. 数据新闻选题&amp;mdash;-关于数据新闻的理论（1）•  2. 新闻数据抓取&amp;mdash;-Python（2）• 3. 新闻数据分析&amp;mdash;-Python,R（2）,Excel• 4. 传播数据新闻（如数据可视化）&amp;mdash;-Tableau（1）,HTML5（1）, Javascript（1）, echarts（1）, D3.js（1）, Processing（1）, Adobe Illustrator（1）• 5. 分析数据新闻效果&amp;mdash;-网站分析工具&lt;/p&gt;
-
-&lt;p&gt;《计算传播与广告》是南京大学新闻传播学院为广告方向的本科生开设的任选课程之一，旨在为广告专业和有志于从事互联网广告工作的学生提供计算传播和广告的基础知识。计算传播学是计算社会科学的重要分支。它主要关注人类传播行为的可计算性基础，以传播网络分析、传播文本挖掘、数据科学等为主要分析工具，大规模地收集并分析人类传播行为数据，挖掘人类传播行为背后的模式和法则，分析模式背后的生成机制与基本原理，可以被广泛地应用于数据新闻和计算广告等场景。本课程注重编程训练、数学建模和可计算思维的培养。要求选课学生对于计算社会科学（computational Social Science）感兴趣；保持开放的头脑；不排斥基本的统计学和简单的计算机编程。计算广告（computational advertising）是计算传播学的重要研究方向和应用领域，由雅虎研究院资深研究员Andrei Broder首次提出，他认为，计算广告学是一门由信息科学、统计学、计算机科学以及微观经济学等学科交叉融合的新兴分支学科。之后，Andrei Broder和另一位Yahoo!的资深研究员一起在斯坦福开设了这门课程，被称为互联网广告从业人员的“必修课”。通过本课程的同学应该具备基本的计算传播与广告的基础知识。•   传播网络分析 Network Analysis•    博弈论基础 Gaming theory•    数据科学与编程工具 Data Science &amp;amp; Programming Tools• 互联网广告的理论框架• 了解计算广告在互联网广告中的位置和作用；•了解并掌握各种计算广告类型，包括广告投放样式、广告投放系统、广告计费方式分析等；•  掌握搜索广告检索的基本流程及常用技术，如信息检索、广告排序、广告投放定位等内容。•   学习使用软件程序对相关数据进行分析；&lt;/p&gt;
-
-&lt;h2 id=&#34;遇到的困惑或难题-存在的不足与局限&#34;&gt;遇到的困惑或难题、存在的不足与局限&lt;/h2&gt;
-
-&lt;p&gt;《数据新闻》但是产业发展已经开始倒逼学术研究，今天的媒体市场和广告市场已经发生天翻地覆的变化。随着信息渠道的拓展，海量的信息扑来，但受众的注意力却非常有限。传统媒体面临广告下滑，读者背离，朝不保夕的窘境，纷纷抓住各种救命稻草，媒体融合和数据新闻就成了重点考虑对象。这反过来将压力传递到新闻传播教育中来。因为，数据新闻涉及到前端、设计等复杂的内容，所以并非计算机科学拓展的重点（与计算广告相比），所以本专业的学生还比较积极。但是存在学生统计基础薄弱、可视化训练不足、畏惧编程、上课玩手机等问题。&lt;/p&gt;
-
-&lt;p&gt;《计算传播与广告》但是，对于计算广告的崛起，传统的广告系的学生还毫无感受。也许，基于社会分工，这本来就应当是计算机系的学生考虑的问题，但无疑精细化的计算广告也要考虑广告的内容和形式，因为只有这样才能匹配媒体平台、受众、广告主三方的利益。所以，广告系的同学其实迫切需要普及计算广告技巧。新闻传播专业的学生整体而言需要与计算机专业更好的融合。&lt;/p&gt;
-
-&lt;h2 id=&#34;尝试的创新与改革&#34;&gt;尝试的创新与改革&lt;/h2&gt;
-
-&lt;p&gt;《数据新闻》因为我所带的课都是新课，所以在备课方面花了很多时间。因为我讲的课涉及到很多编程练习的环节，所以平时的作业是必须的。我采用github作为管理学生作业的平台，感觉非常好。可以非常好地实现对于学生分组、小组人物安排、学生问题答疑、作业发布、作业审核的全部过程。此外，还可以较好地以网页的形式展现学生的学习成果。这一点是我比较满意的。&lt;/p&gt;
-
-&lt;p&gt;《计算传播与广告》因为我所带的课都是新课，所以在备课方面花了很多时间。因为我讲的课涉及到很多编程练习的环节，所以平时的作业是必须的。我采用github作为管理学生作业的平台，感觉非常好。可以非常好地实现对于学生分组、小组人物安排、学生问题答疑、作业发布、作业审核的全部过程。此外，还可以较好地以网页的形式展现学生的学习成果。这一点是我比较满意的。&lt;/p&gt;
-
-&lt;h2 id=&#34;对学生学习态度及课堂反馈的评价&#34;&gt;对学生学习态度及课堂反馈的评价&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;对学生态度友好&lt;/li&gt;
-&lt;li&gt;认真审阅学生作业&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;未来的计划与设想等&#34;&gt;未来的计划与设想等。&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;两门课程均需要课堂上机练习，而目前学院仙林校区的机房仅仅有20个机位，迫切需要扩充机房。&lt;/li&gt;
-&lt;li&gt;减少课堂教学量，增加互动内容。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;取得成绩与经验&#34;&gt;取得成绩与经验&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;完成教学任务&lt;/li&gt;
-&lt;li&gt;增加师生互动&lt;/li&gt;
-&lt;li&gt;完成通过github交作业、批改作业&lt;/li&gt;
-&lt;li&gt;完成微信公号《微议题排行榜》的运营&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;关于计算传播教学的感悟&#34;&gt;关于计算传播教学的感悟&lt;/h3&gt;
-
-&lt;p&gt;2012年的时候，我还在香港城市大学读博士，有一门必修课是教如何给学生上课。课程要求必须要写自己的“教育哲学”。我写了我自己的计划：一、如何给ssci期刊投稿；二、网络分析的理论和应用；三、媒介市场分析。时光荏苒，三年过去，我回到大陆教书。第一门课变成遥不可及的梦想，没有本科生和研究生对这个感兴趣；第二门课和第三门课倒是有一部分开始变成现实。我在2015年春季给研究生开了《计算传播学导论》的工作坊，秋季开了两门课，一门是《数据新闻》，另一门是《计算传播与广告》。我给自己的定位很明确：发展和传播“计算传播学”。计算传播学是计算社会科学的一个重要分支。它主要关注传播网络分析、媒介文本挖掘、数据新闻、计算广告、数学模型、编程工具以及开放数据。理论起源于数据，阶及模式、法则、机制，而达根本原理。将人类传播行为（开放数据）可计算化的转化过程依赖于我们的研究方法（数学模型、编程工具），专注于我们的研究领域（传播网络分析、媒介文本挖掘），而应用于数据新闻和计算广告领域。&lt;/p&gt;
-
-&lt;p&gt;在过去的五年里，计算社会科学成为了一个不可抵挡的浪潮。这个浪潮有很多表现形式，比如“大数据”、“媒体融合”、“人工智能”纷纷成为周围人火热讨论的话题。虽然，很多人唱衰这些东西，但我一直认为说一个东西不行太容易了，每个人在批评别人的时候总能超水平发挥，因为我们倾向于盯着比人的短处。但是批评太容易了，难点其实一直在于怎么解决问题。没有意义之物，注定被历史的尘埃淹没，关键是要做出好的东西出来。在社会科学家们磨拳搽掌围攻大数据的时候，一群物理学家和计算机科学家开始投入到计算社会科学的研究中来。&lt;/p&gt;
-
-&lt;p&gt;社会科学内部对于变革并不敏感，计算机科学和自然科学加入社会科学的研究并不鲜见。实际上，这种场景太让人熟悉，80年代的时候，计算机科学发展计算语言学的时候就出现过。结果是两帮人说不到一块去，乔姆斯基作为语言生成学派反对计算语言学的基本观点，双方各自开自己的会议，办自己的期刊。但是，随着互联网的发展，传统语言学面对计算语言学的飞速发展已经失去了往日的那种反抗，二者终于在一方胜出的情况下开始产生有益的融合。问题是现在其他各个社会科学分支如何看待计算社会科学呢？如果对抗20年，基本上学科发展的一代人的时光就耗进去了。仅从学术争论而言，孤注一掷不是明智之举，似乎短期内依然没有明确答案。&lt;/p&gt;
-
-&lt;p&gt;但是产业发展已经开始倒逼学术研究，今天的媒体市场和广告市场已经发生天翻地覆的变化。随着信息渠道的拓展，海量的信息扑来，但受众的注意力却非常有限。传统媒体面临广告下滑，读者背离，朝不保夕的窘境，纷纷抓住各种救命稻草，媒体融合和数据新闻就成了重点考虑对象。这反过来将压力传递到新闻传播教育中来。因为，数据新闻涉及到前端、设计等复杂的内容，所以并非计算机科学拓展的重点（与计算广告相比），所以本专业的学生还比较积极。但是，对于计算广告的崛起，传统的广告系的学生还毫无感受。也许，基于社会分工，这本来就应当是计算机系的学生考虑的问题，但无疑精细化的计算广告也要考虑广告的内容和形式，因为只有这样才能匹配媒体平台、受众、广告主三方的利益。所以，广告系的同学其实迫切需要普及计算广告技巧。新闻传播专业的学生整体而言需要与计算机专业更好的融合。&lt;/p&gt;
-
-&lt;p&gt;教学是一个互动的过程。对于学生而言，是增长知识；对于老师而言，是教学相长。作为一个良性的互动，需要有一个正反馈的过程。但往往现实没有那么美好，比如春季给研究生开的《计算传播学导论》工作坊，后来发现根本不算教学量。给广告系本科生开的《计算传播与广告》没有几个广告系的同学选课，相反，开设的《数据新闻》则选课众多。另外，我在鼓楼面向研究生开的课程和读书会、一起公开课活动，来的主要是专业硕士，学术硕士并不感兴趣。硕士和博士的反馈让我更多我反思是为什么文科的研究生越做研究越固步自封，为什么本科生对于找工作更有兴趣？从我的角度而言，乐见其对于应用的关注，但也期望能够抓住那些对研究感兴趣的学生。&lt;/p&gt;
-
-&lt;p&gt;因为我所带的课都是新课，所以在备课方面花了很多时间。因为我讲的课涉及到很多编程练习的环节，所以平时的作业是必须的。我采用github作为管理学生作业的平台，感觉非常好。可以非常好地实现对于学生分组、小组人物安排、学生问题答疑、作业发布、作业审核的全部过程。此外，还可以较好地以网页的形式展现学生的学习成果。这一点是我比较满意的。&lt;/p&gt;
-
-&lt;p&gt;附《我的教育哲学》：&lt;/p&gt;
-
-&lt;h3 id=&#34;teaching-philosophy&#34;&gt;Teaching Philosophy&lt;/h3&gt;
-
-&lt;p&gt;Teaching is one process of self-presentation, through which you represent the long-living knowledge of human kind. It really matters what you are thinking about your teaching philosophy. For me, according to my understandings of teaching, I would like to highlight the equality of teaching and learning, the nature of human beings, and being open-minded.&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;Everyone is equal&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Respect Your AudienceA good lesson I learnt from this class come with a question: what should you do when your students did a good job? If not, what will you do? Reflect about the answer. Do you want to reward or punish them? Remember your answer in heart.&lt;/p&gt;
-
-&lt;p&gt;I would like to introduce Skinner’s box invented by Frederic Skinner, which contains levers that an animal can press, stimulus lights, electric grid, and food pellet. Following the logic of behaviorism, when the subject correctly performs the behavior, the chamber mechanism delivers food or another reward. Or else, the box delivers a punishment for incorrect or missing responses.&lt;/p&gt;
-
-&lt;p&gt;Thus, you may realize that you are treating your students as passive experimental subjects. The beginning point is never to treat your students as experimental rats, and even animals deserve your respects. Students are human beings who have their own feelings, emotions, and values. The first step of teaching should be to learn to respect your audiences, even though they behave passively, or make no progress.&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;Understanding human nature&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Effective teaching is to impose a set of values &amp;amp; beliefs on the student. The most important part should be teaching the students how to learn. The best way of learning should be acting according to the nature of human beings. Everyone had been a curious kid who wanted to explore every part of the world. Just like the cat is curious about the fish (sometime, for eating, while sometimes just for fun), human beings, in the nature, are curious about the part of knowledge they are interested in. The second step of effective teaching should be inspiring your students to fulfill their interests in the learning process.&lt;/p&gt;
-
-&lt;p&gt;I was always not surprised about the story of Thomas Suarez, the 12 years old kid who made two iphone Apps by learning python, java, and c. Little Thomas has been fascinated by computers and technology before kindergarten. What the teacher should think is how could we contribute to the audiences’ real interests, rather than beat around the bush complaining why the students have no passion in the boring class.&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;Being Open-minded&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;The world is always changed by new comers. The teacher will finally find his or her understandings about the cutting-edge scientific study are not perfect. The best way is not to constrain the students from challenging the tradition. Being open-minded, sit down, and enjoy the new outline drawn by the young people.&lt;/p&gt;
 </description>
     </item>
     
