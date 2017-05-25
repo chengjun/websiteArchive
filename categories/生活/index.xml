@@ -10,6 +10,91 @@
     <atom:link href="/categories/%E7%94%9F%E6%B4%BB/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>理解个人所得税</title>
+      <link>https://chengjun.github.io/note/2015-12-31-income/</link>
+      <pubDate>Thu, 31 Dec 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://chengjun.github.io/note/2015-12-31-income/</guid>
+      <description>
+
+&lt;h2 id=&#34;更新&#34;&gt;更新&lt;/h2&gt;
+
+&lt;p&gt;2016年4月开始，根据建设双一流大学的需要，对岗位工资进行调整。&lt;/p&gt;
+
+&lt;p&gt;岗位工资    交补  应发  会费  公积  养老预扣    大病互助    个税  实发
+13333   300 16033   66.67   1200    1600    20  1428.25 11718.08&lt;/p&gt;
+
+&lt;h2 id=&#34;薪资纳税计算&#34;&gt;薪资纳税计算&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;学校财务处 &lt;a href=&#34;http://ndcw.nju.edu.cn/&#34; target=&#34;_blank&#34;&gt;http://ndcw.nju.edu.cn/&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;江苏省南京地方税务局 &lt;a href=&#34;http://nj.jsds.gov.cn/art/2011/6/28/art_16724_418203.html&#34; target=&#34;_blank&#34;&gt;http://nj.jsds.gov.cn/art/2011/6/28/art_16724_418203.html&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;交补300、会费50、大病互助20、公积金1200，不算入纳税范围。交补是交通补贴；会费是工会会费是在工资中提取的工会经费。大学没有医疗保险，只有大病互助。住房公积金是1200元，年初还会交一次失业险50。其中，*只有*住房公积金不交税。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;10000+300-1200 = 9100
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;3500以上为纳税标准，我的账单上写565元所得税，&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;应纳个人所得税税额=应纳税所得额×适用税率-速算扣除数；
+
+((10000- 1200 + 300)- 3500)*0.2 - 555 = 565
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;扣除标准3500元/月（2011年9月1日起正式执行）（工资、薪金所得适用）；个税免征额3500元（工资薪金所得适用）。关于税率和速算扣除数参见：&lt;a href=&#34;http://www.chinaacc.com/kuaijishiwu/gssw/ni1501272983.shtml&#34; target=&#34;_blank&#34;&gt;http://www.chinaacc.com/kuaijishiwu/gssw/ni1501272983.shtml&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;假设其它工薪收入为50万，那么可以使用以下公式计算。基本工资应交税部分9100元，该部分交税565。其它工薪收入x加上9100即为该月总纳税金额，应纳税所得额乘以税率，再减去速算扣除数就是本月应缴纳税收，减去基本工资缴纳税收565，就是本月其它工薪收入部分缴纳的税额。具体如下：&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;def tax(x, rate, extra):
+    return (x+9100-3500)*rate-extra-565
+
+tax(10000, 0.25, 1005)*50 = 116500
+tax(20000, 0.25, 1005)*25 = 120750
+tax(40000, 0.30, 2755)*12 + tax(20000, 0.25, 1005) = 129150
+tax(50000, 0.35, 5505)*10 = 133900
+tax(500000, 0.45, 13505) = 213450
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;劳务报酬纳税计算&#34;&gt;劳务报酬纳税计算&lt;/h2&gt;
+
+&lt;p&gt;您输入的税前劳务报酬总额为：500000， 应纳所得税额为：153000， 税后劳务报酬总额为：347000&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>生态学、土壤学、环境检测方向的南京教职</title>
+      <link>https://chengjun.github.io/note/2016-07-17-xiaoqing-job/</link>
+      <pubDate>Wed, 18 Nov 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://chengjun.github.io/note/2016-07-17-xiaoqing-job/</guid>
+      <description>&lt;p&gt;暮白在南京的工作一直令我不能释怀，放弃优渥舒适的&lt;code&gt;体制内&lt;/code&gt;工作来到南京，突然发现很抓瞎，生态学的就业市场非常凄凉。暮白需要找土壤学、环境检测方向的南京教职，但是她对研究却没有热情，虽然可以胜任写论文的工作。一直留意的信息包括这些&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;南京林业大学人事处 | 生物与环境学院生态学方向 &lt;a href=&#34;http://zhaopin.njfu.edu.cn/class_type.asp?cpid=151&#34; target=&#34;_blank&#34;&gt;链接&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;南京林业大学 &amp;ldquo;林学院&amp;rdquo; 农业资源与环境岗位，农业资源利用(土壤学、植物营养学)专业、&amp;rdquo;025-85427303 ycxi@njfu.edu.cn&amp;rdquo;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;南京大学金陵学院人事处 &lt;a href=&#34;http://rsc.jlxy.nju.edu.cn/list.aspx?t=recruit&amp;amp;id=jobs&#34; target=&#34;_blank&#34;&gt;链接&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;化学与生命科学学院的环境科学专业（污染控制技术与环境市政工程方向、环境监测与评价方向）&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;南京师范大学生命科学学院和地理科学学院 [网络链接]&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;江苏省属事业单位招聘平台 &lt;a href=&#34;http://sydwzk.jshrss.gov.cn/&#34; target=&#34;_blank&#34;&gt;http://sydwzk.jshrss.gov.cn/&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;南京农业大学草业学院&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
       <title>自我介绍</title>
       <link>https://chengjun.github.io/note/2015-08-13-self-intro/</link>
       <pubDate>Thu, 13 Aug 2015 00:00:00 +0000</pubDate>
@@ -636,84 +721,6 @@ document.write(&#34;&lt;iframe src=\&#34;http://www.kingjamesbibleonline.org/pop
 &lt;p&gt;&lt;strong&gt;百度阅读研究计划&lt;/strong&gt; 研究问题和视角：本研究试图从网络科学的角度分析用户的注意力如何在书籍构成的人类知识版图当中流动。研究方法：构建以书籍为节点、以用户的阅读行为为链接的人类阅读行为的注意力流动网络。同时，每一天构建一个注意力流动网络，这样可以观察到每一天的活跃用户数量和阅读规模，进而可以分析用户的数量（UV）和用户的浏览量（PV）之间的异速增长关系。研究意义：基于这个网络可以观察到人类在知识获取过程，将书籍嵌入到一个流动网络所对应的几何空间中，进而可以进行节点的聚类，计算任意两个节点的相似性，划分以书籍为单位的知识版图的层级关系。数据需求：1. 数据抽样：- 首先，从总体当中随机抽取10万用户；- 然后，对于每一个用户抽取2016年1月1日到6月30日之间的所有阅读行为记录。格式如下：用户id、时间、书籍id、阅读量（字数等指标）、持续时间（秒钟）- 此外，抽取这10万用户所阅读的所有的图书的基本信息，例如：书籍id、书名、作者、出版社、年份、定价，等。- 最后，对于这10万用户的图书购买行为进行记录，格式如下：用户id、时间、书籍id、花费金额。&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;http://oaf2qt3yk.bkt.clouddn.com/67d2a8bc0f1dca86a4cf4d541574e518.png&#34; alt=&#34;elephant_smoking&#34; /&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>理解个人所得税</title>
-      <link>https://chengjun.github.io/note/2015-12-31-income/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://chengjun.github.io/note/2015-12-31-income/</guid>
-      <description>
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;学校财务处 &lt;a href=&#34;http://ndcw.nju.edu.cn/&#34; target=&#34;_blank&#34;&gt;http://ndcw.nju.edu.cn/&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;江苏省南京地方税务局 &lt;a href=&#34;http://nj.jsds.gov.cn/art/2011/6/28/art_16724_418203.html&#34; target=&#34;_blank&#34;&gt;http://nj.jsds.gov.cn/art/2011/6/28/art_16724_418203.html&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;薪资纳税计算&#34;&gt;薪资纳税计算&lt;/h2&gt;
-
-&lt;p&gt;交补300、会费50、大病互助20、公积金1200，不算入纳税范围。交补是交通补贴；会费是工会会费是在工资中提取的工会经费。大学没有医疗保险，只有大病互助。住房公积金是1200元，年初还会交一次失业险50。其中，*只有*住房公积金不交税。&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;10000+300-1200 = 9100
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;3500以上为纳税标准，我的账单上写565元所得税，&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;应纳个人所得税税额=应纳税所得额×适用税率-速算扣除数；
-
-((10000- 1200 + 300)- 3500)*0.2 - 555 = 565
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;扣除标准3500元/月（2011年9月1日起正式执行）（工资、薪金所得适用）；个税免征额3500元（工资薪金所得适用）。关于税率和速算扣除数参见：&lt;a href=&#34;http://www.chinaacc.com/kuaijishiwu/gssw/ni1501272983.shtml&#34; target=&#34;_blank&#34;&gt;http://www.chinaacc.com/kuaijishiwu/gssw/ni1501272983.shtml&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;假设其它工薪收入为50万，那么可以使用以下公式计算。基本工资应交税部分9100元，该部分交税565。其它工薪收入x加上9100即为该月总纳税金额，应纳税所得额乘以税率，再减去速算扣除数就是本月应缴纳税收，减去基本工资缴纳税收565，就是本月其它工薪收入部分缴纳的税额。具体如下：&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;def tax(x, rate, extra):
-    return (x+9100-3500)*rate-extra-565
-
-tax(10000, 0.25, 1005)*50 = 116500
-tax(20000, 0.25, 1005)*25 = 120750
-tax(40000, 0.30, 2755)*12 + tax(20000, 0.25, 1005) = 129150
-tax(50000, 0.35, 5505)*10 = 133900
-tax(500000, 0.45, 13505) = 213450
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h2 id=&#34;劳务报酬纳税计算&#34;&gt;劳务报酬纳税计算&lt;/h2&gt;
-
-&lt;p&gt;您输入的税前劳务报酬总额为：500000， 应纳所得税额为：153000， 税后劳务报酬总额为：347000&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>生态学、土壤学、环境检测方向的南京教职</title>
-      <link>https://chengjun.github.io/note/2016-07-17-xiaoqing-job/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://chengjun.github.io/note/2016-07-17-xiaoqing-job/</guid>
-      <description>&lt;p&gt;暮白在南京的工作一直令我不能释怀，放弃优渥舒适的&lt;code&gt;体制内&lt;/code&gt;工作来到南京，突然发现很抓瞎，生态学的就业市场非常凄凉。暮白需要找土壤学、环境检测方向的南京教职，但是她对研究却没有热情，虽然可以胜任写论文的工作。一直留意的信息包括这些&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;南京林业大学人事处 | 生物与环境学院生态学方向 &lt;a href=&#34;http://zhaopin.njfu.edu.cn/class_type.asp?cpid=151&#34; target=&#34;_blank&#34;&gt;链接&lt;/a&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;南京林业大学 &amp;ldquo;林学院&amp;rdquo; 农业资源与环境岗位，农业资源利用(土壤学、植物营养学)专业、&amp;rdquo;025-85427303 ycxi@njfu.edu.cn&amp;rdquo;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;南京大学金陵学院人事处 &lt;a href=&#34;http://rsc.jlxy.nju.edu.cn/list.aspx?t=recruit&amp;amp;id=jobs&#34; target=&#34;_blank&#34;&gt;链接&lt;/a&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;化学与生命科学学院的环境科学专业（污染控制技术与环境市政工程方向、环境监测与评价方向）&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;南京师范大学生命科学学院和地理科学学院 [网络链接]&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;江苏省属事业单位招聘平台 &lt;a href=&#34;http://sydwzk.jshrss.gov.cn/&#34; target=&#34;_blank&#34;&gt;http://sydwzk.jshrss.gov.cn/&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;南京农业大学草业学院&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
 </description>
     </item>
     
