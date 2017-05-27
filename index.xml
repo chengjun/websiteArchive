@@ -920,6 +920,7 @@ from the RISE repository.&lt;/li&gt;
 &lt;h1 id=&#34;software&#34;&gt;Software&lt;/h1&gt;
 
 &lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;https://pypi.python.org/pypi/flownetwork&#34; target=&#34;_blank&#34;&gt;flownetwork&lt;/a&gt;, a Python package for flow network analysis.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://pypi.python.org/pypi/iching/&#34; target=&#34;_blank&#34;&gt;iching&lt;/a&gt;, a Python package that employs the Achillea millefolium method to practise divination of I Ching (易经的蓍草卜卦方法).&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/chengjun/networkdiffusion&#34; target=&#34;_blank&#34;&gt;networkdiffusion&lt;/a&gt;, a R package which can help simulate and visualize the network diffusion.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://pypi.python.org/pypi/scholarNetwork/&#34; target=&#34;_blank&#34;&gt;scholarNetwork&lt;/a&gt;, a Python package to crawl and visualize the coauthor network of Google Scholars.&lt;/li&gt;
