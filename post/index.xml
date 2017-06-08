@@ -263,10 +263,13 @@ cd ..
 
 &lt;h2 id=&#34;update&#34;&gt;Update&lt;/h2&gt;
 
-&lt;p&gt;There is another way to avoid opening a terminal by using the Script package.
-- install the &lt;code&gt;Script&lt;/code&gt; package of Atom,
-- open the deploy.sh within Atom
-- press &lt;code&gt;Ctrl + I&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;There is another way to avoid opening a terminal by using the Script package.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;install the &lt;code&gt;Script&lt;/code&gt; package of Atom,&lt;/li&gt;
+&lt;li&gt;open the deploy.sh within Atom&lt;/li&gt;
+&lt;li&gt;press &lt;code&gt;Ctrl + I&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
 </description>
     </item>
     

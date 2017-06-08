@@ -189,7 +189,9 @@
       <pubDate>Mon, 13 Feb 2017 12:54:27 +0800</pubDate>
       
       <guid>https://chengjun.github.io/post/hugo2github/</guid>
-      <description>&lt;p&gt;I tried to move from jekyll to hugo to enhance my personal website. But I still want to use Github Pages to host the generated html files (in the &lt;code&gt;Public&lt;/code&gt; folder). The trick is you have to move the files in the &lt;code&gt;Public&lt;/code&gt; folder to the local folder of your github folder.&lt;/p&gt;
+      <description>
+
+&lt;p&gt;I tried to move from jekyll to hugo to enhance my personal website. But I still want to use Github Pages to host the generated html files (in the &lt;code&gt;Public&lt;/code&gt; folder). The trick is you have to move the files in the &lt;code&gt;Public&lt;/code&gt; folder to the local folder of your github folder.&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Create on GitHub &lt;code&gt;mywebsite-hugo&lt;/code&gt; repository (it will host Hugo’s content)&lt;/li&gt;
@@ -246,6 +248,8 @@ cd ..
 
 &lt;p&gt;I can inspect the effect by running &lt;code&gt;hugo server --watch&lt;/code&gt;&lt;/p&gt;
 
+&lt;h2 id=&#34;deploying-the-html-files&#34;&gt;deploying the html files&lt;/h2&gt;
+
 &lt;p&gt;After I make some changes, I can conveniently run the following code to deploy the html files to github pages.&lt;/p&gt;
 
 &lt;div class=&#34;alert alert-note&#34;&gt;
@@ -255,6 +259,16 @@ cd ..
 
 
 &lt;p&gt;For the source code in the mywebsite-hugo folder, I can also easily archive them within Atom using the &amp;lsquo;Git Plus&amp;rsquo; package.&lt;/p&gt;
+
+&lt;h2 id=&#34;update&#34;&gt;Update&lt;/h2&gt;
+
+&lt;p&gt;There is another way to avoid opening a terminal by using the Script package.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;install the &lt;code&gt;Script&lt;/code&gt; package of Atom,&lt;/li&gt;
+&lt;li&gt;open the deploy.sh within Atom&lt;/li&gt;
+&lt;li&gt;press &lt;code&gt;Ctrl + I&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
 </description>
     </item>
     
