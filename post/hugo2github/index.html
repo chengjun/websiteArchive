@@ -231,12 +231,22 @@
     
       <div id="toc" class="well col-md-12">
       <h2 itemprop="name">Table of Content</h2>
-      
+      <nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#deploying-the-html-files">deploying the html files</a></li>
+<li><a href="#update">Update</a></li>
+</ul></li>
+</ul>
+</nav>
       </div>
     
     
     <div class="article-style" itemprop="articleBody">
-      <p>I tried to move from jekyll to hugo to enhance my personal website. But I still want to use Github Pages to host the generated html files (in the <code>Public</code> folder). The trick is you have to move the files in the <code>Public</code> folder to the local folder of your github folder.</p>
+      
+
+<p>I tried to move from jekyll to hugo to enhance my personal website. But I still want to use Github Pages to host the generated html files (in the <code>Public</code> folder). The trick is you have to move the files in the <code>Public</code> folder to the local folder of your github folder.</p>
 
 <ul>
 <li>Create on GitHub <code>mywebsite-hugo</code> repository (it will host Hugo’s content)</li>
@@ -293,6 +303,8 @@ cd ..
 
 <p>I can inspect the effect by running <code>hugo server --watch</code></p>
 
+<h2 id="deploying-the-html-files">deploying the html files</h2>
+
 <p>After I make some changes, I can conveniently run the following code to deploy the html files to github pages.</p>
 
 <div class="alert alert-note">
@@ -302,6 +314,13 @@ cd ..
 
 
 <p>For the source code in the mywebsite-hugo folder, I can also easily archive them within Atom using the &lsquo;Git Plus&rsquo; package.</p>
+
+<h2 id="update">Update</h2>
+
+<p>There is another way to avoid opening a terminal by using the Script package.
+- install the <code>Script</code> package of Atom,
+- open the deploy.sh within Atom
+- press <code>Ctrl + I</code></p>
 
     </div>
 
