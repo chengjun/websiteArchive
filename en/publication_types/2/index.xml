@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2 on </title>
+    <link>https://chengjun.github.io/en/publication_types/2/index.xml</link>
+    <description>Recent content in 2 on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2016 Cheng-Jun Wang</copyright>
+    <atom:link href="/en/publication_types/2/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Tracing the Attention of Moving Citizens</title>
+      <link>https://chengjun.github.io/en/publication/tracing-attention/</link>
+      <pubDate>Fri, 09 Sep 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://chengjun.github.io/en/publication/tracing-attention/</guid>
+      <description>&lt;p&gt;More detail can easily be written here using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The Collective Direction of Attention Diffusion</title>
+      <link>https://chengjun.github.io/en/publication/collective-direction/</link>
+      <pubDate>Mon, 05 Sep 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://chengjun.github.io/en/publication/collective-direction/</guid>
+      <description>&lt;p&gt;More detail can easily be written here using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Self-Disclosure to Parents in Emerging Adulthood</title>
+      <link>https://chengjun.github.io/en/publication/self-disclosure-child/</link>
+      <pubDate>Fri, 01 Apr 2016 12:23:27 +0800</pubDate>
+      
+      <guid>https://chengjun.github.io/en/publication/self-disclosure-child/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mining Social Entrepreneurship Strategies Using Topic Modeling</title>
+      <link>https://chengjun.github.io/en/publication/social-entrepreneurship/</link>
+      <pubDate>Mon, 21 Mar 2016 12:22:55 +0800</pubDate>
+      
+      <guid>https://chengjun.github.io/en/publication/social-entrepreneurship/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The scaling of attention networks</title>
+      <link>https://chengjun.github.io/en/publication/scaling-networks/</link>
+      <pubDate>Thu, 31 Dec 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://chengjun.github.io/en/publication/scaling-networks/</guid>
+      <description>&lt;p&gt;More detail can easily be written here using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Discussing Occupy Wall Street on Twitter</title>
+      <link>https://chengjun.github.io/en/publication/dicuss-ows-tweets/</link>
+      <pubDate>Thu, 12 Sep 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://chengjun.github.io/en/publication/dicuss-ows-tweets/</guid>
+      <description>&lt;p&gt;More detail can easily be written here using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

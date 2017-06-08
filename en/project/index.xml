@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on </title>
+    <link>https://chengjun.github.io/en/project/index.xml</link>
+    <description>Recent content in Projects on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2016 Cheng-Jun Wang</copyright>
+    <lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/en/project/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Attention Networks</title>
+      <link>https://chengjun.github.io/en/project/attention-networks/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://chengjun.github.io/en/project/attention-networks/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://chengjun.github.io/publication/tracing-attention/&#34;&gt;Tracing the Attention of Moving Citizens&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://chengjun.github.io/publication/collective-direction/&#34;&gt;The Collective Direction of Attention Diffusion&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://chengjun.github.io/publication/scaling-networks&#34;&gt;The scaling of attention networks&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Computational Communication</title>
+      <link>https://chengjun.github.io/en/project/computational-communication/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://chengjun.github.io/en/project/computational-communication/</guid>
+      <description>&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;https://chengjun.github.io/publication/computational-journalism/&#34;&gt;计算社会科学视野下的新闻学研究&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://chengjun.github.io/publication/cc-origin/&#34;&gt;计算传播学的起源、概念和应用&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://chengjun.github.io/publication/cc-intro/&#34;&gt;计算传播学:作为计算社会科学的传播学&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

