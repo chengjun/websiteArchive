@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Python on </title>
+    <link>https://chengjun.github.io/zh/categories/python/index.xml</link>
+    <description>Recent content in Python on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>&amp;copy; 2016 Cheng-Jun Wang</copyright>
+    <atom:link href="/zh/categories/python/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>iching：一个用来算卦的python包</title>
+      <link>https://chengjun.github.io/zh/post/cn/2015-07-04-iching-python/</link>
+      <pubDate>Sat, 04 Jul 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://chengjun.github.io/zh/post/cn/2015-07-04-iching-python/</guid>
+      <description>&lt;iframe src=&#34;http://nbviewer.ipython.org/github/chengjun/iching/blob/master/iching_intro.ipynb&#34; scrolling=&#34;no&#34; width=&#34;700&#34; height=&#34;6500&#34;&gt;&lt;/iframe&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>打包发布python软件包</title>
+      <link>https://chengjun.github.io/zh/post/cn/2015-02-22-distribute-python-package/</link>
+      <pubDate>Sun, 22 Feb 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://chengjun.github.io/zh/post/cn/2015-02-22-distribute-python-package/</guid>
+      <description>&lt;p&gt;我们经常写一些程序碎片，却很少有动力把它们整合起来。前段时间写了一个爬取并可视化谷歌学术网的python程序。今天想不如把它整合一下，虽然非常简单（只有一个函数）。主要参考python官网的&lt;a href=&#34;https://packaging.python.org/en/latest/distributing.html#uploading-your-project-to-pypi&#34; target=&#34;_blank&#34;&gt;发布指南&lt;/a&gt;。&lt;/p&gt;
+
+&lt;p&gt;##注册
+于是首先来到pypi网站注册。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://pypi.python.org/pypi?%3Aaction=submit_form&#34; target=&#34;_blank&#34;&gt;https://pypi.python.org/pypi?%3Aaction=submit_form&lt;/a&gt;
+记下用户名chengjun和密码W4&lt;/p&gt;
+
+&lt;p&gt;##填写软件包信息
+《指南》推荐直接在线填写 &lt;a href=&#34;https://pypi.python.org/pypi?%3Aaction=submit_form&#34; target=&#34;_blank&#34;&gt;https://pypi.python.org/pypi?%3Aaction=submit_form&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;##打包和发布工具
+先要安装两个包：twine和wheel。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;pip install wheel
+pip install twine
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;##整理项目文件夹
+找项目实例（&lt;a href=&#34;https://github.com/pypa/sampleproject）下载下来，修改其中的部分内容即可。详见指南，或者自己摸索即可。&#34; target=&#34;_blank&#34;&gt;https://github.com/pypa/sampleproject）下载下来，修改其中的部分内容即可。详见指南，或者自己摸索即可。&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;##打包发布
+1.在window环境下，使用cmd，转换工作路径到项目文件夹。
+2. 主要参考 &lt;a href=&#34;https://github.com/pypa/twine打包发布：&#34; target=&#34;_blank&#34;&gt;https://github.com/pypa/twine打包发布：&lt;/a&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;#Create some distributions in the normal way:
+$ python setup.py sdist bdist_wheel
+
+#Upload with twine:
+$ twine upload dist/*
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;我使用上传的时候出错（typeError），于是直接使用打包好的zip文件（在dist子文件夹当中）手工上传到pypi。注意，每次上传到pypi需要修改一次setup.py中的版本号，并重新打包才可上传。如此而已，比我想象当中要速度快得多、简单的多。&lt;/p&gt;
+
+&lt;p&gt;这里是我刚刚打包发布的一个可视化谷歌学术网络的python软件包：&lt;a href=&#34;https://pypi.python.org/pypi/scholarNetwork/&#34; target=&#34;_blank&#34;&gt;https://pypi.python.org/pypi/scholarNetwork/&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>表达、检索、练习——写给Python的初学者</title>
+      <link>https://chengjun.github.io/zh/post/cn/2015-02-22-fresh-python/</link>
+      <pubDate>Sun, 22 Feb 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://chengjun.github.io/zh/post/cn/2015-02-22-fresh-python/</guid>
+      <description>&lt;p&gt;三年前，我写过一篇小日志，介绍如何从零开始学习R语言。后来我的工作越来越多的使用python，于是摸爬滚打自己探索了挺久的。身边也越来越多的人问起新手如何从零学习python的问题。我想练习、检索、表达这三点依旧是关键，只不过顺序稍有不同。很多人说，学习python，你来推荐一些资料吧。我想了想，资料还不是关键，关键是自身。&lt;/p&gt;
+
+&lt;p&gt;##看书还是上手？
+以前我们学语言，比如C语言或者Basic语言，首先讲的都是字符、数字、列表、逻辑符等。几乎所有的编程书都会这么讲，所以很多人会觉得看书没有什么新意。不过我觉得看书还是必须的，重点就是要去掌握这些基本的东西。&lt;/p&gt;
+
+&lt;p&gt;当然了，掌握这些并不能帮助我们完成手上的工作。是的，并不能！总有一些细节的地方你必须去hack现有的代码。于是乎就有了另外一种学习语言的哲学：干中学（learn by doing）。基本的逻辑就是不断摸索，硬着头皮上。这种风格非常强悍，虽然刚开始的时候容易犯非常浅显的毛病，但是却是真正学语言的不二法门。&lt;/p&gt;
+
+&lt;p&gt;##表达
+到底看书还是上手呢？我主张先明确自己的问题是什么。做研究的人都知道，我们往往对于自己所面临的问题并不明确。写程序、学语言也是这个样子。首先要明确地表达出来。这是表达的第一重意思。&lt;/p&gt;
+
+&lt;p&gt;##检索
+当你问题明确之后，就可以去检索了。去哪里检索？书中、网上，不拘于形式。重要的是解决问题。这个过程中，我们带着问题读书、上网、提问，能够培养我们独立思考的能力。&lt;/p&gt;
+
+&lt;p&gt;互联网的发展，使得很多时候我们并不需要真正去创造什么，只要检索一下，总能找到好的代码，修改以下就能解决自己的问题。我觉得挺好。这符合我们学习语言的初衷。有个说法是十年学会编程，但是使用编程一个月就够了。&lt;/p&gt;
+
+&lt;p&gt;既然可以看书，有什么推荐的吗？我推荐Beginning Python这本书，虽然我是从A Byte of Python开始看的。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;A Byte of Python &lt;a href=&#34;http://book.douban.com/subject/5948760/&#34; target=&#34;_blank&#34;&gt;http://book.douban.com/subject/5948760/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Beginning Python （Python 基础教程） &lt;a href=&#34;http://book.douban.com/subject/3205338/&#34; target=&#34;_blank&#34;&gt;http://book.douban.com/subject/3205338/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Hello World！Computer Programming for Kids and Other Beginners 与孩子一起学编程 &lt;a href=&#34;http://book.douban.com/subject/5338024/&#34; target=&#34;_blank&#34;&gt;http://book.douban.com/subject/5338024/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;How to Think Like a Computer Scientist: Learning with Python &lt;a href=&#34;http://book.douban.com/subject/1481058/&#34; target=&#34;_blank&#34;&gt;http://book.douban.com/subject/1481058/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;21 Recipes for Mining Twitter &lt;a href=&#34;http://book.douban.com/subject/5988563/&#34; target=&#34;_blank&#34;&gt;http://book.douban.com/subject/5988563/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Mining the Social Web &lt;a href=&#34;http://book.douban.com/subject/5391582/&#34; target=&#34;_blank&#34;&gt;http://book.douban.com/subject/5391582/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Toby Segaran (2007) Programming Collective Intelligence Building Smart Web 2.0 Applications. O&amp;rsquo;Reilly Media&lt;/li&gt;
+&lt;li&gt;Python公开课 中文课程 &lt;a href=&#34;http://www.imooc.com/view/177&#34; target=&#34;_blank&#34;&gt;http://www.imooc.com/view/177&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;##练习
+有了问题和思路之后，重要的就是练习了。不要怕麻烦，经常动手写东西。这个是不二法门。&lt;/p&gt;
+
+&lt;p&gt;还有一些琐碎的东西，如下：&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;我觉得学python上手很重要，选一个好的IDE很重要，对于windows用户我推荐winpython，使用集成于其中的spyder编程很方便，不需要指定python的路径，安装第三方包也很方便。&lt;/li&gt;
+&lt;li&gt;每天都接触点Python,写写博客。&lt;/li&gt;
+&lt;li&gt;既然使用Python了，那么google就是你最好的朋友！用英文检索。&lt;/li&gt;
+&lt;li&gt;不要错过Github。上传你的代码。便于保存和分享。python的精神是开放，开源。&lt;/li&gt;
+&lt;li&gt;很多时候，最大的问题是你不知道自己面临的问题：我的经验是用英文一句话说出你的问题。然后借助搜索引擎。你一般都能找到答案。Python的email list和stackoverflow中有很多想要的答案。&lt;/li&gt;
+&lt;li&gt;实在找不到解决方案，不要过多寄希望于身边的朋友，stackoverflow上有更合适的回答你问题的人！去那里提问。&lt;/li&gt;
+&lt;li&gt;熟悉一个package。经常阅读package的文档。&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Parsing Githubarchive Data using Python</title>
+      <link>https://chengjun.github.io/zh/post/cn/2016-06-18-parsing-githubarchive-json/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://chengjun.github.io/zh/post/cn/2016-06-18-parsing-githubarchive-json/</guid>
+      <description>&lt;p&gt;Githubarchive整理了github的历史数据，每一个小时一个数据文件，我下载了2011-2014年四年的数据，结果发现2012年的多数数据存在错误换行的问题，需要清洗。一般而言，正确的情况是一个字典格式的数据占一行，错误的情况就会是所有的字典格式的数据合并为了一行。似乎是缺乏换行符造成的。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://stackoverflow.com/questions/10432432/yajl-parse-error-with-githubarchive-org-json-stream-in-python#&#34; target=&#34;_blank&#34;&gt;http://stackoverflow.com/questions/10432432/yajl-parse-error-with-githubarchive-org-json-stream-in-python#&lt;/a&gt; 这里详细记录了这个问题。&lt;/p&gt;
+
+&lt;p&gt;按照这个帖子，我尝试了很多方法，yajl和ijson，但是都不能很优雅的解决我的问题。不妨采用暴力的方法。&lt;/p&gt;
+
+&lt;p&gt;rirwin利用了{和}出现的偶数关系来分割字符串，但是这种方法容易遗漏数据且速度较慢。&lt;/p&gt;
+
+&lt;p&gt;仔细思考这个问题就是：Parse multiple json objects that are in one line。 搜索之，发现了&lt;a href=&#34;http://stackoverflow.com/questions/36967236/parse-multiple-json-objects-that-are-in-one-line&#34; target=&#34;_blank&#34;&gt;http://stackoverflow.com/questions/36967236/parse-multiple-json-objects-that-are-in-one-line&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;其中，Francesco的解决方法比较高效：&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;f = &#39;/Users/chengjun/百度云同步盘/githubarchive/2012-03-10-22.json.gz&#39;
+f = gzip.open(f, &#39;rb&#39;)
+f = f.readline()
+r = re.split(&#39;(\{.*?\})(?= *\{)&#39;, f)
+accumulator = &#39;&#39;
+res = []
+for subs in r:
+    accumulator += subs
+    try:
+        res.append(json.loads(accumulator))
+        accumulator = &#39;&#39;
+    except:
+        pass
+len(res)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Out [29]: 1270&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;基于这种方法，可以写一个函数来实现对于数据的正确读取。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;#f = &#39;/Users/chengjun/百度云同步盘/test.json&#39;
+#f = open(f)
+
+f = &#39;/Users/chengjun/百度云同步盘/githubarchive/2012-06-01-15.json.gz&#39;
+f = gzip.open(f, &#39;rb&#39;)
+files = f.readlines()
+length = len(files)
+if  length &amp;gt; 1:
+    print &#39;Correct: &#39; + str(length)
+else:
+    f2 = files[0]
+    r = re.split(&#39;(\{.*?\})(?= *\{)&#39;, f2)
+    r = [i for i in r if i] # delete the &#39;&#39;
+    accumulator = &#39;&#39;
+    acts = []
+    for subs in r:
+        accumulator += subs
+        try:
+            acts.append(json.loads(accumulator))
+            accumulator = &#39;&#39;
+        except Exception, e:
+            print e
+            pass
+    print &#39;Wrong: &#39; + str(len(acts))
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Out [30]: Wrong: 4491&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>使用Python快速分割数据的方法</title>
+      <link>https://chengjun.github.io/zh/post/cn/2014-08-31-fast-split-data-with-python/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://chengjun.github.io/zh/post/cn/2014-08-31-fast-split-data-with-python/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://chengjun.qiniudn.com/longcat.PNG&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;分割数据最慢的过程其实是打开和关闭一个文件，因此尽量减少这种操作可以飞速的提升分割数据的速度。之前在&lt;a href=&#34;http://stackoverflow.com/questions/519633/lazy-method-for-reading-big-file-in-python?lq=1&#34; target=&#34;_blank&#34;&gt;stackoverflow上看到一种方法&lt;/a&gt;非常高效，放在这里研究一下。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt; from collections import defaultdict
+
+ path = &#39;D:/chengjun/Sina Weibo/DepthOverTime/&#39;
+
+ #define a function 
+ def splitData(f):
+     #using dict to &#39;classify&#39; rows
+     E = defaultdict(lambda:[]) 
+     for line in f:
+         lists = line.strip().split(&#39;,&#39;)
+         rtmid = lists[0]
+         file_save = path + &#39;single_weibo/&#39;+rtmid
+         E[file_save].append(line)
+     for key in E.keys():
+         try:
+             with open(key,&#39;a&#39;) as p:
+                 for record in E[key]:
+                     p.write(record+&amp;quot;\n&amp;quot;)
+         except:
+             pass
+ # start to read in data by chunks
+ bigfile = open(path + &#39;diffusion_path_date2552.csv&#39;)
+ chunkSize = 100000000
+ chunk = bigfile.readlines(chunkSize)
+ while chunk:
+     splitData(chunk)
+     chunk = bigfile.readlines(chunkSize)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;上面这段代码有两个地方导致非常高效：&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;使用dict来将相同的key的行整理到一起， 以便一次将吞进来的某一个key下面的数据全部写入硬盘&lt;/li&gt;
+&lt;li&gt;每次使用readlines读入足够多的行，充分发挥内存的作用&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

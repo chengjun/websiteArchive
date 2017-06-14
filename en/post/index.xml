@@ -921,204 +921,469 @@ Here&#39;s some important information...
     </item>
     
     <item>
-      <title>手机用户在真实与虚拟空间中的移动</title>
-      <link>https://chengjun.github.io/en/post/cn/2015-12-02-renormalization/</link>
-      <pubDate>Wed, 02 Dec 2015 00:00:00 +0000</pubDate>
+      <title>Migrate from Jekyll to Hugo</title>
+      <link>https://chengjun.github.io/en/post/migrate-from-jekyll/</link>
+      <pubDate>Mon, 10 Mar 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://chengjun.github.io/en/post/cn/2015-12-02-renormalization/</guid>
+      <guid>https://chengjun.github.io/en/post/migrate-from-jekyll/</guid>
       <description>
 
-&lt;p&gt;思考手机用户在真实和虚拟世界的移动本身有什么价值:比较两种类型的网络结构，一个是分形的，一个是小世界的。二者之间不是完全对立的，而是可以平滑过渡的，因而可以计算从小世界到分形的连续变量的取值，即网络增长的过程中，新节点多大程度上按照小世界规则加入网络，多大程度上按照分形加入网络（Song, 2006）。&lt;/p&gt;
+&lt;p&gt;Here are a few tips for migrating an existing website from Jekyll to Hugo. These tips can be applied in conjunction with following Hugo Academic&amp;rsquo;s &lt;a href=&#34;https://chengjun.github.io/en/post/getting-started/&#34; target=&#34;_blank&#34;&gt;getting started guide&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;自相似或者说分形是本研究切入的重点，分形的特点是在不同尺度上具有相同的特征，这种自相似的特征往往表现为系统特征与观测尺度之间的对应关系。一般对于分形网络而言，重整化之后的盒子数量log(N)与盒子大小log(L)之间存在无标度关系。我们确实也发现人在移动互联网站构成的网络重整化过程中，盒子数量与盒子大小之间具有这种无标度关系，但是人在现实世界的物理移动构成的网络经过重整化，其盒子数量与盒子大小之间则是指数分布。由此可见二者网络结构是如何不同的，前者接近分形，后者接近小世界。&lt;/p&gt;
+&lt;h2 id=&#34;move-static-content-to-static&#34;&gt;Move static content to &lt;code&gt;static&lt;/code&gt;&lt;/h2&gt;
 
-&lt;p&gt;衡量小世界和分形的重要方法是度相关。分形意味着较强的异配性，而小世界则是同配性。正向的度相关意味着同配性和小世界，负向意味着分形。对于同配性的网络度相关通过重整化，一般会被抹平。有趣的是我们发现真实移动网络会由正变负。即当盒子比较大的时候，局部地区的同配性消失，表现出异配性。&lt;/p&gt;
+&lt;p&gt;Jekyll has a rule that any directory not starting with &lt;code&gt;_&lt;/code&gt; will be copied as-is to the &lt;code&gt;_site&lt;/code&gt; output. Hugo keeps all static content under &lt;code&gt;static&lt;/code&gt;. You should therefore move it all there.
+With Jekyll, something that looked like&lt;/p&gt;
 
-&lt;p&gt;Song（2006）将网络增长与重整化看成一个逆过程，网络增长的过程可以看成重整化的尺度由大变小的过程。小世界网络增长的过程中，网络的平均直径L与网络中的节点数量具有对数关系，L ~ Log(N)。重整化需要的步数约等于最终网络的平均直径，例如一个直径是14的网络，大约经过14步重整化会由一个完整的网络坍缩为一个节点。在重整化过程中，所选择的盒子的大小l的取值范围约等于最终网络的平均直径range(L)。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www-levich.engr.ccny.cuny.edu/webpage/hmakse/&#34; target=&#34;_blank&#34;&gt;Hernan Makse&lt;/a&gt;是City College of New York的物理学教授，主要从事复杂网络的研究，他和Song Chaoming就分形网络发表了两篇重要论文(Song 2005&amp;amp;2006)。他非常注重代码和数据的分享。我一直关注的是第一作者Song和鼎鼎大名的Havlin，并没有注意到Hernan， 后来搜索实现fractal_model的python代码的时候才找到他，恍然发现他是两篇论文的通讯作者。&lt;/p&gt;
-
-&lt;p&gt;在这个算法里面，主要有四个参数：世代（generation)、新增子代数量(m)、子代间新增链接的数量(x)、断开父代链接的比例(e)。每一代是一个操作过程：以这一代的每一条边为单位，该边上的两个节点a和b各自新增子代m个，其中m对子代间形成（x-1)个链接，若随机概率大于e，那么断开父代节点a和b之间的链接，同时增加一条m对子代间链接。&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;generation, m, x, e = 2, 1, 1, 0
-G=nx.Graph()
-G.add_edge(0,1) #Two seed nodes(generation 0), then add m offsprings to these seed nodes.
-node_index = 2
-for n in range(1,generation+1):
-    print &#39;STEP:&#39;, n, &#39;\n&#39;
-    all_links = G.edges()
-    while all_links:
-            link = all_links.pop() # [(0, 1)] ----&amp;gt; (0, 1)
-            print link
-            new_nodes_a = range(node_index,node_index + m)
-            print link[0], new_nodes_a
-            #random.shuffle(new_nodes_a)
-            node_index += m
-            new_nodes_b = range(node_index,node_index + m)
-            #random.shuffle(new_nodes_b)
-            print link[1], new_nodes_b
-            node_index += m
-            G.add_edges_from([(link[0],node) for node in new_nodes_a])
-            G.add_edges_from([(link[1],node) for node in new_nodes_b])
-            repulsive_links = zip(new_nodes_a,new_nodes_b) # 相斥的的链接
-            print repulsive_links
-            add_repulsive_links = [repulsive_links.pop() for i in range(x-1)]
-            G.add_edges_from(add_repulsive_links) # add edges between offsprings
-            print &#39;add repusive edges&#39;, add_repulsive_links
-            if random.random() &amp;gt; e: # 当概率大于e的时候，断开hub间的链接
-                print &#39;delete&#39;, link
-                G.remove_edge(*link) # 减少一对hub的链接
-                add_a_repulsive_link = repulsive_links.pop()
-                print &#39;add_a_repulsive_link&#39;, add_a_repulsive_link
-                G.add_edge(*add_a_repulsive_link) #相应得，增加一对其子代的链接
+&lt;pre&gt;&lt;code&gt;▾ &amp;lt;root&amp;gt;/
+    ▾ images/
+        logo.png
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;真实世界的移动网络是小世界的。例如Vito Latora 等（2002）分析了波斯顿地铁网络的结构（小世界）。随机网平均直径低，规则网聚类系数高。小世界网络在平均路径长度方面接近随机网，而在聚类系数方面接近规则网。Latora等认为我们对于小世界的两种衡量方式（平均直径L和聚类系数C）有缺陷（ill-defined），因为仅仅强调了链接是否存在，而忽略了链接的&lt;code&gt;权重&lt;/code&gt;，比如链接的实际长度（the physical length of the link）。他们试图提出一种考虑权重的衡量小世界特征的测量:邻接矩阵$$a&lt;em&gt;{ij}$$表示任意两个节点i、j之间是否有链接;$$l&lt;/em&gt;{ij}$$ 表示任意两个节点i、j之间的权重（比如地铁站之间的空间距离;使用邻接矩阵 $$a&lt;em&gt;{ij}$$ 可以得到节点间的最短路径矩阵 $$d&lt;/em&gt;{ij}$$。&lt;/p&gt;
+&lt;p&gt;should become&lt;/p&gt;
 
-&lt;p&gt;此时，无法算出聚类系数，因为很多地铁站只有两个邻居，算出的平均直径的信息也很少，$$\varepsilon&lt;em&gt;{ij} = \frac{1}{N(N-1)d&lt;/em&gt;{ij}} $$ 表示输运效率，可以在globa和local两个层面计算，分别对应平均路径长度L和聚类系数C。当两个节点无链接时，其$$d&lt;em&gt;{ij}$$无穷大，$$\varepsilon&lt;/em&gt;{ij} = 0$$。避免了计算平均路径长度无穷大的问题。同时可以定义输运成本$$cost = \frac{\sum&lt;em&gt;{i\neq j} a&lt;/em&gt;{ij}l&lt;em&gt;{ij}}{\sum&lt;/em&gt;{i\neq j}l_{ij} }$$。如此计算波斯顿地铁的MBTA全局输运效率为0.63，局部输运效率为0.03，成本为0.002。即网络整体输运效率可以达到理想情况的63%，但是局部输运效率很差，不过整个网络的成本很小。如果加上公交网络MBTA+bus，全局效率上升为 0.72，局部效率大幅度上升为0.46，花费的成本仅仅上升为0.004。&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;▾ &amp;lt;root&amp;gt;/
+    ▾ static/
+        ▾ images/
+            logo.png
+&lt;/code&gt;&lt;/pre&gt;
 
-&lt;h3 id=&#34;参考文献&#34;&gt;参考文献&lt;/h3&gt;
+&lt;p&gt;Additionally, you&amp;rsquo;ll want any files that should reside at the root (such as &lt;code&gt;CNAME&lt;/code&gt;) to be moved to &lt;code&gt;static&lt;/code&gt;.&lt;/p&gt;
 
-&lt;p&gt;Vito Latora（2002）Is the Boston subway a small-world network? Physica A&lt;/p&gt;
+&lt;h2 id=&#34;fix-content&#34;&gt;Fix content&lt;/h2&gt;
+
+&lt;p&gt;Depending on the amount of customization that was done for each post in Jekyll, this step will require more or less effort. There are no hard and fast rules here except that &lt;code&gt;hugo server --watch&lt;/code&gt; and the Hugo Academic example site are your friends. Test your changes and fix errors as needed.&lt;/p&gt;
+
+&lt;h2 id=&#34;publish&#34;&gt;Publish&lt;/h2&gt;
+
+&lt;p&gt;The default is for Jekyll to publish the website to a &lt;code&gt;_site&lt;/code&gt; directory, whereas Hugo publishes to a &lt;code&gt;public&lt;/code&gt; directory.&lt;/p&gt;
+
+&lt;h2 id=&#34;a-practical-example&#34;&gt;A practical example&lt;/h2&gt;
+
+&lt;p&gt;Alexandre Normand migrated his website from Jekyll to Hugo in less than a day. You can see all his changes by looking at this GitHub &lt;a href=&#34;https://github.com/alexandre-normand/alexandre-normand/compare/869d69435bd2665c3fbf5b5c78d4c22759d7613a...b7f6605b1265e83b4b81495423294208cc74d610&#34; target=&#34;_blank&#34;&gt;diff&lt;/a&gt;. However, bear in mind that this example is &lt;strong&gt;not specific to the Academic theme nor does it use the latest version of Hugo&lt;/strong&gt;.&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>iching：一个用来算卦的python包</title>
-      <link>https://chengjun.github.io/en/post/cn/2015-07-04-iching-python/</link>
-      <pubDate>Sat, 04 Jul 2015 00:00:00 +0000</pubDate>
+      <title>Blogging with markdown on Octopress</title>
+      <link>https://chengjun.github.io/en/post/en/2013-08-03-bloging-with-markdown-on-octopress/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://chengjun.github.io/en/post/cn/2015-07-04-iching-python/</guid>
-      <description>&lt;iframe src=&#34;http://nbviewer.ipython.org/github/chengjun/iching/blob/master/iching_intro.ipynb&#34; scrolling=&#34;no&#34; width=&#34;700&#34; height=&#34;6500&#34;&gt;&lt;/iframe&gt;
+      <guid>https://chengjun.github.io/en/post/en/2013-08-03-bloging-with-markdown-on-octopress/</guid>
+      <description>
+
+&lt;h3 id=&#34;set-up-octopress&#34;&gt;Set up Octopress&lt;/h3&gt;
+
+&lt;p&gt;I refer to this &lt;a href=&#34;http://www.yanjiuyanjiu.com/blog/20130401/&#34; target=&#34;_blank&#34;&gt;blog&lt;/a&gt; and this &lt;a href=&#34;http://zerodie.github.io/blog/2012/01/19/octopress-github-pages/&#34; target=&#34;_blank&#34;&gt;blog&lt;/a&gt; to setup octopress. It&amp;rsquo;s very helpful for windows users.&lt;/p&gt;
+
+&lt;h3 id=&#34;for-encoding-errors&#34;&gt;For encoding errors&lt;/h3&gt;
+
+&lt;p&gt;Most chinese windows users encounter the problem of encoding error, such as &lt;a href=&#34;http://www.v2ex.com/t/26027&#34; target=&#34;_blank&#34;&gt;this one&lt;/a&gt;: invalid byte sequence in GBK. I handle it following three suggestions:&lt;/p&gt;
+
+&lt;p&gt;1.Modify the file located at C:\Ruby193\lib\ruby\gems\1.9.1\gems\jekyll-0.11.2\lib\jekyll\convertible.rb, to change:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;self.content = File.read(File.join(base, name))
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;into:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;self.content = File.read(File.join(base, name), :encoding =&amp;gt; &amp;quot;utf-8&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;2.Make sure the markdown file is encoded with utf-8 without BOM&lt;/p&gt;
+
+&lt;p&gt;3.Set the language in the git bash:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;set LANG=zh_CN.UTF-8
+
+set LC_ALL=zh_CN.UTF-8
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;writing-markdown-post-with-markdownpad&#34;&gt;Writing markdown post with MarkdownPad&lt;/h3&gt;
+
+&lt;p&gt;Using MarkdownPad, you can instantly see what your Markdown documents look like in HTML. While you type, LivePreview will automatically scroll to the current location you’re editing.&lt;/p&gt;
+
+&lt;h3 id=&#34;understanding-the-git-flow-of-octopress-blogs&#34;&gt;Understanding the git flow of Octopress blogs&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://systeminterrupt.me/images/2013-06-16/Octopress_Deployment_Chain.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;First, we operate at the local, and then we push the changes to the server of github.&lt;/p&gt;
+
+&lt;p&gt;For the local files, there are two parts: sources &amp;amp; public. We first write post to the directory of &amp;ldquo;_posts&amp;rdquo;; Second, we copy the file to the public file (rake generate), and at the moment, you can preview the local files (rake preview); Third, you can publish/push the local files to the server (rake deploy).&lt;/p&gt;
+
+&lt;p&gt;On the server, there are two parts: master &amp;amp; source. In the source part of the server, we can archive the local files.&lt;/p&gt;
+
+&lt;p&gt;If you undertand the logic above well, you know clearly how to modify one post.&lt;/p&gt;
+
+&lt;h3 id=&#34;modifying-a-post&#34;&gt;Modifying a post&lt;/h3&gt;
+
+&lt;p&gt;After you have publish a post, you may need to modify the content: First, to find the post in the directory of &amp;ldquo;octopress/source/_posts&amp;rdquo;; Second, to modify it with MarkdownPad; Third, to publish the modified post:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;rake generate
+rake preview
+rake deploy
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Click here to preview &lt;a href=&#34;http://localhost:4000]&#34; target=&#34;_blank&#34;&gt;http://localhost:4000&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Copy the changes to the source for memory.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;git add .
+git commit -m &#39;your message&#39;
+git push origin source
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;clone-your-octopress-to-blog-from-two-places&#34;&gt;Clone Your Octopress to Blog From Two Places&lt;/h3&gt;
+
+&lt;p&gt;Refer to this post: &lt;a href=&#34;http://blog.zerosharp.com/clone-your-octopress-to-blog-from-two-places/&#34; target=&#34;_blank&#34;&gt;http://blog.zerosharp.com/clone-your-octopress-to-blog-from-two-places/&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;add-mathjax-to-write-eqations&#34;&gt;Add mathjax to write eqations&lt;/h3&gt;
+
+&lt;p&gt;Refer to this post: &lt;a href=&#34;http://www.yanjiuyanjiu.com/blog/20130402/&#34; target=&#34;_blank&#34;&gt;http://www.yanjiuyanjiu.com/blog/20130402/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;$$
+logit(Y&lt;em&gt;{ij} = 1) = ln(\frac{p&lt;/em&gt;{ij}}{1-p&lt;em&gt;{ij}}) = {\theta }^{T} \mathbf{\delta} [g(\mathbf{y}, \mathbf{X})]&lt;/em&gt;{ij}
+$$&lt;/p&gt;
+
+&lt;p&gt;以上公式当中，定义$$Y&lt;em&gt;{ij}$$为节点i和j之间形成链接的一个随机变量。当$$y&lt;/em&gt;{ij}$$取值由0变为1的时候，所带来的$$g(\mathbf{y},\mathbf{X})$$的变化表示为$$\mathbf{\delta} [g(\mathbf{y}, \mathbf{X})]_{ij}$$。&lt;/p&gt;
+
+&lt;p&gt;Using kramdown, you can also present the tables on octopress.[^1]. Other text.[^footnote]. One example:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;|-----------------+------------+-----------------+----------------|
+| Default aligned |Left aligned| Center aligned  | Right aligned  |
+|-----------------|:-----------|:---------------:|---------------:|
+| First body part |Second cell | Third cell      | fourth cell    |
+| Second line     |foo         | **strong**      | baz            |
+| Third line      |quux        | baz             | bar            |
+|-----------------+------------+-----------------+----------------|
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Check the result here:&lt;/p&gt;
+
+&lt;p&gt;|&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;ndash;+&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;+&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;ndash;+&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;-|
+| Default aligned |Left aligned| Center aligned  | Right aligned  |
+|&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;ndash;|:&amp;mdash;&amp;mdash;&amp;mdash;&amp;ndash;|:&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;:|&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;:|
+| First body part |Second cell | Third cell      | fourth cell    |
+| Second line     |foo         | &lt;strong&gt;strong&lt;/strong&gt;      | baz            |
+| Third line      |quux        | baz             | bar            |
+|&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;ndash;+&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;+&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;ndash;+&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;-|&lt;/p&gt;
+
+&lt;h3 id=&#34;gist-embedding&#34;&gt;Gist Embedding&lt;/h3&gt;
+
+&lt;p&gt;Refer to this post: &lt;a href=&#34;http://octopress.org/docs/blogging/code/&#34; target=&#34;_blank&#34;&gt;http://octopress.org/docs/blogging/code/&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;insert-photos-and-modify-the-size&#34;&gt;Insert photos and modify the size&lt;/h3&gt;
+
+&lt;p&gt;Refer to this link: &lt;a href=&#34;http://octopress.org/docs/plugins/image-tag/&#34; target=&#34;_blank&#34;&gt;http://octopress.org/docs/plugins/image-tag/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://lh4.googleusercontent.com/-Hipwe3gjPn8/UUZW6a_Y1_I/AAAAAAAAAys/9QbECNQCUAA/s1267-fcrop64=1,015a0000fb7bd34c/optimus%2Bprime.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;I am Optimus Prime, and I send this message to any surviving Autobots taking refuge among the stars: we are here, we are waiting.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&#34;use-the-twilight-color-scheme&#34;&gt;Use the Twilight Color Scheme&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;def hello
+  puts &amp;quot;Hello!&amp;quot;
+end
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;{:lang=&amp;ldquo;ruby&amp;rdquo;}&lt;/p&gt;
+
+&lt;p&gt;Just add {:lang =&amp;ldquo;ruby&amp;rdquo;} below your code block, and bear in mind that there is no indent for this line:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;    def hello
+      puts &amp;quot;Hello!&amp;quot;
+    end
+{:lang=&amp;quot;ruby&amp;quot;}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;{:lang=&amp;ldquo;ruby&amp;rdquo;}&lt;/p&gt;
+
+&lt;p&gt;for thie inline script &lt;code&gt;def hello&lt;/code&gt;{:lang=&amp;ldquo;ruby&amp;rdquo;}, you can write in this way:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;for the inline script &#39;def hello&#39;{:lang=&amp;quot;ruby&amp;quot;}, you can write in this way:
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;{:lang=&amp;ldquo;ruby&amp;rdquo;}&lt;/p&gt;
+
+&lt;p&gt;Refer to this link to use the twilight color scheme:&lt;a href=&#34;http://blog.alestanis.com/2013/02/04/octopress-and-the-twilight-color-scheme/&#34; target=&#34;_blank&#34;&gt;http://blog.alestanis.com/2013/02/04/octopress-and-the-twilight-color-scheme/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;However, this link is simpler: &lt;a href=&#34;http://cabeca.github.io/blog/2013/06/09/putting-some-twilight-on-octopress/&#34; target=&#34;_blank&#34;&gt;http://cabeca.github.io/blog/2013/06/09/putting-some-twilight-on-octopress/&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>打包发布python软件包</title>
-      <link>https://chengjun.github.io/en/post/cn/2015-02-22-distribute-python-package/</link>
-      <pubDate>Sun, 22 Feb 2015 00:00:00 +0000</pubDate>
+      <title>Fitting rank order distribution with R</title>
+      <link>https://chengjun.github.io/en/post/en/2014-03-17-fit-power-law/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://chengjun.github.io/en/post/cn/2015-02-22-distribute-python-package/</guid>
-      <description>&lt;p&gt;我们经常写一些程序碎片，却很少有动力把它们整合起来。前段时间写了一个爬取并可视化谷歌学术网的python程序。今天想不如把它整合一下，虽然非常简单（只有一个函数）。主要参考python官网的&lt;a href=&#34;https://packaging.python.org/en/latest/distributing.html#uploading-your-project-to-pypi&#34; target=&#34;_blank&#34;&gt;发布指南&lt;/a&gt;。&lt;/p&gt;
+      <guid>https://chengjun.github.io/en/post/en/2014-03-17-fit-power-law/</guid>
+      <description>
 
-&lt;p&gt;##注册
-于是首先来到pypi网站注册。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://pypi.python.org/pypi?%3Aaction=submit_form&#34; target=&#34;_blank&#34;&gt;https://pypi.python.org/pypi?%3Aaction=submit_form&lt;/a&gt;
-记下用户名chengjun和密码W4&lt;/p&gt;
-
-&lt;p&gt;##填写软件包信息
-《指南》推荐直接在线填写 &lt;a href=&#34;https://pypi.python.org/pypi?%3Aaction=submit_form&#34; target=&#34;_blank&#34;&gt;https://pypi.python.org/pypi?%3Aaction=submit_form&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;##打包和发布工具
-先要安装两个包：twine和wheel。&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;pip install wheel
-pip install twine
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;##整理项目文件夹
-找项目实例（&lt;a href=&#34;https://github.com/pypa/sampleproject）下载下来，修改其中的部分内容即可。详见指南，或者自己摸索即可。&#34; target=&#34;_blank&#34;&gt;https://github.com/pypa/sampleproject）下载下来，修改其中的部分内容即可。详见指南，或者自己摸索即可。&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;##打包发布
-1.在window环境下，使用cmd，转换工作路径到项目文件夹。
-2. 主要参考 &lt;a href=&#34;https://github.com/pypa/twine打包发布：&#34; target=&#34;_blank&#34;&gt;https://github.com/pypa/twine打包发布：&lt;/a&gt;&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;#Create some distributions in the normal way:
-$ python setup.py sdist bdist_wheel
-
-#Upload with twine:
-$ twine upload dist/*
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;我使用上传的时候出错（typeError），于是直接使用打包好的zip文件（在dist子文件夹当中）手工上传到pypi。注意，每次上传到pypi需要修改一次setup.py中的版本号，并重新打包才可上传。如此而已，比我想象当中要速度快得多、简单的多。&lt;/p&gt;
-
-&lt;p&gt;这里是我刚刚打包发布的一个可视化谷歌学术网络的python软件包：&lt;a href=&#34;https://pypi.python.org/pypi/scholarNetwork/&#34; target=&#34;_blank&#34;&gt;https://pypi.python.org/pypi/scholarNetwork/&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>表达、检索、练习——写给Python的初学者</title>
-      <link>https://chengjun.github.io/en/post/cn/2015-02-22-fresh-python/</link>
-      <pubDate>Sun, 22 Feb 2015 00:00:00 +0000</pubDate>
-      
-      <guid>https://chengjun.github.io/en/post/cn/2015-02-22-fresh-python/</guid>
-      <description>&lt;p&gt;三年前，我写过一篇小日志，介绍如何从零开始学习R语言。后来我的工作越来越多的使用python，于是摸爬滚打自己探索了挺久的。身边也越来越多的人问起新手如何从零学习python的问题。我想练习、检索、表达这三点依旧是关键，只不过顺序稍有不同。很多人说，学习python，你来推荐一些资料吧。我想了想，资料还不是关键，关键是自身。&lt;/p&gt;
-
-&lt;p&gt;##看书还是上手？
-以前我们学语言，比如C语言或者Basic语言，首先讲的都是字符、数字、列表、逻辑符等。几乎所有的编程书都会这么讲，所以很多人会觉得看书没有什么新意。不过我觉得看书还是必须的，重点就是要去掌握这些基本的东西。&lt;/p&gt;
-
-&lt;p&gt;当然了，掌握这些并不能帮助我们完成手上的工作。是的，并不能！总有一些细节的地方你必须去hack现有的代码。于是乎就有了另外一种学习语言的哲学：干中学（learn by doing）。基本的逻辑就是不断摸索，硬着头皮上。这种风格非常强悍，虽然刚开始的时候容易犯非常浅显的毛病，但是却是真正学语言的不二法门。&lt;/p&gt;
-
-&lt;p&gt;##表达
-到底看书还是上手呢？我主张先明确自己的问题是什么。做研究的人都知道，我们往往对于自己所面临的问题并不明确。写程序、学语言也是这个样子。首先要明确地表达出来。这是表达的第一重意思。&lt;/p&gt;
-
-&lt;p&gt;##检索
-当你问题明确之后，就可以去检索了。去哪里检索？书中、网上，不拘于形式。重要的是解决问题。这个过程中，我们带着问题读书、上网、提问，能够培养我们独立思考的能力。&lt;/p&gt;
-
-&lt;p&gt;互联网的发展，使得很多时候我们并不需要真正去创造什么，只要检索一下，总能找到好的代码，修改以下就能解决自己的问题。我觉得挺好。这符合我们学习语言的初衷。有个说法是十年学会编程，但是使用编程一个月就够了。&lt;/p&gt;
-
-&lt;p&gt;既然可以看书，有什么推荐的吗？我推荐Beginning Python这本书，虽然我是从A Byte of Python开始看的。&lt;/p&gt;
+&lt;p&gt;The long-tail distribution can be quantified in primarily &lt;a href=&#34;http://arxiv.org/pdf/cond-mat/0412004.pdf?origin=publication_detail&#34; target=&#34;_blank&#34;&gt;three ways, see Newman &amp;rsquo;s paper here&lt;/a&gt;:&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;A Byte of Python &lt;a href=&#34;http://book.douban.com/subject/5948760/&#34; target=&#34;_blank&#34;&gt;http://book.douban.com/subject/5948760/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Beginning Python （Python 基础教程） &lt;a href=&#34;http://book.douban.com/subject/3205338/&#34; target=&#34;_blank&#34;&gt;http://book.douban.com/subject/3205338/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Hello World！Computer Programming for Kids and Other Beginners 与孩子一起学编程 &lt;a href=&#34;http://book.douban.com/subject/5338024/&#34; target=&#34;_blank&#34;&gt;http://book.douban.com/subject/5338024/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;How to Think Like a Computer Scientist: Learning with Python &lt;a href=&#34;http://book.douban.com/subject/1481058/&#34; target=&#34;_blank&#34;&gt;http://book.douban.com/subject/1481058/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;21 Recipes for Mining Twitter &lt;a href=&#34;http://book.douban.com/subject/5988563/&#34; target=&#34;_blank&#34;&gt;http://book.douban.com/subject/5988563/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Mining the Social Web &lt;a href=&#34;http://book.douban.com/subject/5391582/&#34; target=&#34;_blank&#34;&gt;http://book.douban.com/subject/5391582/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Toby Segaran (2007) Programming Collective Intelligence Building Smart Web 2.0 Applications. O&amp;rsquo;Reilly Media&lt;/li&gt;
-&lt;li&gt;Python公开课 中文课程 &lt;a href=&#34;http://www.imooc.com/view/177&#34; target=&#34;_blank&#34;&gt;http://www.imooc.com/view/177&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Power law distribution&lt;/li&gt;
+&lt;li&gt;Zipf distribution&lt;/li&gt;
+&lt;li&gt;Pareto distribution&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;##练习
-有了问题和思路之后，重要的就是练习了。不要怕麻烦，经常动手写东西。这个是不二法门。&lt;/p&gt;
+&lt;p&gt;Here, I talk about the Zipf distribution which assesses the relationship between rank order and Frequency (probability).&lt;/p&gt;
 
-&lt;p&gt;还有一些琐碎的东西，如下：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Zipf&amp;rsquo;s law now refers more generally to frequency distributions of &amp;ldquo;rank data,&amp;rdquo; in which the relative frequency of the nth-ranked item is given by the Zeta distribution. from &lt;a href=&#34;http://en.wikipedia.org/wiki/Zipf&#39;s_law&#34; target=&#34;_blank&#34;&gt;Wikipedia&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 
-&lt;ol&gt;
-&lt;li&gt;我觉得学python上手很重要，选一个好的IDE很重要，对于windows用户我推荐winpython，使用集成于其中的spyder编程很方便，不需要指定python的路径，安装第三方包也很方便。&lt;/li&gt;
-&lt;li&gt;每天都接触点Python,写写博客。&lt;/li&gt;
-&lt;li&gt;既然使用Python了，那么google就是你最好的朋友！用英文检索。&lt;/li&gt;
-&lt;li&gt;不要错过Github。上传你的代码。便于保存和分享。python的精神是开放，开源。&lt;/li&gt;
-&lt;li&gt;很多时候，最大的问题是你不知道自己面临的问题：我的经验是用英文一句话说出你的问题。然后借助搜索引擎。你一般都能找到答案。Python的email list和stackoverflow中有很多想要的答案。&lt;/li&gt;
-&lt;li&gt;实在找不到解决方案，不要过多寄希望于身边的朋友，stackoverflow上有更合适的回答你问题的人！去那里提问。&lt;/li&gt;
-&lt;li&gt;熟悉一个package。经常阅读package的文档。&lt;/li&gt;
-&lt;/ol&gt;
+&lt;h2 id=&#34;dgbd&#34;&gt;DGBD&lt;/h2&gt;
+
+&lt;p&gt;In Gustavo Martínez-Mekler et al&amp;rsquo;s &lt;a href=&#34;http://www.plosone.org/article/info%3adoi/10.1371/journal.pone.0004791&#34; target=&#34;_blank&#34;&gt;article&lt;/a&gt;, they proposed a discrete generalized beta distribution: $$f&amp;reg; = A(N+1-r)^b/r^a$$, where r is the rank, &lt;strong&gt;N&lt;/strong&gt; is maximum value, A the normalization constant and (a, b) two fitting exponents.&lt;/p&gt;
+
+&lt;p&gt;It&amp;rsquo;s interesting to find that &lt;a href=&#34;http://journals.aps.org/pre/pdf/10.1103/PhysRevE.84.026113&#34; target=&#34;_blank&#34;&gt;Wu and Zhang (2011)&lt;/a&gt; adopt the DGBD distribution to quantify the online social systems. Basically, they are interested in accelerating growth in human online behaviors.&lt;/p&gt;
+
+&lt;p&gt;Deﬁning P as the number of active users in a day and T as the total activity generated by these users, they find a power law relationship between them $$T = P^\gamma$$. Given $$\gamma$$ larger than 1, there exists an accelerating growth phenomena in online systems (e.g., tagging, microblogging)&lt;/p&gt;
+
+&lt;p&gt;They denote the activity of a user in one day with t&amp;reg;, in which r is the decreasing rank of the activity among all individual activities in the day. Thus the maximum value of r, $$r_{max}$$, equals population P. The DGBD model of individual activities is then&lt;/p&gt;
+
+&lt;p&gt;$$t&amp;reg; = A(P+1−r)^b r^a (a &amp;gt; 0,b &amp;gt; 0)$$&lt;/p&gt;
+
+&lt;p&gt;They introduced that a determines the activities of highly active users(corresponds to the exponent $$\alpha$$ in Zipf’s law), b determines the activities of the less active users. Using the DGBD, They can ﬁt the empirical curves with $$R^2$$ &amp;gt; 0.9.&lt;/p&gt;
+
+&lt;p&gt;Here I start with an empirical dataset. The Tweet of Milan city in December 2013. Basically, we know the language of each tweet. Thus we have the frequency of each language.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;freq = c(1116, 2067, 137 ,  124, 643,  2042, 55  ,47186,  7504, 1488, 211,   1608,  3517 , 7  , 896  ,  378, 17 ,3098, 164977  ,  601 ,  196, 637, 149 , 44,2 ,  1801, 882   , 636,5184,  1851,  776 ,   343   , 851, 33  ,4011,   209,  715 ,  937 , 20,   6922, 2028 , 23,  3045 , 16 , 334,  31 ,  2)
+
+lan = c(&amp;quot;af&amp;quot;,&amp;quot;ar&amp;quot;,&amp;quot;bg&amp;quot;,&amp;quot;cs&amp;quot;,&amp;quot;da&amp;quot;,&amp;quot;de&amp;quot;,&amp;quot;el&amp;quot;,&amp;quot;en&amp;quot;,&amp;quot;es&amp;quot;,&amp;quot;et&amp;quot;,&amp;quot;fa&amp;quot;,&amp;quot;fi&amp;quot;,&amp;quot;fr&amp;quot;,&amp;quot;he&amp;quot;,&amp;quot;hr&amp;quot;,&amp;quot;hu&amp;quot;,&amp;quot;id&amp;quot;,&amp;quot;it&amp;quot;,&amp;quot;ja&amp;quot;,&amp;quot;ko&amp;quot;,&amp;quot;lt&amp;quot;,&amp;quot;lv&amp;quot;,&amp;quot;mk&amp;quot;,&amp;quot;ne&amp;quot;,&amp;quot;nl&amp;quot;,&amp;quot;no&amp;quot;,&amp;quot;pl&amp;quot;,&amp;quot;pt&amp;quot;,&amp;quot;ro&amp;quot;,&amp;quot;ru&amp;quot;,&amp;quot;sk&amp;quot;,&amp;quot;sl&amp;quot;,&amp;quot;so&amp;quot;,&amp;quot;sq&amp;quot;,&amp;quot;sv&amp;quot;,&amp;quot;sw&amp;quot;,&amp;quot;th&amp;quot;,&amp;quot;tl&amp;quot;,&amp;quot;tr&amp;quot;,&amp;quot;uk&amp;quot;,&amp;quot;und&amp;quot;,&amp;quot;ur&amp;quot;,&amp;quot;vi&amp;quot;,&amp;quot;zh-cn&amp;quot;,&amp;quot;zh-tw&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Thus, we can calculate the decreasing rank for each language.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Rank = rank(-freq, ties.method = c(&amp;quot;first&amp;quot;) )
+data = data.frame(lan, freq, Rank)
+data$Probability = data$Freq/sum(data$Freq)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;We can write a simple function to fit the rank ordered data and capture the distribution.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;get_dgbd = function(freq){
+  Rank = rank(-freq, ties.method = c(&amp;quot;first&amp;quot;) )
+  p = freq/sum(as.numeric(freq))
+  # get the log form
+  log.f = log(freq)
+  log.p = log(p)
+  log.rank = log(Rank)
+  log.inverse.rank = log(length(Rank)+1-Rank)
+
+  # linear regression of zifp: for probability
+  cozp=coef(lm(log.p~log.rank))
+  zipf.p = function(x) exp(cozp[[1]] + cozp[2]*log(x))
+
+  # linear regression of zifp: for frequency
+  cozf=coef(lm(log.f~log.rank))
+  zipf.f = function(x) exp(cozf[[1]] + cozf[2]*log(x))
+
+  # linear regression of dgbd: for probability
+  codp=coef(lm(log.p~log.inverse.rank + log.rank))
+  dgbd.p = function(x) exp(codp[[1]]+ codp[[2]]*log(length(x)+1-x) + codp[[3]]*log(x))
+
+  # linear regression of dgbd: for frequency
+  codf=coef(lm(log.f~log.inverse.rank + log.rank))
+  dgbd.f = function(x) exp(codf[[1]]+ codf[[2]]*log(length(x)+1-x) + codf[[3]]*log(x))
+  return(c(zipf.p, zipf.f, dgbd.p, dgbd.f))
+}
+
+zipf.p = get_dgbd(data$Freq)[[1]]
+zipf.f = get_dgbd(data$Freq)[[2]]
+dgbd.p = get_dgbd(data$Freq)[[3]]
+dgbd.f = get_dgbd(data$Freq)[[4]]
+
+
+plot(freq~Rank,log=&amp;quot;xy&amp;quot;, xlab = &amp;quot;Rank (log)&amp;quot;, ylab = &amp;quot;Frequency (log)&amp;quot;, data = data)
+curve(zipf.f, col=&amp;quot;red&amp;quot;, add = T, n = length(data$Rank))
+curve(dgbd.f, col=&amp;quot;blue&amp;quot;, add = T, n = length(data$Rank))
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Remember to specify the length of values in &amp;lsquo;curve&amp;rsquo;. About its importance, check &lt;a href=&#34;http://stackoverflow.com/questions/22446006/why-is-curve-so-different-from-lines-and-points-in-r&#34; target=&#34;_blank&#34;&gt;this post&lt;/a&gt; on stackoverflow.&lt;/p&gt;
+
+&lt;p&gt;Finally, we can plot it with ggplot2.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;require(ggplot2)
+P = ggplot(data=data, aes(x=Rank, y=Freq, label = Var1)) + geom_point() +
+  coord_trans(xtrans = &amp;quot;log10&amp;quot;, ytrans = &amp;quot;log10&amp;quot;)+
+  stat_function(fun = dgbd.f, n = length(Rank), colour = &#39;red&#39;, size = 1)+
+  geom_text(aes(label=Var1),hjust=1.5, vjust=0, angle = 45, size = 3)
+
+png(file = &amp;quot;./language_rank_order_distribution2.png&amp;quot;,
+    width=8, height=5,
+    units=&amp;quot;in&amp;quot;, res=700)
+P
+dev.off()
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://farm3.staticflickr.com/2725/13212714535_820edf5a12_z.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://farm3.staticflickr.com/2767/13213038184_4d8fb106d2_z.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;how-to-construct-your-model&#34;&gt;How to construct your model?&lt;/h2&gt;
+
+&lt;p&gt;Using the DGBD model, we can fit the frequency-rank data almost perfectly. However, there are many other other forms of alternative equations. For example, there are Zipf-Manderbrot Model and &lt;a href=&#34;http://statweb.stanford.edu/~owen/courses/306a/ZipfAndGutenberg.pdf&#34; target=&#34;_blank&#34;&gt;its modifications&lt;/a&gt;, How to guarantee that which specific model is the right one? We need to:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;learn more about the underlying mechanisms.&lt;/li&gt;
+&lt;li&gt;observe the patterns of the data&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;In the paper titled &lt;a href=&#34;http://www3.nd.edu/~networks/Publication%20Categories/03%20Journal%20Articles/Social%20Science/Modeling%20bursts_Phys.%20Rev.%20E%2073,%20036127%20(2006).pdf&#34; target=&#34;_blank&#34;&gt;Modeling bursts and heavy tails in human dynamics&lt;/a&gt;, Alexei Vázquez et al tried to propose two queuing models to explain the &lt;strong&gt;value&lt;/strong&gt; of scaling parameter in the temporal patterns of human behaviors. They capture the temporal patterns with two measurements: interevent time $$\tau$$ and waiting times $$\tau_{w}$$.&lt;/p&gt;
+
+&lt;p&gt;The time between two consecutive events is called the interevent time, $$\tau$$; the waiting (or response) time, $$\tau_w$$, representing the amount of time a task waits on an individual’s priority list before being executed.&lt;/p&gt;
+
+&lt;p&gt;Assuming that &lt;strong&gt;the tasks are executed independently from each other at a constant rate $$\lambda$$&lt;/strong&gt;, the time can be approximated by a Poisson process:&lt;/p&gt;
+
+&lt;p&gt;$$p(\tau) = \lambda e^{-\lambda \tau}$$ .&lt;/p&gt;
+
+&lt;p&gt;However, we know that in many human behaviors, the Poisson process fails to capture the burst phenomenon. The temporal patterns can be generally categorized into two classes:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;A. The $$\alpha$$= 1 universality class: Web browsing, email, and library datasets&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;B. The $$\alpha$$=&lt;sup&gt;3&lt;/sup&gt;&amp;frasl;&lt;sub&gt;2&lt;/sub&gt; universality class: The correspondence of Einstein, Darwin, and Freud, which is characterized by &lt;strong&gt;a power law decay&lt;/strong&gt; combined with &lt;strong&gt;an exponential cutoff&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;$$p(\tau)\simeq \tau^{-&lt;sup&gt;3&lt;/sup&gt;&amp;frasl;&lt;sub&gt;2&lt;/sub&gt;} e^{-\tau / \tau_{0}}$$.&lt;/p&gt;
+
+&lt;p&gt;in which $$\tau_0 = \frac{1}{\mu (1-\sqrt{\rho})}$$, and $$\rho = \lambda / \mu$$. Recall that $$\lambda$$ is the arrival rate of new task, and $$\mu$$ is the response rate , thus $$\rho$$ is the task/job/traffic intensity.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Subcritical regime: When $$\rho$$ &amp;lt; 1, there are fewer job, and more queuing space.&lt;/li&gt;
+&lt;li&gt;Critical regime: When $$\rho$$ = 1, arrival rate equals response rate&lt;/li&gt;
+&lt;li&gt;Supercritical regime: When $$\rho$$ &amp;gt; 1, there are more job, and less queuing space.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;However, they also find that the interevent time distribution between two consecutive transactions made by a stock broker. The distribution follows a power law with the exponential cutoff $$p(\tau)\simeq \tau^{-1.3} e^{-\tau / \tau_{0}}$$.&lt;/p&gt;
+
+&lt;p&gt;####References&lt;/p&gt;
+
+&lt;p&gt;Martínez-Mekler G, Martínez RA, del Río MB, Mansilla R, Miramontes P, et al. (2009) Universality of Rank-Ordering Distributions in the Arts and Sciences. PLoS ONE 4(3): e4791. doi:10.1371/journal.pone.0004791&lt;/p&gt;
+
+&lt;p&gt;Wu L, Zhang J. (2011) Accelerating growth and size-dependent distribution of human online activities. PHYSICAL REVIEW E 84, 026113 (2011)&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>再次尝试shinyApp</title>
-      <link>https://chengjun.github.io/en/post/cn/2015-01-11-shinyapp/</link>
-      <pubDate>Sun, 11 Jan 2015 00:00:00 +0000</pubDate>
+      <title>Generating networks with igraph</title>
+      <link>https://chengjun.github.io/en/post/en/2013-08-12-generating-networks-with-igraph/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://chengjun.github.io/en/post/cn/2015-01-11-shinyapp/</guid>
-      <description>&lt;p&gt;昨天收到了shinyapp的一封邮件，想起之前自己做的关于网络扩散的东西，就想把它转化为app的形式。最直接的办法还是看tutorial，比如（&lt;a href=&#34;http://shiny.rstudio.com/tutorial）。&#34; target=&#34;_blank&#34;&gt;http://shiny.rstudio.com/tutorial）。&lt;/a&gt;&lt;/p&gt;
+      <guid>https://chengjun.github.io/en/post/en/2013-08-12-generating-networks-with-igraph/</guid>
+      <description>
 
-&lt;p&gt;现学现卖，于是我马上做了一个使用igraph绘制BA网络的小应用：&lt;/p&gt;
+&lt;p&gt;We know that the most simple network is the regular network, such as the ring network. If all the edges in a network are generated randomly, we can get a random graph or Erdos-Renyi network (ER network).&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;https://chengjun.shinyapps.io/testApp/&#34; target=&#34;_blank&#34;&gt;https://chengjun.shinyapps.io/testApp/&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;erdős-rényi-random-graph-model&#34;&gt;Erdős–Rényi Random Graph model&lt;/h2&gt;
 
-&lt;iframe src=&#39;https://chengjun.shinyapps.io/testApp/&#39; scrolling=&#34;no&#34; width=&#34;600&#34; height = &#34;800&#34;&gt;&lt;/iframe&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The Erdős–Rényi model, named for Paul Erdős and Alfréd Rényi, is used for generating random graphs in which edges are set between nodes with equal probabilities.&lt;/p&gt;
+&lt;/blockquote&gt;
 
-&lt;p&gt;##通过rstudio学习shinyApp制作
-其实R的王牌编辑器Rstudio已经和shiny完美的结合，完全可以通过rstudio学习shinyApp制作。&lt;/p&gt;
+&lt;p&gt;There is a continuous shift between randomness and regularity. What are the networks between random network and regular networks?&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;  system.file(&amp;quot;examples&amp;quot;, package=&amp;quot;shiny&amp;quot;)
+&lt;h2 id=&#34;watts-strogatz-small-world-model&#34;&gt;Watts-Strogatz Small World model&lt;/h2&gt;
 
-  runExample(&amp;quot;01_hello&amp;quot;) # a histogram
-  runExample(&amp;quot;02_text&amp;quot;) # tables and data frames
-  runExample(&amp;quot;03_reactivity&amp;quot;) # a reactive expression
-  runExample(&amp;quot;04_mpg&amp;quot;) # global variables
-  runExample(&amp;quot;05_sliders&amp;quot;) # slider bars
-  runExample(&amp;quot;06_tabsets&amp;quot;) # tabbed panels
-  runExample(&amp;quot;07_widgets&amp;quot;) # help text and submit buttons
-  runExample(&amp;quot;08_html&amp;quot;) # shiny app built from HTML
-  runExample(&amp;quot;09_upload&amp;quot;) # file upload wizard
-  runExample(&amp;quot;10_download&amp;quot;) # file download wizard
-  runExample(&amp;quot;11_timer&amp;quot;) # an automated timer
+&lt;blockquote&gt;
+&lt;p&gt;The Watts and Strogatz model is a random graph generation model that produces graphs with small-world properties.
+An initial lattice structure is used to generate a Watts-Strogatz model. Each node in the network is initially linked to its k closest neighbors. Another parameter is specified as the rewiring probability. Each edge has a probability p that it will be rewired to the graph as a random edge.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&#34;barabási-albert-ba-preferential-attachment-model&#34;&gt;Barabási–Albert (BA) Preferential Attachment model&lt;/h2&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;The Barabási–Albert model is a random network model used to demonstrate a preferential attachment or a &amp;ldquo;rich-get-richer&amp;rdquo; effect. In this model, an edge is most likely to attach to nodes with higher degrees. The network begins with an initial network of m nodes. m ≥ 2 and the degree of each node in the initial network should be at least 1, otherwise it will always remain disconnected from the rest of the network.&lt;/p&gt;
+
+&lt;p&gt;In the BA model, new nodes are added to the network one at a time. Each new node is connected to m existing nodes with a probability that is proportional to the number of links that the existing nodes already have.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;We can use igraph to play the network games, and explore the properties of generated networks.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;igraph is an open source C library for the analysis of large-scale complex networks, with interfaces to R, Python and Ruby.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Here is the R script for generating and visualizing networks.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;library(igraph)
+g1 &amp;lt;- graph.ring(500)
+g2 &amp;lt;- erdos.renyi.game(500, 0.0035)
+g3 &amp;lt;- rewire.edges( g1, prob = 0.5 )
+g4 &amp;lt;- barabasi.game(500)
+# 保存图片格式
+png(&amp;quot;d:/network_game.png&amp;quot;,
+    width=5, height=5,
+    units=&amp;quot;in&amp;quot;, res=700)
+# 绘制图片
+par(mfrow=c(2,2))
+plot(g1, vertex.label= NA, edge.arrow.size=0.02,vertex.size = 0.5, xlab = &amp;quot;Ring Network&amp;quot;)
+plot(g2, vertex.label= NA, edge.arrow.size=0.02,vertex.size = 0.5, xlab = &amp;quot;Random Network&amp;quot;)
+plot(g3, vertex.label= NA, edge.arrow.size=0.02,vertex.size = 0.5, xlab = &amp;quot;Small World Network&amp;quot;)
+plot(g4, vertex.label= NA, edge.arrow.size=0.02,vertex.size = 0.5, xlab = &amp;quot;Scale-free Network&amp;quot;)
+# 结束保存图片
+dev.off()
 &lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://farm3.staticflickr.com/2875/9490993155_0787ab3832_c.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Of courese, there are other network games in the library of igraph, such as the game of forest fire.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;g5 &amp;lt;- forest.fire.game(200, fw.prob=0.37, bw.factor=0.32/0.37)
+plot(g5, vertex.label= NA, edge.arrow.size=0.02,vertex.size = 0.5)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;strong&gt;References&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://en.wikipedia.org/wiki/Network_science#Network_models&#34; target=&#34;_blank&#34;&gt;http://en.wikipedia.org/wiki/Network_science#Network_models&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Hosting pandoc slides on Octopress</title>
+      <link>https://chengjun.github.io/en/post/en/2013-08-06-present-pandoc-slides-on-octopress/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://chengjun.github.io/en/post/en/2013-08-06-present-pandoc-slides-on-octopress/</guid>
+      <description>&lt;p&gt;##&lt;/p&gt;
+
+&lt;p&gt;I have made a dzslides from a markdown file using pandoc, and then I want to archive and present it on octopress. Check the result to learn about how to make simple slides using pandoc &lt;a href=&#34;http://chengjun.github.io/slides/pandoc-slides&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;The mechanism of octopress is a little bit inflexible.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://farm8.staticflickr.com/7340/9450821728_ac4f8c375e_o.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Basicially, we generate markdown files in the directory of _posts:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;rake new_post[&amp;quot;the title of your post&amp;quot;]
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;and then we transform the markdown files to html placed in the dirctory of public.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;rake generate
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;After that, we deploy the html files to the server.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;rake deploy
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Thus, accordingly, the solution is given as following:&lt;/p&gt;
+
+&lt;p&gt;First, we make a slides folder in the source directory, e.g., &amp;ldquo;octopress/source/slides/&amp;rdquo;, and put the html of slide into this folder.&lt;/p&gt;
+
+&lt;p&gt;Second, we generate the file to the public folder and deploy the html file to the server.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;rake generate
+rake deploy
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;You can open the slides directly with the url: &lt;a href=&#34;http://chengjun.github.io/slides/pandoc-slides&#34; target=&#34;_blank&#34;&gt;http://chengjun.github.io/slides/pandoc-slides&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Package on </title>
+    <link>https://chengjun.github.io/zh/tags/package/index.xml</link>
+    <description>Recent content in Package on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>&amp;copy; 2016 Cheng-Jun Wang</copyright>
+    <atom:link href="/zh/tags/package/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>打包发布python软件包</title>
+      <link>https://chengjun.github.io/zh/post/cn/2015-02-22-distribute-python-package/</link>
+      <pubDate>Sun, 22 Feb 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://chengjun.github.io/zh/post/cn/2015-02-22-distribute-python-package/</guid>
+      <description>&lt;p&gt;我们经常写一些程序碎片，却很少有动力把它们整合起来。前段时间写了一个爬取并可视化谷歌学术网的python程序。今天想不如把它整合一下，虽然非常简单（只有一个函数）。主要参考python官网的&lt;a href=&#34;https://packaging.python.org/en/latest/distributing.html#uploading-your-project-to-pypi&#34; target=&#34;_blank&#34;&gt;发布指南&lt;/a&gt;。&lt;/p&gt;
+
+&lt;p&gt;##注册
+于是首先来到pypi网站注册。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://pypi.python.org/pypi?%3Aaction=submit_form&#34; target=&#34;_blank&#34;&gt;https://pypi.python.org/pypi?%3Aaction=submit_form&lt;/a&gt;
+记下用户名chengjun和密码W4&lt;/p&gt;
+
+&lt;p&gt;##填写软件包信息
+《指南》推荐直接在线填写 &lt;a href=&#34;https://pypi.python.org/pypi?%3Aaction=submit_form&#34; target=&#34;_blank&#34;&gt;https://pypi.python.org/pypi?%3Aaction=submit_form&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;##打包和发布工具
+先要安装两个包：twine和wheel。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;pip install wheel
+pip install twine
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;##整理项目文件夹
+找项目实例（&lt;a href=&#34;https://github.com/pypa/sampleproject）下载下来，修改其中的部分内容即可。详见指南，或者自己摸索即可。&#34; target=&#34;_blank&#34;&gt;https://github.com/pypa/sampleproject）下载下来，修改其中的部分内容即可。详见指南，或者自己摸索即可。&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;##打包发布
+1.在window环境下，使用cmd，转换工作路径到项目文件夹。
+2. 主要参考 &lt;a href=&#34;https://github.com/pypa/twine打包发布：&#34; target=&#34;_blank&#34;&gt;https://github.com/pypa/twine打包发布：&lt;/a&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;#Create some distributions in the normal way:
+$ python setup.py sdist bdist_wheel
+
+#Upload with twine:
+$ twine upload dist/*
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;我使用上传的时候出错（typeError），于是直接使用打包好的zip文件（在dist子文件夹当中）手工上传到pypi。注意，每次上传到pypi需要修改一次setup.py中的版本号，并重新打包才可上传。如此而已，比我想象当中要速度快得多、简单的多。&lt;/p&gt;
+
+&lt;p&gt;这里是我刚刚打包发布的一个可视化谷歌学术网络的python软件包：&lt;a href=&#34;https://pypi.python.org/pypi/scholarNetwork/&#34; target=&#34;_blank&#34;&gt;https://pypi.python.org/pypi/scholarNetwork/&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

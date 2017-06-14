@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Defaultdict on </title>
+    <link>https://chengjun.github.io/zh/tags/defaultdict/index.xml</link>
+    <description>Recent content in Defaultdict on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>&amp;copy; 2016 Cheng-Jun Wang</copyright>
+    <atom:link href="/zh/tags/defaultdict/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>使用Python快速分割数据的方法</title>
+      <link>https://chengjun.github.io/zh/post/cn/2014-08-31-fast-split-data-with-python/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://chengjun.github.io/zh/post/cn/2014-08-31-fast-split-data-with-python/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://chengjun.qiniudn.com/longcat.PNG&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;分割数据最慢的过程其实是打开和关闭一个文件，因此尽量减少这种操作可以飞速的提升分割数据的速度。之前在&lt;a href=&#34;http://stackoverflow.com/questions/519633/lazy-method-for-reading-big-file-in-python?lq=1&#34; target=&#34;_blank&#34;&gt;stackoverflow上看到一种方法&lt;/a&gt;非常高效，放在这里研究一下。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt; from collections import defaultdict
+
+ path = &#39;D:/chengjun/Sina Weibo/DepthOverTime/&#39;
+
+ #define a function 
+ def splitData(f):
+     #using dict to &#39;classify&#39; rows
+     E = defaultdict(lambda:[]) 
+     for line in f:
+         lists = line.strip().split(&#39;,&#39;)
+         rtmid = lists[0]
+         file_save = path + &#39;single_weibo/&#39;+rtmid
+         E[file_save].append(line)
+     for key in E.keys():
+         try:
+             with open(key,&#39;a&#39;) as p:
+                 for record in E[key]:
+                     p.write(record+&amp;quot;\n&amp;quot;)
+         except:
+             pass
+ # start to read in data by chunks
+ bigfile = open(path + &#39;diffusion_path_date2552.csv&#39;)
+ chunkSize = 100000000
+ chunk = bigfile.readlines(chunkSize)
+ while chunk:
+     splitData(chunk)
+     chunk = bigfile.readlines(chunkSize)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;上面这段代码有两个地方导致非常高效：&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;使用dict来将相同的key的行整理到一起， 以便一次将吞进来的某一个key下面的数据全部写入硬盘&lt;/li&gt;
+&lt;li&gt;每次使用readlines读入足够多的行，充分发挥内存的作用&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

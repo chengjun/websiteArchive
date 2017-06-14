@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Encoding on </title>
+    <link>https://chengjun.github.io/zh/tags/encoding/index.xml</link>
+    <description>Recent content in Encoding on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>&amp;copy; 2016 Cheng-Jun Wang</copyright>
+    <atom:link href="/zh/tags/encoding/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>使用R做主题模型：举一个处理Encoding问题的例子</title>
+      <link>https://chengjun.github.io/zh/post/cn/2013-08-29-encoding-in-r-for-text-mining/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://chengjun.github.io/zh/post/cn/2013-08-29-encoding-in-r-for-text-mining/</guid>
+      <description>
+
+&lt;h2 id=&#34;引言&#34;&gt;引言&lt;/h2&gt;
+
+&lt;h3 id=&#34;遭遇-邪恶的拉丁引号&#34;&gt;遭遇“邪恶的拉丁引号”&lt;/h3&gt;
+
+&lt;p&gt;我遇到的问题比较复杂，因为原文里混合了latin1和UTF-8两种encoding的字形，最初我统一再读入text数据的时候采用encoding =&amp;ldquo;UTF-8&amp;rdquo;的方法，结果发现了很多奇诡的单引号和双引号错误。在生成的DocumentTermMatrix里出现了很多以引号开始或结束的terms，例如：“grandfather， “deputy with the constitution” 。用Encoding命令看一下它的原形是：&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;gt; Encoding(&amp;quot;“&amp;quot;)
+[1] &amp;quot;latin1&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;只所以说是原形，是因为它们可以变形！&amp;rdquo;â€œ&amp;rdquo;， &amp;ldquo;â€™&amp;rdquo;， &amp;ldquo;â€\u009d&amp;rdquo;， &amp;ldquo;â€&amp;rdquo;都是它在不设定Encoding的环境下的形状。但我觉得不足以刻画我对它的厌恶，特别附图一张：&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://farm6.staticflickr.com/5521/9621347348_c9b66db982_o.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;直到最后，我也没彻底搞定这些邪恶的拉丁引号，但我使用了一些tricks解决的我的问题。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://farm4.staticflickr.com/3703/9618226049_b87d57c266.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;1-读入数据不设定encoding&#34;&gt;1. 读入数据不设定encoding！&lt;/h2&gt;
+
+&lt;p&gt;因为邪恶的拉丁引号在UTF-8格式下根本就无法对付，在不设encoding方法的时候，它们现身为â€“, â€™, â€œ等形式，还可以对付。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;dat1 = read.csv(&amp;quot;D:/chengjun/Crystal/Schwab_data_cleaningSep.csv&amp;quot;,
+               header = F, sep = &amp;quot;|&amp;quot;, quote = &amp;quot;&amp;quot;, stringsAsFactors=F,
+           fileEncoding = &amp;quot;&amp;quot;) # , encoding =&amp;quot;UTF-8&amp;quot;); dim(dat1)
+
+names(dat1) = c(&#39;name&#39;, &#39;organization&#39;, &#39;year&#39;, &#39;country&#39;, &#39;website&#39;, 
+               &#39;shortIntro&#39;, &#39;focus&#39;, &#39;geo&#39;, &#39;model&#39;, &#39;benefit&#39;, &#39;budget&#39;,
+             &#39;revenue&#39;, &#39;recognization&#39;, &#39;background&#39;,
+             &#39;innovation&#39;, &#39;entrepreneur&#39;)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;2-文本数据清理第一步-载入r包-选取变量&#34;&gt;2. 文本数据清理第一步：载入R包，选取变量&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code&gt;library(tm)
+library(topicmodels)
+
+text = dat1$entrepreneur
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;3-终于可以删除部分邪恶的拉丁引号&#34;&gt;3. 终于可以删除部分邪恶的拉丁引号&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code&gt;text = gsub(&amp;quot;.&amp;quot;, &amp;quot; &amp;quot;, text, fixed = TRUE )
+text = gsub(&amp;quot;!&amp;quot;, &amp;quot; &amp;quot;, text, fixed = TRUE )
+text = gsub(&amp;quot;?&amp;quot;, &amp;quot; &amp;quot;, text, fixed = TRUE )
+text = gsub(&amp;quot;â€œ&amp;quot;, &amp;quot; &amp;quot;, text, fixed = TRUE )
+text = gsub(&amp;quot;â€™&amp;quot;, &amp;quot; &amp;quot;, text, fixed = TRUE )
+text = gsub(&amp;quot;â€\u009d&amp;quot;, &amp;quot; &amp;quot;, text, fixed = TRUE )
+text = gsub(&amp;quot;â€&amp;quot;, &amp;quot; &amp;quot;, text,  fixed = TRUE )
+text = gsub(&amp;quot;&amp;lt;/b&amp;gt;&amp;quot;, &amp;quot; &amp;quot;, text,  fixed = TRUE )
+text = gsub(&amp;quot;&amp;lt;b&amp;gt;&amp;quot;, &amp;quot; &amp;quot;, text,  fixed = TRUE )
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;注意：1. 这些不规则的latin表达在r的script里再次打开会改变。所以，每次使用都要来这个网页里粘贴复制，也算是一种state-of-art，markdown都比R script保存的持久啊。2.使用gsub的代价是corpus被再度转化为character。所以这段代码如放在下面使用还要用Corpus命令再度转回来。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;corpus &amp;lt;- Corpus(   VectorSource( text )  )  # corpus[[1]] ## inspect the first corpus
+# make each letter lowercase
+corpus &amp;lt;- tm_map(corpus, tolower) 
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;4-我这里根据研究需要-要剔除人名-地名-组织名&#34;&gt;4. 我这里根据研究需要，要剔除人名、地名、组织名。&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code&gt;# remove generic and custom stopwords
+human_find_special_cases = c(&amp;quot;Fundação Pró-Cerrado&amp;quot;, &amp;quot;Fundação PróCerrado&amp;quot;, &amp;quot;FundaÃ§Ã£o PrÃ³-Cerrado&amp;quot;)
+my_stopwords &amp;lt;- c(dat1$country, 
+              dat1$organization,
+            dat1$name,
+            human_find_special_cases)
+
+my_stopwords &amp;lt;- Corpus(   VectorSource(my_stopwords)  )
+my_stopwords &amp;lt;- tm_map(my_stopwords, tolower) # to lowercase my_stopwords here
+
+# Finally we can delete the country/org/person names
+corpus &amp;lt;- tm_map(corpus, removeWords, my_stopwords); corpus[[1]]
+
+corpus &amp;lt;- tm_map(corpus, removePunctuation)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;5-将语料转化为documenttermmatrix&#34;&gt;5. 将语料转化为DocumentTermMatrix&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code&gt;# install.packages(&amp;quot;SnowballC&amp;quot;)
+Sys.setlocale(&amp;quot;LC_COLLATE&amp;quot;, &amp;quot;C&amp;quot;) # set this for reproducible results
+
+corpus &amp;lt;- Corpus(   VectorSource( corpus )  )  # corpus[[1]] ## inspect the first corpus
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;另外，到这里还是会有孤立的邪恶的拉丁单引号存在，但已经和其它term分开了，在以下DocumentTermMatrix的通过设置minWordLength = 3可以将其完全清理。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;# corpus = tm_map(corpus, function(x) iconv(enc2utf8(x), sub = &amp;quot;byte&amp;quot;)) # very important to convert encoding
+JSS_dtm &amp;lt;- DocumentTermMatrix(corpus, control = list(stemming = TRUE,  stopwords = TRUE,
+                                     minWordLength = 3, removeNumbers = TRUE,
+                                     removePunctuation = TRUE
+                                     # weighting =
+                                             #  function(x)
+                                             #  weightTfIdf(x, normalize =FALSE),
+                                     ,encoding = &amp;quot;UTF-8&amp;quot;
+                               )  )
+
+findFreqTerms(JSS_dtm, lowfreq=0) # 一定要看一下还有没有错误。inspect all the words for errors
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;6-你需要的一些背景知识&#34;&gt;6. 你需要的一些背景知识&lt;/h2&gt;
+
+&lt;h3 id=&#34;6-1-如何识别和转化encoding的类型&#34;&gt;6.1 如何识别和转化encoding的类型?&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;iconvlist() # 看一下玲琅满目的encoding方法
+iconv(x, from, to, sub=NA) # Convert Character Vector between Encodings
+
+## convert from Latin-2 to UTF-8: two of the glibc iconv variants.
+iconv(x, &amp;quot;ISO_8859-2&amp;quot;, &amp;quot;UTF-8&amp;quot;)
+iconv(x, &amp;quot;LATIN2&amp;quot;, &amp;quot;UTF-8&amp;quot;)
+
+## Both x below are in latin1 and will only display correctly in a
+## latin1 locale.
+(x &amp;lt;- &amp;quot;fa\xE7ile&amp;quot;)
+charToRaw(xx &amp;lt;- iconv(x, &amp;quot;latin1&amp;quot;, &amp;quot;UTF-8&amp;quot;))
+## in a UTF-8 locale, print(xx)
+
+iconv(x, &amp;quot;latin1&amp;quot;, &amp;quot;ASCII&amp;quot;)          #   NA
+iconv(x, &amp;quot;latin1&amp;quot;, &amp;quot;ASCII&amp;quot;, &amp;quot;?&amp;quot;)     # &amp;quot;fa?ile&amp;quot;
+iconv(x, &amp;quot;latin1&amp;quot;, &amp;quot;ASCII&amp;quot;, &amp;quot;&amp;quot;)      # &amp;quot;faile&amp;quot;
+iconv(x, &amp;quot;latin1&amp;quot;, &amp;quot;ASCII&amp;quot;, &amp;quot;byte&amp;quot;)  # &amp;quot;fa&amp;lt;e7&amp;gt;ile&amp;quot;
+
+# Extracts from R help files
+(x &amp;lt;- c(&amp;quot;Ekstr\xf8m&amp;quot;, &amp;quot;J\xf6reskog&amp;quot;, &amp;quot;bi\xdfchen Z\xfcrcher&amp;quot;))
+iconv(x, &amp;quot;latin1&amp;quot;, &amp;quot;ASCII//TRANSLIT&amp;quot;)
+iconv(x, &amp;quot;latin1&amp;quot;, &amp;quot;ASCII&amp;quot;, sub=&amp;quot;byte&amp;quot;)
+## End(Not run)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;6-2-如何看documenttermmatrix的内容&#34;&gt;6.2 如何看DocumentTermMatrix的内容？&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;inspect(JSS_dtm)
+colnames(JSS_dtm) # we can find that: [3206]   &amp;quot;works\u009d&amp;quot;    [3207]      &amp;quot;work\u009d&amp;quot;
+inspect(JSS_dtm[,3206])
+inspect(JSS_dtm[,&amp;quot;works\u009d&amp;quot;])
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;6-3-关于一些需要跳出的符号&#34;&gt;6.3 关于一些需要跳出的符号&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;unlist(strsplit(&amp;quot;a.b.c&amp;quot;, &amp;quot;.&amp;quot;))
+## [1] &amp;quot;&amp;quot; &amp;quot;&amp;quot; &amp;quot;&amp;quot; &amp;quot;&amp;quot; &amp;quot;&amp;quot;
+## Note that &#39;split&#39; is a regexp!
+## If you really want to split on &#39;.&#39;, use
+unlist(strsplit(&amp;quot;a.b.c&amp;quot;, &amp;quot;[.]&amp;quot;))
+## [1] &amp;quot;a&amp;quot; &amp;quot;b&amp;quot; &amp;quot;c&amp;quot;
+## or
+unlist(strsplit(&amp;quot;a.b.c&amp;quot;, &amp;quot;.&amp;quot;, fixed = TRUE))
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;同理，gsub查找替换掉句点comma的时候也有类似的问题。我在使用python处理相邻多个段落的时候，直接使用了list的append的方法，导致两个自然段之间没有空格。这可要害苦我了。很多可以作为段落结尾的标点都要转化为空格。幸好老外写文章没有那么多问号和叹号结尾。&lt;/p&gt;
+
+&lt;p&gt;fixed = TRUE意味着要use exact matching.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;text1 = gsub(&amp;quot;[.]&amp;quot;, &amp;quot; &amp;quot;, text）
+text1 = gsub(&amp;quot;[.]&amp;quot;, &amp;quot; &amp;quot;, text, fixed = TRUE )
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
