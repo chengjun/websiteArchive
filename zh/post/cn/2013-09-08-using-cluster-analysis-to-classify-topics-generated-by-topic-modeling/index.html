@@ -146,8 +146,8 @@
 <div class="article-metadata">
 
   <span class="article-date">
-    <time datetime="0001-01-01 00:00:00 &#43;0000 UTC" itemprop="datePublished">
-      Mon, Jan 1, 0001
+    <time datetime="2013-09-08 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+      Sun, Sep 8, 2013
     </time>
   </span>
 
@@ -271,7 +271,7 @@ for (k in c(topic_num))  {
   jss_TM &lt;- list(
     VEM = LDA(dtm, k = k, control = list(seed = SEED)),
     VEM_fixed = LDA(dtm, k = k, control = list(estimate.alpha = FALSE, seed = SEED)),
-    Gibbs = LDA(dtm, k = k, method = &quot;Gibbs&quot;, 
+    Gibbs = LDA(dtm, k = k, method = &quot;Gibbs&quot;,
                 control = list(seed = SEED, burnin = 1000, thin = 100, iter = 1000))    )
 }
 
@@ -296,14 +296,14 @@ mtt = rs$terms  # topic and terms
 mydata = mtt
 wss &lt;- (nrow(mydata)-1)*sum(apply(mydata,2,var))
 max_group = nrow(mydata)-1
-for (i in 2:max_group) wss[i] &lt;- sum(kmeans(mydata, 
+for (i in 2:max_group) wss[i] &lt;- sum(kmeans(mydata,
                                             centers=i)$withinss)
 plot(1:max_group, wss, type=&quot;b&quot;, xlab=&quot;Number of Clusters&quot;,
      ylab=&quot;Within groups sum of squares&quot;)
 ##
 # K-Means Cluster Analysis
 fit &lt;- kmeans(mydata, 5) # 5 cluster solution
-# get cluster means 
+# get cluster means
 cluster_means = aggregate(mydata,by=list(fit$cluster),FUN=mean)
 # append cluster assignment
 mydata &lt;- data.frame(rownames(mydata), fit$cluster)
@@ -319,7 +319,7 @@ mydata &lt;- data.frame(rownames(mydata), fit$cluster)
 #
 ############################################
 
-cos.sim &lt;- function(ix) 
+cos.sim &lt;- function(ix)
 {
   A = X[ix[1],]
   B = X[ix[2],]
@@ -330,8 +330,8 @@ mdt = as.matrix(dtm)
 X = mtt  # whether to scale it
 
 
-n &lt;- nrow(X) 
-cmb &lt;- expand.grid(i=1:n, j=1:n) 
+n &lt;- nrow(X)
+cmb &lt;- expand.grid(i=1:n, j=1:n)
 simdt &lt;- matrix(apply(cmb,1,cos.sim),n,n)
 rownames(simdt) = rownames(mtt)
 hc &lt;- hclust(dist(simdt, method = &quot;euclidean&quot;), method = 'ave')
@@ -340,7 +340,7 @@ hc &lt;- hclust(dist(simdt, method = &quot;euclidean&quot;), method = 'ave')
 plot(hc, xlab = '')
 k = 10
 groups &lt;- cutree(hc, k=k)  # cut tree into 5 clusters
-rect.hclust(hc, k=k, border=&quot;red&quot;) # draw dendogram with red borders 
+rect.hclust(hc, k=k, border=&quot;red&quot;) # draw dendogram with red borders
 </code></pre>
 
 <p>{:lang=&ldquo;ruby&rdquo;}</p>
@@ -364,12 +364,12 @@ rect.hclust(hc, k=k, border=&quot;red&quot;) # draw dendogram with red borders
   <nav>
   <ul class="pager">
     
-    <li class="previous"><a href="https://chengjun.github.io/zh/post/cn/2008-09-25-yuan-shikai/"><span
-      aria-hidden="true">&larr;</span> 写在《袁氏当国》之后</a></li>
+    <li class="previous"><a href="https://chengjun.github.io/zh/post/cn/2013-09-07-part-of-speech-analysis-with-opennlp/"><span
+      aria-hidden="true">&larr;</span> 文本挖掘基础：使用openNLP进行词性标注</a></li>
     
 
     
-    <li class="next"><a href="https://chengjun.github.io/zh/post/cn/2014-08-27-d3network/">使用d3network做网络可视化 <span
+    <li class="next"><a href="https://chengjun.github.io/zh/post/cn/2013-09-27-topic-modeling-of-song-peom/">东风夜放花千树：对宋词进行主题分析初探 <span
       aria-hidden="true">&rarr;</span></a></li>
     
   </ul>

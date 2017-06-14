@@ -146,8 +146,8 @@
 <div class="article-metadata">
 
   <span class="article-date">
-    <time datetime="0001-01-01 00:00:00 &#43;0000 UTC" itemprop="datePublished">
-      Mon, Jan 1, 0001
+    <time datetime="2012-07-01 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+      Sun, Jul 1, 2012
     </time>
   </span>
 
@@ -543,7 +543,7 @@ for i in range(influencers):
 
 <pre><code>## 重复30个时间段
 for i in range(30):
-    ## 循环遍历网络中所有节点并让他们运转一步 
+    ## 循环遍历网络中所有节点并让他们运转一步
     for node in g.nodes():
         node.step()
     ##汇总演化而来的态度数值，输出到终端并画出结果。
@@ -639,7 +639,7 @@ def interact(self):
     &quot;&quot;&quot;
     neighbors=g[self].keys()
     values=[v['weight'] for v in g[self].values()]
-    ##掷骰子已决定互动的概率 
+    ##掷骰子已决定互动的概率
     ## 相似 (0.6), 不相似(0.3)或随机 (0.1)
     roll=r.random()
     if r &lt;= 0.1 or len(neighbors)==0:
@@ -733,8 +733,8 @@ plot.hist([e['weight'] for f,t,e in g.edges(data=True)]
   <nav>
   <ul class="pager">
     
-    <li class="previous"><a href="https://chengjun.github.io/zh/post/cn/2014-05-05-network-dispersion/"><span
-      aria-hidden="true">&larr;</span> 网络残缺度：共同好友间可否两步到达？</a></li>
+    <li class="previous"><a href="https://chengjun.github.io/zh/post/cn/2012-05-16-return-to-the-sandpile/"><span
+      aria-hidden="true">&larr;</span> 重返沙堆：通往理解信息扩散的实在之路</a></li>
     
 
     

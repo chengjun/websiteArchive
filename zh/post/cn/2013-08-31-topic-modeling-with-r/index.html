@@ -146,8 +146,8 @@
 <div class="article-metadata">
 
   <span class="article-date">
-    <time datetime="0001-01-01 00:00:00 &#43;0000 UTC" itemprop="datePublished">
-      Mon, Jan 1, 0001
+    <time datetime="2013-08-31 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+      Sat, Aug 31, 2013
     </time>
   </span>
 
@@ -252,11 +252,11 @@
 
 <pre><code>dtm &lt;- DocumentTermMatrix(corpus, control = list(stemming = TRUE,  
                                                  stopwords = TRUE,
-                                                 wordLengths=c(4, 15), 
+                                                 wordLengths=c(4, 15),
                                                  bounds = list(global = c(5,Inf)), # each term appears in at least 5 docs
-                                                 removeNumbers = TRUE, 
+                                                 removeNumbers = TRUE,
                                                  removePunctuation  = list(preserve_intra_word_dashes = FALSE)
-                                                 #,encoding = &quot;UTF-8&quot; 
+                                                 #,encoding = &quot;UTF-8&quot;
                                                  )
                          )
 
@@ -276,7 +276,7 @@ dim(dtm)
 l1=term_tfidf &gt;= quantile(term_tfidf, 0.1)       # fix this!
 dtm &lt;- dtm[,l1]
 l2=col_sums(dtm) &gt;= quantile(col_sums(dtm), 0.1)  # fix this!
-dtm &lt;- dtm[,l2] 
+dtm &lt;- dtm[,l2]
 
 dtm = dtm[row_sums(dtm)&gt;0, ]; dim(dtm) # 2246 6210
 range(col_sums(dtm))
@@ -324,7 +324,7 @@ selectK&lt;-function(dtm,kv=kv_num,SEED=seed_num,cross=fold_num,sp) # change 60 
   {
     per=NULL
     loglik=NULL
-    for (i in 1:3)  #only run for 3 replications# 
+    for (i in 1:3)  #only run for 3 replications#
     {
       cat(&quot;R is running for&quot;, &quot;topic&quot;, k, &quot;fold&quot;, i,
           as.character(as.POSIXlt(Sys.time(), &quot;Asia/Shanghai&quot;)),&quot;\n&quot;)
@@ -334,7 +334,7 @@ selectK&lt;-function(dtm,kv=kv_num,SEED=seed_num,cross=fold_num,sp) # change 60 
       # VEM = LDA(dtm[tr, ], k = k, control = list(seed = SEED)),
       # VEM_fixed = LDA(dtm[tr,], k = k, control = list(estimate.alpha = FALSE, seed = SEED)),
 
-      CTM = CTM(dtm[tr,], k = k, 
+      CTM = CTM(dtm[tr,], k = k,
                 control = list(seed = SEED, var = list(tol = 10^-4), em = list(tol = 10^-3)))  
 
       # Gibbs = LDA(dtm[tr,], k = k, method = &quot;Gibbs&quot;,
@@ -360,9 +360,9 @@ m_log=apply(ctmK[[2]],1,mean)
 
 k=c(kv_num)
 df = ctmK[[1]]  # perplexity matrix
-matplot(k, df, type = c(&quot;b&quot;), xlab = &quot;Number of topics&quot;, 
+matplot(k, df, type = c(&quot;b&quot;), xlab = &quot;Number of topics&quot;,
         ylab = &quot;Perplexity&quot;, pch=1:5,col = 1, main = '')       
-legend(&quot;bottomright&quot;, legend = paste(&quot;fold&quot;, 1:5), col=1, pch=1:5) 
+legend(&quot;bottomright&quot;, legend = paste(&quot;fold&quot;, 1:5), col=1, pch=1:5)
 </code></pre>
 
 <p>{:lang=&ldquo;ruby&rdquo;}</p>
@@ -370,29 +370,29 @@ legend(&quot;bottomright&quot;, legend = paste(&quot;fold&quot;, 1:5), col=1, pc
 <p>有趣的是计算时间：</p>
 
 <pre><code>&gt; system.time((ctmK=selectK(dtm=dtm,kv=kv_num,SEED=seed_num,cross=fold_num,sp=sp)))
-R is running for topic 5 fold 1 2013-08-31 18:26:32 
-R is running for topic 5 fold 2 2013-08-31 18:26:39 
-R is running for topic 5 fold 3 2013-08-31 18:26:45 
-R is running for topic 10 fold 1 2013-08-31 18:26:50 
-R is running for topic 10 fold 2 2013-08-31 18:27:14 
-R is running for topic 10 fold 3 2013-08-31 18:27:36 
-R is running for topic 20 fold 1 2013-08-31 18:27:57 
-R is running for topic 20 fold 2 2013-08-31 18:29:42 
-R is running for topic 20 fold 3 2013-08-31 18:32:00 
-R is running for topic 30 fold 1 2013-08-31 18:33:42 
-R is running for topic 30 fold 2 2013-08-31 18:37:39 
-R is running for topic 30 fold 3 2013-08-31 18:45:46 
-R is running for topic 40 fold 1 2013-08-31 18:52:52 
-R is running for topic 40 fold 2 2013-08-31 18:57:26 
-R is running for topic 40 fold 3 2013-08-31 19:00:31 
-R is running for topic 50 fold 1 2013-08-31 19:03:47 
-R is running for topic 50 fold 2 2013-08-31 19:04:02 
-R is running for topic 50 fold 3 2013-08-31 19:04:52 
-R is running for topic 100 fold 1 2013-08-31 19:05:42 
-R is running for topic 100 fold 2 2013-08-31 19:06:05 
-R is running for topic 100 fold 3 2013-08-31 19:06:28 
-   user  system elapsed 
-2417.801.13 2419.28 
+R is running for topic 5 fold 1 2013-08-31 18:26:32
+R is running for topic 5 fold 2 2013-08-31 18:26:39
+R is running for topic 5 fold 3 2013-08-31 18:26:45
+R is running for topic 10 fold 1 2013-08-31 18:26:50
+R is running for topic 10 fold 2 2013-08-31 18:27:14
+R is running for topic 10 fold 3 2013-08-31 18:27:36
+R is running for topic 20 fold 1 2013-08-31 18:27:57
+R is running for topic 20 fold 2 2013-08-31 18:29:42
+R is running for topic 20 fold 3 2013-08-31 18:32:00
+R is running for topic 30 fold 1 2013-08-31 18:33:42
+R is running for topic 30 fold 2 2013-08-31 18:37:39
+R is running for topic 30 fold 3 2013-08-31 18:45:46
+R is running for topic 40 fold 1 2013-08-31 18:52:52
+R is running for topic 40 fold 2 2013-08-31 18:57:26
+R is running for topic 40 fold 3 2013-08-31 19:00:31
+R is running for topic 50 fold 1 2013-08-31 19:03:47
+R is running for topic 50 fold 2 2013-08-31 19:04:02
+R is running for topic 50 fold 3 2013-08-31 19:04:52
+R is running for topic 100 fold 1 2013-08-31 19:05:42
+R is running for topic 100 fold 2 2013-08-31 19:06:05
+R is running for topic 100 fold 3 2013-08-31 19:06:28
+   user  system elapsed
+2417.801.13 2419.28
 </code></pre>
 
 <p>{:lang=&ldquo;ruby&rdquo;}</p>
@@ -414,12 +414,12 @@ R is running for topic 100 fold 3 2013-08-31 19:06:28
   <nav>
   <ul class="pager">
     
-    <li class="previous"><a href="https://chengjun.github.io/zh/post/cn/2014-02-28-simulate-network-diffusion-with-r/"><span
-      aria-hidden="true">&larr;</span> 使用R模拟网络扩散</a></li>
+    <li class="previous"><a href="https://chengjun.github.io/zh/post/cn/2013-08-29-encoding-in-r-for-text-mining/"><span
+      aria-hidden="true">&larr;</span> 使用R做主题模型：举一个处理Encoding问题的例子</a></li>
     
 
     
-    <li class="next"><a href="https://chengjun.github.io/zh/post/cn/2013-08-29-encoding-in-r-for-text-mining/">使用R做主题模型：举一个处理Encoding问题的例子 <span
+    <li class="next"><a href="https://chengjun.github.io/zh/post/cn/2013-09-07-part-of-speech-analysis-with-opennlp/">文本挖掘基础：使用openNLP进行词性标注 <span
       aria-hidden="true">&rarr;</span></a></li>
     
   </ul>

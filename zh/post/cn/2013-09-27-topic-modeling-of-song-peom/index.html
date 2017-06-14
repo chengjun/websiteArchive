@@ -146,8 +146,8 @@
 <div class="article-metadata">
 
   <span class="article-date">
-    <time datetime="0001-01-01 00:00:00 &#43;0000 UTC" itemprop="datePublished">
-      Mon, Jan 1, 0001
+    <time datetime="2013-09-27 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+      Fri, Sep 27, 2013
     </time>
   </span>
 
@@ -266,9 +266,9 @@ dtm1 &lt;- DocumentTermMatrix(wordcorpus,
                           control = list(
                             wordLengths=c(1, Inf), # to allow long words
                             bounds = list(global = c(5,Inf)), # each term appears in at least 5 docs
-                            removeNumbers = TRUE, 
+                            removeNumbers = TRUE,
                             # removePunctuation  = list(preserve_intra_word_dashes = FALSE),
-                            weighting = weightTf, 
+                            weighting = weightTf,
                             encoding = &quot;UTF-8&quot;)
 )
 
@@ -286,8 +286,8 @@ myNames &lt;- names(v)
 d &lt;- data.frame(word=myNames, freq=v)
 par(mar = rep(2, 4))
 
-png(paste(getwd(), &quot;/wordcloud50_&quot;,  &quot;.png&quot;, sep = ''), 
-    width=10, height=10, 
+png(paste(getwd(), &quot;/wordcloud50_&quot;,  &quot;.png&quot;, sep = ''),
+    width=10, height=10,
     units=&quot;in&quot;, res=700)
 
 pal2 &lt;- brewer.pal(8,&quot;Dark2&quot;)
@@ -315,7 +315,7 @@ dev.off()
 <pre><code>dtm01 &lt;- weightTfIdf(dtm2)
 N = 0.9
 dtm02 &lt;- removeSparseTerms(dtm01, N);dtm02
-# 注意，为展示方便，这里我调节N的大小，使得dtm02中的词语数量在50左右。    
+# 注意，为展示方便，这里我调节N的大小，使得dtm02中的词语数量在50左右。
 tdm = as.TermDocumentMatrix(dtm02)
 tdm &lt;- weightTfIdf(tdm)
 # convert the sparse term-document matrix to a standard data frame
@@ -324,8 +324,8 @@ mydata.df.scale &lt;- scale(mydata.df)
 d &lt;- dist(mydata.df.scale, method = &quot;euclidean&quot;) # distance matrix
 fit &lt;- hclust(d, method=&quot;ward&quot;)
 
-png(paste(&quot;d:/chengjun/honglou/honglou_termcluster_50_&quot;, &quot;.png&quot;, sep = ''), 
-    width=10, height=10, 
+png(paste(&quot;d:/chengjun/honglou/honglou_termcluster_50_&quot;, &quot;.png&quot;, sep = ''),
+    width=10, height=10,
     units=&quot;in&quot;, res=700)
 plot(fit) # display dendogram?
 dev.off()
@@ -381,7 +381,7 @@ selectK&lt;-function(dtm,kv=kv_num,SEED=seed_num,cross=fold_num,sp) # change 60 
   {
     per=NULL
     loglik=NULL
-    for (i in 1:try_num)  #only run for 3 replications# 
+    for (i in 1:try_num)  #only run for 3 replications#
     {
       cat(&quot;R is running for&quot;, &quot;topic&quot;, k, &quot;fold&quot;, i,
           as.character(as.POSIXlt(Sys.time(), &quot;Asia/Shanghai&quot;)),&quot;\n&quot;)
@@ -391,7 +391,7 @@ selectK&lt;-function(dtm,kv=kv_num,SEED=seed_num,cross=fold_num,sp) # change 60 
       # VEM = LDA(dtm[tr, ], k = k, control = list(seed = SEED)),
       # VEM_fixed = LDA(dtm[tr,], k = k, control = list(estimate.alpha = FALSE, seed = SEED)),
 
-      #       CTM = CTM(dtm[tr,], k = k, 
+      #       CTM = CTM(dtm[tr,], k = k,
       #                 control = list(seed = SEED, var = list(tol = 10^-4), em = list(tol = 10^-3)))  
       #       
       Gibbs = LDA(dtm[tr,], k = k, method = &quot;Gibbs&quot;,
@@ -423,23 +423,23 @@ logLik = ctmK[[2]]  # perplexity matrix
 write.csv(data.frame(k, df, logLik), paste(getwd(), &quot;/Perplexity2_&quot;,&quot;gibbs5_100&quot;, &quot;.csv&quot;, sep = &quot;&quot;))
 
 # save the figure
-png(paste(getwd(), &quot;/Perplexity2_&quot;,try_num, &quot;_gibbs5_100&quot;,&quot;.png&quot;, sep = ''), 
-    width=5, height=5, 
+png(paste(getwd(), &quot;/Perplexity2_&quot;,try_num, &quot;_gibbs5_100&quot;,&quot;.png&quot;, sep = ''),
+    width=5, height=5,
     units=&quot;in&quot;, res=700)
 
 
-matplot(k, df, type = c(&quot;b&quot;), xlab = &quot;Number of topics&quot;, 
+matplot(k, df, type = c(&quot;b&quot;), xlab = &quot;Number of topics&quot;,
         ylab = &quot;Perplexity&quot;, pch=1:try_num,col = 1, main = '')       
-legend(&quot;topright&quot;, legend = paste(&quot;fold&quot;, 1:try_num), col=1, pch=1:try_num) 
+legend(&quot;topright&quot;, legend = paste(&quot;fold&quot;, 1:try_num), col=1, pch=1:try_num)
 
 dev.off()
 
-png(paste(getwd(), &quot;/LogLikelihood2_&quot;, &quot;gibbs5_100&quot;,&quot;.png&quot;, sep = ''), 
-    width=5, height=5, 
+png(paste(getwd(), &quot;/LogLikelihood2_&quot;, &quot;gibbs5_100&quot;,&quot;.png&quot;, sep = ''),
+    width=5, height=5,
     units=&quot;in&quot;, res=700)
-matplot(k, logLik, type = c(&quot;b&quot;), xlab = &quot;Number of topics&quot;, 
+matplot(k, logLik, type = c(&quot;b&quot;), xlab = &quot;Number of topics&quot;,
         ylab = &quot;Log-Likelihood&quot;, pch=1:try_num,col = 1, main = '')       
-legend(&quot;topright&quot;, legend = paste(&quot;fold&quot;, 1:try_num), col=1, pch=1:try_num) 
+legend(&quot;topright&quot;, legend = paste(&quot;fold&quot;, 1:try_num), col=1, pch=1:try_num)
 dev.off()
 </code></pre>
 
@@ -458,9 +458,9 @@ SEED &lt;- 2003
 jss_TM2 &lt;- list(
   VEM = LDA(dtm, k = k, control = list(seed = SEED)),
   VEM_fixed = LDA(dtm, k = k, control = list(estimate.alpha = FALSE, seed = SEED)),
-  Gibbs = LDA(dtm, k = k, method = &quot;Gibbs&quot;, 
+  Gibbs = LDA(dtm, k = k, method = &quot;Gibbs&quot;,
               control = list(seed = SEED, burnin = 1000, thin = 100, iter = 1000)),
-  CTM = CTM(dtm, k = k, 
+  CTM = CTM(dtm, k = k,
             control = list(seed = SEED, var = list(tol = 10^-4), em = list(tol = 10^-3))) )   
 save(jss_TM2, file = paste(getwd(), &quot;/jss_TM2.Rdata&quot;, sep = &quot;&quot;))
 save(jss_TM, file = paste(getwd(), &quot;/jss_TM1.Rdata&quot;, sep = &quot;&quot;))
@@ -470,18 +470,18 @@ termsForSave2&lt;- terms(jss_TM2[[&quot;VEM_fixed&quot;]], 10)
 termsForSave3&lt;- terms(jss_TM2[[&quot;Gibbs&quot;]], 10)
 termsForSave4&lt;- terms(jss_TM2[[&quot;CTM&quot;]], 10)
 
-write.csv(as.data.frame(t(termsForSave1)), 
+write.csv(as.data.frame(t(termsForSave1)),
           paste(getwd(), &quot;/topic-document_&quot;, &quot;_VEM_&quot;, k, &quot;_2.csv&quot;, sep=&quot;&quot;),
           fileEncoding = &quot;UTF-8&quot;)
 
-write.csv(as.data.frame(t(termsForSave2)), 
+write.csv(as.data.frame(t(termsForSave2)),
           paste(getwd(), &quot;/topic-document_&quot;, &quot;_VEM_fixed_&quot;, k, &quot;_2.csv&quot;, sep=&quot;&quot;),
           fileEncoding = &quot;UTF-8&quot;)
 
-write.csv(as.data.frame(t(termsForSave3)), 
+write.csv(as.data.frame(t(termsForSave3)),
           paste(getwd(), &quot;/topic-document_&quot;, &quot;_Gibbs_&quot;, k, &quot;_2.csv&quot;, sep=&quot;&quot;),
           fileEncoding = &quot;UTF-8&quot;)
-write.csv(as.data.frame(t(termsForSave4)), 
+write.csv(as.data.frame(t(termsForSave4)),
           paste(getwd(), &quot;/topic-document_&quot;, &quot;_CTM_&quot;, k, &quot;_2.csv&quot;, sep=&quot;&quot;),
           fileEncoding = &quot;UTF-8&quot;)
 </code></pre>
@@ -494,14 +494,14 @@ write.csv(as.data.frame(t(termsForSave4)),
 
 
 tfs = as.data.frame(termsForSave3, stringsAsFactors = F); tfs[,1]
-adjacent_list = lapply(1:10, function(i) embed(tfs[,i], 2)[, 2:1]) 
+adjacent_list = lapply(1:10, function(i) embed(tfs[,i], 2)[, 2:1])
 edgelist = as.data.frame(do.call(rbind, adjacent_list), stringsAsFactors =F)
 # topic = unlist(lapply(1:10, function(i) rep(i, 9)))
 edgelist$topic = topic
 g &lt;-graph.data.frame(edgelist,directed=T )
 l&lt;-layout.fruchterman.reingold(g)
 # edge.color=&quot;black&quot;
-nodesize = centralization.degree(g)$res 
+nodesize = centralization.degree(g)$res
 V(g)$size = log( centralization.degree(g)$res )
 
 nodeLabel = V(g)$name
@@ -509,10 +509,10 @@ E(g)$color =  unlist(lapply(sample(colors()[26:137], 10), function(i) rep(i, 9))
 
 # 保存图片格式
 png(  paste(getwd(), &quot;/topic_graph_gibbs.png&quot;, sep=&quot;&quot;）,
-    width=5, height=5, 
+    width=5, height=5,
     units=&quot;in&quot;, res=700)
 
-plot(g, vertex.label= nodeLabel,  edge.curved=TRUE, 
+plot(g, vertex.label= nodeLabel,  edge.curved=TRUE,
      vertex.label.cex =0.5,  edge.arrow.size=0.2, layout=l )
 
 # 结束保存图片
@@ -548,12 +548,12 @@ dev.off()
   <nav>
   <ul class="pager">
     
-    <li class="previous"><a href="https://chengjun.github.io/zh/post/cn/2014-07-21-chinese-university-friendship-network/"><span
-      aria-hidden="true">&larr;</span> 中国高校间的友谊网络：大学排名、地理位置和演化规律</a></li>
+    <li class="previous"><a href="https://chengjun.github.io/zh/post/cn/2013-09-08-using-cluster-analysis-to-classify-topics-generated-by-topic-modeling/"><span
+      aria-hidden="true">&larr;</span> 使用聚类分析为主题模型划分主题类型</a></li>
     
 
     
-    <li class="next"><a href="https://chengjun.github.io/zh/post/cn/2011-08-22-gaddafi-diffusion/">“众说纷纭”抑或“一言九鼎”？——以卡扎菲官邸攻陷事件在新浪微博上的信息扩散为例 <span
+    <li class="next"><a href="https://chengjun.github.io/zh/post/cn/2014-02-28-simulate-network-diffusion-with-r/">使用R模拟网络扩散 <span
       aria-hidden="true">&rarr;</span></a></li>
     
   </ul>

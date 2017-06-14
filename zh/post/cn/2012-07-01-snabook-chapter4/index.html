@@ -146,8 +146,8 @@
 <div class="article-metadata">
 
   <span class="article-date">
-    <time datetime="0001-01-01 00:00:00 &#43;0000 UTC" itemprop="datePublished">
-      Mon, Jan 1, 0001
+    <time datetime="2012-07-01 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+      Sun, Jul 1, 2012
     </time>
   </span>
 
@@ -306,7 +306,7 @@
 
     mn=int(min(weights))
     mx=int(max(weights))
-    #compute the size of the step, so we get a reasonable step in iterations 
+    #compute the size of the step, so we get a reasonable step in iterations
     step=int((mx-mn)/iterations)
 
     return [[threshold, trim_edges(g, threshold)] for threshold in range(mn,mx,step)]
@@ -321,8 +321,8 @@
 ... # 输出水平面高度、图大小、连接的组件的数量
 ... print i[0], len(i[1]), len(net.connected_component_subgraphs(i[1]))
 
-        1 12360 314 
-        62 27 11 
+        1 12360 314
+        62 27 11
         123 8 3
         184 5 2
         245 5 2
@@ -348,7 +348,7 @@
 <p>###使用Python提取和可视化自我中心网
 提取自我中心网非常简单，因为NetworkX提供一个现成的内置函数来完成这个工作：</p>
 
-<pre><code>&gt;&gt;&gt; net.ego_graph(cc,'justinbieber') 
+<pre><code>&gt;&gt;&gt; net.ego_graph(cc,'justinbieber')
 &lt;networkx.classes.multigraph.MultiGraph object at 0x1ad54090&gt;
 </code></pre>
 
@@ -359,11 +359,11 @@
 另外一个度量被称为聚类系数（clustering coefficient）——本质上，它测量了你的朋友彼此之间也是朋友的比例（也就是人们之间的相互信任程度）。这个度量可以被应用于整个网络当中——但是对于一个密度差异很大并且有多个核心的大的网络，平均的聚类系数很难解读。在自我中心网当中，对于聚类系数的解释非常简单——一个自我中心网，稠密且嵌入了很多相互信任的节点，具有一个较高的聚类系数。由一个单一向外“广播”的核心节点和众多“听众”构成的星型网络，则具有一个较低的聚类系数。
 让我们开始探索一下埃及数据中的一些自我中心网：</p>
 
-<pre><code>## 我们需要将自我中心网从一个多图转化为一个简单的图。 
+<pre><code>## 我们需要将自我中心网从一个多图转化为一个简单的图。
 &gt;&gt;&gt; bieb = net.Graph(net.ego_graph(cc,'justinbieber', radius=2))
 &gt;&gt;&gt; len(bieb)
 22
-&gt;&gt;&gt; net.average_clustering(bieb) 
+&gt;&gt;&gt; net.average_clustering(bieb)
 0.0
 </code></pre>
 
@@ -371,7 +371,7 @@
 
 <p>让我们现在探索一个不同类型的名人——威尔•戈宁(Wael Ghonim)，新一代的埃及人，Google的主管，推特的重度使用者：</p>
 
-<pre><code>&gt;&gt;&gt; ghonim= net.Graph(net.ego_graph(cc,'Ghonim', radius=2)) 
+<pre><code>&gt;&gt;&gt; ghonim= net.Graph(net.ego_graph(cc,'Ghonim', radius=2))
 &gt;&gt;&gt; len(ghonim)
 3450
 &gt;&gt;&gt; net.average_clustering(ghonim)
@@ -621,7 +621,7 @@ mm.plot_multimode(cc,type_string='flight')
 ## 生成一个表格的标题  
 print '| Node |', ' | '.join(keys)
 ## 生成表格的内容
-## 需要一点小技巧区将整数转为字符 
+## 需要一点小技巧区将整数转为字符
 for k in node_census.keys():
 print '|', k, '|',' | '.join([str(v) for v in node_census[k].values()])
 </code></pre>
@@ -975,7 +975,7 @@ def create_hc(G, t=1.0):
     
 
     
-    <li class="next"><a href="https://chengjun.github.io/zh/post/cn/2014-03-12-first-step-spatial-analysis-with-r/">空间分析初步：空间点类型分析 <span
+    <li class="next"><a href="https://chengjun.github.io/zh/post/cn/2012-08-31-burst/">爆发：人类行为在时间尺度上的特征 <span
       aria-hidden="true">&rarr;</span></a></li>
     
   </ul>

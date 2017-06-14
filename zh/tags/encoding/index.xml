@@ -12,7 +12,7 @@
     <item>
       <title>使用R做主题模型：举一个处理Encoding问题的例子</title>
       <link>https://chengjun.github.io/zh/post/cn/2013-08-29-encoding-in-r-for-text-mining/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 29 Aug 2013 00:00:00 +0000</pubDate>
       
       <guid>https://chengjun.github.io/zh/post/cn/2013-08-29-encoding-in-r-for-text-mining/</guid>
       <description>
@@ -43,7 +43,7 @@
                header = F, sep = &amp;quot;|&amp;quot;, quote = &amp;quot;&amp;quot;, stringsAsFactors=F,
            fileEncoding = &amp;quot;&amp;quot;) # , encoding =&amp;quot;UTF-8&amp;quot;); dim(dat1)
 
-names(dat1) = c(&#39;name&#39;, &#39;organization&#39;, &#39;year&#39;, &#39;country&#39;, &#39;website&#39;, 
+names(dat1) = c(&#39;name&#39;, &#39;organization&#39;, &#39;year&#39;, &#39;country&#39;, &#39;website&#39;,
                &#39;shortIntro&#39;, &#39;focus&#39;, &#39;geo&#39;, &#39;model&#39;, &#39;benefit&#39;, &#39;budget&#39;,
              &#39;revenue&#39;, &#39;recognization&#39;, &#39;background&#39;,
              &#39;innovation&#39;, &#39;entrepreneur&#39;)
@@ -74,14 +74,14 @@ text = gsub(&amp;quot;&amp;lt;b&amp;gt;&amp;quot;, &amp;quot; &amp;quot;, text, 
 
 &lt;pre&gt;&lt;code&gt;corpus &amp;lt;- Corpus(   VectorSource( text )  )  # corpus[[1]] ## inspect the first corpus
 # make each letter lowercase
-corpus &amp;lt;- tm_map(corpus, tolower) 
+corpus &amp;lt;- tm_map(corpus, tolower)
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;h2 id=&#34;4-我这里根据研究需要-要剔除人名-地名-组织名&#34;&gt;4. 我这里根据研究需要，要剔除人名、地名、组织名。&lt;/h2&gt;
 
 &lt;pre&gt;&lt;code&gt;# remove generic and custom stopwords
 human_find_special_cases = c(&amp;quot;Fundação Pró-Cerrado&amp;quot;, &amp;quot;Fundação PróCerrado&amp;quot;, &amp;quot;FundaÃ§Ã£o PrÃ³-Cerrado&amp;quot;)
-my_stopwords &amp;lt;- c(dat1$country, 
+my_stopwords &amp;lt;- c(dat1$country,
               dat1$organization,
             dat1$name,
             human_find_special_cases)

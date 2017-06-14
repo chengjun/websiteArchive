@@ -321,6 +321,216 @@ $ twine upload dist/*
     </item>
     
     <item>
+      <title>Echarts使用简介</title>
+      <link>https://chengjun.github.io/zh/post/cn/2015-01-10-myecharts/</link>
+      <pubDate>Sat, 10 Jan 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://chengjun.github.io/zh/post/cn/2015-01-10-myecharts/</guid>
+      <description>&lt;p&gt;昨天听谈和讲解了echarts的使用，他的讲解非常直接简单，就是直接修改echarts的实例。之后，我发现林峰将echarts的实例的html代码写得非常复杂，但其实单独调用一个js的时候，却非常简单。具体做法如下：&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;准备工作：建立一个js子文件夹，将esl，echarts，pie，bar，map等各种js放入其中。在js文件夹外新建一个空的html文件。&lt;/li&gt;
+&lt;li&gt;首先，调用esl.js，它提供了echarts图片的载体。&lt;/li&gt;
+&lt;li&gt;其次，使用require方法调用echarts.js和具体使用的类型图的js（比如map.js）。&lt;/li&gt;
+&lt;li&gt;再次，输入需要输入的数据。&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;最后，封装。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;    &amp;lt;!DCOTYPE html&amp;gt;
+    &amp;lt;html&amp;gt;
+        &amp;lt;head&amp;gt;
+            &amp;lt;meta charset=&amp;quot;utf-8&amp;quot;&amp;gt;
+            &amp;lt;title&amp;gt;echarts testing page&amp;lt;/title&amp;gt;
+            &amp;lt;script src=&amp;quot;./js/esl.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;
+            &amp;lt;script src=&amp;quot;./js/echarts.js&amp;quot; type=&amp;quot;text/javascript&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;
+        &amp;lt;/head&amp;gt;
+        &amp;lt;body&amp;gt;
+            &amp;lt;div id=&amp;quot;main&amp;quot; style=&amp;quot;height:400px;&amp;quot;&amp;gt;&amp;lt;/div&amp;gt;
+            &amp;lt;script type=&amp;quot;text/javascript&amp;quot;&amp;gt;
+                require.config({
+                    paths:{
+                        &amp;quot;echarts&amp;quot;:&amp;quot;js/echarts&amp;quot;,
+                        &amp;quot;echarts/chart/map&amp;quot;:&amp;quot;js/map&amp;quot;
+                    }
+                });
+
+                //using
+                require(
+                    [
+                        &amp;quot;echarts&amp;quot;,
+                        &amp;quot;echarts/chart/map&amp;quot;
+                    ],
+                    function(ec){
+                        var myChart=ec.init(document.getElementById(&amp;quot;main&amp;quot;));  
+                        &amp;lt;!--Input your code below--&amp;gt;                    
+
+                        &amp;lt;!--Input your code above--&amp;gt;                    
+                //loading data
+                        myChart.setOption(option);
+                    }
+                );
+            &amp;lt;/script&amp;gt;
+        &amp;lt;/body&amp;gt;
+    &amp;lt;/html&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;##弦图
+&lt;a href=&#34;http://chengjun.github.io/myecharts/chord.html&#34; target=&#34;_blank&#34;&gt;http://chengjun.github.io/myecharts/chord.html&lt;/a&gt;&lt;/p&gt;
+
+&lt;iframe src=&#39;http://chengjun.github.io/myecharts/chord.html&#39; scrolling=&#34;no&#34; width=&#34;600&#34; height = &#34;400&#34;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;##柱状图
+&lt;a href=&#34;http://chengjun.github.io/myecharts/bar.html&#34; target=&#34;_blank&#34;&gt;http://chengjun.github.io/myecharts/bar.html&lt;/a&gt;&lt;/p&gt;
+
+&lt;iframe src=&#39;http://chengjun.github.io/myecharts/bar.html&#39; scrolling=&#34;no&#34; width=&#34;600&#34; height = &#34;400&#34;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;##饼图
+&lt;a href=&#34;http://chengjun.github.io/myecharts/pie1.html&#34; target=&#34;_blank&#34;&gt;http://chengjun.github.io/myecharts/pie1.html&lt;/a&gt;&lt;/p&gt;
+
+&lt;iframe src=&#39;http://chengjun.github.io/myecharts/pie1.html&#39; scrolling=&#34;no&#34; width=&#34;600&#34; height = &#34;400&#34;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;##线图
+&lt;a href=&#34;http://chengjun.github.io/myecharts/line1.html&#34; target=&#34;_blank&#34;&gt;http://chengjun.github.io/myecharts/line1.html&lt;/a&gt;&lt;/p&gt;
+
+&lt;iframe src=&#39;http://chengjun.github.io/myecharts/line1.html&#39; scrolling=&#34;no&#34; width=&#34;600&#34; height = &#34;400&#34;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;##地图
+&lt;a href=&#34;http://chengjun.github.io/myecharts/map9.html&#34; target=&#34;_blank&#34;&gt;http://chengjun.github.io/myecharts/map9.html&lt;/a&gt;&lt;/p&gt;
+
+&lt;iframe src=&#39;http://chengjun.github.io/myecharts/map9.html&#39; scrolling=&#34;no&#34; width=&#34;600&#34; height = &#34;400&#34;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;##力图&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://chengjun.github.io/myecharts/force2&#34; target=&#34;_blank&#34;&gt;http://chengjun.github.io/myecharts/force2&lt;/a&gt;&lt;/p&gt;
+
+&lt;iframe src=&#39;http://chengjun.github.io/myecharts/force2.html&#39; scrolling=&#34;no&#34; width=&#34;600&#34; height = &#34;400&#34;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;##后记
+发现chrome无法加载，再加入了以下代码后就可以使用了。可惜用了整整一个上午才更正这个问题。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;        &amp;lt;script src=&amp;quot;./js/echarts.js&amp;quot; type=&amp;quot;text/javascript&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>使用Python快速分割数据的方法</title>
+      <link>https://chengjun.github.io/zh/post/cn/2014-08-31-fast-split-data-with-python/</link>
+      <pubDate>Sun, 31 Aug 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://chengjun.github.io/zh/post/cn/2014-08-31-fast-split-data-with-python/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://chengjun.qiniudn.com/longcat.PNG&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;分割数据最慢的过程其实是打开和关闭一个文件，因此尽量减少这种操作可以飞速的提升分割数据的速度。之前在&lt;a href=&#34;http://stackoverflow.com/questions/519633/lazy-method-for-reading-big-file-in-python?lq=1&#34; target=&#34;_blank&#34;&gt;stackoverflow上看到一种方法&lt;/a&gt;非常高效，放在这里研究一下。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt; from collections import defaultdict
+
+ path = &#39;D:/chengjun/Sina Weibo/DepthOverTime/&#39;
+
+ #define a function
+ def splitData(f):
+     #using dict to &#39;classify&#39; rows
+     E = defaultdict(lambda:[])
+     for line in f:
+         lists = line.strip().split(&#39;,&#39;)
+         rtmid = lists[0]
+         file_save = path + &#39;single_weibo/&#39;+rtmid
+         E[file_save].append(line)
+     for key in E.keys():
+         try:
+             with open(key,&#39;a&#39;) as p:
+                 for record in E[key]:
+                     p.write(record+&amp;quot;\n&amp;quot;)
+         except:
+             pass
+ # start to read in data by chunks
+ bigfile = open(path + &#39;diffusion_path_date2552.csv&#39;)
+ chunkSize = 100000000
+ chunk = bigfile.readlines(chunkSize)
+ while chunk:
+     splitData(chunk)
+     chunk = bigfile.readlines(chunkSize)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;上面这段代码有两个地方导致非常高效：&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;使用dict来将相同的key的行整理到一起， 以便一次将吞进来的某一个key下面的数据全部写入硬盘&lt;/li&gt;
+&lt;li&gt;每次使用readlines读入足够多的行，充分发挥内存的作用&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>使用d3network做网络可视化</title>
+      <link>https://chengjun.github.io/zh/post/cn/2014-08-27-d3network/</link>
+      <pubDate>Wed, 27 Aug 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://chengjun.github.io/zh/post/cn/2014-08-27-d3network/</guid>
+      <description>&lt;p&gt;在之前的&lt;a href=&#34;http://chengjun.github.io/cn/2014/07/chinese-university-friendship-network/&#34; target=&#34;_blank&#34;&gt;一个博客&lt;/a&gt;中，我介绍了使用R进行社区划分并可视化的方法。这里使用相同的数据，介绍如何使用d3network实现网络可视化的方法。&lt;/p&gt;
+
+&lt;p&gt;首先，安装d3network&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;devtools::install_github(&amp;quot;d3Network&amp;quot;, &amp;quot;christophergandrud&amp;quot;)
+require(d3Network)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;之后可以使用简单的可视化方法：&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;d3SimpleNetwork(data[,1:2],
+                file = &amp;quot;chinese_university100.html&amp;quot;,
+                width = 1024,
+                height = 763,
+                fontsize = 12)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;我想要展现社区划分的结果：&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;#链接数据
+links = data
+names(links) = c(&amp;quot;source&amp;quot;, &amp;quot;target&amp;quot;, &amp;quot;value&amp;quot;)
+
+#节点列表
+fc = fastgreedy.community(g); sizes(fc)
+mfc = membership(fc)
+nodes = data.frame(name = names(mfc), group = mfc)
+
+#对应链接数据和节点数据
+ids = 0:(nrow(nodes)-1) # notice: start with zero!
+links[,1] = ids[match(links[,1], nodes$name )]
+links[,2] = ids[match(links[,2], nodes$name )]
+links = links[with(links, order(source)), ] # sort by source
+
+#处理边的权重大小
+links$value = log(links$value)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;之后就可以使实现可视化结果啦：&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;d3ForceNetwork(Links = links, Nodes = nodes,
+               Source = &amp;quot;source&amp;quot;, Target = &amp;quot;target&amp;quot;,
+               Value = &amp;quot;value&amp;quot;,
+               NodeID = &amp;quot;name&amp;quot;,
+               Group = &amp;quot;group&amp;quot;,
+               file = &amp;quot;chinese_university_groups100.html&amp;quot;,
+               width = 1550, height = 800,iframe = TRUE,
+               opacity = 0.9, zoom = TRUE)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;iframe src=&#39;http://chengjun.github.io/vis/chinese_university_groups100.html&#39; scrolling=&#34;no&#34; width=&#34;800&#34; height = &#34;800&#34;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;但是对于中文要麻烦一些，需要手工修改html里的encoding设置，包括meta部分和script部分两个地方：&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;meta charset=&amp;quot;gbk&amp;quot;&amp;gt;
+&amp;lt;script charset=&amp;quot;gbk&amp;quot; src=http://d3js.org/d3.v3.min.js&amp;gt;&amp;lt;/script&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;除此之外，我还尝试了下&lt;a href=&#34;http://chengjun.github.io/vis/chinese_university_groups200more.html&#34; target=&#34;_blank&#34;&gt;两百所学校的情况：点这里。&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>NetworkX初步：创建网络、提取属性和绘图</title>
       <link>https://chengjun.github.io/zh/post/cn/2014-08-14-networkx-intro/</link>
       <pubDate>Thu, 14 Aug 2014 00:00:00 +0000</pubDate>
@@ -421,704 +631,9 @@ def flowDistanceDT(G): #input a balanced nx graph
     </item>
     
     <item>
-      <title>民国时期的土匪</title>
-      <link>https://chengjun.github.io/zh/post/cn/2011-01-08-bandit-in-the-chinese-of-republic/</link>
-      <pubDate>Sat, 08 Jan 2011 00:00:00 +0000</pubDate>
-      
-      <guid>https://chengjun.github.io/zh/post/cn/2011-01-08-bandit-in-the-chinese-of-republic/</guid>
-      <description>&lt;p&gt;民国时期的土匪（Bandits in Republican China，1988）英国学者贝思飞（Phil Billingsley）历时十年的作品，令人忍俊不禁、倍感亲切的是他边照顾孩子边写作的场景，这在大仲马是根本不可能的，想来贝思飞是一个模范好男人，他试图展现土匪群体的出现与壮大对现实的合理的反应，本书是根据其博士论文为雏形完成的，可见，学术大多是积累起来的。&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://wenshi.dzwww.com/wenhuazhuanti/dzws/sdtf_1/zuixinbaodao/201301/W020130118360470713311.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;毛泽东将土匪归于游民阶层，指出其类似民族资产阶级的两面性和容易动摇的特点，贝思飞则将土匪分为偶尔为匪和惯匪，并将土匪群体分为三种基本类型：单纯的匪帮、综合的匪帮、匪军。&lt;/p&gt;
-
-&lt;p&gt;全书就是以土匪为核心展开的，刻画了匪与农民、军阀、地方政府、兵、绅士、外国人、革命力量之间的立体的关系。从盗足石到童林响马，占山为王的匪在中国历史上并不少见，贝思飞区分了匪帮与秘密社团，指出前者的散漫无常与后者的长期维持的不同之处。&lt;/p&gt;
-
-&lt;p&gt;从&lt;strong&gt;白朗&lt;/strong&gt;到&lt;strong&gt;老洋人&lt;/strong&gt;，&lt;strong&gt;樊钟秀&lt;/strong&gt;，到临城劫车案的&lt;strong&gt;孙美瑶&lt;/strong&gt;，匪在历史上留下了并不华丽却很抢眼的印迹。但究其为匪的原因，贫穷和饥饿是最主要的原因。平原多洪水多饥荒，遂多响马；边界地带三不管，遂多盘踞为匪者。有趣的是，匪的出现和农耕的周期密切相关，农民在春天吃完余粮，高粱高长时出现，到了5月收割小麦的时候消失。&lt;/p&gt;
-
-&lt;p&gt;贝思飞讲到军阀统治时说，军阀统治有一种自身无法延续的悲剧，来自上层的暴力煽动下层的暴力，军阀征丁、牲畜，影响农业生产，入伍之后没有生计之道，遂为匪。形成一个恶性循环。张作霖在吉林大量流失枪支；冯玉祥在甘肃种鸦片引起叛乱；阎锡山在山西，红抢会涌现。河南、山东、江苏、安徽四省交界处形成了土匪中心。军阀割据下的土匪王国形成了一种地缘暴力政治。&lt;/p&gt;
-
-&lt;p&gt;第三章讲了河南的土匪，主要讲了白朗及其后继者老洋人的故事。第一次听说白朗这个名字是在贾平凹的商州夜话一书中，没有想到白朗如此真切的存在过。在大刘庄，在车队，为匪，壮大，迁徙，叛变。一个最成功而传奇的土匪走不出匪之为匪的生命周期。&lt;/p&gt;
-
-&lt;p&gt;衣食足而知荣辱，活不下去才会逼上梁山，去过颠沛流离的生活。匪帮的组成有着内部严密的规则，遵循着残酷的民主。土匪的生活是很凄惨的，他们注重内部的等级制度，为了突出这种等级，他们往往注重服饰，形成差别，这种差别往往到可笑的地步，除了服饰之外，土匪对于女性的态度也值得思索，很多土匪是为了娶老婆才加入土匪的。因为土匪的亡命生涯和土匪的道德劣势，他们对各种言语存在着禁忌，占卜、祈祷在土匪中是很常见的。视金钱如粪土的背后是土匪的生死无常和极度贫穷。&lt;/p&gt;
-
-&lt;p&gt;土匪是一种艰苦而又危险的职业。地方统治是依靠乡绅的，也就是乡土绅士，传统 的乡土中国一直存在着权力不下县的说法：在这些土匪活动的基层地区，绅士、土匪、农民就构成了一个生态系统。地方官作为一个外来人，所关系的是金钱和仕途升迁，此外，他所掌握的少数武装力量使他缺乏对抗土匪的力量。地方官吏普遍的‘始而讳盗，继而纵盗，相习成风。&lt;/p&gt;
-
-&lt;p&gt;兵与匪是相互依存的关系，没有了匪，兵的灰色收入就减少了；兵并不去全力剿匪，往往与匪还存在着默契甚至交易，比如出售枪支。匪与乡绅和农民也保持着辩证的关系，匪存在的主要经济来源来自于乡绅，通过打劫乡绅，匪获得自己的生命线，但当富人消失之后，匪往往退而求其次，压榨中等富裕甚至穷苦的人。&lt;/p&gt;
-
-&lt;p&gt;对于绑票的介绍是十分有意思的，匪自身经常处于行走过程中，因此他们更倾向于绑票而不是抢劫其他不易携带之物，并且经常杀死因生病等不能跟上队伍者。已婚妇女一方面因裹脚，不便行走，并非理想的绑票对象，因为严格的道德对于已婚妇女有着严格的限制；未婚妇女则往往成为绑票对象。肉票还像期货一样在市场上流转，其他匪帮可以购买另一匪帮的肉票，以期勒索更高的价格。匪在绑票方面往往不择手段，儿童也会成为重要的绑票对象。后来，外国人也成为重点绑票的对象，例如&lt;strong&gt;孙美瑶在山东临城的劫车案中绑架外国人跟政府谈判，名利双收&lt;/strong&gt;。除了绑架之外，敲诈也是匪的常用伎俩。&lt;/p&gt;
-
-&lt;p&gt;事实证明匪对乡土有着强烈的依附。兔子不吃窝边草，离开的当地农民的帮助，匪往往会在中央剿匪的围攻下瓦解。例如，白朗杀富济贫使自己的匪在当地受到爱戴，农民往往积极参加其队伍，并为其免费侦查，但是当白朗开始扩大地盘，四处出击之后，往往面临着被当地农民所排斥的困境，尤其是其在甘肃遭遇了回民的排斥。土匪内部也存在着类似老乡的观念，例如&lt;strong&gt;白朗真正信任的人只是大刘乡的同乡&lt;/strong&gt;。这种对乡土的依附和对迁移的不适应成为白朗起义失败的重要原因。此外，土匪的报复性行为往往使农民对匪产生强烈的恐惧和不信任，与传说中的大侠或者说罗宾汉相差甚远。&lt;/p&gt;
-
-&lt;p&gt;随着袁世凯之后的军阀混战，土匪作为军事力量开始成为制度化的军事力量。但是值得注意的是这些土匪的战斗力往往很差，例如冯玉祥的第二、三师面对吴佩孚和张作霖的军队落荒而败，张宗昌的军队面对北伐军毫无抵抗之力。朱德和张作霖都注意到这个问题，后者清理了自己军队中的土匪成分。&lt;/p&gt;
-
-&lt;p&gt;土匪只有利益，没有立场，镇嵩军从推翻清王朝的革命转变为出兵陕西围困冯玉祥，孙美瑶在临城劫车案被招安，去镇压其他匪帮，后被害。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;匪酋中的成功者莫过于张作霖、陆荣廷、杨虎城&lt;/strong&gt;等人了，但大多数土匪头目都在社会的下层挣扎，往往在斗争中落败身亡，即使是聪敏如樊钟秀者在依靠本土的力量发展起来之后始终无法发展壮大，左右摇摆，最终还是失败了。&lt;/p&gt;
-
-&lt;p&gt;兵匪不同于土匪，他们往往来自于解散的军队，具有更强的战斗力，对当地没有土匪那样的感性，往往会更为残酷的对待农民。如老洋人，快速行动，极度破坏，绑架洋人。&lt;/p&gt;
-
-&lt;p&gt;日本为了占领东北，对土匪进行了有效的利用，如扶植张作霖、策划临城劫车案，利用日本浪人小日向白朗（当时成为满洲主要的土匪领袖）化解绑架外国人的事件，使土匪从南满迁到北京，清讨土匪。&lt;/p&gt;
-
-&lt;p&gt;土匪生逢其时，遭遇了辛亥革命、二次革命、大革命、抗日战争、内战，在这个过程中作为地方势力的土匪往往革命的各个力量的游说的对象，很多土匪参与到革命的过程中来，虽然他们都有自己的考虑。白朗在二次革命中支持孙中山，成为袁世凯的眼中钉。游击战的方法和土匪的策略一脉相承，土匪经过军事化改造成为军队的重要来源。在49年之后，大陆仍有大量的土匪存在，经历了几年才完全镇压。&lt;/p&gt;
-
-&lt;p&gt;像大门口的陌生人、中华帝国晚期的叛乱及其敌人、乡土中国一样，土匪一书也提供了我们看待近代史的一种视角，从这个视角里，我们能看到某种一直被我们所忽略的近代史生态链中不可或缺的一部分，他们当然不是这个社会和历史进步抑或退步的决定性力量，在某种程度上，他们一直在转变自己去适应历史的变化，但大多是失败的，然而，他们的确参与了历史过程。
-　　&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>我们能走多远——读王晓明的《鲁迅传》</title>
-      <link>https://chengjun.github.io/zh/post/cn/2009-02-14-read-luxun-in-text/</link>
-      <pubDate>Sat, 14 Feb 2009 00:00:00 +0000</pubDate>
-      
-      <guid>https://chengjun.github.io/zh/post/cn/2009-02-14-read-luxun-in-text/</guid>
-      <description>&lt;p&gt;我不再像先前那样&lt;strong&gt;崇拜&lt;/strong&gt;他了，但我自觉在深层的心理和情感距离上，似乎是离他越来越近；我也不再将他视作一个偶像，&lt;em&gt;他分明就在我们中间，和我们一样在深重的危机中苦苦挣扎。&lt;/em&gt; ——王晓明
-　　&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://chinadigitaltimes.net/chinese/files/2012/12/%E9%B2%81%E8%BF%85.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;自己在网上碰到这本书，就下了下来，但自己对于鲁迅的记忆却局限于高中教科书《社戏》、《从百草园到三味书屋》里面，恰若我们对于马克思同样很无知一样，我们距离这些曾经吸引民族目光的人物似乎很近，但又的确很远。但人生的某个阶段总会有难解的问题，这个时候就只好去走进这些被我们所远离的灵魂。&lt;/p&gt;
-
-&lt;p&gt;鲁迅本姓周，名樟寿，后改为树人：号豫山，后改为豫才。鲁迅是他的笔名，一八八一年九月二十五日出生在绍兴城内周姓望族，祖父周介孚，出身翰林，让鲁迅在启蒙的时候先读历史，而不是四书五经；父亲周伯宜，对鲁迅非常宽厚，允许他读闲书；母亲鲁瑞更是喜欢他。少年鲁迅便生活在这种颇为繁华而宽厚的环境中读书长大，调皮好斗，有着少年所特有的骄傲。但祖父却因为一次科场行贿案下狱，父亲也吐血并终于去世，亲戚便不再对鲁迅家客气，分房子的时候给鲁迅家最差的房子。这种世态炎凉、由繁华转为凄苦的经历很容易让人想到曹雪芹，另一个在中国的晚期封建社会反儒家的困顿的斗士。后来在广州，青年学生问他为什么憎恶旧社会，他回答：“我小的时候，因为家境好，人们看我像王子一样，但是，一旦我家庭发生变故后，人们就把我看成叫花子都不如了，我感到这不是一个人住的社会，&lt;strong&gt;从那时起，我就恨这个社会&lt;/strong&gt;。”今天再思考这个，我们究竟走出去多远呢？市场经济之后，实用主义潮起，我们仿佛又能看到那些忧伤的娜拉了。&lt;/p&gt;
-
-&lt;p&gt;若以&lt;strong&gt;&lt;em&gt;事件史&lt;/em&gt;&lt;/strong&gt;的眼光看个体的人，就要重视他在十八岁的选择，这一年鲁迅乡试成绩为中上等，却因为一个弟弟的夭亡而放弃复试，家境的中落、人情的冷落也使他不能去经商或者像很多绍兴人一样选择去做师爷、幕僚。*如今日高考无望的情况相识，鲁迅只能选择去读江南水师学堂，差不多是免费。*王晓明写到：“可也惟其如此，学生多不愿以本名注册，而要改换姓名，鲁迅那个‘周树人’的名字，就是这样起的。”但不满意学堂教员的无知只好转到路矿学院，1902年，因为没有钱只好争取公费去那个极度自卑并极度自大的在7年前打败中国的地方留学去了，在日本呆了七年，因为日本人的傲慢、侮辱和留日学生的不成器的丑态而痛苦，终于无法忍受，放弃学医转而从文，要医治这个民族的精神状况。但如王晓明所言，“一九0六年初夏，鲁迅返回东京，这时候他已经二十六岁了。&lt;strong&gt;用去了八年的青春，从中国到日本，又从仙台回东京，四处寻求生路，却总是走不通，兜了一个大圈子，还是回到老地方：没有钱，也没有文凭，两手空空，一无所有。&lt;/strong&gt;”在这一点上，马克思比鲁迅幸运多了，至少他在大学阶段找到了自己受用终生的道路——哲学。&lt;/p&gt;
-
-&lt;p&gt;我们已经知道了鲁迅从少年时代就开始大量阅读各种杂书，他应该感谢自己的这种习惯，王晓明描绘了鲁迅的读书状况：林纾翻译的小说一本不落；梁启超主笔的《时务报》几乎是每期必读；他更用心读理论书，严复翻译的《天演论》和《法意》，他是读了又读，还郑重其事地向别人推荐，还曾给周作人推荐约翰•穆勒的《逻辑体系》。以今日状况来看，有多少人真正读过《进化论》和《论法的精神》呢？更不用说小穆勒的书了。尤其是达尔文的理论使鲁迅走出了历史悲观主义关于“今不胜昔”和“一乱一治”的历史循环主义，对于鲁迅来说这不啻是精神革命，正如马克思读了在大学里成为了一个激进的青年黑格尔主义者一样，鲁迅也成了一个“我以我血荐轩辕”的&lt;strong&gt;社会进化论者&lt;/strong&gt;，从仙台来到东京，他毅然剪掉了辫子，严肃地和同学们一起思考民族的问题。&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Tianyanlun.jpg/200px-Tianyanlun.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;话说回来，也许正如张饶庭所说，人本身就是loglinear，是非线性的，总是充满了矛盾。记得我自己更夸张的说过“人即回归”的话，都是一样的，只不过是加入了点宿命的色彩。传统与革命便如此自然地熔铸在鲁迅的遭遇中。热血青年鲁迅在日本思想开始倾向于革命，并且
-*真真正正的加入了光复会*，然而当被要求回国像徐锡麟一样刺杀满清高官的时候，鲁迅却问了句：“如果我被抓住，被砍头，剩下我的母亲，谁负责赡养她呢？”领导收回成命，刺杀遂无疾而终。对此王晓明写道：他不能无条件地相信别人。即便一时冲动，时间稍长，他对卑劣人心的体验，对一切冠冕堂皇的东西的习惯性怀疑。正是在1906年，鲁迅被母亲以生病为由骗回家，娶了朱安，后者曾经拒绝按照鲁迅的意见进入新式学堂读书。鲁迅在婚后第四天就回了日本。&lt;/p&gt;
-
-&lt;p&gt;一九○八年夏天，继续在东京读书学德语。从夏天开始，每星期日往章太炎在东京的寓所，听他讲学，历时大约半年。称章太炎为鲁迅的老师，跟这个有关系吧。1909年，与周作人合译的《域外小说集》第一册出版，不久《域外小说集》第二册出版。为了负担家庭经济，离开日本回国，结束了七年的留学生活。 回国后，就任杭州的浙江两级师范学堂的生理和化学教员，兼任日籍教师的翻译。1910年担任绍兴府中学堂的监学，兼教生物课。1911年，武昌起义爆发，绍兴城内一片混乱，遂应府中学堂学生的请求，回校暂管校务。 带领学生演说队上街宣传革命，安定民心。不久，受新任绍兴军政府都督王金发委任，担任山会初级师范学堂监督。但是，革命并没有给民族带来更多的东西，&lt;strong&gt;革命党的官员一样压抑自由和新思想，鲁迅最终选择离开&lt;/strong&gt;。&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcR6vRD0RnK_-qJXAONWIa6HBFZC0a26H5hSTjbUwtZCSbWHx8gW&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;靠着朋友的推荐、应教育总长蔡元培邀请，去南京中华民国临时政府的&lt;strong&gt;教育部&lt;/strong&gt;任职。从此，逃离绍兴。因教育部北迁，单身前往北京，住进宣武门外的绍兴会馆。 任北洋政府教育部佥事，兼第一科科长。这便是鲁迅中年一次重要选择：为官的仕途之路，所幸收入颇高。但鲁迅虽有怀疑的毛病，却无法接受现实的倾轧，他去研究石刻拓本、抄古碑，他每天上午九、十点钟起床，梳洗后直接去部里办公，到黄昏时返回会馆。吃过晚饭，八点钟开始抄碑，看佛经，读墓志，常常要到半夜一两点钟。对此，王晓明说：对自己的个人幸福，他也不能再抱什么希望了。他刻了一方石章，曰“堂”；又给自己选了一个号，叫做“俟堂”。笔划虽不同，意思是一个，就是“待死堂”。这个时候，鲁迅已经不得不去思考死亡、品味孤独、遭遇自我。生活、婚姻、国家的不顺遂和鲁迅的悲观主义都把他引入到了遭遇虚无的境地。从这个角度上讲，鲁迅和陀思妥耶夫斯基和托尔斯泰是有相近之处的。鲁迅的待死堂和陀思妥耶夫斯基的《死屋手记》中的死屋何其相似。&lt;/p&gt;
-
-&lt;p&gt;对于在五四阶段鲁迅带着面具的呐喊，王晓明直言：对启蒙的信心，他其实比其他人小，对中国的前途，也看得比其他人糟。五四的成功使鲁迅获得了极高的文学声望，“他不再是绍兴会馆里那个默默无闻的“待死”者了，他现在成了大学讲台上的名教授，读者钦慕的名作家。”&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://www.cssn.cn/xr/xr_rwgs/xr_lzp/201402/W020140211348575353353.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;1925年，“鲁迅和女师大的学生许广平等人开始来往，通信日渐频繁，好感逐渐加深，他在感情上，也会不自觉地向这批学生倾斜，于是在五月十二日的《京报副刊》上，他公开表态支持学生，随后又联络其他一些教员，联名宣告反对杨荫榆。”这场纠纷使鲁迅失去了他的官位——章士钊撤了她的职。后来，鲁迅起诉了章士钊重新获得了这个职位。对此王晓明说：从少年时代起，他就吃够了贫困的苦头，他很早就懂得了没有钱，什么事都干不成，在那篇《娜拉走后怎样》的演讲中，他那样强调“经济权”，就正是出于自己的痛苦经验。&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSoJWs2ppOimLhW41hIfvvu2z1FiGmOCZaSEIp501_ezwmqw7vTuA&#34; alt=&#34;章士钊&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;人存在的意义是什么？王晓明说：“人的生存意义，就体现在他人对你的需要之中，即使鲁迅对社会的变革完全失去信心，对自己在这变革中的作用也不存指望，他的精神世界大概仍不会垮掉，还有一根坚固的支柱在支撑着他，那就是他对和睦的家庭生活的期待，对自己作为这个家庭的主要维持者的自豪。” 1923年，鲁迅和羽太信子发生严重的冲突 ，随之和周作人兄弟反目，他就迁往西城的砖塔胡同六十一号。鲁迅对自己的母亲并没有太大的好感，家庭的分裂，更让他陷入了痛苦的深渊之中。&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSdv1vo4wbzR4zgme2uLWOcPfv0rHmUhYeDJvrpjTFl2SWIDf0-vQ&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;鲁迅从人道主义转向了个人主义，由启蒙的悲观主义，转向了存在的虚无主义。俄国作家阿尔志跋绥夫在小说《工人绥惠略夫》中，以主人公绥惠略夫表现的一种思想，用鲁迅的话说，就是“要救群众，而反被群众所迫害，终至成了单人，忿激之余，一转而仇视一切，无论对谁都开枪，自己也归于毁灭。” 王晓明写到：从启蒙者的悲观和绝望，从对尼采和绥惠略夫的共鸣和认同，鲁迅一步步走进了虚无感。&lt;/p&gt;
-
-&lt;p&gt;鲁迅在虚无主义的鬼气中滑落的太远，但1925年，他还是找打了一个缺口：对女人的爱情，逃了出来。这一年他和许广平相爱了，许并不漂亮，但对于新思想、自由、革命的坚毅鼓舞了鲁迅。26年，鲁迅到厦门大学任教，后来又去了广州中山大学，此刻许广平已经陪伴在他身边了。因为老对手顾颉刚要到中大，鲁迅和许广平便到了上海。王晓明写道：“从某种意义上讲，鲁迅和许广平相爱而终于同居，在上海建立新的家庭，是他一生中最有光彩的举动。正是在这件事情上，他充分表现了生命意志的执拗的力量，表现了背叛传统礼教的坚决的勇气，表现了一个现代人追求个人自由的个性风采。但是，也恰恰在这件事情上，他内心深处的软弱和自卑，他对传统道德的下意识的认同，他对社会和人性的根深蒂固的不信任，都表现得格外触目。一个人一旦相信爱情，就不再是虚无主义者。”&lt;/p&gt;
-
-&lt;p&gt;鲁迅的人生是在上海画上终点的，在这个时期，鲁迅不断遭遇到华盖运。早期，鲁迅是要医治民族性，对大众，他是轻蔑的，他依靠知识分子的，尤其是学生，但人生的种种遭遇却使他不断看到知识分子的局限性，读了一些马克思主义的东西之后，鲁迅转而提出大众才是推动历史变革者。但是这与他素有的思想是矛盾的。终于，他提出了新知识分子的说法。“一九三二年底，他第二次回北京探望母亲，去北京女子文理学院和北京师范大学演讲，都特别挑起知识阶级会不会灭亡的话题，反复强调说，有一种新的知识者，他们与群众结合，反对个人主义，能够把握住实际人生，因此在将来仍能生存。”&lt;/p&gt;
-
-&lt;p&gt;一九三０年五月，他发起成立了左联的筹备会。他刚刚和共产党人结盟，共产党的一位领导人李立三，就秘密约见他，要他以周树人的名字写一篇骂蒋介石的文章，被鲁迅婉言拒绝。虽然他倾向于共产党，但他同样厌恶成仿吾和周扬那一类共产党人。&lt;/p&gt;
-
-&lt;p&gt;在生命中的最后一年，1936年，鲁迅写了《死》，显示出一种非常特别的态度：既不回避，也不设法改造，就站在那里谈论自己的死。十月十九日，上午五时二十五分逝世。&lt;/p&gt;
-
-&lt;p&gt;这便是鲁迅的一生，一个对我们来说应该熟悉、但其实显然十分陌生的人生，我们在他的身上看到了太多的矛盾，看到了存在主义哲学对人生的思考的深刻的印记。处于一个悲剧似的、似乎看不到希望地转折的时代，鲁迅经历了人生中的种种波折，大到祖国，中到家庭，小到个人，没有一个顺遂人心，这个小个子、坏脾气、多疑的人，在那个时代里耗尽了自己的所有生命力。鲁迅在他的人生的当中不可避免的遭遇虚无，国家风雨飘摇、鸡鸣不已，大众是冷漠的、愚蠢的群体，少年家道中落，慈母是误进的毒药，朱安是无法交流的对象，和弟弟周作人虽志趣相近却终于反目，最后自己所倾向的知识分子也多靠不住。鲁迅的幸运是青少年时的广泛读书、留学日本的经历、加入光复会的经验、许广平的爱情和共产主义的发展。&lt;/p&gt;
-
-&lt;p&gt;鲁迅故去93年了，我们已经从鲁迅的铁屋走出了很远，但我们绝大多数人对鲁迅的认识依然很浅薄。娜拉出走之后怎样？我们挣脱了一个旧的世界，我们又能走多远？鲁迅今日若在，他又能写写什么呢？鲁迅说：“跨过那站着的前人。”我们真的超越了吗？&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Echarts使用简介</title>
-      <link>https://chengjun.github.io/zh/post/cn/2015-01-10-myecharts/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://chengjun.github.io/zh/post/cn/2015-01-10-myecharts/</guid>
-      <description>&lt;p&gt;昨天听谈和讲解了echarts的使用，他的讲解非常直接简单，就是直接修改echarts的实例。之后，我发现林峰将echarts的实例的html代码写得非常复杂，但其实单独调用一个js的时候，却非常简单。具体做法如下：&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;准备工作：建立一个js子文件夹，将esl，echarts，pie，bar，map等各种js放入其中。在js文件夹外新建一个空的html文件。&lt;/li&gt;
-&lt;li&gt;首先，调用esl.js，它提供了echarts图片的载体。&lt;/li&gt;
-&lt;li&gt;其次，使用require方法调用echarts.js和具体使用的类型图的js（比如map.js）。&lt;/li&gt;
-&lt;li&gt;再次，输入需要输入的数据。&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;最后，封装。&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;    &amp;lt;!DCOTYPE html&amp;gt;
-    &amp;lt;html&amp;gt;
-        &amp;lt;head&amp;gt;
-            &amp;lt;meta charset=&amp;quot;utf-8&amp;quot;&amp;gt;
-            &amp;lt;title&amp;gt;echarts testing page&amp;lt;/title&amp;gt;
-            &amp;lt;script src=&amp;quot;./js/esl.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;
-            &amp;lt;script src=&amp;quot;./js/echarts.js&amp;quot; type=&amp;quot;text/javascript&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;
-        &amp;lt;/head&amp;gt;
-        &amp;lt;body&amp;gt;
-            &amp;lt;div id=&amp;quot;main&amp;quot; style=&amp;quot;height:400px;&amp;quot;&amp;gt;&amp;lt;/div&amp;gt;
-            &amp;lt;script type=&amp;quot;text/javascript&amp;quot;&amp;gt;
-                require.config({
-                    paths:{
-                        &amp;quot;echarts&amp;quot;:&amp;quot;js/echarts&amp;quot;,
-                        &amp;quot;echarts/chart/map&amp;quot;:&amp;quot;js/map&amp;quot;
-                    }
-                });
-
-                //using
-                require(
-                    [
-                        &amp;quot;echarts&amp;quot;,
-                        &amp;quot;echarts/chart/map&amp;quot;
-                    ],
-                    function(ec){
-                        var myChart=ec.init(document.getElementById(&amp;quot;main&amp;quot;));  
-                        &amp;lt;!--Input your code below--&amp;gt;                    
-
-                        &amp;lt;!--Input your code above--&amp;gt;                    
-                //loading data
-                        myChart.setOption(option);
-                    }
-                );
-            &amp;lt;/script&amp;gt;
-        &amp;lt;/body&amp;gt;
-    &amp;lt;/html&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;##弦图
-&lt;a href=&#34;http://chengjun.github.io/myecharts/chord.html&#34; target=&#34;_blank&#34;&gt;http://chengjun.github.io/myecharts/chord.html&lt;/a&gt;&lt;/p&gt;
-
-&lt;iframe src=&#39;http://chengjun.github.io/myecharts/chord.html&#39; scrolling=&#34;no&#34; width=&#34;600&#34; height = &#34;400&#34;&gt;&lt;/iframe&gt;
-
-&lt;p&gt;##柱状图
-&lt;a href=&#34;http://chengjun.github.io/myecharts/bar.html&#34; target=&#34;_blank&#34;&gt;http://chengjun.github.io/myecharts/bar.html&lt;/a&gt;&lt;/p&gt;
-
-&lt;iframe src=&#39;http://chengjun.github.io/myecharts/bar.html&#39; scrolling=&#34;no&#34; width=&#34;600&#34; height = &#34;400&#34;&gt;&lt;/iframe&gt;
-
-&lt;p&gt;##饼图
-&lt;a href=&#34;http://chengjun.github.io/myecharts/pie1.html&#34; target=&#34;_blank&#34;&gt;http://chengjun.github.io/myecharts/pie1.html&lt;/a&gt;&lt;/p&gt;
-
-&lt;iframe src=&#39;http://chengjun.github.io/myecharts/pie1.html&#39; scrolling=&#34;no&#34; width=&#34;600&#34; height = &#34;400&#34;&gt;&lt;/iframe&gt;
-
-&lt;p&gt;##线图
-&lt;a href=&#34;http://chengjun.github.io/myecharts/line1.html&#34; target=&#34;_blank&#34;&gt;http://chengjun.github.io/myecharts/line1.html&lt;/a&gt;&lt;/p&gt;
-
-&lt;iframe src=&#39;http://chengjun.github.io/myecharts/line1.html&#39; scrolling=&#34;no&#34; width=&#34;600&#34; height = &#34;400&#34;&gt;&lt;/iframe&gt;
-
-&lt;p&gt;##地图
-&lt;a href=&#34;http://chengjun.github.io/myecharts/map9.html&#34; target=&#34;_blank&#34;&gt;http://chengjun.github.io/myecharts/map9.html&lt;/a&gt;&lt;/p&gt;
-
-&lt;iframe src=&#39;http://chengjun.github.io/myecharts/map9.html&#39; scrolling=&#34;no&#34; width=&#34;600&#34; height = &#34;400&#34;&gt;&lt;/iframe&gt;
-
-&lt;p&gt;##力图&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://chengjun.github.io/myecharts/force2&#34; target=&#34;_blank&#34;&gt;http://chengjun.github.io/myecharts/force2&lt;/a&gt;&lt;/p&gt;
-
-&lt;iframe src=&#39;http://chengjun.github.io/myecharts/force2.html&#39; scrolling=&#34;no&#34; width=&#34;600&#34; height = &#34;400&#34;&gt;&lt;/iframe&gt;
-
-&lt;p&gt;##后记
-发现chrome无法加载，再加入了以下代码后就可以使用了。可惜用了整整一个上午才更正这个问题。&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;        &amp;lt;script src=&amp;quot;./js/echarts.js&amp;quot; type=&amp;quot;text/javascript&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Parsing Githubarchive Data using Python</title>
-      <link>https://chengjun.github.io/zh/post/cn/2016-06-18-parsing-githubarchive-json/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://chengjun.github.io/zh/post/cn/2016-06-18-parsing-githubarchive-json/</guid>
-      <description>&lt;p&gt;Githubarchive整理了github的历史数据，每一个小时一个数据文件，我下载了2011-2014年四年的数据，结果发现2012年的多数数据存在错误换行的问题，需要清洗。一般而言，正确的情况是一个字典格式的数据占一行，错误的情况就会是所有的字典格式的数据合并为了一行。似乎是缺乏换行符造成的。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://stackoverflow.com/questions/10432432/yajl-parse-error-with-githubarchive-org-json-stream-in-python#&#34; target=&#34;_blank&#34;&gt;http://stackoverflow.com/questions/10432432/yajl-parse-error-with-githubarchive-org-json-stream-in-python#&lt;/a&gt; 这里详细记录了这个问题。&lt;/p&gt;
-
-&lt;p&gt;按照这个帖子，我尝试了很多方法，yajl和ijson，但是都不能很优雅的解决我的问题。不妨采用暴力的方法。&lt;/p&gt;
-
-&lt;p&gt;rirwin利用了{和}出现的偶数关系来分割字符串，但是这种方法容易遗漏数据且速度较慢。&lt;/p&gt;
-
-&lt;p&gt;仔细思考这个问题就是：Parse multiple json objects that are in one line。 搜索之，发现了&lt;a href=&#34;http://stackoverflow.com/questions/36967236/parse-multiple-json-objects-that-are-in-one-line&#34; target=&#34;_blank&#34;&gt;http://stackoverflow.com/questions/36967236/parse-multiple-json-objects-that-are-in-one-line&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;其中，Francesco的解决方法比较高效：&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;f = &#39;/Users/chengjun/百度云同步盘/githubarchive/2012-03-10-22.json.gz&#39;
-f = gzip.open(f, &#39;rb&#39;)
-f = f.readline()
-r = re.split(&#39;(\{.*?\})(?= *\{)&#39;, f)
-accumulator = &#39;&#39;
-res = []
-for subs in r:
-    accumulator += subs
-    try:
-        res.append(json.loads(accumulator))
-        accumulator = &#39;&#39;
-    except:
-        pass
-len(res)
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;Out [29]: 1270&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;基于这种方法，可以写一个函数来实现对于数据的正确读取。&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;#f = &#39;/Users/chengjun/百度云同步盘/test.json&#39;
-#f = open(f)
-
-f = &#39;/Users/chengjun/百度云同步盘/githubarchive/2012-06-01-15.json.gz&#39;
-f = gzip.open(f, &#39;rb&#39;)
-files = f.readlines()
-length = len(files)
-if  length &amp;gt; 1:
-    print &#39;Correct: &#39; + str(length)
-else:
-    f2 = files[0]
-    r = re.split(&#39;(\{.*?\})(?= *\{)&#39;, f2)
-    r = [i for i in r if i] # delete the &#39;&#39;
-    accumulator = &#39;&#39;
-    acts = []
-    for subs in r:
-        accumulator += subs
-        try:
-            acts.append(json.loads(accumulator))
-            accumulator = &#39;&#39;
-        except Exception, e:
-            print e
-            pass
-    print &#39;Wrong: &#39; + str(len(acts))
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;Out [30]: Wrong: 4491&lt;/p&gt;
-&lt;/blockquote&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>QAP检验：计算两个网络的关联</title>
-      <link>https://chengjun.github.io/zh/post/cn/2013-08-04-qap-test-of-network-analysis/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://chengjun.github.io/zh/post/cn/2013-08-04-qap-test-of-network-analysis/</guid>
-      <description>
-
-&lt;h3 id=&#34;qap检验-两个网络之间的关联&#34;&gt;QAP检验：两个网络之间的关联&lt;/h3&gt;
-
-&lt;p&gt;通常一组个体具有多种类型的关系，例如友谊关系和经济往来关系。我们通常会对这两种网络关系在多大程度上相互关联感兴趣。当我们知道一组个体之间的两种关系网络，我们就可以计算这个两个关系网络之间的相关程度。在统计学当中，皮尔森相关系数是用来反映两个变量线性相关程度的统计量。与之类似，对于由一组个体所组成的两个网络，也可以计算其相应的相关皮尔逊相关系数。当然，还可以计算其他你感兴趣的统计量，如协相关系数。&lt;/p&gt;
-
-&lt;p&gt;我们使用sna这个R软件包来计算网络相关系数（并调用qaptest命令）。通过安装和使用statnet这个R软件包，就会自动加载sna等子软件包。另外，statnet当中还集成了其他的几个相关的R软件包，包括进行动态网络建模的tergm子软件包。&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;# R程序11-8：计算网络的皮尔逊相关系数
-install.packages(&amp;quot;statnet&amp;quot;)
-library(statnet)  
-# 首先随机生成3个由10个节点构成的有向网络
-g=array(dim=c(3,10,10))
-g[1,,] = rgraph(10) 
-g[2,,] = rgraph(10,tprob=g[1,,]*0.8) # 设置g1和g2两个网络强相关
-g[3,,] = 1; g[3,1,2] = 0 # g3接近于一个派系（clique）
-# 绘制这3个网络
-par(mfrow=c(1,3))
-for(i in 1:3) {
-    gplot(g[i,,],usecurv=TRUE, mode = &amp;quot;fruchtermanreingold&amp;quot;, 
-          vertex.sides=3:8)}
-#计算网络的相关矩阵
-gcor(g)
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;在通常使用皮尔逊相关系数的时候，可以用t统计量对总体相关系数为0的原假设进行检验。但在计算网络的相关系数（graph correlations）时，经典的零假设检验方法往往会带来偏差，因而并不适用。通常使用非参数检验的方法，比如QAP(Quadratic Assignment Procedure)检验。&lt;/p&gt;
-
-&lt;p&gt;矩阵的随机排列（Random matrix permutations）是QAP检验的关键部分，在子软件包sna中主要通过rmperm来进行。通过矩阵的随机排列，可以对网络中的节点编号（而不是链接！！）进行随机置换（relabelling）或重新“洗牌”（reshuffling），并得到&lt;strong&gt;一组&lt;/strong&gt;（比如1000个）重连后的网络。因为只是置换节点，这种操作只是重新标记节点的编号（relabelling）。&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;# R程序11-9：矩阵的随机置换方法
-j = rgraph(5) # 随机生成一个网络
-j  #看一下这个网络的矩阵形式
-rmperm(j) #随机置换后的网络的矩阵形式
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;对这一组重构的网络可以计算其网络级别的参数（如两个网络的相关参数，协相关参数），并因此得到&lt;strong&gt;一个参数分布&lt;/strong&gt;。QAP检验的零假设是实际观测到的网络参数（如）来自于这&lt;strong&gt;一个参数分布&lt;/strong&gt;。也就是说，原假设认为这种观测到的相关关系是由随机因素带来的，因而这种网络相关并不显著。拒绝原假设，就从统计的角度证明了观测到的网络相关系数是显著的。&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;# R程序11-10：QAP检验
-q.12 = qaptest(g, gcor, g1 = 1, g2 = 2)
-q.13 = qaptest(g, gcor, g1 = 1, g2 = 3)   
-# 看一下QAP输出的结果
-par(mfrow=c(1,2))
-summary(q.12)
-plot(q.12)
-# 拒绝原假设，图1和图2显著相关
-summary(q.13)
-plot(q.13)
-# 接受原假设，图1和图3不相关
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;在检验这个关于两个网络是否存在相关的零假设的时候，我们计算置换后的参数分布中大于这个实际观测到的参数的比例，以及小于这个实际观测到的参数的比例。QAP检验返回实际数据中观测到的参数f(d)、通过置换所得到的参数f(perm)的数学分布、以及单尾的P值。其中单尾的p值包括两种情况：p(f(perm) &amp;gt;= f(d))和p(f(perm) &amp;lt;= f(d))。&lt;/p&gt;
-
-&lt;p&gt;其中P(f(perm) &amp;gt;= f(d))表示随机置换矩阵的相关系数的大于与等于观测值的p值，也就是本研究的检验显著性。一般而言，当p(f(perm) &amp;gt;= f(d))小于p(f(perm) &amp;lt;= f(d))时，拒绝原假设。&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>“众说纷纭”抑或“一言九鼎”？——以卡扎菲官邸攻陷事件在新浪微博上的信息扩散为例</title>
-      <link>https://chengjun.github.io/zh/post/cn/2011-08-22-gaddafi-diffusion/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://chengjun.github.io/zh/post/cn/2011-08-22-gaddafi-diffusion/</guid>
-      <description>&lt;p&gt;本文载于《传媒透视》&lt;/p&gt;
-
-&lt;p&gt;作者：王成军、张昕之 （作者皆为 香港城市大学 媒体与传播系 博士候选人）&lt;/p&gt;
-
-&lt;p&gt;2011年8月22日，利比亚反对派军队攻占卡扎菲官邸。初传卡扎菲被击毙，后又有消息称，卡扎菲实已经密道逃亡，截止本文完成之时（8月27日），仍无其最新下落。&lt;/p&gt;
-
-&lt;p&gt;如今微博已成为普通受众获知新闻、分享内容、沟通友人的重要渠道。利比亚内战一事在微博上迅速成为热门话题。然而微博用户众多，每个人的职业、地域、社会经济地位、社会网络、认知水平乃至动机，均有参差。尽管每个人用户都看似卷入了对重大事件的讨论，但是其发言的“质量”（如逻辑、可信度等）值得商榷。同时，微博有“V认证”以标识媒体工作者、社会名流、公共知识分子等人。这些人或因粉丝众多、或因观点犀利、或因独家爆料，其发言常被众多用户转发或评论，比起普通用户的“众说纷纭”，可谓“一言九鼎”。那么，事件发生后，在一个特定的微博用户群中，究竟是每个人平等参与了新闻的讨论和扩散抑或仅有几个活跃用户推进参与讨论的过程？新闻的信源与信息发布者之间、活跃用户与其粉丝之间、粉丝与粉丝之间——的互动关系在某个特定时间段表现为何种形式？&lt;/p&gt;
-
-&lt;p&gt;为回答以上问题，作为一个探索研究，本文采用新浪微博API，抓取短短4分钟内（2011/8/22 15:06—15:10）所有新浪微博上对于卡扎菲官邸攻陷事件的信息发布、转发、评论，共计738条微博。四分钟的信息流，处于信息扩散阶段的一个短暂的瞬间，因而无法窥见整体层面的信息扩散规律。但因所采集的数据为随着时间有规律增长的宏大信息流的片段，同样可能起到窥一斑而见全豹的目的，其独特意义在于：海量数据流给信息处理和网络抽样带来巨大挑战，面对庞大的关系数据，传统统计方法不再适用；了解瞬间的数据流的特点是理解海量信息流的基础。本文从“瞬间数据流”的整体（而非样本）出发，探究其内在特点，可为网络舆论研究提供新视角。抛开技术的细枝末节，我们有四个重要发现:&lt;/p&gt;
-
-&lt;p&gt;##发现一：自发性信息推荐群体的出现：从“自说自话”到“信息推荐”
-738条微博信息中，转发的内容达262条，占三成，剩余约三分之二为原创新内容（476条）。主动的受众积极地转载来自其他渠道的信息。例如，其中有152条微博带有网络链接，30条提及电视台，26条提及路透社，23条提及齐鲁晚报。这表明有一个活跃的、自发性的“信息推荐群体”存在着，他们看似“自言自语”的原创微博发挥着信息推荐的作用。&lt;/p&gt;
-
-&lt;p&gt;##发现二： “一言九鼎”的“舆论领袖”
-在短短4分钟内，就有44条帖子被转发262次，平均每条帖子被转发6次。最多的一条帖子——华尔街日报关于卡扎菲倒、油价可能上涨的消息,在四分钟内被转发了43次；该消息发布于本研究抓取数据一个小时前的14:18， 一个小时中累计被转发290次，被评论105次。四分钟内转发数量超过9条的微博客用户，主要为媒体、媒体评论人，几乎全是加V的新浪认证用户（只有 “愤青3D”例外），并具有超过百万的粉丝数量。转发情况如图1。&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://farm4.staticflickr.com/3679/12744680075_2d9d4fbbcc_o.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;图 1 微博用户及其微博被转发次数（Top 10）&lt;/p&gt;
-
-&lt;p&gt;##发现三：活跃的信息转发者：多次转发同一条信息的个体
-本文分析了信息转发的网络关系，该有向网络由99个节点构成，拥有262条边，然而出乎意料的是这仅仅构成了一个稀疏的信息扩散网络：该网络的网络密度仅为0.027。网络密度衡量的是网络中真实存在的边与可能存在的边的数量的比值，本转发网络密度(0.027)低于期望值（0.054），说明有些节点之间存在多条链接，即某一个特定人物发布的某一条重要的信息，被“同一个转发者”多次转发。比如新闻评论人李承鹏所发的一条微博在4分钟内被转发15次。这15次并非被15个人“一人转发一次”，而是其中被一个ID为“古火拉兹-五毛”的人转发高达9次之上，剩下的几次由另两个ID（“慧-丽” 和“跪下去求婚站起来演说”）所转发。&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://farm6.staticflickr.com/5515/12745135864_4561dbd471_o.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;图 2  微博转发网络（箭头代表信息流动方向）&lt;/p&gt;
-
-&lt;p&gt;##发现四: 原创型微博和被转发微博的语义网络：经济的还是政治的？
-上文中我们提到了两类微博：一是“推荐者”们原创的微博，二是意见领袖被转发的微博。为粗略地比较两类微博内容的区别，本文对这四分钟内抽取的微博内容，通过提取高频词，构建语义网络进行分析。发现：两类微博除了都关注新闻事件本身的基本经过、“5W”之外，“原创”微博关注政治及社会自由方面（图3）， 而社会名人被转发的微博主要针对新闻事件对经济的影响（图4）。&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://farm4.staticflickr.com/3830/12744833063_a14400925f_o.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;图 3原创型微博的语义网络&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://farm8.staticflickr.com/7423/12744697025_08edbc3340_o.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;图 4 被转发微博的语义网络&lt;/p&gt;
-
-&lt;p&gt;##总结
-本例中，微博资讯的传播和扩散主要始于少数的意见领袖，跨国大型新闻机构亦是主要消息来源。微博时代，传统媒体如果善用网络平台仍可成为主要的信息来源。作为信息聚合作用的草根媒体开始出现，并扮演对传统媒体之信息进行过滤的把关人角色。此外，一些知名的草根ID通过自身的独特定位和宣传包装技巧，同样开始广泛的发挥舆论领袖的作用。值得注意的是，公共讨论和自言自语相互结合的原创类型微博占到了信息流的主体。“自媒体”从“自广播”开始起步，普通的微博使用者开始运用微博转载新闻、表明态度，使得微博成为孕育公共讨论的新机制。这种底层的广泛的信息转载虽然在四分钟内未获得转发，但在其各自子群中，都扮演着信息推荐者的角色。&lt;/p&gt;
-
-&lt;p&gt;最后，作为一个探索性的研究，后续研究仍需要大量的文献梳理和技术支持。未来可以考量更为漫长的时间段内信息的扩散过程。另外，对制度性的不同话语主体之间（如政府、媒介、国际机构等）的互动，不同类型事件、乃至国内（敏感新闻、突发新闻更甚）新闻的扩散机制——凡此种种，均可成为后续研究之鉴。&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>东风夜放花千树：对宋词进行主题分析初探</title>
-      <link>https://chengjun.github.io/zh/post/cn/2013-09-27-topic-modeling-of-song-peom/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://chengjun.github.io/zh/post/cn/2013-09-27-topic-modeling-of-song-peom/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;http://forum.eedu.org.cn/upload/2008/02/27/90815055.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;邱怡轩在统计之都中展示了对宋词进行的分析（参见&lt;a href=&#34;http://cos.name/tag/%E5%AE%8B%E8%AF%8D/），因为当时缺乏中文分词的工具，他独辟蹊径，假设宋词中任意两个相邻的汉字构成一个词语，进而找到了宋词当中的高频词。本文则尝试使用他所提供的宋词语料（http://cos.name/wp-content/uploads/2011/03/SongPoem.tar.gz），分析一下使用R进行中文分词、构建词云、高频词语聚类以及主题模型分析。&#34; target=&#34;_blank&#34;&gt;http://cos.name/tag/%E5%AE%8B%E8%AF%8D/），因为当时缺乏中文分词的工具，他独辟蹊径，假设宋词中任意两个相邻的汉字构成一个词语，进而找到了宋词当中的高频词。本文则尝试使用他所提供的宋词语料（http://cos.name/wp-content/uploads/2011/03/SongPoem.tar.gz），分析一下使用R进行中文分词、构建词云、高频词语聚类以及主题模型分析。&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;首先要载入使用的R包并读入数据。&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;library(Rwordseg)
-require(rJava)
-library(tm)
-library(slam)
-library(topicmodels)
-library(wordcloud)
-library(igraph)
-setwd(&amp;quot;D:/github/text mining/song&amp;quot;) # 更改为你的工作路径，并存放数据在此。
-txt=read.csv(&amp;quot;SongPoem.csv&amp;quot;,colClasses=&amp;quot;character&amp;quot;)
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;{:lang=&amp;ldquo;ruby&amp;rdquo;}&lt;/p&gt;
-
-&lt;p&gt;然后进行对数据的操作。当然，第一步是进行中文分词，主要使用Rwordseg这个R包，其分词效果不错。分词的过程可以自动去掉标点符号。&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;poem_words &amp;lt;- lapply(1:length(txt$Sentence), function(i) segmentCN(txt$Sentence[i], nature = TRUE))
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;{:lang=&amp;ldquo;ruby&amp;rdquo;}&lt;/p&gt;
-
-&lt;p&gt;然后，我们将数据通过tm这个R包转化为文本-词矩阵（DocumentTermMatrix）。
-    wordcorpus &amp;lt;- Corpus(VectorSource(poem_words), encoding = &amp;ldquo;UTF-8&amp;rdquo;) # 组成语料库格式&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;Sys.setlocale(locale=&amp;quot;Chinese&amp;quot;)
-dtm1 &amp;lt;- DocumentTermMatrix(wordcorpus,
-                          control = list(
-                            wordLengths=c(1, Inf), # to allow long words
-                            bounds = list(global = c(5,Inf)), # each term appears in at least 5 docs
-                            removeNumbers = TRUE, 
-                            # removePunctuation  = list(preserve_intra_word_dashes = FALSE),
-                            weighting = weightTf, 
-                            encoding = &amp;quot;UTF-8&amp;quot;)
-)
-
-colnames(dtm1)
-findFreqTerms(dtm1, 1000) # 看一下高频词
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;{:lang=&amp;ldquo;ruby&amp;rdquo;}&lt;/p&gt;
-
-&lt;p&gt;这里需要注意的是，这里我们默认词语的长度为1到无穷大，稍后，我们可以对其长度进行修改。例如，本文中，作者对改为长度为2以上以及长度为3以上，分别得到另外两个文本-词矩阵：dtm2和dtm3。随后，我们可以在文本-词矩阵进行一系列的分析。这里，先做一个简单的词云分析。为更好展示效果，最多只列出100个词。&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;m &amp;lt;- as.matrix(dtm1)
-v &amp;lt;- sort(colSums(m), decreasing=TRUE)
-myNames &amp;lt;- names(v)
-d &amp;lt;- data.frame(word=myNames, freq=v)
-par(mar = rep(2, 4))
-
-png(paste(getwd(), &amp;quot;/wordcloud50_&amp;quot;,  &amp;quot;.png&amp;quot;, sep = &#39;&#39;), 
-    width=10, height=10, 
-    units=&amp;quot;in&amp;quot;, res=700)
-
-pal2 &amp;lt;- brewer.pal(8,&amp;quot;Dark2&amp;quot;)
-wordcloud(d$word,d$freq, scale=c(5,.2), min.freq=mean(d$freq),
-          max.words=100, random.order=FALSE, rot.per=.15, colors=pal2)
-dev.off()
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;{:lang=&amp;ldquo;ruby&amp;rdquo;}&lt;/p&gt;
-
-&lt;p&gt;我们可以看一下效果，如下图所示，主要是一个字长度的词。最多的是“人”和“不”， 然后是“春”和“花”。&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://farm6.staticflickr.com/5480/9953518693_004590d6e3_z.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;但我们也许对长度大于2的词以及长度大于3的词更感兴趣（同时这样也可以和邱怡轩做的结果做一下比较）。使用前面步骤中生成的dtm2重复构建词云的R程序，我们可以得到以下两个词云：&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://farm3.staticflickr.com/2821/9953413634_9a0d9020f7_z.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;同样，对dtm3构建词云，效果如下：&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://farm8.staticflickr.com/7442/9953417766_8e6f160461_z.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;以上结果和邱怡轩得到的结果类似，可见对高频词的处理方面，他的方法的确有创见。对词云分析之后，我们还可以尝试根据词与词之间共同出现的概率对词进行聚类。这里我们展示长度大于2的词的聚类结果。&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;dtm01 &amp;lt;- weightTfIdf(dtm2)
-N = 0.9
-dtm02 &amp;lt;- removeSparseTerms(dtm01, N);dtm02
-# 注意，为展示方便，这里我调节N的大小，使得dtm02中的词语数量在50左右。    
-tdm = as.TermDocumentMatrix(dtm02)
-tdm &amp;lt;- weightTfIdf(tdm)
-# convert the sparse term-document matrix to a standard data frame
-mydata.df &amp;lt;- as.data.frame(inspect(tdm))
-mydata.df.scale &amp;lt;- scale(mydata.df)
-d &amp;lt;- dist(mydata.df.scale, method = &amp;quot;euclidean&amp;quot;) # distance matrix
-fit &amp;lt;- hclust(d, method=&amp;quot;ward&amp;quot;)
-
-png(paste(&amp;quot;d:/chengjun/honglou/honglou_termcluster_50_&amp;quot;, &amp;quot;.png&amp;quot;, sep = &#39;&#39;), 
-    width=10, height=10, 
-    units=&amp;quot;in&amp;quot;, res=700)
-plot(fit) # display dendogram?
-dev.off()
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;{:lang=&amp;ldquo;ruby&amp;rdquo;}&lt;/p&gt;
-
-&lt;p&gt;对长度大于2的词的聚类结果如下图所示，可见宋词的确注重“风流倜傥”，连分类都和风向有关系。&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://farm3.staticflickr.com/2875/9953397625_abdc6e9874_z.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;当然读者还可以尝试对长度大于1词和长度大于3的词聚类，对长度大于1词聚类的效果图如下所示：&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://farm6.staticflickr.com/5548/9953397345_05a8944455_z.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;长度大于3的词聚类结果如下：&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://farm8.staticflickr.com/7375/9953419256_f80a00e9e8_z.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;完成这一步之后，作者还尝试对宋词进行简单的主题模型分析，首先还是从长度大于2的词开始吧。第一步是确定主题的数量。先对文本-词矩阵进行简单处理，以消除高频词被高估和低频词被低估的问题。&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;dtm = dtm2
-term_tfidf &amp;lt;-tapply(dtm$v/row_sums(dtm)[dtm$i], dtm$j, mean) * log2(nDocs(dtm)/col_sums(dtm &amp;gt; 0))
-l1=term_tfidf &amp;gt;= quantile(term_tfidf, 0.5)       # second quantile, ie. median
-dtm &amp;lt;- dtm[,l1]
-dtm = dtm[row_sums(dtm)&amp;gt;0, ]; dim(dtm) # 2246 6210
-summary(col_sums(dtm))
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;{:lang=&amp;ldquo;ruby&amp;rdquo;}&lt;/p&gt;
-
-&lt;p&gt;之后就可以正式地开始确定主题数量的R程序了。这里，笔者主要参考了朱雪宁《微博名人那些事儿》一文中的R程序（&lt;a href=&#34;http://cos.name/2013/08/something_about_weibo/）。&#34; target=&#34;_blank&#34;&gt;http://cos.name/2013/08/something_about_weibo/）。&lt;/a&gt;&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;fold_num = 10
-kv_num =  c(5, 10*c(1:5, 10))
-seed_num = 2003
-try_num = 1
-
-smp&amp;lt;-function(cross=fold_num,n,seed)
-{
-  set.seed(seed)
-  dd=list()
-  aa0=sample(rep(1:cross,ceiling(n/cross))[1:n],n)
-  for (i in 1:cross) dd[[i]]=(1:n)[aa0==i]
-  return(dd)
-}
-
-selectK&amp;lt;-function(dtm,kv=kv_num,SEED=seed_num,cross=fold_num,sp) # change 60 to 15
-{
-  per_ctm=NULL
-  log_ctm=NULL
-  for (k in kv)
-  {
-    per=NULL
-    loglik=NULL
-    for (i in 1:try_num)  #only run for 3 replications# 
-    {
-      cat(&amp;quot;R is running for&amp;quot;, &amp;quot;topic&amp;quot;, k, &amp;quot;fold&amp;quot;, i,
-          as.character(as.POSIXlt(Sys.time(), &amp;quot;Asia/Shanghai&amp;quot;)),&amp;quot;\n&amp;quot;)
-      te=sp[[i]]
-      tr=setdiff(1:dtm$nrow, te) # setdiff(nrow(dtm),te)  ## fix here when restart r session
-
-      # VEM = LDA(dtm[tr, ], k = k, control = list(seed = SEED)),
-      # VEM_fixed = LDA(dtm[tr,], k = k, control = list(estimate.alpha = FALSE, seed = SEED)),
-
-      #       CTM = CTM(dtm[tr,], k = k, 
-      #                 control = list(seed = SEED, var = list(tol = 10^-4), em = list(tol = 10^-3)))  
-      #       
-      Gibbs = LDA(dtm[tr,], k = k, method = &amp;quot;Gibbs&amp;quot;,
-                  control = list(seed = SEED, burnin = 1000,thin = 100, iter = 1000))
-
-      per=c(per,perplexity(Gibbs,newdata=dtm[te,]))
-      loglik=c(loglik,logLik(Gibbs,newdata=dtm[te,]))
-    }
-    per_ctm=rbind(per_ctm,per)
-    log_ctm=rbind(log_ctm,loglik)
-  }
-  return(list(perplex=per_ctm,loglik=log_ctm))
-}
-
-sp=smp(n=dtm$nrow, seed=seed_num) # n = nrow(dtm)
-
-system.time((ctmK=selectK(dtm=dtm,kv=kv_num,SEED=seed_num,cross=fold_num,sp=sp)))
-
-## plot the perplexity
-
-m_per=apply(ctmK[[1]],1,mean)
-m_log=apply(ctmK[[2]],1,mean)
-
-k=c(kv_num)
-df = ctmK[[1]]  # perplexity matrix
-logLik = ctmK[[2]]  # perplexity matrix
-
-
-write.csv(data.frame(k, df, logLik), paste(getwd(), &amp;quot;/Perplexity2_&amp;quot;,&amp;quot;gibbs5_100&amp;quot;, &amp;quot;.csv&amp;quot;, sep = &amp;quot;&amp;quot;))
-
-# save the figure
-png(paste(getwd(), &amp;quot;/Perplexity2_&amp;quot;,try_num, &amp;quot;_gibbs5_100&amp;quot;,&amp;quot;.png&amp;quot;, sep = &#39;&#39;), 
-    width=5, height=5, 
-    units=&amp;quot;in&amp;quot;, res=700)
-
-
-matplot(k, df, type = c(&amp;quot;b&amp;quot;), xlab = &amp;quot;Number of topics&amp;quot;, 
-        ylab = &amp;quot;Perplexity&amp;quot;, pch=1:try_num,col = 1, main = &#39;&#39;)       
-legend(&amp;quot;topright&amp;quot;, legend = paste(&amp;quot;fold&amp;quot;, 1:try_num), col=1, pch=1:try_num) 
-
-dev.off()
-
-png(paste(getwd(), &amp;quot;/LogLikelihood2_&amp;quot;, &amp;quot;gibbs5_100&amp;quot;,&amp;quot;.png&amp;quot;, sep = &#39;&#39;), 
-    width=5, height=5, 
-    units=&amp;quot;in&amp;quot;, res=700)
-matplot(k, logLik, type = c(&amp;quot;b&amp;quot;), xlab = &amp;quot;Number of topics&amp;quot;, 
-        ylab = &amp;quot;Log-Likelihood&amp;quot;, pch=1:try_num,col = 1, main = &#39;&#39;)       
-legend(&amp;quot;topright&amp;quot;, legend = paste(&amp;quot;fold&amp;quot;, 1:try_num), col=1, pch=1:try_num) 
-dev.off()
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;{:lang=&amp;ldquo;ruby&amp;rdquo;}&lt;/p&gt;
-
-&lt;p&gt;于是可以得到对数似然率和主题数量的关系图，如下所示。可见选择10作为主题数量是比较合适的。&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://farm4.staticflickr.com/3727/9953452316_6518296960.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;以下，我们将主要对主题数量为10的主题模型进行估计。topicmodels这个R包是由Bettina Grun和
-Johannes Kepler两个人贡献的，目前支持VEM, VEM (fixed alpha)，Gibbs和CTM四种主题模型，关于其详细介绍，可以阅读他们的论文，关于主题模型的更多背景知识可以阅读Blei的相关文章。闲话少叙，看一下R代码：&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;# &#39;Refer to http://cos.name/2013/08/something_about_weibo/&#39;
-k = 10
-SEED &amp;lt;- 2003
-jss_TM2 &amp;lt;- list(
-  VEM = LDA(dtm, k = k, control = list(seed = SEED)),
-  VEM_fixed = LDA(dtm, k = k, control = list(estimate.alpha = FALSE, seed = SEED)),
-  Gibbs = LDA(dtm, k = k, method = &amp;quot;Gibbs&amp;quot;, 
-              control = list(seed = SEED, burnin = 1000, thin = 100, iter = 1000)),
-  CTM = CTM(dtm, k = k, 
-            control = list(seed = SEED, var = list(tol = 10^-4), em = list(tol = 10^-3))) )   
-save(jss_TM2, file = paste(getwd(), &amp;quot;/jss_TM2.Rdata&amp;quot;, sep = &amp;quot;&amp;quot;))
-save(jss_TM, file = paste(getwd(), &amp;quot;/jss_TM1.Rdata&amp;quot;, sep = &amp;quot;&amp;quot;))
-
-termsForSave1&amp;lt;- terms(jss_TM2[[&amp;quot;VEM&amp;quot;]], 10)
-termsForSave2&amp;lt;- terms(jss_TM2[[&amp;quot;VEM_fixed&amp;quot;]], 10)
-termsForSave3&amp;lt;- terms(jss_TM2[[&amp;quot;Gibbs&amp;quot;]], 10)
-termsForSave4&amp;lt;- terms(jss_TM2[[&amp;quot;CTM&amp;quot;]], 10)
-
-write.csv(as.data.frame(t(termsForSave1)), 
-          paste(getwd(), &amp;quot;/topic-document_&amp;quot;, &amp;quot;_VEM_&amp;quot;, k, &amp;quot;_2.csv&amp;quot;, sep=&amp;quot;&amp;quot;),
-          fileEncoding = &amp;quot;UTF-8&amp;quot;)
-
-write.csv(as.data.frame(t(termsForSave2)), 
-          paste(getwd(), &amp;quot;/topic-document_&amp;quot;, &amp;quot;_VEM_fixed_&amp;quot;, k, &amp;quot;_2.csv&amp;quot;, sep=&amp;quot;&amp;quot;),
-          fileEncoding = &amp;quot;UTF-8&amp;quot;)
-
-write.csv(as.data.frame(t(termsForSave3)), 
-          paste(getwd(), &amp;quot;/topic-document_&amp;quot;, &amp;quot;_Gibbs_&amp;quot;, k, &amp;quot;_2.csv&amp;quot;, sep=&amp;quot;&amp;quot;),
-          fileEncoding = &amp;quot;UTF-8&amp;quot;)
-write.csv(as.data.frame(t(termsForSave4)), 
-          paste(getwd(), &amp;quot;/topic-document_&amp;quot;, &amp;quot;_CTM_&amp;quot;, k, &amp;quot;_2.csv&amp;quot;, sep=&amp;quot;&amp;quot;),
-          fileEncoding = &amp;quot;UTF-8&amp;quot;)
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;{:lang=&amp;ldquo;ruby&amp;rdquo;}&lt;/p&gt;
-
-&lt;p&gt;对主题模型进行估计之后，一般选择展示每个主题的前10个词语。因为主题之间可以共享相同词语，所以构成网络关系，因此这里我选择用网络的方法展示其结果。首先看一下吉布斯抽样算法得到的主题网络图，其R程序如下：&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;#&#39;topic graphs&#39;
-
-
-tfs = as.data.frame(termsForSave3, stringsAsFactors = F); tfs[,1]
-adjacent_list = lapply(1:10, function(i) embed(tfs[,i], 2)[, 2:1]) 
-edgelist = as.data.frame(do.call(rbind, adjacent_list), stringsAsFactors =F)
-# topic = unlist(lapply(1:10, function(i) rep(i, 9)))
-edgelist$topic = topic
-g &amp;lt;-graph.data.frame(edgelist,directed=T )
-l&amp;lt;-layout.fruchterman.reingold(g)
-# edge.color=&amp;quot;black&amp;quot;
-nodesize = centralization.degree(g)$res 
-V(g)$size = log( centralization.degree(g)$res )
-
-nodeLabel = V(g)$name
-E(g)$color =  unlist(lapply(sample(colors()[26:137], 10), function(i) rep(i, 9))); unique(E(g)$color)
-
-# 保存图片格式
-png(  paste(getwd(), &amp;quot;/topic_graph_gibbs.png&amp;quot;, sep=&amp;quot;&amp;quot;）,
-    width=5, height=5, 
-    units=&amp;quot;in&amp;quot;, res=700)
-
-plot(g, vertex.label= nodeLabel,  edge.curved=TRUE, 
-     vertex.label.cex =0.5,  edge.arrow.size=0.2, layout=l )
-
-# 结束保存图片
-dev.off()
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;{:lang=&amp;ldquo;ruby&amp;rdquo;}&lt;/p&gt;
-
-&lt;p&gt;得到的图形如下：&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://farm8.staticflickr.com/7330/9953452256_fb1baaa16d_c.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;当然，我们还可以看一下其他算法得到的网络图，这里我们看一下根据VEM和CTM两个主题模型得到的网络图。&lt;/p&gt;
-
-&lt;p&gt;CTM模型的主题网络图：&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://farm8.staticflickr.com/7425/9953448564_d24b8e348a_c.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;VEM模型的主题网络图：&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://farm4.staticflickr.com/3727/9953448704_ec8291a0e3_c.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>中国高校间的友谊网络：大学排名、地理位置和演化规律</title>
       <link>https://chengjun.github.io/zh/post/cn/2014-07-21-chinese-university-friendship-network/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 21 Jul 2014 00:00:00 +0000</pubDate>
       
       <guid>https://chengjun.github.io/zh/post/cn/2014-07-21-chinese-university-friendship-network/</guid>
       <description>&lt;p&gt;许小可老师和我决定使用可视化的方法分析一下中国高校之间的友谊关系网络。我们是想通过这个图从一个侧面说明各个大学在社交网络上的影响力和关系：所以节点大小表示每个大学在该网络中的友谊关系数量，连边宽度表示节点之间的连接关系，节点颜色的不同可以表示节点的影响力大小（介度中心性指标）。&lt;/p&gt;
@@ -1136,7 +651,7 @@ setwd(&amp;quot;F:/xiaonei/&amp;quot;)
 ################
 # all data
 ################
-data = read.table(&amp;quot;./friends_university_top100_by_all.txt&amp;quot;, header = FALSE, 
+data = read.table(&amp;quot;./friends_university_top100_by_all.txt&amp;quot;, header = FALSE,
                  sep = &#39;\t&#39;, stringsAsFactors = FALSE)
 
 data = data[which(data[,3] &amp;gt;= mean(data[,3])*1.2), ]
@@ -1154,7 +669,7 @@ centrality = betweenness(g)
 # colors
 colors = heat.colors(37)
 position = rank(-centrality, ties.method = &amp;quot;first&amp;quot;)
-V(g)$color = colors[position] 
+V(g)$color = colors[position]
 # width
 E(g)$width = (log(E(g)$weight)- 8)*1.5
 # label
@@ -1171,13 +686,13 @@ drawFigure = function(g){
        layout=l,mark.groups = by(seq_along(mfc), mfc, invisible) )
 }
 
-drawFigure(g) 
+drawFigure(g)
 
 # save png
 png(&amp;quot;./all_color.png&amp;quot;,
-    width=10, height=10, 
+    width=10, height=10,
     units=&amp;quot;in&amp;quot;, res=700)
-drawFigure(g) 
+drawFigure(g)
 dev.off()
 &lt;/code&gt;&lt;/pre&gt;
 
@@ -1208,6 +723,668 @@ dev.off()
 &lt;/ul&gt;
 
 &lt;p&gt;本文提供&lt;a href=&#34;http://chengjun.qiniudn.com/friends_university_top100_by_all.txt&#34; target=&#34;_blank&#34;&gt;汇总的数据&lt;/a&gt;下载，供感兴趣的同学玩。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>网络残缺度：共同好友间可否两步到达？</title>
+      <link>https://chengjun.github.io/zh/post/cn/2014-05-05-network-dispersion/</link>
+      <pubDate>Mon, 05 May 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://chengjun.github.io/zh/post/cn/2014-05-05-network-dispersion/</guid>
+      <description>
+
+&lt;p&gt;网络是由节点和关系构成的，而对于关系的描述是社会网络的关键。我们已经知道对于节点的网络特性可以从中心度、近度、介度、特征度（eigenvalue centrality）等方式描述。那么对于关系呢？最简单的就是直接关系的强度了。&lt;/p&gt;
+
+&lt;h2 id=&#34;关系强度-tie-strength&#34;&gt;关系强度（&lt;code&gt;tie strength&lt;/code&gt;)&lt;/h2&gt;
+
+&lt;p&gt;通常对于关系强度的测量是基于两个节点之间链接的权重来衡量的。并不是说关系的强度越高越好，也不是说越多的强关系就越好。例如，格兰诺维特的论文&lt;code&gt;The strength of weak ties&lt;/code&gt;强调了弱关系的重要性。&lt;/p&gt;
+
+&lt;h2 id=&#34;共同好友-common-friends&#34;&gt;共同好友（&lt;code&gt;common friends&lt;/code&gt;）&lt;/h2&gt;
+
+&lt;p&gt;但是以直接的链接强度度量一对关系的强度显然过于简单。它忽略的网络中的三角形（triads）：网络的局部传递性(transtivity)。关系的传递性是社会网络分析的一种重要观点。比如，朋友的朋友成为自己的朋友的可能性很高。这种关系的强度不只限于一模网络中。在传播学中有ABX模型，A和B是两个人，X是一种对象（信息、意见、创新等）。A和B是好朋友，A喜欢X，那么B喜欢X的可能性就提高。也就是爱朋友及朋友喜欢的东西，有点像爱屋及乌。&lt;/p&gt;
+
+&lt;p&gt;怎么抓住网络的传递性？找两个节点(一对关系)的共同好友！找到共同好友就抓住了网络中的三角形。存在的三角形数量就表明了传递性的程度。这种思路其实对于做共引（co-citation)分析的学者来说并不陌生。如果一篇论文同时引用了两篇论文，那么这两篇论文就存在一定的相似性。因此，找共同好友类似于找共引关系。&lt;/p&gt;
+
+&lt;h2 id=&#34;嵌入度-embededness&#34;&gt;嵌入度（&lt;code&gt;embededness&lt;/code&gt;）&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://farm6.staticflickr.com/5323/13926813860_7382ec2f52_o.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;共同好友数量是判断两个人亲密程度的一个重要变量。如果共同好友的数量足够多，表明这两个人彼此深度的融入了对方的社会关系当中。基于这种思路，我们可以计算嵌入型。对于i和j两个人, $$k&lt;em&gt;{i}$$、$$k&lt;/em&gt;{j}$$分别表示i和j的好友数量。$$n_{ij}$$表示其共同好友数量。那么，我们可以如下计算嵌入度：&lt;/p&gt;
+
+&lt;p&gt;$$
+Embededness&lt;em&gt;{ij} = \frac{n&lt;/em&gt;{ij}}{(k&lt;em&gt;{i} -1) + (k&lt;/em&gt;{j} -1) - n_{ij}}
+$$&lt;/p&gt;
+
+&lt;h2 id=&#34;残缺性-dispersion&#34;&gt;残缺性（&lt;code&gt;dispersion&lt;/code&gt;）&lt;/h2&gt;
+
+&lt;p&gt;残缺度（&lt;code&gt;dispersion&lt;/code&gt;， 或译为分散度）是Lars Backstrom &amp;amp; Jon Kleinberg (2013) 为了识别Facebook中亲密关系而提出的度量。它同样是基于共同好友的，主要测量的是共同好友之间的链接缺失程度。&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;‘dispersion’ — the extent to which two people’s mutual friends are not themselves well-connected. &lt;code&gt;Lars Backstrom &amp;amp; Jon Kleinberg (2013)&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Lars Backstrom &amp;amp; Jon Kleinberg使用了脸书的数据发现，使用残缺度这个度量方式，可以非常准确识别诸如夫妻、男女朋友、恋爱关系。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://farm8.staticflickr.com/7429/14090280746_d962b282c8_o.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;如上图中，u和v两个人有a、b、c、d四个共同好友。残缺度主要考察在多大程度上，这些共同好友&lt;strong&gt;不能&lt;/strong&gt;在&lt;code&gt;两步之内到达彼此&lt;/code&gt;。如果两个共同好友之间不存在直接连接，且也不存在（除去u和v之外的）共同好友，那么残缺度就增加1。&lt;/p&gt;
+
+&lt;p&gt;以C_{uv}来表示u和v的共同好友之间的链接，那么在上图中只有a、b之间和c、d之间存在链接。a-c, a-d, b-c, b-d四对节点之间既没有直接链接又没有共同好友（除去了u和v)。所以残缺度是4。&lt;/p&gt;
+
+&lt;p&gt;再举一个例子，如果u和v的共同好友b-c之间存在直接的链接。那么残缺度会是多大？如下图：&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://farm3.staticflickr.com/2936/14133498133_ed0857e2a0_o.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;因为只有a-d之间没有办法在两步内到达彼此，所以残缺度是1。&lt;/p&gt;
+
+&lt;p&gt;当然了这种定义残缺度的方法是基于节点间的距离的。例如以$$d_{s, t}$$表示共同好友中任意两个节点s和t之间的距离。在这个初始的定义中，两步内不能到达算是关系残缺。那么我们可以将其扩展为3步内不能到达算残缺，或者n步能不能到达算残缺。不过根据Lars Backstrom &amp;amp; Jon Kleinberg的实验，两步不能到达是一个较好的基准。&lt;/p&gt;
+
+&lt;p&gt;如果浪漫关系的确可以由高残缺度刻画，那么说明兔子不吃窝边草在国外是存在的。太熟了下不去手的现象在国内也是存在的。记得一个笑话说：找男女朋友的时候都说找互补的，实际上找到的都是类似的！白富美总是跟高富帅在一起嘛。这应该是对的，人的收入、相貌、工作都是匹配的（match）,从这个角度上讲的确是相似的。但至少从网路结构的角度来说，男女关系依然是互补的！&lt;/p&gt;
+
+&lt;h2 id=&#34;参考文献&#34;&gt;参考文献&lt;/h2&gt;
+
+&lt;p&gt;Lars Backstrom &amp;amp; Jon Kleinberg (2013) Romantic Partnerships and the &lt;code&gt;Dispersion&lt;/code&gt; of Social Ties: A Network Analysis of Relationship Status on Facebook.arXiv&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>空间分析初步：使用D3可视化</title>
+      <link>https://chengjun.github.io/zh/post/cn/2014-03-15-d3-map/</link>
+      <pubDate>Sat, 15 Mar 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://chengjun.github.io/zh/post/cn/2014-03-15-d3-map/</guid>
+      <description>
+
+&lt;p&gt;&lt;img src=&#34;http://bgc-dml.wdfiles.com/local--files/d3/D3.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;图1 &lt;a href=&#34;http://d3js.org/&#34; target=&#34;_blank&#34;&gt;D3 examples&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;###1. 起源
+斯坦福学校可视化团队Jeff Heer教授, 那时候的博士生Mike Bostock,那时候的硕士生 Vadim Ogievetsky在2009年创造了Protovis：一个从数据中生成 SVG 图的工具。2011年, Bostock和的老板Heer、师弟Ogievetsky开发了D3.js (&lt;a href=&#34;http://vis.stanford.edu/files/2011-D3-InfoVis.pdf&#34; target=&#34;_blank&#34;&gt;Bostock, Heer &amp;amp; Ogievetsky 2011&lt;/a&gt;).&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://b.vimeocdn.com/ts/442/674/442674389_640.jpg&#34; alt=&#34;Mike Bostocks&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;图2 &lt;a href=&#34;http://vimeo.com/69448223&#34; target=&#34;_blank&#34;&gt;Eyeo 2013 - Mike Bostock&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;此后，Mike Bostocks致力于D3的继续开发和维护， Mike的网站&lt;a href=&#34;http://bost.ocks.org/&#34; target=&#34;_blank&#34;&gt;http://bost.ocks.org/&lt;/a&gt;和github（&lt;a href=&#34;https://github.com/mbostock/d3&#34; target=&#34;_blank&#34;&gt;https://github.com/mbostock/d3&lt;/a&gt;）成为发展D3力量的重要领地。仅仅三年，作为一个社区（community)，D3的发展已经蔚为大观。&lt;/p&gt;
+
+&lt;p&gt;###2. D3是什么？
+D3是数据驱动文件（Data-Driven Documents）的缩写。作为一个javascript的库，D3(或D3.js)建构于电子数据（digital data）之上，使用数据创造并控制在网络浏览器里运行的动态交互的图形。&lt;/p&gt;
+
+&lt;p&gt;D3必须要嵌入到html网页中，它依赖矢量图像（Scalable Vector Graphics，SVG）、层叠式样式表（Cascading Style Sheets，CSS3)等html的工具来展示图形。&lt;/p&gt;
+
+&lt;p&gt;JavaScript函数来选择（&lt;strong&gt;select&lt;/strong&gt;）元素，生成矢量图（SVG），赋予其样式（style），加入变化。 这种函数式的操作使得D3可以很容易的将大的数据（large dataset,而不是big data）从原始数据格式（json, csv， geoJSON, topoJOSON）转为矢量图对象，并且速度非常快。&lt;/p&gt;
+
+&lt;p&gt;D3拥有自己的&lt;strong&gt;哲学&lt;/strong&gt;，其中很重要的一条是&lt;a href=&#34;http://bost.ocks.org/mike/join/&#34; target=&#34;_blank&#34;&gt;Thinking with Joins&lt;/a&gt;。比如，读者与D3制作的图形交互的时候，会激发数据请求（如选择某一个时间段的数据），新的数据进来（data enter），D3的元素（如svg）就会相应的更新（elements update）。数据与元素的互动是由D3编写的Javascript函数指导的，交互之后之后互动结束，读者就看到一个新的图形了。一个例子是使用D3制作的《悲惨世界》中人物的共现关系（&lt;a href=&#34;http://bost.ocks.org/mike/miserables/&#34; target=&#34;_blank&#34;&gt;Les Misérables Co-occurrence&lt;/a&gt;）。这样做的好处是使得动态的图形展示变得简单。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://pixelmonkey.org/pub/dataviz-elements/notes/_images/data_join.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;图3 Thinking with Joins&lt;/p&gt;
+
+&lt;h3 id=&#34;3-学习d3&#34;&gt;3. 学习D3&lt;/h3&gt;
+
+&lt;p&gt;学习使用D3可以从这个&lt;a href=&#34;https://github.com/mbostock/d3/wiki/Tutorials&#34; target=&#34;_blank&#34;&gt;Tutorials&lt;/a&gt;开始。&lt;/p&gt;
+
+&lt;h3 id=&#34;4-使用d3绘制网络&#34;&gt;4. 使用D3绘制网络&lt;/h3&gt;
+
+&lt;p&gt;因为网络的可视化相对简单，因而发展也比较成熟。R社区很快开发了R包d3network&lt;/p&gt;
+
+&lt;h3 id=&#34;5-使用d3绘制地图&#34;&gt;5. 使用D3绘制地图&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://bl.ocks.org/tnightingale/4718717&#34; target=&#34;_blank&#34;&gt;Christchurch 2010 Timeline&lt;/a&gt;这个例子正是我想要的。&lt;/p&gt;
+
+&lt;p&gt;一些其它的例子。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://bost.ocks.org/mike/map/&#34; target=&#34;_blank&#34;&gt;Let’s Make a Map&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.d3noob.org/2013/03/a-simple-d3js-map-explained.html&#34; target=&#34;_blank&#34;&gt;A simple d3js map explained&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.meetup.com/NYC-Open-Data/events/137244272/&#34; target=&#34;_blank&#34;&gt;D3.js workshop II: make beautiful maps &lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;embed src=&#34;http://www.xiami.com/widget/2901500_3570908/singlePlayer.swf&#34; type=&#34;application/x-shockwave-flash&#34; width=&#34;257&#34; height=&#34;33&#34; wmode=&#34;transparent&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;###参考文献&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Bostock, Michael; Ogievetsky, Vadim; Heer, Jeffrey (October 2011), D3: Data-Driven Documents, IEEE Transactions on Visualization and Computer Graphics, IEEE Press&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>空间分析初步：空间点类型分析</title>
+      <link>https://chengjun.github.io/zh/post/cn/2014-03-12-first-step-spatial-analysis-with-r/</link>
+      <pubDate>Wed, 12 Mar 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://chengjun.github.io/zh/post/cn/2014-03-12-first-step-spatial-analysis-with-r/</guid>
+      <description>
+
+&lt;h3 id=&#34;引言&#34;&gt;引言&lt;/h3&gt;
+
+&lt;p&gt;空间分析（spatial analysis）对于扩散研究非常重要，它揭示了传播在空间维度上的分布。令人略感惊奇的是空间分析的研究者越来越多地使用R软件。其中一个原因是R包罗万象，而空间分析仍在发展且神情未定。在这个时候难以判定哪种方法最优。此时，策略当然是博观约取。R因其囊括众多统计方法而成为连接不同分析套路的首选；另外在R当中使用者可以继续开发新的数据分析包。可谓一举两得。　&lt;/p&gt;
+
+&lt;h3 id=&#34;数据读入&#34;&gt;数据读入&lt;/h3&gt;
+
+&lt;p&gt;我使用的是2013年米兰城12月份推特用户的地理信息数据。该数据来自&lt;a href=&#34;http://www.telecomitalia.com/tit/en/bigdatachallenge/contest/dataset.html&#34; target=&#34;_blank&#34;&gt;Big Data Challenge&lt;/a&gt; of Telecommunication。使用Python写很简单的script从其服务器api接口读取数据:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;# Download milano tweets data using python
+# chengjun wang @ cmc
+# 2014 Mar 11
+
+import urllib2
+import json
+
+f = open(&#39;D:/chengjun/Milan/Social pulse/Milano_sample.csv&#39;, &#39;w&#39;)
+for offset in range(0,269290/100 +1):
+    print &amp;quot;working on offset: &amp;quot;, offset
+    req_url = &#39;https://api.dandelion.eu/datagem/social-pulse-milano/data/v1/?$limit=100&amp;amp;$offset=&#39;+str(offset)+&#39;&amp;amp;$app_id=d...a&amp;amp;$app_key=2e...7c&#39;
+    jstr = urllib2.urlopen(req_url).read() # json string
+    &amp;quot;&amp;quot;&amp;quot; these are flickr-specific &amp;quot;&amp;quot;&amp;quot;
+    jinfo = json.loads( jstr )
+    for i in range(0, len(jinfo[&#39;items&#39;])):
+        lan = jinfo[&#39;items&#39;][i][&#39;language&#39;]
+        time = jinfo[&#39;items&#39;][i][&#39;created&#39;]
+        geo = jinfo[&#39;items&#39;][i][&#39;geometry&#39;][&#39;coordinates&#39;]
+        timestamp = jinfo[&#39;items&#39;][i][&#39;timestamp&#39;]
+        municipality_name = jinfo[&#39;items&#39;][i][&#39;municipality&#39;][&#39;name&#39;]
+        municipality_id = jinfo[&#39;items&#39;][i][&#39;municipality&#39;][&#39;acheneID&#39;]
+        entities = jinfo[&#39;items&#39;][i][&#39;entities&#39;]
+        user = jinfo[&#39;items&#39;][i][&#39;user&#39;]
+        print &amp;gt;&amp;gt;f, &amp;quot;%s;%s;%s;%s;%s;%s;&#39;%s&#39;;%s&amp;quot; % (lan, time, geo, timestamp, municipality_name, municipality_id, entities, user)
+f.close()
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;首先，读入点的时空分布数据。　&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;# read data
+library(maptools)
+library(sp)
+library(rgdal)
+
+setwd(&amp;quot;D:/chengjun/Milan&amp;quot;)
+dat = read.csv(&amp;quot;./Social pulse/Milano_sample.csv&amp;quot;, header = FALSE, stringsAsFactors = FALSE, sep = &amp;quot;;&amp;quot;, quote = &amp;quot;&amp;quot;)
+names(dat) = c(&amp;quot;lan&amp;quot;, &amp;quot;time&amp;quot;, &amp;quot;geo&amp;quot;, &amp;quot;timestamp&amp;quot;, &amp;quot;mname&amp;quot;, &amp;quot;mid&amp;quot;, &amp;quot;entities&amp;quot;, &amp;quot;user&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;进行简单的清洗：&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;# clean data
+dat = subset(dat, dat$time &amp;gt;= as.POSIXlt(&amp;quot;2013-12-01 00:00:00&amp;quot;)); dim(dat)
+dat$time = do.call(rbind, strsplit(dat$time, split = &amp;quot;\\.&amp;quot;))[,1]
+dat$time = gsub(&amp;quot;T&amp;quot;, &amp;quot; &amp;quot;, dat$time)
+dat$time = as.POSIXlt(dat$time)
+dat$geo = gsub(&amp;quot;[&amp;quot;, &amp;quot;&amp;quot;, dat$geo, fixed = T)
+dat$geo = gsub(&amp;quot;]&amp;quot;, &amp;quot;&amp;quot;, dat$geo, fixed = T)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;从openstreetmap下载米兰城的交通地理信息。使用rgdal这个R包读入数据：&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;# download shp data from
+# http://metro.teczno.com/#milan
+ost=readOGR(&amp;quot;./Milano Grid/milano-grid/milan.imposm-shapefiles/milan.osm-mainroads.shp&amp;quot;, layer = &amp;quot;milan.osm-mainroads&amp;quot;) #will load the shapefile
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;要把地理信息转为经纬度的数据表示形式：&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;spl = spTransform(ost, CRS(&amp;quot;+proj=longlat&amp;quot;)) # convert to longitude and latitude
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;如果要画出spl的话，速度有点慢, 因为绘制的点比较多。&lt;/p&gt;
+
+&lt;p&gt;用了其中一个小数据(涵盖一天中的几个小时)，为了展现了每个小时的&lt;a href=&#34;http://chengjun.github.io/big_data_challenge/visualization.html&#34; target=&#34;_blank&#34;&gt;动态变化&lt;/a&gt;，使用CartoDB网站来制作了一个简单的可视化。顺便找了一遍各种javascript的库和其它包（googleVis, Echarts等），发现都不实用，所以还是用R吧。&lt;/p&gt;
+
+&lt;p&gt;设置绘图的函数，来看一下数据的形式：&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;# plot function
+make_plot = function(){
+  tz = as.POSIXlt(&amp;quot;2013-12-01 00:00:00&amp;quot;)
+  end_time = as.POSIXlt(&amp;quot;2013-12-02 00:00:00&amp;quot;)
+  while(tz &amp;lt;= end_time){
+    print(tz)
+    datd = subset(dat, dat$time &amp;gt; tz&amp;amp; dat$time &amp;lt;= tz + 3600)
+    plot(spl, col = &amp;quot;pink&amp;quot;)
+    title(tz)
+    p = do.call(rbind, strsplit(datd$geo, split=&#39;,&#39;))
+    p1 = as.numeric(p[,1])
+    p2 = as.numeric(p[,2])
+    points(p2~p1, pch = 1, col = &amp;quot;red&amp;quot;, cex = 0.1)
+    tz = tz + 3600
+  }
+}
+
+# save figures
+png(file = &amp;quot;./linear%2d.png&amp;quot;,
+    width=5, height=5,
+    units=&amp;quot;in&amp;quot;, res=700)
+make_plot()
+dev.off()
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;读者也可以直接使用animation这个R包来绘图。我在实验室的机器上安装ImageMagick有点问题，干脆存为图片了，再转为gif了。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://farm3.staticflickr.com/2610/13103072964_078e5abcc6_o.gif&#34; alt=&#34;米兰城12月1日每个小时发推特的时空分布&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;图1&lt;/strong&gt; 米兰城一天当中的发推特的时空分布&lt;/p&gt;
+
+&lt;p&gt;把12月31天的数据累积起来，我们可以得到米兰城2013年12月当中的发推特的空间分布。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;# the overall geographical distribution
+png(&amp;quot;./milano_social_pulse_December.png&amp;quot;,
+    width=10, height=10,
+    units=&amp;quot;in&amp;quot;, res=700)
+plot(spl, col = &amp;quot;purple&amp;quot;)
+p = do.call(rbind, strsplit(dat$geo, split=&#39;,&#39;))
+p1 = as.numeric(p[,1])
+p2 = as.numeric(p[,2])
+points(p2~p1, pch = 1, col = &amp;quot;red&amp;quot;, cex = 0.01)
+dev.off()
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://farm8.staticflickr.com/7349/13103304784_11e17eae38.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;图2&lt;/strong&gt; 米兰城2013年12月当中的发推特的空间分布&lt;/p&gt;
+
+&lt;p&gt;这个图还是有点意思的：街道是城市人流的管道（Tube,伦敦好像把地铁直接称为tube）,人的移动等行为（包括社会媒体使用行为）则是穿行其间的流。推特聚集的地方与街道的轮廓高度契合。城市的中心推特的密度大（因为人流的密度大？）。所以可以检验下点的分布是否是随机的。&lt;/p&gt;
+
+&lt;h3 id=&#34;空间点类型分析&#34;&gt;空间点类型分析&lt;/h3&gt;
+
+&lt;p&gt;这里涉及到空间点类型分析（spatial point pattern analysis）。检验下点的分布是否是随机的最简单的方法是进行完全空间随机（complete spatial randomness， CSR）分析。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;G方程方法&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;这里说的最近邻居，英文当中却成为nearest event。把一个点的存在称之为事件也挺好玩。我们知道两个节点$$E_i$$和$$E_j$$的距离为:&lt;/p&gt;
+
+&lt;p&gt;$$d(E_i, E_j) = \sqrt{(x_i - x_j)^2 + (y_i-y_j)^2}$$&lt;/p&gt;
+
+&lt;p&gt;平均最近邻居距离可以表示为:&lt;/p&gt;
+
+&lt;p&gt;$$\overline{d}&lt;em&gt;{min} = \frac{\sum&lt;/em&gt;{i}^{n}d_{min}(X_i)}{n}$$&lt;/p&gt;
+
+&lt;p&gt;于是可以定义事件-事件最近邻居距离，即任意一个事件到它的最近事件之间的距离。任意一个事件$$E_i$$的事件-事件最近邻居距离：&lt;/p&gt;
+
+&lt;p&gt;$$d_i = {min}&lt;em&gt;j {d&lt;/em&gt;{ij}, \forall j\neq i }$$&lt;/p&gt;
+
+&lt;p&gt;对于一个距离d, 可定义G(d)为最近邻居距离的累计频数分布：&lt;/p&gt;
+
+&lt;p&gt;$$ G(d) = \frac{# d_{min}E_i&amp;lt;d}{n} $$&lt;/p&gt;
+
+&lt;p&gt;说以G方程方法测量的最近邻居距离小于d的事件的比率。当事件分布存在聚集的情况的时候，G在距离较小的时候就增长特别快；当事件分布均匀时，距离较小的时候G增长缓慢，当距离达到使得多数事件分隔的大小后，G开始快速增长。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;F方程方法&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;另外一个有用的测度是F方程。F方程测量了从空间中任意一个&lt;strong&gt;点&lt;/strong&gt;到与它最近的&lt;strong&gt;事件&lt;/strong&gt;之间的距离，因而它测量的是&lt;strong&gt;点-事件最近邻居距离&lt;/strong&gt;。据此，F方程也被称之为空虚空间距离。&lt;/p&gt;
+
+&lt;p&gt;计算F方程或点-事件距离的时候要先随机的抽取一些空间中的点, 计算它的最短距离，然后统计其中满足最短距离小于d的比率。&lt;/p&gt;
+
+&lt;p&gt;$$F(d) = \frac{#d_{min}(x_i&amp;lt;d)}{m}$$&lt;/p&gt;
+
+&lt;p&gt;因为F方程是随机抽取空间中的点来统计，因而可以应对较大的数据规模。一个小的事件的聚集会导致G方程快速增长，但其实其它多数空间都是空的，所以F方程增长会较慢。当然了，对于规则分布的点，这种对比的结果则可能相反。&lt;/p&gt;
+
+&lt;p&gt;使用G和F方程可以测量事件分布的实际情况，我们的零假设是事件分布是随机的，符合泊松分布:&lt;/p&gt;
+
+&lt;p&gt;$$f(k, \lambda) = \frac{\lambda^k e^{-\lambda}}{k!}$$&lt;/p&gt;
+
+&lt;p&gt;用$$\lambda$$表示事件的空间分布密度，在一个半径为d的平面$$\pi d^2$$里面理论上存在的事件数量是$$\lambda \pi d^2$$。&lt;/p&gt;
+
+&lt;p&gt;此处推导略去（汗，我不会啊。），那么G和F的理论值按照泊松分布应该是：&lt;/p&gt;
+
+&lt;p&gt;$$G = F = 1-e^{-\lambda \pi d^2}$$&lt;/p&gt;
+
+&lt;p&gt;有了理论值，有了实际值，我们就可以对比二者之间的差距。进而推论空间事件的点分布是否是随机的了。&lt;/p&gt;
+
+&lt;p&gt;这个推断的过程使用spatstat这个R包进行：&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;require(spatstat)
+#the analysis of point patterns
+geo = data.frame(dat$p1, dat$p2)
+# Convert data to ppp format
+geo_ppp = ppp(geo[,1], geo[,2],
+               c(min(geo[,1]), max(geo[,1])),
+               c(min(geo[,2]), max(geo[,2]))
+               ) # slow
+# G function method
+g = Gest(geo_ppp)
+plot(g)
+
+# F function method
+f = Fest(geo_ppp)
+plot(f)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;这里可以使用envelope的方法，使用蒙特卡洛的方法，根据一些算法来随机生成n个（比如100个）数据，以保证分析的准确性。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;g = envelope(geo_ppp, Gest, nsim = 100)
+plot(g)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://farm4.staticflickr.com/3824/13124103465_64f43f59bc.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;f = envelope(geo_ppp, Fest, nsim = 100)
+plot(f)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://farm8.staticflickr.com/7362/13124385414_f32593880e.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;显然发推特的空间位置的分布并非随机的，具有较明显的聚集现象，所以G方程一开始就增长很快，而虚空空间函数F方程则增长缓慢。&lt;/p&gt;
+
+&lt;h3 id=&#34;空间点过程分析&#34;&gt;空间点过程分析&lt;/h3&gt;
+
+&lt;p&gt;这毕竟还是有点不够形象，有没有高大上的形象的方法？试试&lt;a href=&#34;http://cran.at.r-project.org/web/packages/spatstat/vignettes/getstart.pdf&#34; target=&#34;_blank&#34;&gt;kernel smoother of point density&lt;/a&gt;:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;plot(density.ppp(geo_ppp), main = &amp;quot;&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://farm3.staticflickr.com/2636/13124643824_4ee4b447d5_c.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;注意density.ppp返回的不是一个概率密度。它是对点密度的估计。密度是每个单位空间里随机点的期望。密度通常与空间位置有关。使用空间面积对密度函数积分，得到的是落入该区域的点的数量。&lt;/p&gt;
+
+&lt;p&gt;于是乎，规律就更明显了：不仅仅是简单的点聚集，而且是箭靶形式的聚集，像北京环城路一样。越是中心，点就越密集。&lt;/p&gt;
+
+&lt;p&gt;不过不要高兴太早，因为这个结果还是太粗糙。我们明明看到点的聚集情况并非如此完美的圆环。因为使用kernel平滑方法估计点的密度这种方法对于频宽（bandwidth）的大小特别敏感。有必要加以控制。另外，这里涉及到两种kernel的方法：四次多项式平滑和高斯平滑。这里要使用splancs这个R包。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;##############
+&amp;quot;quartic and Gaussian kernels&amp;quot;
+##############
+
+library(splancs)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;抱怨一下，因为以下用到的bw.diggle这个用来为kernel密度来选择经过交叉检验的频宽（Cross Validated Bandwidth Selection for Kernel Density）的命令，我不得不使用部分数据，因为它实在太消耗内存了。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;# subset a week-long small data
+dat1 = subset(dat, dat$day &amp;gt;=as.Date(&amp;quot;2013-12-01&amp;quot;)&amp;amp;dat$day &amp;lt;=as.Date(&amp;quot;2013-12-07&amp;quot;))
+
+geo = data.frame(dat1$p1, dat1$p2)
+geo_ppp = ppp(geo[,1], geo[,2],
+  c(min(geo[,1]), max(geo[,1])),
+  c(min(geo[,2]), max(geo[,2]))
+) # slow
+
+## Quartic kernel
+mserwq&amp;lt;-mse2d(as.points(coordinates(geo)),
+  as.points(list(x=c(0,1,1,0), y=c(0,0,1,1))), 100, range = .001) # flexible range
+bwq&amp;lt;-mserwq$h[which.min(mserwq$mse)]
+bwq
+
+## Gaussian kernel
+mserw&amp;lt;-bw.diggle(as(geo_ppp, &amp;quot;ppp&amp;quot;)) #   Reached total allocation of 32765Mb: see help(memory.size)
+bw&amp;lt;-as.numeric(mserw)
+bw
+
+&amp;quot;plot the Mean Square Error-Bandwidth&amp;quot;
+par(mfrow=c(1, 2))
+plot(mserwq$h, mserwq$mse, xlab=&amp;quot;Bandwidth&amp;quot;, ylab=&amp;quot;MSE&amp;quot;, type=&amp;quot;l&amp;quot;, main=&amp;quot;Quartic kernel&amp;quot;)
+i&amp;lt;-which.min(mserwq$mse)
+points(mserwq$h[i], mserwq$mse[i], col = &amp;quot;red&amp;quot;)
+plot(mserw, main=&amp;quot;Gaussian kernel&amp;quot;, xlab=&amp;quot;Bandwidth&amp;quot;, ylab=&amp;quot;MSE&amp;quot;)
+points(attr(mserw, &amp;quot;h&amp;quot;)[attr(mserw, &amp;quot;iopt&amp;quot;)], bw, col = &amp;quot;red&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://farm8.staticflickr.com/7310/13145953075_2b2ae6a1e1.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;看，最优化的频宽选择并不太有用，不过频宽真得很小。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;geos = SpatialPointsDataFrame(geo, geo)
+poly = as.points(list(x = c(0, 0, 1, 1), y = c(0, 1, 1, 0)))
+
+sG &amp;lt;- Sobj_SpatialGrid(geos, maxDim=100)$SG
+grd &amp;lt;- slot(sG, &amp;quot;grid&amp;quot;)
+summary(grd)
+
+# k0 &amp;lt;- spkernel2d(geos, poly, h0=bw, grd)
+# k1 &amp;lt;- spkernel2d(geos, poly, h0=.05, grd)
+# k2 &amp;lt;- spkernel2d(geos, poly, h0=.1, grd)
+# k3 &amp;lt;- spkernel2d(geos, poly, h0=.15, grd)
+# df &amp;lt;- data.frame(k0=k0, k1=k1, k2=k2, k3=k3)
+# kernels &amp;lt;- SpatialGridDataFrame(grd, data=df)
+# summary(kernels)
+# 这里都是NA,四次多项式的结果并不好
+
+##################################
+cc &amp;lt;- coordinates(sG); head(cc)
+xy&amp;lt;-list(x=cc[,1], y=cc[,2])
+k0&amp;lt;-density(as(geos, &amp;quot;ppp&amp;quot;), .5*bw, dimyx=c(100, 100), xy=xy)
+k1&amp;lt;-density(as(geos, &amp;quot;ppp&amp;quot;), .5*bw*200, dimyx=c(100, 100), xy=xy)
+k2&amp;lt;-density(as(geos, &amp;quot;ppp&amp;quot;), .5*bw*500, dimyx=c(100, 100), xy=xy)
+k3&amp;lt;-density(as(geos, &amp;quot;ppp&amp;quot;), .5*bw*600, dimyx=c(100, 100), xy=xy)
+k4&amp;lt;-density(as(geos, &amp;quot;ppp&amp;quot;), .5*bw*800, dimyx=c(100, 100), xy=xy)
+k5&amp;lt;-density(as(geos, &amp;quot;ppp&amp;quot;), .5*bw*1000, dimyx=c(100, 100), xy=xy)
+k6&amp;lt;-density(as(geos, &amp;quot;ppp&amp;quot;), .5*bw*1500, dimyx=c(100, 100), xy=xy)
+k7&amp;lt;-density(as(geos, &amp;quot;ppp&amp;quot;), .5*bw*2000, dimyx=c(100, 100), xy=xy)
+&amp;quot;plot the MSE-Bandwidth&amp;quot;
+png(file = &amp;quot;./gaussian_kernel_density_first_week_in_december2.png&amp;quot;,
+width=8, height=16,
+units=&amp;quot;in&amp;quot;, res=700)
+
+par(mfrow=c(4, 2), mar=rep(1, 4))
+plot(k0)
+plot(k1)
+plot(k2)
+plot(k3)
+plot(k4)
+plot(k5)
+plot(k6)
+plot(k7)
+
+dev.off()
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://farm8.staticflickr.com/7408/13145698615_5559e6ba2c_o.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;这里列出几个比较小的频宽的核密度图：这与我们的观察比较一致。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;# kernels$k7&amp;lt;-as(k7, &amp;quot;SpatialGridDataFrame&amp;quot;)$v
+df &amp;lt;- data.frame(k0=k0, k1=k1, k2=k2, k3=k3, k4=k4, k5=k5， k6 = k6, k7 = k7)
+kernels &amp;lt;- SpatialGridDataFrame(grd, data=df)
+summary(kernels)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;参考文献&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Lloyd，D.C.(2007) Local Models for Spatial Analysis. CRC press&lt;/p&gt;
+
+&lt;p&gt;Baddeley, A. (2010) Analysing spatial point patterns in R. Workshop notes. CSIRO online technical publication. URL: www.csiro.au/resources/pf16h.html&lt;/p&gt;
+
+&lt;p&gt;Diggle, P.J. (1985) A kernel method for smoothing point process data. Applied Statistics (Journal of the Royal Statistical Society, Series C) 34 (1985) 138–147.&lt;/p&gt;
+
+&lt;p&gt;Diggle, P.J. (2003) Statistical analysis of spatial point patterns, Second edition. Arnold.&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>使用R模拟网络扩散</title>
+      <link>https://chengjun.github.io/zh/post/cn/2014-02-28-simulate-network-diffusion-with-r/</link>
+      <pubDate>Fri, 28 Feb 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://chengjun.github.io/zh/post/cn/2014-02-28-simulate-network-diffusion-with-r/</guid>
+      <description>&lt;p&gt;与普通的扩散研究不同，网络扩散开始考虑网络结构对于扩散过程的影响。&lt;/p&gt;
+
+&lt;p&gt;这里介绍一个使用R模拟网络扩散的例子。基本的算法非常简单：&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;生成一个网络:g(V, E)。&lt;/li&gt;
+&lt;li&gt;随机选择一个或几个节点作为种子（seeds）。&lt;/li&gt;
+&lt;li&gt;每个感染者以概率p（可视作该节点的传染能力,通常表示为$$\beta$$）影响与其相连的节点。&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;其实这是一个最简单的SI模型在网络中的实现。S表示可感染（susceptible）, I表示被感染（infected）。SI模型描述了个体的状态从S到I之间的转变。因为形式简单，SI模型是可以求出其解析解的。考虑一个封闭的群体，没有出生、死亡和迁移。并假设个体是均匀混合的（homogeneous mixing),也就是要求个体的地理分布均匀，且被感染的概率也相同(T. G. Lewis, 2011)。那么β表示传染率（transmission rate)。SI模型可以表达为：&lt;/p&gt;
+
+&lt;p&gt;$$\frac{dS}{dt}=-\beta SI$$&lt;/p&gt;
+
+&lt;p&gt;$$\frac{dI}{dt}=\beta SI$$&lt;/p&gt;
+
+&lt;p&gt;且满足 I + S = 1，那么以上方程$$\frac{dI}{dt}=\beta SI$$可以表达为：&lt;/p&gt;
+
+&lt;p&gt;$$\frac{dI}{dt}=\beta I(1-I)$$&lt;/p&gt;
+
+&lt;p&gt;解这个微分方程，我们可以得到累计增长曲线的表达式。有趣的是，这是一个logistic增长，具有明显的S型曲线（S-shaped curve）特征。该模型在初期跨越临界点之后增长较快，后期则变得缓慢。 因而可以用来描述和拟合创新扩散过程（diffusion of innovations）。&lt;/p&gt;
+
+&lt;p&gt;当然，对疾病传播而言，SI模型是非常初级的（naive），主要因为受感染的个体以一定的概率恢复健康，或者继续进入可以被感染状态(S，据此扩展为SIS模型)或者转为免疫状态（R,据此扩展为SIR模型）。 免疫表示为R，用$$\gamma$$代表免疫概率（removal or recovery rate)。对于信息扩散而言，这种考虑暂时是不需要的。&lt;/p&gt;
+
+&lt;p&gt;第一步，生成网络。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;require(igraph)
+# generate a social graph
+size = 50
+
+# 规则网
+g = graph.tree(size, children = 2); plot(g)
+g = graph.star(size); plot(g)
+g = graph.full(size); plot(g)
+g = graph.ring(size); plot(g)
+g = connect.neighborhood(graph.ring(size), 2); plot(g) # 最近邻耦合网络
+
+# 随机网络
+g = erdos.renyi.game(size, 0.1)
+
+# 小世界网络
+g = rewire.edges(erdos.renyi.game(size, 0.1), prob = 0.8 )
+# 无标度网络
+g = barabasi.game(size) ; plot(g)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;第二步，随机选取一个或n个种子。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;#  initiate the diffusers
+seeds_num = 1
+set.seed(2014); diffusers = sample(V(g),seeds_num) ; diffusers
+infected =list()
+infected[[1]]= diffusers
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;第三步，在这个简单的例子中，每个节点的传染能力是0.5，即与其相连的节点以0.5的概率被其感染。在R中的实现是通过抛硬币的方式来实现的。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;# for example, set percolation probability = 0.5
+coins = c(0,1)
+n = length(coins)
+sample(coins, 1, replace=TRUE, prob=rep(1/n, n))
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;显然，这很容易扩展到更一般的情况，比如节点的平均感染能力是0.128，那么可以这么写：&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;p = 0.128
+coins = c(rep(1, p*1000), rep(0,(1-p)*1000))
+n = length(coins)
+sample(coins, 1, replace=TRUE, prob=rep(1/n, n))
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;当然最重要的一步是要能按照“时间”更新网络节点被感染的信息。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;# function for updating the diffusers
+update_diffusers = function(diffusers){
+  nearest_neighbors = neighborhood(g, 1, diffusers)
+  nearest_neighbors = data.frame(table(unlist(nearest_neighbors)))
+  nearest_neighbors = subset(nearest_neighbors, !(nearest_neighbors[,1]%in%diffusers))
+  # toss the coins
+  toss = function(freq) {
+    tossing = NULL
+    for (i in 1:freq ) tossing[i] = sample(coins, 1, replace=TRUE, prob=rep(1/n, times=n))
+    tossing = sum(tossing)
+    return (tossing)
+  }
+  keep = unlist(lapply(nearest_neighbors[,2], toss))
+  new_infected = as.numeric(as.character(nearest_neighbors[,1][keep &amp;gt;= 1]))
+  diffusers = unique(c(diffusers, new_infected))
+  return(diffusers)
+  }
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;完成了以上三步。准备好了吗，现在开始开启扩散过程！&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;## Start the contagion!
+i = 1
+while(length(infected[[i]]) &amp;lt; size){
+  infected[[i+1]] = sort(update_diffusers(infected[[i]]))
+  cat(length(infected[[i+1]]), &amp;quot;\n&amp;quot;)
+  i = i + 1
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;先看看S曲线吧：&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;# &amp;quot;growth_curve&amp;quot;
+num_cum = unlist(lapply(1:i, function(x) length(infected［x］) ))
+p_cum = num_cum/max(num_cum)
+time = 1:i
+
+png(file = &amp;quot;./temporal_growth_curve.png&amp;quot;,
+    width=5, height=5,
+    units=&amp;quot;in&amp;quot;, res=300)
+plot(p_cum~time, type = &amp;quot;b&amp;quot;)
+dev.off()
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://farm8.staticflickr.com/7299/12845959103_e19cd9cd99_n.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;为了可视化这个扩散的过程，我们用红色来标记被感染者。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;# generate a palette
+E(g)$color = &amp;quot;blueviolet&amp;quot;
+V(g)$color = &amp;quot;white&amp;quot;
+set.seed(2014); layout.old = layout.fruchterman.reingold(g)
+V(g)$color[V(g)%in%diffusers] = &amp;quot;red&amp;quot;
+plot(g, layout =layout.old)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;使用谢益辉开发的animation的R包可视化。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;library(animation)
+
+saveGIF({
+  ani.options(interval = 0.5, convert = shQuote(&amp;quot;C:/Program Files/ImageMagick-6.8.8-Q16/convert.exe&amp;quot;))
+  # start the plot
+  m = 1
+  while(m &amp;lt;= length(infected)){
+    V(g)$color = &amp;quot;white&amp;quot;
+    V(g)$color[V(g)%in%infected[[m]]] = &amp;quot;red&amp;quot;
+    plot(g, layout =layout.old)
+    m = m + 1}
+})
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://farm4.staticflickr.com/3806/12826172695_368a6f50a2_o.gif&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://farm3.staticflickr.com/2848/12826237753_d8c97b1019_o.gif&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://farm4.staticflickr.com/3729/12826584654_c84452f397_o.gif&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://farm3.staticflickr.com/2851/12826173505_34649f488d_o.gif&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://farm8.staticflickr.com/7391/12826173255_574e471023_o.gif&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://farm4.staticflickr.com/3675/12826584484_7c6f35380c_o.gif&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://farm8.staticflickr.com/7432/12826173045_ef3548ec04_o.gif&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;如同在Netlogo里一样，我们可以把网络扩散与增长曲线同时展示出来：&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;saveGIF({
+  ani.options(interval = 0.5, convert = shQuote(&amp;quot;C:/Program Files/ImageMagick-6.8.8-Q16/convert.exe&amp;quot;))
+  # start the plot
+  m = 1
+  while(m &amp;lt;= length(infected)){
+    # start the plot
+    layout(matrix(c(1, 2, 1, 3), 2,2, byrow = TRUE), widths=c(3,1), heights=c(1, 1))
+    V(g)$color = &amp;quot;white&amp;quot;
+    V(g)$color[V(g)%in%infected[[m]]] = &amp;quot;red&amp;quot;
+    num_cum = unlist(lapply(1:m, function(x) length(infected[[x]]) ))
+    p_cum = num_cum/size
+    p = diff(c(0, p_cum))
+    time = 1:m
+    plot(g, layout =layout.old, edge.arrow.size=0.2)
+    title(paste(&amp;quot;Scale-free Network \n Day&amp;quot;, m))
+    plot(p_cum~time, type = &amp;quot;b&amp;quot;, ylab = &amp;quot;CDF&amp;quot;, xlab = &amp;quot;Time&amp;quot;,
+         xlim = c(0,i), ylim =c(0,1))
+    plot(p~time, type = &amp;quot;h&amp;quot;, ylab = &amp;quot;PDF&amp;quot;, xlab = &amp;quot;Time&amp;quot;,
+         xlim = c(0,i), ylim =c(0,1), frame.plot = FALSE)
+    m = m + 1}
+}, ani.width = 800, ani.height = 500)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://farm4.staticflickr.com/3672/12848749413_7f9da8b8c7_o.gif&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 </description>
     </item>
     

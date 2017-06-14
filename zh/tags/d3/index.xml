@@ -12,7 +12,7 @@
     <item>
       <title>使用d3network做网络可视化</title>
       <link>https://chengjun.github.io/zh/post/cn/2014-08-27-d3network/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 27 Aug 2014 00:00:00 +0000</pubDate>
       
       <guid>https://chengjun.github.io/zh/post/cn/2014-08-27-d3network/</guid>
       <description>&lt;p&gt;在之前的&lt;a href=&#34;http://chengjun.github.io/cn/2014/07/chinese-university-friendship-network/&#34; target=&#34;_blank&#34;&gt;一个博客&lt;/a&gt;中，我介绍了使用R进行社区划分并可视化的方法。这里使用相同的数据，介绍如何使用d3network实现网络可视化的方法。&lt;/p&gt;
@@ -50,16 +50,16 @@ links[,2] = ids[match(links[,2], nodes$name )]
 links = links[with(links, order(source)), ] # sort by source
 
 #处理边的权重大小
-links$value = log(links$value) 
+links$value = log(links$value)
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;之后就可以使实现可视化结果啦：&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;d3ForceNetwork(Links = links, Nodes = nodes,
                Source = &amp;quot;source&amp;quot;, Target = &amp;quot;target&amp;quot;,
-               Value = &amp;quot;value&amp;quot;, 
+               Value = &amp;quot;value&amp;quot;,
                NodeID = &amp;quot;name&amp;quot;,
-               Group = &amp;quot;group&amp;quot;, 
+               Group = &amp;quot;group&amp;quot;,
                file = &amp;quot;chinese_university_groups100.html&amp;quot;,
                width = 1550, height = 800,iframe = TRUE,
                opacity = 0.9, zoom = TRUE)
@@ -80,7 +80,7 @@ links$value = log(links$value)
     <item>
       <title>空间分析初步：使用D3可视化</title>
       <link>https://chengjun.github.io/zh/post/cn/2014-03-15-d3-map/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 15 Mar 2014 00:00:00 +0000</pubDate>
       
       <guid>https://chengjun.github.io/zh/post/cn/2014-03-15-d3-map/</guid>
       <description>

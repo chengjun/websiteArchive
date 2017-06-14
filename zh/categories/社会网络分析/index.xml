@@ -12,7 +12,7 @@
     <item>
       <title>第4章 派系、聚类和组元</title>
       <link>https://chengjun.github.io/zh/post/cn/2012-07-01-snabook-chapter4/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 01 Jul 2012 00:00:00 +0000</pubDate>
       
       <guid>https://chengjun.github.io/zh/post/cn/2012-07-01-snabook-chapter4/</guid>
       <description>&lt;p&gt;在前面章节中，我们主要分析了社会网络中的个体特征。从这一章开始， 我们将开始循序渐进探讨网络中的更大的分析单元，不仅分析个体及其相互联系特征，还要分析所有子图和聚类的特征。我们将探索处于一个三元组当中到底意味着什么，以及作为结构洞的好处和压力。
@@ -83,7 +83,7 @@
 
     mn=int(min(weights))
     mx=int(max(weights))
-    #compute the size of the step, so we get a reasonable step in iterations 
+    #compute the size of the step, so we get a reasonable step in iterations
     step=int((mx-mn)/iterations)
 
     return [[threshold, trim_edges(g, threshold)] for threshold in range(mn,mx,step)]
@@ -98,8 +98,8 @@
 ... # 输出水平面高度、图大小、连接的组件的数量
 ... print i[0], len(i[1]), len(net.connected_component_subgraphs(i[1]))
 
-        1 12360 314 
-        62 27 11 
+        1 12360 314
+        62 27 11
         123 8 3
         184 5 2
         245 5 2
@@ -125,7 +125,7 @@
 &lt;p&gt;###使用Python提取和可视化自我中心网
 提取自我中心网非常简单，因为NetworkX提供一个现成的内置函数来完成这个工作：&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;&amp;gt;&amp;gt;&amp;gt; net.ego_graph(cc,&#39;justinbieber&#39;) 
+&lt;pre&gt;&lt;code&gt;&amp;gt;&amp;gt;&amp;gt; net.ego_graph(cc,&#39;justinbieber&#39;)
 &amp;lt;networkx.classes.multigraph.MultiGraph object at 0x1ad54090&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;
 
@@ -136,11 +136,11 @@
 另外一个度量被称为聚类系数（clustering coefficient）——本质上，它测量了你的朋友彼此之间也是朋友的比例（也就是人们之间的相互信任程度）。这个度量可以被应用于整个网络当中——但是对于一个密度差异很大并且有多个核心的大的网络，平均的聚类系数很难解读。在自我中心网当中，对于聚类系数的解释非常简单——一个自我中心网，稠密且嵌入了很多相互信任的节点，具有一个较高的聚类系数。由一个单一向外“广播”的核心节点和众多“听众”构成的星型网络，则具有一个较低的聚类系数。
 让我们开始探索一下埃及数据中的一些自我中心网：&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;## 我们需要将自我中心网从一个多图转化为一个简单的图。 
+&lt;pre&gt;&lt;code&gt;## 我们需要将自我中心网从一个多图转化为一个简单的图。
 &amp;gt;&amp;gt;&amp;gt; bieb = net.Graph(net.ego_graph(cc,&#39;justinbieber&#39;, radius=2))
 &amp;gt;&amp;gt;&amp;gt; len(bieb)
 22
-&amp;gt;&amp;gt;&amp;gt; net.average_clustering(bieb) 
+&amp;gt;&amp;gt;&amp;gt; net.average_clustering(bieb)
 0.0
 &lt;/code&gt;&lt;/pre&gt;
 
@@ -148,7 +148,7 @@
 
 &lt;p&gt;让我们现在探索一个不同类型的名人——威尔•戈宁(Wael Ghonim)，新一代的埃及人，Google的主管，推特的重度使用者：&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;&amp;gt;&amp;gt;&amp;gt; ghonim= net.Graph(net.ego_graph(cc,&#39;Ghonim&#39;, radius=2)) 
+&lt;pre&gt;&lt;code&gt;&amp;gt;&amp;gt;&amp;gt; ghonim= net.Graph(net.ego_graph(cc,&#39;Ghonim&#39;, radius=2))
 &amp;gt;&amp;gt;&amp;gt; len(ghonim)
 3450
 &amp;gt;&amp;gt;&amp;gt; net.average_clustering(ghonim)
@@ -398,7 +398,7 @@ mm.plot_multimode(cc,type_string=&#39;flight&#39;)
 ## 生成一个表格的标题  
 print &#39;| Node |&#39;, &#39; | &#39;.join(keys)
 ## 生成表格的内容
-## 需要一点小技巧区将整数转为字符 
+## 需要一点小技巧区将整数转为字符
 for k in node_census.keys():
 print &#39;|&#39;, k, &#39;|&#39;,&#39; | &#39;.join([str(v) for v in node_census[k].values()])
 &lt;/code&gt;&lt;/pre&gt;
@@ -739,7 +739,7 @@ def create_hc(G, t=1.0):
     <item>
       <title>第5章 二模网络</title>
       <link>https://chengjun.github.io/zh/post/cn/2012-07-01-snabook-chapter5/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 01 Jul 2012 00:00:00 +0000</pubDate>
       
       <guid>https://chengjun.github.io/zh/post/cn/2012-07-01-snabook-chapter5/</guid>
       <description>&lt;p&gt;在本章中，我们将探索分析具有两种及两种以上节点类型的复杂网络的方法。但首先，我们先从一个故事开始。&lt;/p&gt;
@@ -1017,7 +1017,7 @@ cc_graph = net.Graph(cc)   #从一个邻接矩阵中重新创作一个NetworkX�
     <item>
       <title>第6章 信息扩散：像病毒一样传播开来</title>
       <link>https://chengjun.github.io/zh/post/cn/2012-07-01-snabook-chapter6/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 01 Jul 2012 00:00:00 +0000</pubDate>
       
       <guid>https://chengjun.github.io/zh/post/cn/2012-07-01-snabook-chapter6/</guid>
       <description>&lt;p&gt;这一章或许是你挑选这本书的首要原因。很多人好奇事物（视频、网站、新闻等）如何像病毒一样在网络上传播开来——迅速扩散并成为文化中的一部分（同时在这个过程中，使得创造它们的作者富有）。我们应该预先告诉你我们并没有现成的答案。实际上没有任何人知道答案，并且这个过程中有一些运气的成分在——但在本章中，我们将要尝试使你更加理解驱动扩散的原因以及你的决策如何驱动购买行为。&lt;/p&gt;
@@ -1322,7 +1322,7 @@ for i in range(influencers):
 
 &lt;pre&gt;&lt;code&gt;## 重复30个时间段
 for i in range(30):
-    ## 循环遍历网络中所有节点并让他们运转一步 
+    ## 循环遍历网络中所有节点并让他们运转一步
     for node in g.nodes():
         node.step()
     ##汇总演化而来的态度数值，输出到终端并画出结果。
@@ -1418,7 +1418,7 @@ def interact(self):
     &amp;quot;&amp;quot;&amp;quot;
     neighbors=g[self].keys()
     values=[v[&#39;weight&#39;] for v in g[self].values()]
-    ##掷骰子已决定互动的概率 
+    ##掷骰子已决定互动的概率
     ## 相似 (0.6), 不相似(0.3)或随机 (0.1)
     roll=r.random()
     if r &amp;lt;= 0.1 or len(neighbors)==0:

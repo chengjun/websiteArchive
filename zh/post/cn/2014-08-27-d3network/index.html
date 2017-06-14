@@ -146,8 +146,8 @@
 <div class="article-metadata">
 
   <span class="article-date">
-    <time datetime="0001-01-01 00:00:00 &#43;0000 UTC" itemprop="datePublished">
-      Mon, Jan 1, 0001
+    <time datetime="2014-08-27 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+      Wed, Aug 27, 2014
     </time>
   </span>
 
@@ -270,16 +270,16 @@ links[,2] = ids[match(links[,2], nodes$name )]
 links = links[with(links, order(source)), ] # sort by source
 
 #处理边的权重大小
-links$value = log(links$value) 
+links$value = log(links$value)
 </code></pre>
 
 <p>之后就可以使实现可视化结果啦：</p>
 
 <pre><code>d3ForceNetwork(Links = links, Nodes = nodes,
                Source = &quot;source&quot;, Target = &quot;target&quot;,
-               Value = &quot;value&quot;, 
+               Value = &quot;value&quot;,
                NodeID = &quot;name&quot;,
-               Group = &quot;group&quot;, 
+               Group = &quot;group&quot;,
                file = &quot;chinese_university_groups100.html&quot;,
                width = 1550, height = 800,iframe = TRUE,
                opacity = 0.9, zoom = TRUE)
@@ -308,12 +308,12 @@ links$value = log(links$value)
   <nav>
   <ul class="pager">
     
-    <li class="previous"><a href="https://chengjun.github.io/zh/post/cn/2013-09-08-using-cluster-analysis-to-classify-topics-generated-by-topic-modeling/"><span
-      aria-hidden="true">&larr;</span> 使用聚类分析为主题模型划分主题类型</a></li>
+    <li class="previous"><a href="https://chengjun.github.io/zh/post/cn/2014-08-14-networkx-intro/"><span
+      aria-hidden="true">&larr;</span> NetworkX初步：创建网络、提取属性和绘图</a></li>
     
 
     
-    <li class="next"><a href="https://chengjun.github.io/zh/post/cn/2014-02-28-simulate-network-diffusion-with-r/">使用R模拟网络扩散 <span
+    <li class="next"><a href="https://chengjun.github.io/zh/post/cn/2014-08-31-fast-split-data-with-python/">使用Python快速分割数据的方法 <span
       aria-hidden="true">&rarr;</span></a></li>
     
   </ul>

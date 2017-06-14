@@ -12,7 +12,7 @@
     <item>
       <title>空间分析初步：使用D3可视化</title>
       <link>https://chengjun.github.io/zh/post/cn/2014-03-15-d3-map/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 15 Mar 2014 00:00:00 +0000</pubDate>
       
       <guid>https://chengjun.github.io/zh/post/cn/2014-03-15-d3-map/</guid>
       <description>
@@ -76,7 +76,7 @@ D3是数据驱动文件（Data-Driven Documents）的缩写。作为一个javasc
     <item>
       <title>空间分析初步：空间点类型分析</title>
       <link>https://chengjun.github.io/zh/post/cn/2014-03-12-first-step-spatial-analysis-with-r/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 12 Mar 2014 00:00:00 +0000</pubDate>
       
       <guid>https://chengjun.github.io/zh/post/cn/2014-03-12-first-step-spatial-analysis-with-r/</guid>
       <description>
@@ -136,14 +136,14 @@ dat$time = do.call(rbind, strsplit(dat$time, split = &amp;quot;\\.&amp;quot;))[,
 dat$time = gsub(&amp;quot;T&amp;quot;, &amp;quot; &amp;quot;, dat$time)
 dat$time = as.POSIXlt(dat$time)
 dat$geo = gsub(&amp;quot;[&amp;quot;, &amp;quot;&amp;quot;, dat$geo, fixed = T)
-dat$geo = gsub(&amp;quot;]&amp;quot;, &amp;quot;&amp;quot;, dat$geo, fixed = T) 
+dat$geo = gsub(&amp;quot;]&amp;quot;, &amp;quot;&amp;quot;, dat$geo, fixed = T)
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;从openstreetmap下载米兰城的交通地理信息。使用rgdal这个R包读入数据：&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;# download shp data from 
+&lt;pre&gt;&lt;code&gt;# download shp data from
 # http://metro.teczno.com/#milan
-ost=readOGR(&amp;quot;./Milano Grid/milano-grid/milan.imposm-shapefiles/milan.osm-mainroads.shp&amp;quot;, layer = &amp;quot;milan.osm-mainroads&amp;quot;) #will load the shapefile 
+ost=readOGR(&amp;quot;./Milano Grid/milano-grid/milan.imposm-shapefiles/milan.osm-mainroads.shp&amp;quot;, layer = &amp;quot;milan.osm-mainroads&amp;quot;) #will load the shapefile
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;要把地理信息转为经纬度的数据表示形式：&lt;/p&gt;
@@ -175,8 +175,8 @@ make_plot = function(){
 }
 
 # save figures
-png(file = &amp;quot;./linear%2d.png&amp;quot;, 
-    width=5, height=5, 
+png(file = &amp;quot;./linear%2d.png&amp;quot;,
+    width=5, height=5,
     units=&amp;quot;in&amp;quot;, res=700)
 make_plot()
 dev.off()
@@ -191,8 +191,8 @@ dev.off()
 &lt;p&gt;把12月31天的数据累积起来，我们可以得到米兰城2013年12月当中的发推特的空间分布。&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;# the overall geographical distribution
-png(&amp;quot;./milano_social_pulse_December.png&amp;quot;, 
-    width=10, height=10, 
+png(&amp;quot;./milano_social_pulse_December.png&amp;quot;,
+    width=10, height=10,
     units=&amp;quot;in&amp;quot;, res=700)
 plot(spl, col = &amp;quot;purple&amp;quot;)
 p = do.call(rbind, strsplit(dat$geo, split=&#39;,&#39;))
@@ -260,7 +260,7 @@ dev.off()
 #the analysis of point patterns
 geo = data.frame(dat$p1, dat$p2)
 # Convert data to ppp format
-geo_ppp = ppp(geo[,1], geo[,2], 
+geo_ppp = ppp(geo[,1], geo[,2],
                c(min(geo[,1]), max(geo[,1])),
                c(min(geo[,2]), max(geo[,2]))
                ) # slow
@@ -317,7 +317,7 @@ library(splancs)
 dat1 = subset(dat, dat$day &amp;gt;=as.Date(&amp;quot;2013-12-01&amp;quot;)&amp;amp;dat$day &amp;lt;=as.Date(&amp;quot;2013-12-07&amp;quot;))
 
 geo = data.frame(dat1$p1, dat1$p2)
-geo_ppp = ppp(geo[,1], geo[,2], 
+geo_ppp = ppp(geo[,1], geo[,2],
   c(min(geo[,1]), max(geo[,1])),
   c(min(geo[,2]), max(geo[,2]))
 ) # slow
@@ -357,7 +357,7 @@ summary(grd)
 # k1 &amp;lt;- spkernel2d(geos, poly, h0=.05, grd)
 # k2 &amp;lt;- spkernel2d(geos, poly, h0=.1, grd)
 # k3 &amp;lt;- spkernel2d(geos, poly, h0=.15, grd)
-# df &amp;lt;- data.frame(k0=k0, k1=k1, k2=k2, k3=k3) 
+# df &amp;lt;- data.frame(k0=k0, k1=k1, k2=k2, k3=k3)
 # kernels &amp;lt;- SpatialGridDataFrame(grd, data=df)
 # summary(kernels)
 # 这里都是NA,四次多项式的结果并不好
@@ -374,8 +374,8 @@ k5&amp;lt;-density(as(geos, &amp;quot;ppp&amp;quot;), .5*bw*1000, dimyx=c(100, 1
 k6&amp;lt;-density(as(geos, &amp;quot;ppp&amp;quot;), .5*bw*1500, dimyx=c(100, 100), xy=xy)
 k7&amp;lt;-density(as(geos, &amp;quot;ppp&amp;quot;), .5*bw*2000, dimyx=c(100, 100), xy=xy)
 &amp;quot;plot the MSE-Bandwidth&amp;quot;
-png(file = &amp;quot;./gaussian_kernel_density_first_week_in_december2.png&amp;quot;, 
-width=8, height=16, 
+png(file = &amp;quot;./gaussian_kernel_density_first_week_in_december2.png&amp;quot;,
+width=8, height=16,
 units=&amp;quot;in&amp;quot;, res=700)
 
 par(mfrow=c(4, 2), mar=rep(1, 4))
@@ -396,7 +396,7 @@ dev.off()
 &lt;p&gt;这里列出几个比较小的频宽的核密度图：这与我们的观察比较一致。&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;# kernels$k7&amp;lt;-as(k7, &amp;quot;SpatialGridDataFrame&amp;quot;)$v
-df &amp;lt;- data.frame(k0=k0, k1=k1, k2=k2, k3=k3, k4=k4, k5=k5， k6 = k6, k7 = k7) 
+df &amp;lt;- data.frame(k0=k0, k1=k1, k2=k2, k3=k3, k4=k4, k5=k5， k6 = k6, k7 = k7)
 kernels &amp;lt;- SpatialGridDataFrame(grd, data=df)
 summary(kernels)
 &lt;/code&gt;&lt;/pre&gt;

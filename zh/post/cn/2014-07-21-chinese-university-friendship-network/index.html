@@ -146,8 +146,8 @@
 <div class="article-metadata">
 
   <span class="article-date">
-    <time datetime="0001-01-01 00:00:00 &#43;0000 UTC" itemprop="datePublished">
-      Mon, Jan 1, 0001
+    <time datetime="2014-07-21 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+      Mon, Jul 21, 2014
     </time>
   </span>
 
@@ -247,7 +247,7 @@ setwd(&quot;F:/xiaonei/&quot;)
 ################
 # all data
 ################
-data = read.table(&quot;./friends_university_top100_by_all.txt&quot;, header = FALSE, 
+data = read.table(&quot;./friends_university_top100_by_all.txt&quot;, header = FALSE,
                  sep = '\t', stringsAsFactors = FALSE)
 
 data = data[which(data[,3] &gt;= mean(data[,3])*1.2), ]
@@ -265,7 +265,7 @@ centrality = betweenness(g)
 # colors
 colors = heat.colors(37)
 position = rank(-centrality, ties.method = &quot;first&quot;)
-V(g)$color = colors[position] 
+V(g)$color = colors[position]
 # width
 E(g)$width = (log(E(g)$weight)- 8)*1.5
 # label
@@ -282,13 +282,13 @@ drawFigure = function(g){
        layout=l,mark.groups = by(seq_along(mfc), mfc, invisible) )
 }
 
-drawFigure(g) 
+drawFigure(g)
 
 # save png
 png(&quot;./all_color.png&quot;,
-    width=10, height=10, 
+    width=10, height=10,
     units=&quot;in&quot;, res=700)
-drawFigure(g) 
+drawFigure(g)
 dev.off()
 </code></pre>
 
@@ -333,12 +333,12 @@ dev.off()
   <nav>
   <ul class="pager">
     
-    <li class="previous"><a href="https://chengjun.github.io/zh/post/cn/2012-12-06-intenet-ecology/"><span
-      aria-hidden="true">&larr;</span> 互联网的法则：网络生态学的起点</a></li>
+    <li class="previous"><a href="https://chengjun.github.io/zh/post/cn/2014-05-05-network-dispersion/"><span
+      aria-hidden="true">&larr;</span> 网络残缺度：共同好友间可否两步到达？</a></li>
     
 
     
-    <li class="next"><a href="https://chengjun.github.io/zh/post/cn/2013-09-27-topic-modeling-of-song-peom/">东风夜放花千树：对宋词进行主题分析初探 <span
+    <li class="next"><a href="https://chengjun.github.io/zh/post/cn/2014-08-14-networkx-intro/">NetworkX初步：创建网络、提取属性和绘图 <span
       aria-hidden="true">&rarr;</span></a></li>
     
   </ul>

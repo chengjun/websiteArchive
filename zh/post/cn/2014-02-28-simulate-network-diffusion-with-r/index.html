@@ -146,8 +146,8 @@
 <div class="article-metadata">
 
   <span class="article-date">
-    <time datetime="0001-01-01 00:00:00 &#43;0000 UTC" itemprop="datePublished">
-      Mon, Jan 1, 0001
+    <time datetime="2014-02-28 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+      Fri, Feb 28, 2014
     </time>
   </span>
 
@@ -331,7 +331,7 @@ update_diffusers = function(diffusers){
 
 <pre><code>## Start the contagion!
 i = 1
-while(length(infected[[i]]) &lt; size){ 
+while(length(infected[[i]]) &lt; size){
   infected[[i+1]] = sort(update_diffusers(infected[[i]]))
   cat(length(infected[[i+1]]), &quot;\n&quot;)
   i = i + 1
@@ -345,8 +345,8 @@ num_cum = unlist(lapply(1:i, function(x) length(infected［x］) ))
 p_cum = num_cum/max(num_cum)
 time = 1:i
 
-png(file = &quot;./temporal_growth_curve.png&quot;, 
-    width=5, height=5, 
+png(file = &quot;./temporal_growth_curve.png&quot;,
+    width=5, height=5,
     units=&quot;in&quot;, res=300)
 plot(p_cum~time, type = &quot;b&quot;)
 dev.off()
@@ -359,7 +359,7 @@ dev.off()
 <pre><code># generate a palette
 E(g)$color = &quot;blueviolet&quot;
 V(g)$color = &quot;white&quot;
-set.seed(2014); layout.old = layout.fruchterman.reingold(g) 
+set.seed(2014); layout.old = layout.fruchterman.reingold(g)
 V(g)$color[V(g)%in%diffusers] = &quot;red&quot;
 plot(g, layout =layout.old)
 </code></pre>
@@ -434,12 +434,12 @@ saveGIF({
   <nav>
   <ul class="pager">
     
-    <li class="previous"><a href="https://chengjun.github.io/zh/post/cn/2014-08-27-d3network/"><span
-      aria-hidden="true">&larr;</span> 使用d3network做网络可视化</a></li>
+    <li class="previous"><a href="https://chengjun.github.io/zh/post/cn/2013-09-27-topic-modeling-of-song-peom/"><span
+      aria-hidden="true">&larr;</span> 东风夜放花千树：对宋词进行主题分析初探</a></li>
     
 
     
-    <li class="next"><a href="https://chengjun.github.io/zh/post/cn/2013-08-31-topic-modeling-with-r/">使用R做主题模型：词语筛选和主题数量确定 <span
+    <li class="next"><a href="https://chengjun.github.io/zh/post/cn/2014-03-12-first-step-spatial-analysis-with-r/">空间分析初步：空间点类型分析 <span
       aria-hidden="true">&rarr;</span></a></li>
     
   </ul>

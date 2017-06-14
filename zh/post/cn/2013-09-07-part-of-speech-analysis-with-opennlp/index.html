@@ -146,8 +146,8 @@
 <div class="article-metadata">
 
   <span class="article-date">
-    <time datetime="0001-01-01 00:00:00 &#43;0000 UTC" itemprop="datePublished">
-      Mon, Jan 1, 0001
+    <time datetime="2013-09-07 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+      Sat, Sep 7, 2013
     </time>
   </span>
 
@@ -256,15 +256,15 @@ require(NLP)
 tagPOS &lt;-  function(text.var, pos_tag_annotator, ...) {
   s &lt;- as.String(text.var)  
   ## Set up the POS annotator if missing (for parallel)
-  PTA &lt;- Maxent_POS_Tag_Annotator() 
+  PTA &lt;- Maxent_POS_Tag_Annotator()
   ## Need sentence and word token annotations.
   word_token_annotator &lt;- Maxent_Word_Token_Annotator()
   a2 &lt;- Annotation(1L, &quot;sentence&quot;, 1L, nchar(s))
   a2 &lt;- annotate(s, word_token_annotator, a2)
-  a3 &lt;- annotate(s, PTA, a2) 
+  a3 &lt;- annotate(s, PTA, a2)
   ## Determine the distribution of POS tags for word tokens.
   a3w &lt;- a3[a3$type == &quot;word&quot;]
-  pos_tag &lt;- unlist(lapply(a3w$features, &quot;[[&quot;, &quot;POS&quot;)) 
+  pos_tag &lt;- unlist(lapply(a3w$features, &quot;[[&quot;, &quot;POS&quot;))
   ## Extract token/POS pairs (all of them): easy.
   pos_term &lt;- list(term = s[a3w], tag = pos_tag)
   return (pos_term)
@@ -278,8 +278,8 @@ tagPOS &lt;-  function(text.var, pos_tag_annotator, ...) {
 <pre><code># run tagPOS function for a list of texts
 # do so to facilitate the conversion to generate corpus for topic modeling
 run_pos = function(n){
-  cat(&quot;R is running for part-of-speech tagging&quot;, n, 
-      as.character(as.POSIXlt(Sys.time(), &quot;Asia/Shanghai&quot;)), sep = &quot;\n&quot;) 
+  cat(&quot;R is running for part-of-speech tagging&quot;, n,
+      as.character(as.POSIXlt(Sys.time(), &quot;Asia/Shanghai&quot;)), sep = &quot;\n&quot;)
   df = tagPOS(text[n])
   nn = (df$term[which(df$tag == &quot;NN&quot;)])
   vb = (df$term[which(df$tag == &quot;VB&quot;)])
@@ -324,12 +324,12 @@ corpus_nnvb &lt;- Corpus(   VectorSource( data$nnvb )  )
   <nav>
   <ul class="pager">
     
-    <li class="previous"><a href="https://chengjun.github.io/zh/post/cn/2012-08-31-burst/"><span
-      aria-hidden="true">&larr;</span> 爆发：人类行为在时间尺度上的特征</a></li>
+    <li class="previous"><a href="https://chengjun.github.io/zh/post/cn/2013-08-31-topic-modeling-with-r/"><span
+      aria-hidden="true">&larr;</span> 使用R做主题模型：词语筛选和主题数量确定</a></li>
     
 
     
-    <li class="next"><a href="https://chengjun.github.io/zh/post/cn/2013-08-09-sna-book-chapter/">探寻社交网络中的关系: 统计网络模型初探 <span
+    <li class="next"><a href="https://chengjun.github.io/zh/post/cn/2013-09-08-using-cluster-analysis-to-classify-topics-generated-by-topic-modeling/">使用聚类分析为主题模型划分主题类型 <span
       aria-hidden="true">&rarr;</span></a></li>
     
   </ul>

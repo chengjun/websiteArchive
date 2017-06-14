@@ -12,7 +12,7 @@
     <item>
       <title>QAP检验：计算两个网络的关联</title>
       <link>https://chengjun.github.io/zh/post/cn/2013-08-04-qap-test-of-network-analysis/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 04 Aug 2013 00:00:00 +0000</pubDate>
       
       <guid>https://chengjun.github.io/zh/post/cn/2013-08-04-qap-test-of-network-analysis/</guid>
       <description>
@@ -28,13 +28,13 @@ install.packages(&amp;quot;statnet&amp;quot;)
 library(statnet)  
 # 首先随机生成3个由10个节点构成的有向网络
 g=array(dim=c(3,10,10))
-g[1,,] = rgraph(10) 
+g[1,,] = rgraph(10)
 g[2,,] = rgraph(10,tprob=g[1,,]*0.8) # 设置g1和g2两个网络强相关
 g[3,,] = 1; g[3,1,2] = 0 # g3接近于一个派系（clique）
 # 绘制这3个网络
 par(mfrow=c(1,3))
 for(i in 1:3) {
-    gplot(g[i,,],usecurv=TRUE, mode = &amp;quot;fruchtermanreingold&amp;quot;, 
+    gplot(g[i,,],usecurv=TRUE, mode = &amp;quot;fruchtermanreingold&amp;quot;,
           vertex.sides=3:8)}
 #计算网络的相关矩阵
 gcor(g)
