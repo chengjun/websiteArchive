@@ -64,7 +64,7 @@ def get_words_in_tweets(tweets):
         all_words.extend(words)
     return all_words
 
-# get the unique word from the word list    
+# get the unique word from the word list
 def get_word_features(wordlist):
     wordlist = nltk.FreqDist(wordlist)
     word_features = wordlist.keys()
@@ -201,9 +201,9 @@ tweets = rbind(pos_tweets, neg_tweets, test_tweets)
 &lt;p&gt;Then we can build the document-term matrix:&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;# build dtm
-matrix= create_matrix(tweets[,1], language=&amp;quot;english&amp;quot;, 
+matrix= create_matrix(tweets[,1], language=&amp;quot;english&amp;quot;,
                       removeStopwords=FALSE, removeNumbers=TRUE,  # we can also removeSparseTerms
-                      stemWords=FALSE) 
+                      stemWords=FALSE)
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;Now, we can train the naive Bayes model with the training set. Note that, e1071 asks the response variable to be numeric or factor. Thus, we convert characters to factors here. This is a little trick.&lt;/p&gt;
@@ -298,9 +298,9 @@ sad_test = readLines(&amp;quot;./sad_test.txt&amp;quot;)
 tweet = c(happy, sad)
 tweet_test= c(happy_test, sad_test)
 tweet_all = c(tweet, tweet_test)
-sentiment = c(rep(&amp;quot;happy&amp;quot;, length(happy) ), 
+sentiment = c(rep(&amp;quot;happy&amp;quot;, length(happy) ),
               rep(&amp;quot;sad&amp;quot;, length(sad)))
-sentiment_test = c(rep(&amp;quot;happy&amp;quot;, length(happy_test) ), 
+sentiment_test = c(rep(&amp;quot;happy&amp;quot;, length(happy_test) ),
                    rep(&amp;quot;sad&amp;quot;, length(sad_test)))
 sentiment_all = as.factor(c(sentiment, sentiment_test))
 
@@ -311,8 +311,8 @@ library(RTextTools)
 &lt;p&gt;First, try naive Bayes.&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;# naive bayes
-mat= create_matrix(tweet_all, language=&amp;quot;english&amp;quot;, 
-                   removeStopwords=FALSE, removeNumbers=TRUE, 
+mat= create_matrix(tweet_all, language=&amp;quot;english&amp;quot;,
+                   removeStopwords=FALSE, removeNumbers=TRUE,
                         stemWords=FALSE, tm::weightTfIdf)
 
 mat = as.matrix(mat)
@@ -328,8 +328,8 @@ recall_accuracy(sentiment_test, predicted)
 &lt;p&gt;Then, try the other methods:&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;# the other methods
-mat= create_matrix(tweet_all, language=&amp;quot;english&amp;quot;, 
-                   removeStopwords=FALSE, removeNumbers=TRUE, 
+mat= create_matrix(tweet_all, language=&amp;quot;english&amp;quot;,
+                   removeStopwords=FALSE, removeNumbers=TRUE,
                    stemWords=FALSE, tm::weightTfIdf)
 
 container = create_container(mat, as.numeric(sentiment_all),
@@ -337,10 +337,10 @@ container = create_container(mat, as.numeric(sentiment_all),
 
 models = train_models(container, algorithms=c(&amp;quot;MAXENT&amp;quot;,
                                               &amp;quot;SVM&amp;quot;,
-                                               #&amp;quot;GLMNET&amp;quot;, &amp;quot;BOOSTING&amp;quot;, 
-                                               &amp;quot;SLDA&amp;quot;,&amp;quot;BAGGING&amp;quot;, 
-                                              &amp;quot;RF&amp;quot;, # &amp;quot;NNET&amp;quot;, 
-                                              &amp;quot;TREE&amp;quot; 
+                                               #&amp;quot;GLMNET&amp;quot;, &amp;quot;BOOSTING&amp;quot;,
+                                               &amp;quot;SLDA&amp;quot;,&amp;quot;BAGGING&amp;quot;,
+                                              &amp;quot;RF&amp;quot;, # &amp;quot;NNET&amp;quot;,
+                                              &amp;quot;TREE&amp;quot;
                                                ))
 
 # test the model
