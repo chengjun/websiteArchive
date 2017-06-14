@@ -695,14 +695,6 @@
     
     
     <url>
-      <loc>https://chengjun.github.io/en/tags/api/</loc>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
       <loc>https://chengjun.github.io/en/categories/blog/</loc>
       <lastmod>2010-01-10T00:00:00+00:00</lastmod>
       <priority>0</priority>
@@ -727,8 +719,7 @@
     
     
     <url>
-      <loc>https://chengjun.github.io/en/tags/computational-communication/</loc>
-      <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+      <loc>https://chengjun.github.io/en/categories/data/</loc>
       <priority>0</priority>
     </url>
     
@@ -736,7 +727,7 @@
     
     
     <url>
-      <loc>https://chengjun.github.io/en/categories/data/</loc>
+      <loc>https://chengjun.github.io/en/tags/epidemic-models/</loc>
       <priority>0</priority>
     </url>
     
@@ -757,14 +748,6 @@
   
     
     
-    <url>
-      <loc>https://chengjun.github.io/en/tags/googlevis/</loc>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
   
     
     
@@ -776,31 +759,7 @@
     
     
     <url>
-      <loc>https://chengjun.github.io/en/tags/howard-s/index.-becker/</loc>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-      <loc>https://chengjun.github.io/en/tags/information-diffusion/</loc>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
       <loc>https://chengjun.github.io/en/post/en/2013-03-14-learn-basic-epidemic-models-with-python/</loc>
-    </url>
-    
-  
-    
-    
-    <url>
-      <loc>https://chengjun.github.io/en/tags/machine-learning/</loc>
-      <priority>0</priority>
     </url>
     
   
@@ -822,7 +781,7 @@
     
     
     <url>
-      <loc>https://chengjun.github.io/en/tags/nltk/</loc>
+      <loc>https://chengjun.github.io/en/categories/octopress/</loc>
       <priority>0</priority>
     </url>
     
@@ -830,7 +789,7 @@
     
     
     <url>
-      <loc>https://chengjun.github.io/en/categories/octopress/</loc>
+      <loc>https://chengjun.github.io/en/tags/package/</loc>
       <priority>0</priority>
     </url>
     
@@ -950,14 +909,6 @@
     
     
     <url>
-      <loc>https://chengjun.github.io/en/tags/subscribe/</loc>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
       <loc>https://chengjun.github.io/en/post/en/2014-09-03-subscribe-by-email/</loc>
     </url>
     
@@ -1031,14 +982,6 @@
     
     
     <url>
-      <loc>https://chengjun.github.io/en/tags/weibo/</loc>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
       <loc>https://chengjun.github.io/en/categories/writing/</loc>
       <priority>0</priority>
     </url>
@@ -1072,8 +1015,8 @@
     
     
     <url>
-      <loc>https://chengjun.github.io/en/tags/%E5%B7%A5%E4%BD%9C/</loc>
-      <lastmod>2017-03-15T12:00:00+00:00</lastmod>
+      <loc>https://chengjun.github.io/en/tags/%E5%AE%9E%E9%AA%8C%E5%AE%A4/</loc>
+      <lastmod>2017-05-07T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -1083,15 +1026,6 @@
     <url>
       <loc>https://chengjun.github.io/en/categories/%E5%B7%A5%E4%BD%9C/</loc>
       <lastmod>2010-03-30T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-      <loc>https://chengjun.github.io/en/tags/%E7%94%9F%E6%B4%BB/</loc>
-      <lastmod>2015-11-18T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -1110,24 +1044,6 @@
     <url>
       <loc>https://chengjun.github.io/en/categories/%E7%A0%94%E7%A9%B6/</loc>
       <lastmod>2015-11-18T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-      <loc>https://chengjun.github.io/en/tags/%E8%AE%B0%E5%BD%95/</loc>
-      <lastmod>2016-12-31T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-      <loc>https://chengjun.github.io/en/tags/%E8%AF%AD%E5%BD%95/</loc>
-      <lastmod>2014-08-29T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
