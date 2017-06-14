@@ -4,6 +4,14 @@
     
     
     <url>
+      <loc>https://chengjun.github.io/zh/post/news2017/</loc>
+      <lastmod>2017-12-28T14:32:07+08:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
       <loc>https://chengjun.github.io/zh/</loc>
       <lastmod>2016-04-20T00:00:00+00:00</lastmod>
       <priority>0</priority>
@@ -11,6 +19,32 @@
     
   
     
+    
+  
+    
+    
+    <url>
+      <loc>https://chengjun.github.io/zh/tags/news/</loc>
+      <lastmod>2016-04-20T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+      <loc>https://chengjun.github.io/zh/post/</loc>
+      <lastmod>2017-12-28T14:32:07+08:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+      <loc>https://chengjun.github.io/zh/tags/</loc>
+      <priority>0</priority>
+    </url>
     
   
 </urlset>
