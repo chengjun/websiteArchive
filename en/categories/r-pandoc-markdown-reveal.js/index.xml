@@ -65,8 +65,8 @@ author(&#39;mydeck&#39;)
 
 &lt;iframe width=&#34;420&#34; height=&#34;315&#34; src=&#34;//www.youtube.com/embed/I95GOmLc7TA&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
 
-&lt;pre&gt;&lt;code&gt;&amp;lt;iframe width=&amp;quot;420&amp;quot; 
-height=&amp;quot;315&amp;quot; src=&amp;quot;//www.youtube.com/embed/I95GOmLc7TA&amp;quot; 
+&lt;pre&gt;&lt;code&gt;&amp;lt;iframe width=&amp;quot;420&amp;quot;
+height=&amp;quot;315&amp;quot; src=&amp;quot;//www.youtube.com/embed/I95GOmLc7TA&amp;quot;
 frameborder=&amp;quot;0&amp;quot; allowfullscreen&amp;gt;&amp;lt;/iframe&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;
 
@@ -82,12 +82,12 @@ frameborder=&amp;quot;0&amp;quot; allowfullscreen&amp;gt;&amp;lt;/iframe&amp;gt;
 
 &lt;pre&gt;&lt;code&gt;---
 title       : The Way to Computational Communication
-subtitle    : 
+subtitle    :
 author      : Cheng-Jun Wang
 job         : Web Mining Web, City University of Hong Kong
 framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
 highlighter : highlight.js  # {highlight.js, prettify, highlight}
-hitheme     : tomorrow      # 
+hitheme     : tomorrow      #
 widgets     : []            # {mathjax, quiz, bootstrap}
 mode        : standalone # {standalone, draft, selfcontained}
 ---
@@ -97,7 +97,7 @@ mode        : standalone # {standalone, draft, selfcontained}
 
 ![](http://farm8.staticflickr.com/7379/9532736494_99b95287a2_z.jpg)
 
---- .class #id 
+--- .class #id
 
 ## Sandglass of generalization
 

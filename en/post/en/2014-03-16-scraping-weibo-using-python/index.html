@@ -576,7 +576,7 @@ file = open(&quot;D:/chengjun/New/repostsReSampleClean.csv&quot;, 'r')
 lines = file.readlines()
 
 addressForSavingData= &quot;D:/chengjun/New/diffusion_path6.csv&quot;  
-file = open(addressForSavingData,'wb') # save to csv file 
+file = open(addressForSavingData,'wb') # save to csv file
 
 addressForSavingError = &quot;D:/chengjun/New/Error.csv&quot;  
 errorlog = open(addressForSavingError,'w')
@@ -596,13 +596,13 @@ for line in lines:
     if rt == None or len(rt)==0:
         target = userName
         source = submitterName
-        print &gt;&gt;file, &quot;%s,%s,%s&quot;  % (rtsmid, source, target) 
+        print &gt;&gt;file, &quot;%s,%s,%s&quot;  % (rtsmid, source, target)
     elif rt != None and len(rt) != 0:
-        rt.insert(0, userName) # 
+        rt.insert(0, userName) #
         for i in xrange(len(rt) - 1):
             target = rt[i].encode('utf-8')
             source = rt[i + 1].encode('utf-8')
-            print &gt;&gt;file, &quot;%s,%s,%s&quot;  % (rtsmid, source, target) 
+            print &gt;&gt;file, &quot;%s,%s,%s&quot;  % (rtsmid, source, target)
 </code></pre>
 
     </div>

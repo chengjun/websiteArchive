@@ -333,9 +333,9 @@ tweets = rbind(pos_tweets, neg_tweets, test_tweets)
 <p>Then we can build the document-term matrix:</p>
 
 <pre><code># build dtm
-matrix= create_matrix(tweets[,1], language=&quot;english&quot;, 
+matrix= create_matrix(tweets[,1], language=&quot;english&quot;,
                       removeStopwords=FALSE, removeNumbers=TRUE,  # we can also removeSparseTerms
-                      stemWords=FALSE) 
+                      stemWords=FALSE)
 </code></pre>
 
 <p>Now, we can train the naive Bayes model with the training set. Note that, e1071 asks the response variable to be numeric or factor. Thus, we convert characters to factors here. This is a little trick.</p>
@@ -430,9 +430,9 @@ sad_test = readLines(&quot;./sad_test.txt&quot;)
 tweet = c(happy, sad)
 tweet_test= c(happy_test, sad_test)
 tweet_all = c(tweet, tweet_test)
-sentiment = c(rep(&quot;happy&quot;, length(happy) ), 
+sentiment = c(rep(&quot;happy&quot;, length(happy) ),
               rep(&quot;sad&quot;, length(sad)))
-sentiment_test = c(rep(&quot;happy&quot;, length(happy_test) ), 
+sentiment_test = c(rep(&quot;happy&quot;, length(happy_test) ),
                    rep(&quot;sad&quot;, length(sad_test)))
 sentiment_all = as.factor(c(sentiment, sentiment_test))
 
@@ -443,8 +443,8 @@ library(RTextTools)
 <p>First, try naive Bayes.</p>
 
 <pre><code># naive bayes
-mat= create_matrix(tweet_all, language=&quot;english&quot;, 
-                   removeStopwords=FALSE, removeNumbers=TRUE, 
+mat= create_matrix(tweet_all, language=&quot;english&quot;,
+                   removeStopwords=FALSE, removeNumbers=TRUE,
                         stemWords=FALSE, tm::weightTfIdf)
 
 mat = as.matrix(mat)
@@ -460,8 +460,8 @@ recall_accuracy(sentiment_test, predicted)
 <p>Then, try the other methods:</p>
 
 <pre><code># the other methods
-mat= create_matrix(tweet_all, language=&quot;english&quot;, 
-                   removeStopwords=FALSE, removeNumbers=TRUE, 
+mat= create_matrix(tweet_all, language=&quot;english&quot;,
+                   removeStopwords=FALSE, removeNumbers=TRUE,
                    stemWords=FALSE, tm::weightTfIdf)
 
 container = create_container(mat, as.numeric(sentiment_all),
@@ -469,10 +469,10 @@ container = create_container(mat, as.numeric(sentiment_all),
 
 models = train_models(container, algorithms=c(&quot;MAXENT&quot;,
                                               &quot;SVM&quot;,
-                                               #&quot;GLMNET&quot;, &quot;BOOSTING&quot;, 
-                                               &quot;SLDA&quot;,&quot;BAGGING&quot;, 
-                                              &quot;RF&quot;, # &quot;NNET&quot;, 
-                                              &quot;TREE&quot; 
+                                               #&quot;GLMNET&quot;, &quot;BOOSTING&quot;,
+                                               &quot;SLDA&quot;,&quot;BAGGING&quot;,
+                                              &quot;RF&quot;, # &quot;NNET&quot;,
+                                              &quot;TREE&quot;
                                                ))
 
 # test the model

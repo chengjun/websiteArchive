@@ -165,7 +165,9 @@ end
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://chengjun.github.io/en/post/en/2013-08-06-present-pandoc-slides-on-octopress/</guid>
-      <description>&lt;p&gt;I have made a dzslides from a markdown file using pandoc, and then I want to archive and present it on octopress. Check the result to learn about how to make simple slides using pandoc &lt;a href=&#34;http://chengjun.github.io/slides/pandoc-slides&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+      <description>&lt;p&gt;##&lt;/p&gt;
+
+&lt;p&gt;I have made a dzslides from a markdown file using pandoc, and then I want to archive and present it on octopress. Check the result to learn about how to make simple slides using pandoc &lt;a href=&#34;http://chengjun.github.io/slides/pandoc-slides&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;The mechanism of octopress is a little bit inflexible.&lt;/p&gt;
 

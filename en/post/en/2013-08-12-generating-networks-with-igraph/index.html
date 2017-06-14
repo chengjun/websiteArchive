@@ -238,10 +238,10 @@ An initial lattice structure is used to generate a Watts-Strogatz model. Each no
 g1 &lt;- graph.ring(500)
 g2 &lt;- erdos.renyi.game(500, 0.0035)
 g3 &lt;- rewire.edges( g1, prob = 0.5 )
-g4 &lt;- barabasi.game(500)    
+g4 &lt;- barabasi.game(500)
 # 保存图片格式
-png(&quot;d:/network_game.png&quot;, 
-    width=5, height=5, 
+png(&quot;d:/network_game.png&quot;,
+    width=5, height=5,
     units=&quot;in&quot;, res=700)
 # 绘制图片
 par(mfrow=c(2,2))

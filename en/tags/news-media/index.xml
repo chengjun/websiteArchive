@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>News Media on </title>
+    <link>https://chengjun.github.io/en/tags/news-media/index.xml</link>
+    <description>Recent content in News Media on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2016 Cheng-Jun Wang</copyright>
+    <atom:link href="/en/tags/news-media/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Scraping New York Times &amp; The Guardian using Python</title>
+      <link>https://chengjun.github.io/en/post/en/2012-04-23-scraping-newyork-times-with-python/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://chengjun.github.io/en/post/en/2012-04-23-scraping-newyork-times-with-python/</guid>
+      <description>&lt;p&gt;I have read the blog post about Scraping New York Times Articles with R. It’s great. I want to reproduce the work with python.
+First, we should learn about nytimes article search api.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://developer.nytimes.com/docs/article_search_api/&#34; target=&#34;_blank&#34;&gt;http://developer.nytimes.com/docs/article_search_api/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Second, we need to register and get the key which will be used in python script.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://developer.nytimes.com/apps/register&#34; target=&#34;_blank&#34;&gt;http://developer.nytimes.com/apps/register&lt;/a&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;# !/usr/bin/env python
+# -*- coding: UTF-8  -*-
+# Scraping New York Times using python
+# 20120421@ Canberra
+# chengjun wang
+
+import json
+import urllib2
+
+&#39;&#39;&#39;
+About the api and the key, see the links above.
+&#39;&#39;&#39;
+
+&#39;&#39;&#39;step 1: input query information&#39;&#39;&#39;
+apiUrl=&#39;http://api.nytimes.com/svc/search/v1/article?format=json&#39;
+query=&#39;query=occupy+wall+street&#39;                            # set the query word here
+apiDate=&#39;begin_date=20110901&amp;amp;end_date=20120214&#39;             # set the date here
+fields=&#39;fields=body%2Curl%2Ctitle%2Cdate%2Cdes_facet%2Cdesk_facet%2Cbyline&#39;
+offset=&#39;offset=0&#39;
+key=&#39;api-key=c2c5b91680.......2811165&#39;  # input your key here
+
+&#39;&#39;&#39;step 2: get the number of offset/pages&#39;&#39;&#39;
+link=[apiUrl, query, apiDate, fields, offset, key]
+ReqUrl=&#39;&amp;amp;&#39;.join(link)
+jstr = urllib2.urlopen(ReqUrl).read()  # t = jstr.strip(&#39;()&#39;)
+ts = json.loads( jstr )
+number=ts[&#39;total&#39;] #  the number of queries  # query=ts[&#39;tokens&#39;] # result=ts[&#39;results&#39;]
+print number
+seq=range(number/9)  # this is not a good way
+print seq
+
+&#39;&#39;&#39;step 3: crawl the data and dump into csv&#39;&#39;&#39;
+import csv
+addressForSavingData= &amp;quot;D:/Research/Dropbox/tweets/wapor_assessing online opinion/News coverage of ows/nyt.csv&amp;quot;
+file = open(addressForSavingData,&#39;wb&#39;) # save to csv file
+for i in seq:
+    nums=str(i)
+    offsets=&#39;&#39;.join([&#39;offset=&#39;, nums]) # I made error here, and print is a good way to test
+    links=[apiUrl, query, apiDate, fields, offsets, key]
+    ReqUrls=&#39;&amp;amp;&#39;.join(links)
+    print &amp;quot;*_____________*&amp;quot;, ReqUrls
+    jstrs = urllib2.urlopen(ReqUrls).read()
+    t = jstrs.strip(&#39;()&#39;)
+    tss= json.loads( t )  # error no joson object
+    result = tss[&#39;results&#39;]
+    for ob in result:
+        title=ob[&#39;title&#39;]  # body=ob[&#39;body&#39;]   # body,url,title,date,des_facet,desk_facet,byline
+        print title
+        url=ob[&#39;url&#39;]
+        date=ob[&#39;date&#39;] # desk_facet=ob[&#39;desk_facet&#39;]  # byline=ob[&#39;byline&#39;] # some author names don&#39;t exist
+        w = csv.writer(file,delimiter=&#39;,&#39;,quotechar=&#39;|&#39;, quoting=csv.QUOTE_MINIMAL)
+        w.writerow((date, title, url)) # write it out
+file.close()
+pass
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;see the result:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://weblab.com.cityu.edu.hk/blog/chengjun/files/2012/04/nyt1.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Similarly, you can crawl the article data from The Guardian. See the link below.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://explorer.content.guardianapis.com/#/?format=json&amp;amp;order-by=newest&#34; target=&#34;_blank&#34;&gt;http://explorer.content.guardianapis.com/#/?format=json&amp;amp;order-by=newest&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;After you have registered you app and got the key, we can work on the python script.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;# !/usr/bin/env python
+# -*- coding: UTF-8 -*-
+# Scraping The Guardian using Python
+# 20120421@ Canberra
+# chengjun wang
+
+import json
+import urllib2
+
+&#39;&#39;&#39;
+
+http://content.guardianapis.com/search?q=occupy+wall+street&amp;amp;from-date=2011-09-01&amp;amp;to-date=2012-02-14&amp;amp;page=2
+
+&amp;amp;page-size=3&amp;amp;format=json&amp;amp;show-fields=all&amp;amp;use-date=newspaper-edition&amp;amp;api-key=m....g33gzq
+&#39;&#39;&#39;
+
+&#39;&#39;&#39;step 1: input query information&#39;&#39;&#39;
+apiUrl=&#39;http://content.guardianapis.com/search?q=occupy+wall+street&#39; # set the query word here
+apiDate=&#39;from-date=2011-09-01&amp;amp;to-date=2011-10-14&#39;           # set the date here
+apiPage=&#39;page=2&#39;   # set the page
+apiNum=10       # set the number of articles in one page
+apiPageSize=&#39;&#39;.join([&#39;page-size=&#39;,str(apiNum)])
+fields=&#39;format=json&amp;amp;show-fields=all&amp;amp;use-date=newspaper-edition&#39;
+key=&#39;api-key=mudfuj...g33gzq&#39; # input your key here
+
+&#39;&#39;&#39;step 2: get the number of offset/pages&#39;&#39;&#39;
+link=[apiUrl, apiDate, apiPage, apiPageSize, fields, key]
+ReqUrl=&#39;&amp;amp;&#39;.join(link)
+jstr = urllib2.urlopen(ReqUrl).read() # t = jstr.strip(&#39;()&#39;)
+ts = json.loads( jstr )
+number=ts[&#39;response&#39;][&#39;total&#39;] # the number of queries # query=ts[&#39;tokens&#39;] # result=ts[&#39;results&#39;]
+print number
+seq=range(number/(apiNum-1)) # this is not a good way
+print seq
+
+&#39;&#39;&#39;step 3: crawl the data and dump into csv&#39;&#39;&#39;
+import csv
+addressForSavingData= &amp;quot;D:/Research/Dropbox/tweets/wapor_assessing online opinion/News coverage of ows/guardian.csv&amp;quot;
+file = open(addressForSavingData,&#39;wb&#39;) # save to csv file
+for i in seq:
+    nums=str(i+1)
+    apiPages=&#39;&#39;.join([&#39;page=&#39;, nums]) # I made error here, and print is a good way to test
+    links= [apiUrl, apiDate, apiPages, apiPageSize, fields, key]
+    ReqUrls=&#39;&amp;amp;&#39;.join(links)
+    print &amp;quot;*_____________*&amp;quot;, ReqUrls
+    jstrs = urllib2.urlopen(ReqUrls).read()
+    t = jstrs.strip(&#39;()&#39;)
+    tss= json.loads( t )
+    result = tss[&#39;response&#39;][&#39;results&#39;]
+    for ob in result:
+        title=ob[&#39;webTitle&#39;].encode(&#39;utf-8&#39;) # body=ob[&#39;body&#39;]  # body,url,title,date,des_facet,desk_facet,byline
+        print title
+        section=ob[&amp;quot;sectionName&amp;quot;].encode(&#39;utf-8&#39;)
+        url=ob[&#39;webUrl&#39;]
+        date=ob[&#39;fields&#39;][&#39;newspaperEditionDate&#39;] # date=ob[&#39;webPublicationDate&#39;] # byline=ob[&#39;fields&#39;][&#39;byline&#39;]
+        w = csv.writer(file,delimiter=&#39;,&#39;,quotechar=&#39;|&#39;, quoting=csv.QUOTE_MINIMAL)
+        w.writerow((date, title, section, url)) # write it out
+file.close()
+pass
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

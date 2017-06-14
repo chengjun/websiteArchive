@@ -315,28 +315,28 @@ T79 &lt;- 1:10
 Tdelt &lt;- (1:100)/10
 Sales &lt;- c(840, 1470, 2110, 4000, 7590, 10950, 10530, 9470, 7790, 5890)
 Cusales &lt;- cumsum(Sales)
-Bass.nls &lt;- nls(Sales ~ M * (((P + Q)^2/P) * exp(-(P + Q) * T79))/(1 + (Q/P) * 
+Bass.nls &lt;- nls(Sales ~ M * (((P + Q)^2/P) * exp(-(P + Q) * T79))/(1 + (Q/P) *
     exp(-(P + Q) * T79))^2, start = list(M = 60630, P = 0.03, Q = 0.38))
 summary(Bass.nls)
 </code></pre>
 
 <p>This is the result:</p>
 
-<pre><code>## 
-## Formula: Sales ~ M * (((P + Q)^2/P) * exp(-(P + Q) * T79))/(1 + (Q/P) * 
+<pre><code>##
+## Formula: Sales ~ M * (((P + Q)^2/P) * exp(-(P + Q) * T79))/(1 + (Q/P) *
 ##     exp(-(P + Q) * T79))^2
-## 
+##
 ## Parameters:
 ##   Estimate Std. Error t value Pr(&gt;|t|)    
 ## M 6.80e+04   3.13e+03   21.74  1.1e-07 ***
-## P 6.59e-03   1.43e-03    4.61   0.0025 ** 
+## P 6.59e-03   1.43e-03    4.61   0.0025 **
 ## Q 6.38e-01   4.14e-02   15.41  1.2e-06 ***
 ## ---
 ## Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
-## 
+##
 ## Residual standard error: 727 on 7 degrees of freedom
-## 
-## Number of iterations to convergence: 8 
+##
+## Number of iterations to convergence: 8
 ## Achieved convergence tolerance: 7.32e-06
 </code></pre>
 
@@ -389,7 +389,7 @@ Icdf &lt;- m * (1 - exp(-(p + 0) * Tdelt))/(1 + (0/p) * exp(-(p + 0) * Tdelt))
 # plot(Tdelt, Icdf, xlab = 'Year from 1979',ylab = 'ICumulative sales',
 # type='l')
 Imcdf &lt;- m * (1 - ngete)/(1 + (q/p) * ngete) - Icdf
-plot(Tdelt, Imcdf, xlab = &quot;Year from 1979&quot;, ylab = &quot;Cumulative sales&quot;, type = &quot;l&quot;, 
+plot(Tdelt, Imcdf, xlab = &quot;Year from 1979&quot;, ylab = &quot;Cumulative sales&quot;, type = &quot;l&quot;,
     col = &quot;red&quot;)
 lines(Tdelt, Bcdf, col = &quot;green&quot;)
 lines(Tdelt, Icdf, col = &quot;blue&quot;)

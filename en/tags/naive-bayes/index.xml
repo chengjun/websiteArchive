@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Naive Bayes on </title>
+    <link>https://chengjun.github.io/en/tags/naive-bayes/index.xml</link>
+    <description>Recent content in Naive Bayes on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2016 Cheng-Jun Wang</copyright>
+    <atom:link href="/en/tags/naive-bayes/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Sentiment analysis with machine learning in R</title>
+      <link>https://chengjun.github.io/en/post/en/2014-04-07-sentiment-analysis-with-machine-learning-in-R/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://chengjun.github.io/en/post/en/2014-04-07-sentiment-analysis-with-machine-learning-in-R/</guid>
+      <description>
+
+&lt;p&gt;In &lt;a href=&#34;http://chengjun.github.io/en/2012/03/sentiment-analysi-with-python/&#34; target=&#34;_blank&#34;&gt;an earlier post&lt;/a&gt;, I tried to reproduce the sentiment analysis using machine learning in Python. Here, I will introduce how to do it in the framework of R.&lt;/p&gt;
+
+&lt;p&gt;In the landscape of R, both sentiment analysis package and the general text mining package of machine learning have been well developed by &lt;a href=&#34;https://github.com/timjurka&#34; target=&#34;_blank&#34;&gt;Timothy P. Jurka&lt;/a&gt;. You can check out the&lt;a href=&#34;https://github.com/timjurka/sentiment&#34; target=&#34;_blank&#34;&gt; sentiment package&lt;/a&gt; and the fantastic &lt;a href=&#34;https://github.com/timjurka/RTextTools&#34; target=&#34;_blank&#34;&gt;RTextTools package&lt;/a&gt;. Actually, Timothy also writes &lt;a href=&#34;https://github.com/timjurka/maxent&#34; target=&#34;_blank&#34;&gt;an maxent package&lt;/a&gt; for low-memory multinomial logistic regression (also known as maximum entropy).&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.gravatar.com/avatar/92b11d2b562de1d82bf134c80b4ee925?s=128&amp;amp;d=identicon&amp;amp;r=PG&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;p style=&#34;text-align:center&#34;&gt; Timothy P. Jurka &lt;/p&gt;&lt;/p&gt;
+
+&lt;p&gt;However, the naive bayes method is not included into RTextTools. Maybe the reason is it&amp;rsquo;s too easy to make it in R, since the e1071 package did a good job. e1071 seems to be a course of the Department of Statistics (e1071), TU Wien. Its primary developer is &lt;a href=&#34;http://www.technikum-wien.at/fh/institute/wirtschaftsinformatik/team/meyer/&#34; target=&#34;_blank&#34;&gt;David Meyer&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://ih1.redbubble.net/image.9785413.8464/fig,royal_blue,mens,ffffff.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Text analysis in R has been well recognized (see &lt;a href=&#34;http://cran.r-project.org/web/views/NaturalLanguageProcessing.html&#34; target=&#34;_blank&#34;&gt;the R views on natural language processing&lt;/a&gt;). Part of the success belongs to the &lt;a href=&#34;http://cran.r-project.org/web/packages/tm/index.html&#34; target=&#34;_blank&#34;&gt;tm package&lt;/a&gt;: A framework for text mining applications within R. It did a good job for text cleaning (stemming, delete the stopwords, etc) and transforming texts to document-term matrix (dtm). There is &lt;a href=&#34;http://www.jstatsoft.org/v25/i05/paper&#34; target=&#34;_blank&#34;&gt;one paper&lt;/a&gt; about it. As you know the most important part of text analysis is to get the feature vectors for each document. The word feature is the most important one. Of course, you can also extend the &lt;strong&gt;unigram&lt;/strong&gt; word features to &lt;strong&gt;bigram&lt;/strong&gt; and &lt;strong&gt;trigram&lt;/strong&gt;, and so on to &lt;strong&gt;n-grams&lt;/strong&gt;. However, here for our simple case, we stick to the unigram word features.&lt;/p&gt;
+
+&lt;p&gt;Note, it&amp;rsquo;s easy to use ngrams in R. In the past, the package of Rweka supplies functions to do it (&lt;a href=&#34;http://stackoverflow.com/questions/8161167/what-algorithm-i-need-to-find-n-grams&#34; target=&#34;_blank&#34;&gt;check this example&lt;/a&gt;). Now, you can set the &lt;code&gt;ngramLength&lt;/code&gt; in the function of create_matrix using RTextTools.&lt;/p&gt;
+
+&lt;p&gt;The first step is to read data:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;###########################################
+&amp;quot;Sentiment analysis with machine learning&amp;quot;
+##########################################
+library(RTextTools)
+library(e1071)
+
+pos_tweets =  rbind(
+  c(&#39;I love this car&#39;, &#39;positive&#39;),
+  c(&#39;This view is amazing&#39;, &#39;positive&#39;),
+  c(&#39;I feel great this morning&#39;, &#39;positive&#39;),
+  c(&#39;I am so excited about the concert&#39;, &#39;positive&#39;),
+  c(&#39;He is my best friend&#39;, &#39;positive&#39;)
+)
+
+
+neg_tweets = rbind(
+  c(&#39;I do not like this car&#39;, &#39;negative&#39;),
+  c(&#39;This view is horrible&#39;, &#39;negative&#39;),
+  c(&#39;I feel tired this morning&#39;, &#39;negative&#39;),
+  c(&#39;I am not looking forward to the concert&#39;, &#39;negative&#39;),
+  c(&#39;He is my enemy&#39;, &#39;negative&#39;)
+)
+
+
+test_tweets = rbind(
+  c(&#39;feel happy this morning&#39;, &#39;positive&#39;),
+  c(&#39;larry friend&#39;, &#39;positive&#39;),
+  c(&#39;not like that man&#39;, &#39;negative&#39;),
+  c(&#39;house not great&#39;, &#39;negative&#39;),
+  c(&#39;your song annoying&#39;, &#39;negative&#39;)
+)
+
+tweets = rbind(pos_tweets, neg_tweets, test_tweets)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Then we can build the document-term matrix:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;# build dtm
+matrix= create_matrix(tweets[,1], language=&amp;quot;english&amp;quot;,
+                      removeStopwords=FALSE, removeNumbers=TRUE,  # we can also removeSparseTerms
+                      stemWords=FALSE)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Now, we can train the naive Bayes model with the training set. Note that, e1071 asks the response variable to be numeric or factor. Thus, we convert characters to factors here. This is a little trick.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;# train the model
+mat = as.matrix(matrix)
+classifier = naiveBayes(mat[1:10,], as.factor(tweets[1:10,2]) )
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Now we can step further to test the accuracy.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;# test the validity
+predicted = predict(classifier, mat[11:15,]); predicted
+table(tweets[11:15, 2], predicted)
+recall_accuracy(tweets[11:15, 2], predicted)
+&amp;gt; 0.8
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Apparently, the result is the same with Python (compare it with the results in &lt;a href=&#34;http://chengjun.github.io/en/2012/03/sentiment-analysi-with-python/&#34; target=&#34;_blank&#34;&gt;an earlier post&lt;/a&gt;).&lt;/p&gt;
+
+&lt;p&gt;How about the other machine learning methods? As I mentioned, we can do it using RTextTools. Let&amp;rsquo;s rock!&lt;/p&gt;
+
+&lt;p&gt;First, to specify our data:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;# build the data to specify response variable, training set, testing set.
+container = create_container(matrix, as.numeric(as.factor(tweets[,2])),
+                             trainSize=1:10, testSize=11:15,virgin=FALSE)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Second, to train the model with multiple machine learning algorithms:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;models = train_models(container, algorithms=c(&amp;quot;MAXENT&amp;quot; , &amp;quot;SVM&amp;quot;, &amp;quot;RF&amp;quot;, &amp;quot;BAGGING&amp;quot;, &amp;quot;TREE&amp;quot;))
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Now, we can classify the testing set using the trained models.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;results = classify_models(container, models)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;How about the accuracy?&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;# accuracy table
+table(as.numeric(as.factor(tweets[11:15, 2])), results[,&amp;quot;FORESTS_LABEL&amp;quot;])
+table(as.numeric(as.factor(tweets[11:15, 2])), results[,&amp;quot;MAXENTROPY_LABEL&amp;quot;])
+
+# recall accuracy
+recall_accuracy(as.numeric(as.factor(tweets[11:15, 2])), results[,&amp;quot;FORESTS_LABEL&amp;quot;])
+recall_accuracy(as.numeric(as.factor(tweets[11:15, 2])), results[,&amp;quot;MAXENTROPY_LABEL&amp;quot;])
+recall_accuracy(as.numeric(as.factor(tweets[11:15, 2])), results[,&amp;quot;TREE_LABEL&amp;quot;])
+recall_accuracy(as.numeric(as.factor(tweets[11:15, 2])), results[,&amp;quot;BAGGING_LABEL&amp;quot;])
+recall_accuracy(as.numeric(as.factor(tweets[11:15, 2])), results[,&amp;quot;SVM_LABEL&amp;quot;])
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;To summarize the results (especially the validity) in a formal way:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;# model summary
+analytics = create_analytics(container, results)
+summary(analytics)
+head(analytics@document_summary)
+analytics@ensemble_summary
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;To cross validate the results:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;N=4
+set.seed(2014)
+cross_validate(container,N,&amp;quot;MAXENT&amp;quot;)
+cross_validate(container,N,&amp;quot;TREE&amp;quot;)
+cross_validate(container,N,&amp;quot;SVM&amp;quot;)
+cross_validate(container,N,&amp;quot;RF&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The results can be found on &lt;a href=&#34;http://rpubs.com/chengjun/sentiment&#34; target=&#34;_blank&#34;&gt;my Rpub page&lt;/a&gt;. It seems that maxent reached the same recall accuracy as naive Bayes. The other methods even did a worse job. This is understandable, since we have only a very small data set. To enlarge the training set, we can get a much better results for sentiment analysis of tweets using more sophisticated methods. I will show the results with anther example.&lt;/p&gt;
+
+&lt;h3 id=&#34;sentiment-analysis-for-tweets&#34;&gt;Sentiment analysis for tweets&lt;/h3&gt;
+
+&lt;p&gt;The data comes from &lt;a href=&#34;https://github.com/victorneo/Twitter-Sentimental-Analysis&#34; target=&#34;_blank&#34;&gt;https://github.com/victorneo/Twitter-Sentimental-Analysis&lt;/a&gt;. victorneo shows how to do sentiment analysis for tweets using Python. Here, I will demonstrate how to do it in R.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.volacci.com/files/imce-uploads/twitter-SEO.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Read data:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;###################
+&amp;quot;load data&amp;quot;
+###################
+setwd(&amp;quot;D:/Twitter-Sentimental-Analysis-master/&amp;quot;)
+happy = readLines(&amp;quot;./happy.txt&amp;quot;)
+sad = readLines(&amp;quot;./sad.txt&amp;quot;)
+happy_test = readLines(&amp;quot;./happy_test.txt&amp;quot;)
+sad_test = readLines(&amp;quot;./sad_test.txt&amp;quot;)
+
+tweet = c(happy, sad)
+tweet_test= c(happy_test, sad_test)
+tweet_all = c(tweet, tweet_test)
+sentiment = c(rep(&amp;quot;happy&amp;quot;, length(happy) ),
+              rep(&amp;quot;sad&amp;quot;, length(sad)))
+sentiment_test = c(rep(&amp;quot;happy&amp;quot;, length(happy_test) ),
+                   rep(&amp;quot;sad&amp;quot;, length(sad_test)))
+sentiment_all = as.factor(c(sentiment, sentiment_test))
+
+
+library(RTextTools)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;First, try naive Bayes.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;# naive bayes
+mat= create_matrix(tweet_all, language=&amp;quot;english&amp;quot;,
+                   removeStopwords=FALSE, removeNumbers=TRUE,
+                        stemWords=FALSE, tm::weightTfIdf)
+
+mat = as.matrix(mat)
+
+classifier = naiveBayes(mat[1:160,], as.factor(sentiment_all[1:160]))
+predicted = predict(classifier, mat[161:180,]); predicted
+
+table(sentiment_test, predicted)
+recall_accuracy(sentiment_test, predicted)
+&amp;gt; 0.65
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Then, try the other methods:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;# the other methods
+mat= create_matrix(tweet_all, language=&amp;quot;english&amp;quot;,
+                   removeStopwords=FALSE, removeNumbers=TRUE,
+                   stemWords=FALSE, tm::weightTfIdf)
+
+container = create_container(mat, as.numeric(sentiment_all),
+                              trainSize=1:160, testSize=161:180,virgin=FALSE) #可以设置removeSparseTerms
+
+models = train_models(container, algorithms=c(&amp;quot;MAXENT&amp;quot;,
+                                              &amp;quot;SVM&amp;quot;,
+                                               #&amp;quot;GLMNET&amp;quot;, &amp;quot;BOOSTING&amp;quot;,
+                                               &amp;quot;SLDA&amp;quot;,&amp;quot;BAGGING&amp;quot;,
+                                              &amp;quot;RF&amp;quot;, # &amp;quot;NNET&amp;quot;,
+                                              &amp;quot;TREE&amp;quot;
+                                               ))
+
+# test the model
+results = classify_models(container, models)
+
+table(as.numeric(as.numeric(sentiment_all[161:180])), results[,&amp;quot;FORESTS_LABEL&amp;quot;])
+&amp;gt;
+      1  2
+   1 10  0
+   2  1  9
+
+recall_accuracy(as.numeric(as.numeric(sentiment_all[161:180])), results[,&amp;quot;FORESTS_LABEL&amp;quot;])
+&amp;gt; 0.95
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Here we also want to get the formal test results, including:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;analytics@algorithm_summary&lt;/strong&gt;: SUMMARY OF PRECISION, RECALL, F-SCORES, AND ACCURACY SORTED BY TOPIC CODE FOR EACH ALGORITHM&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;analytics@label_summary&lt;/strong&gt;: SUMMARY OF LABEL (e.g. TOPIC) ACCURACY&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;analytics@document_summary&lt;/strong&gt;: RAW SUMMARY OF ALL DATA AND SCORING&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;analytics@ensemble_summary&lt;/strong&gt;: SUMMARY OF ENSEMBLE PRECISION/COVERAGE. USES THE n VARIABLE PASSED INTO create_analytics()&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Now let&amp;rsquo;s see the results:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;# formal tests
+analytics = create_analytics(container, results)
+summary(analytics)
+
+head(analytics@algorithm_summary)
+head(analytics@label_summary)
+head(analytics@document_summary)
+analytics@ensemble_summary # Ensemble Agreement
+
+
+# Cross Validation
+N=3
+cross_SVM = cross_validate(container,N,&amp;quot;SVM&amp;quot;)
+cross_GLMNET = cross_validate(container,N,&amp;quot;GLMNET&amp;quot;)
+cross_MAXENT = cross_validate(container,N,&amp;quot;MAXENT&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRug6OmP3_ewf_UUj1nng90QiZbjcMeZoXNnU-RBXHRaCsmr8yREw&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;You can find that compared with naive Bayes, the other algorithms did a much better job to achieve a recall accuracy higher than 0.95. Check &lt;a href=&#34;http://rpubs.com/chengjun/tweets_sentiment_analysis&#34; target=&#34;_blank&#34;&gt;the results on Rpub&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

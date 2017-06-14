@@ -54,10 +54,10 @@ An initial lattice structure is used to generate a Watts-Strogatz model. Each no
 g1 &amp;lt;- graph.ring(500)
 g2 &amp;lt;- erdos.renyi.game(500, 0.0035)
 g3 &amp;lt;- rewire.edges( g1, prob = 0.5 )
-g4 &amp;lt;- barabasi.game(500)    
+g4 &amp;lt;- barabasi.game(500)
 # 保存图片格式
-png(&amp;quot;d:/network_game.png&amp;quot;, 
-    width=5, height=5, 
+png(&amp;quot;d:/network_game.png&amp;quot;,
+    width=5, height=5,
     units=&amp;quot;in&amp;quot;, res=700)
 # 绘制图片
 par(mfrow=c(2,2))
@@ -154,7 +154,7 @@ set.seed(2014); diffusers = sample(V(g),seeds_num) ; diffusers
 infected =list()
 infected[[1]]= diffusers
 
-# for example, set percolation probability 
+# for example, set percolation probability
 p = 0.128
 coins = c(rep(1, p*1000), rep(0,(1-p)*1000))
 n = length(coins)
@@ -187,7 +187,7 @@ update_diffusers = function(diffusers){
 &lt;p&gt;R you Ready? Now we can start the contagion!&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;i = 1
-while(length(infected[[i]]) &amp;lt; size){ 
+while(length(infected[[i]]) &amp;lt; size){
   infected[[i+1]] = sort(update_diffusers(infected[[i]]))
   cat(length(infected[[i+1]]), &amp;quot;\n&amp;quot;)
   i = i + 1
@@ -201,8 +201,8 @@ num_cum = unlist(lapply(1:i, function(x) length(infected［x］) ))
 p_cum = num_cum/max(num_cum)
 time = 1:i
 
-png(file = &amp;quot;./temporal_growth_curve.png&amp;quot;, 
-    width=5, height=5, 
+png(file = &amp;quot;./temporal_growth_curve.png&amp;quot;,
+    width=5, height=5,
     units=&amp;quot;in&amp;quot;, res=300)
 plot(p_cum~time, type = &amp;quot;b&amp;quot;)
 dev.off()
@@ -214,7 +214,7 @@ dev.off()
 
 &lt;pre&gt;&lt;code&gt;E(g)$color = &amp;quot;blueviolet&amp;quot;
 V(g)$color = &amp;quot;white&amp;quot;
-set.seed(2014); layout.old = layout.fruchterman.reingold(g) 
+set.seed(2014); layout.old = layout.fruchterman.reingold(g)
 V(g)$color[V(g)%in%diffusers] = &amp;quot;red&amp;quot;
 plot(g, layout =layout.old)
 &lt;/code&gt;&lt;/pre&gt;

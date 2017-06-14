@@ -328,7 +328,7 @@ data$Probability = data$Freq/sum(data$Freq)
 
   # linear regression of zifp: for frequency
   cozf=coef(lm(log.f~log.rank))
-  zipf.f = function(x) exp(cozf[[1]] + cozf[2]*log(x)) 
+  zipf.f = function(x) exp(cozf[[1]] + cozf[2]*log(x))
 
   # linear regression of dgbd: for probability
   codp=coef(lm(log.p~log.inverse.rank + log.rank))
@@ -356,15 +356,15 @@ curve(dgbd.f, col=&quot;blue&quot;, add = T, n = length(data$Rank))
 <p>Finally, we can plot it with ggplot2.</p>
 
 <pre><code>require(ggplot2)
-P = ggplot(data=data, aes(x=Rank, y=Freq, label = Var1)) + geom_point() + 
+P = ggplot(data=data, aes(x=Rank, y=Freq, label = Var1)) + geom_point() +
   coord_trans(xtrans = &quot;log10&quot;, ytrans = &quot;log10&quot;)+
   stat_function(fun = dgbd.f, n = length(Rank), colour = 'red', size = 1)+
   geom_text(aes(label=Var1),hjust=1.5, vjust=0, angle = 45, size = 3)
 
-png(file = &quot;./language_rank_order_distribution2.png&quot;, 
-    width=8, height=5, 
+png(file = &quot;./language_rank_order_distribution2.png&quot;,
+    width=8, height=5,
     units=&quot;in&quot;, res=700)
-P 
+P
 dev.off()
 </code></pre>
 

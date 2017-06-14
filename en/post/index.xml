@@ -921,208 +921,6 @@ Here&#39;s some important information...
     </item>
     
     <item>
-      <title>scholarNetwork: Visualizing Google Scholar Network</title>
-      <link>https://chengjun.github.io/en/post/en/2015-02-22-scholarNetwork/</link>
-      <pubDate>Sun, 22 Feb 2015 00:00:00 +0000</pubDate>
-      
-      <guid>https://chengjun.github.io/en/post/en/2015-02-22-scholarNetwork/</guid>
-      <description>
-
-&lt;p&gt;#scholarNetwork&lt;/p&gt;
-
-&lt;p&gt;Developed by Cheng-Jun Wang &amp;amp; Lingfei Wu&lt;/p&gt;
-
-&lt;p&gt;Cheng-Jun Wang wangchj04@gmail.com
-Lingfei Wu wlf850927@gmail.com&lt;/p&gt;
-
-&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
-
-&lt;p&gt;scholarNetwork is a python package for crawling and visualizing the co-author network of Google Scholar.&lt;/p&gt;
-
-&lt;p&gt;To use it, you must have access to Google Scholar, and you would also install beautifulsoup4 and networkx during the installation process.&lt;/p&gt;
-
-&lt;h2 id=&#34;install&#34;&gt;Install&lt;/h2&gt;
-
-&lt;p&gt;Install from pypi using pip or easy_install&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;     pip install scholarNetwork
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;or&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;     easy_install scholarNetwork
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;##Use&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;    from scholarNetwork import scholarNetwork
-    import matplotlib.pyplot as plt
-    import networkx as nx
-
-    ## The seed of crawler
-    seed = &#39;https://scholar.google.nl/citations?user=nNdt_G8AAAAJ&amp;amp;hl=en&amp;amp;oe=ASCII&#39;
-    ## How many nodes do you want to visulize? Always start with a small one. 
-    Nmax = 21
-    ## Get the graph g
-    g = scholarNetwork.getGraph(seed, Nmax)
-
-    ## plot the network
-    pos=nx.spring_layout(g) #setup the layout
-
-    nx.draw(g, pos, node_shape = &#39;o&#39;,
-            edge_color = &#39;gray&#39;, width = 0.5,
-            with_labels = True, arrows = True)
-    plt.show()
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://chengjun.qiniudn.com/example.png&#34; alt=&#34;1&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Of course, you can get a much larger graph to see what&amp;rsquo;s happening around you, just to change the value of Nmax. However, you have to be patient to wait for much longer time.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://chengjun.qiniudn.com/ego300large.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Subscribe to This Blog by Email</title>
-      <link>https://chengjun.github.io/en/post/en/2014-09-03-subscribe-by-email/</link>
-      <pubDate>Wed, 03 Sep 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://chengjun.github.io/en/post/en/2014-09-03-subscribe-by-email/</guid>
-      <description>
-
-&lt;p&gt;&lt;img src=&#34;http://mediaserver.pulse2.com/uploads/2007/05/google_feedburner_logos.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;I learnt that many people like to subscribe a blog by email. The website usually supplies its feed, but not such subscription service. Actually, it&amp;rsquo;s quite straightford to do so using the &lt;a href=&#34;http://feedburner.google.com/&#34; target=&#34;_blank&#34;&gt;feedburner of Google&lt;/a&gt;. After the webmaster sucessfully makes up the feedburner, he or she can look into the Publicize webpage, and click the button of Subscription Management. After it is activated, you can got the url for email subscription. That&amp;rsquo;s it.&lt;/p&gt;
-
-&lt;p&gt;Then you can find the html code for email subscription as below:&lt;/p&gt;
-
-&lt;h3 id=&#34;subscription-form&#34;&gt;Subscription Form&lt;/h3&gt;
-
-&lt;pre&gt;&lt;code&gt;&amp;lt;form style=&amp;quot;border:1px solid #ccc;padding:3px;text-align:center;&amp;quot; action=&amp;quot;http://feedburner.google.com/fb/a/mailverify&amp;quot; method=&amp;quot;post&amp;quot; target=&amp;quot;popupwindow&amp;quot; onsubmit=&amp;quot;window.open(&#39;http://feedburner.google.com/fb/a/mailverify?uri=github/zoiS&#39;, &#39;popupwindow&#39;, &#39;scrollbars=yes,width=550,height=520&#39;);return true&amp;quot;&amp;gt;&amp;lt;p&amp;gt;Enter your email address:&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;lt;input type=&amp;quot;text&amp;quot; style=&amp;quot;width:140px&amp;quot; name=&amp;quot;email&amp;quot;/&amp;gt;&amp;lt;/p&amp;gt;&amp;lt;input type=&amp;quot;hidden&amp;quot; value=&amp;quot;github/zoiS&amp;quot; name=&amp;quot;uri&amp;quot;/&amp;gt;&amp;lt;input type=&amp;quot;hidden&amp;quot; name=&amp;quot;loc&amp;quot; value=&amp;quot;en_US&amp;quot;/&amp;gt;&amp;lt;input type=&amp;quot;submit&amp;quot; value=&amp;quot;Subscribe&amp;quot; /&amp;gt;&amp;lt;p&amp;gt;Delivered by &amp;lt;a href=&amp;quot;http://feedburner.google.com&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;FeedBurner&amp;lt;/a&amp;gt;&amp;lt;/p&amp;gt;&amp;lt;/form&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;form style=&#34;border:2px solid #acc;padding:3px;text-align:center;&#34; action=&#34;http://feedburner.google.com/fb/a/mailverify&#34; method=&#34;post&#34; target=&#34;popupwindow&#34; onsubmit=&#34;window.open(&#39;http://feedburner.google.com/fb/a/mailverify?uri=github/zoiS&#39;, &#39;popupwindow&#39;, &#39;scrollbars=yes,width=550,height=520&#39;);return true&#34;&gt;&lt;p&gt;Enter your email address:&lt;/p&gt;&lt;p&gt;&lt;input type=&#34;text&#34; style=&#34;width:140px&#34; name=&#34;email&#34;/&gt;&lt;/p&gt;&lt;input type=&#34;hidden&#34; value=&#34;github/zoiS&#34; name=&#34;uri&#34;/&gt;&lt;input type=&#34;hidden&#34; name=&#34;loc&#34; value=&#34;en_US&#34;/&gt;&lt;input type=&#34;submit&#34; value=&#34;Subscribe&#34; /&gt;&lt;p&gt;Delivered by &lt;a href=&#34;http://feedburner.google.com&#34; target=&#34;_blank&#34;&gt;FeedBurner&lt;/a&gt;&lt;/p&gt;&lt;/form&gt;
-
-&lt;h3 id=&#34;subscription-url&#34;&gt;Subscription Url&lt;/h3&gt;
-
-&lt;pre&gt;&lt;code&gt; &amp;lt;a href=&amp;quot;http://feedburner.google.com/fb/a/mailverify?uri=github/zoiS&amp;amp;amp;loc=en_US&amp;quot;&amp;gt;Subscribe to Cheng-Jun Wang by Email&amp;lt;/a&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://feedburner.google.com/fb/a/mailverify?uri=github/zoiS&amp;amp;loc=en_US&#34;&gt;Subscribe to Cheng-Jun Wang by Email&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Social Entrepreneurs Worldwide: Visualization using WebGL Globe</title>
-      <link>https://chengjun.github.io/en/post/en/2014-08-20-ashoka-fellows-worldwide/</link>
-      <pubDate>Wed, 20 Aug 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://chengjun.github.io/en/post/en/2014-08-20-ashoka-fellows-worldwide/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;http://chengjun.qiniudn.com/ashoka-globe.PNG&#34; alt=&#34;&#34; /&gt;
-View it here &lt;a href=&#34;http://chengjun.github.io/globe/ashoka.html&#34; target=&#34;_blank&#34;&gt;http://chengjun.github.io/globe/ashoka.html&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;####Social Entrepreneurs Worldwide
-&lt;code&gt;Ashoka is the largest network of social entrepreneurs worldwide. Ashoka Fellows are leading social entrepreneurs who we recognize to have innovative solutions to social problems and the potential to change patterns across society. They demonstrate unrivaled commitment to bold new ideas and prove that compassion, creativity, and collaboration are tremendous forces for change. Ashoka Fellows work in over 70 countries around the globe in every area of human need.&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;In this post, I would try to visualize its global distributions using &lt;a href=&#34;http://www.chromeexperiments.com/globe&#34; target=&#34;_blank&#34;&gt;WebGL Globe&lt;/a&gt;. &lt;code&gt;The WebGL Globe is an open platform for geographic data visualization.&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;####Data Cleaning
-First, I get the country frequency using the following R script:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;  dat2 = read.csv(&amp;quot;D:/Dropbox/Crystal_RA_Job/Ashoka Project/data/ashoka/ashoka_data_cleaningSep.csv&amp;quot;,
-                 header = F, sep = &amp;quot;|&amp;quot;, quote = &amp;quot;&amp;quot;, stringsAsFactors=F); dim(dat2)
-
-  names(dat2) =  c(&#39;name&#39;, &#39;category&#39;, &#39;subsectors&#39;, &#39;targets&#39;, &#39;organization&#39;, &#39;location1&#39;,
-                &#39;location2&#39;, &#39;profileIntro&#39;, &#39;year_fellowship&#39;, &#39;introduction&#39;, &#39;idea&#39;,
-                &#39;problem&#39;, &#39;strategy&#39;, &#39;person&#39;, &#39;rnames&#39;, &#39;rorgs&#39;)    
-
-  # country
-  country = NULL
-  for (i in 1:length(dat2$name)){
-    country[[i]] = gsub( &amp;quot;, &amp;quot;, &amp;quot;&amp;quot;, dat2$location1[i], fixed = T)
-  }
-
-
-  ids = which(nchar(country) &amp;gt; 30)
-  for (i in ids){
-    cat(dat2$name[i], country[i], &#39;\n&#39;)
-  }
-
-  country[ids] = c(&#39;United States&#39;, &#39;Belgium&#39;, &#39;Czech Republic&#39;, &#39;Paraguay&#39;)
-
-  data = data.frame(table(country))
-  write.table(data, &#39;D:/Dropbox/Crystal_RA_Job/Ashoka Project/data/ashoka/ashoka_country.csv&#39;, sep = &#39;\t&#39;, row.names = FALSE, col.names = FALSE, quote = FALSE)
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Second, we can get the geolocation coordinates using Google&amp;rsquo;s Geo API. In this post, I use the pygeocoder module of Python to fetch the geo information for countries.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt; from pygeocoder import Geocoder
- import time
- import os
-
- # change work directory
- os.chdir(&#39;D:/Dropbox/Crystal_RA_Job/Ashoka Project/data/ashoka/&#39;)
-
- # read country data
- with open(&#39;./ashoka_country.csv&#39;) as f:
-     location = {}
-     for line in f:
-         country, freq = line.strip().split(&#39;\t&#39;)
-         location[country] = int(freq)
-
- maxFreq = max(location.values())    
-
- #get geo coordinates
- results = []    
- for i in location.keys():
-     time.sleep(1)
-     latitude, longtitude = Geocoder.geocode(i)[0].coordinates
-     results.extend([latitude, longtitude, location[i]/maxFreq])
-
- # make json
- data = [[&amp;quot;data&amp;quot;,results]]
-
- # save json
- import json
- with open(&#39;./ashoka_locations.json&#39;, &#39;w&#39;) as outfile:
-   json.dump(data, outfile)
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;####visualization
-In this visualization, each pillar stands for one country. By the year of 2013, there are 2334 fellows from 76 countries. The top 3 countries are India (N = 303), Brazil (N = 286), and United States(N = 160).&lt;/p&gt;
-
-&lt;p&gt;Using python, we can sort the country frequency like this:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;  sorted(location.items(), key=lambda x: x[1])
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;And here is the result:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt; #[(&#39;Italy&#39;, 1), (&#39;Netherlands&#39;, 1), (&#39;Iceland&#39;, 1), (&#39;Togo&#39;, 1), (&#39;Saudi Arabia&#39;, 1), 
- # (&#39;Latvia&#39;, 1), (&#39;Guinea-Bissau&#39;, 1), (&#39;Mozambique&#39;, 1), (&#39;Niger&#39;, 1), (&#39;Botswana&#39;, 1), 
- #(&#39;Hong Kong S.A.R.China&#39;, 1), (&#39;Norway&#39;, 2), (&#39;Singapore&#39;, 2), (&#39;Denmark&#39;, 2), 
- #(&#39;Morocco&#39;, 2), (&#39;Japan&#39;, 2), (&#39;Timor-Leste&#39;, 2), (&#39;Austria&#39;, 2), (&#39;Zambia&#39;, 2),
- # (&#39;Afghanistan&#39;, 3), (&#39;Sweden&#39;, 3), (&#39;Nicaragua&#39;, 3), (&#39;Cameroon&#39;, 4), 
- #(&#39;Ivory Coast&#39;, 4), (&#39;Lebanon&#39;, 5), (&#39;Ghana&#39;, 5), (&#39;Israel&#39;, 5), (&#39;Guatemala&#39;, 5),
- # (&#39;Belgium&#39;, 5), (&#39;Switzerland&#39;, 5), (&#39;El Salvador&#39;, 6), (&#39;Gambia&#39;, 6), 
- #(&#39;Tanzania&#39;, 6), (&#39;Lithuania&#39;, 7), (&#39;Palestinian Territory&#39;, 7), (&#39;Jordan&#39;, 8),
- # (&#39;Costa Rica&#39;, 10), (&#39;Ireland&#39;, 10), (&#39;Mali&#39;, 13), (&#39;United Kingdom&#39;, 13), 
- #(&#39;Zimbabwe&#39;, 13), (&#39;Venezuela&#39;, 15), (&#39;Paraguay&#39;, 16), (&#39;Slovakia&#39;, 18), 
- #(&#39;Sri Lanka&#39;, 18), (&#39;Senegal&#39;, 20), (&#39;Uganda&#39;, 20), (&#39;Uruguay&#39;, 20),
- # (&#39;Bolivia&#39;, 23), (&#39;Kenya&#39;, 24), (&#39;Turkey&#39;, 24), (&#39;Spain&#39;, 25), (&#39;Czech Republic&#39;, 26),
- # (&#39;Hungary&#39;, 27), (&#39;Burkina Faso&#39;, 28), (&#39;Ecuador&#39;, 31), (&#39;France&#39;, 33), (&#39;Peru&#39;, 36),
- # (&#39;Canada&#39;, 40), (&#39;Germany&#39;, 40), (&#39;Egypt&#39;, 40), (&#39;Chile&#39;, 41), (&#39;Nepal&#39;, 41), 
- #(&#39;Pakistan&#39;, 45), (&#39;Colombia&#39;, 50), (&#39;Argentina&#39;, 53), (&#39;Bangladesh&#39;, 61), 
- #(&#39;Poland&#39;, 69), (&#39;Nigeria&#39;, 70), (&#39;Thailand&#39;, 88), (&#39;South Africa&#39;, 94), 
- #(&#39;Indonesia&#39;, 123), (&#39;Mexico&#39;, 153), (&#39;United States&#39;, 160), (&#39;Brazil&#39;, 286), (&#39;India&#39;, 303)]
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&lt;iframe src=&#39;http://chengjun.github.io/globe/ashoka.html&#39; scrolling=&#34;no&#34; width=&#34;800&#34; height = &#34;600&#34; allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Migrate from Jekyll to Hugo</title>
       <link>https://chengjun.github.io/en/post/migrate-from-jekyll/</link>
       <pubDate>Mon, 10 Mar 2014 00:00:00 +0000</pubDate>
@@ -1313,6 +1111,279 @@ end
 &lt;p&gt;Refer to this link to use the twilight color scheme:&lt;a href=&#34;http://blog.alestanis.com/2013/02/04/octopress-and-the-twilight-color-scheme/&#34; target=&#34;_blank&#34;&gt;http://blog.alestanis.com/2013/02/04/octopress-and-the-twilight-color-scheme/&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;However, this link is simpler: &lt;a href=&#34;http://cabeca.github.io/blog/2013/06/09/putting-some-twilight-on-octopress/&#34; target=&#34;_blank&#34;&gt;http://cabeca.github.io/blog/2013/06/09/putting-some-twilight-on-octopress/&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Fitting rank order distribution with R</title>
+      <link>https://chengjun.github.io/en/post/en/2014-03-17-fit-power-law/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://chengjun.github.io/en/post/en/2014-03-17-fit-power-law/</guid>
+      <description>
+
+&lt;p&gt;The long-tail distribution can be quantified in primarily &lt;a href=&#34;http://arxiv.org/pdf/cond-mat/0412004.pdf?origin=publication_detail&#34; target=&#34;_blank&#34;&gt;three ways, see Newman &amp;rsquo;s paper here&lt;/a&gt;:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Power law distribution&lt;/li&gt;
+&lt;li&gt;Zipf distribution&lt;/li&gt;
+&lt;li&gt;Pareto distribution&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Here, I talk about the Zipf distribution which assesses the relationship between rank order and Frequency (probability).&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Zipf&amp;rsquo;s law now refers more generally to frequency distributions of &amp;ldquo;rank data,&amp;rdquo; in which the relative frequency of the nth-ranked item is given by the Zeta distribution. from &lt;a href=&#34;http://en.wikipedia.org/wiki/Zipf&#39;s_law&#34; target=&#34;_blank&#34;&gt;Wikipedia&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&#34;dgbd&#34;&gt;DGBD&lt;/h2&gt;
+
+&lt;p&gt;In Gustavo Martínez-Mekler et al&amp;rsquo;s &lt;a href=&#34;http://www.plosone.org/article/info%3adoi/10.1371/journal.pone.0004791&#34; target=&#34;_blank&#34;&gt;article&lt;/a&gt;, they proposed a discrete generalized beta distribution: $$f&amp;reg; = A(N+1-r)^b/r^a$$, where r is the rank, &lt;strong&gt;N&lt;/strong&gt; is maximum value, A the normalization constant and (a, b) two fitting exponents.&lt;/p&gt;
+
+&lt;p&gt;It&amp;rsquo;s interesting to find that &lt;a href=&#34;http://journals.aps.org/pre/pdf/10.1103/PhysRevE.84.026113&#34; target=&#34;_blank&#34;&gt;Wu and Zhang (2011)&lt;/a&gt; adopt the DGBD distribution to quantify the online social systems. Basically, they are interested in accelerating growth in human online behaviors.&lt;/p&gt;
+
+&lt;p&gt;Deﬁning P as the number of active users in a day and T as the total activity generated by these users, they find a power law relationship between them $$T = P^\gamma$$. Given $$\gamma$$ larger than 1, there exists an accelerating growth phenomena in online systems (e.g., tagging, microblogging)&lt;/p&gt;
+
+&lt;p&gt;They denote the activity of a user in one day with t&amp;reg;, in which r is the decreasing rank of the activity among all individual activities in the day. Thus the maximum value of r, $$r_{max}$$, equals population P. The DGBD model of individual activities is then&lt;/p&gt;
+
+&lt;p&gt;$$t&amp;reg; = A(P+1−r)^b r^a (a &amp;gt; 0,b &amp;gt; 0)$$&lt;/p&gt;
+
+&lt;p&gt;They introduced that a determines the activities of highly active users(corresponds to the exponent $$\alpha$$ in Zipf’s law), b determines the activities of the less active users. Using the DGBD, They can ﬁt the empirical curves with $$R^2$$ &amp;gt; 0.9.&lt;/p&gt;
+
+&lt;p&gt;Here I start with an empirical dataset. The Tweet of Milan city in December 2013. Basically, we know the language of each tweet. Thus we have the frequency of each language.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;freq = c(1116, 2067, 137 ,  124, 643,  2042, 55  ,47186,  7504, 1488, 211,   1608,  3517 , 7  , 896  ,  378, 17 ,3098, 164977  ,  601 ,  196, 637, 149 , 44,2 ,  1801, 882   , 636,5184,  1851,  776 ,   343   , 851, 33  ,4011,   209,  715 ,  937 , 20,   6922, 2028 , 23,  3045 , 16 , 334,  31 ,  2)
+
+lan = c(&amp;quot;af&amp;quot;,&amp;quot;ar&amp;quot;,&amp;quot;bg&amp;quot;,&amp;quot;cs&amp;quot;,&amp;quot;da&amp;quot;,&amp;quot;de&amp;quot;,&amp;quot;el&amp;quot;,&amp;quot;en&amp;quot;,&amp;quot;es&amp;quot;,&amp;quot;et&amp;quot;,&amp;quot;fa&amp;quot;,&amp;quot;fi&amp;quot;,&amp;quot;fr&amp;quot;,&amp;quot;he&amp;quot;,&amp;quot;hr&amp;quot;,&amp;quot;hu&amp;quot;,&amp;quot;id&amp;quot;,&amp;quot;it&amp;quot;,&amp;quot;ja&amp;quot;,&amp;quot;ko&amp;quot;,&amp;quot;lt&amp;quot;,&amp;quot;lv&amp;quot;,&amp;quot;mk&amp;quot;,&amp;quot;ne&amp;quot;,&amp;quot;nl&amp;quot;,&amp;quot;no&amp;quot;,&amp;quot;pl&amp;quot;,&amp;quot;pt&amp;quot;,&amp;quot;ro&amp;quot;,&amp;quot;ru&amp;quot;,&amp;quot;sk&amp;quot;,&amp;quot;sl&amp;quot;,&amp;quot;so&amp;quot;,&amp;quot;sq&amp;quot;,&amp;quot;sv&amp;quot;,&amp;quot;sw&amp;quot;,&amp;quot;th&amp;quot;,&amp;quot;tl&amp;quot;,&amp;quot;tr&amp;quot;,&amp;quot;uk&amp;quot;,&amp;quot;und&amp;quot;,&amp;quot;ur&amp;quot;,&amp;quot;vi&amp;quot;,&amp;quot;zh-cn&amp;quot;,&amp;quot;zh-tw&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Thus, we can calculate the decreasing rank for each language.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Rank = rank(-freq, ties.method = c(&amp;quot;first&amp;quot;) )
+data = data.frame(lan, freq, Rank)
+data$Probability = data$Freq/sum(data$Freq)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;We can write a simple function to fit the rank ordered data and capture the distribution.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;get_dgbd = function(freq){
+  Rank = rank(-freq, ties.method = c(&amp;quot;first&amp;quot;) )
+  p = freq/sum(as.numeric(freq))
+  # get the log form
+  log.f = log(freq)
+  log.p = log(p)
+  log.rank = log(Rank)
+  log.inverse.rank = log(length(Rank)+1-Rank)
+
+  # linear regression of zifp: for probability
+  cozp=coef(lm(log.p~log.rank))
+  zipf.p = function(x) exp(cozp[[1]] + cozp[2]*log(x))
+
+  # linear regression of zifp: for frequency
+  cozf=coef(lm(log.f~log.rank))
+  zipf.f = function(x) exp(cozf[[1]] + cozf[2]*log(x))
+
+  # linear regression of dgbd: for probability
+  codp=coef(lm(log.p~log.inverse.rank + log.rank))
+  dgbd.p = function(x) exp(codp[[1]]+ codp[[2]]*log(length(x)+1-x) + codp[[3]]*log(x))
+
+  # linear regression of dgbd: for frequency
+  codf=coef(lm(log.f~log.inverse.rank + log.rank))
+  dgbd.f = function(x) exp(codf[[1]]+ codf[[2]]*log(length(x)+1-x) + codf[[3]]*log(x))
+  return(c(zipf.p, zipf.f, dgbd.p, dgbd.f))
+}
+
+zipf.p = get_dgbd(data$Freq)[[1]]
+zipf.f = get_dgbd(data$Freq)[[2]]
+dgbd.p = get_dgbd(data$Freq)[[3]]
+dgbd.f = get_dgbd(data$Freq)[[4]]
+
+
+plot(freq~Rank,log=&amp;quot;xy&amp;quot;, xlab = &amp;quot;Rank (log)&amp;quot;, ylab = &amp;quot;Frequency (log)&amp;quot;, data = data)
+curve(zipf.f, col=&amp;quot;red&amp;quot;, add = T, n = length(data$Rank))
+curve(dgbd.f, col=&amp;quot;blue&amp;quot;, add = T, n = length(data$Rank))
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Remember to specify the length of values in &amp;lsquo;curve&amp;rsquo;. About its importance, check &lt;a href=&#34;http://stackoverflow.com/questions/22446006/why-is-curve-so-different-from-lines-and-points-in-r&#34; target=&#34;_blank&#34;&gt;this post&lt;/a&gt; on stackoverflow.&lt;/p&gt;
+
+&lt;p&gt;Finally, we can plot it with ggplot2.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;require(ggplot2)
+P = ggplot(data=data, aes(x=Rank, y=Freq, label = Var1)) + geom_point() +
+  coord_trans(xtrans = &amp;quot;log10&amp;quot;, ytrans = &amp;quot;log10&amp;quot;)+
+  stat_function(fun = dgbd.f, n = length(Rank), colour = &#39;red&#39;, size = 1)+
+  geom_text(aes(label=Var1),hjust=1.5, vjust=0, angle = 45, size = 3)
+
+png(file = &amp;quot;./language_rank_order_distribution2.png&amp;quot;,
+    width=8, height=5,
+    units=&amp;quot;in&amp;quot;, res=700)
+P
+dev.off()
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://farm3.staticflickr.com/2725/13212714535_820edf5a12_z.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://farm3.staticflickr.com/2767/13213038184_4d8fb106d2_z.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;how-to-construct-your-model&#34;&gt;How to construct your model?&lt;/h2&gt;
+
+&lt;p&gt;Using the DGBD model, we can fit the frequency-rank data almost perfectly. However, there are many other other forms of alternative equations. For example, there are Zipf-Manderbrot Model and &lt;a href=&#34;http://statweb.stanford.edu/~owen/courses/306a/ZipfAndGutenberg.pdf&#34; target=&#34;_blank&#34;&gt;its modifications&lt;/a&gt;, How to guarantee that which specific model is the right one? We need to:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;learn more about the underlying mechanisms.&lt;/li&gt;
+&lt;li&gt;observe the patterns of the data&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;In the paper titled &lt;a href=&#34;http://www3.nd.edu/~networks/Publication%20Categories/03%20Journal%20Articles/Social%20Science/Modeling%20bursts_Phys.%20Rev.%20E%2073,%20036127%20(2006).pdf&#34; target=&#34;_blank&#34;&gt;Modeling bursts and heavy tails in human dynamics&lt;/a&gt;, Alexei Vázquez et al tried to propose two queuing models to explain the &lt;strong&gt;value&lt;/strong&gt; of scaling parameter in the temporal patterns of human behaviors. They capture the temporal patterns with two measurements: interevent time $$\tau$$ and waiting times $$\tau_{w}$$.&lt;/p&gt;
+
+&lt;p&gt;The time between two consecutive events is called the interevent time, $$\tau$$; the waiting (or response) time, $$\tau_w$$, representing the amount of time a task waits on an individual’s priority list before being executed.&lt;/p&gt;
+
+&lt;p&gt;Assuming that &lt;strong&gt;the tasks are executed independently from each other at a constant rate $$\lambda$$&lt;/strong&gt;, the time can be approximated by a Poisson process:&lt;/p&gt;
+
+&lt;p&gt;$$p(\tau) = \lambda e^{-\lambda \tau}$$ .&lt;/p&gt;
+
+&lt;p&gt;However, we know that in many human behaviors, the Poisson process fails to capture the burst phenomenon. The temporal patterns can be generally categorized into two classes:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;A. The $$\alpha$$= 1 universality class: Web browsing, email, and library datasets&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;B. The $$\alpha$$=&lt;sup&gt;3&lt;/sup&gt;&amp;frasl;&lt;sub&gt;2&lt;/sub&gt; universality class: The correspondence of Einstein, Darwin, and Freud, which is characterized by &lt;strong&gt;a power law decay&lt;/strong&gt; combined with &lt;strong&gt;an exponential cutoff&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;$$p(\tau)\simeq \tau^{-&lt;sup&gt;3&lt;/sup&gt;&amp;frasl;&lt;sub&gt;2&lt;/sub&gt;} e^{-\tau / \tau_{0}}$$.&lt;/p&gt;
+
+&lt;p&gt;in which $$\tau_0 = \frac{1}{\mu (1-\sqrt{\rho})}$$, and $$\rho = \lambda / \mu$$. Recall that $$\lambda$$ is the arrival rate of new task, and $$\mu$$ is the response rate , thus $$\rho$$ is the task/job/traffic intensity.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Subcritical regime: When $$\rho$$ &amp;lt; 1, there are fewer job, and more queuing space.&lt;/li&gt;
+&lt;li&gt;Critical regime: When $$\rho$$ = 1, arrival rate equals response rate&lt;/li&gt;
+&lt;li&gt;Supercritical regime: When $$\rho$$ &amp;gt; 1, there are more job, and less queuing space.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;However, they also find that the interevent time distribution between two consecutive transactions made by a stock broker. The distribution follows a power law with the exponential cutoff $$p(\tau)\simeq \tau^{-1.3} e^{-\tau / \tau_{0}}$$.&lt;/p&gt;
+
+&lt;p&gt;####References&lt;/p&gt;
+
+&lt;p&gt;Martínez-Mekler G, Martínez RA, del Río MB, Mansilla R, Miramontes P, et al. (2009) Universality of Rank-Ordering Distributions in the Arts and Sciences. PLoS ONE 4(3): e4791. doi:10.1371/journal.pone.0004791&lt;/p&gt;
+
+&lt;p&gt;Wu L, Zhang J. (2011) Accelerating growth and size-dependent distribution of human online activities. PHYSICAL REVIEW E 84, 026113 (2011)&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Generating networks with igraph</title>
+      <link>https://chengjun.github.io/en/post/en/2013-08-12-generating-networks-with-igraph/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://chengjun.github.io/en/post/en/2013-08-12-generating-networks-with-igraph/</guid>
+      <description>
+
+&lt;p&gt;We know that the most simple network is the regular network, such as the ring network. If all the edges in a network are generated randomly, we can get a random graph or Erdos-Renyi network (ER network).&lt;/p&gt;
+
+&lt;h2 id=&#34;erdős-rényi-random-graph-model&#34;&gt;Erdős–Rényi Random Graph model&lt;/h2&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;The Erdős–Rényi model, named for Paul Erdős and Alfréd Rényi, is used for generating random graphs in which edges are set between nodes with equal probabilities.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;There is a continuous shift between randomness and regularity. What are the networks between random network and regular networks?&lt;/p&gt;
+
+&lt;h2 id=&#34;watts-strogatz-small-world-model&#34;&gt;Watts-Strogatz Small World model&lt;/h2&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;The Watts and Strogatz model is a random graph generation model that produces graphs with small-world properties.
+An initial lattice structure is used to generate a Watts-Strogatz model. Each node in the network is initially linked to its k closest neighbors. Another parameter is specified as the rewiring probability. Each edge has a probability p that it will be rewired to the graph as a random edge.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&#34;barabási-albert-ba-preferential-attachment-model&#34;&gt;Barabási–Albert (BA) Preferential Attachment model&lt;/h2&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;The Barabási–Albert model is a random network model used to demonstrate a preferential attachment or a &amp;ldquo;rich-get-richer&amp;rdquo; effect. In this model, an edge is most likely to attach to nodes with higher degrees. The network begins with an initial network of m nodes. m ≥ 2 and the degree of each node in the initial network should be at least 1, otherwise it will always remain disconnected from the rest of the network.&lt;/p&gt;
+
+&lt;p&gt;In the BA model, new nodes are added to the network one at a time. Each new node is connected to m existing nodes with a probability that is proportional to the number of links that the existing nodes already have.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;We can use igraph to play the network games, and explore the properties of generated networks.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;igraph is an open source C library for the analysis of large-scale complex networks, with interfaces to R, Python and Ruby.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Here is the R script for generating and visualizing networks.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;library(igraph)
+g1 &amp;lt;- graph.ring(500)
+g2 &amp;lt;- erdos.renyi.game(500, 0.0035)
+g3 &amp;lt;- rewire.edges( g1, prob = 0.5 )
+g4 &amp;lt;- barabasi.game(500)
+# 保存图片格式
+png(&amp;quot;d:/network_game.png&amp;quot;,
+    width=5, height=5,
+    units=&amp;quot;in&amp;quot;, res=700)
+# 绘制图片
+par(mfrow=c(2,2))
+plot(g1, vertex.label= NA, edge.arrow.size=0.02,vertex.size = 0.5, xlab = &amp;quot;Ring Network&amp;quot;)
+plot(g2, vertex.label= NA, edge.arrow.size=0.02,vertex.size = 0.5, xlab = &amp;quot;Random Network&amp;quot;)
+plot(g3, vertex.label= NA, edge.arrow.size=0.02,vertex.size = 0.5, xlab = &amp;quot;Small World Network&amp;quot;)
+plot(g4, vertex.label= NA, edge.arrow.size=0.02,vertex.size = 0.5, xlab = &amp;quot;Scale-free Network&amp;quot;)
+# 结束保存图片
+dev.off()
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://farm3.staticflickr.com/2875/9490993155_0787ab3832_c.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Of courese, there are other network games in the library of igraph, such as the game of forest fire.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;g5 &amp;lt;- forest.fire.game(200, fw.prob=0.37, bw.factor=0.32/0.37)
+plot(g5, vertex.label= NA, edge.arrow.size=0.02,vertex.size = 0.5)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;strong&gt;References&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://en.wikipedia.org/wiki/Network_science#Network_models&#34; target=&#34;_blank&#34;&gt;http://en.wikipedia.org/wiki/Network_science#Network_models&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Hosting pandoc slides on Octopress</title>
+      <link>https://chengjun.github.io/en/post/en/2013-08-06-present-pandoc-slides-on-octopress/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://chengjun.github.io/en/post/en/2013-08-06-present-pandoc-slides-on-octopress/</guid>
+      <description>&lt;p&gt;##&lt;/p&gt;
+
+&lt;p&gt;I have made a dzslides from a markdown file using pandoc, and then I want to archive and present it on octopress. Check the result to learn about how to make simple slides using pandoc &lt;a href=&#34;http://chengjun.github.io/slides/pandoc-slides&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;The mechanism of octopress is a little bit inflexible.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://farm8.staticflickr.com/7340/9450821728_ac4f8c375e_o.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Basicially, we generate markdown files in the directory of _posts:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;rake new_post[&amp;quot;the title of your post&amp;quot;]
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;and then we transform the markdown files to html placed in the dirctory of public.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;rake generate
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;After that, we deploy the html files to the server.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;rake deploy
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Thus, accordingly, the solution is given as following:&lt;/p&gt;
+
+&lt;p&gt;First, we make a slides folder in the source directory, e.g., &amp;ldquo;octopress/source/slides/&amp;rdquo;, and put the html of slide into this folder.&lt;/p&gt;
+
+&lt;p&gt;Second, we generate the file to the public folder and deploy the html file to the server.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;rake generate
+rake deploy
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;You can open the slides directly with the url: &lt;a href=&#34;http://chengjun.github.io/slides/pandoc-slides&#34; target=&#34;_blank&#34;&gt;http://chengjun.github.io/slides/pandoc-slides&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     

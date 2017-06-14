@@ -336,7 +336,7 @@ set.seed(2014); diffusers = sample(V(g),seeds_num) ; diffusers
 infected =list()
 infected[[1]]= diffusers
 
-# for example, set percolation probability 
+# for example, set percolation probability
 p = 0.128
 coins = c(rep(1, p*1000), rep(0,(1-p)*1000))
 n = length(coins)
@@ -369,7 +369,7 @@ update_diffusers = function(diffusers){
 <p>R you Ready? Now we can start the contagion!</p>
 
 <pre><code>i = 1
-while(length(infected[[i]]) &lt; size){ 
+while(length(infected[[i]]) &lt; size){
   infected[[i+1]] = sort(update_diffusers(infected[[i]]))
   cat(length(infected[[i+1]]), &quot;\n&quot;)
   i = i + 1
@@ -383,8 +383,8 @@ num_cum = unlist(lapply(1:i, function(x) length(infected［x］) ))
 p_cum = num_cum/max(num_cum)
 time = 1:i
 
-png(file = &quot;./temporal_growth_curve.png&quot;, 
-    width=5, height=5, 
+png(file = &quot;./temporal_growth_curve.png&quot;,
+    width=5, height=5,
     units=&quot;in&quot;, res=300)
 plot(p_cum~time, type = &quot;b&quot;)
 dev.off()
@@ -396,7 +396,7 @@ dev.off()
 
 <pre><code>E(g)$color = &quot;blueviolet&quot;
 V(g)$color = &quot;white&quot;
-set.seed(2014); layout.old = layout.fruchterman.reingold(g) 
+set.seed(2014); layout.old = layout.fruchterman.reingold(g)
 V(g)$color[V(g)%in%diffusers] = &quot;red&quot;
 plot(g, layout =layout.old)
 </code></pre>
@@ -475,8 +475,8 @@ saveGIF({
   <nav>
   <ul class="pager">
     
-    <li class="previous"><a href="https://chengjun.github.io/en/post/en/2011-03-18-craft-of-writing/"><span
-      aria-hidden="true">&larr;</span> The Craft of Writing</a></li>
+    <li class="previous"><a href="https://chengjun.github.io/en/post/en/2014-08-20-ashoka-fellows-worldwide/"><span
+      aria-hidden="true">&larr;</span> Social Entrepreneurs Worldwide: Visualization using WebGL Globe</a></li>
     
 
     

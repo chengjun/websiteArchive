@@ -308,7 +308,7 @@ def get_words_in_tweets(tweets):
         all_words.extend(words)
     return all_words
 
-# get the unique word from the word list    
+# get the unique word from the word list
 def get_word_features(wordlist):
     wordlist = nltk.FreqDist(wordlist)
     word_features = wordlist.keys()
