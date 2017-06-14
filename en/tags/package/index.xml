@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Package on </title>
+    <link>https://chengjun.github.io/en/tags/package/index.xml</link>
+    <description>Recent content in Package on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2016 Cheng-Jun Wang</copyright>
+    <atom:link href="/en/tags/package/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>scholarNetwork: Visualizing Google Scholar Network</title>
+      <link>https://chengjun.github.io/en/post/en/2015-02-22-scholarNetwork/</link>
+      <pubDate>Sun, 22 Feb 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://chengjun.github.io/en/post/en/2015-02-22-scholarNetwork/</guid>
+      <description>
+
+&lt;p&gt;#scholarNetwork&lt;/p&gt;
+
+&lt;p&gt;Developed by Cheng-Jun Wang &amp;amp; Lingfei Wu&lt;/p&gt;
+
+&lt;p&gt;Cheng-Jun Wang wangchj04@gmail.com
+Lingfei Wu wlf850927@gmail.com&lt;/p&gt;
+
+&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+
+&lt;p&gt;scholarNetwork is a python package for crawling and visualizing the co-author network of Google Scholar.&lt;/p&gt;
+
+&lt;p&gt;To use it, you must have access to Google Scholar, and you would also install beautifulsoup4 and networkx during the installation process.&lt;/p&gt;
+
+&lt;h2 id=&#34;install&#34;&gt;Install&lt;/h2&gt;
+
+&lt;p&gt;Install from pypi using pip or easy_install&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;     pip install scholarNetwork
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;or&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;     easy_install scholarNetwork
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;##Use&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;    from scholarNetwork import scholarNetwork
+    import matplotlib.pyplot as plt
+    import networkx as nx
+
+    ## The seed of crawler
+    seed = &#39;https://scholar.google.nl/citations?user=nNdt_G8AAAAJ&amp;amp;hl=en&amp;amp;oe=ASCII&#39;
+    ## How many nodes do you want to visulize? Always start with a small one. 
+    Nmax = 21
+    ## Get the graph g
+    g = scholarNetwork.getGraph(seed, Nmax)
+
+    ## plot the network
+    pos=nx.spring_layout(g) #setup the layout
+
+    nx.draw(g, pos, node_shape = &#39;o&#39;,
+            edge_color = &#39;gray&#39;, width = 0.5,
+            with_labels = True, arrows = True)
+    plt.show()
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://chengjun.qiniudn.com/example.png&#34; alt=&#34;1&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Of course, you can get a much larger graph to see what&amp;rsquo;s happening around you, just to change the value of Nmax. However, you have to be patient to wait for much longer time.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://chengjun.qiniudn.com/ego300large.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

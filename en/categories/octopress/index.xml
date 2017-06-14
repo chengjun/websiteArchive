@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Octopress on </title>
+    <link>https://chengjun.github.io/en/categories/octopress/index.xml</link>
+    <description>Recent content in Octopress on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2016 Cheng-Jun Wang</copyright>
+    <atom:link href="/en/categories/octopress/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Blogging with markdown on Octopress</title>
+      <link>https://chengjun.github.io/en/post/en/2013-08-03-bloging-with-markdown-on-octopress/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://chengjun.github.io/en/post/en/2013-08-03-bloging-with-markdown-on-octopress/</guid>
+      <description>
+
+&lt;h3 id=&#34;set-up-octopress&#34;&gt;Set up Octopress&lt;/h3&gt;
+
+&lt;p&gt;I refer to this &lt;a href=&#34;http://www.yanjiuyanjiu.com/blog/20130401/&#34; target=&#34;_blank&#34;&gt;blog&lt;/a&gt; and this &lt;a href=&#34;http://zerodie.github.io/blog/2012/01/19/octopress-github-pages/&#34; target=&#34;_blank&#34;&gt;blog&lt;/a&gt; to setup octopress. It&amp;rsquo;s very helpful for windows users.&lt;/p&gt;
+
+&lt;h3 id=&#34;for-encoding-errors&#34;&gt;For encoding errors&lt;/h3&gt;
+
+&lt;p&gt;Most chinese windows users encounter the problem of encoding error, such as &lt;a href=&#34;http://www.v2ex.com/t/26027&#34; target=&#34;_blank&#34;&gt;this one&lt;/a&gt;: invalid byte sequence in GBK. I handle it following three suggestions:&lt;/p&gt;
+
+&lt;p&gt;1.Modify the file located at C:\Ruby193\lib\ruby\gems\1.9.1\gems\jekyll-0.11.2\lib\jekyll\convertible.rb, to change:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;self.content = File.read(File.join(base, name))
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;into:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;self.content = File.read(File.join(base, name), :encoding =&amp;gt; &amp;quot;utf-8&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;2.Make sure the markdown file is encoded with utf-8 without BOM&lt;/p&gt;
+
+&lt;p&gt;3.Set the language in the git bash:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;set LANG=zh_CN.UTF-8
+
+set LC_ALL=zh_CN.UTF-8
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;writing-markdown-post-with-markdownpad&#34;&gt;Writing markdown post with MarkdownPad&lt;/h3&gt;
+
+&lt;p&gt;Using MarkdownPad, you can instantly see what your Markdown documents look like in HTML. While you type, LivePreview will automatically scroll to the current location you’re editing.&lt;/p&gt;
+
+&lt;h3 id=&#34;understanding-the-git-flow-of-octopress-blogs&#34;&gt;Understanding the git flow of Octopress blogs&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://systeminterrupt.me/images/2013-06-16/Octopress_Deployment_Chain.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;First, we operate at the local, and then we push the changes to the server of github.&lt;/p&gt;
+
+&lt;p&gt;For the local files, there are two parts: sources &amp;amp; public. We first write post to the directory of &amp;ldquo;_posts&amp;rdquo;; Second, we copy the file to the public file (rake generate), and at the moment, you can preview the local files (rake preview); Third, you can publish/push the local files to the server (rake deploy).&lt;/p&gt;
+
+&lt;p&gt;On the server, there are two parts: master &amp;amp; source. In the source part of the server, we can archive the local files.&lt;/p&gt;
+
+&lt;p&gt;If you undertand the logic above well, you know clearly how to modify one post.&lt;/p&gt;
+
+&lt;h3 id=&#34;modifying-a-post&#34;&gt;Modifying a post&lt;/h3&gt;
+
+&lt;p&gt;After you have publish a post, you may need to modify the content: First, to find the post in the directory of &amp;ldquo;octopress/source/_posts&amp;rdquo;; Second, to modify it with MarkdownPad; Third, to publish the modified post:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;rake generate
+rake preview
+rake deploy
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Click here to preview &lt;a href=&#34;http://localhost:4000]&#34; target=&#34;_blank&#34;&gt;http://localhost:4000&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Copy the changes to the source for memory.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;git add .
+git commit -m &#39;your message&#39;
+git push origin source
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;clone-your-octopress-to-blog-from-two-places&#34;&gt;Clone Your Octopress to Blog From Two Places&lt;/h3&gt;
+
+&lt;p&gt;Refer to this post: &lt;a href=&#34;http://blog.zerosharp.com/clone-your-octopress-to-blog-from-two-places/&#34; target=&#34;_blank&#34;&gt;http://blog.zerosharp.com/clone-your-octopress-to-blog-from-two-places/&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;add-mathjax-to-write-eqations&#34;&gt;Add mathjax to write eqations&lt;/h3&gt;
+
+&lt;p&gt;Refer to this post: &lt;a href=&#34;http://www.yanjiuyanjiu.com/blog/20130402/&#34; target=&#34;_blank&#34;&gt;http://www.yanjiuyanjiu.com/blog/20130402/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;$$
+logit(Y&lt;em&gt;{ij} = 1) = ln(\frac{p&lt;/em&gt;{ij}}{1-p&lt;em&gt;{ij}}) = {\theta }^{T} \mathbf{\delta} [g(\mathbf{y}, \mathbf{X})]&lt;/em&gt;{ij}
+$$&lt;/p&gt;
+
+&lt;p&gt;以上公式当中，定义$$Y&lt;em&gt;{ij}$$为节点i和j之间形成链接的一个随机变量。当$$y&lt;/em&gt;{ij}$$取值由0变为1的时候，所带来的$$g(\mathbf{y},\mathbf{X})$$的变化表示为$$\mathbf{\delta} [g(\mathbf{y}, \mathbf{X})]_{ij}$$。&lt;/p&gt;
+
+&lt;p&gt;Using kramdown, you can also present the tables on octopress.[^1]. Other text.[^footnote]. One example:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;|-----------------+------------+-----------------+----------------|
+| Default aligned |Left aligned| Center aligned  | Right aligned  |
+|-----------------|:-----------|:---------------:|---------------:|
+| First body part |Second cell | Third cell      | fourth cell    |
+| Second line     |foo         | **strong**      | baz            |
+| Third line      |quux        | baz             | bar            |
+|-----------------+------------+-----------------+----------------|
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Check the result here:&lt;/p&gt;
+
+&lt;p&gt;|&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;ndash;+&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;+&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;ndash;+&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;-|
+| Default aligned |Left aligned| Center aligned  | Right aligned  |
+|&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;ndash;|:&amp;mdash;&amp;mdash;&amp;mdash;&amp;ndash;|:&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;:|&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;:|
+| First body part |Second cell | Third cell      | fourth cell    |
+| Second line     |foo         | &lt;strong&gt;strong&lt;/strong&gt;      | baz            |
+| Third line      |quux        | baz             | bar            |
+|&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;ndash;+&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;+&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;ndash;+&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;-|&lt;/p&gt;
+
+&lt;h3 id=&#34;gist-embedding&#34;&gt;Gist Embedding&lt;/h3&gt;
+
+&lt;p&gt;Refer to this post: &lt;a href=&#34;http://octopress.org/docs/blogging/code/&#34; target=&#34;_blank&#34;&gt;http://octopress.org/docs/blogging/code/&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;insert-photos-and-modify-the-size&#34;&gt;Insert photos and modify the size&lt;/h3&gt;
+
+&lt;p&gt;Refer to this link: &lt;a href=&#34;http://octopress.org/docs/plugins/image-tag/&#34; target=&#34;_blank&#34;&gt;http://octopress.org/docs/plugins/image-tag/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://lh4.googleusercontent.com/-Hipwe3gjPn8/UUZW6a_Y1_I/AAAAAAAAAys/9QbECNQCUAA/s1267-fcrop64=1,015a0000fb7bd34c/optimus%2Bprime.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;I am Optimus Prime, and I send this message to any surviving Autobots taking refuge among the stars: we are here, we are waiting.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&#34;use-the-twilight-color-scheme&#34;&gt;Use the Twilight Color Scheme&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;def hello
+  puts &amp;quot;Hello!&amp;quot;
+end
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;{:lang=&amp;ldquo;ruby&amp;rdquo;}&lt;/p&gt;
+
+&lt;p&gt;Just add {:lang =&amp;ldquo;ruby&amp;rdquo;} below your code block, and bear in mind that there is no indent for this line:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;    def hello
+      puts &amp;quot;Hello!&amp;quot;
+    end
+{:lang=&amp;quot;ruby&amp;quot;}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;{:lang=&amp;ldquo;ruby&amp;rdquo;}&lt;/p&gt;
+
+&lt;p&gt;for thie inline script &lt;code&gt;def hello&lt;/code&gt;{:lang=&amp;ldquo;ruby&amp;rdquo;}, you can write in this way:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;for the inline script &#39;def hello&#39;{:lang=&amp;quot;ruby&amp;quot;}, you can write in this way:
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;{:lang=&amp;ldquo;ruby&amp;rdquo;}&lt;/p&gt;
+
+&lt;p&gt;Refer to this link to use the twilight color scheme:&lt;a href=&#34;http://blog.alestanis.com/2013/02/04/octopress-and-the-twilight-color-scheme/&#34; target=&#34;_blank&#34;&gt;http://blog.alestanis.com/2013/02/04/octopress-and-the-twilight-color-scheme/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;However, this link is simpler: &lt;a href=&#34;http://cabeca.github.io/blog/2013/06/09/putting-some-twilight-on-octopress/&#34; target=&#34;_blank&#34;&gt;http://cabeca.github.io/blog/2013/06/09/putting-some-twilight-on-octopress/&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Hosting pandoc slides on Octopress</title>
+      <link>https://chengjun.github.io/en/post/en/2013-08-06-present-pandoc-slides-on-octopress/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://chengjun.github.io/en/post/en/2013-08-06-present-pandoc-slides-on-octopress/</guid>
+      <description>&lt;p&gt;I have made a dzslides from a markdown file using pandoc, and then I want to archive and present it on octopress. Check the result to learn about how to make simple slides using pandoc &lt;a href=&#34;http://chengjun.github.io/slides/pandoc-slides&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;The mechanism of octopress is a little bit inflexible.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://farm8.staticflickr.com/7340/9450821728_ac4f8c375e_o.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Basicially, we generate markdown files in the directory of _posts:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;rake new_post[&amp;quot;the title of your post&amp;quot;]
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;and then we transform the markdown files to html placed in the dirctory of public.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;rake generate
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;After that, we deploy the html files to the server.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;rake deploy
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Thus, accordingly, the solution is given as following:&lt;/p&gt;
+
+&lt;p&gt;First, we make a slides folder in the source directory, e.g., &amp;ldquo;octopress/source/slides/&amp;rdquo;, and put the html of slide into this folder.&lt;/p&gt;
+
+&lt;p&gt;Second, we generate the file to the public folder and deploy the html file to the server.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;rake generate
+rake deploy
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;You can open the slides directly with the url: &lt;a href=&#34;http://chengjun.github.io/slides/pandoc-slides&#34; target=&#34;_blank&#34;&gt;http://chengjun.github.io/slides/pandoc-slides&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Using the front-page of Octopress instead of the blog page</title>
+      <link>https://chengjun.github.io/en/post/en/2013-08-06-using-the-front-page-of-octopress-instead-of-the-blog-page/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://chengjun.github.io/en/post/en/2013-08-06-using-the-front-page-of-octopress-instead-of-the-blog-page/</guid>
+      <description>
+
+&lt;h2 id=&#34;using-a-landing-page-rather-than-the-blog-page&#34;&gt;Using a Landing Page rather than the Blog Page&lt;/h2&gt;
+
+&lt;p&gt;It&amp;rsquo;s annoying to find that users are directed to your blog page directly. In my point of view, octopress is not just a personal blog. It is your website, your home online, where you can present yourself easily, rather than limiting yourself to the blog posts.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://farm8.staticflickr.com/7387/9450821960_84d5be16c9.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I have made a &amp;ldquo;Home&amp;rdquo; page before. However, the home page is not directed as the landing page.&lt;/p&gt;
+
+&lt;p&gt;To have a look at the navigation method used in my navigation.html:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;ul class=&amp;quot;main-navigation&amp;quot;&amp;gt;
+  &amp;lt;li&amp;gt;&amp;lt;a href=&amp;quot;{{ root_url }}/home&amp;quot;&amp;gt;Home&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+  &amp;lt;li&amp;gt;&amp;lt;a href=&amp;quot;{{ root_url }}/cv&amp;quot;&amp;gt;CV&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+  &amp;lt;li&amp;gt;&amp;lt;a href=&amp;quot;{{ root_url }}/&amp;quot;&amp;gt;Blog&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+  &amp;lt;li&amp;gt;&amp;lt;a href=&amp;quot;{{ root_url }}/blog/archives&amp;quot;&amp;gt;Archives&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+&amp;lt;/ul&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;You will find that the root_url is directed to the blog page！ How to change it? Bear in mind that octopress orgainze the pages by index page. There is a index page for any pages, e.g, an index page for the blog page, an index page for the archives page, an index page for the home page. Thus, we can think in another way, why not make a index page for the root_url? This can solve the problem.&lt;/p&gt;
+
+&lt;p&gt;First, Of course, we should move the index page to the blog directory first.By default Octopress generates your blog’s post index at your site’s root directory. If you’d rather publish your blog index somewhere else like blog/index.html do this in your terminal.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;mv source/index.html source/blog/index.html
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Second,we can make an index page for the root_url of the source.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;rake new_page[index.html]
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Third, you’ll want to update your Rakefile to be sure your new blog index is preserved when you update Octopress. This tells the octopress that your index page for the blog is moved to the directory of &amp;ldquo;source/blog&amp;rdquo;.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;blog_index_dir = &#39;source/blog&#39;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Fourth, remember to update the main navigation for your site(octopress/source/_includes/custom/navigation.html), since currently the blog link points to /. Skip down to the section on changing navigation, add a ‘home’ link and update the ‘blog’ link to point to /blog/.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;ul class=&amp;quot;main-navigation&amp;quot;&amp;gt;
+  &amp;lt;li&amp;gt;&amp;lt;a href=&amp;quot;{{ root_url }}/home&amp;quot;&amp;gt;Home&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+  &amp;lt;li&amp;gt;&amp;lt;a href=&amp;quot;{{ root_url }}/cv&amp;quot;&amp;gt;CV&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+  &amp;lt;li&amp;gt;&amp;lt;a href=&amp;quot;{{ root_url }}/blog&amp;quot;&amp;gt;Blog&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+  &amp;lt;li&amp;gt;&amp;lt;a href=&amp;quot;{{ root_url }}/blog/archives&amp;quot;&amp;gt;Archives&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+&amp;lt;/ul&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Finally, source/index.html can become the landing page of your &amp;ldquo;wildest dreams&amp;rdquo;. My dream is fairly small: to let the index page of the source be directed to the index page of the Home page (I have make a home page before). The bad news is I have no prior knowledge of html language, if you know how to do it, tell me please. The good news is I can copy and paste the index page of the Home directly (&amp;ldquo;octopress/public/home/index.html&amp;rdquo;).&lt;/p&gt;
+
+&lt;h4 id=&#34;references&#34;&gt;References&lt;/h4&gt;
+
+&lt;p&gt;Landing Page vs. Blog Index. &lt;a href=&#34;http://octopress.org/docs/theme/template/&#34; target=&#34;_blank&#34;&gt;http://octopress.org/docs/theme/template/&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

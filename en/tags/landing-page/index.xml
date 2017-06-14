@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Landing Page on </title>
+    <link>https://chengjun.github.io/en/tags/landing-page/index.xml</link>
+    <description>Recent content in Landing Page on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2016 Cheng-Jun Wang</copyright>
+    <atom:link href="/en/tags/landing-page/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Using the front-page of Octopress instead of the blog page</title>
+      <link>https://chengjun.github.io/en/post/en/2013-08-06-using-the-front-page-of-octopress-instead-of-the-blog-page/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://chengjun.github.io/en/post/en/2013-08-06-using-the-front-page-of-octopress-instead-of-the-blog-page/</guid>
+      <description>
+
+&lt;h2 id=&#34;using-a-landing-page-rather-than-the-blog-page&#34;&gt;Using a Landing Page rather than the Blog Page&lt;/h2&gt;
+
+&lt;p&gt;It&amp;rsquo;s annoying to find that users are directed to your blog page directly. In my point of view, octopress is not just a personal blog. It is your website, your home online, where you can present yourself easily, rather than limiting yourself to the blog posts.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://farm8.staticflickr.com/7387/9450821960_84d5be16c9.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I have made a &amp;ldquo;Home&amp;rdquo; page before. However, the home page is not directed as the landing page.&lt;/p&gt;
+
+&lt;p&gt;To have a look at the navigation method used in my navigation.html:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;ul class=&amp;quot;main-navigation&amp;quot;&amp;gt;
+  &amp;lt;li&amp;gt;&amp;lt;a href=&amp;quot;{{ root_url }}/home&amp;quot;&amp;gt;Home&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+  &amp;lt;li&amp;gt;&amp;lt;a href=&amp;quot;{{ root_url }}/cv&amp;quot;&amp;gt;CV&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+  &amp;lt;li&amp;gt;&amp;lt;a href=&amp;quot;{{ root_url }}/&amp;quot;&amp;gt;Blog&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+  &amp;lt;li&amp;gt;&amp;lt;a href=&amp;quot;{{ root_url }}/blog/archives&amp;quot;&amp;gt;Archives&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+&amp;lt;/ul&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;You will find that the root_url is directed to the blog page！ How to change it? Bear in mind that octopress orgainze the pages by index page. There is a index page for any pages, e.g, an index page for the blog page, an index page for the archives page, an index page for the home page. Thus, we can think in another way, why not make a index page for the root_url? This can solve the problem.&lt;/p&gt;
+
+&lt;p&gt;First, Of course, we should move the index page to the blog directory first.By default Octopress generates your blog’s post index at your site’s root directory. If you’d rather publish your blog index somewhere else like blog/index.html do this in your terminal.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;mv source/index.html source/blog/index.html
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Second,we can make an index page for the root_url of the source.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;rake new_page[index.html]
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Third, you’ll want to update your Rakefile to be sure your new blog index is preserved when you update Octopress. This tells the octopress that your index page for the blog is moved to the directory of &amp;ldquo;source/blog&amp;rdquo;.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;blog_index_dir = &#39;source/blog&#39;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Fourth, remember to update the main navigation for your site(octopress/source/_includes/custom/navigation.html), since currently the blog link points to /. Skip down to the section on changing navigation, add a ‘home’ link and update the ‘blog’ link to point to /blog/.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;ul class=&amp;quot;main-navigation&amp;quot;&amp;gt;
+  &amp;lt;li&amp;gt;&amp;lt;a href=&amp;quot;{{ root_url }}/home&amp;quot;&amp;gt;Home&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+  &amp;lt;li&amp;gt;&amp;lt;a href=&amp;quot;{{ root_url }}/cv&amp;quot;&amp;gt;CV&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+  &amp;lt;li&amp;gt;&amp;lt;a href=&amp;quot;{{ root_url }}/blog&amp;quot;&amp;gt;Blog&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+  &amp;lt;li&amp;gt;&amp;lt;a href=&amp;quot;{{ root_url }}/blog/archives&amp;quot;&amp;gt;Archives&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+&amp;lt;/ul&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Finally, source/index.html can become the landing page of your &amp;ldquo;wildest dreams&amp;rdquo;. My dream is fairly small: to let the index page of the source be directed to the index page of the Home page (I have make a home page before). The bad news is I have no prior knowledge of html language, if you know how to do it, tell me please. The good news is I can copy and paste the index page of the Home directly (&amp;ldquo;octopress/public/home/index.html&amp;rdquo;).&lt;/p&gt;
+
+&lt;h4 id=&#34;references&#34;&gt;References&lt;/h4&gt;
+
+&lt;p&gt;Landing Page vs. Blog Index. &lt;a href=&#34;http://octopress.org/docs/theme/template/&#34; target=&#34;_blank&#34;&gt;http://octopress.org/docs/theme/template/&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
