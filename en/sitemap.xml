@@ -711,8 +711,7 @@
     
     
     <url>
-      <loc>https://chengjun.github.io/en/tags/attention-networks/</loc>
-      <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+      <loc>https://chengjun.github.io/en/tags/api/</loc>
       <priority>0</priority>
     </url>
     
@@ -752,6 +751,15 @@
     
     
     <url>
+      <loc>https://chengjun.github.io/en/tags/computational-communication/</loc>
+      <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
       <loc>https://chengjun.github.io/en/categories/data/</loc>
       <priority>0</priority>
     </url>
@@ -761,6 +769,14 @@
     
     <url>
       <loc>https://chengjun.github.io/en/tags/diffusion/</loc>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+      <loc>https://chengjun.github.io/en/tags/distribution/</loc>
       <priority>0</priority>
     </url>
     
@@ -784,14 +800,6 @@
     
     <url>
       <loc>https://chengjun.github.io/en/post/en/2013-08-12-generating-networks-with-igraph/</loc>
-    </url>
-    
-  
-    
-    
-    <url>
-      <loc>https://chengjun.github.io/en/tags/googlevis/</loc>
-      <priority>0</priority>
     </url>
     
   
@@ -825,6 +833,22 @@
     
     
     <url>
+      <loc>https://chengjun.github.io/en/tags/information-diffusion/</loc>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+      <loc>https://chengjun.github.io/en/tags/javascript/</loc>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
       <loc>https://chengjun.github.io/en/tags/jekyll/</loc>
       <lastmod>2014-03-10T00:00:00+00:00</lastmod>
       <priority>0</priority>
@@ -841,14 +865,7 @@
     
     
     <url>
-      <loc>https://chengjun.github.io/en/post/en/2014-04-06-vison-statement/</loc>
-    </url>
-    
-  
-    
-    
-    <url>
-      <loc>https://chengjun.github.io/en/categories/network/</loc>
+      <loc>https://chengjun.github.io/en/tags/machine-learning/</loc>
       <priority>0</priority>
     </url>
     
@@ -856,7 +873,31 @@
     
     
     <url>
-      <loc>https://chengjun.github.io/en/tags/news-media/</loc>
+      <loc>https://chengjun.github.io/en/tags/markdown/</loc>
+      <lastmod>2010-01-10T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+      <loc>https://chengjun.github.io/en/post/en/2014-04-06-vison-statement/</loc>
+    </url>
+    
+  
+    
+    
+    <url>
+      <loc>https://chengjun.github.io/en/tags/navigation/</loc>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+      <loc>https://chengjun.github.io/en/categories/network/</loc>
       <priority>0</priority>
     </url>
     
@@ -880,15 +921,15 @@
     
     
     <url>
-      <loc>https://chengjun.github.io/en/post/en/2013-08-16-plot-regression-coefficient-with-r/</loc>
+      <loc>https://chengjun.github.io/en/tags/package/</loc>
+      <priority>0</priority>
     </url>
     
   
     
     
     <url>
-      <loc>https://chengjun.github.io/en/tags/power-law/</loc>
-      <priority>0</priority>
+      <loc>https://chengjun.github.io/en/post/en/2013-08-16-plot-regression-coefficient-with-r/</loc>
     </url>
     
   
@@ -929,6 +970,15 @@
     
     
     <url>
+      <loc>https://chengjun.github.io/en/tags/r/</loc>
+      <lastmod>2017-02-13T14:16:05+08:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
       <loc>https://chengjun.github.io/en/categories/r/</loc>
       <priority>0</priority>
     </url>
@@ -938,6 +988,14 @@
     
     <url>
       <loc>https://chengjun.github.io/en/categories/r-pandoc-markdown-reveal/index.js/</loc>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+      <loc>https://chengjun.github.io/en/tags/recoding/</loc>
       <priority>0</priority>
     </url>
     
@@ -1009,14 +1067,6 @@
     
     
     <url>
-      <loc>https://chengjun.github.io/en/tags/subscribe/</loc>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
       <loc>https://chengjun.github.io/en/post/en/2014-09-03-subscribe-by-email/</loc>
     </url>
     
@@ -1048,6 +1098,14 @@
     
     <url>
       <loc>https://chengjun.github.io/en/post/en/2014-03-14-weibo-landscape/</loc>
+    </url>
+    
+  
+    
+    
+    <url>
+      <loc>https://chengjun.github.io/en/tags/tweets/</loc>
+      <priority>0</priority>
     </url>
     
   
@@ -1148,15 +1206,6 @@
     
     
     <url>
-      <loc>https://chengjun.github.io/en/tags/%E5%AE%B6%E4%B9%A1/</loc>
-      <lastmod>2014-05-08T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
       <loc>https://chengjun.github.io/en/categories/%E5%B7%A5%E4%BD%9C/</loc>
       <lastmod>2010-03-30T00:00:00+00:00</lastmod>
       <priority>0</priority>
@@ -1166,8 +1215,8 @@
     
     
     <url>
-      <loc>https://chengjun.github.io/en/tags/%E6%89%80%E5%BE%97%E7%A8%8E/</loc>
-      <lastmod>2015-12-31T00:00:00+00:00</lastmod>
+      <loc>https://chengjun.github.io/en/tags/%E6%88%B7%E5%8F%A3/</loc>
+      <lastmod>2017-03-15T12:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -1177,15 +1226,6 @@
     <url>
       <loc>https://chengjun.github.io/en/tags/%E6%96%87%E6%A1%A3/</loc>
       <lastmod>2010-03-30T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-      <loc>https://chengjun.github.io/en/tags/%E7%94%9F%E6%B4%BB/</loc>
-      <lastmod>2015-11-18T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -1211,8 +1251,8 @@
     
     
     <url>
-      <loc>https://chengjun.github.io/en/tags/%E7%A7%9F%E6%88%BF/</loc>
-      <lastmod>2014-09-14T00:00:00+00:00</lastmod>
+      <loc>https://chengjun.github.io/en/tags/%E8%89%AF%E5%B8%88%E7%9B%8A%E5%8F%8B/</loc>
+      <lastmod>2014-06-09T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -1229,8 +1269,8 @@
     
     
     <url>
-      <loc>https://chengjun.github.io/en/tags/%E8%AE%B0%E5%BD%95/</loc>
-      <lastmod>2016-12-31T00:00:00+00:00</lastmod>
+      <loc>https://chengjun.github.io/en/tags/%E8%AF%AD%E5%BD%95/</loc>
+      <lastmod>2014-08-29T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -1238,8 +1278,8 @@
     
     
     <url>
-      <loc>https://chengjun.github.io/en/tags/%E8%AF%AD%E5%BD%95/</loc>
-      <lastmod>2014-08-29T00:00:00+00:00</lastmod>
+      <loc>https://chengjun.github.io/en/tags/%E9%9B%86%E6%99%BA%E4%BF%B1%E4%B9%90%E9%83%A8/</loc>
+      <lastmod>2016-10-13T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
