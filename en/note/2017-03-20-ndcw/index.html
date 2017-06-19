@@ -233,6 +233,7 @@
 <ul>
 <li>
 <ul>
+<li><a href="#校外接入功能的设置和使用">校外接入功能的设置和使用</a></li>
 <li><a href="#财务处网站">财务处网站</a></li>
 <li><a href="#公务卡">公务卡</a></li>
 </ul></li>
@@ -243,6 +244,33 @@
     
     <div class="article-style" itemprop="articleBody">
       
+
+<h2 id="校外接入功能的设置和使用">校外接入功能的设置和使用</h2>
+
+<p><a href="https://nic.nju.edu.cn/e1/29/c8913a188713/page.htm" target="_blank">https://nic.nju.edu.cn/e1/29/c8913a188713/page.htm</a></p>
+
+<p>1）上宽带；
+2）首次使用时，须先在电脑上建立“南大BRAS校外拨入”的VPN连接。根据您的操作系统，查看校外拨入连接的设置办法：WIN10系统 WIN8系统  WIN7系统 WIN XP系统      Macintosh 系统
+  - 另：WINXP等旧系统可下载 BRAS客户端.rar ，解压后安装，并重启机器。注意：连接时，必须勾选 □off-campus 选项</p>
+
+<p>3）需在校外访问校内图书馆资源时，点击“南大BRAS校外拨入”进行连接。<br />
+4）无需访问校内图书馆资源时，请断开BRAS连接。</p>
+
+<p>注：本操作方法在苹果leopard10.5.5和10.5.6中测试通过。
+如有疑问或无法成功设置，请联系网络信息中心 89683791 。</p>
+
+<p>当使用BRAS校外拨入功能时，您需要在Macintosh系统上如下操作：</p>
+
+<p>1、在菜单中点击System Preferences，打开Network选项,点击左下角“”＋”号，新建一个“VPN”连接；</p>
+
+<p>2、选择连接类型为“l2tp over ipsec”，写入该连接的名称（任意); 在“server address ”填入地址：218.94.142.114; 在“account name”中填入您的bras账号；</p>
+
+<p>3、打开“advanced”选项：并勾选上“send all traffic over vpn connection”；</p>
+
+<p>4、在/etc/ppp文件夹（可能需要提供系统安装时的密码）下建一个文件，文件名为：options  ( 注意，该文件名没有后缀！)，文件内容见options内容（两行文字）；
+方法之一：打开MAC系统的“终端（Terminal）”，然后用命令行方式操作（如： cd /etc/ppp 目录，nano 或 vi 一个文件options，将两行文字写入该文件）。编辑文件前，可能需要先取得root权限。</p>
+
+<p>5、在系统网络连接中选择前面建立的连接，点击“connect”，在弹出对话框中输入您的上网账号密码即可上网。</p>
 
 <h2 id="财务处网站">财务处网站</h2>
 
