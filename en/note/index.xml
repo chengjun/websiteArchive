@@ -11,22 +11,26 @@
     <atom:link href="/en/note/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Analyzing Mobile Phone Data With Network Science</title>
-      <link>https://chengjun.github.io/en/note/2016-10-18-ica2017talk/</link>
-      <pubDate>Sun, 14 May 2017 00:00:00 +0000</pubDate>
+      <title>紫金楼</title>
+      <link>https://chengjun.github.io/en/note/2017-06-14-school-building/</link>
+      <pubDate>Wed, 14 Jun 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://chengjun.github.io/en/note/2016-10-18-ica2017talk/</guid>
-      <description>
+      <guid>https://chengjun.github.io/en/note/2017-06-14-school-building/</guid>
+      <description>&lt;p&gt;紫金楼终于来了，现在正在封顶。&lt;/p&gt;
 
-&lt;h3 id=&#34;abstract-150-200-word&#34;&gt;Abstract (150-200 word)&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;http://oaf2qt3yk.bkt.clouddn.com/a7bebcfc69fce0b45bb6c304e76ef6f0.png&#34; alt=&#34;紫金楼&#34; /&gt;&lt;/p&gt;
 
-&lt;p&gt;With the widespread use of mobile computing devices in contemporary society, our trajectories in the physical space and virtual world are increasingly closely connected. Using the anonymous smartphone data, we can construct the communication network, mobility network, and attention network, and further analyze the data in the perspective of network science.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;根据中共江苏省委宣传部与南京大学签订的共建新闻传播学院协议，经教育部可研评估批复，南京大学新闻传播学院楼已完成开工前手续办理，于近日正式开工建设。&lt;/p&gt;
 
-&lt;h3 id=&#34;short-bio&#34;&gt;short-bio&lt;/h3&gt;
+&lt;p&gt;2016年4月25日下午，江苏省委宣传部和南京大学新闻传播学院共建的紫金楼奠基仪式在仙林校区举行，省委宣传部部长王燕文、南京大学党委书记张异宾等领导和新闻传播学院师生代表共同见证紫金楼奠基。&lt;/p&gt;
 
-&lt;p&gt;Cheng-Jun Wang, Ph.D. He is currently an assistant research fellow in the School of Journalism and Communication, Nanjing University. He is also the director of Ogilvy Data Science Lab, Computational Communication Collaboratory. His research on computational communication appears in both SSCI and SCI indexed journals, such as Scientific Reports, PloS ONE, Physica A, Cyberpsychology, and Journal of Social and Personal Relationships.&lt;/p&gt;
+&lt;p&gt;据了解，新闻传播学院楼坐落于仙林校区文科组团北部，总建筑面积&lt;strong&gt;10137.8&lt;/strong&gt;平方米，建筑高度17.3米，为地上&lt;strong&gt;四层&lt;/strong&gt;的框架结构。项目总投资6400万元，由江苏广播电视集团负责建设，预计于&lt;strong&gt;2018年3月底&lt;/strong&gt;竣工验收投入使用。&lt;/p&gt;
+&lt;/blockquote&gt;
 
-&lt;h3 id=&#34;20-25-minutes&#34;&gt;20-25 minutes&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;http://oaf2qt3yk.bkt.clouddn.com/fd096961204e0a0039e7e902db0f89ec.png&#34; alt=&#34;示意图&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://oaf2qt3yk.bkt.clouddn.com/e370fd20ef0c33d7bf17948903164b29.png&#34; alt=&#34;示意图&#34; /&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -1209,6 +1213,12 @@ cd ..
 &lt;/ul&gt;
 
 &lt;p&gt;&lt;img src=&#34;http://oaf2qt3yk.bkt.clouddn.com/d832f904c15079ed7f38816a5407c1b6.png&#34; alt=&#34;atom-html-preview&#34; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;script&#34;&gt;script&lt;/h1&gt;
+
+&lt;p&gt;安装了script插件，可以运行包括shell等多种语言。我使用它来运行deploy.sh脚本，实现半自动上传功能。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://oaf2qt3yk.bkt.clouddn.com/2df996e188f3365d7c8cdf08c930486e.png&#34; alt=&#34;script&#34; /&gt;&lt;/p&gt;
 
 &lt;h1 id=&#34;参考文献-1&#34;&gt;参考文献&lt;/h1&gt;
 &lt;div class=&#34;footnotes&#34;&gt;
