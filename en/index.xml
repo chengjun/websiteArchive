@@ -259,6 +259,16 @@ from the RISE repository.&lt;/li&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://nic.nju.edu.cn/e1/29/c8913a188713/page.htm&#34; target=&#34;_blank&#34;&gt;https://nic.nju.edu.cn/e1/29/c8913a188713/page.htm&lt;/a&gt;&lt;/p&gt;
 
+&lt;p&gt;电话咨询了网络中心技术人员，对方不熟悉mac电脑！！！说可能是其他vpn修改了注册表。建议我重新安装，我重新安装了之后，依然没有什么作用。要考虑在windows下来完成这个过程了。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://oaf2qt3yk.bkt.clouddn.com/bf89148b1a6e799991676c29f2d37a96.png&#34; alt=&#34;virtualbox&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;通过virtualbox可以方便地实现bras连接，如上图打开了财务处网站。设置了一个共享文件夹。&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;In a Windows guest, shared folders are browseable and therefore visible in Windows Ex- plorer. So, to attach the host’s shared folder to your Windows guest, open Windows Ex- plorer and look for it under “My Networking Places” -&amp;gt; “Entire Network” -&amp;gt; “VirtualBox Shared Folders”.&lt;/p&gt;
+&lt;/blockquote&gt;
+
 &lt;p&gt;1）上宽带；
 2）首次使用时，须先在电脑上建立“南大BRAS校外拨入”的VPN连接。根据您的操作系统，查看校外拨入连接的设置办法：WIN10系统 WIN8系统  WIN7系统 WIN XP系统      Macintosh 系统
   - 另：WINXP等旧系统可下载 BRAS客户端.rar ，解压后安装，并重启机器。注意：连接时，必须勾选 □off-campus 选项&lt;/p&gt;
