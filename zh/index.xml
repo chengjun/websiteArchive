@@ -119,6 +119,47 @@
     </item>
     
     <item>
+      <title>社会行为研究在线实验平台</title>
+      <link>https://chengjun.github.io/zh/post/cn/2017-6-24-turk/</link>
+      <pubDate>Sat, 24 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://chengjun.github.io/zh/post/cn/2017-6-24-turk/</guid>
+      <description>
+
+&lt;h1 id=&#34;实验法&#34;&gt;实验法&lt;/h1&gt;
+
+&lt;p&gt;实验研究方法是由伽利略所发明的一种研究方法，成为了自然科学和社会科学研究最为重要的工具。自然科学取得了辉煌的研究成果，以物理学为例，主要的实证研究成果都来自于实验研究方法。社会科学的发展仅仅经历了不到三百年，最初主要模仿物理学的发展路径，例如，孔德最初将社会学命名为社会物理学，他认为人类社会是自然界的一个部分，人为的社会秩序通常可以看作自然秩序的延伸。然而，社会科学研究的研究对象&amp;ndash;人类具有意识、通过社会互动相互关联，构成了一种复杂系统，其复杂度远远超过自然科学，被邓肯-瓦茨称之为“二十一世纪的科学”。社会科学的实验往往局限于实验室内部，只能针对有限的人群（多为高校学生）开展实验研究，其外部效度有限，难以帮助研究者理解真实的社会和人类行为。&lt;/p&gt;
+
+&lt;h1 id=&#34;问题&#34;&gt;问题&lt;/h1&gt;
+
+&lt;p&gt;伴随着数据科学、网络科学的发展，采用计算方法为主的计算社会科学蓬勃发展。计算社会科学采用互联网大数据、网络科学等计算方法研究重要的社会科学问题。然而，既有的数据虽然规模巨大，但往往在很多维度上缺失，不能很好的回答因果关系、缺少控制，依然存在局限。如何针对大量的个体及其互动进行实验研究构成了互联网公司的产品经理、高校研究者共同的问题。&lt;/p&gt;
+
+&lt;p&gt;问题：如何针对大量的个体及其互动进行实验研究？&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://oaf2qt3yk.bkt.clouddn.com/da38e18664ffdc32018e1a96f84a1099.png&#34; alt=&#34;mechanic turk&#34; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;思路&#34;&gt;思路&lt;/h1&gt;
+
+&lt;p&gt;基于众包的人类计算为解决这一问题提出了崭新的思路。通过互联网平台招募实验参与者，通过智能的程序匹配实验者、实验对象，允许实验对象在虚拟的网络环境内进行互动共同完成一个实验任务，允许实验者进行灵活的实验控制，可以较低的价格吸引更多的实验设计者和参与者。采用这一思路最成功的案例来自于亚马逊的&lt;a href=&#34;https://www.mturk.com/mturk/welcome&#34; target=&#34;_blank&#34;&gt;Mechanic Turk&lt;/a&gt;（机械驱动的土耳其人）平台。机械驱动的土耳其人（Mechanical Turk）原指18世纪一个打扮成土耳其人的机器人，曾巡回欧洲各国打败不少西洋棋高手，甚至跟名人如拿破仑或富兰克林都下过棋，后来被揭露为其实是里头藏着人的骗局。亚马逊借用这个典故，隐喻所提供的服务是一种外表提供机械性功能可是背后却是有人类智能支持。互联网产品经理和高校研究者可以基于Mechanical Turk平台搭建虚拟实验室开展大规模的人类行为实验。&lt;/p&gt;
+
+&lt;p&gt;微软研究员科学家邓肯-瓦茨及其合作者一直致力于发展线上虚拟实验室（virtual lab），例如他们之前曾搭建&lt;a href=&#34;http://www.princeton.edu/~mjs3/musiclab.shtml&#34; target=&#34;_blank&#34;&gt;music lab&lt;/a&gt;网站研究音乐的流行度。最近，他们借助于Mechanical Turk平台搭建了&lt;a href=&#34;http://turkserver.readthedocs.io/en/latest/examples/tutorial.html&#34; target=&#34;_blank&#34;&gt;turkserver&lt;/a&gt;，研究发表了两篇论文 &lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:turkserver&#34;&gt;&lt;a rel=&#34;footnote&#34; href=&#34;#fn:turkserver&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;，分别研究了&lt;a href=&#34;https://www.nature.com/articles/ncomms13800&#34; target=&#34;_blank&#34;&gt;囚徒困境&lt;/a&gt; 和灾难救助过程中的&lt;a href=&#34;http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0153048&#34; target=&#34;_blank&#34;&gt;团队合作及其绩效&lt;/a&gt; 。&lt;/p&gt;
+
+&lt;p&gt;Mechanic Turk与turkserver相互配合的思路为实现大量的个体及其互动进行实验研究铺平了道路。但是目前在中国的互联网产业中，还缺乏提供类似Mechanic Turk的服务，而turkserver目前也缺少进一步的开发，这是提出本研究项目的主要目标，即搭建一个简单的turkserver的扩展版，搭建一个社会行为研究在线实验平台。&lt;/p&gt;
+
+&lt;h1 id=&#34;参考文献&#34;&gt;参考文献&lt;/h1&gt;
+&lt;div class=&#34;footnotes&#34;&gt;
+
+&lt;hr /&gt;
+
+&lt;ol&gt;
+&lt;li id=&#34;fn:turkserver&#34;&gt;turkserver &lt;a href=&#34;http://turkserver.readthedocs.io/en/latest/examples/tutorial.html&#34; target=&#34;_blank&#34;&gt;http://turkserver.readthedocs.io/en/latest/examples/tutorial.html&lt;/a&gt;, 基于amazon的mechanic turk建设virtual lab
+ &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:turkserver&#34;&gt;&lt;sup&gt;^&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
       <title>手机用户在真实与虚拟空间中的移动</title>
       <link>https://chengjun.github.io/zh/post/cn/2015-12-02-renormalization/</link>
       <pubDate>Wed, 02 Dec 2015 00:00:00 +0000</pubDate>
@@ -1191,200 +1232,6 @@ summary(kernels)
 
 &lt;p&gt;Diggle, P.J. (2003) Statistical analysis of spatial point patterns, Second edition. Arnold.&lt;/p&gt;
 &lt;/blockquote&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>使用R模拟网络扩散</title>
-      <link>https://chengjun.github.io/zh/post/cn/2014-02-28-simulate-network-diffusion-with-r/</link>
-      <pubDate>Fri, 28 Feb 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://chengjun.github.io/zh/post/cn/2014-02-28-simulate-network-diffusion-with-r/</guid>
-      <description>&lt;p&gt;与普通的扩散研究不同，网络扩散开始考虑网络结构对于扩散过程的影响。&lt;/p&gt;
-
-&lt;p&gt;这里介绍一个使用R模拟网络扩散的例子。基本的算法非常简单：&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;生成一个网络:g(V, E)。&lt;/li&gt;
-&lt;li&gt;随机选择一个或几个节点作为种子（seeds）。&lt;/li&gt;
-&lt;li&gt;每个感染者以概率p（可视作该节点的传染能力,通常表示为$$\beta$$）影响与其相连的节点。&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;其实这是一个最简单的SI模型在网络中的实现。S表示可感染（susceptible）, I表示被感染（infected）。SI模型描述了个体的状态从S到I之间的转变。因为形式简单，SI模型是可以求出其解析解的。考虑一个封闭的群体，没有出生、死亡和迁移。并假设个体是均匀混合的（homogeneous mixing),也就是要求个体的地理分布均匀，且被感染的概率也相同(T. G. Lewis, 2011)。那么β表示传染率（transmission rate)。SI模型可以表达为：&lt;/p&gt;
-
-&lt;p&gt;$$\frac{dS}{dt}=-\beta SI$$&lt;/p&gt;
-
-&lt;p&gt;$$\frac{dI}{dt}=\beta SI$$&lt;/p&gt;
-
-&lt;p&gt;且满足 I + S = 1，那么以上方程$$\frac{dI}{dt}=\beta SI$$可以表达为：&lt;/p&gt;
-
-&lt;p&gt;$$\frac{dI}{dt}=\beta I(1-I)$$&lt;/p&gt;
-
-&lt;p&gt;解这个微分方程，我们可以得到累计增长曲线的表达式。有趣的是，这是一个logistic增长，具有明显的S型曲线（S-shaped curve）特征。该模型在初期跨越临界点之后增长较快，后期则变得缓慢。 因而可以用来描述和拟合创新扩散过程（diffusion of innovations）。&lt;/p&gt;
-
-&lt;p&gt;当然，对疾病传播而言，SI模型是非常初级的（naive），主要因为受感染的个体以一定的概率恢复健康，或者继续进入可以被感染状态(S，据此扩展为SIS模型)或者转为免疫状态（R,据此扩展为SIR模型）。 免疫表示为R，用$$\gamma$$代表免疫概率（removal or recovery rate)。对于信息扩散而言，这种考虑暂时是不需要的。&lt;/p&gt;
-
-&lt;p&gt;第一步，生成网络。&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;require(igraph)
-# generate a social graph
-size = 50
-
-# 规则网
-g = graph.tree(size, children = 2); plot(g)
-g = graph.star(size); plot(g)
-g = graph.full(size); plot(g)
-g = graph.ring(size); plot(g)
-g = connect.neighborhood(graph.ring(size), 2); plot(g) # 最近邻耦合网络
-
-# 随机网络
-g = erdos.renyi.game(size, 0.1)
-
-# 小世界网络
-g = rewire.edges(erdos.renyi.game(size, 0.1), prob = 0.8 )
-# 无标度网络
-g = barabasi.game(size) ; plot(g)
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;第二步，随机选取一个或n个种子。&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;#  initiate the diffusers
-seeds_num = 1
-set.seed(2014); diffusers = sample(V(g),seeds_num) ; diffusers
-infected =list()
-infected[[1]]= diffusers
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;第三步，在这个简单的例子中，每个节点的传染能力是0.5，即与其相连的节点以0.5的概率被其感染。在R中的实现是通过抛硬币的方式来实现的。&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;# for example, set percolation probability = 0.5
-coins = c(0,1)
-n = length(coins)
-sample(coins, 1, replace=TRUE, prob=rep(1/n, n))
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;显然，这很容易扩展到更一般的情况，比如节点的平均感染能力是0.128，那么可以这么写：&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;p = 0.128
-coins = c(rep(1, p*1000), rep(0,(1-p)*1000))
-n = length(coins)
-sample(coins, 1, replace=TRUE, prob=rep(1/n, n))
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;当然最重要的一步是要能按照“时间”更新网络节点被感染的信息。&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;# function for updating the diffusers
-update_diffusers = function(diffusers){
-  nearest_neighbors = neighborhood(g, 1, diffusers)
-  nearest_neighbors = data.frame(table(unlist(nearest_neighbors)))
-  nearest_neighbors = subset(nearest_neighbors, !(nearest_neighbors[,1]%in%diffusers))
-  # toss the coins
-  toss = function(freq) {
-    tossing = NULL
-    for (i in 1:freq ) tossing[i] = sample(coins, 1, replace=TRUE, prob=rep(1/n, times=n))
-    tossing = sum(tossing)
-    return (tossing)
-  }
-  keep = unlist(lapply(nearest_neighbors[,2], toss))
-  new_infected = as.numeric(as.character(nearest_neighbors[,1][keep &amp;gt;= 1]))
-  diffusers = unique(c(diffusers, new_infected))
-  return(diffusers)
-  }
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;完成了以上三步。准备好了吗，现在开始开启扩散过程！&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;## Start the contagion!
-i = 1
-while(length(infected[[i]]) &amp;lt; size){
-  infected[[i+1]] = sort(update_diffusers(infected[[i]]))
-  cat(length(infected[[i+1]]), &amp;quot;\n&amp;quot;)
-  i = i + 1
-}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;先看看S曲线吧：&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;# &amp;quot;growth_curve&amp;quot;
-num_cum = unlist(lapply(1:i, function(x) length(infected［x］) ))
-p_cum = num_cum/max(num_cum)
-time = 1:i
-
-png(file = &amp;quot;./temporal_growth_curve.png&amp;quot;,
-    width=5, height=5,
-    units=&amp;quot;in&amp;quot;, res=300)
-plot(p_cum~time, type = &amp;quot;b&amp;quot;)
-dev.off()
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://farm8.staticflickr.com/7299/12845959103_e19cd9cd99_n.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;为了可视化这个扩散的过程，我们用红色来标记被感染者。&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;# generate a palette
-E(g)$color = &amp;quot;blueviolet&amp;quot;
-V(g)$color = &amp;quot;white&amp;quot;
-set.seed(2014); layout.old = layout.fruchterman.reingold(g)
-V(g)$color[V(g)%in%diffusers] = &amp;quot;red&amp;quot;
-plot(g, layout =layout.old)
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;使用谢益辉开发的animation的R包可视化。&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;library(animation)
-
-saveGIF({
-  ani.options(interval = 0.5, convert = shQuote(&amp;quot;C:/Program Files/ImageMagick-6.8.8-Q16/convert.exe&amp;quot;))
-  # start the plot
-  m = 1
-  while(m &amp;lt;= length(infected)){
-    V(g)$color = &amp;quot;white&amp;quot;
-    V(g)$color[V(g)%in%infected[[m]]] = &amp;quot;red&amp;quot;
-    plot(g, layout =layout.old)
-    m = m + 1}
-})
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://farm4.staticflickr.com/3806/12826172695_368a6f50a2_o.gif&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://farm3.staticflickr.com/2848/12826237753_d8c97b1019_o.gif&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://farm4.staticflickr.com/3729/12826584654_c84452f397_o.gif&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://farm3.staticflickr.com/2851/12826173505_34649f488d_o.gif&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://farm8.staticflickr.com/7391/12826173255_574e471023_o.gif&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://farm4.staticflickr.com/3675/12826584484_7c6f35380c_o.gif&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://farm8.staticflickr.com/7432/12826173045_ef3548ec04_o.gif&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;如同在Netlogo里一样，我们可以把网络扩散与增长曲线同时展示出来：&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;saveGIF({
-  ani.options(interval = 0.5, convert = shQuote(&amp;quot;C:/Program Files/ImageMagick-6.8.8-Q16/convert.exe&amp;quot;))
-  # start the plot
-  m = 1
-  while(m &amp;lt;= length(infected)){
-    # start the plot
-    layout(matrix(c(1, 2, 1, 3), 2,2, byrow = TRUE), widths=c(3,1), heights=c(1, 1))
-    V(g)$color = &amp;quot;white&amp;quot;
-    V(g)$color[V(g)%in%infected[[m]]] = &amp;quot;red&amp;quot;
-    num_cum = unlist(lapply(1:m, function(x) length(infected[[x]]) ))
-    p_cum = num_cum/size
-    p = diff(c(0, p_cum))
-    time = 1:m
-    plot(g, layout =layout.old, edge.arrow.size=0.2)
-    title(paste(&amp;quot;Scale-free Network \n Day&amp;quot;, m))
-    plot(p_cum~time, type = &amp;quot;b&amp;quot;, ylab = &amp;quot;CDF&amp;quot;, xlab = &amp;quot;Time&amp;quot;,
-         xlim = c(0,i), ylim =c(0,1))
-    plot(p~time, type = &amp;quot;h&amp;quot;, ylab = &amp;quot;PDF&amp;quot;, xlab = &amp;quot;Time&amp;quot;,
-         xlim = c(0,i), ylim =c(0,1), frame.plot = FALSE)
-    m = m + 1}
-}, ani.width = 800, ani.height = 500)
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://farm4.staticflickr.com/3672/12848749413_7f9da8b8c7_o.gif&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 </description>
     </item>
     
