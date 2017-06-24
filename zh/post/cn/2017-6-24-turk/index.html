@@ -249,17 +249,22 @@
 
 <p>伴随着数据科学、网络科学的发展，采用计算方法为主的计算社会科学蓬勃发展。计算社会科学采用互联网大数据、网络科学等计算方法研究重要的社会科学问题。然而，既有的数据虽然规模巨大，但往往在很多维度上缺失，不能很好的回答因果关系、缺少控制，依然存在局限。如何针对大量的个体及其互动进行实验研究构成了互联网公司的产品经理、高校研究者共同的问题。</p>
 
-<p>问题：如何针对大量的个体及其互动进行实验研究？</p>
+<p><strong>问题</strong>：如何针对大量的个体及其互动进行实验研究？</p>
 
 <p><img src="http://oaf2qt3yk.bkt.clouddn.com/da38e18664ffdc32018e1a96f84a1099.png" alt="mechanic turk" /></p>
 
 <h1 id="思路">思路</h1>
 
-<p>基于众包的人类计算为解决这一问题提出了崭新的思路。通过互联网平台招募实验参与者，通过智能的程序匹配实验者、实验对象，允许实验对象在虚拟的网络环境内进行互动共同完成一个实验任务，允许实验者进行灵活的实验控制，可以较低的价格吸引更多的实验设计者和参与者。采用这一思路最成功的案例来自于亚马逊的<a href="https://www.mturk.com/mturk/welcome" target="_blank">Mechanic Turk</a>（机械驱动的土耳其人）平台。机械驱动的土耳其人（Mechanical Turk）原指18世纪一个打扮成土耳其人的机器人，曾巡回欧洲各国打败不少西洋棋高手，甚至跟名人如拿破仑或富兰克林都下过棋，后来被揭露为其实是里头藏着人的骗局。亚马逊借用这个典故，隐喻所提供的服务是一种外表提供机械性功能可是背后却是有人类智能支持。互联网产品经理和高校研究者可以基于Mechanical Turk平台搭建虚拟实验室开展大规模的人类行为实验。</p>
+<p>基于众包的人类计算搭建“行为实验室”为解决这一问题提出了崭新的思路。通过互联网平台招募实验参与者，通过智能的程序匹配实验者、实验对象，允许实验对象在虚拟的网络环境内进行互动共同完成一个实验任务，允许实验者进行灵活的实验控制，可以较低的价格吸引更多的实验设计者和参与者。采用这一思路最成功的案例来自于亚马逊的<a href="https://www.mturk.com/mturk/welcome" target="_blank">Mechanic Turk</a>（机械驱动的土耳其人）平台。机械驱动的土耳其人（Mechanical Turk）原指18世纪一个打扮成土耳其人的机器人，曾巡回欧洲各国打败不少西洋棋高手，甚至跟名人如拿破仑或富兰克林都下过棋，后来被揭露为其实是里头藏着人的骗局。亚马逊借用这个典故，隐喻所提供的服务是一种外表提供机械性功能可是背后却是有人类智能支持。互联网产品经理和高校研究者可以基于Mechanical Turk平台搭建虚拟实验室开展大规模的人类行为实验。</p>
 
-<p>微软研究员科学家邓肯-瓦茨及其合作者一直致力于发展线上虚拟实验室（virtual lab），例如他们之前曾搭建<a href="http://www.princeton.edu/~mjs3/musiclab.shtml" target="_blank">music lab</a>网站研究音乐的流行度。最近，他们借助于Mechanical Turk平台搭建了<a href="http://turkserver.readthedocs.io/en/latest/examples/tutorial.html" target="_blank">turkserver</a>，研究发表了两篇论文 <sup class="footnote-ref" id="fnref:turkserver"><a rel="footnote" href="#fn:turkserver">1</a></sup>，分别研究了<a href="https://www.nature.com/articles/ncomms13800" target="_blank">囚徒困境</a> 和灾难救助过程中的<a href="http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0153048" target="_blank">团队合作及其绩效</a> 。</p>
+<p><img src="http://oaf2qt3yk.bkt.clouddn.com/144732ecfc771f5c53b0722cf09476cc.png" alt="vitual labs" />
+来源：turkserver<sup class="footnote-ref" id="fnref:turkserver"><a rel="footnote" href="#fn:turkserver">1</a></sup></p>
 
-<p>Mechanic Turk与turkserver相互配合的思路为实现大量的个体及其互动进行实验研究铺平了道路。但是目前在中国的互联网产业中，还缺乏提供类似Mechanic Turk的服务，而turkserver目前也缺少进一步的开发，这是提出本研究项目的主要目标，即搭建一个简单的turkserver的扩展版，搭建一个社会行为研究在线实验平台。</p>
+<p>微软研究员科学家邓肯-瓦茨及其合作者一直致力于发展线上虚拟实验室（virtual lab），例如他们之前曾搭建<a href="http://www.princeton.edu/~mjs3/musiclab.shtml" target="_blank">music lab</a>网站研究音乐的流行度。最近，他们借助于Mechanical Turk平台搭建了<a href="http://turkserver.readthedocs.io/en/latest/examples/tutorial.html" target="_blank">turkserver</a>，研究发表了两篇论文 <sup class="footnote-ref" id="fnref:turkserver"><a rel="footnote" href="#fn:turkserver">2</a></sup>，分别研究了<a href="https://www.nature.com/articles/ncomms13800" target="_blank">囚徒困境</a> 和灾难救助过程中的<a href="http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0153048" target="_blank">团队合作及其绩效</a> 。</p>
+
+<p>Mechanic Turk与turkserver相互配合的思路为实现大量的个体及其互动进行实验研究铺平了道路。但是目前在中国的互联网产业中，还缺乏提供类似Mechanic Turk的服务，而turkserver目前也缺少进一步的开发，这是提出本研究项目的主要目标。</p>
+
+<p><strong>目标</strong>：搭建一个简单的turkserver的扩展版，搭建一个社会行为研究在线实验平台。</p>
 
 <h1 id="参考文献">参考文献</h1>
 <div class="footnotes">
@@ -267,6 +272,8 @@
 <hr />
 
 <ol>
+<li id="fn:turkserver">turkserver <a href="http://turkserver.readthedocs.io/en/latest/examples/tutorial.html" target="_blank">http://turkserver.readthedocs.io/en/latest/examples/tutorial.html</a>, 基于amazon的mechanic turk建设virtual lab
+ <a class="footnote-return" href="#fnref:turkserver"><sup>^</sup></a></li>
 <li id="fn:turkserver">turkserver <a href="http://turkserver.readthedocs.io/en/latest/examples/tutorial.html" target="_blank">http://turkserver.readthedocs.io/en/latest/examples/tutorial.html</a>, 基于amazon的mechanic turk建设virtual lab
  <a class="footnote-return" href="#fnref:turkserver"><sup>^</sup></a></li>
 </ol>
