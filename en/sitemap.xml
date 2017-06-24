@@ -728,14 +728,6 @@
     
     
     <url>
-      <loc>https://chengjun.github.io/en/tags/bass-model/</loc>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
       <loc>https://chengjun.github.io/en/categories/blog/</loc>
       <lastmod>2010-01-10T00:00:00+00:00</lastmod>
       <priority>0</priority>
@@ -1254,14 +1246,6 @@
     
     
     <url>
-      <loc>https://chengjun.github.io/en/tags/weibo/</loc>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
       <loc>https://chengjun.github.io/en/categories/writing/</loc>
       <priority>0</priority>
     </url>
@@ -1349,26 +1333,8 @@
     
     
     <url>
-      <loc>https://chengjun.github.io/en/tags/%E6%88%B7%E5%8F%A3/</loc>
-      <lastmod>2017-03-15T12:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
       <loc>https://chengjun.github.io/en/tags/%E6%89%80%E5%BE%97%E7%A8%8E/</loc>
       <lastmod>2015-12-31T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-      <loc>https://chengjun.github.io/en/tags/%E6%95%B0%E6%8D%AE%E6%96%B0%E9%97%BB/</loc>
-      <lastmod>2015-11-13T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -1459,6 +1425,15 @@
     <url>
       <loc>https://chengjun.github.io/en/tags/%E8%AE%B0%E5%BD%95/</loc>
       <lastmod>2016-12-31T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+      <loc>https://chengjun.github.io/en/tags/%E8%AF%AD%E5%BD%95/</loc>
+      <lastmod>2014-08-29T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     

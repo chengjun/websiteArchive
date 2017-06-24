@@ -31,10 +31,23 @@
 
 &lt;h1 id=&#34;思路&#34;&gt;思路&lt;/h1&gt;
 
-&lt;p&gt;基于众包的人类计算搭建“行为实验室”为解决这一问题提出了崭新的思路。通过互联网平台招募实验参与者，通过智能的程序匹配实验者、实验对象，允许实验对象在虚拟的网络环境内进行互动共同完成一个实验任务，允许实验者进行灵活的实验控制，可以较低的价格吸引更多的实验设计者和参与者。采用这一思路最成功的案例来自于亚马逊的&lt;a href=&#34;https://www.mturk.com/mturk/welcome&#34; target=&#34;_blank&#34;&gt;Mechanic Turk&lt;/a&gt;（机械驱动的土耳其人）平台。机械驱动的土耳其人（Mechanical Turk）原指18世纪一个打扮成土耳其人的机器人，曾巡回欧洲各国打败不少西洋棋高手，甚至跟名人如拿破仑或富兰克林都下过棋，后来被揭露为其实是里头藏着人的骗局。亚马逊借用这个典故，隐喻所提供的服务是一种外表提供机械性功能可是背后却是有人类智能支持。互联网产品经理和高校研究者可以基于Mechanical Turk平台搭建虚拟实验室开展大规模的人类行为实验。&lt;/p&gt;
+&lt;p&gt;基于众包的人类计算搭建“行为实验室”为解决这一问题提出了崭新的思路。通过互联网平台招募实验参与者，通过智能的程序匹配实验者、实验对象，允许实验对象在虚拟的网络环境内进行互动共同完成一个实验任务，允许实验者进行灵活的实验控制，可以较低的价格吸引更多的实验设计者和参与者。采用这一思路最成功的案例来自于亚马逊的&lt;a href=&#34;https://www.mturk.com/mturk/welcome&#34; target=&#34;_blank&#34;&gt;Mechanic Turk&lt;/a&gt;（机械驱动的土耳其人）平台。&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;机械驱动的土耳其人（Mechanical Turk）原指18世纪一个打扮成土耳其人的机器人，曾巡回欧洲各国打败不少西洋棋高手，甚至跟名人如拿破仑或富兰克林都下过棋，后来被揭露为其实是里头藏着人的骗局。亚马逊借用这个典故，隐喻所提供的服务是一种外表提供机械性功能可是背后却是有人类智能支持。&lt;/p&gt;
+&lt;/blockquote&gt;
 
 &lt;p&gt;&lt;img src=&#34;http://oaf2qt3yk.bkt.clouddn.com/144732ecfc771f5c53b0722cf09476cc.png&#34; alt=&#34;vitual labs&#34; /&gt;
 来源：turkserver&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:turkserver&#34;&gt;&lt;a rel=&#34;footnote&#34; href=&#34;#fn:turkserver&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;互联网产品经理和高校研究者可以基于Mechanical Turk平台搭建虚拟实验室开展大规模的人类行为实验。虚拟实验室以这个互联网作为实验室，与传统的实验室相比，具有很多优点：&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;可以获取大规模的数据和互动关系&lt;/li&gt;
+&lt;li&gt;持续时间可以较长、对于地理位置的约束更小&lt;/li&gt;
+&lt;li&gt;可以让实验参与者开展更为现实而非抽象的简单的任务&lt;/li&gt;
+&lt;li&gt;可以实现更为精准的记录。&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;p&gt;微软研究员科学家邓肯-瓦茨及其合作者一直致力于发展线上虚拟实验室（virtual lab），例如他们之前曾搭建&lt;a href=&#34;http://www.princeton.edu/~mjs3/musiclab.shtml&#34; target=&#34;_blank&#34;&gt;music lab&lt;/a&gt;网站研究音乐的流行度。最近，他们借助于Mechanical Turk平台搭建了&lt;a href=&#34;http://turkserver.readthedocs.io/en/latest/examples/tutorial.html&#34; target=&#34;_blank&#34;&gt;turkserver&lt;/a&gt;，研究发表了两篇论文，分别研究了&lt;a href=&#34;https://www.nature.com/articles/ncomms13800&#34; target=&#34;_blank&#34;&gt;囚徒困境&lt;/a&gt; 和灾难救助过程中的&lt;a href=&#34;http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0153048&#34; target=&#34;_blank&#34;&gt;团队合作及其绩效&lt;/a&gt; 。&lt;/p&gt;
 
