@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Json on </title>
-    <link>https://chengjun.github.io/zh/tags/json/index.xml</link>
+    <link>https://chengjunwang.com/zh/tags/json/index.xml</link>
     <description>Recent content in Json on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
@@ -11,10 +11,10 @@
     
     <item>
       <title>Parsing Githubarchive Data using Python</title>
-      <link>https://chengjun.github.io/zh/post/cn/2016-06-18-parsing-githubarchive-json/</link>
+      <link>https://chengjunwang.com/zh/post/cn/2016-06-18-parsing-githubarchive-json/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://chengjun.github.io/zh/post/cn/2016-06-18-parsing-githubarchive-json/</guid>
+      <guid>https://chengjunwang.com/zh/post/cn/2016-06-18-parsing-githubarchive-json/</guid>
       <description>&lt;p&gt;Githubarchive整理了github的历史数据，每一个小时一个数据文件，我下载了2011-2014年四年的数据，结果发现2012年的多数数据存在错误换行的问题，需要清洗。一般而言，正确的情况是一个字典格式的数据占一行，错误的情况就会是所有的字典格式的数据合并为了一行。似乎是缺乏换行符造成的。&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://stackoverflow.com/questions/10432432/yajl-parse-error-with-githubarchive-org-json-stream-in-python#&#34; target=&#34;_blank&#34;&gt;http://stackoverflow.com/questions/10432432/yajl-parse-error-with-githubarchive-org-json-stream-in-python#&lt;/a&gt; 这里详细记录了这个问题。&lt;/p&gt;

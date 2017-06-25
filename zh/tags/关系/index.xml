@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>关系 on </title>
-    <link>https://chengjun.github.io/zh/tags/%E5%85%B3%E7%B3%BB/index.xml</link>
+    <link>https://chengjunwang.com/zh/tags/%E5%85%B3%E7%B3%BB/index.xml</link>
     <description>Recent content in 关系 on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
@@ -11,10 +11,10 @@
     
     <item>
       <title>网络残缺度：共同好友间可否两步到达？</title>
-      <link>https://chengjun.github.io/zh/post/cn/2014-05-05-network-dispersion/</link>
+      <link>https://chengjunwang.com/zh/post/cn/2014-05-05-network-dispersion/</link>
       <pubDate>Mon, 05 May 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://chengjun.github.io/zh/post/cn/2014-05-05-network-dispersion/</guid>
+      <guid>https://chengjunwang.com/zh/post/cn/2014-05-05-network-dispersion/</guid>
       <description>
 
 &lt;p&gt;网络是由节点和关系构成的，而对于关系的描述是社会网络的关键。我们已经知道对于节点的网络特性可以从中心度、近度、介度、特征度（eigenvalue centrality）等方式描述。那么对于关系呢？最简单的就是直接关系的强度了。&lt;/p&gt;

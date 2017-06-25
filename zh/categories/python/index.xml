@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Python on </title>
-    <link>https://chengjun.github.io/zh/categories/python/index.xml</link>
+    <link>https://chengjunwang.com/zh/categories/python/index.xml</link>
     <description>Recent content in Python on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
@@ -11,20 +11,20 @@
     
     <item>
       <title>iching：一个用来算卦的python包</title>
-      <link>https://chengjun.github.io/zh/post/cn/2015-07-04-iching-python/</link>
+      <link>https://chengjunwang.com/zh/post/cn/2015-07-04-iching-python/</link>
       <pubDate>Sat, 04 Jul 2015 00:00:00 +0000</pubDate>
       
-      <guid>https://chengjun.github.io/zh/post/cn/2015-07-04-iching-python/</guid>
+      <guid>https://chengjunwang.com/zh/post/cn/2015-07-04-iching-python/</guid>
       <description>&lt;iframe src=&#34;http://nbviewer.ipython.org/github/chengjun/iching/blob/master/iching_intro.ipynb&#34; scrolling=&#34;no&#34; width=&#34;700&#34; height=&#34;6500&#34;&gt;&lt;/iframe&gt;
 </description>
     </item>
     
     <item>
       <title>打包发布python软件包</title>
-      <link>https://chengjun.github.io/zh/post/cn/2015-02-22-distribute-python-package/</link>
+      <link>https://chengjunwang.com/zh/post/cn/2015-02-22-distribute-python-package/</link>
       <pubDate>Sun, 22 Feb 2015 00:00:00 +0000</pubDate>
       
-      <guid>https://chengjun.github.io/zh/post/cn/2015-02-22-distribute-python-package/</guid>
+      <guid>https://chengjunwang.com/zh/post/cn/2015-02-22-distribute-python-package/</guid>
       <description>&lt;p&gt;我们经常写一些程序碎片，却很少有动力把它们整合起来。前段时间写了一个爬取并可视化谷歌学术网的python程序。今天想不如把它整合一下，虽然非常简单（只有一个函数）。主要参考python官网的&lt;a href=&#34;https://packaging.python.org/en/latest/distributing.html#uploading-your-project-to-pypi&#34; target=&#34;_blank&#34;&gt;发布指南&lt;/a&gt;。&lt;/p&gt;
 
 &lt;p&gt;##注册
@@ -65,10 +65,10 @@ $ twine upload dist/*
     
     <item>
       <title>表达、检索、练习——写给Python的初学者</title>
-      <link>https://chengjun.github.io/zh/post/cn/2015-02-22-fresh-python/</link>
+      <link>https://chengjunwang.com/zh/post/cn/2015-02-22-fresh-python/</link>
       <pubDate>Sun, 22 Feb 2015 00:00:00 +0000</pubDate>
       
-      <guid>https://chengjun.github.io/zh/post/cn/2015-02-22-fresh-python/</guid>
+      <guid>https://chengjunwang.com/zh/post/cn/2015-02-22-fresh-python/</guid>
       <description>&lt;p&gt;三年前，我写过一篇小日志，介绍如何从零开始学习R语言。后来我的工作越来越多的使用python，于是摸爬滚打自己探索了挺久的。身边也越来越多的人问起新手如何从零学习python的问题。我想练习、检索、表达这三点依旧是关键，只不过顺序稍有不同。很多人说，学习python，你来推荐一些资料吧。我想了想，资料还不是关键，关键是自身。&lt;/p&gt;
 
 &lt;p&gt;##看书还是上手？
@@ -116,10 +116,10 @@ $ twine upload dist/*
     
     <item>
       <title>使用Python快速分割数据的方法</title>
-      <link>https://chengjun.github.io/zh/post/cn/2014-08-31-fast-split-data-with-python/</link>
+      <link>https://chengjunwang.com/zh/post/cn/2014-08-31-fast-split-data-with-python/</link>
       <pubDate>Sun, 31 Aug 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://chengjun.github.io/zh/post/cn/2014-08-31-fast-split-data-with-python/</guid>
+      <guid>https://chengjunwang.com/zh/post/cn/2014-08-31-fast-split-data-with-python/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;http://chengjun.qiniudn.com/longcat.PNG&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;分割数据最慢的过程其实是打开和关闭一个文件，因此尽量减少这种操作可以飞速的提升分割数据的速度。之前在&lt;a href=&#34;http://stackoverflow.com/questions/519633/lazy-method-for-reading-big-file-in-python?lq=1&#34; target=&#34;_blank&#34;&gt;stackoverflow上看到一种方法&lt;/a&gt;非常高效，放在这里研究一下。&lt;/p&gt;
@@ -164,10 +164,10 @@ $ twine upload dist/*
     
     <item>
       <title>Parsing Githubarchive Data using Python</title>
-      <link>https://chengjun.github.io/zh/post/cn/2016-06-18-parsing-githubarchive-json/</link>
+      <link>https://chengjunwang.com/zh/post/cn/2016-06-18-parsing-githubarchive-json/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://chengjun.github.io/zh/post/cn/2016-06-18-parsing-githubarchive-json/</guid>
+      <guid>https://chengjunwang.com/zh/post/cn/2016-06-18-parsing-githubarchive-json/</guid>
       <description>&lt;p&gt;Githubarchive整理了github的历史数据，每一个小时一个数据文件，我下载了2011-2014年四年的数据，结果发现2012年的多数数据存在错误换行的问题，需要清洗。一般而言，正确的情况是一个字典格式的数据占一行，错误的情况就会是所有的字典格式的数据合并为了一行。似乎是缺乏换行符造成的。&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://stackoverflow.com/questions/10432432/yajl-parse-error-with-githubarchive-org-json-stream-in-python#&#34; target=&#34;_blank&#34;&gt;http://stackoverflow.com/questions/10432432/yajl-parse-error-with-githubarchive-org-json-stream-in-python#&lt;/a&gt; 这里详细记录了这个问题。&lt;/p&gt;

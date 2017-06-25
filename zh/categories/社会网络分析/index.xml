@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>社会网络分析 on </title>
-    <link>https://chengjun.github.io/zh/categories/%E7%A4%BE%E4%BC%9A%E7%BD%91%E7%BB%9C%E5%88%86%E6%9E%90/index.xml</link>
+    <link>https://chengjunwang.com/zh/categories/%E7%A4%BE%E4%BC%9A%E7%BD%91%E7%BB%9C%E5%88%86%E6%9E%90/index.xml</link>
     <description>Recent content in 社会网络分析 on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
@@ -11,10 +11,10 @@
     
     <item>
       <title>第4章 派系、聚类和组元</title>
-      <link>https://chengjun.github.io/zh/post/cn/2012-07-01-snabook-chapter4/</link>
+      <link>https://chengjunwang.com/zh/post/cn/2012-07-01-snabook-chapter4/</link>
       <pubDate>Sun, 01 Jul 2012 00:00:00 +0000</pubDate>
       
-      <guid>https://chengjun.github.io/zh/post/cn/2012-07-01-snabook-chapter4/</guid>
+      <guid>https://chengjunwang.com/zh/post/cn/2012-07-01-snabook-chapter4/</guid>
       <description>&lt;p&gt;在前面章节中，我们主要分析了社会网络中的个体特征。从这一章开始， 我们将开始循序渐进探讨网络中的更大的分析单元，不仅分析个体及其相互联系特征，还要分析所有子图和聚类的特征。我们将探索处于一个三元组当中到底意味着什么，以及作为结构洞的好处和压力。
 首先，我们将通过逐步去除部分网络的方法来解构网络，以便找到网络的核心(有时有多个核心)；接着，我们将使用网络的组分（二元组、三元组、派系、家族和聚类）来重构网络。&lt;/p&gt;
 
@@ -738,10 +738,10 @@ def create_hc(G, t=1.0):
     
     <item>
       <title>第5章 二模网络</title>
-      <link>https://chengjun.github.io/zh/post/cn/2012-07-01-snabook-chapter5/</link>
+      <link>https://chengjunwang.com/zh/post/cn/2012-07-01-snabook-chapter5/</link>
       <pubDate>Sun, 01 Jul 2012 00:00:00 +0000</pubDate>
       
-      <guid>https://chengjun.github.io/zh/post/cn/2012-07-01-snabook-chapter5/</guid>
+      <guid>https://chengjunwang.com/zh/post/cn/2012-07-01-snabook-chapter5/</guid>
       <description>&lt;p&gt;在本章中，我们将探索分析具有两种及两种以上节点类型的复杂网络的方法。但首先，我们先从一个故事开始。&lt;/p&gt;
 
 &lt;p&gt;###竞选资金是否影响选举？&lt;/p&gt;
@@ -1016,10 +1016,10 @@ cc_graph = net.Graph(cc)   #从一个邻接矩阵中重新创作一个NetworkX�
     
     <item>
       <title>第6章 信息扩散：像病毒一样传播开来</title>
-      <link>https://chengjun.github.io/zh/post/cn/2012-07-01-snabook-chapter6/</link>
+      <link>https://chengjunwang.com/zh/post/cn/2012-07-01-snabook-chapter6/</link>
       <pubDate>Sun, 01 Jul 2012 00:00:00 +0000</pubDate>
       
-      <guid>https://chengjun.github.io/zh/post/cn/2012-07-01-snabook-chapter6/</guid>
+      <guid>https://chengjunwang.com/zh/post/cn/2012-07-01-snabook-chapter6/</guid>
       <description>&lt;p&gt;这一章或许是你挑选这本书的首要原因。很多人好奇事物（视频、网站、新闻等）如何像病毒一样在网络上传播开来——迅速扩散并成为文化中的一部分（同时在这个过程中，使得创造它们的作者富有）。我们应该预先告诉你我们并没有现成的答案。实际上没有任何人知道答案，并且这个过程中有一些运气的成分在——但在本章中，我们将要尝试使你更加理解驱动扩散的原因以及你的决策如何驱动购买行为。&lt;/p&gt;
 
 &lt;p&gt;##6.1病毒视频剖析

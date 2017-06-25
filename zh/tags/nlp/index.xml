@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Nlp on </title>
-    <link>https://chengjun.github.io/zh/tags/nlp/index.xml</link>
+    <link>https://chengjunwang.com/zh/tags/nlp/index.xml</link>
     <description>Recent content in Nlp on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
@@ -11,10 +11,10 @@
     
     <item>
       <title>文本挖掘基础：使用openNLP进行词性标注</title>
-      <link>https://chengjun.github.io/zh/post/cn/2013-09-07-part-of-speech-analysis-with-opennlp/</link>
+      <link>https://chengjunwang.com/zh/post/cn/2013-09-07-part-of-speech-analysis-with-opennlp/</link>
       <pubDate>Sat, 07 Sep 2013 00:00:00 +0000</pubDate>
       
-      <guid>https://chengjun.github.io/zh/post/cn/2013-09-07-part-of-speech-analysis-with-opennlp/</guid>
+      <guid>https://chengjunwang.com/zh/post/cn/2013-09-07-part-of-speech-analysis-with-opennlp/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;http://upload.wikimedia.org/wikipedia/en/thumb/6/62/LF_OpenNLP_Parser.jpg/800px-LF_OpenNLP_Parser.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;使用R软件进行自然语言处理（文本挖掘）是比较方便的。其中一个比较基础的分析是采用part-of-speech tagging的思路进行词性标注。在本文中，我将简单地介绍使用R软件及其子包openNLP进行词性标注。这里的测试语料依然是英文，采用的算法主要是最大熵的方法。&lt;/p&gt;

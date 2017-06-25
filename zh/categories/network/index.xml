@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Network on </title>
-    <link>https://chengjun.github.io/zh/categories/network/index.xml</link>
+    <link>https://chengjunwang.com/zh/categories/network/index.xml</link>
     <description>Recent content in Network on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
@@ -11,10 +11,10 @@
     
     <item>
       <title>NetworkX初步：创建网络、提取属性和绘图</title>
-      <link>https://chengjun.github.io/zh/post/cn/2014-08-14-networkx-intro/</link>
+      <link>https://chengjunwang.com/zh/post/cn/2014-08-14-networkx-intro/</link>
       <pubDate>Thu, 14 Aug 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://chengjun.github.io/zh/post/cn/2014-08-14-networkx-intro/</guid>
+      <guid>https://chengjunwang.com/zh/post/cn/2014-08-14-networkx-intro/</guid>
       <description>&lt;p&gt;NetworkX是使用python分析网络数据的重要武器。它的使用非常简单。&lt;/p&gt;
 
 &lt;p&gt;首先，创建网络对象：&lt;/p&gt;
@@ -111,10 +111,10 @@ def flowDistanceDT(G): #input a balanced nx graph
     
     <item>
       <title>使用R模拟网络扩散</title>
-      <link>https://chengjun.github.io/zh/post/cn/2014-02-28-simulate-network-diffusion-with-r/</link>
+      <link>https://chengjunwang.com/zh/post/cn/2014-02-28-simulate-network-diffusion-with-r/</link>
       <pubDate>Fri, 28 Feb 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://chengjun.github.io/zh/post/cn/2014-02-28-simulate-network-diffusion-with-r/</guid>
+      <guid>https://chengjunwang.com/zh/post/cn/2014-02-28-simulate-network-diffusion-with-r/</guid>
       <description>&lt;p&gt;与普通的扩散研究不同，网络扩散开始考虑网络结构对于扩散过程的影响。&lt;/p&gt;
 
 &lt;p&gt;这里介绍一个使用R模拟网络扩散的例子。基本的算法非常简单：&lt;/p&gt;
@@ -305,10 +305,10 @@ saveGIF({
     
     <item>
       <title>探寻社交网络中的关系: 统计网络模型初探</title>
-      <link>https://chengjun.github.io/zh/post/cn/2013-08-09-sna-book-chapter/</link>
+      <link>https://chengjunwang.com/zh/post/cn/2013-08-09-sna-book-chapter/</link>
       <pubDate>Fri, 09 Aug 2013 00:00:00 +0000</pubDate>
       
-      <guid>https://chengjun.github.io/zh/post/cn/2013-08-09-sna-book-chapter/</guid>
+      <guid>https://chengjunwang.com/zh/post/cn/2013-08-09-sna-book-chapter/</guid>
       <description>
 
 &lt;p&gt;王成军&lt;/p&gt;
@@ -937,10 +937,10 @@ A  | B | C
     
     <item>
       <title>QAP检验：计算两个网络的关联</title>
-      <link>https://chengjun.github.io/zh/post/cn/2013-08-04-qap-test-of-network-analysis/</link>
+      <link>https://chengjunwang.com/zh/post/cn/2013-08-04-qap-test-of-network-analysis/</link>
       <pubDate>Sun, 04 Aug 2013 00:00:00 +0000</pubDate>
       
-      <guid>https://chengjun.github.io/zh/post/cn/2013-08-04-qap-test-of-network-analysis/</guid>
+      <guid>https://chengjunwang.com/zh/post/cn/2013-08-04-qap-test-of-network-analysis/</guid>
       <description>
 
 &lt;h3 id=&#34;qap检验-两个网络之间的关联&#34;&gt;QAP检验：两个网络之间的关联&lt;/h3&gt;

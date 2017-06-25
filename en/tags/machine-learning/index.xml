@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Machine Learning on </title>
-    <link>https://chengjun.github.io/en/tags/machine-learning/index.xml</link>
+    <link>https://chengjunwang.com/en/tags/machine-learning/index.xml</link>
     <description>Recent content in Machine Learning on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -11,10 +11,10 @@
     
     <item>
       <title>Sentiment analysis with machine learning in R</title>
-      <link>https://chengjun.github.io/en/post/en/2014-04-07-sentiment-analysis-with-machine-learning-in-R/</link>
+      <link>https://chengjunwang.com/en/post/en/2014-04-07-sentiment-analysis-with-machine-learning-in-R/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://chengjun.github.io/en/post/en/2014-04-07-sentiment-analysis-with-machine-learning-in-R/</guid>
+      <guid>https://chengjunwang.com/en/post/en/2014-04-07-sentiment-analysis-with-machine-learning-in-R/</guid>
       <description>
 
 &lt;p&gt;In &lt;a href=&#34;http://chengjun.github.io/en/2012/03/sentiment-analysi-with-python/&#34; target=&#34;_blank&#34;&gt;an earlier post&lt;/a&gt;, I tried to reproduce the sentiment analysis using machine learning in Python. Here, I will introduce how to do it in the framework of R.&lt;/p&gt;

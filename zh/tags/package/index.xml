@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Package on </title>
-    <link>https://chengjun.github.io/zh/tags/package/index.xml</link>
+    <link>https://chengjunwang.com/zh/tags/package/index.xml</link>
     <description>Recent content in Package on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
@@ -11,10 +11,10 @@
     
     <item>
       <title>打包发布python软件包</title>
-      <link>https://chengjun.github.io/zh/post/cn/2015-02-22-distribute-python-package/</link>
+      <link>https://chengjunwang.com/zh/post/cn/2015-02-22-distribute-python-package/</link>
       <pubDate>Sun, 22 Feb 2015 00:00:00 +0000</pubDate>
       
-      <guid>https://chengjun.github.io/zh/post/cn/2015-02-22-distribute-python-package/</guid>
+      <guid>https://chengjunwang.com/zh/post/cn/2015-02-22-distribute-python-package/</guid>
       <description>&lt;p&gt;我们经常写一些程序碎片，却很少有动力把它们整合起来。前段时间写了一个爬取并可视化谷歌学术网的python程序。今天想不如把它整合一下，虽然非常简单（只有一个函数）。主要参考python官网的&lt;a href=&#34;https://packaging.python.org/en/latest/distributing.html#uploading-your-project-to-pypi&#34; target=&#34;_blank&#34;&gt;发布指南&lt;/a&gt;。&lt;/p&gt;
 
 &lt;p&gt;##注册

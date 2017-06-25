@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>R on </title>
-    <link>https://chengjun.github.io/en/categories/r/index.xml</link>
+    <link>https://chengjunwang.com/en/categories/r/index.xml</link>
     <description>Recent content in R on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -11,10 +11,10 @@
     
     <item>
       <title>Fitting rank order distribution with R</title>
-      <link>https://chengjun.github.io/en/post/en/2014-03-17-fit-power-law/</link>
+      <link>https://chengjunwang.com/en/post/en/2014-03-17-fit-power-law/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://chengjun.github.io/en/post/en/2014-03-17-fit-power-law/</guid>
+      <guid>https://chengjunwang.com/en/post/en/2014-03-17-fit-power-law/</guid>
       <description>
 
 &lt;p&gt;The long-tail distribution can be quantified in primarily &lt;a href=&#34;http://arxiv.org/pdf/cond-mat/0412004.pdf?origin=publication_detail&#34; target=&#34;_blank&#34;&gt;three ways, see Newman &amp;rsquo;s paper here&lt;/a&gt;:&lt;/p&gt;
@@ -167,10 +167,10 @@ dev.off()
     
     <item>
       <title>Plot regression coefficient with R</title>
-      <link>https://chengjun.github.io/en/post/en/2013-08-16-plot-regression-coefficient-with-r/</link>
+      <link>https://chengjunwang.com/en/post/en/2013-08-16-plot-regression-coefficient-with-r/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://chengjun.github.io/en/post/en/2013-08-16-plot-regression-coefficient-with-r/</guid>
+      <guid>https://chengjunwang.com/en/post/en/2013-08-16-plot-regression-coefficient-with-r/</guid>
       <description>&lt;p&gt;To visualize the regression coefficient is very useful. There are at least to packages (arm, coefplot) devoted to this purpose. However, both them are not beautiful enough, compared with the effect of boxplot.&lt;/p&gt;
 
 &lt;p&gt;I refer to the R script written by &lt;a href=&#34;http://www.carlislerainey.com/2012/06/30/coefficient-plots-in-r/&#34; target=&#34;_blank&#34;&gt;Carlisle Rainey&lt;/a&gt;. What I do is to add rectangles and vertical line into the plot made by Carlisle Rainey.Please refer to this post for more information: &lt;a href=&#34;http://www.carlislerainey.com/2012/06/30/coefficient-plots-in-r/&#34; target=&#34;_blank&#34;&gt;http://www.carlislerainey.com/2012/06/30/coefficient-plots-in-r/&lt;/a&gt;&lt;/p&gt;
@@ -238,10 +238,10 @@ box()
     
     <item>
       <title>Recoding variables in R</title>
-      <link>https://chengjun.github.io/en/post/en/2013-08-14-recoding-in-r/</link>
+      <link>https://chengjunwang.com/en/post/en/2013-08-14-recoding-in-r/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://chengjun.github.io/en/post/en/2013-08-14-recoding-in-r/</guid>
+      <guid>https://chengjunwang.com/en/post/en/2013-08-14-recoding-in-r/</guid>
       <description>&lt;p&gt;Recoding variables is fairly easy in R. Here I summarize three appoaches and recommend the first one to you.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;http://farm4.staticflickr.com/3710/9508687722_545101d405.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
@@ -304,10 +304,10 @@ newx &amp;lt;- recode(x, &amp;quot;c(1,2)=&#39;A&#39;; else=&#39;B&#39;&amp;quot
     
     <item>
       <title>Sentiment analysis with machine learning in R</title>
-      <link>https://chengjun.github.io/en/post/en/2014-04-07-sentiment-analysis-with-machine-learning-in-R/</link>
+      <link>https://chengjunwang.com/en/post/en/2014-04-07-sentiment-analysis-with-machine-learning-in-R/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://chengjun.github.io/en/post/en/2014-04-07-sentiment-analysis-with-machine-learning-in-R/</guid>
+      <guid>https://chengjunwang.com/en/post/en/2014-04-07-sentiment-analysis-with-machine-learning-in-R/</guid>
       <description>
 
 &lt;p&gt;In &lt;a href=&#34;http://chengjun.github.io/en/2012/03/sentiment-analysi-with-python/&#34; target=&#34;_blank&#34;&gt;an earlier post&lt;/a&gt;, I tried to reproduce the sentiment analysis using machine learning in Python. Here, I will introduce how to do it in the framework of R.&lt;/p&gt;
@@ -560,10 +560,10 @@ cross_MAXENT = cross_validate(container,N,&amp;quot;MAXENT&amp;quot;)
     
     <item>
       <title>Understanding Bass diffusion model with R</title>
-      <link>https://chengjun.github.io/en/post/en/2012-04-26-understanding-bass-diffusion-model-with-R/</link>
+      <link>https://chengjunwang.com/en/post/en/2012-04-26-understanding-bass-diffusion-model-with-R/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://chengjun.github.io/en/post/en/2012-04-26-understanding-bass-diffusion-model-with-R/</guid>
+      <guid>https://chengjunwang.com/en/post/en/2012-04-26-understanding-bass-diffusion-model-with-R/</guid>
       <description>
 
 &lt;h4 id=&#34;introduction&#34;&gt;Introduction&lt;/h4&gt;
@@ -690,10 +690,10 @@ lines(Tdelt, Icdf, col = &amp;quot;blue&amp;quot;)
     
     <item>
       <title>Visualizing dynamic changes with googleVis</title>
-      <link>https://chengjun.github.io/en/post/en/2011-12-11-visualize-with-googlevis/</link>
+      <link>https://chengjunwang.com/en/post/en/2011-12-11-visualize-with-googlevis/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://chengjun.github.io/en/post/en/2011-12-11-visualize-with-googlevis/</guid>
+      <guid>https://chengjunwang.com/en/post/en/2011-12-11-visualize-with-googlevis/</guid>
       <description>
 
 &lt;p&gt;GoogleVis could be used to visualize the dynamic change of social pattern. Here I will test some examples.&lt;/p&gt;

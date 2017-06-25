@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>D3 on </title>
-    <link>https://chengjun.github.io/zh/tags/d3/index.xml</link>
+    <link>https://chengjunwang.com/zh/tags/d3/index.xml</link>
     <description>Recent content in D3 on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
@@ -11,10 +11,10 @@
     
     <item>
       <title>使用d3network做网络可视化</title>
-      <link>https://chengjun.github.io/zh/post/cn/2014-08-27-d3network/</link>
+      <link>https://chengjunwang.com/zh/post/cn/2014-08-27-d3network/</link>
       <pubDate>Wed, 27 Aug 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://chengjun.github.io/zh/post/cn/2014-08-27-d3network/</guid>
+      <guid>https://chengjunwang.com/zh/post/cn/2014-08-27-d3network/</guid>
       <description>&lt;p&gt;在之前的&lt;a href=&#34;http://chengjun.github.io/cn/2014/07/chinese-university-friendship-network/&#34; target=&#34;_blank&#34;&gt;一个博客&lt;/a&gt;中，我介绍了使用R进行社区划分并可视化的方法。这里使用相同的数据，介绍如何使用d3network实现网络可视化的方法。&lt;/p&gt;
 
 &lt;p&gt;首先，安装d3network&lt;/p&gt;
@@ -79,10 +79,10 @@ links$value = log(links$value)
     
     <item>
       <title>空间分析初步：使用D3可视化</title>
-      <link>https://chengjun.github.io/zh/post/cn/2014-03-15-d3-map/</link>
+      <link>https://chengjunwang.com/zh/post/cn/2014-03-15-d3-map/</link>
       <pubDate>Sat, 15 Mar 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://chengjun.github.io/zh/post/cn/2014-03-15-d3-map/</guid>
+      <guid>https://chengjunwang.com/zh/post/cn/2014-03-15-d3-map/</guid>
       <description>
 
 &lt;p&gt;&lt;img src=&#34;http://bgc-dml.wdfiles.com/local--files/d3/D3.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;

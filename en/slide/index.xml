@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Slides on </title>
-    <link>https://chengjun.github.io/en/slide/index.xml</link>
+    <link>https://chengjunwang.com/en/slide/index.xml</link>
     <description>Recent content in Slides on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -11,10 +11,10 @@
     
     <item>
       <title></title>
-      <link>https://chengjun.github.io/en/slide/slides/</link>
+      <link>https://chengjunwang.com/en/slide/slides/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://chengjun.github.io/en/slide/slides/</guid>
+      <guid>https://chengjunwang.com/en/slide/slides/</guid>
       <description>
 
 &lt;!-- slide data-notes:&#34;Congrats! You just opened speaker notes&#34; --&gt;
@@ -198,10 +198,10 @@ right clicking at the preview, then choose &lt;code&gt;Open in Browser&lt;/code&
     
     <item>
       <title></title>
-      <link>https://chengjun.github.io/en/slide/test/</link>
+      <link>https://chengjunwang.com/en/slide/test/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://chengjun.github.io/en/slide/test/</guid>
+      <guid>https://chengjunwang.com/en/slide/test/</guid>
       <description>&lt;!DOCTYPE html&gt; &lt;html&gt; &lt;head&gt; &lt;title&gt;slides&lt;/title&gt; &lt;meta charset=&#34;utf-8&#34;&gt; &lt;meta name=&#34;viewport&#34; content=&#34;width=device-width, initial-scale=1.0&#34;&gt; 
 &lt;style&gt;
 /*!

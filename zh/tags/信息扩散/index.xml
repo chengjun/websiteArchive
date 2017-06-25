@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>信息扩散 on </title>
-    <link>https://chengjun.github.io/zh/tags/%E4%BF%A1%E6%81%AF%E6%89%A9%E6%95%A3/index.xml</link>
+    <link>https://chengjunwang.com/zh/tags/%E4%BF%A1%E6%81%AF%E6%89%A9%E6%95%A3/index.xml</link>
     <description>Recent content in 信息扩散 on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
@@ -11,10 +11,10 @@
     
     <item>
       <title>使用R模拟网络扩散</title>
-      <link>https://chengjun.github.io/zh/post/cn/2014-02-28-simulate-network-diffusion-with-r/</link>
+      <link>https://chengjunwang.com/zh/post/cn/2014-02-28-simulate-network-diffusion-with-r/</link>
       <pubDate>Fri, 28 Feb 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://chengjun.github.io/zh/post/cn/2014-02-28-simulate-network-diffusion-with-r/</guid>
+      <guid>https://chengjunwang.com/zh/post/cn/2014-02-28-simulate-network-diffusion-with-r/</guid>
       <description>&lt;p&gt;与普通的扩散研究不同，网络扩散开始考虑网络结构对于扩散过程的影响。&lt;/p&gt;
 
 &lt;p&gt;这里介绍一个使用R模拟网络扩散的例子。基本的算法非常简单：&lt;/p&gt;
@@ -205,10 +205,10 @@ saveGIF({
     
     <item>
       <title>“众说纷纭”抑或“一言九鼎”？——以卡扎菲官邸攻陷事件在新浪微博上的信息扩散为例</title>
-      <link>https://chengjun.github.io/zh/post/cn/2011-08-22-gaddafi-diffusion/</link>
+      <link>https://chengjunwang.com/zh/post/cn/2011-08-22-gaddafi-diffusion/</link>
       <pubDate>Sat, 15 Dec 2012 00:00:00 +0000</pubDate>
       
-      <guid>https://chengjun.github.io/zh/post/cn/2011-08-22-gaddafi-diffusion/</guid>
+      <guid>https://chengjunwang.com/zh/post/cn/2011-08-22-gaddafi-diffusion/</guid>
       <description>&lt;p&gt;本文载于《传媒透视》&lt;/p&gt;
 
 &lt;p&gt;作者：王成军、张昕之 （作者皆为 香港城市大学 媒体与传播系 博士候选人）&lt;/p&gt;
@@ -256,10 +256,10 @@ saveGIF({
     
     <item>
       <title>第6章 信息扩散：像病毒一样传播开来</title>
-      <link>https://chengjun.github.io/zh/post/cn/2012-07-01-snabook-chapter6/</link>
+      <link>https://chengjunwang.com/zh/post/cn/2012-07-01-snabook-chapter6/</link>
       <pubDate>Sun, 01 Jul 2012 00:00:00 +0000</pubDate>
       
-      <guid>https://chengjun.github.io/zh/post/cn/2012-07-01-snabook-chapter6/</guid>
+      <guid>https://chengjunwang.com/zh/post/cn/2012-07-01-snabook-chapter6/</guid>
       <description>&lt;p&gt;这一章或许是你挑选这本书的首要原因。很多人好奇事物（视频、网站、新闻等）如何像病毒一样在网络上传播开来——迅速扩散并成为文化中的一部分（同时在这个过程中，使得创造它们的作者富有）。我们应该预先告诉你我们并没有现成的答案。实际上没有任何人知道答案，并且这个过程中有一些运气的成分在——但在本章中，我们将要尝试使你更加理解驱动扩散的原因以及你的决策如何驱动购买行为。&lt;/p&gt;
 
 &lt;p&gt;##6.1病毒视频剖析
@@ -743,10 +743,10 @@ plot.hist([e[&#39;weight&#39;] for f,t,e in g.edges(data=True)]
     
     <item>
       <title>重返沙堆：通往理解信息扩散的实在之路</title>
-      <link>https://chengjun.github.io/zh/post/cn/2012-05-16-return-to-the-sandpile/</link>
+      <link>https://chengjunwang.com/zh/post/cn/2012-05-16-return-to-the-sandpile/</link>
       <pubDate>Wed, 16 May 2012 00:00:00 +0000</pubDate>
       
-      <guid>https://chengjun.github.io/zh/post/cn/2012-05-16-return-to-the-sandpile/</guid>
+      <guid>https://chengjunwang.com/zh/post/cn/2012-05-16-return-to-the-sandpile/</guid>
       <description>
 
 &lt;p&gt;本文载于《数字媒体阅读报告》&lt;/p&gt;

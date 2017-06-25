@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Python on </title>
-    <link>https://chengjun.github.io/en/categories/python/index.xml</link>
+    <link>https://chengjunwang.com/en/categories/python/index.xml</link>
     <description>Recent content in Python on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -11,10 +11,10 @@
     
     <item>
       <title>Learning basic epidemic models with Python</title>
-      <link>https://chengjun.github.io/en/post/en/2013-03-14-learn-basic-epidemic-models-with-python/</link>
+      <link>https://chengjunwang.com/en/post/en/2013-03-14-learn-basic-epidemic-models-with-python/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://chengjun.github.io/en/post/en/2013-03-14-learn-basic-epidemic-models-with-python/</guid>
+      <guid>https://chengjunwang.com/en/post/en/2013-03-14-learn-basic-epidemic-models-with-python/</guid>
       <description>
 
 &lt;p&gt;The epidemic model is another intellectual source for information diffusion research. The first known mathematical model of epidemiology is formulated by Daniel Bernoulli (1760) when he studied the mortality rates in order to eradicate the smallpox. However, it was not until the early twentieth century that deterministic modeling of epidemiology started. Ross (1911) developed differential equation models of epidemics in 1911. Later, Kermack and McKendrick (1927) found the epidemic threshold and they argued that the density of susceptible must exceed a critical value to make the outbreak of an epidemic happen.&lt;/p&gt;
@@ -170,10 +170,10 @@ In the section above, I mainly focus on the deterministic models of epidemics. H
     
     <item>
       <title>Scraping New York Times &amp; The Guardian using Python</title>
-      <link>https://chengjun.github.io/en/post/en/2012-04-23-scraping-newyork-times-with-python/</link>
+      <link>https://chengjunwang.com/en/post/en/2012-04-23-scraping-newyork-times-with-python/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://chengjun.github.io/en/post/en/2012-04-23-scraping-newyork-times-with-python/</guid>
+      <guid>https://chengjunwang.com/en/post/en/2012-04-23-scraping-newyork-times-with-python/</guid>
       <description>&lt;p&gt;I have read the blog post about Scraping New York Times Articles with R. It’s great. I want to reproduce the work with python.
 First, we should learn about nytimes article search api.&lt;/p&gt;
 
@@ -314,10 +314,10 @@ pass
     
     <item>
       <title>Scraping data from Sina Weibo using Python</title>
-      <link>https://chengjun.github.io/en/post/en/2014-03-16-scraping-weibo-using-python/</link>
+      <link>https://chengjunwang.com/en/post/en/2014-03-16-scraping-weibo-using-python/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://chengjun.github.io/en/post/en/2014-03-16-scraping-weibo-using-python/</guid>
+      <guid>https://chengjunwang.com/en/post/en/2014-03-16-scraping-weibo-using-python/</guid>
       <description>
 
 &lt;p&gt;&lt;img src=&#34;http://weblab.com.cityu.edu.hk/blog/chengjun/files/2012/09/33.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
@@ -651,10 +651,10 @@ for line in lines:
     
     <item>
       <title>Scraping tweets using Twitter stream API</title>
-      <link>https://chengjun.github.io/en/post/en/2013-01-20-scraping-tweets-from-twitter/</link>
+      <link>https://chengjunwang.com/en/post/en/2013-01-20-scraping-tweets-from-twitter/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://chengjun.github.io/en/post/en/2013-01-20-scraping-tweets-from-twitter/</guid>
+      <guid>https://chengjunwang.com/en/post/en/2013-01-20-scraping-tweets-from-twitter/</guid>
       <description>&lt;p&gt;I want to randomly sample twitter streams. Thus, i turn to the &lt;a href=&#34;https://dev.twitter.com/docs/api/streaming&#34; target=&#34;_blank&#34;&gt;stream api of twitter&lt;/a&gt;.&lt;/p&gt;
 
 &lt;blockquote&gt;
@@ -759,10 +759,10 @@ print timePass
     
     <item>
       <title>Sentiment analysis with Python</title>
-      <link>https://chengjun.github.io/en/post/en/2012-03-19-sentiment-analysi-with-python/</link>
+      <link>https://chengjunwang.com/en/post/en/2012-03-19-sentiment-analysi-with-python/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://chengjun.github.io/en/post/en/2012-03-19-sentiment-analysi-with-python/</guid>
+      <guid>https://chengjunwang.com/en/post/en/2012-03-19-sentiment-analysi-with-python/</guid>
       <description>&lt;p&gt;Learning To Do Sentiment Analysis Using Python &amp;amp; NLTK&lt;/p&gt;
 
 &lt;p&gt;This is my first try to learn sentiment analysis using python. You can find the original post by Laurent Luce &lt;a href=&#34;http://www.laurentluce.com/posts/twitter-sentiment-analysis-using-python-and-nltk/&#34; target=&#34;_blank&#34;&gt;following this link&lt;/a&gt;.&lt;/p&gt;
@@ -887,10 +887,10 @@ print(&#39;Total accuracy: %f%% (%d/20).&#39; % (accuracy / total * 100, accurac
     
     <item>
       <title>scholarNetwork: Visualizing Google Scholar Network</title>
-      <link>https://chengjun.github.io/en/post/en/2015-02-22-scholarNetwork/</link>
+      <link>https://chengjunwang.com/en/post/en/2015-02-22-scholarNetwork/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://chengjun.github.io/en/post/en/2015-02-22-scholarNetwork/</guid>
+      <guid>https://chengjunwang.com/en/post/en/2015-02-22-scholarNetwork/</guid>
       <description>
 
 &lt;p&gt;#scholarNetwork&lt;/p&gt;

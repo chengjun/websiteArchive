@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>可视化 on </title>
-    <link>https://chengjun.github.io/zh/tags/%E5%8F%AF%E8%A7%86%E5%8C%96/index.xml</link>
+    <link>https://chengjunwang.com/zh/tags/%E5%8F%AF%E8%A7%86%E5%8C%96/index.xml</link>
     <description>Recent content in 可视化 on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
@@ -11,10 +11,10 @@
     
     <item>
       <title>再次尝试shinyApp</title>
-      <link>https://chengjun.github.io/zh/post/cn/2015-01-11-shinyapp/</link>
+      <link>https://chengjunwang.com/zh/post/cn/2015-01-11-shinyapp/</link>
       <pubDate>Sun, 11 Jan 2015 00:00:00 +0000</pubDate>
       
-      <guid>https://chengjun.github.io/zh/post/cn/2015-01-11-shinyapp/</guid>
+      <guid>https://chengjunwang.com/zh/post/cn/2015-01-11-shinyapp/</guid>
       <description>&lt;p&gt;昨天收到了shinyapp的一封邮件，想起之前自己做的关于网络扩散的东西，就想把它转化为app的形式。最直接的办法还是看tutorial，比如（&lt;a href=&#34;http://shiny.rstudio.com/tutorial）。&#34; target=&#34;_blank&#34;&gt;http://shiny.rstudio.com/tutorial）。&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;现学现卖，于是我马上做了一个使用igraph绘制BA网络的小应用：&lt;/p&gt;
@@ -45,10 +45,10 @@
     
     <item>
       <title>Echarts使用简介</title>
-      <link>https://chengjun.github.io/zh/post/cn/2015-01-10-myecharts/</link>
+      <link>https://chengjunwang.com/zh/post/cn/2015-01-10-myecharts/</link>
       <pubDate>Sat, 10 Jan 2015 00:00:00 +0000</pubDate>
       
-      <guid>https://chengjun.github.io/zh/post/cn/2015-01-10-myecharts/</guid>
+      <guid>https://chengjunwang.com/zh/post/cn/2015-01-10-myecharts/</guid>
       <description>&lt;p&gt;昨天听谈和讲解了echarts的使用，他的讲解非常直接简单，就是直接修改echarts的实例。之后，我发现林峰将echarts的实例的html代码写得非常复杂，但其实单独调用一个js的时候，却非常简单。具体做法如下：&lt;/p&gt;
 
 &lt;ul&gt;
@@ -139,10 +139,10 @@
     
     <item>
       <title>空间分析初步：使用D3可视化</title>
-      <link>https://chengjun.github.io/zh/post/cn/2014-03-15-d3-map/</link>
+      <link>https://chengjunwang.com/zh/post/cn/2014-03-15-d3-map/</link>
       <pubDate>Sat, 15 Mar 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://chengjun.github.io/zh/post/cn/2014-03-15-d3-map/</guid>
+      <guid>https://chengjunwang.com/zh/post/cn/2014-03-15-d3-map/</guid>
       <description>
 
 &lt;p&gt;&lt;img src=&#34;http://bgc-dml.wdfiles.com/local--files/d3/D3.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;

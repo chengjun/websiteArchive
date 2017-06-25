@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Network on </title>
-    <link>https://chengjun.github.io/en/categories/network/index.xml</link>
+    <link>https://chengjunwang.com/en/categories/network/index.xml</link>
     <description>Recent content in Network on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -11,10 +11,10 @@
     
     <item>
       <title>Generating networks with igraph</title>
-      <link>https://chengjun.github.io/en/post/en/2013-08-12-generating-networks-with-igraph/</link>
+      <link>https://chengjunwang.com/en/post/en/2013-08-12-generating-networks-with-igraph/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://chengjun.github.io/en/post/en/2013-08-12-generating-networks-with-igraph/</guid>
+      <guid>https://chengjunwang.com/en/post/en/2013-08-12-generating-networks-with-igraph/</guid>
       <description>
 
 &lt;p&gt;We know that the most simple network is the regular network, such as the ring network. If all the edges in a network are generated randomly, we can get a random graph or Erdos-Renyi network (ER network).&lt;/p&gt;
@@ -85,10 +85,10 @@ plot(g5, vertex.label= NA, edge.arrow.size=0.02,vertex.size = 0.5)
     
     <item>
       <title>Simulating network diffusion with R</title>
-      <link>https://chengjun.github.io/en/post/en/2014-03-09-simulate-network-diffusion-with-R/</link>
+      <link>https://chengjunwang.com/en/post/en/2014-03-09-simulate-network-diffusion-with-R/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://chengjun.github.io/en/post/en/2014-03-09-simulate-network-diffusion-with-R/</guid>
+      <guid>https://chengjunwang.com/en/post/en/2014-03-09-simulate-network-diffusion-with-R/</guid>
       <description>
 
 &lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;

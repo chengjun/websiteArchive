@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>生活 on </title>
-    <link>https://chengjun.github.io/en/categories/%E7%94%9F%E6%B4%BB/index.xml</link>
+    <link>https://chengjunwang.com/en/categories/%E7%94%9F%E6%B4%BB/index.xml</link>
     <description>Recent content in 生活 on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -11,10 +11,10 @@
     
     <item>
       <title>2016年总结</title>
-      <link>https://chengjun.github.io/en/note/2016-12-31-summary/</link>
+      <link>https://chengjunwang.com/en/note/2016-12-31-summary/</link>
       <pubDate>Sat, 31 Dec 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://chengjun.github.io/en/note/2016-12-31-summary/</guid>
+      <guid>https://chengjunwang.com/en/note/2016-12-31-summary/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;http://oaf2qt3yk.bkt.clouddn.com/d79656403a9b53627af688a06c9a3432.png&#34; alt=&#34;leaf&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;宁在一思进，莫在一思停。&lt;/p&gt;
@@ -144,10 +144,10 @@
     
     <item>
       <title>理解个人所得税</title>
-      <link>https://chengjun.github.io/en/note/2015-12-31-income/</link>
+      <link>https://chengjunwang.com/en/note/2015-12-31-income/</link>
       <pubDate>Thu, 31 Dec 2015 00:00:00 +0000</pubDate>
       
-      <guid>https://chengjun.github.io/en/note/2015-12-31-income/</guid>
+      <guid>https://chengjunwang.com/en/note/2015-12-31-income/</guid>
       <description>
 
 &lt;h2 id=&#34;更新&#34;&gt;更新&lt;/h2&gt;
@@ -199,10 +199,10 @@ tax(500000, 0.45, 13505) = 213450
     
     <item>
       <title>生态学、土壤学、环境检测方向的南京教职</title>
-      <link>https://chengjun.github.io/en/note/2016-07-17-xiaoqing-job/</link>
+      <link>https://chengjunwang.com/en/note/2016-07-17-xiaoqing-job/</link>
       <pubDate>Wed, 18 Nov 2015 00:00:00 +0000</pubDate>
       
-      <guid>https://chengjun.github.io/en/note/2016-07-17-xiaoqing-job/</guid>
+      <guid>https://chengjunwang.com/en/note/2016-07-17-xiaoqing-job/</guid>
       <description>&lt;p&gt;暮白在南京的工作一直令我不能释怀，放弃优渥舒适的&lt;code&gt;体制内&lt;/code&gt;工作来到南京，突然发现很抓瞎，生态学的就业市场非常凄凉。暮白需要找土壤学、环境检测方向的南京教职，但是她对研究却没有热情，虽然可以胜任写论文的工作。一直留意的信息包括这些&lt;/p&gt;
 
 &lt;ul&gt;
@@ -229,10 +229,10 @@ tax(500000, 0.45, 13505) = 213450
     
     <item>
       <title>自我介绍</title>
-      <link>https://chengjun.github.io/en/note/2015-08-13-self-intro/</link>
+      <link>https://chengjunwang.com/en/note/2015-08-13-self-intro/</link>
       <pubDate>Thu, 13 Aug 2015 00:00:00 +0000</pubDate>
       
-      <guid>https://chengjun.github.io/en/note/2015-08-13-self-intro/</guid>
+      <guid>https://chengjunwang.com/en/note/2015-08-13-self-intro/</guid>
       <description>
 
 &lt;p&gt;个人简历：&lt;/p&gt;
@@ -308,10 +308,10 @@ tax(500000, 0.45, 13505) = 213450
     
     <item>
       <title>集智计算读书会</title>
-      <link>https://chengjun.github.io/en/note/2015-08-06-readingclub/</link>
+      <link>https://chengjunwang.com/en/note/2015-08-06-readingclub/</link>
       <pubDate>Thu, 06 Aug 2015 00:00:00 +0000</pubDate>
       
-      <guid>https://chengjun.github.io/en/note/2015-08-06-readingclub/</guid>
+      <guid>https://chengjunwang.com/en/note/2015-08-06-readingclub/</guid>
       <description>&lt;p&gt;2008年，我离开兰州，到北京大学读传播学的硕士。我很难想象自己还会踏入与计算紧密相连的科学。在北京的两年里，我通过豆瓣认识了集智俱乐部。与其他豆瓣小组不同，集智以读书会和各种线下活动闻名，北京各个高校不同专业的学生通过集智活动而认识。通过集智我了解到了复杂性科学和它的圣地：圣塔菲研究所，并读了《歌德尔、埃舍尔、巴赫》、《复杂》、《链接：网络新科学》、《组成轮》等各种书。&lt;/p&gt;
 
 &lt;p&gt;那个时候，复杂网络研究开始席卷社会科学，尤其是传播学。集智的活动从各个方面开启了我对于计算社会科学的另一种认识。虽然集智关注的视野横跨里很多学科，在北京经常举办线下活动（很长一段时间里是在三号会所），对于北京以外的地方，集智往往是因为多主体建模而为外界所知。我也是在北师大的一次暑期活动里，听jake讲解了多主体建模的方法。因为集智，我知道了walfram和mathematica；还以集智成员的身份去清华旁听了一个mathematica的国籍会议。虽然时光短暂，我非常喜欢集智读书会的组织形式和传播复杂性科学的使命。&lt;/p&gt;
@@ -326,10 +326,10 @@ tax(500000, 0.45, 13505) = 213450
     
     <item>
       <title>精神的家园</title>
-      <link>https://chengjun.github.io/en/note/2015-05-02-bible-verses/</link>
+      <link>https://chengjunwang.com/en/note/2015-05-02-bible-verses/</link>
       <pubDate>Sat, 02 May 2015 00:00:00 +0000</pubDate>
       
-      <guid>https://chengjun.github.io/en/note/2015-05-02-bible-verses/</guid>
+      <guid>https://chengjunwang.com/en/note/2015-05-02-bible-verses/</guid>
       <description>
 
 &lt;p&gt;我想或许是自己对于宗教的态度越来越严肃，所以反而见不得圣经两个字。心底里将圣经神圣化，于是看到只言片语就感觉远远不限于此。所以就产生了逆反，往来的更改标题。这个问题该怎么破？&lt;/p&gt;
@@ -369,10 +369,10 @@ document.write(&#34;&lt;iframe src=\&#34;http://www.kingjamesbibleonline.org/pop
     
     <item>
       <title>既见君子</title>
-      <link>https://chengjun.github.io/en/note/2015-04-11-last-words/</link>
+      <link>https://chengjunwang.com/en/note/2015-04-11-last-words/</link>
       <pubDate>Sat, 11 Apr 2015 00:00:00 +0000</pubDate>
       
-      <guid>https://chengjun.github.io/en/note/2015-04-11-last-words/</guid>
+      <guid>https://chengjunwang.com/en/note/2015-04-11-last-words/</guid>
       <description>
 
 &lt;p&gt;昨天看举案说法，提到一个30多岁的男人杀死两名要好的女同事的故事。他从小被父母姐姐宠溺，中考却一败涂地。很有一些志大才疏的样子。内心自卑，表面却非常自傲。现实是残酷的，一次恋爱失败后，接近三十岁的他草草地找了个女人结婚生子，但是家庭生活并不幸福。他想自杀，但是懦弱的他却没有勇气。他内心里渴望别人能够帮助自己杀死自己，于是他想到了杀人。但是懦弱与孤傲并存的他却想不到能够杀谁，于是瞄准了跟自己关系好的两个单身女同事。片中提到一句话：“越是懦弱的人，越会遭受到来自生活的接二连三的打击。”&lt;/p&gt;
@@ -439,10 +439,10 @@ document.write(&#34;&lt;iframe src=\&#34;http://www.kingjamesbibleonline.org/pop
     
     <item>
       <title>无钱无闲</title>
-      <link>https://chengjun.github.io/en/note/2015-01-27-no-money-no-time/</link>
+      <link>https://chengjunwang.com/en/note/2015-01-27-no-money-no-time/</link>
       <pubDate>Tue, 27 Jan 2015 00:00:00 +0000</pubDate>
       
-      <guid>https://chengjun.github.io/en/note/2015-01-27-no-money-no-time/</guid>
+      <guid>https://chengjunwang.com/en/note/2015-01-27-no-money-no-time/</guid>
       <description>
 
 &lt;p&gt;&lt;img src=&#34;http://upload.wikimedia.org/wikipedia/commons/b/b9/TheProductSpace.png&#34; alt=&#34;Image Title&#34; /&gt;&lt;/p&gt;
@@ -507,10 +507,10 @@ document.write(&#34;&lt;iframe src=\&#34;http://www.kingjamesbibleonline.org/pop
     
     <item>
       <title>南京租房记</title>
-      <link>https://chengjun.github.io/en/note/2014-09-14-nanjing-housing/</link>
+      <link>https://chengjunwang.com/en/note/2014-09-14-nanjing-housing/</link>
       <pubDate>Sun, 14 Sep 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://chengjun.github.io/en/note/2014-09-14-nanjing-housing/</guid>
+      <guid>https://chengjunwang.com/en/note/2014-09-14-nanjing-housing/</guid>
       <description>&lt;p&gt;在365租房网站上沿着地铁一号线和二号线看了半天的房子，最终锁定了两个地方：迈皋和南大仙林校区。&lt;/p&gt;
 
 &lt;p&gt;迈皋地方的民房和南大的学区房都可以考虑。不过后者装修更好，面积更大，但是有17站地铁，太远啦；所以第一年还是在迈皋比较合适。迈皋站是一号线的东端，相对郊区，很多城中村发展起来，都还不是高层（以后会被淘汰掉，迟早成高层，这么说南京北上的时间还早，兰州已经开始了）。迈皋的东井村41号小区里似乎有很多低层的房子，不过出手的速度感觉挺快，价格在2000元左右，相对合适，大小会在70平米左右。&lt;/p&gt;
@@ -550,10 +550,10 @@ document.write(&#34;&lt;iframe src=\&#34;http://www.kingjamesbibleonline.org/pop
     
     <item>
       <title>暮白语录</title>
-      <link>https://chengjun.github.io/en/note/2014-08-29-her-words/</link>
+      <link>https://chengjunwang.com/en/note/2014-08-29-her-words/</link>
       <pubDate>Fri, 29 Aug 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://chengjun.github.io/en/note/2014-08-29-her-words/</guid>
+      <guid>https://chengjunwang.com/en/note/2014-08-29-her-words/</guid>
       <description>&lt;p&gt;我家暮白常有惊人之语，罗列一二。&lt;/p&gt;
 
 &lt;p&gt;一次，她很生气，说：太气人了，五味打架！&lt;/p&gt;
@@ -566,10 +566,10 @@ document.write(&#34;&lt;iframe src=\&#34;http://www.kingjamesbibleonline.org/pop
     
     <item>
       <title>乡旅西安</title>
-      <link>https://chengjun.github.io/en/note/2014-07-17-xi-an-another-hometown/</link>
+      <link>https://chengjunwang.com/en/note/2014-07-17-xi-an-another-hometown/</link>
       <pubDate>Thu, 17 Jul 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://chengjun.github.io/en/note/2014-07-17-xi-an-another-hometown/</guid>
+      <guid>https://chengjunwang.com/en/note/2014-07-17-xi-an-another-hometown/</guid>
       <description>
 
 &lt;p&gt;&lt;img src=&#34;http://img1.lvyou114.com/MapMax/13/20101212103827.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
@@ -608,10 +608,10 @@ document.write(&#34;&lt;iframe src=\&#34;http://www.kingjamesbibleonline.org/pop
     
     <item>
       <title>世界之外的角落</title>
-      <link>https://chengjun.github.io/en/note/2014-07-01-life-is-hard/</link>
+      <link>https://chengjunwang.com/en/note/2014-07-01-life-is-hard/</link>
       <pubDate>Tue, 01 Jul 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://chengjun.github.io/en/note/2014-07-01-life-is-hard/</guid>
+      <guid>https://chengjunwang.com/en/note/2014-07-01-life-is-hard/</guid>
       <description>
 
 &lt;p&gt;最近的压力有一点大。新网站、老板的中文情感分析任务、和Yanto等新启动的项目、和小可的论文、和计算士的合作。一个一个说说看，缓解一下压力。&lt;/p&gt;
@@ -646,10 +646,10 @@ document.write(&#34;&lt;iframe src=\&#34;http://www.kingjamesbibleonline.org/pop
     
     <item>
       <title>后仓沟记忆</title>
-      <link>https://chengjun.github.io/en/note/2014-05-07-my-hometown/</link>
+      <link>https://chengjunwang.com/en/note/2014-05-07-my-hometown/</link>
       <pubDate>Thu, 08 May 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://chengjun.github.io/en/note/2014-05-07-my-hometown/</guid>
+      <guid>https://chengjunwang.com/en/note/2014-05-07-my-hometown/</guid>
       <description>
 
 &lt;h4 id=&#34;小村庄&#34;&gt;小村庄&lt;/h4&gt;

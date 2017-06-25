@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>R Pandoc Markdown Reveal.Js on </title>
-    <link>https://chengjun.github.io/en/categories/r-pandoc-markdown-reveal.js/index.xml</link>
+    <link>https://chengjunwang.com/en/categories/r-pandoc-markdown-reveal.js/index.xml</link>
     <description>Recent content in R Pandoc Markdown Reveal.Js on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -11,10 +11,10 @@
     
     <item>
       <title>Using slidify to publish HTML5 presentations</title>
-      <link>https://chengjun.github.io/en/post/en/2013-08-18-using-slidify-to-publish-html5-presentations/</link>
+      <link>https://chengjunwang.com/en/post/en/2013-08-18-using-slidify-to-publish-html5-presentations/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://chengjun.github.io/en/post/en/2013-08-18-using-slidify-to-publish-html5-presentations/</guid>
+      <guid>https://chengjunwang.com/en/post/en/2013-08-18-using-slidify-to-publish-html5-presentations/</guid>
       <description>
 
 &lt;p&gt;I am inspired to use markdown to make HTML5 slides, However the specification is too hard. Actually, I don&amp;rsquo;t know how to make it less ugly, especilly for the first page of the slides.&lt;/p&gt;

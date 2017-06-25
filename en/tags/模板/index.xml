@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>模板 on </title>
-    <link>https://chengjun.github.io/en/tags/%E6%A8%A1%E6%9D%BF/index.xml</link>
+    <link>https://chengjunwang.com/en/tags/%E6%A8%A1%E6%9D%BF/index.xml</link>
     <description>Recent content in 模板 on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -11,10 +11,10 @@
     
     <item>
       <title>Markdown名称中有字母才会显示</title>
-      <link>https://chengjun.github.io/en/note/2010-01-10-markdown-name/</link>
+      <link>https://chengjunwang.com/en/note/2010-01-10-markdown-name/</link>
       <pubDate>Sun, 10 Jan 2010 00:00:00 +0000</pubDate>
       
-      <guid>https://chengjun.github.io/en/note/2010-01-10-markdown-name/</guid>
+      <guid>https://chengjunwang.com/en/note/2010-01-10-markdown-name/</guid>
       <description>
 
 &lt;p&gt;我今天又将博客改回原来的设置，结果上传的900多个模板都没有显示出来，我后来突然想起来，原来html的地址才是最重要的。&lt;/p&gt;

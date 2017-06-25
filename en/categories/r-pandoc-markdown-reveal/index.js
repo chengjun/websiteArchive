@@ -29,13 +29,13 @@
   <link rel="stylesheet" href="/css/hugo-academic.css">
   
 
-  <link rel="alternate" href="https://chengjun.github.io/categories/r-pandoc-markdown-reveal.js/index.xml" type="application/rss+xml" title="">
-  <link rel="feed" href="https://chengjun.github.io/categories/r-pandoc-markdown-reveal.js/index.xml" type="application/rss+xml" title="">
+  <link rel="alternate" href="https://chengjunwang.com/categories/r-pandoc-markdown-reveal.js/index.xml" type="application/rss+xml" title="">
+  <link rel="feed" href="https://chengjunwang.com/categories/r-pandoc-markdown-reveal.js/index.xml" type="application/rss+xml" title="">
 
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/apple-touch-icon.png">
 
-  <link rel="canonical" href="https://chengjun.github.io/en/categories/r-pandoc-markdown-reveal/index.js/">
+  <link rel="canonical" href="https://chengjunwang.com/en/categories/r-pandoc-markdown-reveal/index.js/">
 
   
 
@@ -167,7 +167,7 @@
   
   
   <div>
-    <h2><a href="https://chengjun.github.io/en/post/en/2013-08-18-using-slidify-to-publish-html5-presentations/">Using slidify to publish HTML5 presentations</a></h2>
+    <h2><a href="https://chengjunwang.com/en/post/en/2013-08-18-using-slidify-to-publish-html5-presentations/">Using slidify to publish HTML5 presentations</a></h2>
     
 
 <div class="article-metadata">

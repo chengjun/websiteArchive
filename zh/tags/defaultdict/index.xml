@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Defaultdict on </title>
-    <link>https://chengjun.github.io/zh/tags/defaultdict/index.xml</link>
+    <link>https://chengjunwang.com/zh/tags/defaultdict/index.xml</link>
     <description>Recent content in Defaultdict on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
@@ -11,10 +11,10 @@
     
     <item>
       <title>使用Python快速分割数据的方法</title>
-      <link>https://chengjun.github.io/zh/post/cn/2014-08-31-fast-split-data-with-python/</link>
+      <link>https://chengjunwang.com/zh/post/cn/2014-08-31-fast-split-data-with-python/</link>
       <pubDate>Sun, 31 Aug 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://chengjun.github.io/zh/post/cn/2014-08-31-fast-split-data-with-python/</guid>
+      <guid>https://chengjunwang.com/zh/post/cn/2014-08-31-fast-split-data-with-python/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;http://chengjun.qiniudn.com/longcat.PNG&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;分割数据最慢的过程其实是打开和关闭一个文件，因此尽量减少这种操作可以飞速的提升分割数据的速度。之前在&lt;a href=&#34;http://stackoverflow.com/questions/519633/lazy-method-for-reading-big-file-in-python?lq=1&#34; target=&#34;_blank&#34;&gt;stackoverflow上看到一种方法&lt;/a&gt;非常高效，放在这里研究一下。&lt;/p&gt;

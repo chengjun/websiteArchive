@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>入门 on </title>
-    <link>https://chengjun.github.io/zh/tags/%E5%85%A5%E9%97%A8/index.xml</link>
+    <link>https://chengjunwang.com/zh/tags/%E5%85%A5%E9%97%A8/index.xml</link>
     <description>Recent content in 入门 on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
@@ -11,10 +11,10 @@
     
     <item>
       <title>表达、检索、练习——写给Python的初学者</title>
-      <link>https://chengjun.github.io/zh/post/cn/2015-02-22-fresh-python/</link>
+      <link>https://chengjunwang.com/zh/post/cn/2015-02-22-fresh-python/</link>
       <pubDate>Sun, 22 Feb 2015 00:00:00 +0000</pubDate>
       
-      <guid>https://chengjun.github.io/zh/post/cn/2015-02-22-fresh-python/</guid>
+      <guid>https://chengjunwang.com/zh/post/cn/2015-02-22-fresh-python/</guid>
       <description>&lt;p&gt;三年前，我写过一篇小日志，介绍如何从零开始学习R语言。后来我的工作越来越多的使用python，于是摸爬滚打自己探索了挺久的。身边也越来越多的人问起新手如何从零学习python的问题。我想练习、检索、表达这三点依旧是关键，只不过顺序稍有不同。很多人说，学习python，你来推荐一些资料吧。我想了想，资料还不是关键，关键是自身。&lt;/p&gt;
 
 &lt;p&gt;##看书还是上手？
