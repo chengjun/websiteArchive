@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tweets on </title>
-    <link>https://chengjun.github.io/en/tags/tweets/index.xml</link>
+    <link>https://chengjunwang.com/en/tags/tweets/index.xml</link>
     <description>Recent content in Tweets on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -11,10 +11,10 @@
     
     <item>
       <title>Scraping tweets using Twitter stream API</title>
-      <link>https://chengjun.github.io/en/post/en/2013-01-20-scraping-tweets-from-twitter/</link>
+      <link>https://chengjunwang.com/en/post/en/2013-01-20-scraping-tweets-from-twitter/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://chengjun.github.io/en/post/en/2013-01-20-scraping-tweets-from-twitter/</guid>
+      <guid>https://chengjunwang.com/en/post/en/2013-01-20-scraping-tweets-from-twitter/</guid>
       <description>&lt;p&gt;I want to randomly sample twitter streams. Thus, i turn to the &lt;a href=&#34;https://dev.twitter.com/docs/api/streaming&#34; target=&#34;_blank&#34;&gt;stream api of twitter&lt;/a&gt;.&lt;/p&gt;
 
 &lt;blockquote&gt;

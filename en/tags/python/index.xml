@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Python on </title>
-    <link>https://chengjun.github.io/en/tags/python/index.xml</link>
+    <link>https://chengjunwang.com/en/tags/python/index.xml</link>
     <description>Recent content in Python on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -11,20 +11,20 @@
     
     <item>
       <title>scholarnetwork: Crawl and Visualize the Coauthor Network</title>
-      <link>https://chengjun.github.io/en/post/scholarnetwork/</link>
+      <link>https://chengjunwang.com/en/post/scholarnetwork/</link>
       <pubDate>Mon, 13 Feb 2017 14:15:51 +0800</pubDate>
       
-      <guid>https://chengjun.github.io/en/post/scholarnetwork/</guid>
+      <guid>https://chengjunwang.com/en/post/scholarnetwork/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://pypi.python.org/pypi/scholarNetwork/&#34; target=&#34;_blank&#34;&gt;scholarNetwork&lt;/a&gt;, a Python package to crawl and visualize the coauthor network of Google Scholars.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>iching: Practising Divination of I Ching</title>
-      <link>https://chengjun.github.io/en/post/iching/</link>
+      <link>https://chengjunwang.com/en/post/iching/</link>
       <pubDate>Mon, 13 Feb 2017 14:15:36 +0800</pubDate>
       
-      <guid>https://chengjun.github.io/en/post/iching/</guid>
+      <guid>https://chengjunwang.com/en/post/iching/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://pypi.python.org/pypi/iching/&#34; target=&#34;_blank&#34;&gt;iching&lt;/a&gt;, a Python package that employs the Achillea millefolium method to practise divination of I Ching (易经的蓍草卜卦方法).&lt;/p&gt;
 
 &lt;iframe src=&#34;http://nbviewer.ipython.org/github/chengjun/iching/blob/master/iching_intro.ipynb&#34; scrolling=&#34;no&#34; width=&#34;700&#34; height=&#34;6500&#34;&gt;&lt;/iframe&gt;
@@ -33,10 +33,10 @@
     
     <item>
       <title>世界之外的角落</title>
-      <link>https://chengjun.github.io/en/note/2014-07-01-life-is-hard/</link>
+      <link>https://chengjunwang.com/en/note/2014-07-01-life-is-hard/</link>
       <pubDate>Tue, 01 Jul 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://chengjun.github.io/en/note/2014-07-01-life-is-hard/</guid>
+      <guid>https://chengjunwang.com/en/note/2014-07-01-life-is-hard/</guid>
       <description>
 
 &lt;p&gt;最近的压力有一点大。新网站、老板的中文情感分析任务、和Yanto等新启动的项目、和小可的论文、和计算士的合作。一个一个说说看，缓解一下压力。&lt;/p&gt;

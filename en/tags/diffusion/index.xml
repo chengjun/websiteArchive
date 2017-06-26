@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Diffusion on </title>
-    <link>https://chengjun.github.io/en/tags/diffusion/index.xml</link>
+    <link>https://chengjunwang.com/en/tags/diffusion/index.xml</link>
     <description>Recent content in Diffusion on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -11,10 +11,10 @@
     
     <item>
       <title>Scraping data from Sina Weibo using Python</title>
-      <link>https://chengjun.github.io/en/post/en/2014-03-16-scraping-weibo-using-python/</link>
+      <link>https://chengjunwang.com/en/post/en/2014-03-16-scraping-weibo-using-python/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://chengjun.github.io/en/post/en/2014-03-16-scraping-weibo-using-python/</guid>
+      <guid>https://chengjunwang.com/en/post/en/2014-03-16-scraping-weibo-using-python/</guid>
       <description>
 
 &lt;p&gt;&lt;img src=&#34;http://weblab.com.cityu.edu.hk/blog/chengjun/files/2012/09/33.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
@@ -348,10 +348,10 @@ for line in lines:
     
     <item>
       <title>The Rich-club on Sina Weibo</title>
-      <link>https://chengjun.github.io/en/post/en/2014-03-14-weibo-landscape/</link>
+      <link>https://chengjunwang.com/en/post/en/2014-03-14-weibo-landscape/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://chengjun.github.io/en/post/en/2014-03-14-weibo-landscape/</guid>
+      <guid>https://chengjunwang.com/en/post/en/2014-03-14-weibo-landscape/</guid>
       <description>
 
 &lt;p&gt;This post is about the opinions tweeted &amp;amp; retweeted by the most influential users of Sina Weibo.&lt;/p&gt;
@@ -448,10 +448,10 @@ Investigating the Rich-Club Effect&lt;/p&gt;
     
     <item>
       <title>Understanding Bass diffusion model with R</title>
-      <link>https://chengjun.github.io/en/post/en/2012-04-26-understanding-bass-diffusion-model-with-R/</link>
+      <link>https://chengjunwang.com/en/post/en/2012-04-26-understanding-bass-diffusion-model-with-R/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://chengjun.github.io/en/post/en/2012-04-26-understanding-bass-diffusion-model-with-R/</guid>
+      <guid>https://chengjunwang.com/en/post/en/2012-04-26-understanding-bass-diffusion-model-with-R/</guid>
       <description>
 
 &lt;h4 id=&#34;introduction&#34;&gt;Introduction&lt;/h4&gt;

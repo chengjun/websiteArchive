@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Epidemic Models on </title>
-    <link>https://chengjun.github.io/en/tags/epidemic-models/index.xml</link>
+    <link>https://chengjunwang.com/en/tags/epidemic-models/index.xml</link>
     <description>Recent content in Epidemic Models on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -11,10 +11,10 @@
     
     <item>
       <title>Learning basic epidemic models with Python</title>
-      <link>https://chengjun.github.io/en/post/en/2013-03-14-learn-basic-epidemic-models-with-python/</link>
+      <link>https://chengjunwang.com/en/post/en/2013-03-14-learn-basic-epidemic-models-with-python/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://chengjun.github.io/en/post/en/2013-03-14-learn-basic-epidemic-models-with-python/</guid>
+      <guid>https://chengjunwang.com/en/post/en/2013-03-14-learn-basic-epidemic-models-with-python/</guid>
       <description>
 
 &lt;p&gt;The epidemic model is another intellectual source for information diffusion research. The first known mathematical model of epidemiology is formulated by Daniel Bernoulli (1760) when he studied the mortality rates in order to eradicate the smallpox. However, it was not until the early twentieth century that deterministic modeling of epidemiology started. Ross (1911) developed differential equation models of epidemics in 1911. Later, Kermack and McKendrick (1927) found the epidemic threshold and they argued that the density of susceptible must exceed a critical value to make the outbreak of an epidemic happen.&lt;/p&gt;
