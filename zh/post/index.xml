@@ -119,6 +119,69 @@
     </item>
     
     <item>
+      <title>气候变迁研究：数据、调查、视角</title>
+      <link>https://chengjunwang.com/zh/post/climate-change/</link>
+      <pubDate>Thu, 29 Jun 2017 14:32:07 +0800</pubDate>
+      
+      <guid>https://chengjunwang.com/zh/post/climate-change/</guid>
+      <description>
+
+&lt;h2 id=&#34;data-for-climate-change&#34;&gt;Data for Climate Change&lt;/h2&gt;
+
+&lt;p&gt;Big data has big potential for applications to climate change adaptation. PNAS 2016
+&lt;a href=&#34;http://www.dataforclimateaction.org/home/data/&#34; target=&#34;_blank&#34;&gt;http://www.dataforclimateaction.org/home/data/&lt;/a&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Anonymized records of cell-phone use could in principle enable the large-scale tracing of people’s movements in the wake of a climate change-related disaster. Image courtesy of Shutterstock/Athi Aachawaradt.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+&lt;li&gt;GlobeScan&lt;/li&gt;
+&lt;li&gt;pew&lt;/li&gt;
+&lt;li&gt;马里兰大学世界公共舆论 WPO &lt;a href=&#34;http://worldpublicopinion.net&#34; target=&#34;_blank&#34;&gt;http://worldpublicopinion.net&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;PIPA&lt;/li&gt;
+&lt;li&gt;世界银行&lt;/li&gt;
+&lt;li&gt;盖洛普&lt;/li&gt;
+&lt;li&gt;BBC&lt;/li&gt;
+&lt;li&gt;NSEE&lt;/li&gt;
+&lt;li&gt;欧盟民意委员会&lt;/li&gt;
+&lt;li&gt;美国气候地图&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;人口迁移、极端气候、青藏高原、西北地区&lt;/p&gt;
+
+&lt;h3 id=&#34;中国气候指数&#34;&gt;中国气候指数&lt;/h3&gt;
+
+&lt;p&gt;中国气候指数系列分为年度和月度指数,包括雨涝、干旱、台风、高温、低温冰冻五类指数,以及在此基础上合成的中国气候风险指数。以中国气候风险指数为例,风险等级从低至高分为0到10。1981年至2016年,中国气候风险指数平均值为4.19。对比1999年前后的平均值就可明显看出,风险指数从3.69上升为4.69,气候风险呈逐步增加趋势。 &lt;a href=&#34;http://news.sciencenet.cn/htmlnews/2017/3/370039.shtm&#34; target=&#34;_blank&#34;&gt;http://news.sciencenet.cn/htmlnews/2017/3/370039.shtm&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;环保部
+- 工作简报内容分析&lt;/p&gt;
+
+&lt;h3 id=&#34;国内调查数据&#34;&gt;国内调查数据&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;CGSS&lt;/li&gt;
+&lt;li&gt;中国国家调查数据库CNSDA&lt;/li&gt;
+&lt;li&gt;环保部&lt;/li&gt;
+&lt;li&gt;中国气候传播项目中心&lt;/li&gt;
+&lt;li&gt;零点&lt;/li&gt;
+&lt;li&gt;汇丰银行。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;内隐联想测试-iat&#34;&gt;内隐联想测试 IAT&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;概念词和属性词， e.g. 花&amp;amp;好的，蜘蛛&amp;amp;不好的，不一类的时候反应时间长&lt;/li&gt;
+&lt;li&gt;The candidate IAT, 有两个候选人，一个候选人支持气候变化保护，另一个没有强调，判断这两个人与一些好的品质之间的配对，看反应时间长度。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;对气候变化的信念、心理问题、政策支持、迫切性、好坏&lt;/p&gt;
+
+&lt;p&gt;气候变化建构出来的社会事实，态度和行为存在鸿沟，心理学可以发挥优势进行行为干预；社科领域的研究还比较少，15%，多数社会科学；中外差异明显，国内关注度低，环境问题排不到前十，主要关注雾霾和环境污染；在手段在技术层面。知识、教育、收入、价值观、党派，但心理因素可以干预。人类中心主义vs自然关联性，正念（mindful）干预，一类以冥想为主，另一类以认知和信息加工。经过干预之后，看待自然更加敏感了，更加相信和支持气候变化。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>社会行为研究在线实验平台</title>
       <link>https://chengjunwang.com/zh/post/cn/2017-6-24-turk/</link>
       <pubDate>Sat, 24 Jun 2017 00:00:00 +0000</pubDate>
@@ -907,348 +970,6 @@ D3是数据驱动文件（Data-Driven Documents）的缩写。作为一个javasc
 
 &lt;blockquote&gt;
 &lt;p&gt;Bostock, Michael; Ogievetsky, Vadim; Heer, Jeffrey (October 2011), D3: Data-Driven Documents, IEEE Transactions on Visualization and Computer Graphics, IEEE Press&lt;/p&gt;
-&lt;/blockquote&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>空间分析初步：空间点类型分析</title>
-      <link>https://chengjunwang.com/zh/post/cn/2014-03-12-first-step-spatial-analysis-with-r/</link>
-      <pubDate>Wed, 12 Mar 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://chengjunwang.com/zh/post/cn/2014-03-12-first-step-spatial-analysis-with-r/</guid>
-      <description>
-
-&lt;h3 id=&#34;引言&#34;&gt;引言&lt;/h3&gt;
-
-&lt;p&gt;空间分析（spatial analysis）对于扩散研究非常重要，它揭示了传播在空间维度上的分布。令人略感惊奇的是空间分析的研究者越来越多地使用R软件。其中一个原因是R包罗万象，而空间分析仍在发展且神情未定。在这个时候难以判定哪种方法最优。此时，策略当然是博观约取。R因其囊括众多统计方法而成为连接不同分析套路的首选；另外在R当中使用者可以继续开发新的数据分析包。可谓一举两得。　&lt;/p&gt;
-
-&lt;h3 id=&#34;数据读入&#34;&gt;数据读入&lt;/h3&gt;
-
-&lt;p&gt;我使用的是2013年米兰城12月份推特用户的地理信息数据。该数据来自&lt;a href=&#34;http://www.telecomitalia.com/tit/en/bigdatachallenge/contest/dataset.html&#34; target=&#34;_blank&#34;&gt;Big Data Challenge&lt;/a&gt; of Telecommunication。使用Python写很简单的script从其服务器api接口读取数据:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;# Download milano tweets data using python
-# chengjun wang @ cmc
-# 2014 Mar 11
-
-import urllib2
-import json
-
-f = open(&#39;D:/chengjun/Milan/Social pulse/Milano_sample.csv&#39;, &#39;w&#39;)
-for offset in range(0,269290/100 +1):
-    print &amp;quot;working on offset: &amp;quot;, offset
-    req_url = &#39;https://api.dandelion.eu/datagem/social-pulse-milano/data/v1/?$limit=100&amp;amp;$offset=&#39;+str(offset)+&#39;&amp;amp;$app_id=d...a&amp;amp;$app_key=2e...7c&#39;
-    jstr = urllib2.urlopen(req_url).read() # json string
-    &amp;quot;&amp;quot;&amp;quot; these are flickr-specific &amp;quot;&amp;quot;&amp;quot;
-    jinfo = json.loads( jstr )
-    for i in range(0, len(jinfo[&#39;items&#39;])):
-        lan = jinfo[&#39;items&#39;][i][&#39;language&#39;]
-        time = jinfo[&#39;items&#39;][i][&#39;created&#39;]
-        geo = jinfo[&#39;items&#39;][i][&#39;geometry&#39;][&#39;coordinates&#39;]
-        timestamp = jinfo[&#39;items&#39;][i][&#39;timestamp&#39;]
-        municipality_name = jinfo[&#39;items&#39;][i][&#39;municipality&#39;][&#39;name&#39;]
-        municipality_id = jinfo[&#39;items&#39;][i][&#39;municipality&#39;][&#39;acheneID&#39;]
-        entities = jinfo[&#39;items&#39;][i][&#39;entities&#39;]
-        user = jinfo[&#39;items&#39;][i][&#39;user&#39;]
-        print &amp;gt;&amp;gt;f, &amp;quot;%s;%s;%s;%s;%s;%s;&#39;%s&#39;;%s&amp;quot; % (lan, time, geo, timestamp, municipality_name, municipality_id, entities, user)
-f.close()
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;首先，读入点的时空分布数据。　&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;# read data
-library(maptools)
-library(sp)
-library(rgdal)
-
-setwd(&amp;quot;D:/chengjun/Milan&amp;quot;)
-dat = read.csv(&amp;quot;./Social pulse/Milano_sample.csv&amp;quot;, header = FALSE, stringsAsFactors = FALSE, sep = &amp;quot;;&amp;quot;, quote = &amp;quot;&amp;quot;)
-names(dat) = c(&amp;quot;lan&amp;quot;, &amp;quot;time&amp;quot;, &amp;quot;geo&amp;quot;, &amp;quot;timestamp&amp;quot;, &amp;quot;mname&amp;quot;, &amp;quot;mid&amp;quot;, &amp;quot;entities&amp;quot;, &amp;quot;user&amp;quot;)
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;进行简单的清洗：&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;# clean data
-dat = subset(dat, dat$time &amp;gt;= as.POSIXlt(&amp;quot;2013-12-01 00:00:00&amp;quot;)); dim(dat)
-dat$time = do.call(rbind, strsplit(dat$time, split = &amp;quot;\\.&amp;quot;))[,1]
-dat$time = gsub(&amp;quot;T&amp;quot;, &amp;quot; &amp;quot;, dat$time)
-dat$time = as.POSIXlt(dat$time)
-dat$geo = gsub(&amp;quot;[&amp;quot;, &amp;quot;&amp;quot;, dat$geo, fixed = T)
-dat$geo = gsub(&amp;quot;]&amp;quot;, &amp;quot;&amp;quot;, dat$geo, fixed = T)
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;从openstreetmap下载米兰城的交通地理信息。使用rgdal这个R包读入数据：&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;# download shp data from
-# http://metro.teczno.com/#milan
-ost=readOGR(&amp;quot;./Milano Grid/milano-grid/milan.imposm-shapefiles/milan.osm-mainroads.shp&amp;quot;, layer = &amp;quot;milan.osm-mainroads&amp;quot;) #will load the shapefile
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;要把地理信息转为经纬度的数据表示形式：&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;spl = spTransform(ost, CRS(&amp;quot;+proj=longlat&amp;quot;)) # convert to longitude and latitude
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;如果要画出spl的话，速度有点慢, 因为绘制的点比较多。&lt;/p&gt;
-
-&lt;p&gt;用了其中一个小数据(涵盖一天中的几个小时)，为了展现了每个小时的&lt;a href=&#34;http://chengjun.github.io/big_data_challenge/visualization.html&#34; target=&#34;_blank&#34;&gt;动态变化&lt;/a&gt;，使用CartoDB网站来制作了一个简单的可视化。顺便找了一遍各种javascript的库和其它包（googleVis, Echarts等），发现都不实用，所以还是用R吧。&lt;/p&gt;
-
-&lt;p&gt;设置绘图的函数，来看一下数据的形式：&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;# plot function
-make_plot = function(){
-  tz = as.POSIXlt(&amp;quot;2013-12-01 00:00:00&amp;quot;)
-  end_time = as.POSIXlt(&amp;quot;2013-12-02 00:00:00&amp;quot;)
-  while(tz &amp;lt;= end_time){
-    print(tz)
-    datd = subset(dat, dat$time &amp;gt; tz&amp;amp; dat$time &amp;lt;= tz + 3600)
-    plot(spl, col = &amp;quot;pink&amp;quot;)
-    title(tz)
-    p = do.call(rbind, strsplit(datd$geo, split=&#39;,&#39;))
-    p1 = as.numeric(p[,1])
-    p2 = as.numeric(p[,2])
-    points(p2~p1, pch = 1, col = &amp;quot;red&amp;quot;, cex = 0.1)
-    tz = tz + 3600
-  }
-}
-
-# save figures
-png(file = &amp;quot;./linear%2d.png&amp;quot;,
-    width=5, height=5,
-    units=&amp;quot;in&amp;quot;, res=700)
-make_plot()
-dev.off()
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;读者也可以直接使用animation这个R包来绘图。我在实验室的机器上安装ImageMagick有点问题，干脆存为图片了，再转为gif了。&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://farm3.staticflickr.com/2610/13103072964_078e5abcc6_o.gif&#34; alt=&#34;米兰城12月1日每个小时发推特的时空分布&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;图1&lt;/strong&gt; 米兰城一天当中的发推特的时空分布&lt;/p&gt;
-
-&lt;p&gt;把12月31天的数据累积起来，我们可以得到米兰城2013年12月当中的发推特的空间分布。&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;# the overall geographical distribution
-png(&amp;quot;./milano_social_pulse_December.png&amp;quot;,
-    width=10, height=10,
-    units=&amp;quot;in&amp;quot;, res=700)
-plot(spl, col = &amp;quot;purple&amp;quot;)
-p = do.call(rbind, strsplit(dat$geo, split=&#39;,&#39;))
-p1 = as.numeric(p[,1])
-p2 = as.numeric(p[,2])
-points(p2~p1, pch = 1, col = &amp;quot;red&amp;quot;, cex = 0.01)
-dev.off()
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://farm8.staticflickr.com/7349/13103304784_11e17eae38.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;图2&lt;/strong&gt; 米兰城2013年12月当中的发推特的空间分布&lt;/p&gt;
-
-&lt;p&gt;这个图还是有点意思的：街道是城市人流的管道（Tube,伦敦好像把地铁直接称为tube）,人的移动等行为（包括社会媒体使用行为）则是穿行其间的流。推特聚集的地方与街道的轮廓高度契合。城市的中心推特的密度大（因为人流的密度大？）。所以可以检验下点的分布是否是随机的。&lt;/p&gt;
-
-&lt;h3 id=&#34;空间点类型分析&#34;&gt;空间点类型分析&lt;/h3&gt;
-
-&lt;p&gt;这里涉及到空间点类型分析（spatial point pattern analysis）。检验下点的分布是否是随机的最简单的方法是进行完全空间随机（complete spatial randomness， CSR）分析。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;G方程方法&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;这里说的最近邻居，英文当中却成为nearest event。把一个点的存在称之为事件也挺好玩。我们知道两个节点$$E_i$$和$$E_j$$的距离为:&lt;/p&gt;
-
-&lt;p&gt;$$d(E_i, E_j) = \sqrt{(x_i - x_j)^2 + (y_i-y_j)^2}$$&lt;/p&gt;
-
-&lt;p&gt;平均最近邻居距离可以表示为:&lt;/p&gt;
-
-&lt;p&gt;$$\overline{d}&lt;em&gt;{min} = \frac{\sum&lt;/em&gt;{i}^{n}d_{min}(X_i)}{n}$$&lt;/p&gt;
-
-&lt;p&gt;于是可以定义事件-事件最近邻居距离，即任意一个事件到它的最近事件之间的距离。任意一个事件$$E_i$$的事件-事件最近邻居距离：&lt;/p&gt;
-
-&lt;p&gt;$$d_i = {min}&lt;em&gt;j {d&lt;/em&gt;{ij}, \forall j\neq i }$$&lt;/p&gt;
-
-&lt;p&gt;对于一个距离d, 可定义G(d)为最近邻居距离的累计频数分布：&lt;/p&gt;
-
-&lt;p&gt;$$ G(d) = \frac{# d_{min}E_i&amp;lt;d}{n} $$&lt;/p&gt;
-
-&lt;p&gt;说以G方程方法测量的最近邻居距离小于d的事件的比率。当事件分布存在聚集的情况的时候，G在距离较小的时候就增长特别快；当事件分布均匀时，距离较小的时候G增长缓慢，当距离达到使得多数事件分隔的大小后，G开始快速增长。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;F方程方法&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;另外一个有用的测度是F方程。F方程测量了从空间中任意一个&lt;strong&gt;点&lt;/strong&gt;到与它最近的&lt;strong&gt;事件&lt;/strong&gt;之间的距离，因而它测量的是&lt;strong&gt;点-事件最近邻居距离&lt;/strong&gt;。据此，F方程也被称之为空虚空间距离。&lt;/p&gt;
-
-&lt;p&gt;计算F方程或点-事件距离的时候要先随机的抽取一些空间中的点, 计算它的最短距离，然后统计其中满足最短距离小于d的比率。&lt;/p&gt;
-
-&lt;p&gt;$$F(d) = \frac{#d_{min}(x_i&amp;lt;d)}{m}$$&lt;/p&gt;
-
-&lt;p&gt;因为F方程是随机抽取空间中的点来统计，因而可以应对较大的数据规模。一个小的事件的聚集会导致G方程快速增长，但其实其它多数空间都是空的，所以F方程增长会较慢。当然了，对于规则分布的点，这种对比的结果则可能相反。&lt;/p&gt;
-
-&lt;p&gt;使用G和F方程可以测量事件分布的实际情况，我们的零假设是事件分布是随机的，符合泊松分布:&lt;/p&gt;
-
-&lt;p&gt;$$f(k, \lambda) = \frac{\lambda^k e^{-\lambda}}{k!}$$&lt;/p&gt;
-
-&lt;p&gt;用$$\lambda$$表示事件的空间分布密度，在一个半径为d的平面$$\pi d^2$$里面理论上存在的事件数量是$$\lambda \pi d^2$$。&lt;/p&gt;
-
-&lt;p&gt;此处推导略去（汗，我不会啊。），那么G和F的理论值按照泊松分布应该是：&lt;/p&gt;
-
-&lt;p&gt;$$G = F = 1-e^{-\lambda \pi d^2}$$&lt;/p&gt;
-
-&lt;p&gt;有了理论值，有了实际值，我们就可以对比二者之间的差距。进而推论空间事件的点分布是否是随机的了。&lt;/p&gt;
-
-&lt;p&gt;这个推断的过程使用spatstat这个R包进行：&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;require(spatstat)
-#the analysis of point patterns
-geo = data.frame(dat$p1, dat$p2)
-# Convert data to ppp format
-geo_ppp = ppp(geo[,1], geo[,2],
-               c(min(geo[,1]), max(geo[,1])),
-               c(min(geo[,2]), max(geo[,2]))
-               ) # slow
-# G function method
-g = Gest(geo_ppp)
-plot(g)
-
-# F function method
-f = Fest(geo_ppp)
-plot(f)
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;这里可以使用envelope的方法，使用蒙特卡洛的方法，根据一些算法来随机生成n个（比如100个）数据，以保证分析的准确性。&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;g = envelope(geo_ppp, Gest, nsim = 100)
-plot(g)
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://farm4.staticflickr.com/3824/13124103465_64f43f59bc.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;f = envelope(geo_ppp, Fest, nsim = 100)
-plot(f)
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://farm8.staticflickr.com/7362/13124385414_f32593880e.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;显然发推特的空间位置的分布并非随机的，具有较明显的聚集现象，所以G方程一开始就增长很快，而虚空空间函数F方程则增长缓慢。&lt;/p&gt;
-
-&lt;h3 id=&#34;空间点过程分析&#34;&gt;空间点过程分析&lt;/h3&gt;
-
-&lt;p&gt;这毕竟还是有点不够形象，有没有高大上的形象的方法？试试&lt;a href=&#34;http://cran.at.r-project.org/web/packages/spatstat/vignettes/getstart.pdf&#34; target=&#34;_blank&#34;&gt;kernel smoother of point density&lt;/a&gt;:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;plot(density.ppp(geo_ppp), main = &amp;quot;&amp;quot;)
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://farm3.staticflickr.com/2636/13124643824_4ee4b447d5_c.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;注意density.ppp返回的不是一个概率密度。它是对点密度的估计。密度是每个单位空间里随机点的期望。密度通常与空间位置有关。使用空间面积对密度函数积分，得到的是落入该区域的点的数量。&lt;/p&gt;
-
-&lt;p&gt;于是乎，规律就更明显了：不仅仅是简单的点聚集，而且是箭靶形式的聚集，像北京环城路一样。越是中心，点就越密集。&lt;/p&gt;
-
-&lt;p&gt;不过不要高兴太早，因为这个结果还是太粗糙。我们明明看到点的聚集情况并非如此完美的圆环。因为使用kernel平滑方法估计点的密度这种方法对于频宽（bandwidth）的大小特别敏感。有必要加以控制。另外，这里涉及到两种kernel的方法：四次多项式平滑和高斯平滑。这里要使用splancs这个R包。&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;##############
-&amp;quot;quartic and Gaussian kernels&amp;quot;
-##############
-
-library(splancs)
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;抱怨一下，因为以下用到的bw.diggle这个用来为kernel密度来选择经过交叉检验的频宽（Cross Validated Bandwidth Selection for Kernel Density）的命令，我不得不使用部分数据，因为它实在太消耗内存了。&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;# subset a week-long small data
-dat1 = subset(dat, dat$day &amp;gt;=as.Date(&amp;quot;2013-12-01&amp;quot;)&amp;amp;dat$day &amp;lt;=as.Date(&amp;quot;2013-12-07&amp;quot;))
-
-geo = data.frame(dat1$p1, dat1$p2)
-geo_ppp = ppp(geo[,1], geo[,2],
-  c(min(geo[,1]), max(geo[,1])),
-  c(min(geo[,2]), max(geo[,2]))
-) # slow
-
-## Quartic kernel
-mserwq&amp;lt;-mse2d(as.points(coordinates(geo)),
-  as.points(list(x=c(0,1,1,0), y=c(0,0,1,1))), 100, range = .001) # flexible range
-bwq&amp;lt;-mserwq$h[which.min(mserwq$mse)]
-bwq
-
-## Gaussian kernel
-mserw&amp;lt;-bw.diggle(as(geo_ppp, &amp;quot;ppp&amp;quot;)) #   Reached total allocation of 32765Mb: see help(memory.size)
-bw&amp;lt;-as.numeric(mserw)
-bw
-
-&amp;quot;plot the Mean Square Error-Bandwidth&amp;quot;
-par(mfrow=c(1, 2))
-plot(mserwq$h, mserwq$mse, xlab=&amp;quot;Bandwidth&amp;quot;, ylab=&amp;quot;MSE&amp;quot;, type=&amp;quot;l&amp;quot;, main=&amp;quot;Quartic kernel&amp;quot;)
-i&amp;lt;-which.min(mserwq$mse)
-points(mserwq$h[i], mserwq$mse[i], col = &amp;quot;red&amp;quot;)
-plot(mserw, main=&amp;quot;Gaussian kernel&amp;quot;, xlab=&amp;quot;Bandwidth&amp;quot;, ylab=&amp;quot;MSE&amp;quot;)
-points(attr(mserw, &amp;quot;h&amp;quot;)[attr(mserw, &amp;quot;iopt&amp;quot;)], bw, col = &amp;quot;red&amp;quot;)
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://farm8.staticflickr.com/7310/13145953075_2b2ae6a1e1.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;看，最优化的频宽选择并不太有用，不过频宽真得很小。&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;geos = SpatialPointsDataFrame(geo, geo)
-poly = as.points(list(x = c(0, 0, 1, 1), y = c(0, 1, 1, 0)))
-
-sG &amp;lt;- Sobj_SpatialGrid(geos, maxDim=100)$SG
-grd &amp;lt;- slot(sG, &amp;quot;grid&amp;quot;)
-summary(grd)
-
-# k0 &amp;lt;- spkernel2d(geos, poly, h0=bw, grd)
-# k1 &amp;lt;- spkernel2d(geos, poly, h0=.05, grd)
-# k2 &amp;lt;- spkernel2d(geos, poly, h0=.1, grd)
-# k3 &amp;lt;- spkernel2d(geos, poly, h0=.15, grd)
-# df &amp;lt;- data.frame(k0=k0, k1=k1, k2=k2, k3=k3)
-# kernels &amp;lt;- SpatialGridDataFrame(grd, data=df)
-# summary(kernels)
-# 这里都是NA,四次多项式的结果并不好
-
-##################################
-cc &amp;lt;- coordinates(sG); head(cc)
-xy&amp;lt;-list(x=cc[,1], y=cc[,2])
-k0&amp;lt;-density(as(geos, &amp;quot;ppp&amp;quot;), .5*bw, dimyx=c(100, 100), xy=xy)
-k1&amp;lt;-density(as(geos, &amp;quot;ppp&amp;quot;), .5*bw*200, dimyx=c(100, 100), xy=xy)
-k2&amp;lt;-density(as(geos, &amp;quot;ppp&amp;quot;), .5*bw*500, dimyx=c(100, 100), xy=xy)
-k3&amp;lt;-density(as(geos, &amp;quot;ppp&amp;quot;), .5*bw*600, dimyx=c(100, 100), xy=xy)
-k4&amp;lt;-density(as(geos, &amp;quot;ppp&amp;quot;), .5*bw*800, dimyx=c(100, 100), xy=xy)
-k5&amp;lt;-density(as(geos, &amp;quot;ppp&amp;quot;), .5*bw*1000, dimyx=c(100, 100), xy=xy)
-k6&amp;lt;-density(as(geos, &amp;quot;ppp&amp;quot;), .5*bw*1500, dimyx=c(100, 100), xy=xy)
-k7&amp;lt;-density(as(geos, &amp;quot;ppp&amp;quot;), .5*bw*2000, dimyx=c(100, 100), xy=xy)
-&amp;quot;plot the MSE-Bandwidth&amp;quot;
-png(file = &amp;quot;./gaussian_kernel_density_first_week_in_december2.png&amp;quot;,
-width=8, height=16,
-units=&amp;quot;in&amp;quot;, res=700)
-
-par(mfrow=c(4, 2), mar=rep(1, 4))
-plot(k0)
-plot(k1)
-plot(k2)
-plot(k3)
-plot(k4)
-plot(k5)
-plot(k6)
-plot(k7)
-
-dev.off()
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://farm8.staticflickr.com/7408/13145698615_5559e6ba2c_o.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;这里列出几个比较小的频宽的核密度图：这与我们的观察比较一致。&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;# kernels$k7&amp;lt;-as(k7, &amp;quot;SpatialGridDataFrame&amp;quot;)$v
-df &amp;lt;- data.frame(k0=k0, k1=k1, k2=k2, k3=k3, k4=k4, k5=k5， k6 = k6, k7 = k7)
-kernels &amp;lt;- SpatialGridDataFrame(grd, data=df)
-summary(kernels)
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;参考文献&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;Lloyd，D.C.(2007) Local Models for Spatial Analysis. CRC press&lt;/p&gt;
-
-&lt;p&gt;Baddeley, A. (2010) Analysing spatial point patterns in R. Workshop notes. CSIRO online technical publication. URL: www.csiro.au/resources/pf16h.html&lt;/p&gt;
-
-&lt;p&gt;Diggle, P.J. (1985) A kernel method for smoothing point process data. Applied Statistics (Journal of the Royal Statistical Society, Series C) 34 (1985) 138–147.&lt;/p&gt;
-
-&lt;p&gt;Diggle, P.J. (2003) Statistical analysis of spatial point patterns, Second edition. Arnold.&lt;/p&gt;
 &lt;/blockquote&gt;
 </description>
     </item>
