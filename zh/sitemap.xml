@@ -12,8 +12,24 @@
     
     
     <url>
+      <loc>https://chengjunwang.com/zh/post/cn/2017-07-01-digital-humanities/</loc>
+      <lastmod>2017-07-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
       <loc>https://chengjunwang.com/zh/post/climate-change/</loc>
       <lastmod>2017-06-29T14:32:07+08:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+      <loc>https://chengjunwang.com/zh/post/2017-6-24-turk/</loc>
+      <lastmod>2017-06-24T00:00:00+00:00</lastmod>
     </url>
     
   
@@ -379,8 +395,8 @@
     
     
     <url>
-      <loc>https://chengjunwang.com/zh/categories/network/</loc>
-      <lastmod>2014-08-14T00:00:00+00:00</lastmod>
+      <loc>https://chengjunwang.com/zh/tags/network/</loc>
+      <lastmod>2012-07-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -388,8 +404,8 @@
     
     
     <url>
-      <loc>https://chengjunwang.com/zh/tags/network/</loc>
-      <lastmod>2012-07-01T00:00:00+00:00</lastmod>
+      <loc>https://chengjunwang.com/zh/categories/network/</loc>
+      <lastmod>2014-08-14T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -467,15 +483,6 @@
     
     
     <url>
-      <loc>https://chengjunwang.com/zh/categories/python/</loc>
-      <lastmod>2015-07-04T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
       <loc>https://chengjunwang.com/zh/tags/python/</loc>
       <lastmod>2014-08-14T00:00:00+00:00</lastmod>
       <priority>0</priority>
@@ -485,8 +492,8 @@
     
     
     <url>
-      <loc>https://chengjunwang.com/zh/categories/r/</loc>
-      <lastmod>2013-09-07T00:00:00+00:00</lastmod>
+      <loc>https://chengjunwang.com/zh/categories/python/</loc>
+      <lastmod>2015-07-04T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -496,6 +503,15 @@
     <url>
       <loc>https://chengjunwang.com/zh/tags/r/</loc>
       <lastmod>2014-08-27T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+      <loc>https://chengjunwang.com/zh/categories/r/</loc>
+      <lastmod>2013-09-07T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -644,8 +660,8 @@
     
     
     <url>
-      <loc>https://chengjunwang.com/zh/categories/%E5%8F%AF%E8%A7%86%E5%8C%96/</loc>
-      <lastmod>2014-08-27T00:00:00+00:00</lastmod>
+      <loc>https://chengjunwang.com/zh/tags/%E5%8F%AF%E8%A7%86%E5%8C%96/</loc>
+      <lastmod>2015-01-11T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -653,8 +669,8 @@
     
     
     <url>
-      <loc>https://chengjunwang.com/zh/tags/%E5%8F%AF%E8%A7%86%E5%8C%96/</loc>
-      <lastmod>2015-01-11T00:00:00+00:00</lastmod>
+      <loc>https://chengjunwang.com/zh/categories/%E5%8F%AF%E8%A7%86%E5%8C%96/</loc>
+      <lastmod>2014-08-27T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -714,6 +730,15 @@
     <url>
       <loc>https://chengjunwang.com/zh/tags/%E5%AA%92%E4%BB%8B%E6%8E%A7%E5%88%B6/</loc>
       <lastmod>2011-11-17T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+      <loc>https://chengjunwang.com/zh/categories/%E5%AD%A6%E6%9C%AF%E4%BC%9A%E8%AE%AE/</loc>
+      <lastmod>2017-07-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -853,8 +878,8 @@
     
     
     <url>
-      <loc>https://chengjunwang.com/zh/categories/%E7%A4%BE%E4%BC%9A%E7%BD%91%E7%BB%9C/</loc>
-      <lastmod>2014-05-05T00:00:00+00:00</lastmod>
+      <loc>https://chengjunwang.com/zh/tags/%E7%A4%BE%E4%BC%9A%E7%BD%91%E7%BB%9C/</loc>
+      <lastmod>2014-07-21T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -862,8 +887,8 @@
     
     
     <url>
-      <loc>https://chengjunwang.com/zh/tags/%E7%A4%BE%E4%BC%9A%E7%BD%91%E7%BB%9C/</loc>
-      <lastmod>2014-07-21T00:00:00+00:00</lastmod>
+      <loc>https://chengjunwang.com/zh/categories/%E7%A4%BE%E4%BC%9A%E7%BD%91%E7%BB%9C/</loc>
+      <lastmod>2014-05-05T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
