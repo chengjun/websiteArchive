@@ -11,86 +11,6 @@
     <atom:link href="/en/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Data Tech2017大赛”</title>
-      <link>https://chengjunwang.com/en/post/zjmobile/</link>
-      <pubDate>Sun, 16 Jul 2017 14:32:07 +0800</pubDate>
-      
-      <guid>https://chengjunwang.com/en/post/zjmobile/</guid>
-      <description>
-
-&lt;p&gt;Data Tech2017大赛由中国移动浙江公司与浙江大数据交易中心联合主办，大赛以“数据众智美好未来”为主题，解锁运营商数据，整合气象、交通、空间等数据， 以“开放、互联”的精神激发全社会创新能量，共创美好未来。&lt;/p&gt;
-
-&lt;p&gt;数据改变了人类的生活方式，从衣、食、住、行到生产生活都离不开数据的支撑。数据，让一切有迹可循，让一切有源可溯。为了挖掘数据价值、实践数据赋能，推动大众创业、万众创新，由浙江省经济和信息化委员会指导，中国移动浙江公司和浙江大数据交易中心主办的Data Tech 2017浙江大数据建模与创新应用大赛即将拉开序幕。&lt;/p&gt;
-
-&lt;p&gt;本次Data Tech 2017浙江大数据建模与创新应用大赛以”数据众智美好未来”为主题，分为“模型挑战赛”和“众智创新赛”，并面向全社会开放，高等院校、科研单位、互联网企业、创客团队等人员均可报名参赛。数据集由中国移动浙江公司和浙江大数据交易中心会员单位授权提供，所有数据均以经过脱敏处理，切实保障数据安全。参赛者们利用数据分析方法，挖掘数据价值，探索数据应用，寻找真实业务问题和社会问题的解决方案。&lt;/p&gt;
-
-&lt;p&gt;同时为了推动参赛者创业与就业，大赛组委会联合中国通信信息研究院、数据中心联盟等行业权威研究机构和重点联盟，浙江大学计算机学院、浙江大学管理学院、浙江省计算机学会等学术机构，发动创新工场、百分点等知名企业参与，为参赛选手提供资深的技术支持和创业辅导。此外，本次大赛还将汇集Preangle十维资本、星路资本、银杏谷资本等多家投资机构，为参赛者优秀成果的展示与孵化提供更多的机会，打造技术、产业、资本相融合的良性发展环境。&lt;/p&gt;
-
-&lt;p&gt;大赛启动日期2017年7月15日，初赛截止日期2017年9月2日。报名及查看详细信息请登录大赛官网，网址：&lt;a href=&#34;http://datatech.zjdex.com。&#34; target=&#34;_blank&#34;&gt;http://datatech.zjdex.com。&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;初赛阶段提供7000个用户的完整行为数据。决赛阶段提供20万用户的完整行为数据。&lt;/p&gt;
-
-&lt;h1 id=&#34;模型挑战赛初赛数据&#34;&gt;模型挑战赛初赛数据&lt;/h1&gt;
-
-&lt;p&gt;获取方式：&lt;/p&gt;
-
-&lt;h3 id=&#34;选题一-用户旅游出行意向和类型预测&#34;&gt;选题一 用户旅游出行意向和类型预测&lt;/h3&gt;
-
-&lt;p&gt;选题一（数据包大小97.5M）下载链接：
-&lt;a href=&#34;http://caiyun.feixin.10086.cn/sh/tHlKp3-XYvfebUgC&#34; target=&#34;_blank&#34;&gt;http://caiyun.feixin.10086.cn/sh/tHlKp3-XYvfebUgC&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;选题二用户购买意向预测&#34;&gt;选题二用户购买意向预测&lt;/h3&gt;
-
-&lt;p&gt;选题二（数据包大小1.56M）下载链接：
-&lt;a href=&#34;http://caiyun.feixin.10086.cn/sh/YlpDClB0h6vIqeRr&#34; target=&#34;_blank&#34;&gt;http://caiyun.feixin.10086.cn/sh/YlpDClB0h6vIqeRr&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;选题三通信信用风险评估&#34;&gt;选题三通信信用风险评估&lt;/h3&gt;
-
-&lt;p&gt;选题三（数据包大小24K）下载链接：
-&lt;a href=&#34;http://caiyun.feixin.10086.cn/sh/xllHu0ExJAZhdmuc&#34; target=&#34;_blank&#34;&gt;http://caiyun.feixin.10086.cn/sh/xllHu0ExJAZhdmuc&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;公共数据集（大小210.7M），下载链接：
-&lt;a href=&#34;http://caiyun.feixin.10086.cn/sh/UMtCD38q-V2FoIHn&#34; target=&#34;_blank&#34;&gt;http://caiyun.feixin.10086.cn/sh/UMtCD38q-V2FoIHn&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;模型挑战赛决赛数据获取方式&lt;/p&gt;
-
-&lt;p&gt;模型挑战赛决赛参赛队伍将会通过邮件收到浙江大数据开放平台提供的用户名及密码，可进入中国移动浙江公司大数据开放平台使用海量真实数据。&lt;/p&gt;
-
-&lt;h1 id=&#34;众智创新赛数据&#34;&gt;众智创新赛数据&lt;/h1&gt;
-
-&lt;p&gt;获取方式：&lt;/p&gt;
-
-&lt;p&gt;移动_基础信息数据包（大小193.7K），下载链接：
-&lt;a href=&#34;http://caiyun.feixin.10086.cn/sh/2R9GuE4S1BhmyUIR&#34; target=&#34;_blank&#34;&gt;http://caiyun.feixin.10086.cn/sh/2R9GuE4S1BhmyUIR&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;移动_通话信息数据包（大小972.9K），下载链接：
-&lt;a href=&#34;http://caiyun.feixin.10086.cn/sh/OvRMzW7hoe8cHZM1&#34; target=&#34;_blank&#34;&gt;http://caiyun.feixin.10086.cn/sh/OvRMzW7hoe8cHZM1&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;移动_轨迹信息数据包（大小4.2M），下载链接：
-&lt;a href=&#34;http://caiyun.feixin.10086.cn/sh/fAZG6k9UU-hdj0eZ&#34; target=&#34;_blank&#34;&gt;http://caiyun.feixin.10086.cn/sh/fAZG6k9UU-hdj0eZ&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;移动_上网信息数据包（大小886.4M），下载链接：
-&lt;a href=&#34;http://caiyun.feixin.10086.cn/sh/aKdAJmlM3Ga1Rv2J&#34; target=&#34;_blank&#34;&gt;http://caiyun.feixin.10086.cn/sh/aKdAJmlM3Ga1Rv2J&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;四维_地理空间数据包（大小55.2M），下载链接：
-&lt;a href=&#34;http://caiyun.feixin.10086.cn/sh/BlVCEFUO-RT-Phfy&#34; target=&#34;_blank&#34;&gt;http://caiyun.feixin.10086.cn/sh/BlVCEFUO-RT-Phfy&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;四维_交通数据包（大小145.5M），下载链接：
-&lt;a href=&#34;http://caiyun.feixin.10086.cn/sh/rQFBaFwZhx7atZOO&#34; target=&#34;_blank&#34;&gt;http://caiyun.feixin.10086.cn/sh/rQFBaFwZhx7atZOO&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;四维_气象数据包part1（大小911.9M），下载链接：
-&lt;a href=&#34;http://caiyun.feixin.10086.cn/sh/d65GTWEvzAuMF8BF&#34; target=&#34;_blank&#34;&gt;http://caiyun.feixin.10086.cn/sh/d65GTWEvzAuMF8BF&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;四维_气象数据包part2（大小1.3G），下载链接：
-&lt;a href=&#34;http://caiyun.feixin.10086.cn/sh/2zFL6Hj_3OowNiCq&#34; target=&#34;_blank&#34;&gt;http://caiyun.feixin.10086.cn/sh/2zFL6Hj_3OowNiCq&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;其他数据获取方式：&lt;/p&gt;
-
-&lt;p&gt;参赛选手在参赛过程中，如有获取聚合数据平台的数据需求，可以邮件形式（需包含及个人姓名、团队名称、数据需求清单）将需求发送至zhaoyu@zjdex.com，参赛选手的数据需求经审核通过后，会有专门的工作人员与参赛选手联系，为参赛选手提供聚合数据平台数据使用账号。&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>学校医保</title>
       <link>https://chengjunwang.com/en/note/2017-07-02-health-care/</link>
       <pubDate>Sun, 02 Jul 2017 00:00:00 +0000</pubDate>
@@ -1169,6 +1089,18 @@ Lazer等一批学者2009年在Science上发表题为“计算社会科学”的�
       
       <guid>https://chengjunwang.com/en/publication/com-books2015/</guid>
       <description>&lt;p&gt;杜骏飞, 曲飞帆, &lt;strong&gt;王成军&lt;/strong&gt;（2016）2015年中国新闻传播学论著评析. 新闻与传播研究，12：108-119&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Building Open Teams to Leverage the Power of Turnover</title>
+      <link>https://chengjunwang.com/en/publication/team-turnover/</link>
+      <pubDate>Thu, 02 Mar 2017 22:20:24 +0800</pubDate>
+      
+      <guid>https://chengjunwang.com/en/publication/team-turnover/</guid>
+      <description>&lt;p&gt;Keywords:team science; turnover; task allocation; uncertainty; collective wisdom&lt;/p&gt;
+
+&lt;p&gt;This is an ongoing work under preparation.&lt;/p&gt;
 </description>
     </item>
     
