@@ -119,6 +119,109 @@
     </item>
     
     <item>
+      <title>集智俱乐部暑期研读营</title>
+      <link>https://chengjunwang.com/zh/post/swarma-summer-camp/</link>
+      <pubDate>Tue, 18 Jul 2017 14:32:07 +0800</pubDate>
+      
+      <guid>https://chengjunwang.com/zh/post/swarma-summer-camp/</guid>
+      <description>
+
+&lt;p&gt;&lt;img src=&#34;http://oaf2qt3yk.bkt.clouddn.com/2fd6341c3b8203ef4cef54f7dbd6472f.png&#34; alt=&#34;evening7.17&#34; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;回到起点&#34;&gt;回到起点&lt;/h1&gt;
+
+&lt;p&gt;2017年7月18日 09:19只有研读营才能做的事情；大家因为项目的压力，每一个人都想得是一个可以deliver的东西。&lt;/p&gt;
+
+&lt;p&gt;虫洞和weak tie有什么关联？boltzmann machine与社会计算？&lt;/p&gt;
+
+&lt;p&gt;ising model与图灵机：一个社会系统在做计算。&lt;/p&gt;
+
+&lt;h2 id=&#34;boltzmann-machine&#34;&gt;Boltzmann Machine&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://oaf2qt3yk.bkt.clouddn.com/36eda36920ae58ce5a77995d72cef623.png&#34; alt=&#34;boltzman-machine-graph&#34; /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;A graphical representation of an example Boltzmann machine. Each undirected edge represents dependency. In this example there are 3 hidden units and 4 visible units. This is not a restricted Boltzmann machine.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;They are named after the &lt;strong&gt;Boltzmann distribution&lt;/strong&gt; in statistical mechanics, which is used in their sampling function. It was invented by &lt;code&gt;Geoffrey Hinton&lt;/code&gt; and Terry Sejnowski in 1985.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;unsupervised&lt;/strong&gt; machine learning
+
+&lt;ul&gt;
+&lt;li&gt;unsupervised learning需要记住所有的东西&lt;/li&gt;
+&lt;li&gt;supervised learning是建立mapping&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;ising model
+
+&lt;ul&gt;
+&lt;li&gt;graph as the background geometric structure&lt;/li&gt;
+&lt;li&gt;node
+
+&lt;ul&gt;
+&lt;li&gt;there is a binary &lt;strong&gt;spin&lt;/strong&gt; on each node&lt;/li&gt;
+&lt;li&gt;$\sigma_v = 1 \; or -1$&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;edge
+
+&lt;ul&gt;
+&lt;li&gt;hamiltonian (energy)&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;$$E = -\left(\sum&lt;em&gt;{i&amp;lt;j} w&lt;/em&gt;{ij} \, s_i \, s_j + \sum_i \theta_i \, s_i \right)$$&lt;/p&gt;
+
+&lt;p&gt;Where:
+* $w_{ij}$ is the connection strength between unit $j$ and unit $i$.
+* $s_i$ is the state, $s_i \in {0,1}$, of unit $i$.
+* $\theta_i$ is the bias of unit $i$ in the global energy function. ($-\theta_i$ is the activation threshold for the unit.)&lt;/p&gt;
+
+&lt;p&gt;Often the weights are represented as a symmetric matrix $W$, with zeros along the diagonal.&lt;/p&gt;
+
+&lt;p&gt;Newmann &lt;strong&gt;q modularity&lt;/strong&gt; hamiltonian on the network&lt;/p&gt;
+
+&lt;p&gt;sbm stochastic block model&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;deepwalk &lt;a href=&#34;http://www.perozzi.net/publications/14_kdd_deepwalk.pdf&#34; target=&#34;_blank&#34;&gt;http://www.perozzi.net/publications/14_kdd_deepwalk.pdf&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;node2vector &lt;a href=&#34;http://snap.stanford.edu/node2vec/&#34; target=&#34;_blank&#34;&gt;http://snap.stanford.edu/node2vec/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;闭上眼猜测，睁开眼观察，比较二者的差别。&lt;/p&gt;
+
+&lt;h2 id=&#34;word2vec&#34;&gt;word2vec&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.tensorflow.org/tutorials/word2vec&#34; target=&#34;_blank&#34;&gt;https://www.tensorflow.org/tutorials/word2vec&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;The humans working behind the ai curtain&lt;/p&gt;
+
+&lt;h2 id=&#34;experiment&#34;&gt;experiment&lt;/h2&gt;
+
+&lt;p&gt;McCombs, M; Shaw, D (1972). &amp;ldquo;The agenda-setting function of mass media&amp;rdquo;. Public Opinion Quarterly. 36 (2): 176. doi:10.&lt;sup&gt;1086&lt;/sup&gt;&amp;frasl;&lt;sub&gt;267990&lt;/sub&gt;.&lt;/p&gt;
+
+&lt;p&gt;hz2@princeton.edu&lt;/p&gt;
+
+&lt;h1 id=&#34;the-agenda-setting-function-of-mass-media&#34;&gt;The agenda-setting function of mass media&lt;/h1&gt;
+
+&lt;p&gt;In choosing and displaying news, editors, newsroom staff, and broadcasters play an important part in shaping political reality. Readers learn not only about a given issue, but also how much importance to attach to that issue from the amount of information in a news story and its position. In reflecting what candidates are saying during a campaign, the mass media may well determine the important issues—that is, the media may set the “agenda” of the campaign.&lt;/p&gt;
+
+&lt;h1 id=&#34;the-threshold-of-public-attention&#34;&gt;The Threshold of Public Attention&lt;/h1&gt;
+
+&lt;p&gt;The analysis reviews time series data for the period 1945 to 1980 on media coverage and corresponding public attention to a set of ten political issues including poverty, racial problems, Watergate, and Vietnam. The study focuses on the early stages of public awareness and the need for a “critical mass” or threshold to move a matter from the status of private concern to a public, political issue. The pattern of evolving public awareness varies dramatically for different types of issues. In some cases, the public appears to have a much steeper “response function” in reacting to real-world cues than the media; in other cases, the media seem to be more responsive. Modeling the growth of attention to public issues with the logistic curve met with modest success. The article concludes with a call for much closer coordination between agenda-setting research and the study of political cognition.&lt;/p&gt;
+
+&lt;h1 id=&#34;social-network-thresholds-in-the-diffusion-of-innovations&#34;&gt;Social network thresholds in the diffusion of innovations&lt;/h1&gt;
+
+&lt;p&gt;Threshold models have been postulated as one explanation for the success or failure of collective action and the diffusion of innovations. The present paper creates a social network threshold model of the diffusion of innovations based on the Ryan and Gross (1943) adopter categories: (1) early adopters; (2) early majority; (3) late majority; (4) laggards. This new model uses social networks as a basis for adopter categorization, instead of solely relying on the system-level analysis used previously. The present paper argues that these four adopter categories can be created either with respect to the entire social system, or with respect to an individual&amp;rsquo;s personal network. This dual typology is used to analyze three diffusion datasets to show how external influence and opinion leadership channel the diffusion of innovations. Network thresholds can be used (1) to vary the definition of behavioral contagion, (2) to predict the pattern of diffusion of innovations, and (3) to identify opinion leaders and followers in order to understand the two-step flow hypothesis better.&lt;/p&gt;
+
+&lt;h1 id=&#34;diffusion-of-innovations-and-policy-decision-making&#34;&gt;Diffusion of Innovations and Policy Decision-Making&lt;/h1&gt;
+
+&lt;p&gt;This article presents a general mathematical model of the diffusion of innovations, which incorporates mass media and interpersonal influence. The model is applied to three classic diffusion data sets: (a) use of hybrid corn, (b) knowledge of Eisenhower&amp;rsquo;s stroke, and &amp;copy; doctors’prescription of a new drug. Nonlinear regression is used to estimate the mathematical model. The results show that diffusion of hybrid corn occurred via interpersonal influence, whereas the diffusion of knowledge of Eisenhower&amp;rsquo;s stroke occurred via the mass media. For the diffusion of the new drug, the model shows that doctors who subscribed to few medical journals learned about the drug primarily through interpersonal influence, while doctors who subscribed to many medical journals learned about the drug through both mass media and interpersonal channels. Policy decision-makers can use diffusion models to (a) evaluate the effectiveness of media versus interpersonal campaigns, (b) make comparisons between subgroups, and &amp;copy; evaluate the effect of a policy.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Data Tech2017大赛</title>
       <link>https://chengjunwang.com/zh/post/zjmobile/</link>
       <pubDate>Sun, 16 Jul 2017 14:32:07 +0800</pubDate>
@@ -825,106 +928,6 @@ links$value = log(links$value)
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;除此之外，我还尝试了下&lt;a href=&#34;http://chengjun.github.io/vis/chinese_university_groups200more.html&#34; target=&#34;_blank&#34;&gt;两百所学校的情况：点这里。&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>NetworkX初步：创建网络、提取属性和绘图</title>
-      <link>https://chengjunwang.com/zh/post/cn/2014-08-14-networkx-intro/</link>
-      <pubDate>Thu, 14 Aug 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://chengjunwang.com/zh/post/cn/2014-08-14-networkx-intro/</guid>
-      <description>&lt;p&gt;NetworkX是使用python分析网络数据的重要武器。它的使用非常简单。&lt;/p&gt;
-
-&lt;p&gt;首先，创建网络对象：&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;import matplotlib.pyplot as plt
-import networkx as nx
-
-G=nx.DiGraph()
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;然后，添加链接：&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;G.add_edge(&#39;source&#39;,1,weight=80)
-G.add_edge(1,2,weight=50)
-G.add_edge(1,3,weight=30)
-G.add_edge(3,2,weight=10)
-G.add_edge(2,4,weight=20)
-G.add_edge(2,5,weight=30)
-G.add_edge(4,5,weight=10)
-G.add_edge(5,3,weight=5)
-G.add_edge(2,&#39;sink&#39;,weight=10)
-G.add_edge(4,&#39;sink&#39;,weight=10)
-G.add_edge(3,&#39;sink&#39;,weight=25)
-G.add_edge(5,&#39;sink&#39;,weight=35)
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;可以很容易提取边的权重:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;edges,colors = zip(*nx.get_edge_attributes(G,&#39;weight&#39;).items())
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;计算加权过的出度：&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;d = G.out_degree(weight = &#39;weight&#39;) #计算节点的中心度
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;选择一个常用的可视化方法：&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;pos=nx.spring_layout(G) #设置网络的布局
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;绘制网络:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;nx.draw(G, pos, node_color = &#39;orange&#39;, with_labels = True,
-        nodelist = d.keys(), node_size = [v*5 for v in d.values()], 
-        edgelist = edges, edge_color = colors, width = 5, edge_cmap=plt.cm.Blues)
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://chengjun.qiniudn.com/demo.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;计算流距离：&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;&#39;&#39;&#39;
-# get flow distance
-&#39;&#39;&#39;
-def toSink(G, i):
-        try:
-            di = G[i][&#39;sink&#39;].values()[0]
-        except:
-            di = 0 
-        return di
-
-def flowDistanceDT(G): #input a balanced nx graph
-    R = G.reverse()
-    mapping = {&#39;source&#39;:&#39;sink&#39;,&#39;sink&#39;:&#39;source&#39;} 
-    H = nx.relabel_nodes(R,mapping)
-    #---------initialize flow distance dict------
-    L = dict((i,1) for i in G.nodes())  #FlowDistance
-    #---------prepare weighted out-degree dict------
-    D = {i: toSink(G, i) for i in G.nodes()} #Di
-    T = G.out_degree(weight=&#39;weight&#39;)        #Ti
-    #---------iterate until converge------------
-    ls = np.array(L.values())
-    delta = len(L)*0.01 + 1
-    while delta &amp;gt; len(L)*0.01:
-        for i in L:
-            l=1
-            for m,n in H.edges(i):
-                l+=L[n]*H[m][n].values()[0]/float(T[m])
-            L[i]=l
-        delta = sum(np.abs(np.array(L.values()) - ls))
-        ls = np.array(L.values())
-    #---------clean the result-------
-    del L[&#39;sink&#39;]
-    for i in L:
-        L[i]-=1
-    L[&#39;sink&#39;] = L.pop(&#39;source&#39;)
-    T[&#39;sink&#39;] = T.pop(&#39;source&#39;)
-    D[&#39;sink&#39;] = D.pop(&#39;source&#39;)
-    return L.values(), D.values(), T.values()
-&lt;/code&gt;&lt;/pre&gt;
 </description>
     </item>
     
