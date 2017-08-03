@@ -128,15 +128,24 @@
 
 &lt;p&gt;&lt;img src=&#34;http://oaf2qt3yk.bkt.clouddn.com/2fd6341c3b8203ef4cef54f7dbd6472f.png&#34; alt=&#34;evening7.17&#34; /&gt;&lt;/p&gt;
 
-&lt;h1 id=&#34;回到起点&#34;&gt;回到起点&lt;/h1&gt;
+&lt;p&gt;今年的研读营主要由吴令飞和尤亦庄负责。吴令飞主张研读营应该解决只有研读营才能做的事情。最初大家想分组搞一些研究项目，但考虑到大家因为项目的压力，每一个人都想得是一个可以deliver的东西。虫洞和weak tie有什么关联？boltzmann machine与社会计算？ising model与图灵机：一个社会系统在做计算。就人员组成而言，主要分成了社会科学组合物理学组两大阵营。&lt;/p&gt;
 
-&lt;p&gt;2017年7月18日 09:19只有研读营才能做的事情；大家因为项目的压力，每一个人都想得是一个可以deliver的东西。&lt;/p&gt;
+&lt;h1 id=&#34;社科与物理两大阵营是否可以理解对方的工作&#34;&gt;社科与物理两大阵营是否可以理解对方的工作？&lt;/h1&gt;
 
-&lt;p&gt;虫洞和weak tie有什么关联？boltzmann machine与社会计算？&lt;/p&gt;
+&lt;p&gt;社科和物理两大阵营作为两个组，每个组提议五对文献，任意一对论文有一篇好的，一篇是相对差的。于是两组分别出了一套题目，仅仅给出标题和摘要。&lt;/p&gt;
 
-&lt;p&gt;ising model与图灵机：一个社会系统在做计算。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://wiki.swarma.net/images/4/48/Group-social-papers.pdf&#34; target=&#34;_blank&#34;&gt;社会科学组出的题目&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://wiki.swarma.net/images/7/7d/Group-physics-papers.pdf&#34; target=&#34;_blank&#34;&gt;物理组出的题目&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;h2 id=&#34;boltzmann-machine&#34;&gt;Boltzmann Machine&lt;/h2&gt;
+&lt;p&gt;过程如下：首先，每个人选出自己认为正确的选项；然后，汇总并公示组内结果，每个人发表意见；最后，小组决议，投票决定。最终的结果如下图所示，社科组错了一个，物理组错了三个。&lt;/p&gt;
+
+&lt;p&gt;这个结果略微让人吃惊，因为一般人认为物理组比较难，社科的人难以理解。结果却是对于那些发表出来的文章而言，物理组更搞不清楚社科的难度（“水”）有多深。当然，第二种解读就是，社会科学太软、太水，需要太多的口耳相传的训练，仅仅习得表面的功夫就只能做表面文章。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://oaf2qt3yk.bkt.clouddn.com/bd53c2608f5ec559393a88dd7dba0ea2.png&#34; alt=&#34;社科与物理两大阵营是否可以理解对方的工作&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;玻尔兹曼机&#34;&gt;玻尔兹曼机&lt;/h2&gt;
 
 &lt;p&gt;&lt;img src=&#34;http://oaf2qt3yk.bkt.clouddn.com/36eda36920ae58ce5a77995d72cef623.png&#34; alt=&#34;boltzman-machine-graph&#34; /&gt;&lt;/p&gt;
 
@@ -191,33 +200,59 @@
 
 &lt;p&gt;闭上眼猜测，睁开眼观察，比较二者的差别。&lt;/p&gt;
 
+&lt;h2 id=&#34;袁行远介绍雾霾预报&#34;&gt;袁行远介绍雾霾预报&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://oaf2qt3yk.bkt.clouddn.com/fee8f8445f3dbf217887e078ed18ac81.png&#34; alt=&#34;雾霾&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;肖达介绍rnn原理&#34;&gt;肖达介绍RNN原理&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://oaf2qt3yk.bkt.clouddn.com/a94dd5e7b694f5bcb5ae680122ba5c9d.png&#34; alt=&#34;rnn&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://oaf2qt3yk.bkt.clouddn.com/3b4701e0d6860abbb78959216c3b1d2d.png&#34; alt=&#34;xiaoda&#34; /&gt;&lt;/p&gt;
+
 &lt;h2 id=&#34;word2vec&#34;&gt;word2vec&lt;/h2&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://www.tensorflow.org/tutorials/word2vec&#34; target=&#34;_blank&#34;&gt;https://www.tensorflow.org/tutorials/word2vec&lt;/a&gt;&lt;/p&gt;
 
+&lt;h2 id=&#34;为什么深度学习有效&#34;&gt;为什么深度学习有效?&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://oaf2qt3yk.bkt.clouddn.com/c577e1dc974990e2d7b7893293d15ea6.png&#34; alt=&#34;为什么深度学习有效&#34; /&gt;&lt;/p&gt;
+
 &lt;p&gt;The humans working behind the ai curtain&lt;/p&gt;
 
-&lt;h2 id=&#34;experiment&#34;&gt;experiment&lt;/h2&gt;
+&lt;h2 id=&#34;董磊介绍城市研究&#34;&gt;董磊介绍城市研究&lt;/h2&gt;
 
-&lt;p&gt;McCombs, M; Shaw, D (1972). &amp;ldquo;The agenda-setting function of mass media&amp;rdquo;. Public Opinion Quarterly. 36 (2): 176. doi:10.&lt;sup&gt;1086&lt;/sup&gt;&amp;frasl;&lt;sub&gt;267990&lt;/sub&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://oaf2qt3yk.bkt.clouddn.com/90ef9b65b37fc877336c25e72113f1f4.png&#34; alt=&#34;董磊&#34; /&gt;&lt;/p&gt;
 
-&lt;p&gt;hz2@princeton.edu&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://oaf2qt3yk.bkt.clouddn.com/ba1cceabb662ea98c1c629363f3c6736.png&#34; alt=&#34;制造业&#34; /&gt;&lt;/p&gt;
 
-&lt;h1 id=&#34;the-agenda-setting-function-of-mass-media&#34;&gt;The agenda-setting function of mass media&lt;/h1&gt;
+&lt;p&gt;制造业的衰落&lt;/p&gt;
 
-&lt;p&gt;In choosing and displaying news, editors, newsroom staff, and broadcasters play an important part in shaping political reality. Readers learn not only about a given issue, but also how much importance to attach to that issue from the amount of information in a news story and its position. In reflecting what candidates are saying during a campaign, the mass media may well determine the important issues—that is, the media may set the “agenda” of the campaign.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://oaf2qt3yk.bkt.clouddn.com/74c1ad741f419d67ca138f463f2b4dc1.png&#34; alt=&#34;poverty&#34; /&gt;&lt;/p&gt;
 
-&lt;h1 id=&#34;the-threshold-of-public-attention&#34;&gt;The Threshold of Public Attention&lt;/h1&gt;
+&lt;p&gt;贫穷&lt;/p&gt;
 
-&lt;p&gt;The analysis reviews time series data for the period 1945 to 1980 on media coverage and corresponding public attention to a set of ten political issues including poverty, racial problems, Watergate, and Vietnam. The study focuses on the early stages of public awareness and the need for a “critical mass” or threshold to move a matter from the status of private concern to a public, political issue. The pattern of evolving public awareness varies dramatically for different types of issues. In some cases, the public appears to have a much steeper “response function” in reacting to real-world cues than the media; in other cases, the media seem to be more responsive. Modeling the growth of attention to public issues with the logistic curve met with modest success. The article concludes with a call for much closer coordination between agenda-setting research and the study of political cognition.&lt;/p&gt;
+&lt;h1 id=&#34;回到北京&#34;&gt;回到北京&lt;/h1&gt;
 
-&lt;h1 id=&#34;social-network-thresholds-in-the-diffusion-of-innovations&#34;&gt;Social network thresholds in the diffusion of innovations&lt;/h1&gt;
+&lt;p&gt;结束了四天古北水镇的研读营，来到清华参加集智年会。&lt;/p&gt;
 
-&lt;p&gt;Threshold models have been postulated as one explanation for the success or failure of collective action and the diffusion of innovations. The present paper creates a social network threshold model of the diffusion of innovations based on the Ryan and Gross (1943) adopter categories: (1) early adopters; (2) early majority; (3) late majority; (4) laggards. This new model uses social networks as a basis for adopter categorization, instead of solely relying on the system-level analysis used previously. The present paper argues that these four adopter categories can be created either with respect to the entire social system, or with respect to an individual&amp;rsquo;s personal network. This dual typology is used to analyze three diffusion datasets to show how external influence and opinion leadership channel the diffusion of innovations. Network thresholds can be used (1) to vary the definition of behavioral contagion, (2) to predict the pattern of diffusion of innovations, and (3) to identify opinion leaders and followers in order to understand the two-step flow hypothesis better.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://oaf2qt3yk.bkt.clouddn.com/e7d31bd4fcfe761a74e217a8e7e9b07a.png&#34; alt=&#34;红杉假日酒店&#34; /&gt;&lt;/p&gt;
 
-&lt;h1 id=&#34;diffusion-of-innovations-and-policy-decision-making&#34;&gt;Diffusion of Innovations and Policy Decision-Making&lt;/h1&gt;
+&lt;p&gt;&lt;img src=&#34;http://oaf2qt3yk.bkt.clouddn.com/15856c7ae7e5f065630ba2d673495ce1.png&#34; alt=&#34;yinyian&#34; /&gt;&lt;/p&gt;
 
-&lt;p&gt;This article presents a general mathematical model of the diffusion of innovations, which incorporates mass media and interpersonal influence. The model is applied to three classic diffusion data sets: (a) use of hybrid corn, (b) knowledge of Eisenhower&amp;rsquo;s stroke, and &amp;copy; doctors’prescription of a new drug. Nonlinear regression is used to estimate the mathematical model. The results show that diffusion of hybrid corn occurred via interpersonal influence, whereas the diffusion of knowledge of Eisenhower&amp;rsquo;s stroke occurred via the mass media. For the diffusion of the new drug, the model shows that doctors who subscribed to few medical journals learned about the drug primarily through interpersonal influence, while doctors who subscribed to many medical journals learned about the drug through both mass media and interpersonal channels. Policy decision-makers can use diffusion models to (a) evaluate the effectiveness of media versus interpersonal campaigns, (b) make comparisons between subgroups, and &amp;copy; evaluate the effect of a policy.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://oaf2qt3yk.bkt.clouddn.com/bb3f2ecdbbd34e663ea4e8fd07b20882.png&#34; alt=&#34;james&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://oaf2qt3yk.bkt.clouddn.com/18eaee1d9c2c9c48cd0895ba502d06a4.png&#34; alt=&#34;substitutions&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://oaf2qt3yk.bkt.clouddn.com/d65fa3234c4acc2d6ff49a6a8e492260.png&#34; alt=&#34;dashun&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://oaf2qt3yk.bkt.clouddn.com/1636c0143f9fd911f1407c92ba936b44.png&#34; alt=&#34;dashun2&#34; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;浮光掠影&#34;&gt;浮光掠影&lt;/h1&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://oaf2qt3yk.bkt.clouddn.com/05ec192dccf36de80f11b36ccc7fc38d.png&#34; alt=&#34;戚家牛杂&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;参加了夜游长城的活动。&lt;/p&gt;
 </description>
     </item>
     
