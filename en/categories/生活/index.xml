@@ -152,10 +152,39 @@
 
 &lt;h2 id=&#34;更新&#34;&gt;更新&lt;/h2&gt;
 
-&lt;p&gt;2016年4月开始，根据建设双一流大学的需要，对岗位工资进行调整。&lt;/p&gt;
+&lt;p&gt;一直以来，蓝鲸大学都是南京高校里收入最低的，当然是指中位平均数&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:1&#34;&gt;&lt;a rel=&#34;footnote&#34; href=&#34;#fn:1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;。2016年4月开始，根据建设&lt;strong&gt;双一流大学&lt;/strong&gt;的需要，对岗位工资进行调整。岗位工资增加3333元。另外，发新职工住房补贴2400；应发总额变成了16033元。比起中山大学一月两万的专职科研收入还要少4000元。但同时，国家的养老政策调整了，加入了大幅度的养老预扣1600，减去其它杂七杂八，到手11718元。到了7月份，交通补贴增加了200元。&lt;/p&gt;
 
-&lt;p&gt;岗位工资    交补  应发  会费  公积  养老预扣    大病互助    个税  实发
-13333   300 16033   66.67   1200    1600    20  1428.25 11718.08&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;岗位工资&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;交补&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;新职工房贴&lt;/th&gt;
+&lt;th align=&#34;right&#34;&gt;应发&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;会费&lt;/th&gt;
+&lt;th align=&#34;right&#34;&gt;公积&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;养老预扣&lt;/th&gt;
+&lt;th align=&#34;right&#34;&gt;大病互助&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;个税&lt;/th&gt;
+&lt;th align=&#34;right&#34;&gt;实发&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;13333&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;300&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;2400&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;16033&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;66.67&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;1200&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;1600&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;20&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;1428.25&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;11718.08&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
 
 &lt;h2 id=&#34;薪资纳税计算&#34;&gt;薪资纳税计算&lt;/h2&gt;
 
@@ -194,6 +223,15 @@ tax(500000, 0.45, 13505) = 213450
 &lt;h2 id=&#34;劳务报酬纳税计算&#34;&gt;劳务报酬纳税计算&lt;/h2&gt;
 
 &lt;p&gt;您输入的税前劳务报酬总额为：500000， 应纳所得税额为：153000， 税后劳务报酬总额为：347000&lt;/p&gt;
+&lt;div class=&#34;footnotes&#34;&gt;
+
+&lt;hr /&gt;
+
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34;&gt;青椒最可怜，但是院士，各种国家人才收入并不低。
+ &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:1&#34;&gt;&lt;sup&gt;^&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
 </description>
     </item>
     
