@@ -759,6 +759,14 @@
     
     
     <url>
+      <loc>https://chengjunwang.com/en/tags/diffusion/</loc>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
       <loc>https://chengjunwang.com/en/post/en/2014-03-17-fit-power-law/</loc>
     </url>
     
@@ -783,6 +791,14 @@
     
     
     <url>
+      <loc>https://chengjunwang.com/en/tags/landing-page/</loc>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
       <loc>https://chengjunwang.com/en/post/en/2013-03-14-learn-basic-epidemic-models-with-python/</loc>
     </url>
     
@@ -798,6 +814,15 @@
     
     <url>
       <loc>https://chengjunwang.com/en/categories/network/</loc>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+      <loc>https://chengjunwang.com/en/tags/news/</loc>
+      <lastmod>2016-04-20T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -830,6 +855,15 @@
     
     <url>
       <loc>https://chengjunwang.com/en/publication_types/</loc>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+      <loc>https://chengjunwang.com/en/tags/python/</loc>
+      <lastmod>2017-02-13T14:15:51+08:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -1051,15 +1085,6 @@
     <url>
       <loc>https://chengjunwang.com/en/categories/%E7%A0%94%E7%A9%B6/</loc>
       <lastmod>2015-11-18T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-      <loc>https://chengjunwang.com/en/tags/%E8%A5%BF%E5%AE%89/</loc>
-      <lastmod>2014-07-17T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
