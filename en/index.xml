@@ -11,6 +11,78 @@
     <atom:link href="/en/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>计算社会科学视野下的新闻学研究：挑战与机遇</title>
+      <link>https://chengjunwang.com/en/publication/computational-journalism/</link>
+      <pubDate>Tue, 15 Aug 2017 11:33:49 +0800</pubDate>
+      
+      <guid>https://chengjunwang.com/en/publication/computational-journalism/</guid>
+      <description>
+
+&lt;h3 id=&#34;引用&#34;&gt;引用&lt;/h3&gt;
+
+&lt;p&gt;王成军(2017).计算社会科学视野下的新闻学研究：挑战与机遇. 新闻大学,(04):26-32&lt;/p&gt;
+
+&lt;h3 id=&#34;journalism-studies-in-the-perspective-of-computational-social-science-challenges-and-opportunities&#34;&gt;Journalism Studies in the Perspective of Computational Social Science: Challenges and Opportunities&lt;/h3&gt;
+
+&lt;p&gt;WANG Cheng-Jun&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:1&#34;&gt;&lt;a rel=&#34;footnote&#34; href=&#34;#fn:1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;[Abstract]&lt;/strong&gt; Our society has entered the brand new era of computational social science. The new style of news production and the new paradigm of computational social science created both challenges and opportunities for the development of classic journalism research, which empower journalism research in the aspects of data, computational methods, network theory, and etc. This article aims to review the research on computational social science, especially its potential applications in journalism research. Finally, we offer a discussion on establishing the framework of computational communication research for better understanding of journalism research, with an emphasis on big questions, data, patterns, mechanisms, and general principles.
+&lt;strong&gt;[Key Words]&lt;/strong&gt; Computational Social Science;  Journalism;  Network Science;  Big Data； Computational Communication Research&lt;/p&gt;
+
+&lt;h1 id=&#34;参考文献&#34;&gt;参考文献&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&#34;1&#34; title=&#34;Computational Communication Collaboratory, School of Journalism and Communication, Nanjing University, Nanjing, Jiangsu, China, 210093
+&#34; target=&#34;_blank&#34;&gt;1&lt;/a&gt; Watts, D.J., “A twenty-first century science,” Nature 445(7127)  (2007): p. 489.
+[2] Lazer, D., et al., “Life in the network: The coming age of computational social science,” Science 323(5915) (2009): p. 721-723.
+[3] 王成军. 计算传播学:作为计算社会科学的传播学[J]. 中国网络传播研究, 2014.第193-206页
+[4] 王成军. 计算传播学的起源、概念和应用[J]. 编辑学刊, 2016(3): 第59-64页.
+[5] 祝建华, 彭泰权, 梁海, 王成军, 秦洁, 陈鹤鑫. 计算社会科学在新闻传播研究中的应用[J]. 科研信息化技术与应用, 2014. 5(2): 第3-13页.
+[6] Fu, J.S., “Leveraging Social Network Analysis for Research on Journalism in the Information Age,” Journal of Communication 66(2) (2016): p. 299-313.
+[7] Strohmaier, M. and C. Wagner, “Computational Social Science for the World Wide Web,” Intelligent Systems IEEE 29(5) (2014): p. 84-88.
+[8] Conte, R., et al., “Manifesto of computational social science,” The European Physical Journal Special Topics 214(1) (2012): p. 325-346.
+[9] Moran, E.F., et al., “Opinion: Building a 21st-century infrastructure for the social sciences,” Proceedings of the National Academy of Sciences of the United States of America 111(45) (2014): p. 15855-15856.
+[10] Cioffi-Revilla, C., “Computational social science,” WILEY Interdisciplinary Reviews: Computational Statistics 2(3) (2010): p. 259-271.
+[11] Giles, J., “Computational social science: Making the links,” Nature 488(7412) (2012): p. 448-450.
+[12] Watts, D.J. and S.H. Strogatz, “Collective dynamics of &amp;lsquo;small-world&amp;rsquo; networks”, Nature 393(6684) (1998): p. 440-442.
+[13] Kleinberg, J.M., “Navigation in a small world,” Nature 406(6798) (2000): p. 845.
+[14] Ugander, J., et al., “Structural diversity in social contagion,” Proceedings of the National Academy of Sciences 109(16) (2012): p. 5962-5966.
+[15] Eagle, N., M. Macy, and R. Claxton, “Network Diversity and Economic Development,” Science  328(5981) (2010): p. 1029-1031.
+[16] Dzogang, F., et al., “Discovering Periodic Patterns in Historical News,” Plos One 11(11) (2016): p. e0165736.
+[17] Michel, J.B., et al., “Quantitative analysis of culture using millions of digitized books,” Science 331(6014) (2011): p. 176-182.
+[18] Lansdall-Welfare, T., et al., “Content analysis of 150 years of British periodicals,” Proceedings of the National Academy of Sciences 114(4) (2017) p. E457-E465.
+[19] Wang, W., et al., “Growing pains for global monitoring of societal events,” Science 353(6307) (2016): p. 1502-1503.
+[20] Shumate, M. and N. Contractor, “The Emergence of Multidimensional Networks,” The SAGE handbook of organizational communication, editied by L.L.P.D.K. Mumby. 2013, Thousand Oaks: CA: Sage. p. 449-474.
+[21] Wang, C.J., et al., “The Collective Direction of Attention Diffusion”, Scientific Reports 6 (2016): p. 34059.
+[22] Hong, T.V., G. Lei, and M.E. McCombs, “Exploring &amp;ldquo;the World Outside and the Pictures in Our Heads&amp;rdquo;: A Network Agenda-Setting Study,” Journalism &amp;amp; Mass Communication Quarterly 91(4) (2014): p. 669-686.
+[23] Guo, L., “The Application of Social Network Analysis in Agenda Setting Research: A Methodological Exploration,” Journal of Broadcasting &amp;amp; Electronic Media 56(4) (2012): p. 616-631.
+[24] Himelboim, I., T.K. Chang, and S. McCreery, “International Network of Foreign News Coverage: Old Global Hierarchies in a New Online World”, Journalism &amp;amp; Mass Communication Quarterly 87(2) (2010): p. 297-314.
+[25] Miller, D.C., “A research note on mass communication: How our community heard about the death of president Roosevelt,” American Sociological Review 10(5) (1945): p. 691-694.
+[26] De Fleur, M.L., “The Growth and Decline of Research on the Diffusion of the News, 1945-1985,” Communication Research 14(1) (1987): p. 109-130.
+[27] Greenberg, B.S., “Person-to-Person Communication in the Diffusion of News Events,” Journalism Quarterly 41(4) (1964): p. 489-494.
+[28] Wang, C.J., “Information diffusion on Microblogs: Testing the threshold hypothesis of interpersonal effects,” in Conference on Complex System (CCS&amp;rsquo;15). 2015: Tempe, Arizona, USA.
+[29] Granovetter, M., “Threshold Models of Collective Behavior,” American Journal of Sociology 83(6) (1978): p. 1420-1443.
+[30] Singh, P., et al., “Threshold-limited spreading in social networks with multiple initiators,” Scientific Reports 3(7) (2013): p. 2330.
+[31] Shah, D.V., J.N. Cappella, and W.R. Neuman, “Big Data, Digital Media, and Computational Social Science: Possibilities and Perils,” Annals of the American Academy of Political &amp;amp; Social Science 659(1) (2015): p. 6-13.
+[32] Cohen, S., Hamilton, J. T., &amp;amp; Turner, F. “Computational journalism,” Communications of the
+       ACM 54(10) (2011): p. 66-71.
+[33] Watts, D.J., “Should social science be more solution-oriented?” Nature Human Behaviour 1 (2017): p. 0015.
+[34] Jake M. Hofman, Amit Sharma, and Duncan J. Watts. &amp;ldquo;Prediction and explanation in social
+systems.&amp;rdquo; Science 355(2017): p 486-488.&lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;
+&lt;div class=&#34;footnotes&#34;&gt;
+
+&lt;hr /&gt;
+
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34;&gt;Computational Communication Collaboratory, School of Journalism and Communication, Nanjing University, Nanjing, Jiangsu, China, 210093
+ &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:1&#34;&gt;&lt;sup&gt;^&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
       <title>学校医保</title>
       <link>https://chengjunwang.com/en/note/2017-07-02-health-care/</link>
       <pubDate>Sun, 02 Jul 2017 00:00:00 +0000</pubDate>
@@ -1128,18 +1200,6 @@ Lazer等一批学者2009年在Science上发表题为“计算社会科学”的�
       
       <guid>https://chengjunwang.com/en/publication/com-books2015/</guid>
       <description>&lt;p&gt;杜骏飞, 曲飞帆, &lt;strong&gt;王成军&lt;/strong&gt;（2016）2015年中国新闻传播学论著评析. 新闻与传播研究，12：108-119&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Building Open Teams to Leverage the Power of Turnover</title>
-      <link>https://chengjunwang.com/en/publication/team-turnover/</link>
-      <pubDate>Thu, 02 Mar 2017 22:20:24 +0800</pubDate>
-      
-      <guid>https://chengjunwang.com/en/publication/team-turnover/</guid>
-      <description>&lt;p&gt;Keywords:team science; turnover; task allocation; uncertainty; collective wisdom&lt;/p&gt;
-
-&lt;p&gt;This is an ongoing work under preparation.&lt;/p&gt;
 </description>
     </item>
     

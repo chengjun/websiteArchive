@@ -203,7 +203,7 @@ blockquote p:last-child {
 }
 
 .home-section {
-  background-color: rgb(247, 247, 247);
+  background-color: rgb(255, 255, 255);
   padding: 110px 0 110px 0;
   animation: intro 0.3s both;
   animation-delay: 0.15s;
@@ -214,7 +214,7 @@ blockquote p:last-child {
 }
 
 .home-section:nth-of-type(even) {
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(247, 247, 247);
 }
 
 @media screen and (max-width: 768px) {
