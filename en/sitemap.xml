@@ -735,8 +735,24 @@
     
     
     <url>
+      <loc>https://chengjunwang.com/en/tags/api/</loc>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
       <loc>https://chengjunwang.com/en/tags/attention-networks/</loc>
       <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+      <loc>https://chengjunwang.com/en/tags/bass-model/</loc>
       <priority>0</priority>
     </url>
     
@@ -891,6 +907,14 @@
     
     
     <url>
+      <loc>https://chengjunwang.com/en/tags/landing-page/</loc>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
       <loc>https://chengjunwang.com/en/post/en/2013-03-14-learn-basic-epidemic-models-with-python/</loc>
     </url>
     
@@ -930,7 +954,7 @@
     
     
     <url>
-      <loc>https://chengjunwang.com/en/tags/naive-bayes/</loc>
+      <loc>https://chengjunwang.com/en/tags/navigation/</loc>
       <priority>0</priority>
     </url>
     
@@ -986,6 +1010,14 @@
     
     
     <url>
+      <loc>https://chengjunwang.com/en/tags/power-law/</loc>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
       <loc>https://chengjunwang.com/en/project/</loc>
       <lastmod>2016-04-27T00:00:00+00:00</lastmod>
       <priority>0</priority>
@@ -996,6 +1028,15 @@
     
     <url>
       <loc>https://chengjunwang.com/en/publication_types/</loc>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+      <loc>https://chengjunwang.com/en/tags/python/</loc>
+      <lastmod>2017-02-13T14:15:51+08:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -1072,6 +1113,14 @@
     
     
     <url>
+      <loc>https://chengjunwang.com/en/tags/sentiment-analysis/</loc>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
       <loc>https://chengjunwang.com/en/post/en/2012-03-19-sentiment-analysi-with-python/</loc>
     </url>
     
@@ -1139,6 +1188,14 @@
     
     <url>
       <loc>https://chengjunwang.com/en/post/en/2014-03-14-weibo-landscape/</loc>
+    </url>
+    
+  
+    
+    
+    <url>
+      <loc>https://chengjunwang.com/en/tags/tweets/</loc>
+      <priority>0</priority>
     </url>
     
   
@@ -1221,6 +1278,15 @@
     
     
     <url>
+      <loc>https://chengjunwang.com/en/tags/%E5%9C%A3%E7%BB%8F/</loc>
+      <lastmod>2015-05-02T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
       <loc>https://chengjunwang.com/en/categories/%E5%AD%A6%E4%B9%A0/</loc>
       <lastmod>2016-10-13T00:00:00+00:00</lastmod>
       <priority>0</priority>
@@ -1284,8 +1350,8 @@
     
     
     <url>
-      <loc>https://chengjunwang.com/en/tags/%E6%95%B0%E6%8D%AE%E6%96%B0%E9%97%BB/</loc>
-      <lastmod>2015-11-13T00:00:00+00:00</lastmod>
+      <loc>https://chengjunwang.com/en/tags/%E6%89%80%E5%BE%97%E7%A8%8E/</loc>
+      <lastmod>2015-12-31T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -1385,15 +1451,6 @@
     <url>
       <loc>https://chengjunwang.com/en/tags/%E8%AF%AD%E5%BD%95/</loc>
       <lastmod>2014-08-29T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-      <loc>https://chengjunwang.com/en/tags/%E9%9B%86%E6%99%BA/</loc>
-      <lastmod>2015-08-06T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
