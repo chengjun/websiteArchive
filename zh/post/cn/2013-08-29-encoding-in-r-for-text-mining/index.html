@@ -151,7 +151,48 @@
   
 
 
+  
+
+<div class="col-sm-2 col-sm-offset-1 doc-sidebar">
+	<div id="sidebar">
+	<div class="sidebar-module">
+		<div class="sidebar-toc">
+			<h4 class="sidebar-heading">Table of Contents</h4>
+			
+			<nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#引言">引言</a>
+<ul>
+<li><a href="#遭遇-邪恶的拉丁引号">遭遇“邪恶的拉丁引号”</a></li>
+</ul></li>
+<li><a href="#1-读入数据不设定encoding">1. 读入数据不设定encoding！</a></li>
+<li><a href="#2-文本数据清理第一步-载入r包-选取变量">2. 文本数据清理第一步：载入R包，选取变量</a></li>
+<li><a href="#3-终于可以删除部分邪恶的拉丁引号">3. 终于可以删除部分邪恶的拉丁引号</a></li>
+<li><a href="#4-我这里根据研究需要-要剔除人名-地名-组织名">4. 我这里根据研究需要，要剔除人名、地名、组织名。</a></li>
+<li><a href="#5-将语料转化为documenttermmatrix">5. 将语料转化为DocumentTermMatrix</a></li>
+<li><a href="#6-你需要的一些背景知识">6. 你需要的一些背景知识</a>
+<ul>
+<li><a href="#6-1-如何识别和转化encoding的类型">6.1 如何识别和转化encoding的类型?</a></li>
+<li><a href="#6-2-如何看documenttermmatrix的内容">6.2 如何看DocumentTermMatrix的内容？</a></li>
+<li><a href="#6-3-关于一些需要跳出的符号">6.3 关于一些需要跳出的符号</a></li>
+</ul></li>
+</ul></li>
+</ul>
+</nav>
+		</div>
+	</div>
+	
+	</div>
+
+</div>
+
+
+
   <div class="article-container">
+
+
     <h1 itemprop="name">使用R做主题模型：举一个处理Encoding问题的例子</h1>
     
 
@@ -239,34 +280,6 @@
 </div>
 
 
-    
-      <div id="toc" class="well col-md-12">
-      <h2 itemprop="name">Table of Content</h2>
-      <nav id="TableOfContents">
-<ul>
-<li>
-<ul>
-<li><a href="#引言">引言</a>
-<ul>
-<li><a href="#遭遇-邪恶的拉丁引号">遭遇“邪恶的拉丁引号”</a></li>
-</ul></li>
-<li><a href="#1-读入数据不设定encoding">1. 读入数据不设定encoding！</a></li>
-<li><a href="#2-文本数据清理第一步-载入r包-选取变量">2. 文本数据清理第一步：载入R包，选取变量</a></li>
-<li><a href="#3-终于可以删除部分邪恶的拉丁引号">3. 终于可以删除部分邪恶的拉丁引号</a></li>
-<li><a href="#4-我这里根据研究需要-要剔除人名-地名-组织名">4. 我这里根据研究需要，要剔除人名、地名、组织名。</a></li>
-<li><a href="#5-将语料转化为documenttermmatrix">5. 将语料转化为DocumentTermMatrix</a></li>
-<li><a href="#6-你需要的一些背景知识">6. 你需要的一些背景知识</a>
-<ul>
-<li><a href="#6-1-如何识别和转化encoding的类型">6.1 如何识别和转化encoding的类型?</a></li>
-<li><a href="#6-2-如何看documenttermmatrix的内容">6.2 如何看DocumentTermMatrix的内容？</a></li>
-<li><a href="#6-3-关于一些需要跳出的符号">6.3 关于一些需要跳出的符号</a></li>
-</ul></li>
-</ul></li>
-</ul>
-</nav>
-      </div>
-    
-    
     <div class="article-style" itemprop="articleBody">
       
 
@@ -430,12 +443,11 @@ text1 = gsub(&quot;[.]&quot;, &quot; &quot;, text, fixed = TRUE )
 
     </div>
 
-
-
   </div>
 
 
 </article>
+
 
 <div class="container">
   <nav>
@@ -479,6 +491,8 @@ text1 = gsub(&quot;[.]&quot;, &quot; &quot;, text, fixed = TRUE )
 
 
 </div>
+
+
 
 <footer class="site-footer">
   <div class="container">
