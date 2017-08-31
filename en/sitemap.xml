@@ -309,7 +309,7 @@
     
     <url>
       <loc>https://chengjunwang.com/en/note/2016-12-31-summary/</loc>
-      <lastmod>2016-12-31T00:00:00+00:00</lastmod>
+      <lastmod>2016-12-31T12:00:00+00:00</lastmod>
     </url>
     
   
@@ -317,7 +317,7 @@
     
     <url>
       <loc>https://chengjunwang.com/en/note/2016-10-13-swarma-camp/</loc>
-      <lastmod>2016-10-13T00:00:00+00:00</lastmod>
+      <lastmod>2016-10-13T12:00:00+00:00</lastmod>
     </url>
     
   
@@ -783,22 +783,6 @@
     
     
     <url>
-      <loc>https://chengjunwang.com/en/tags/diffusion/</loc>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-      <loc>https://chengjunwang.com/en/tags/epidemic-models/</loc>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
       <loc>https://chengjunwang.com/en/post/en/2014-03-17-fit-power-law/</loc>
     </url>
     
@@ -817,15 +801,6 @@
     
     <url>
       <loc>https://chengjunwang.com/en/post/en/2013-08-06-present-pandoc-slides-on-octopress/</loc>
-    </url>
-    
-  
-    
-    
-    <url>
-      <loc>https://chengjunwang.com/en/tags/hugo/</loc>
-      <lastmod>2017-02-13T12:54:27+08:00</lastmod>
-      <priority>0</priority>
     </url>
     
   
@@ -854,15 +829,6 @@
     
     
     <url>
-      <loc>https://chengjunwang.com/en/tags/news/</loc>
-      <lastmod>2016-04-20T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
       <loc>https://chengjunwang.com/en/categories/octopress/</loc>
       <priority>0</priority>
     </url>
@@ -872,14 +838,6 @@
     
     <url>
       <loc>https://chengjunwang.com/en/post/en/2013-08-16-plot-regression-coefficient-with-r/</loc>
-    </url>
-    
-  
-    
-    
-    <url>
-      <loc>https://chengjunwang.com/en/tags/power-law/</loc>
-      <priority>0</priority>
     </url>
     
   
@@ -1080,7 +1038,7 @@
     
     <url>
       <loc>https://chengjunwang.com/en/categories/%E5%AD%A6%E4%B9%A0/</loc>
-      <lastmod>2016-10-13T00:00:00+00:00</lastmod>
+      <lastmod>2016-10-13T12:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -1107,7 +1065,7 @@
     
     <url>
       <loc>https://chengjunwang.com/en/categories/%E7%94%9F%E6%B4%BB/</loc>
-      <lastmod>2016-12-31T00:00:00+00:00</lastmod>
+      <lastmod>2016-12-31T12:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
