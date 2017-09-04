@@ -442,65 +442,6 @@
     
     <item>
       <title>社会行为研究在线实验平台</title>
-      <link>https://chengjunwang.com/zh/post/2017-6-24-turk/</link>
-      <pubDate>Sat, 24 Jun 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://chengjunwang.com/zh/post/2017-6-24-turk/</guid>
-      <description>
-
-&lt;h1 id=&#34;实验法&#34;&gt;实验法&lt;/h1&gt;
-
-&lt;p&gt;实验研究方法是由伽利略所发明的一种研究方法，成为了自然科学和社会科学研究最为重要的工具。自然科学取得了辉煌的研究成果，以物理学为例，主要的实证研究成果都来自于实验研究方法。社会科学的发展仅仅经历了不到三百年，最初主要模仿物理学的发展路径，例如，孔德最初将社会学命名为社会物理学，他认为人类社会是自然界的一个部分，人为的社会秩序通常可以看作自然秩序的延伸。然而，社会科学研究的研究对象&amp;ndash;人类具有意识、通过社会互动相互关联，构成了一种复杂系统，其复杂度远远超过自然科学，被邓肯-瓦茨称之为“二十一世纪的科学”。社会科学的实验往往局限于实验室内部，只能针对有限的人群（多为高校学生）开展实验研究，其外部效度有限，难以帮助研究者理解真实的社会和人类行为。&lt;/p&gt;
-
-&lt;h1 id=&#34;问题&#34;&gt;问题&lt;/h1&gt;
-
-&lt;p&gt;伴随着数据科学、网络科学的发展，采用计算方法为主的计算社会科学蓬勃发展。计算社会科学采用互联网大数据、网络科学等计算方法研究重要的社会科学问题。然而，既有的数据虽然规模巨大，但往往在很多维度上缺失，不能很好的回答因果关系、缺少控制，依然存在局限。如何针对大量的个体及其互动进行实验研究构成了互联网公司的产品经理、高校研究者共同的问题。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;问题&lt;/strong&gt;：如何针对大量的个体及其互动进行实验研究？&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://oaf2qt3yk.bkt.clouddn.com/da38e18664ffdc32018e1a96f84a1099.png&#34; alt=&#34;mechanic turk&#34; /&gt;&lt;/p&gt;
-
-&lt;h1 id=&#34;思路&#34;&gt;思路&lt;/h1&gt;
-
-&lt;p&gt;基于众包的人类计算搭建“行为实验室”为解决这一问题提出了崭新的思路。通过互联网平台招募实验参与者，通过智能的程序匹配实验者、实验对象，允许实验对象在虚拟的网络环境内进行互动共同完成一个实验任务，允许实验者进行灵活的实验控制，可以较低的价格吸引更多的实验设计者和参与者。采用这一思路最成功的案例来自于亚马逊的&lt;a href=&#34;https://www.mturk.com/mturk/welcome&#34; target=&#34;_blank&#34;&gt;Mechanic Turk&lt;/a&gt;（机械驱动的土耳其人）平台。&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;机械驱动的土耳其人（Mechanical Turk）原指18世纪一个打扮成土耳其人的机器人，曾巡回欧洲各国打败不少西洋棋高手，甚至跟名人如拿破仑或富兰克林都下过棋，后来被揭露为其实是里头藏着人的骗局。亚马逊借用这个典故，隐喻所提供的服务是一种外表提供机械性功能可是背后却是有人类智能支持。&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://oaf2qt3yk.bkt.clouddn.com/144732ecfc771f5c53b0722cf09476cc.png&#34; alt=&#34;vitual labs&#34; /&gt;
-来源：turkserver&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:turkserver&#34;&gt;&lt;a rel=&#34;footnote&#34; href=&#34;#fn:turkserver&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
-
-&lt;p&gt;互联网产品经理和高校研究者可以基于Mechanical Turk平台搭建虚拟实验室开展大规模的人类行为实验。虚拟实验室以这个互联网作为实验室，与传统的实验室相比，具有很多优点：&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;可以获取大规模的数据和互动关系&lt;/li&gt;
-&lt;li&gt;持续时间可以较长、对于地理位置的约束更小&lt;/li&gt;
-&lt;li&gt;可以让实验参与者开展更为现实而非抽象的简单的任务&lt;/li&gt;
-&lt;li&gt;可以实现更为精准的记录。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;微软研究员科学家邓肯-瓦茨及其合作者一直致力于发展线上虚拟实验室（virtual lab），例如他们之前曾搭建&lt;a href=&#34;http://www.princeton.edu/~mjs3/musiclab.shtml&#34; target=&#34;_blank&#34;&gt;music lab&lt;/a&gt;网站研究音乐的流行度。最近，他们借助于Mechanical Turk平台搭建了&lt;a href=&#34;http://turkserver.readthedocs.io/en/latest/examples/tutorial.html&#34; target=&#34;_blank&#34;&gt;turkserver&lt;/a&gt;，研究发表了两篇论文，分别研究了&lt;a href=&#34;https://www.nature.com/articles/ncomms13800&#34; target=&#34;_blank&#34;&gt;囚徒困境&lt;/a&gt; 和灾难救助过程中的&lt;a href=&#34;http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0153048&#34; target=&#34;_blank&#34;&gt;团队合作及其绩效&lt;/a&gt; 。&lt;/p&gt;
-
-&lt;p&gt;Mechanic Turk与turkserver相互配合的思路为实现大量的个体及其互动进行实验研究铺平了道路。但是目前在中国的互联网产业中，还缺乏提供类似Mechanic Turk的服务，而turkserver目前也缺少进一步的开发，这是提出本研究项目的主要目标。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;目标&lt;/strong&gt;：搭建一个简单的turkserver的扩展版，搭建一个社会行为研究在线实验平台。&lt;/p&gt;
-
-&lt;h1 id=&#34;参考文献&#34;&gt;参考文献&lt;/h1&gt;
-&lt;div class=&#34;footnotes&#34;&gt;
-
-&lt;hr /&gt;
-
-&lt;ol&gt;
-&lt;li id=&#34;fn:turkserver&#34;&gt;turkserver &lt;a href=&#34;http://turkserver.readthedocs.io/en/latest/examples/tutorial.html&#34; target=&#34;_blank&#34;&gt;http://turkserver.readthedocs.io/en/latest/examples/tutorial.html&lt;/a&gt;, 基于amazon的mechanic turk建设virtual lab
- &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:turkserver&#34;&gt;&lt;sup&gt;^&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/div&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>社会行为研究在线实验平台</title>
       <link>https://chengjunwang.com/zh/post/cn/2017-6-24-turk/</link>
       <pubDate>Sat, 24 Jun 2017 00:00:00 +0000</pubDate>
       
@@ -967,6 +908,106 @@ links$value = log(links$value)
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;除此之外，我还尝试了下&lt;a href=&#34;http://chengjun.github.io/vis/chinese_university_groups200more.html&#34; target=&#34;_blank&#34;&gt;两百所学校的情况：点这里。&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>NetworkX初步：创建网络、提取属性和绘图</title>
+      <link>https://chengjunwang.com/zh/post/cn/2014-08-14-networkx-intro/</link>
+      <pubDate>Thu, 14 Aug 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://chengjunwang.com/zh/post/cn/2014-08-14-networkx-intro/</guid>
+      <description>&lt;p&gt;NetworkX是使用python分析网络数据的重要武器。它的使用非常简单。&lt;/p&gt;
+
+&lt;p&gt;首先，创建网络对象：&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;import matplotlib.pyplot as plt
+import networkx as nx
+
+G=nx.DiGraph()
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;然后，添加链接：&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;G.add_edge(&#39;source&#39;,1,weight=80)
+G.add_edge(1,2,weight=50)
+G.add_edge(1,3,weight=30)
+G.add_edge(3,2,weight=10)
+G.add_edge(2,4,weight=20)
+G.add_edge(2,5,weight=30)
+G.add_edge(4,5,weight=10)
+G.add_edge(5,3,weight=5)
+G.add_edge(2,&#39;sink&#39;,weight=10)
+G.add_edge(4,&#39;sink&#39;,weight=10)
+G.add_edge(3,&#39;sink&#39;,weight=25)
+G.add_edge(5,&#39;sink&#39;,weight=35)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;可以很容易提取边的权重:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;edges,colors = zip(*nx.get_edge_attributes(G,&#39;weight&#39;).items())
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;计算加权过的出度：&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;d = G.out_degree(weight = &#39;weight&#39;) #计算节点的中心度
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;选择一个常用的可视化方法：&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;pos=nx.spring_layout(G) #设置网络的布局
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;绘制网络:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;nx.draw(G, pos, node_color = &#39;orange&#39;, with_labels = True,
+        nodelist = d.keys(), node_size = [v*5 for v in d.values()], 
+        edgelist = edges, edge_color = colors, width = 5, edge_cmap=plt.cm.Blues)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://chengjun.qiniudn.com/demo.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;计算流距离：&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&#39;&#39;&#39;
+# get flow distance
+&#39;&#39;&#39;
+def toSink(G, i):
+        try:
+            di = G[i][&#39;sink&#39;].values()[0]
+        except:
+            di = 0 
+        return di
+
+def flowDistanceDT(G): #input a balanced nx graph
+    R = G.reverse()
+    mapping = {&#39;source&#39;:&#39;sink&#39;,&#39;sink&#39;:&#39;source&#39;} 
+    H = nx.relabel_nodes(R,mapping)
+    #---------initialize flow distance dict------
+    L = dict((i,1) for i in G.nodes())  #FlowDistance
+    #---------prepare weighted out-degree dict------
+    D = {i: toSink(G, i) for i in G.nodes()} #Di
+    T = G.out_degree(weight=&#39;weight&#39;)        #Ti
+    #---------iterate until converge------------
+    ls = np.array(L.values())
+    delta = len(L)*0.01 + 1
+    while delta &amp;gt; len(L)*0.01:
+        for i in L:
+            l=1
+            for m,n in H.edges(i):
+                l+=L[n]*H[m][n].values()[0]/float(T[m])
+            L[i]=l
+        delta = sum(np.abs(np.array(L.values()) - ls))
+        ls = np.array(L.values())
+    #---------clean the result-------
+    del L[&#39;sink&#39;]
+    for i in L:
+        L[i]-=1
+    L[&#39;sink&#39;] = L.pop(&#39;source&#39;)
+    T[&#39;sink&#39;] = T.pop(&#39;source&#39;)
+    D[&#39;sink&#39;] = D.pop(&#39;source&#39;)
+    return L.values(), D.values(), T.values()
+&lt;/code&gt;&lt;/pre&gt;
 </description>
     </item>
     
