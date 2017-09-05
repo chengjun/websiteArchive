@@ -751,14 +751,6 @@
     
     
     <url>
-      <loc>https://chengjunwang.com/en/tags/api/</loc>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
       <loc>https://chengjunwang.com/en/categories/blog/</loc>
       <lastmod>2010-01-10T00:00:00+00:00</lastmod>
       <priority>0</priority>
@@ -791,7 +783,15 @@
     
     
     <url>
-      <loc>https://chengjunwang.com/en/tags/feedburner/</loc>
+      <loc>https://chengjunwang.com/en/tags/diffusion/</loc>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+      <loc>https://chengjunwang.com/en/tags/distribution/</loc>
       <priority>0</priority>
     </url>
     
@@ -812,6 +812,14 @@
   
     
     
+    <url>
+      <loc>https://chengjunwang.com/en/tags/googlevis/</loc>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
   
     
     
@@ -823,15 +831,8 @@
     
     
     <url>
-      <loc>https://chengjunwang.com/en/tags/howard-s/index.-becker/</loc>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-      <loc>https://chengjunwang.com/en/tags/information-diffusion/</loc>
+      <loc>https://chengjunwang.com/en/tags/hugo/</loc>
+      <lastmod>2017-02-13T12:54:27+08:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -840,6 +841,14 @@
     
     <url>
       <loc>https://chengjunwang.com/en/post/en/2013-03-14-learn-basic-epidemic-models-with-python/</loc>
+    </url>
+    
+  
+    
+    
+    <url>
+      <loc>https://chengjunwang.com/en/tags/machine-learning/</loc>
+      <priority>0</priority>
     </url>
     
   
@@ -876,14 +885,6 @@
     
     
     <url>
-      <loc>https://chengjunwang.com/en/tags/power-law/</loc>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
       <loc>https://chengjunwang.com/en/project/</loc>
       <lastmod>2016-04-27T00:00:00+00:00</lastmod>
       <priority>0</priority>
@@ -901,7 +902,25 @@
     
     
     <url>
+      <loc>https://chengjunwang.com/en/tags/python/</loc>
+      <lastmod>2017-02-13T14:15:51+08:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
       <loc>https://chengjunwang.com/en/categories/python/</loc>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+      <loc>https://chengjunwang.com/en/tags/r/</loc>
+      <lastmod>2017-02-13T14:16:05+08:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -953,14 +972,6 @@
     
     
     <url>
-      <loc>https://chengjunwang.com/en/tags/sentiment-analysis/</loc>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
       <loc>https://chengjunwang.com/en/post/en/2012-03-19-sentiment-analysi-with-python/</loc>
     </url>
     
@@ -997,14 +1008,6 @@
     
     
     <url>
-      <loc>https://chengjunwang.com/en/tags/subscribe/</loc>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
       <loc>https://chengjunwang.com/en/post/en/2014-09-03-subscribe-by-email/</loc>
     </url>
     
@@ -1028,6 +1031,14 @@
     
     <url>
       <loc>https://chengjunwang.com/en/post/en/2014-03-14-weibo-landscape/</loc>
+    </url>
+    
+  
+    
+    
+    <url>
+      <loc>https://chengjunwang.com/en/tags/tweets/</loc>
+      <priority>0</priority>
     </url>
     
   
@@ -1078,6 +1089,14 @@
     
     
     <url>
+      <loc>https://chengjunwang.com/en/tags/weibo/</loc>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
       <loc>https://chengjunwang.com/en/categories/writing/</loc>
       <priority>0</priority>
     </url>
@@ -1087,6 +1106,24 @@
     
     <url>
       <loc>https://chengjunwang.com/en/post/en/2015-02-22-scholarNetwork/</loc>
+    </url>
+    
+  
+    
+    
+    <url>
+      <loc>https://chengjunwang.com/en/tags/%E5%87%BA%E5%B7%AE/</loc>
+      <lastmod>2017-08-16T12:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+      <loc>https://chengjunwang.com/en/tags/%E5%9C%A3%E7%BB%8F/</loc>
+      <lastmod>2015-05-02T00:00:00+00:00</lastmod>
+      <priority>0</priority>
     </url>
     
   
@@ -1111,6 +1148,15 @@
     
     
     <url>
+      <loc>https://chengjunwang.com/en/tags/%E5%B7%A5%E4%BD%9C/</loc>
+      <lastmod>2017-03-15T12:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
       <loc>https://chengjunwang.com/en/categories/%E5%B7%A5%E4%BD%9C/</loc>
       <lastmod>2010-03-30T00:00:00+00:00</lastmod>
       <priority>0</priority>
@@ -1120,8 +1166,8 @@
     
     
     <url>
-      <loc>https://chengjunwang.com/en/tags/%E6%9C%BA%E7%A5%A8/</loc>
-      <lastmod>2017-08-16T12:00:00+00:00</lastmod>
+      <loc>https://chengjunwang.com/en/tags/%E6%88%B7%E5%8F%A3/</loc>
+      <lastmod>2017-03-15T12:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -1147,8 +1193,8 @@
     
     
     <url>
-      <loc>https://chengjunwang.com/en/tags/%E8%87%AA%E6%88%91%E4%BB%8B%E7%BB%8D/</loc>
-      <lastmod>2017-09-13T00:00:00+00:00</lastmod>
+      <loc>https://chengjunwang.com/en/tags/%E9%9B%86%E6%99%BA/</loc>
+      <lastmod>2015-08-06T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
