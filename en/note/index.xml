@@ -846,7 +846,12 @@
 &lt;h2 id=&#34;内容分工&#34;&gt;内容分工&lt;/h2&gt;
 
 &lt;ol&gt;
-&lt;li&gt;网络科学基础&amp;amp;信息扩散的计算因素（python+networkx基础）成军&lt;/li&gt;
+&lt;li&gt;网络科学基础&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;信息扩散的计算因素（python+networkx基础）成军&lt;/p&gt;
+
+&lt;ol&gt;
 &lt;li&gt;单条信息传播的测量&amp;amp;机器学习框架 小可&lt;/li&gt;
 &lt;li&gt;信息传播中的节点重要性&amp;amp;可视化 张伦&lt;/li&gt;
 &lt;li&gt;行为的传播机制 海波&lt;/li&gt;
