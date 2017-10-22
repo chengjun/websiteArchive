@@ -751,6 +751,14 @@
     
     
     <url>
+      <loc>https://chengjunwang.com/en/tags/api/</loc>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
       <loc>https://chengjunwang.com/en/tags/attention-networks/</loc>
       <lastmod>2016-04-27T00:00:00+00:00</lastmod>
       <priority>0</priority>
@@ -792,15 +800,6 @@
     
     
     <url>
-      <loc>https://chengjunwang.com/en/tags/computational-communication/</loc>
-      <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
       <loc>https://chengjunwang.com/en/categories/data/</loc>
       <priority>0</priority>
     </url>
@@ -810,14 +809,6 @@
     
     <url>
       <loc>https://chengjunwang.com/en/tags/diffusion/</loc>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-      <loc>https://chengjunwang.com/en/tags/epidemic-models/</loc>
       <priority>0</priority>
     </url>
     
@@ -857,14 +848,6 @@
     
     
     <url>
-      <loc>https://chengjunwang.com/en/tags/howard-s/index.-becker/</loc>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
       <loc>https://chengjunwang.com/en/tags/hugo/</loc>
       <lastmod>2017-02-13T12:54:27+08:00</lastmod>
       <priority>0</priority>
@@ -874,7 +857,7 @@
     
     
     <url>
-      <loc>https://chengjunwang.com/en/tags/javascript/</loc>
+      <loc>https://chengjunwang.com/en/tags/information-diffusion/</loc>
       <priority>0</priority>
     </url>
     
@@ -882,7 +865,8 @@
     
     
     <url>
-      <loc>https://chengjunwang.com/en/tags/landing-page/</loc>
+      <loc>https://chengjunwang.com/en/tags/jekyll/</loc>
+      <lastmod>2014-03-10T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -937,24 +921,7 @@
     
     
     <url>
-      <loc>https://chengjunwang.com/en/tags/navigation/</loc>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
       <loc>https://chengjunwang.com/en/categories/network/</loc>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-      <loc>https://chengjunwang.com/en/tags/news/</loc>
-      <lastmod>2016-04-20T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -978,23 +945,7 @@
     
     
     <url>
-      <loc>https://chengjunwang.com/en/tags/package/</loc>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
       <loc>https://chengjunwang.com/en/post/en/2013-08-16-plot-regression-coefficient-with-r/</loc>
-    </url>
-    
-  
-    
-    
-    <url>
-      <loc>https://chengjunwang.com/en/tags/power-law/</loc>
-      <priority>0</priority>
     </url>
     
   
@@ -1026,8 +977,8 @@
     
     
     <url>
-      <loc>https://chengjunwang.com/en/tags/python/</loc>
-      <lastmod>2017-02-13T14:15:51+08:00</lastmod>
+      <loc>https://chengjunwang.com/en/tags/r/</loc>
+      <lastmod>2017-02-13T14:16:05+08:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -1036,15 +987,6 @@
     
     <url>
       <loc>https://chengjunwang.com/en/categories/r/</loc>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-      <loc>https://chengjunwang.com/en/tags/r/</loc>
-      <lastmod>2017-02-13T14:16:05+08:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -1252,17 +1194,8 @@
     
     
     <url>
-      <loc>https://chengjunwang.com/en/tags/%E5%8D%97%E4%BA%AC/</loc>
+      <loc>https://chengjunwang.com/en/tags/%E5%87%BA%E5%B7%AE/</loc>
       <lastmod>2017-08-16T12:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-      <loc>https://chengjunwang.com/en/tags/%E5%9C%A3%E7%BB%8F/</loc>
-      <lastmod>2015-05-02T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -1288,35 +1221,8 @@
     
     
     <url>
-      <loc>https://chengjunwang.com/en/tags/%E5%AD%A6%E6%9C%AF/</loc>
-      <lastmod>2015-04-11T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-      <loc>https://chengjunwang.com/en/tags/%E5%AE%B6%E4%B9%A1/</loc>
-      <lastmod>2014-05-08T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
       <loc>https://chengjunwang.com/en/categories/%E5%B7%A5%E4%BD%9C/</loc>
       <lastmod>2010-03-30T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-      <loc>https://chengjunwang.com/en/tags/%E5%B7%A5%E4%BD%9C/</loc>
-      <lastmod>2017-03-15T12:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -1333,17 +1239,8 @@
     
     
     <url>
-      <loc>https://chengjunwang.com/en/tags/%E6%96%87%E6%A1%A3/</loc>
-      <lastmod>2010-03-30T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-      <loc>https://chengjunwang.com/en/tags/%E6%99%AF%E5%8C%BA/</loc>
-      <lastmod>2017-08-16T12:00:00+00:00</lastmod>
+      <loc>https://chengjunwang.com/en/tags/%E6%89%80%E5%BE%97%E7%A8%8E/</loc>
+      <lastmod>2015-12-31T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -1378,15 +1275,6 @@
     
     
     <url>
-      <loc>https://chengjunwang.com/en/tags/%E7%94%9F%E6%B4%BB/</loc>
-      <lastmod>2015-11-18T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
       <loc>https://chengjunwang.com/en/categories/%E7%A0%94%E7%A9%B6/</loc>
       <lastmod>2015-11-18T00:00:00+00:00</lastmod>
       <priority>0</priority>
@@ -1405,35 +1293,8 @@
     
     
     <url>
-      <loc>https://chengjunwang.com/en/tags/%E8%89%AF%E5%B8%88%E7%9B%8A%E5%8F%8B/</loc>
-      <lastmod>2014-06-09T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-      <loc>https://chengjunwang.com/en/tags/%E8%A5%BF%E5%AE%89/</loc>
-      <lastmod>2014-07-17T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
       <loc>https://chengjunwang.com/en/tags/%E8%AE%B0%E5%BD%95/</loc>
       <lastmod>2016-12-31T12:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-      <loc>https://chengjunwang.com/en/tags/%E8%AF%AD%E5%BD%95/</loc>
-      <lastmod>2014-08-29T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
