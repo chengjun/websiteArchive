@@ -476,11 +476,8 @@
     
     <url>
     
-      <xhtml:link rel="alternate" href="https://chengjunwang.com/zh/categories/network/" hreflang="zh"/>
-      <xhtml:link rel="alternate" href="https://chengjunwang.com/en/categories/network/" hreflang="en"/>
-    
-      <loc>https://chengjunwang.com/zh/categories/network/</loc>
-      <lastmod>2014-08-14T00:00:00+00:00</lastmod>
+      <loc>https://chengjunwang.com/zh/tags/network/</loc>
+      <lastmod>2012-07-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -489,8 +486,11 @@
     
     <url>
     
-      <loc>https://chengjunwang.com/zh/tags/network/</loc>
-      <lastmod>2012-07-01T00:00:00+00:00</lastmod>
+      <xhtml:link rel="alternate" href="https://chengjunwang.com/zh/categories/network/" hreflang="zh"/>
+      <xhtml:link rel="alternate" href="https://chengjunwang.com/en/categories/network/" hreflang="en"/>
+    
+      <loc>https://chengjunwang.com/zh/categories/network/</loc>
+      <lastmod>2014-08-14T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -588,8 +588,11 @@
     
     <url>
     
-      <loc>https://chengjunwang.com/zh/categories/python/</loc>
-      <lastmod>2014-08-31T00:00:00+00:00</lastmod>
+      <xhtml:link rel="alternate" href="https://chengjunwang.com/zh/tags/python/" hreflang="zh"/>
+      <xhtml:link rel="alternate" href="https://chengjunwang.com/en/tags/python/" hreflang="en"/>
+    
+      <loc>https://chengjunwang.com/zh/tags/python/</loc>
+      <lastmod>2014-08-14T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -611,11 +614,8 @@
     
     <url>
     
-      <xhtml:link rel="alternate" href="https://chengjunwang.com/zh/tags/python/" hreflang="zh"/>
-      <xhtml:link rel="alternate" href="https://chengjunwang.com/en/tags/python/" hreflang="en"/>
-    
-      <loc>https://chengjunwang.com/zh/tags/python/</loc>
-      <lastmod>2014-08-14T00:00:00+00:00</lastmod>
+      <loc>https://chengjunwang.com/zh/categories/python/</loc>
+      <lastmod>2014-08-31T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -624,11 +624,8 @@
     
     <url>
     
-      <xhtml:link rel="alternate" href="https://chengjunwang.com/zh/categories/r/" hreflang="zh"/>
-      <xhtml:link rel="alternate" href="https://chengjunwang.com/en/categories/r/" hreflang="en"/>
-    
-      <loc>https://chengjunwang.com/zh/categories/r/</loc>
-      <lastmod>2013-09-07T00:00:00+00:00</lastmod>
+      <loc>https://chengjunwang.com/zh/tags/r/</loc>
+      <lastmod>2013-08-04T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -650,8 +647,11 @@
     
     <url>
     
-      <loc>https://chengjunwang.com/zh/tags/r/</loc>
-      <lastmod>2013-08-04T00:00:00+00:00</lastmod>
+      <xhtml:link rel="alternate" href="https://chengjunwang.com/zh/categories/r/" hreflang="zh"/>
+      <xhtml:link rel="alternate" href="https://chengjunwang.com/en/categories/r/" hreflang="en"/>
+    
+      <loc>https://chengjunwang.com/zh/categories/r/</loc>
+      <lastmod>2013-09-07T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -841,8 +841,8 @@
     
     <url>
     
-      <loc>https://chengjunwang.com/zh/categories/%E5%8F%AF%E8%A7%86%E5%8C%96/</loc>
-      <lastmod>2014-08-27T00:00:00+00:00</lastmod>
+      <loc>https://chengjunwang.com/zh/tags/%E5%8F%AF%E8%A7%86%E5%8C%96/</loc>
+      <lastmod>2015-01-11T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -851,8 +851,8 @@
     
     <url>
     
-      <loc>https://chengjunwang.com/zh/tags/%E5%8F%AF%E8%A7%86%E5%8C%96/</loc>
-      <lastmod>2015-01-11T00:00:00+00:00</lastmod>
+      <loc>https://chengjunwang.com/zh/categories/%E5%8F%AF%E8%A7%86%E5%8C%96/</loc>
+      <lastmod>2014-08-27T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -1067,8 +1067,8 @@
     
     <url>
     
-      <loc>https://chengjunwang.com/zh/categories/%E7%A4%BE%E4%BC%9A%E7%BD%91%E7%BB%9C/</loc>
-      <lastmod>2014-05-05T00:00:00+00:00</lastmod>
+      <loc>https://chengjunwang.com/zh/tags/%E7%A4%BE%E4%BC%9A%E7%BD%91%E7%BB%9C/</loc>
+      <lastmod>2014-07-21T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -1077,8 +1077,8 @@
     
     <url>
     
-      <loc>https://chengjunwang.com/zh/tags/%E7%A4%BE%E4%BC%9A%E7%BD%91%E7%BB%9C/</loc>
-      <lastmod>2014-07-21T00:00:00+00:00</lastmod>
+      <loc>https://chengjunwang.com/zh/categories/%E7%A4%BE%E4%BC%9A%E7%BD%91%E7%BB%9C/</loc>
+      <lastmod>2014-05-05T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
