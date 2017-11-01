@@ -1,765 +1,314 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Academic on Academic</title>
-    <link>/</link>
-    <description>Recent content in Academic on Academic</description>
+    <title>Cheng-Jun Wang on Cheng-Jun Wang</title>
+    <link>https://chengjunwang.com/</link>
+    <description>Recent content in Cheng-Jun Wang on Cheng-Jun Wang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2017 Your Name</copyright>
+    <copyright>&amp;copy; 2016 Cheng-Jun Wang</copyright>
     <lastBuildDate>Wed, 20 Apr 2016 00:00:00 +0000</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>中国大百科：计算传播学</title>
-      <link>/post/cn/2017-10-29-ccr.zh/</link>
-      <pubDate>Sun, 29 Oct 2017 00:00:00 +0000</pubDate>
+      <title>On teaching</title>
+      <link>https://chengjunwang.com/note/note_archive/2015-10-30-on-teaching/</link>
+      <pubDate>Tue, 03 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>/post/cn/2017-10-29-ccr.zh/</guid>
-      <description>
+      <guid>https://chengjunwang.com/note/note_archive/2015-10-30-on-teaching/</guid>
+      <description>&lt;p&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;上课时间&#34;&gt;上课时间&lt;/h1&gt;
+
+&lt;p&gt;8:00-8:50
+9:00-9:50&lt;/p&gt;
+
+&lt;p&gt;10:10-11:00
+11:10-12:00&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;14:00-14:50
+15:00-15:50&lt;/p&gt;
+
+&lt;p&gt;16:10-17:00
+17:10-18:00&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;18:30-19:20
+19:30-20:20&lt;/p&gt;
+
+&lt;h1 id=&#34;学生使用github上传作业问题&#34;&gt;学生使用github上传作业问题&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/liruonanfdu/cjc2016/tree/gh-pages/homework/liruonan&#34; target=&#34;_blank&#34;&gt;https://github.com/liruonanfdu/cjc2016/tree/gh-pages/homework/liruonan&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;录制公开课视频&#34;&gt;录制公开课视频&lt;/h1&gt;
+
+&lt;p&gt;Quicktime可以比较方便地录制屏幕，因而是录制公开课的好方法。但录制屏幕的时候，我们往往还希望能够看到讲课的人，所以还需要录制视频。&lt;/p&gt;
+
+&lt;p&gt;解决方法很简单：&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;中文名称：计算传播学&lt;/li&gt;
-&lt;li&gt;拼音：jisuan chuanbo&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;外文名称：Computational Communication Research&lt;/li&gt;
+&lt;li&gt;首先，打开录制视频，但是并不点击开始录制。&lt;/li&gt;
+&lt;li&gt;然后，打开录制屏幕，点击开始。&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;基本概念条（长）&lt;/p&gt;
+&lt;p&gt;不过，我后来觉得使用这种方法其实比较没意义，读者看到教师的形象意义有多大呢？有或者没有其实影响不大。&lt;/p&gt;
 
-&lt;h1 id=&#34;1-定义和定性叙述&#34;&gt;1.    定义和定性叙述&lt;/h1&gt;
+&lt;h1 id=&#34;上课总结与自我评估材料&#34;&gt;上课总结与自我评估材料&lt;/h1&gt;
 
-&lt;p&gt;计算传播学是计算社会科学一个重要分支，它主要关注人类传播行为可计算的基础问题，以传播网络分析、传播文本挖掘、数据科学等作为主要的分析工具，大规模地收集并分析人类传播行为背后的模式或法则，并分析模式背后的生成机制以及基本原理，可以被广泛地应用到新闻学研究、 数据新闻和计算广告等场景。狭义的计算传播是指数据驱动的、借助于可算方法所进行的传播过程，而分析计算传播现象的研究领域就是计算传播学。&lt;/p&gt;
+&lt;p&gt;每门课都需要教师总结与自我评估，大概500字左右。本学期我为本科生开设两门课《数据新闻》、《计算传播与广告》&lt;/p&gt;
 
-&lt;h1 id=&#34;2-名称来源-又名&#34;&gt;2.    名称来源、又名&lt;/h1&gt;
+&lt;h2 id=&#34;该课程的开课历史&#34;&gt;该课程的开课历史&lt;/h2&gt;
 
-&lt;p&gt;计算传播学（英文：computational communication research）起源于计算社会科学（英文：computational social science）。2009年，Lazer等一批社会科学家、计算机科学家和物理学家在《科学》杂志上发表题为 “网络中的生活:计算社会科学时代的到来”的论文，宣告计算社会科学的诞生，提出发展计算 社会科学的主要逻辑在于我们就生活在网络之中，例如发邮件、打电话、在线支付。这些网络化的行为以数字化痕迹的方式被记录下来。计算社会科学是一个正在涌现的研究领域，强调采用计算方法研究社会科学，在利用人类社会不断增强的数据收集和分析能力方面。21世纪是计算社会科学的时代。计算社会科学具备前所未有的广度、深度和规模，为研究者提供了一个理解复杂社会系统的崭新机会。毫无疑问，采用可算方法、基于大规模的互联网上的人类传播行为数据为代表的传播学研究属于计算社会科学这一研究传统。&lt;/p&gt;
+&lt;p&gt;-《数据新闻》为南京大学第一门数据新闻相关课程
+-《计算传播与广告》为南京大学第一门计算广告相关课程&lt;/p&gt;
 
-&lt;h1 id=&#34;3-概念形成过程&#34;&gt;3.    概念形成过程&lt;/h1&gt;
+&lt;h2 id=&#34;备课或其它准备工作&#34;&gt;备课或其它准备工作&lt;/h2&gt;
 
-&lt;p&gt;计算传播学的概念起源于是计算社会科学的发展。计算社会科学以分析社会系统的复杂性作为主要研究范式。社会系统作为一个复杂系统，本身包含了多重本体以及他们之间众多的联系，既有从微观到宏观的联系，也有从宏观到微观的影 响，这造就了社会现象所特有的复杂性。计算社会科学研究主要关注复杂社会系统中的社会现象、社会行为、社会 组织的涌现，例如居住隔离、合作、互惠、社会规范、市场、国家。计算社会科学中的“涌现” 往往表现为一种群体智慧，它是通过海量的异质性个体之间的互动而在群体层面出现的结果。作为一种崭新的研究范式，计算社会科学从数据基础和计算方法两个层面丰富了人们对于 社会现象的认识。
-互联网上的人类传播行为是驱动计算社会科学发展的一个主要动力。与自然科学相比，社会现象卷入了海量的异质性个体的互动行为，因而异常复杂并且难以预测。通常社会科学研究的数据往往是用户报告的、静态的、小规模数据。互联网行为数据和大规模的互联网实验却提供了另外一种可能性。邓肯•瓦茨认为互联网传播数据将会变革我们对于群体人类行为的理解，并产生了一种新的社会科学，邓肯•瓦茨称之为“二十一世纪的科学”，也就是后来广为人知的“计算社会科学”。&lt;/p&gt;
+&lt;p&gt;《数据新闻》是南京大学新闻传播学院新闻采写课程包系列中的核心课程之一，旨在为所有新闻专业和有志于从事新闻工作的同学提供数据新闻的知识和基本训练。数据新闻（data journalism）是指基于数据的抓取、挖掘、统计、分析和可视化呈现的新型新闻报道方式。本课程以《The Data Journalism Handbook》（2012）和《数据可视化的基本原理与方法》（陈为等，2013）作为授课教材。通过本课程的同学应该具备基本的数据新闻素养，具体包括收集数据、清洗数据、分析数据、可视化数据的能力，能准确地运用数据语言报道新闻事实。就数据新闻的生产过程而言，例如有人将数据新闻的生产过程分为四个阶段：数据（Data）、过滤（Filter）、可视化（ Visualize）、故事（ Story）。我们将之分为五个阶段：•    1. 数据新闻选题&amp;mdash;-关于数据新闻的理论（1）•  2. 新闻数据抓取&amp;mdash;-Python（2）• 3. 新闻数据分析&amp;mdash;-Python,R（2）,Excel• 4. 传播数据新闻（如数据可视化）&amp;mdash;-Tableau（1）,HTML5（1）, Javascript（1）, echarts（1）, D3.js（1）, Processing（1）, Adobe Illustrator（1）• 5. 分析数据新闻效果&amp;mdash;-网站分析工具&lt;/p&gt;
 
-&lt;p&gt;Shah等人曾提出目前社交数据多为传播文本数据，并且与图形数据和视频数据相比，传播文本数据相对容易分析，因而计算社会科学将 传播文本数据作为关注焦点之一，并认为这意味着计算传播学(computational communication science)的兴起。Cohen等人2011年就提出采用计算机科学技术发展新闻学的主张。发展计算传播学研究已经成为计算社会科学在新闻传播领域主要工作。2014年祝建华等人回顾和讨论了计算社会科学在新闻传播领域的应用，按照经典的5W模型，系统介绍了计算社会科学在传播者、渠道、受众、内容、效果 五个领域的主要应用案例;(祝建华等，2014:p.3-13)。2014年，计算传播学作为一个正式的研究领域被提出，王成军从计算社会科学的视角论述了计算传播学的理论框架，强调了寻找人类传播行为“可计算的基因”作为计算传播学发展的基础，以传播网络分析和传播文本挖掘作为主要的研究方法。2015年第一本计算传播学相关的图书《社交网络上的计算传播学》出版，这本书系统总结了采用计算传播学的视角进行社交网络研究的方法、理论和进展。2015年，南京大学成立了计算传播学实验中心，2016年第一届计算传播学论坛召开。计算传播学研究社群的涌现及其建制化发展有助于建立身份认同、促进科研合作、增强 学科间对话、运用群体智慧解决现实和理论问题。&lt;/p&gt;
+&lt;p&gt;《计算传播与广告》是南京大学新闻传播学院为广告方向的本科生开设的任选课程之一，旨在为广告专业和有志于从事互联网广告工作的学生提供计算传播和广告的基础知识。计算传播学是计算社会科学的重要分支。它主要关注人类传播行为的可计算性基础，以传播网络分析、传播文本挖掘、数据科学等为主要分析工具，大规模地收集并分析人类传播行为数据，挖掘人类传播行为背后的模式和法则，分析模式背后的生成机制与基本原理，可以被广泛地应用于数据新闻和计算广告等场景。本课程注重编程训练、数学建模和可计算思维的培养。要求选课学生对于计算社会科学（computational Social Science）感兴趣；保持开放的头脑；不排斥基本的统计学和简单的计算机编程。计算广告（computational advertising）是计算传播学的重要研究方向和应用领域，由雅虎研究院资深研究员Andrei Broder首次提出，他认为，计算广告学是一门由信息科学、统计学、计算机科学以及微观经济学等学科交叉融合的新兴分支学科。之后，Andrei Broder和另一位Yahoo!的资深研究员一起在斯坦福开设了这门课程，被称为互联网广告从业人员的“必修课”。通过本课程的同学应该具备基本的计算传播与广告的基础知识。•   传播网络分析 Network Analysis•    博弈论基础 Gaming theory•    数据科学与编程工具 Data Science &amp;amp; Programming Tools• 互联网广告的理论框架• 了解计算广告在互联网广告中的位置和作用；•了解并掌握各种计算广告类型，包括广告投放样式、广告投放系统、广告计费方式分析等；•  掌握搜索广告检索的基本流程及常用技术，如信息检索、广告排序、广告投放定位等内容。•   学习使用软件程序对相关数据进行分析；&lt;/p&gt;
 
-&lt;h1 id=&#34;4-基本内容&#34;&gt;4. 基本内容&lt;/h1&gt;
+&lt;h2 id=&#34;遇到的困惑或难题-存在的不足与局限&#34;&gt;遇到的困惑或难题、存在的不足与局限&lt;/h2&gt;
 
-&lt;p&gt;一、计算传播学的定义首先强调的的人类传播行为可计算的基础。人类的传播行为、传播过程和传播技术构建了一种社会复杂系统。海量的数据和不断提升的计算能力为回答人类传播学的可计算性问题提供了重要条件。以新闻扩散研究为例， 1945年Miller 在《美国社会学评论》发表题为“一个大众传播研究笔记:我们的社区怎样知道罗斯福总统的 死讯”一文。这一研究传统经历了由盛到衰，直到社交媒体发展起来又重新复兴的过程。新闻扩散研究主要关注人们通过何种渠道获知新闻，尤其是社交和(大众)媒体在其中所扮演的角色。其中，以 Greenberg的研究最为精彩，他发现社交作用与新闻扩散规模之间存在“J”形曲线关系，即对于一些小的新闻事件，社交影响与扩散规模呈反比(可能主要靠媒体传播);对于重大的新闻，社交作用则可以促进新闻扩散。然而受到传统研究方式的限制， 研究者只能采用调查问卷的方式请受访者回忆并填写相应情况，所研究的议题也往往是总统遇 刺等突发新闻事件(往往需要被动地组织研究)，因而无论所选取的新闻事件的数量还是受访者的数量均有限，这在很大程度上限制了这一研究传统。而计算社会科学的方法和工具则可以 帮助新闻扩散研究突破选题和样本的限制。王成军利用新浪微博上的大规模信息扩散数据，采用网络门槛来度量社交影响。网络门槛起源于格兰诺维特所提出的门槛理论。门槛理论假设个体是否参加某种行为的决定主要取决于他或她的朋友参与的比例。该研究验证了“J”形曲线理论;并且发现信息扩散的深度可以调节社交作用的影响，那些扩散深度低的信息往往是局部社区的信息(无法穿透社区的束缚)，社交作用(以网络门槛度量)将限制它的扩散，例如传播一个普通人生日信息的人往往 是他或她最亲密的朋友，社交作用很强，但扩散规模很小。&lt;/p&gt;
+&lt;p&gt;《数据新闻》但是产业发展已经开始倒逼学术研究，今天的媒体市场和广告市场已经发生天翻地覆的变化。随着信息渠道的拓展，海量的信息扑来，但受众的注意力却非常有限。传统媒体面临广告下滑，读者背离，朝不保夕的窘境，纷纷抓住各种救命稻草，媒体融合和数据新闻就成了重点考虑对象。这反过来将压力传递到新闻传播教育中来。因为，数据新闻涉及到前端、设计等复杂的内容，所以并非计算机科学拓展的重点（与计算广告相比），所以本专业的学生还比较积极。但是存在学生统计基础薄弱、可视化训练不足、畏惧编程、上课玩手机等问题。&lt;/p&gt;
 
-&lt;p&gt;二、计算传播学强调了对海量数据的收集、分析和挖掘。驱动计算传播的数据主要来自人类使用数字媒体时记录下来的数字痕迹或数字指纹。例如，当我们通过有线电视观看电视节目的时候、通过手机打电话的时候、通过互联网使用社交网站的时候，我们的行为都会被数字媒体详细地记录下来。这些海量的人类传播行为数据和媒体使用记录的数据构成了采用计算方法研究人类传播行为的基础。&lt;/p&gt;
+&lt;p&gt;《计算传播与广告》但是，对于计算广告的崛起，传统的广告系的学生还毫无感受。也许，基于社会分工，这本来就应当是计算机系的学生考虑的问题，但无疑精细化的计算广告也要考虑广告的内容和形式，因为只有这样才能匹配媒体平台、受众、广告主三方的利益。所以，广告系的同学其实迫切需要普及计算广告技巧。新闻传播专业的学生整体而言需要与计算机专业更好的融合。&lt;/p&gt;
 
-&lt;p&gt;三、计算传播学强调对于基于数据的清洗、分析、挖掘等计算的过程。恰如伽利略通过自己改进的天文望远镜研究天文学，计算传播学主张利用强大的计算工具研究社会问题，例如自动化信息提取、网络分析、地理空间分析、复杂性模型、社会模拟模型等。在传统的内容分析中，需要编码员人工识别文本中的信息，采用文本挖掘的方法，可以自动地提取社会事件的属性，如事件、地点、参与者、文本的主题、文本的情感等。&lt;/p&gt;
+&lt;h2 id=&#34;尝试的创新与改革&#34;&gt;尝试的创新与改革&lt;/h2&gt;
 
-&lt;p&gt;四、计算传播学强调了将大问题、大理论和大数据相结合。驱动计算传播学发展的主要力量来源于人类传播行为当中的重大问题，发展计算传播研究有助于解决新闻产业变革过程中发现的理论问题和实际困惑。就理论视角而言，计算传播学更加倾向于从复杂性的角度看待传播行为和传播过程。这种复杂性的思维方式需要研究者具备对复杂系统分析的能力和方法。值得注意的是，2017年瓦茨再次发表多篇反思计算社会科学的文章，提倡计算社会科学应该更加强调以寻找 解决方案为导向(solution-oriented)，因为社会科学存在太多的相互之间不一致的理论，而这些理论往往不能很容易地验证。寻找解决方案为导向对于新闻产业非常有价值，以新闻推荐系统为例(比如今日头 条)，如何实现更为精准的新闻推荐亟需寻找更加有价值的视角、方法和理论，可以预见经过新闻传播产业检验的理论也将具有更强的解释力和预测力。&lt;/p&gt;
+&lt;p&gt;《数据新闻》因为我所带的课都是新课，所以在备课方面花了很多时间。因为我讲的课涉及到很多编程练习的环节，所以平时的作业是必须的。我采用github作为管理学生作业的平台，感觉非常好。可以非常好地实现对于学生分组、小组人物安排、学生问题答疑、作业发布、作业审核的全部过程。此外，还可以较好地以网页的形式展现学生的学习成果。这一点是我比较满意的。&lt;/p&gt;
 
-&lt;p&gt;五、计算传播学强调了计算社会科学在理论建构方面所追求的抽象阶梯，即一个好的研究必须是重大的社会问题驱动的，并且能够找到好的数据作为支撑(第一个阶梯);要能够从数据当中挖掘出行为的模式 (第二个阶梯);最好可以阐明模式背后对应的机制(第三个阶梯);并尝试理解背后的基本原理(第四个阶梯，往往难以企及)。从数据、模式、机制、原理这样一个不断提高的抽象的阶梯，可以衡量不同的研究所处的状态和水平，为衡量计算传播学的研究提供了一个基本的标准。&lt;/p&gt;
+&lt;p&gt;《计算传播与广告》因为我所带的课都是新课，所以在备课方面花了很多时间。因为我讲的课涉及到很多编程练习的环节，所以平时的作业是必须的。我采用github作为管理学生作业的平台，感觉非常好。可以非常好地实现对于学生分组、小组人物安排、学生问题答疑、作业发布、作业审核的全部过程。此外，还可以较好地以网页的形式展现学生的学习成果。这一点是我比较满意的。&lt;/p&gt;
 
-&lt;h1 id=&#34;5-意义和影响&#34;&gt;5.    意义和影响&lt;/h1&gt;
-
-&lt;p&gt;计算传播的应用有很多，例如数据新闻、计算广告、媒体推荐系统等。计算传播学在过去的几年里，产生了深远的影响。数据新闻风靡全球，重要的国际媒体纷纷采用数据新闻，基于开放数据、数据挖掘与可视化的方式为公众提供信息和经过数据分析所发现的知识；不管是门户网站、搜索引擎、社交媒体，纷纷将计算广告作为数据变现的重要渠道，以计算方法对广告进行拍卖，实现媒体、用户、广告主三方利益的匹配；媒体推荐系统成为个性化的信息获取途径，不管是传统的社交新闻网站，还是今日头条等后起之秀，纷纷采用协同过滤的方式为用户提供信息。&lt;/p&gt;
-
-&lt;h1 id=&#34;6-参考文献&#34;&gt;6.    参考文献&lt;/h1&gt;
-
-&lt;p&gt;Watts, D.J., &amp;ldquo;A twenty-first century science,&amp;rdquo; Nature 445 (127) (2007):p.489.&lt;/p&gt;
-
-&lt;p&gt;Lazer, D., et al., &amp;ldquo;Life in the network: The coming age of computational social science,&amp;rdquo; Science 323 (5915)
-(2009):pp.721-723.
-Greenberg, B.S., &amp;ldquo;Person-to-Person Communication in the Diffusion of News Events,&amp;rdquo; Journalism Quarterly 41 (4)(1964):pp.489-494.
-Watts, D.J., &amp;ldquo;Should social science be more solution-oriented?&amp;rdquo; Nature Human Behaviour 1 (2017):p.0015.&lt;/p&gt;
-
-&lt;p&gt;王成军.计算传播学:作为计算社会科学的传播学[J].中国网络传播研究，2014，第193-206页.&lt;/p&gt;
-
-&lt;p&gt;王成军.计算传播学的起源、概念和应用[J].编辑学刊，2016(3)，第59-64页.
-祝建华、彭泰权、梁海、王成军、秦洁、陈鹤鑫.计算社会科学在新闻传播研究中的应用[J].科研信息化技术与应用，2014(2)，
-第3-13页.&lt;/p&gt;
-
-&lt;p&gt;王成军 (2017).计算社会科学视野下的新闻学研究：挑战与机遇[J]. 新闻大学, 4:26-32&lt;/p&gt;
-
-&lt;h1 id=&#34;7-推荐书目&#34;&gt;7.    推荐书目&lt;/h1&gt;
-
-&lt;p&gt;许小可、胡海波、张伦、王成军 （2015）社交网络上的计算传播学. 北京：中国科学出版社.&lt;/p&gt;
+&lt;h2 id=&#34;对学生学习态度及课堂反馈的评价&#34;&gt;对学生学习态度及课堂反馈的评价&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;撰稿：王成军&lt;/li&gt;
-&lt;li&gt;审稿：巢乃鹏&lt;/li&gt;
+&lt;li&gt;对学生态度友好&lt;/li&gt;
+&lt;li&gt;认真审阅学生作业&lt;/li&gt;
 &lt;/ul&gt;
-</description>
+
+&lt;h2 id=&#34;未来的计划与设想等&#34;&gt;未来的计划与设想等。&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;两门课程均需要课堂上机练习，而目前学院仙林校区的机房仅仅有20个机位，迫切需要扩充机房。&lt;/li&gt;
+&lt;li&gt;减少课堂教学量，增加互动内容。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;取得成绩与经验&#34;&gt;取得成绩与经验&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;完成教学任务&lt;/li&gt;
+&lt;li&gt;增加师生互动&lt;/li&gt;
+&lt;li&gt;完成通过github交作业、批改作业&lt;/li&gt;
+&lt;li&gt;完成微信公号《微议题排行榜》的运营&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;关于计算传播教学的感悟&#34;&gt;关于计算传播教学的感悟&lt;/h3&gt;
+
+&lt;p&gt;2012年的时候，我还在香港城市大学读博士，有一门必修课是教如何给学生上课。课程要求必须要写自己的“教育哲学”。我写了我自己的计划：一、如何给ssci期刊投稿；二、网络分析的理论和应用；三、媒介市场分析。时光荏苒，三年过去，我回到大陆教书。第一门课变成遥不可及的梦想，没有本科生和研究生对这个感兴趣；第二门课和第三门课倒是有一部分开始变成现实。我在2015年春季给研究生开了《计算传播学导论》的工作坊，秋季开了两门课，一门是《数据新闻》，另一门是《计算传播与广告》。我给自己的定位很明确：发展和传播“计算传播学”。计算传播学是计算社会科学的一个重要分支。它主要关注传播网络分析、媒介文本挖掘、数据新闻、计算广告、数学模型、编程工具以及开放数据。理论起源于数据，阶及模式、法则、机制，而达根本原理。将人类传播行为（开放数据）可计算化的转化过程依赖于我们的研究方法（数学模型、编程工具），专注于我们的研究领域（传播网络分析、媒介文本挖掘），而应用于数据新闻和计算广告领域。&lt;/p&gt;
+
+&lt;p&gt;在过去的五年里，计算社会科学成为了一个不可抵挡的浪潮。这个浪潮有很多表现形式，比如“大数据”、“媒体融合”、“人工智能”纷纷成为周围人火热讨论的话题。虽然，很多人唱衰这些东西，但我一直认为说一个东西不行太容易了，每个人在批评别人的时候总能超水平发挥，因为我们倾向于盯着比人的短处。但是批评太容易了，难点其实一直在于怎么解决问题。没有意义之物，注定被历史的尘埃淹没，关键是要做出好的东西出来。在社会科学家们磨拳搽掌围攻大数据的时候，一群物理学家和计算机科学家开始投入到计算社会科学的研究中来。&lt;/p&gt;
+
+&lt;p&gt;社会科学内部对于变革并不敏感，计算机科学和自然科学加入社会科学的研究并不鲜见。实际上，这种场景太让人熟悉，80年代的时候，计算机科学发展计算语言学的时候就出现过。结果是两帮人说不到一块去，乔姆斯基作为语言生成学派反对计算语言学的基本观点，双方各自开自己的会议，办自己的期刊。但是，随着互联网的发展，传统语言学面对计算语言学的飞速发展已经失去了往日的那种反抗，二者终于在一方胜出的情况下开始产生有益的融合。问题是现在其他各个社会科学分支如何看待计算社会科学呢？如果对抗20年，基本上学科发展的一代人的时光就耗进去了。仅从学术争论而言，孤注一掷不是明智之举，似乎短期内依然没有明确答案。&lt;/p&gt;
+
+&lt;p&gt;但是产业发展已经开始倒逼学术研究，今天的媒体市场和广告市场已经发生天翻地覆的变化。随着信息渠道的拓展，海量的信息扑来，但受众的注意力却非常有限。传统媒体面临广告下滑，读者背离，朝不保夕的窘境，纷纷抓住各种救命稻草，媒体融合和数据新闻就成了重点考虑对象。这反过来将压力传递到新闻传播教育中来。因为，数据新闻涉及到前端、设计等复杂的内容，所以并非计算机科学拓展的重点（与计算广告相比），所以本专业的学生还比较积极。但是，对于计算广告的崛起，传统的广告系的学生还毫无感受。也许，基于社会分工，这本来就应当是计算机系的学生考虑的问题，但无疑精细化的计算广告也要考虑广告的内容和形式，因为只有这样才能匹配媒体平台、受众、广告主三方的利益。所以，广告系的同学其实迫切需要普及计算广告技巧。新闻传播专业的学生整体而言需要与计算机专业更好的融合。&lt;/p&gt;
+
+&lt;p&gt;教学是一个互动的过程。对于学生而言，是增长知识；对于老师而言，是教学相长。作为一个良性的互动，需要有一个正反馈的过程。但往往现实没有那么美好，比如春季给研究生开的《计算传播学导论》工作坊，后来发现根本不算教学量。给广告系本科生开的《计算传播与广告》没有几个广告系的同学选课，相反，开设的《数据新闻》则选课众多。另外，我在鼓楼面向研究生开的课程和读书会、一起公开课活动，来的主要是专业硕士，学术硕士并不感兴趣。硕士和博士的反馈让我更多我反思是为什么文科的研究生越做研究越固步自封，为什么本科生对于找工作更有兴趣？从我的角度而言，乐见其对于应用的关注，但也期望能够抓住那些对研究感兴趣的学生。&lt;/p&gt;
+
+&lt;p&gt;因为我所带的课都是新课，所以在备课方面花了很多时间。因为我讲的课涉及到很多编程练习的环节，所以平时的作业是必须的。我采用github作为管理学生作业的平台，感觉非常好。可以非常好地实现对于学生分组、小组人物安排、学生问题答疑、作业发布、作业审核的全部过程。此外，还可以较好地以网页的形式展现学生的学习成果。这一点是我比较满意的。&lt;/p&gt;
+
+&lt;p&gt;附《我的教育哲学》：&lt;/p&gt;
+
+&lt;h3 id=&#34;teaching-philosophy&#34;&gt;Teaching Philosophy&lt;/h3&gt;
+
+&lt;p&gt;Teaching is one process of self-presentation, through which you represent the long-living knowledge of human kind. It really matters what you are thinking about your teaching philosophy. For me, according to my understandings of teaching, I would like to highlight the equality of teaching and learning, the nature of human beings, and being open-minded.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Everyone is equal&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Respect Your AudienceA good lesson I learnt from this class come with a question: what should you do when your students did a good job? If not, what will you do? Reflect about the answer. Do you want to reward or punish them? Remember your answer in heart.&lt;/p&gt;
+
+&lt;p&gt;I would like to introduce Skinner’s box invented by Frederic Skinner, which contains levers that an animal can press, stimulus lights, electric grid, and food pellet. Following the logic of behaviorism, when the subject correctly performs the behavior, the chamber mechanism delivers food or another reward. Or else, the box delivers a punishment for incorrect or missing responses.&lt;/p&gt;
+
+&lt;p&gt;Thus, you may realize that you are treating your students as passive experimental subjects. The beginning point is never to treat your students as experimental rats, and even animals deserve your respects. Students are human beings who have their own feelings, emotions, and values. The first step of teaching should be to learn to respect your audiences, even though they behave passively, or make no progress.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Understanding human nature&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Effective teaching is to impose a set of values &amp;amp; beliefs on the student. The most important part should be teaching the students how to learn. The best way of learning should be acting according to the nature of human beings. Everyone had been a curious kid who wanted to explore every part of the world. Just like the cat is curious about the fish (sometime, for eating, while sometimes just for fun), human beings, in the nature, are curious about the part of knowledge they are interested in. The second step of effective teaching should be inspiring your students to fulfill their interests in the learning process.&lt;/p&gt;
+
+&lt;p&gt;I was always not surprised about the story of Thomas Suarez, the 12 years old kid who made two iphone Apps by learning python, java, and c. Little Thomas has been fascinated by computers and technology before kindergarten. What the teacher should think is how could we contribute to the audiences’ real interests, rather than beat around the bush complaining why the students have no passion in the boring class.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Being Open-minded&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;The world is always changed by new comers. The teacher will finally find his or her understandings about the cutting-edge scientific study are not perfect. The best way is not to constrain the students from challenging the tradition. Being open-minded, sit down, and enjoy the new outline drawn by the young people.&lt;/p&gt;</description>
     </item>
     
     <item>
-      <title>JCR2017 for COMMUNICATION</title>
-      <link>/post/cn/2017-09-06-jcr.zh/</link>
-      <pubDate>Wed, 06 Sep 2017 00:00:00 +0000</pubDate>
+      <title>自我介绍</title>
+      <link>https://chengjunwang.com/note/note_archive/2015-08-13-self-intro/</link>
+      <pubDate>Wed, 13 Sep 2017 00:00:00 +0000</pubDate>
       
-      <guid>/post/cn/2017-09-06-jcr.zh/</guid>
-      <description>
-
-&lt;h1 id=&#34;jcr&#34;&gt;JCR&lt;/h1&gt;
-
-&lt;p&gt;Journal Data Filtered By:  Selected JCR Year: 2016 Selected Editions: SCIE,SSCI Selected Categories: &amp;lsquo;COMMUNICATION&amp;rsquo; Selected Category Scheme: WoS&lt;/p&gt;
-
-&lt;h2 id=&#34;sci和scie&#34;&gt;SCI和SCIE&lt;/h2&gt;
-
-&lt;p&gt;SCI和SCIE（SCI Expanded）分别是科学引文索引及科学引文索引扩展版（即网络版），主要是收录自然科学、工程技术领域最具影响力的重要期刊，包括2000多种外围刊。&lt;/p&gt;
-
-&lt;h2 id=&#34;table&#34;&gt;Table&lt;/h2&gt;
-
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;Rank&lt;/th&gt;
-&lt;th&gt;Full Journal  Title&lt;/th&gt;
-&lt;th&gt;Total  Cites&lt;/th&gt;
-&lt;th&gt;Journal Impact  Factor&lt;/th&gt;
-&lt;th&gt;Eigenfactor  Score&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;1&lt;/td&gt;
-&lt;td&gt;NEW  MEDIA &amp;amp; SOCIETY&lt;/td&gt;
-&lt;td&gt;3,592&lt;/td&gt;
-&lt;td&gt;4.180&lt;/td&gt;
-&lt;td&gt;0.009310&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;2&lt;/td&gt;
-&lt;td&gt;Journal  of Computer-Mediated Communication&lt;/td&gt;
-&lt;td&gt;4,011&lt;/td&gt;
-&lt;td&gt;4.113&lt;/td&gt;
-&lt;td&gt;0.005010&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;3&lt;/td&gt;
-&lt;td&gt;JOURNAL  OF COMMUNICATION&lt;/td&gt;
-&lt;td&gt;5,579&lt;/td&gt;
-&lt;td&gt;3.914&lt;/td&gt;
-&lt;td&gt;0.008400&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;4&lt;/td&gt;
-&lt;td&gt;MEDIA  PSYCHOLOGY&lt;/td&gt;
-&lt;td&gt;1,264&lt;/td&gt;
-&lt;td&gt;3.125&lt;/td&gt;
-&lt;td&gt;0.001440&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;5&lt;/td&gt;
-&lt;td&gt;COMMUNICATION  RESEARCH&lt;/td&gt;
-&lt;td&gt;3,459&lt;/td&gt;
-&lt;td&gt;3.021&lt;/td&gt;
-&lt;td&gt;0.004410&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;6&lt;/td&gt;
-&lt;td&gt;JOURNAL  OF ADVERTISING&lt;/td&gt;
-&lt;td&gt;3,425&lt;/td&gt;
-&lt;td&gt;2.896&lt;/td&gt;
-&lt;td&gt;0.001740&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;7&lt;/td&gt;
-&lt;td&gt;COMMUNICATION  THEORY&lt;/td&gt;
-&lt;td&gt;1,834&lt;/td&gt;
-&lt;td&gt;2.773&lt;/td&gt;
-&lt;td&gt;0.002080&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;8&lt;/td&gt;
-&lt;td&gt;Information  Communication &amp;amp; Society&lt;/td&gt;
-&lt;td&gt;2,005&lt;/td&gt;
-&lt;td&gt;2.692&lt;/td&gt;
-&lt;td&gt;0.006010&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;9&lt;/td&gt;
-&lt;td&gt;PUBLIC  UNDERSTANDING OF SCIENCE&lt;/td&gt;
-&lt;td&gt;2,007&lt;/td&gt;
-&lt;td&gt;2.552&lt;/td&gt;
-&lt;td&gt;0.003150&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;10&lt;/td&gt;
-&lt;td&gt;POLITICAL  COMMUNICATION&lt;/td&gt;
-&lt;td&gt;1,645&lt;/td&gt;
-&lt;td&gt;2.467&lt;/td&gt;
-&lt;td&gt;0.002930&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;11&lt;/td&gt;
-&lt;td&gt;International  Journal of Advertising&lt;/td&gt;
-&lt;td&gt;1,308&lt;/td&gt;
-&lt;td&gt;2.451&lt;/td&gt;
-&lt;td&gt;0.001150&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;12&lt;/td&gt;
-&lt;td&gt;Comunicar&lt;/td&gt;
-&lt;td&gt;641&lt;/td&gt;
-&lt;td&gt;2.212&lt;/td&gt;
-&lt;td&gt;0.000650&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;13&lt;/td&gt;
-&lt;td&gt;IEEE  TRANSACTIONS ON PROFESSIONAL COMMUNICATION&lt;/td&gt;
-&lt;td&gt;515&lt;/td&gt;
-&lt;td&gt;2.184&lt;/td&gt;
-&lt;td&gt;0.000470&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;14&lt;/td&gt;
-&lt;td&gt;TECHNICAL  COMMUNICATION&lt;/td&gt;
-&lt;td&gt;615&lt;/td&gt;
-&lt;td&gt;2.100&lt;/td&gt;
-&lt;td&gt;0.000340&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;15&lt;/td&gt;
-&lt;td&gt;JOURNAL  OF ADVERTISING RESEARCH&lt;/td&gt;
-&lt;td&gt;2,514&lt;/td&gt;
-&lt;td&gt;2.034&lt;/td&gt;
-&lt;td&gt;0.000920&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;16&lt;/td&gt;
-&lt;td&gt;Journalism  Studies&lt;/td&gt;
-&lt;td&gt;1,335&lt;/td&gt;
-&lt;td&gt;1.927&lt;/td&gt;
-&lt;td&gt;0.002760&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;17&lt;/td&gt;
-&lt;td&gt;RESEARCH  ON LANGUAGE AND SOCIAL INTERACTION&lt;/td&gt;
-&lt;td&gt;1,016&lt;/td&gt;
-&lt;td&gt;1.896&lt;/td&gt;
-&lt;td&gt;0.003010&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;18&lt;/td&gt;
-&lt;td&gt;SCIENCE  COMMUNICATION&lt;/td&gt;
-&lt;td&gt;968&lt;/td&gt;
-&lt;td&gt;1.852&lt;/td&gt;
-&lt;td&gt;0.001640&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;19&lt;/td&gt;
-&lt;td&gt;COMMUNICATION  MONOGRAPHS&lt;/td&gt;
-&lt;td&gt;2,134&lt;/td&gt;
-&lt;td&gt;1.738&lt;/td&gt;
-&lt;td&gt;0.001150&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;20&lt;/td&gt;
-&lt;td&gt;Journal  of Public Relations Research&lt;/td&gt;
-&lt;td&gt;961&lt;/td&gt;
-&lt;td&gt;1.720&lt;/td&gt;
-&lt;td&gt;0.001000&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;21&lt;/td&gt;
-&lt;td&gt;JOURNAL  OF HEALTH COMMUNICATION&lt;/td&gt;
-&lt;td&gt;3,233&lt;/td&gt;
-&lt;td&gt;1.614&lt;/td&gt;
-&lt;td&gt;0.007080&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;22&lt;/td&gt;
-&lt;td&gt;HUMAN  COMMUNICATION RESEARCH&lt;/td&gt;
-&lt;td&gt;2,836&lt;/td&gt;
-&lt;td&gt;1.549&lt;/td&gt;
-&lt;td&gt;0.001950&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;23&lt;/td&gt;
-&lt;td&gt;TELECOMMUNICATIONS  POLICY&lt;/td&gt;
-&lt;td&gt;1,509&lt;/td&gt;
-&lt;td&gt;1.526&lt;/td&gt;
-&lt;td&gt;0.002270&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;24&lt;/td&gt;
-&lt;td&gt;International  Journal of Press-Politics&lt;/td&gt;
-&lt;td&gt;546&lt;/td&gt;
-&lt;td&gt;1.523&lt;/td&gt;
-&lt;td&gt;0.002120&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;25&lt;/td&gt;
-&lt;td&gt;International  Journal of Communication&lt;/td&gt;
-&lt;td&gt;1,277&lt;/td&gt;
-&lt;td&gt;1.498&lt;/td&gt;
-&lt;td&gt;0.005030&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;26&lt;/td&gt;
-&lt;td&gt;HEALTH  COMMUNICATION&lt;/td&gt;
-&lt;td&gt;2,207&lt;/td&gt;
-&lt;td&gt;1.487&lt;/td&gt;
-&lt;td&gt;0.004080&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;27&lt;/td&gt;
-&lt;td&gt;Journalism&lt;/td&gt;
-&lt;td&gt;1,204&lt;/td&gt;
-&lt;td&gt;1.484&lt;/td&gt;
-&lt;td&gt;0.003890&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;28&lt;/td&gt;
-&lt;td&gt;JOURNAL  OF SOCIAL AND PERSONAL RELATIONSHIPS&lt;/td&gt;
-&lt;td&gt;2,675&lt;/td&gt;
-&lt;td&gt;1.425&lt;/td&gt;
-&lt;td&gt;0.003050&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;29&lt;/td&gt;
-&lt;td&gt;Environmental  Communication-A Journal of Nature and Culture&lt;/td&gt;
-&lt;td&gt;371&lt;/td&gt;
-&lt;td&gt;1.414&lt;/td&gt;
-&lt;td&gt;0.000820&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;30&lt;/td&gt;
-&lt;td&gt;EUROPEAN  JOURNAL OF COMMUNICATION&lt;/td&gt;
-&lt;td&gt;885&lt;/td&gt;
-&lt;td&gt;1.408&lt;/td&gt;
-&lt;td&gt;0.001570&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;31&lt;/td&gt;
-&lt;td&gt;PUBLIC  OPINION QUARTERLY&lt;/td&gt;
-&lt;td&gt;4,893&lt;/td&gt;
-&lt;td&gt;1.386&lt;/td&gt;
-&lt;td&gt;0.005970&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;32&lt;/td&gt;
-&lt;td&gt;Television  &amp;amp; New Media&lt;/td&gt;
-&lt;td&gt;417&lt;/td&gt;
-&lt;td&gt;1.365&lt;/td&gt;
-&lt;td&gt;0.001080&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;33&lt;/td&gt;
-&lt;td&gt;JOURNAL  OF BROADCASTING &amp;amp; ELECTRONIC MEDIA&lt;/td&gt;
-&lt;td&gt;1,874&lt;/td&gt;
-&lt;td&gt;1.311&lt;/td&gt;
-&lt;td&gt;0.002040&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;33&lt;/td&gt;
-&lt;td&gt;PUBLIC  RELATIONS REVIEW&lt;/td&gt;
-&lt;td&gt;2,704&lt;/td&gt;
-&lt;td&gt;1.311&lt;/td&gt;
-&lt;td&gt;0.003070&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;35&lt;/td&gt;
-&lt;td&gt;Mass  Communication and Society&lt;/td&gt;
-&lt;td&gt;984&lt;/td&gt;
-&lt;td&gt;1.308&lt;/td&gt;
-&lt;td&gt;0.001660&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;36&lt;/td&gt;
-&lt;td&gt;JOURNALISM  &amp;amp; MASS COMMUNICATION QUARTERLY&lt;/td&gt;
-&lt;td&gt;1,574&lt;/td&gt;
-&lt;td&gt;1.301&lt;/td&gt;
-&lt;td&gt;0.001620&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;37&lt;/td&gt;
-&lt;td&gt;JOURNAL  OF LANGUAGE AND SOCIAL PSYCHOLOGY&lt;/td&gt;
-&lt;td&gt;1,011&lt;/td&gt;
-&lt;td&gt;1.272&lt;/td&gt;
-&lt;td&gt;0.000910&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;38&lt;/td&gt;
-&lt;td&gt;INTERNATIONAL  JOURNAL OF PUBLIC OPINION RESEARCH&lt;/td&gt;
-&lt;td&gt;851&lt;/td&gt;
-&lt;td&gt;1.254&lt;/td&gt;
-&lt;td&gt;0.001770&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;39&lt;/td&gt;
-&lt;td&gt;WRITTEN  COMMUNICATION&lt;/td&gt;
-&lt;td&gt;669&lt;/td&gt;
-&lt;td&gt;1.200&lt;/td&gt;
-&lt;td&gt;0.000850&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;40&lt;/td&gt;
-&lt;td&gt;MEDIA  CULTURE &amp;amp; SOCIETY&lt;/td&gt;
-&lt;td&gt;1,533&lt;/td&gt;
-&lt;td&gt;1.128&lt;/td&gt;
-&lt;td&gt;0.003180&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;41&lt;/td&gt;
-&lt;td&gt;Games  and Culture&lt;/td&gt;
-&lt;td&gt;436&lt;/td&gt;
-&lt;td&gt;1.109&lt;/td&gt;
-&lt;td&gt;0.000410&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;42&lt;/td&gt;
-&lt;td&gt;Management  Communication Quarterly&lt;/td&gt;
-&lt;td&gt;995&lt;/td&gt;
-&lt;td&gt;1.091&lt;/td&gt;
-&lt;td&gt;0.001130&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;43&lt;/td&gt;
-&lt;td&gt;Discourse  &amp;amp; Communication&lt;/td&gt;
-&lt;td&gt;326&lt;/td&gt;
-&lt;td&gt;1.085&lt;/td&gt;
-&lt;td&gt;0.000850&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;44&lt;/td&gt;
-&lt;td&gt;JOURNAL  OF BUSINESS AND TECHNICAL COMMUNICATION&lt;/td&gt;
-&lt;td&gt;243&lt;/td&gt;
-&lt;td&gt;1.062&lt;/td&gt;
-&lt;td&gt;0.000260&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;45&lt;/td&gt;
-&lt;td&gt;Journal  of Media Psychology-Theories Methods and Applications&lt;/td&gt;
-&lt;td&gt;292&lt;/td&gt;
-&lt;td&gt;1.057&lt;/td&gt;
-&lt;td&gt;0.000680&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;46&lt;/td&gt;
-&lt;td&gt;Ecquid  Novi-African Journalism Studies&lt;/td&gt;
-&lt;td&gt;153&lt;/td&gt;
-&lt;td&gt;1.056&lt;/td&gt;
-&lt;td&gt;0.000450&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;47&lt;/td&gt;
-&lt;td&gt;DISCOURSE  &amp;amp; SOCIETY&lt;/td&gt;
-&lt;td&gt;1,354&lt;/td&gt;
-&lt;td&gt;1.029&lt;/td&gt;
-&lt;td&gt;0.001420&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;48&lt;/td&gt;
-&lt;td&gt;Discourse  Context &amp;amp; Media&lt;/td&gt;
-&lt;td&gt;89&lt;/td&gt;
-&lt;td&gt;1.000&lt;/td&gt;
-&lt;td&gt;0.000590&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;49&lt;/td&gt;
-&lt;td&gt;Interaction  Studies&lt;/td&gt;
-&lt;td&gt;370&lt;/td&gt;
-&lt;td&gt;0.958&lt;/td&gt;
-&lt;td&gt;0.000660&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;50&lt;/td&gt;
-&lt;td&gt;Convergence-The  International Journal of Research into New Media Technologies&lt;/td&gt;
-&lt;td&gt;455&lt;/td&gt;
-&lt;td&gt;0.950&lt;/td&gt;
-&lt;td&gt;0.000870&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;51&lt;/td&gt;
-&lt;td&gt;Communications-European  Journal of Communication Research&lt;/td&gt;
-&lt;td&gt;340&lt;/td&gt;
-&lt;td&gt;0.933&lt;/td&gt;
-&lt;td&gt;0.000460&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;52&lt;/td&gt;
-&lt;td&gt;Critical  Discourse Studies&lt;/td&gt;
-&lt;td&gt;308&lt;/td&gt;
-&lt;td&gt;0.882&lt;/td&gt;
-&lt;td&gt;0.001090&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;53&lt;/td&gt;
-&lt;td&gt;CRITICAL  STUDIES IN MEDIA COMMUNICATION&lt;/td&gt;
-&lt;td&gt;448&lt;/td&gt;
-&lt;td&gt;0.881&lt;/td&gt;
-&lt;td&gt;0.000560&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;54&lt;/td&gt;
-&lt;td&gt;DISCOURSE  STUDIES&lt;/td&gt;
-&lt;td&gt;1,046&lt;/td&gt;
-&lt;td&gt;0.833&lt;/td&gt;
-&lt;td&gt;0.001650&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;55&lt;/td&gt;
-&lt;td&gt;LANGUAGE  &amp;amp; COMMUNICATION&lt;/td&gt;
-&lt;td&gt;848&lt;/td&gt;
-&lt;td&gt;0.793&lt;/td&gt;
-&lt;td&gt;0.001080&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;56&lt;/td&gt;
-&lt;td&gt;INTERNATIONAL  JOURNAL OF CONFLICT MANAGEMENT&lt;/td&gt;
-&lt;td&gt;652&lt;/td&gt;
-&lt;td&gt;0.786&lt;/td&gt;
-&lt;td&gt;0.000290&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;57&lt;/td&gt;
-&lt;td&gt;Communication  and Critical-Cultural Studies&lt;/td&gt;
-&lt;td&gt;249&lt;/td&gt;
-&lt;td&gt;0.767&lt;/td&gt;
-&lt;td&gt;0.000670&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;58&lt;/td&gt;
-&lt;td&gt;PERSONAL  RELATIONSHIPS&lt;/td&gt;
-&lt;td&gt;1,856&lt;/td&gt;
-&lt;td&gt;0.739&lt;/td&gt;
-&lt;td&gt;0.002100&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;59&lt;/td&gt;
-&lt;td&gt;Argumentation&lt;/td&gt;
-&lt;td&gt;324&lt;/td&gt;
-&lt;td&gt;0.689&lt;/td&gt;
-&lt;td&gt;0.000310&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;59&lt;/td&gt;
-&lt;td&gt;Visual  Communication&lt;/td&gt;
-&lt;td&gt;353&lt;/td&gt;
-&lt;td&gt;0.689&lt;/td&gt;
-&lt;td&gt;0.000760&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;61&lt;/td&gt;
-&lt;td&gt;Translator&lt;/td&gt;
-&lt;td&gt;236&lt;/td&gt;
-&lt;td&gt;0.686&lt;/td&gt;
-&lt;td&gt;0.000280&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;62&lt;/td&gt;
-&lt;td&gt;Asian  Journal of Communication&lt;/td&gt;
-&lt;td&gt;347&lt;/td&gt;
-&lt;td&gt;0.638&lt;/td&gt;
-&lt;td&gt;0.000570&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;63&lt;/td&gt;
-&lt;td&gt;International  Communication Gazette&lt;/td&gt;
-&lt;td&gt;486&lt;/td&gt;
-&lt;td&gt;0.622&lt;/td&gt;
-&lt;td&gt;0.001030&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;64&lt;/td&gt;
-&lt;td&gt;Chinese  Journal of Communication&lt;/td&gt;
-&lt;td&gt;129&lt;/td&gt;
-&lt;td&gt;0.562&lt;/td&gt;
-&lt;td&gt;0.000430&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;65&lt;/td&gt;
-&lt;td&gt;Social  Semiotics&lt;/td&gt;
-&lt;td&gt;344&lt;/td&gt;
-&lt;td&gt;0.484&lt;/td&gt;
-&lt;td&gt;0.000720&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;66&lt;/td&gt;
-&lt;td&gt;Continuum-Journal  of Media &amp;amp; Cultural Studies&lt;/td&gt;
-&lt;td&gt;496&lt;/td&gt;
-&lt;td&gt;0.468&lt;/td&gt;
-&lt;td&gt;0.000910&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;67&lt;/td&gt;
-&lt;td&gt;QUARTERLY  JOURNAL OF SPEECH&lt;/td&gt;
-&lt;td&gt;737&lt;/td&gt;
-&lt;td&gt;0.460&lt;/td&gt;
-&lt;td&gt;0.000270&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;68&lt;/td&gt;
-&lt;td&gt;Communication  Culture &amp;amp; Critique&lt;/td&gt;
-&lt;td&gt;209&lt;/td&gt;
-&lt;td&gt;0.448&lt;/td&gt;
-&lt;td&gt;0.000710&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;68&lt;/td&gt;
-&lt;td&gt;Text  &amp;amp; Talk&lt;/td&gt;
-&lt;td&gt;297&lt;/td&gt;
-&lt;td&gt;0.448&lt;/td&gt;
-&lt;td&gt;0.000830&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;70&lt;/td&gt;
-&lt;td&gt;Journal  of Mass Media Ethics&lt;/td&gt;
-&lt;td&gt;243&lt;/td&gt;
-&lt;td&gt;0.419&lt;/td&gt;
-&lt;td&gt;0.000370&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;71&lt;/td&gt;
-&lt;td&gt;JAVNOST-THE  PUBLIC&lt;/td&gt;
-&lt;td&gt;191&lt;/td&gt;
-&lt;td&gt;0.413&lt;/td&gt;
-&lt;td&gt;0.000330&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;72&lt;/td&gt;
-&lt;td&gt;Media  International Australia&lt;/td&gt;
-&lt;td&gt;264&lt;/td&gt;
-&lt;td&gt;0.346&lt;/td&gt;
-&lt;td&gt;0.000680&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;73&lt;/td&gt;
-&lt;td&gt;Rhetoric  Society Quarterly&lt;/td&gt;
-&lt;td&gt;204&lt;/td&gt;
-&lt;td&gt;0.333&lt;/td&gt;
-&lt;td&gt;0.000300&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;74&lt;/td&gt;
-&lt;td&gt;NARRATIVE  INQUIRY&lt;/td&gt;
-&lt;td&gt;379&lt;/td&gt;
-&lt;td&gt;0.317&lt;/td&gt;
-&lt;td&gt;0.000430&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;75&lt;/td&gt;
-&lt;td&gt;JOURNAL  OF APPLIED COMMUNICATION RESEARCH&lt;/td&gt;
-&lt;td&gt;692&lt;/td&gt;
-&lt;td&gt;0.308&lt;/td&gt;
-&lt;td&gt;0.000720&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;76&lt;/td&gt;
-&lt;td&gt;JOURNAL  OF MEDIA ECONOMICS&lt;/td&gt;
-&lt;td&gt;187&lt;/td&gt;
-&lt;td&gt;0.217&lt;/td&gt;
-&lt;td&gt;0.000170&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;77&lt;/td&gt;
-&lt;td&gt;African  Journalism Studies&lt;/td&gt;
-&lt;td&gt;12&lt;/td&gt;
-&lt;td&gt;0.171&lt;/td&gt;
-&lt;td&gt;0.000020&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;77&lt;/td&gt;
-&lt;td&gt;Tijdschrift  voor Communicatiewetenschap&lt;/td&gt;
-&lt;td&gt;42&lt;/td&gt;
-&lt;td&gt;0.171&lt;/td&gt;
-&lt;td&gt;0.000070&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;79&lt;/td&gt;
-&lt;td&gt;Journal  of African Media Studies&lt;/td&gt;
-&lt;td&gt;66&lt;/td&gt;
-&lt;td&gt;0.154&lt;/td&gt;
-&lt;td&gt;0.000180&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-</description>
+      <guid>https://chengjunwang.com/note/note_archive/2015-08-13-self-intro/</guid>
+      <description>&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://oaf2qt3yk.bkt.clouddn.com/9a9fb654d7fda814f7120820149af236.png&#34; alt=&#34;pic&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;王成军&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;通讯地址：南京市汉口路22号南京大学新闻传播学院A306&lt;/li&gt;
+&lt;li&gt;邮编：210093&lt;/li&gt;
+&lt;li&gt;Email: wangchj04@gmail.com&lt;/li&gt;
+&lt;li&gt;所在系：新闻与新媒体系&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;个人简历&#34;&gt;个人简历&lt;/h1&gt;
+
+&lt;p&gt;王成军，传播学博士。现为&lt;a href=&#34;http://jc.nju.edu.cn&#34; target=&#34;_blank&#34;&gt;南京大学新闻传播学院&lt;/a&gt;副教授、奥美数据科学实验室主任，&lt;a href=&#34;https://computational-communication.com/collaboratory/&#34; target=&#34;_blank&#34;&gt;计算传播学实验中心&lt;/a&gt;副主任、兼任香港城市大学&lt;a href=&#34;http://weblab.com.cityu.edu.hk&#34; target=&#34;_blank&#34;&gt;互联网挖掘实验室&lt;/a&gt;研究员。参与翻译《社会网络分析：方法与实践》(2013)、合著《社交网络上的计算传播学》(2015)。致力于采用计算社会科学视角研究人类传播行为，研究成果发表于SSCI和SCI索引的期刊，例如Scientific Reports、PloS ONE、Physica A、Cyberpsychology。2014年发起创建了&lt;a href=&#34;https://computational-communication.com&#34; target=&#34;_blank&#34;&gt;计算传播网&lt;/a&gt;。&lt;/p&gt;
+
+&lt;p&gt;欢迎对计算社会科学、网络科学、文本挖掘、统计分析、数据挖掘、机器学习感兴趣的同学报考我的硕士或加入&lt;a href=&#34;https://computational-communication.com/collaboratory/&#34; target=&#34;_blank&#34;&gt;计算传播学实验中心&lt;/a&gt;。更多信息见个人网站：&lt;a href=&#34;https://chengjunwang.com/&#34;&gt;https://chengjunwang.com/&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;研究领域&#34;&gt;研究领域：&lt;/h2&gt;
+
+&lt;p&gt;计算传播学；信息扩散；注意力流动；公共讨论；互联网数据挖掘&lt;/p&gt;
+
+&lt;h2 id=&#34;开设主要课程&#34;&gt;开设主要课程：&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;《数据新闻》&lt;/li&gt;
+&lt;li&gt;《计算传播》&lt;/li&gt;
+&lt;li&gt;《大数据挖掘与分析》&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;主持和参与科研项目&#34;&gt;主持和参与科研项目：&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;中国博士后科学基金面上项目（第57批，2015M571722), 找回失落的参考群体:对“沉默的螺旋”进行多主体建模，2015/01-&lt;sup&gt;2018&lt;/sup&gt;&amp;frasl;&lt;sub&gt;01&lt;/sub&gt;, 5万元，主持&lt;/li&gt;
+&lt;li&gt;国家社会科学基金青年项目, 15CXW017, 媒体融合背景下舆论形成与扩散的网络门槛研究，2015/07-&lt;sup&gt;2018&lt;/sup&gt;&amp;frasl;&lt;sub&gt;12&lt;/sub&gt;, 20万元，主持&lt;/li&gt;
+&lt;li&gt;互联网上的集体注意力流研究，国家自然科学基金（常规面上项目），61673070，2017/01-&lt;sup&gt;2020&lt;/sup&gt;&amp;frasl;&lt;sub&gt;12&lt;/sub&gt;,￥655200, 参与&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;出版专著&#34;&gt;出版专著：&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;许小可、胡海波、张伦、王成军 （2015）社交网络上的计算传播学. 北京：中国科学出版社.&lt;/li&gt;
+&lt;li&gt;王薇、王成军、王颖、刘璟 &lt;a href=&#34;2013&#34; target=&#34;_blank&#34;&gt;翻译&lt;/a&gt;. 社会网络分析：方法与实践. 北京：机械工业出版社&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&#34;发表论文&#34;&gt;发表论文：&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Wang, C.J., Wu, L*, Zhang, J., Janssen, M. (2016) The Collective Direction of Attention Diffusion. Scientific Reports. 6: 34059. doi:10.1038/srep34059&lt;/li&gt;
+&lt;li&gt;Wu, L., Wang, C.J. * (2016) Tracing the Attention of Moving Citizens. Scientific Reports. 6, 33103. doi: 10.1038/srep33103&lt;/li&gt;
+&lt;li&gt;Wang, C.J., Wu, L.*(2016) The Scaling of Attention Networks. Physica A: Statistical Mechanics and its Applications.448:196–204, doi: 10.1016/j.physa.2015.12.081&lt;/li&gt;
+&lt;li&gt;Chandra, Y.*, Jiang, C.L., Wang, C.J. (2016) Mining Social Entrepreneurship Strategies Using Topic Modeling, PLOS ONE, 11(3):e0151342, doi: 10.1371/journal.pone.0151342&lt;/li&gt;
+&lt;li&gt;Jiang, C.L*, Yang, M, Wang, C.J. (2017) Self-Disclosure to Parents in Emerging Adulthood: Examining the Roles of Perceived Parental Responsiveness and Separation-Individuation. Journal of Social and Personal Relationships. 34(4): 425-445. doi: 10.1177 /0265407516640603&lt;/li&gt;
+&lt;li&gt;Wang, C.J. *, Wang, P.P, Zhu, J.J.H (2013). Discussing Occupy Wall Street on Twitter: Longitudinal network analysis of equality, emotion, and stability of public discussion. Cyberpsychology, Behavior, and Social Networking, 16(9): 679-685. doi:10.1089/cyber.2012.0409. [SSCI, Ranking &lt;sup&gt;4&lt;/sup&gt;&amp;frasl;&lt;sub&gt;72&lt;/sub&gt; in Communication by 5-year IF].&lt;/li&gt;
+&lt;li&gt;王成军 (2017).计算社会科学视野下的新闻学研究：挑战与机遇. 新闻大学, 4:26-32&lt;/li&gt;
+&lt;li&gt;杜骏飞, 曲飞帆, 王成军（2016）2015年中国新闻传播学论著评析. 新闻与传播研究，12:108-119&lt;/li&gt;
+&lt;li&gt;王成军 (2016) 大数据计算与《纸牌屋》生成. 传媒评论. 5:63-66&lt;/li&gt;
+&lt;li&gt;王成军 (2016) 计算传播学的起源、概念与应用. 编辑学刊,3:59-64.&lt;/li&gt;
+&lt;li&gt;王成军（2015）计算传播学: 作为计算社会科学的传播学.中国网络传播研究,8:193-208.&lt;/li&gt;
+&lt;li&gt;王成军（2015）“今日头条”的技术逻辑: 网络爬虫+矩阵筛选.传媒评论,10:34-37.&lt;/li&gt;
+&lt;li&gt;祝建华,彭泰权,梁海,王成军,秦洁,陈鹤鑫 (2014) 计算社会科学在新闻传播研究中的应用. 科研信息化技术与应用. 5 (2), 3-13&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;所获奖励荣誉&#34;&gt;所获奖励荣誉：&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Best paper Award of Asian Symposium of Doctoral Students in Communication (ASDSC), City university of Hong Kong, Hong Kong (Nov, 2013)&lt;/li&gt;
+&lt;li&gt;Best paper Award of 3rd Honours Symposium for Asian Ph.D Students in Communication Research, Yonsei university, Seoul, Korea (Oct, 2012)&lt;/li&gt;
+&lt;li&gt;Research Tuition Scholarship (RTS, Oct, 2012- Aug, 2013)&lt;/li&gt;
+&lt;li&gt;Outstanding Academic Performance Award for Research Degree Students (OAPA, Aug, 2012)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;简历&#34;&gt;简历&lt;/h1&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://oaf2qt3yk.bkt.clouddn.com/b8f013d97c7b8b40e69ea94d1029855a.png&#34; alt=&#34;近照&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;王成军，博士，南京大学新闻传播学院助理研究员。奥美数据科学实验室主任、计算传播学实验中心研究员、香港城市大学互联网数据挖掘实验室研究员、集智俱乐部核心成员。参与翻译《社会网络分析：方法与实践》(2013)、合著《社交网络上的计算传播学》（2015）。致力于采用计算社会科学视角研究人类传播行为，其研究成果发表于SSCI/SCI期刊，例如Scientific Reports、PloS ONE、Physica A、Cyberpsychology和Journal of Social and Personal Relationships。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;计算传播网（&lt;a href=&#34;http://computational-communication.com）。&#34; target=&#34;_blank&#34;&gt;http://computational-communication.com）。&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;计算传播学实验中心（&lt;a href=&#34;http://ccc.nju.edu.cn:8089)&#34; target=&#34;_blank&#34;&gt;http://ccc.nju.edu.cn:8089)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;对数据科学感兴趣，主要采用python和R编程，写了一个R包和两个python包：&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;networkdiffusion（&lt;a href=&#34;https://github.com/chengjun/networkdiffusion）&#34; target=&#34;_blank&#34;&gt;https://github.com/chengjun/networkdiffusion）&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;iching (&lt;a href=&#34;https://pypi.python.org/pypi/iching&#34; target=&#34;_blank&#34;&gt;https://pypi.python.org/pypi/iching&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;scholarNetwork (&lt;a href=&#34;https://pypi.python.org/pypi/scholarNetwork/&#34; target=&#34;_blank&#34;&gt;https://pypi.python.org/pypi/scholarNetwork/&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;研究领域：计算传播学，致力于采用计算社会科学地研究方法分析人类传播行为，具体包括社会化媒体与信息扩散、公共讨论、注意力流动、互联网数据挖掘等。&lt;/p&gt;
+
+&lt;p&gt;开设主要课程： 计算传播学导论》、《计算传播与广告》、《数据新闻》等。&lt;/p&gt;
+
+&lt;p&gt;通讯地址：南京市汉口路22号南京大学新闻传播学院A306 邮编：210093&lt;/p&gt;
+
+&lt;p&gt;Email: wangchj04@gmail.com&lt;/p&gt;
+
+&lt;p&gt;所在系：新闻与新媒体系&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;老师最开始为何选择了传播学这个专业呢？&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;我选择传播学专业是一个偶然，因为我大学二年级想要转一个专业，而此时已经错过了转专业的时间，恰好新闻学院有一个2+2的项目，就是在原来专业基础上，只需要用两年时间学完专业课。通过选拔考试后，我就转到网络新闻专业，算是进入了传播学的专业。之后，考研、申请博士都要考虑怎么才能发挥自己的既有的知识储备，于是硕士读了一个媒体经营管理的方向。读硕士是一个转折点，因为我的硕士老板很强调数据分析技能的培养和“社会学的想象力”，于是开始做一些小的研究项目。我就钻进书丛，读各种和数据分析和社会科学理论相关的书。在北大和人大的方法类的暑期班里听了不少课。硕士毕业那年，香港城市大学的祝建华老师来京做博士招生的宣讲。我很感兴趣就申请了香港的传播学博士项目。博士毕业之后先在腾讯实习了半年，后来就到南京大学新闻传播学院做助理研究员。&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;又为何选择计算传播学作为研究方向？&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;计算传播学也非我有意识地选择的结果。我对扩散现象一直感兴趣，从沙堆到信息扩散，我一直认为这里面有很多值得挖掘的地方。来到香港读博之后，我主要在互联网挖掘实验室从事研究工作。读格兰诺维特的论文时，读到门槛模型，与我在读复杂性科学地书籍时所接触到多主体模型等都有关联。2008年正是社会化媒体方兴未艾大放异彩的时候，我想我或许可以采用这个模型来分析社会化媒体上的信息扩散。于是，开始分析各种基于互联网的人类传播行为数据，主要是Digg, Youtube, Twitter和Sina Weibo。恰逢计算机科学家转向这条主线的研究，于是读了很多类似文章。但我对计算机科学家做社会科学研究很不满，因为多数研究都是会议论文，其研究发现往往不够深刻，这部分工作具有很强的数据科学的特点，强调数据挖掘和机器学习技术的使用；同时，我也注意到物理学家对于人类传播行为的研究工作，主要是统计物理和网络科学部分。对我影响最大的依然是网络科学，因为我分析信息扩散的起点就是基于关系网络和信息扩散网络展开。网络科学无疑提供了理想的工具；除此之外，计算语言学的工作使得对于传播文本的挖掘更加系统，例如主题模型鼓舞了计算人文学科的发展。与此同时，我开始放弃mathematica，学习R语言，后来又转向python语言（因为要抓数据）。如何概括类似这些研究范式？我们一度采用了各种标签，比如统计物理、人类动力学、社会物理学、社会计算，但都不贴切。2011年，我在和实验室的同学和老师讨论之后，提出了computational communication的提法，就有了计算传播学。当然，此时距离Lazer等人在2009年提出计算社会科学已经是三年之后了。之后，大家发现这个提法很好地概括了我们的研究兴趣和研究方向，于是就慢慢开始使用这个词语。2012年建立了豆瓣计算传播学小站。2013年，互联网挖掘实验室推出了一系列的计算传播研究工作坊，2014年我到南大之后，筹建了现在计算传播学实验研究中心。我们开始参与一些计算社会科学为主题的国际会议，在与其他学科的研究者交流的时候，采用计算传播学研究者介绍自己的工作。&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;老师港城大毕业后，选择留在了象牙塔任教，而非进入公司。不知道这里面又有什么样的考量？&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;研究兴趣占了很大比重。我在腾讯的数据挖掘部门实习了半年，后来拿到了他们的offer。腾讯正在急于建设一个连接人和物的互联网公司，很多研究问题都涉及到网络科学。他们对于采用传播的视角建立数据科学模型充满兴趣。但腾讯与百度、阿里相比更为注重实务，所以原来的腾讯研究院被分拆了，在腾讯工作就要面临业务和研究两边跑的问题。与此同时，国内高校也意识到“大数据传播”、数据新闻、计算广告的重要性，也提出一些不错的offer。我一度想去公司，后来博士老板建议我先去高校，家人也希望我能离家近一些，多一些时间照顾家人。当然，他们不知道做研究虽然时间灵活，但更费时间。&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;老师最近正在看的一本书是什么？以及自己选择看这本书的原因？&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;《社交网络上的计算传播学》，这本书刚刚出版，已经可以订购。这本书是第一本和计算传播直接相关的书，较为系统地整理了关于采用计算传播学视角分析社交网络的理论、方法和工具。另外，也这是我参与编著的第一本书（此处是硬广），之前看的都是电子稿，买几本纸本帮助我备课，还有看看如果出第二版怎么改。&lt;/p&gt;
+
+&lt;p&gt;最后要提醒老师一下，讲座的最后会请您推荐3本与这次讲座相关的书籍。&lt;/p&gt;
+
+&lt;p&gt;-《网络、群体与市场》、《社交网络上的计算传播学》、《计算广告》&lt;/p&gt;
+
+&lt;h2 id=&#34;研究方向&#34;&gt;研究方向&lt;/h2&gt;
+
+&lt;p&gt;作为一个新人，提所谓的大词是没有什么意义的，重要的是解决问题。解决中层问题是非常关键的。一个理想的研究者的视野是橄榄球形状的。两端小中间大。分为三层：&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;底层：模型和方法（如物理模型）&lt;/li&gt;
+&lt;li&gt;中层：研究问题 （令飞选了知识生产，如讨论网络、问答网络、引文网络）&lt;/li&gt;
+&lt;li&gt;高层：研究视野（如注意力科学、计算传播学）&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;通常容易欠缺的是中层的研究问题。什么是中层问题？为什么要选中层问题？中层问题可以较好的建立自己的生态位，可以做的东西太多了，人的精力却很有限。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>网络舆论生态治理研究</title>
-      <link>/note/2017-8-27-public-opinion/</link>
+      <link>https://chengjunwang.com/note/2017-8-27-public-opinion/</link>
       <pubDate>Sun, 27 Aug 2017 12:00:00 +0000</pubDate>
       
-      <guid>/note/2017-8-27-public-opinion/</guid>
-      <description>
+      <guid>https://chengjunwang.com/note/2017-8-27-public-opinion/</guid>
+      <description>&lt;p&gt;各位老师，大家晚上好，很高兴有机会和大家讨论一下网络舆论生态治理研究的问题。&lt;/p&gt;
 
-&lt;p&gt;各位老师，大家晚上好，很高兴有机会和大家讨论一下网络舆论生态治理研究的问题。&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
 
 &lt;p&gt;习近平指出，&amp;rdquo;没有网络安全就没有国家安全，没有信息化就没有现代化&amp;rdquo;。&lt;/p&gt;
 
@@ -873,17 +422,16 @@ Watts, D.J., &amp;ldquo;Should social science be more solution-oriented?&amp;rdq
 &lt;li id=&#34;fn:net&#34;&gt;&lt;a href=&#34;http://www.cac.gov.cn/2017-08/04/c_1121427728.htm&#34; target=&#34;_blank&#34;&gt;http://www.cac.gov.cn/2017-08/04/c_1121427728.htm&lt;/a&gt;
  &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:net&#34;&gt;&lt;sup&gt;^&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
-&lt;/div&gt;
-</description>
+&lt;/div&gt;</description>
     </item>
     
     <item>
       <title>出差订票</title>
-      <link>/note/2017-8-16-tavel/</link>
+      <link>https://chengjunwang.com/note/2017-8-16-tavel/</link>
       <pubDate>Wed, 16 Aug 2017 12:00:00 +0000</pubDate>
       
-      <guid>/note/2017-8-16-tavel/</guid>
-      <description>
+      <guid>https://chengjunwang.com/note/2017-8-16-tavel/</guid>
+      <description>&lt;p&gt;&lt;/p&gt;
 
 &lt;h1 id=&#34;香港&#34;&gt;香港&lt;/h1&gt;
 
@@ -947,17 +495,16 @@ Watts, D.J., &amp;ldquo;Should social science be more solution-oriented?&amp;rdq
 &lt;li&gt;价格180元&lt;/li&gt;
 &lt;li&gt;上车地址：香港尖沙咀中港城地下LG32A地铺&lt;/li&gt;
 &lt;li&gt;购票成功后，凭取票号到下面地址取票验票上车，先到先上&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+&lt;/ul&gt;</description>
     </item>
     
     <item>
       <title>南京旅游攻略</title>
-      <link>/note/2017-8-16-nanjing-tourist/</link>
+      <link>https://chengjunwang.com/note/2017-8-16-nanjing-tourist/</link>
       <pubDate>Wed, 16 Aug 2017 12:00:00 +0000</pubDate>
       
-      <guid>/note/2017-8-16-nanjing-tourist/</guid>
-      <description>
+      <guid>https://chengjunwang.com/note/2017-8-16-nanjing-tourist/</guid>
+      <description>&lt;p&gt;&lt;/p&gt;
 
 &lt;h1 id=&#34;中山陵景区&#34;&gt;中山陵景区&lt;/h1&gt;
 
@@ -1002,1355 +549,678 @@ Watts, D.J., &amp;ldquo;Should social science be more solution-oriented?&amp;rdq
 
 &lt;p&gt;南京钟山风景区（明孝陵+灵谷寺+美龄宫+音乐台）成人票（当天订）&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;http://zschina.nanjing.gov.cn/jqfw/gzzs/&#34; target=&#34;_blank&#34;&gt;http://zschina.nanjing.gov.cn/jqfw/gzzs/&lt;/a&gt;&lt;/p&gt;
-</description>
+&lt;p&gt;&lt;a href=&#34;http://zschina.nanjing.gov.cn/jqfw/gzzs/&#34; target=&#34;_blank&#34;&gt;http://zschina.nanjing.gov.cn/jqfw/gzzs/&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
-      <title>王成军参与组织数字人文大会</title>
-      <link>/post/cn/2017-07-01-digital-humanities.zh/</link>
-      <pubDate>Sat, 01 Jul 2017 00:00:00 +0000</pubDate>
+      <title>计算社会科学视野下的新闻学研究：挑战与机遇</title>
+      <link>https://chengjunwang.com/publication/computational-journalism/</link>
+      <pubDate>Tue, 15 Aug 2017 11:33:49 +0800</pubDate>
       
-      <guid>/post/cn/2017-07-01-digital-humanities.zh/</guid>
-      <description>&lt;p&gt;2017年7月1日—2日南京大学数字人文大会在仙林校区国际会议中心召开。此次大会主题为“数字人文：大数据时代学术前沿与探索”。“数字人文”是目前国际最具潜力的新兴学科和前沿研究领域，具有创新性强、多学科交叉、研究者年轻化的特点。近十多年来，越来越多独立的“数字人文中心（系）”在北美和欧洲开设，比如美国的斯坦福大学、弗吉尼亚大学、加州大学，英国的国王学院，加拿大的阿尔伯特大学等等。这些机构不仅拥有专职研究人员和技术工程师，同时还开展了很多跨学科项目，涉及历史、考古、艺术史、文学、建筑等多个学术领域，并开始招收、培养硕士和博士研究生。&lt;/p&gt;
-
-&lt;p&gt;视频回放，&lt;a href=&#34;http://zb.shixiutv.com/Play.aspx?pid=hy516044&amp;amp;code=011LXDxQ0TtXeb2df7wQ0ADHxQ0LXDxi&amp;amp;state=1&#34; target=&#34;_blank&#34;&gt;链接&lt;/a&gt;， 密码5954&lt;/p&gt;
-
-&lt;p&gt;中国学界自2010年前后开始关注“数字人文”领域，武汉大学2011年成立了中国内地高校中的第一个数字人文中心。台湾大学及台湾中央研究院自2009年起每年举办“数位人文/数位典藏”的国际研讨会，北京大学与清华大学在2016年1月共同组织了主题大会，上海大学在2015年12月，南开大学在2016年11月都召开了相关的国际研讨会，受到了学界的广泛关注和学者们的积极参与，影响巨大。&lt;/p&gt;
-
-&lt;p&gt;“数字人文：大数据时代学术前沿与探索”学术研讨会正是在此学界浪潮下应运而生，旨在聚集国内外学者探讨数字人文的前沿思想与主要议题，从而使得国内学者、学生了解数字人文国际前沿动态和主要焦点，并促进学者们的相互交流，提升数字人文在国内学术界的认知度，促进数字人文跨学科发展。&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://chengjunwang.com/img/2017/dh2017.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;会议议题主要包括，但不限于以下课题：&lt;/p&gt;
-
-&lt;p&gt;· 图像分析与艺术、数字博物馆  （召集人：陈静、殷曼楟）
-  · 文本挖掘与文学研究 （召集人：但汉松）
-  · 数字史学的方法与案例 （召集人：王涛）
-  · 数据分析及社交网络 （召集人：陈静、王成军）
-  · 历史地理信息系统（HGIS）（召集人：陈刚）
-  · 数字人文与空间 （召集人：鲁安东）
-  · 数字人文前沿问题 （召集人：邓柯）&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;会议召开时间为2017年7月1日—2日，6月30日报到。&lt;/li&gt;
-&lt;li&gt;会议地点：南京大学仙林校区（具体地点待定）。&lt;/li&gt;
-&lt;li&gt;会务联系方式：digitalhumanities@163.com.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;南京大学“数字人文：大数据时代学术前沿与探索”会务组
-2017年4月6日&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>社会行为研究在线实验平台</title>
-      <link>/post/cn/2017-6-24-turk.zh/</link>
-      <pubDate>Sat, 24 Jun 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/post/cn/2017-6-24-turk.zh/</guid>
+      <guid>https://chengjunwang.com/publication/computational-journalism/</guid>
       <description>
 
-&lt;h1 id=&#34;实验法&#34;&gt;实验法&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;引用&lt;/strong&gt;: 王成军(2017).计算社会科学视野下的新闻学研究：挑战与机遇. 新闻大学,(04):26-32&lt;/p&gt;
 
-&lt;p&gt;实验研究方法是由伽利略所发明的一种研究方法，成为了自然科学和社会科学研究最为重要的工具。自然科学取得了辉煌的研究成果，以物理学为例，主要的实证研究成果都来自于实验研究方法。社会科学的发展仅仅经历了不到三百年，最初主要模仿物理学的发展路径，例如，孔德最初将社会学命名为社会物理学，他认为人类社会是自然界的一个部分，人为的社会秩序通常可以看作自然秩序的延伸。然而，社会科学研究的研究对象&amp;ndash;人类具有意识、通过社会互动相互关联，构成了一种复杂系统，其复杂度远远超过自然科学，被邓肯-瓦茨称之为“二十一世纪的科学”。社会科学的实验往往局限于实验室内部，只能针对有限的人群（多为高校学生）开展实验研究，其外部效度有限，难以帮助研究者理解真实的社会和人类行为。&lt;/p&gt;
+&lt;h3 id=&#34;journalism-studies-in-the-perspective-of-computational-social-science-challenges-and-opportunities&#34;&gt;Journalism Studies in the Perspective of Computational Social Science: Challenges and Opportunities&lt;/h3&gt;
 
-&lt;h1 id=&#34;问题&#34;&gt;问题&lt;/h1&gt;
+&lt;p&gt;WANG Cheng-Jun&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:1&#34;&gt;&lt;a rel=&#34;footnote&#34; href=&#34;#fn:1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 
-&lt;p&gt;伴随着数据科学、网络科学的发展，采用计算方法为主的计算社会科学蓬勃发展。计算社会科学采用互联网大数据、网络科学等计算方法研究重要的社会科学问题。然而，既有的数据虽然规模巨大，但往往在很多维度上缺失，不能很好的回答因果关系、缺少控制，依然存在局限。如何针对大量的个体及其互动进行实验研究构成了互联网公司的产品经理、高校研究者共同的问题。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;问题&lt;/strong&gt;：如何针对大量的个体及其互动进行实验研究？&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://oaf2qt3yk.bkt.clouddn.com/da38e18664ffdc32018e1a96f84a1099.png&#34; alt=&#34;mechanic turk&#34; /&gt;&lt;/p&gt;
-
-&lt;h1 id=&#34;思路&#34;&gt;思路&lt;/h1&gt;
-
-&lt;p&gt;基于众包的人类计算搭建“行为实验室”为解决这一问题提出了崭新的思路。通过互联网平台招募实验参与者，通过智能的程序匹配实验者、实验对象，允许实验对象在虚拟的网络环境内进行互动共同完成一个实验任务，允许实验者进行灵活的实验控制，可以较低的价格吸引更多的实验设计者和参与者。采用这一思路最成功的案例来自于亚马逊的&lt;a href=&#34;https://www.mturk.com/mturk/welcome&#34; target=&#34;_blank&#34;&gt;Mechanic Turk&lt;/a&gt;（机械驱动的土耳其人）平台。&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;机械驱动的土耳其人（Mechanical Turk）原指18世纪一个打扮成土耳其人的机器人，曾巡回欧洲各国打败不少西洋棋高手，甚至跟名人如拿破仑或富兰克林都下过棋，后来被揭露为其实是里头藏着人的骗局。亚马逊借用这个典故，隐喻所提供的服务是一种外表提供机械性功能可是背后却是有人类智能支持。&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://oaf2qt3yk.bkt.clouddn.com/144732ecfc771f5c53b0722cf09476cc.png&#34; alt=&#34;vitual labs&#34; /&gt;
-来源：turkserver&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:turkserver&#34;&gt;&lt;a rel=&#34;footnote&#34; href=&#34;#fn:turkserver&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
-
-&lt;p&gt;互联网产品经理和高校研究者可以基于Mechanical Turk平台搭建虚拟实验室开展大规模的人类行为实验。虚拟实验室以这个互联网作为实验室，与传统的实验室相比，具有很多优点：&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;可以获取大规模的数据和互动关系&lt;/li&gt;
-&lt;li&gt;持续时间可以较长、对于地理位置的约束更小&lt;/li&gt;
-&lt;li&gt;可以让实验参与者开展更为现实而非抽象的简单的任务&lt;/li&gt;
-&lt;li&gt;可以实现更为精准的记录。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;微软研究员科学家邓肯-瓦茨及其合作者一直致力于发展线上虚拟实验室（virtual lab），例如他们之前曾搭建&lt;a href=&#34;http://www.princeton.edu/~mjs3/musiclab.shtml&#34; target=&#34;_blank&#34;&gt;music lab&lt;/a&gt;网站研究音乐的流行度。最近，他们借助于Mechanical Turk平台搭建了&lt;a href=&#34;http://turkserver.readthedocs.io/en/latest/examples/tutorial.html&#34; target=&#34;_blank&#34;&gt;turkserver&lt;/a&gt;，研究发表了两篇论文，分别研究了&lt;a href=&#34;https://www.nature.com/articles/ncomms13800&#34; target=&#34;_blank&#34;&gt;囚徒困境&lt;/a&gt; 和灾难救助过程中的&lt;a href=&#34;http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0153048&#34; target=&#34;_blank&#34;&gt;团队合作及其绩效&lt;/a&gt; 。&lt;/p&gt;
-
-&lt;p&gt;Mechanic Turk与turkserver相互配合的思路为实现大量的个体及其互动进行实验研究铺平了道路。但是目前在中国的互联网产业中，还缺乏提供类似Mechanic Turk的服务，而turkserver目前也缺少进一步的开发，这是提出本研究项目的主要目标。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;目标&lt;/strong&gt;：搭建一个简单的turkserver的扩展版，搭建一个社会行为研究在线实验平台。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;[Abstract]&lt;/strong&gt; Our society has entered the brand new era of computational social science. The new style of news production and the new paradigm of computational social science created both challenges and opportunities for the development of classic journalism research, which empower journalism research in the aspects of data, computational methods, network theory, and etc. This article aims to review the research on computational social science, especially its potential applications in journalism research. Finally, we offer a discussion on establishing the framework of computational communication research for better understanding of journalism research, with an emphasis on big questions, data, patterns, mechanisms, and general principles.
+&lt;strong&gt;[Key Words]&lt;/strong&gt; Computational Social Science;  Journalism;  Network Science;  Big Data； Computational Communication Research&lt;/p&gt;
 
 &lt;h1 id=&#34;参考文献&#34;&gt;参考文献&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&#34;1&#34; title=&#34;Computational Communication Collaboratory, School of Journalism and Communication, Nanjing University, Nanjing, Jiangsu, China, 210093
+&#34; target=&#34;_blank&#34;&gt;1&lt;/a&gt; Watts, D.J., “A twenty-first century science,” Nature 445(7127)  (2007): p. 489.&lt;/p&gt;
+
+&lt;p&gt;[2] Lazer, D., et al., “Life in the network: The coming age of computational social science,” Science 323(5915) (2009): p. 721-723.&lt;/p&gt;
+
+&lt;p&gt;[3] 王成军. 计算传播学:作为计算社会科学的传播学[J]. 中国网络传播研究, 2014.第193-206页&lt;/p&gt;
+
+&lt;p&gt;[4] 王成军. 计算传播学的起源、概念和应用[J]. 编辑学刊, 2016(3): 第59-64页.&lt;/p&gt;
+
+&lt;p&gt;[5] 祝建华, 彭泰权, 梁海, 王成军, 秦洁, 陈鹤鑫. 计算社会科学在新闻传播研究中的应用[J]. 科研信息化技术与应用, 2014. 5(2): 第3-13页.&lt;/p&gt;
+
+&lt;p&gt;[6] Fu, J.S., “Leveraging Social Network Analysis for Research on Journalism in the Information Age,” Journal of Communication 66(2) (2016): p. 299-313.&lt;/p&gt;
+
+&lt;p&gt;[7] Strohmaier, M. and C. Wagner, “Computational Social Science for the World Wide Web,” Intelligent Systems IEEE 29(5) (2014): p. 84-88.&lt;/p&gt;
+
+&lt;p&gt;[8] Conte, R., et al., “Manifesto of computational social science,” The European Physical Journal Special Topics 214(1) (2012): p. 325-346.&lt;/p&gt;
+
+&lt;p&gt;[9] Moran, E.F., et al., “Opinion: Building a 21st-century infrastructure for the social sciences,” Proceedings of the National Academy of Sciences of the United States of America 111(45) (2014): p. 15855-15856.&lt;/p&gt;
+
+&lt;p&gt;[10] Cioffi-Revilla, C., “Computational social science,” WILEY Interdisciplinary Reviews: Computational Statistics 2(3) (2010): p. 259-271.&lt;/p&gt;
+
+&lt;p&gt;[11] Giles, J., “Computational social science: Making the links,” Nature 488(7412) (2012): p. 448-450.&lt;/p&gt;
+
+&lt;p&gt;[12] Watts, D.J. and S.H. Strogatz, “Collective dynamics of &amp;lsquo;small-world&amp;rsquo; networks”, Nature 393(6684) (1998): p. 440-442.&lt;/p&gt;
+
+&lt;p&gt;[13] Kleinberg, J.M., “Navigation in a small world,” Nature 406(6798) (2000): p. 845.&lt;/p&gt;
+
+&lt;p&gt;[14] Ugander, J., et al., “Structural diversity in social contagion,” Proceedings of the National Academy of Sciences 109(16) (2012): p. 5962-5966.&lt;/p&gt;
+
+&lt;p&gt;[15] Eagle, N., M. Macy, and R. Claxton, “Network Diversity and Economic Development,” Science  328(5981) (2010): p. 1029-1031.&lt;/p&gt;
+
+&lt;p&gt;[16] Dzogang, F., et al., “Discovering Periodic Patterns in Historical News,” Plos One 11(11) (2016): p. e0165736.&lt;/p&gt;
+
+&lt;p&gt;[17] Michel, J.B., et al., “Quantitative analysis of culture using millions of digitized books,” Science 331(6014) (2011): p. 176-182.&lt;/p&gt;
+
+&lt;p&gt;[18] Lansdall-Welfare, T., et al., “Content analysis of 150 years of British periodicals,” Proceedings of the National Academy of Sciences 114(4) (2017) p. E457-E465.&lt;/p&gt;
+
+&lt;p&gt;[19] Wang, W., et al., “Growing pains for global monitoring of societal events,” Science 353(6307) (2016): p. 1502-1503.&lt;/p&gt;
+
+&lt;p&gt;[20] Shumate, M. and N. Contractor, “The Emergence of Multidimensional Networks,” The SAGE handbook of organizational communication, editied by L.L.P.D.K. Mumby. 2013, Thousand Oaks: CA: Sage. p. 449-474.&lt;/p&gt;
+
+&lt;p&gt;[21] Wang, C.J., et al., “The Collective Direction of Attention Diffusion”, Scientific Reports 6 (2016): p. 34059.&lt;/p&gt;
+
+&lt;p&gt;[22] Hong, T.V., G. Lei, and M.E. McCombs, “Exploring &amp;ldquo;the World Outside and the Pictures in Our Heads&amp;rdquo;: A Network Agenda-Setting Study,” Journalism &amp;amp; Mass Communication Quarterly 91(4) (2014): p. 669-686.&lt;/p&gt;
+
+&lt;p&gt;[23] Guo, L., “The Application of Social Network Analysis in Agenda Setting Research: A Methodological Exploration,” Journal of Broadcasting &amp;amp; Electronic Media 56(4) (2012): p. 616-631.&lt;/p&gt;
+
+&lt;p&gt;[24] Himelboim, I., T.K. Chang, and S. McCreery, “International Network of Foreign News Coverage: Old Global Hierarchies in a New Online World”, Journalism &amp;amp; Mass Communication Quarterly 87(2) (2010): p. 297-314.&lt;/p&gt;
+
+&lt;p&gt;[25] Miller, D.C., “A research note on mass communication: How our community heard about the death of president Roosevelt,” American Sociological Review 10(5) (1945): p. 691-694.&lt;/p&gt;
+
+&lt;p&gt;[26] De Fleur, M.L., “The Growth and Decline of Research on the Diffusion of the News, 1945-1985,” Communication Research 14(1) (1987): p. 109-130.&lt;/p&gt;
+
+&lt;p&gt;[27] Greenberg, B.S., “Person-to-Person Communication in the Diffusion of News Events,” Journalism Quarterly 41(4) (1964): p. 489-494.&lt;/p&gt;
+
+&lt;p&gt;[28] Wang, C.J., “Information diffusion on Microblogs: Testing the threshold hypothesis of interpersonal effects,” in Conference on Complex System (CCS&amp;rsquo;15). 2015: Tempe, Arizona, USA.&lt;/p&gt;
+
+&lt;p&gt;[29] Granovetter, M., “Threshold Models of Collective Behavior,” American Journal of Sociology 83(6) (1978): p. 1420-1443.&lt;/p&gt;
+
+&lt;p&gt;[30] Singh, P., et al., “Threshold-limited spreading in social networks with multiple initiators,” Scientific Reports 3(7) (2013): p. 2330.&lt;/p&gt;
+
+&lt;p&gt;[31] Shah, D.V., J.N. Cappella, and W.R. Neuman, “Big Data, Digital Media, and Computational Social Science: Possibilities and Perils,” Annals of the American Academy of Political &amp;amp; Social Science 659(1) (2015): p. 6-13.&lt;/p&gt;
+
+&lt;p&gt;[32] Cohen, S., Hamilton, J. T., &amp;amp; Turner, F. “Computational journalism,” Communications of the ACM 54(10) (2011): p. 66-71.&lt;/p&gt;
+
+&lt;p&gt;[33] Watts, D.J., “Should social science be more solution-oriented?” Nature Human Behaviour 1 (2017): p. 0015.&lt;/p&gt;
+
+&lt;p&gt;[34] Jake M. Hofman, Amit Sharma, and Duncan J. Watts. &amp;ldquo;Prediction and explanation in social systems.&amp;rdquo; Science 355(2017): p 486-488.&lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;
 &lt;div class=&#34;footnotes&#34;&gt;
 
 &lt;hr /&gt;
 
 &lt;ol&gt;
-&lt;li id=&#34;fn:turkserver&#34;&gt;turkserver &lt;a href=&#34;http://turkserver.readthedocs.io/en/latest/examples/tutorial.html&#34; target=&#34;_blank&#34;&gt;http://turkserver.readthedocs.io/en/latest/examples/tutorial.html&lt;/a&gt;, 基于amazon的mechanic turk建设virtual lab
- &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:turkserver&#34;&gt;&lt;sup&gt;^&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/div&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>博士后出站与入职</title>
-      <link>/note/2017-7-10-postdoc/</link>
-      <pubDate>Wed, 15 Mar 2017 12:00:00 +0000</pubDate>
-      
-      <guid>/note/2017-7-10-postdoc/</guid>
-      <description>
-
-&lt;p&gt;&lt;img src=&#34;http://oaf2qt3yk.bkt.clouddn.com/a9f7a5ec8e00f68c4ae5b7764b5193ad.png&#34; alt=&#34;入职程序&#34; /&gt;&lt;/p&gt;
-
-&lt;h1 id=&#34;人员调动登记表&#34;&gt;人员调动登记表&lt;/h1&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://hr.nju.edu.cn/60/be/c6666a155838/page.htm&#34; target=&#34;_blank&#34;&gt;https://hr.nju.edu.cn/60/be/c6666a155838/page.htm&lt;/a&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;调动人员户口登记表.doc&lt;/li&gt;
-&lt;li&gt;人员调动登记表.doc&lt;/li&gt;
-&lt;li&gt;填写说明.doc&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&#34;新入职人员进校流程&#34;&gt;新入职人员进校流程&lt;/h1&gt;
-
-&lt;p&gt;中国博士后办公系统处于审批中，无法修改，所以《工作期满登记表》和其中的迁移户口信息无法修改。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://lxggxz.nju.edu.cn/15/32/c411a5426/page.htm&#34; target=&#34;_blank&#34;&gt;https://lxggxz.nju.edu.cn/15/32/c411a5426/page.htm&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;国内博士后：若新进人员为校内博士后，我处开具博士后出站接收函由对方自行办理出站手续，然后持博士后出站工作分配介绍信、最终学位原件与复印件和体检表来我处进行材料审核；&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;工作协议与合同的签订
-新进人员根据入职岗位的不同在我处领取不同的工作协议及合同，带回入职院系填写并加盖行政公章。对调入和国外引进人员开具人事档案《商调函》办理相关档案商调工作、并尽快将人事档案转入我校，最后到我处交验合同及干部履历表。&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;登记注册
-新进人员填写报到登记簿，提供南京工商银行借记卡和身份证（护照）复印件用作工资卡，带一寸照片一张办理工作证，最后给新进人员开具“工作人员介绍信”到用人单位报到。&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;报到后续工作
-1)起薪：起薪时间从报到手续完备之日起算，岗位津贴从起薪的当月开始发放（2 月、8 月不发岗位津贴）。&lt;/p&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;2)校园一卡通：报到起薪后的次月 15 号后到校园一卡通中心办理“一卡通”。电话：83596529, 83596989。网址：&lt;a href=&#34;http://ecard.nju.edu.cn&#34; target=&#34;_blank&#34;&gt;http://ecard.nju.edu.cn&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;3)安家费与科研启动经费：为适应创建世界一流大学的需要，根据建设高水平教师队伍的需要，学校颁布《南京大学人才引进培养基金管理办法》。针对2002年后入校或选留具有博士学位的教学科研人员可申请科研启动经费和安家费。发放办法为：新入职人员入校手续办理完毕后每隔三个月逐批定期发放。&lt;/p&gt;
-
-&lt;p&gt;4）住房福利申请与落实：学校不再为新进人员提供宿舍，新进人员（专职科研岗除外）可以申请住房货币补贴、租金补贴和贷款贴息等相关福利。详见南大人力资源处主页“政策法规”栏“学校有关规章制度”中《新聘用教职工住房货币补贴、租金补贴及贷款贴息暂行办法》的有关规定。原已交公积金的新进人员，请与房产处房产科联系，联系电话：83596054。&lt;/p&gt;
-
-&lt;p&gt;5）落户：鉴于学校不再提供宿舍，经商校保卫处，凡新进人员的户口实行市场化管理，即全部落户在各大人才市场，由个人自行解决。如确实需落户学校集体户口的新进人员可按照下列情况办理相关手续：应届毕业生需办理户口迁移手续的，请将“户口迁移证”交至我处加盖公章，再由本人持《户口迁移证》及《报到证》复印件等材料到保卫处户籍科办理落户，联系电话：83592226。引进、调入人员需办理户口迁移手续的，可凭江苏省人社厅开具的调令直接到南京市公安局鼓楼分局（地址：定淮门大街1号）办理落户手续。联系电话：84421443。&lt;/p&gt;
-
-&lt;h1 id=&#34;博士后出站&#34;&gt;博士后出站&lt;/h1&gt;
-
-&lt;p&gt;居然有十八个表格要填！faint，暑期也搞不完了。&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;博士后编号 152283&lt;/li&gt;
-&lt;li&gt;招收类型  流动站自主招收&lt;/li&gt;
-&lt;li&gt;进站单位  南京大学政治学 -&amp;gt; 南京大学&lt;/li&gt;
-&lt;li&gt;一级学科  政治学&lt;/li&gt;
-&lt;li&gt;进站时间  2015-01-09&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.chinapostdoctor.org.cn/WebSite/program/InfoCate_Show.aspx?INFOCATEGORYID=website003004&#34; target=&#34;_blank&#34;&gt;博士后出站研究报告书写规范&lt;/a&gt;&lt;/p&gt;
-
-&lt;h1 id=&#34;博士后&#34;&gt;博士后&lt;/h1&gt;
-
-&lt;ol&gt;
-&lt;li&gt;魏强 89681559&lt;/li&gt;
-&lt;li&gt;学院导师签字，政府管理学院张冰老师盖章。&lt;/li&gt;
-&lt;li&gt;提交《中国博士后科学基金资助总结报告》&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;办公室工作人员 魏强&lt;/p&gt;
-
-&lt;p&gt;主要负责:
-1、办理博士后进、出、退站手续，包括通知发放、网上预审、预约报到、户口迁移、证书发放等；
-2、博士后起薪、止薪以及调薪工作；
-3、博士后人事档案保管、核对与转递工作；
-4、博士后办公系统的更新与维护工作；
-5、承担领导交办的其他工作。&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;联系电话：025-89681559（仙林）025-83593304（鼓楼）&lt;/li&gt;
-&lt;li&gt;联系邮件：weiqiang@nju.edu.cn&lt;/li&gt;
-&lt;li&gt;办公地址：仙林校区行政北楼518室  鼓楼校区南园综合楼418室&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;To-do：学校财务处审核《中国博士后科学基金资助总结报告》并加盖章，拿给魏强看一下。&lt;/p&gt;
-
-&lt;h2 id=&#34;基金审核&#34;&gt;基金审核&lt;/h2&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;您好！在站期间您获得了博士后基金资助。根据《中国博士后科学基金资助规定》，您需提交《中国博士后科学基金资助总结报告》。
-请登录中国博士后科学基金管理信息系统填写《中国博士后科学基金资助总结报告》，并与&lt;strong&gt;出站报告&lt;/strong&gt;一并请&lt;strong&gt;设站单位管理人员网上审核&lt;/strong&gt;，审核通过后方可办理出站手续。
-以上完成后可继续点击【提交申请】。&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://jj.chinapostdoctor.org.cn/V1/Program3/Default.aspx&#34; target=&#34;_blank&#34;&gt;http://jj.chinapostdoctor.org.cn/V1/Program3/Default.aspx&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;生成的word文档，填写，签字，盖章，扫描，上传。&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://oaf2qt3yk.bkt.clouddn.com/59d148adf960806d739c246a3afeddfc.png&#34; alt=&#34;结项&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://jj.chinapostdoctor.org.cn/V2/FundReport/FundReport_BSH.aspx?rnd=8683e8e1-0be3-475e-8ad1-0f0f8ad25d98#&#34; target=&#34;_blank&#34;&gt;http://jj.chinapostdoctor.org.cn/V2/FundReport/FundReport_BSH.aspx?rnd=8683e8e1-0be3-475e-8ad1-0f0f8ad25d98#&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://oaf2qt3yk.bkt.clouddn.com/4c6f86eaa745dac7be896a140df7ad71.png&#34; alt=&#34;等待审核&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;公共管理（政府管理学院）张  冰 党政人事秘书 博士后流动站秘书 352 89680757
-ytzhang@nju.edu.cn&lt;/p&gt;
-
-&lt;p&gt;流动站联系教师：张冰；办公电话：025－89680757；Email：ytzhang@nju.edu.cn&lt;/p&gt;
-
-&lt;h2 id=&#34;博士后出站-1&#34;&gt;博士后出站&lt;/h2&gt;
-
-&lt;ol&gt;
-&lt;li&gt;流动站自主招收出站申请材料清单  2016-11-24&lt;/li&gt;
-&lt;li&gt;流动站自主招收博士后出站申请流程图  2016-10-12&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://hr.nju.edu.cn/6334/list.htm&#34; target=&#34;_blank&#34;&gt;http://hr.nju.edu.cn/6334/list.htm&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://oaf2qt3yk.bkt.clouddn.com/c8b912ac26c1680f0a73b8df7f405355.png&#34; alt=&#34;博士后出站&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.chinapostdoctor.org.cn/WebSite/program/InfoCate_Show.aspx?INFOCATEGORYID=website003005001&#34; target=&#34;_blank&#34;&gt;http://www.chinapostdoctor.org.cn/WebSite/program/InfoCate_Show.aspx?INFOCATEGORYID=website003005001&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;注：办理进(出、退)站手续时，请您按要求携带“上传材料”和“纸质材料”中列出各项材料（&lt;strong&gt;1份原件和2份复印件&lt;/strong&gt;），并且按要求上传原件电子数据扫描件。&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;红色&lt;/strong&gt;上传 为必需上传材料;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;灰色&lt;/strong&gt;上传为&lt;strong&gt;可选&lt;/strong&gt;上传材料;&lt;/li&gt;
-&lt;li&gt;没有上传按钮的为个人携带材料。&lt;/li&gt;
-&lt;li&gt;上传后的材料可删除后重新上传。为确保顺利办理进出站手续，请下载并使用系统“电子数据”和“纸质材料”中的表格。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;发表论文&#34;&gt;发表论文&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Wang, C.J., Wu, L*, Zhang, J., Janssen, M. (2016) The Collective Direction of Attention Diffusion. Scientific Reports. 6: 34059. doi:10.1038/srep34059&lt;/li&gt;
-&lt;li&gt;Wang, C.J., Wu, L.*(2016) The Scaling of Attention Networks. Physica A: Statistical Mechanics and its Applications.448:196–204, doi: 10.1016/j.physa.2015.12.081&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&#34;博士后退站&#34;&gt;博士后退站&lt;/h1&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://hr.nju.edu.cn/6342/list.htm&#34; target=&#34;_blank&#34;&gt;http://hr.nju.edu.cn/6342/list.htm&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;办理落户&#34;&gt;办理落户&lt;/h2&gt;
-
-&lt;p&gt;今天青椒村外来务工人员一个狗去公社人力资源部办理了申请集体户口迁移的第一道手续，路过公社保卫处户籍科门口的时候，一只红脖子的鸟站在树上红了眼眶使劲叫，一个狗听了半天没听懂，当然因为它说的是鸟语。&lt;/p&gt;
-
-&lt;p&gt;到鼓楼校区北京西路附近的机械大厦找鲜峰办理博士后集体户口申请，去鼓楼保卫处户籍科办理户籍介绍的证明，然后去鼓楼公安局的办证大厅办理迁入申请，然后回老家迁移户口，最后到大方巷的鼓楼派出所办理入户。&lt;/p&gt;
-
-&lt;h2 id=&#34;流动站自主招收博士后出站申请材料清单&#34;&gt;流动站自主招收博士后出站申请材料清单&lt;/h2&gt;
-
-&lt;p&gt;发布者：贾静发布时间：2017-04-18浏览次数：294&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;博士后研究人员工作 期满登记表 （一式3份）
-在“中国博士后”网站网上填报，自动生成下载后打印； 其中，该表中的出站单位与地址必须填写，若尚未落实单位，须填写档案寄往单位（外籍人员回国的除外）。&lt;/li&gt;
-&lt;li&gt;接收单位意见表/接收函 （一式3份）
-统招统分博士后由出站单位出具，需加盖接收单位人事公章；在职博士后回原单位，不需提供。&lt;/li&gt;
-&lt;li&gt;身份证复印件（正反）&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;博士后研究人员工作期满 业务考核表 （一式3份）&lt;/li&gt;
-&lt;li&gt;博士后研究人员工作期满 审批表 （一式3份）&lt;/li&gt;
-&lt;li&gt;联系导师对博士后研究人员研究 工作评价表 （一式2份）
-由流动站合作导师签字盖章&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;南京大学博士后期满离站科研 工作评审表 （一式2份）
-由流动站组织答辩&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;南京大学博士后离站 个人总结表 （一式2份）
-流动站责任人签署意见，签字并盖章&lt;/li&gt;
-&lt;li&gt;《博士后研究人员更换资助项目负责人申请表》 （一式2份）&lt;/li&gt;
-&lt;li&gt;《江苏省博士后科研资助计划项目总结报告》 （一式2份）&lt;/li&gt;
-&lt;li&gt;《江苏省博士后科研资助计划项目经费决算表》 （一式2份）
-须到学校财务处盖章确认&lt;/li&gt;
-&lt;li&gt;《中国博士后科学基金资助总结报告》 （一式2份）；
-提交网上申请，并到学校财务处盖章确认，报校人资处审核（该表审核通过后方可提交网上出站申请）&lt;/li&gt;
-&lt;li&gt;南京大学教职工离校手续表 （一式1份）
- 需相关部门盖章&lt;/li&gt;
-&lt;li&gt;南京大学博士后研究工作报告 （一式两份）
-与博士毕业论文格式相似，包括封面（胶装）、目录、内容&lt;/li&gt;
-&lt;li&gt;出站博士后科研 成果汇总表 （一式1份）&lt;/li&gt;
-&lt;li&gt;在站期间发表论文 （一式1份）
-包括封皮、目录、首页复印件及获奖情况&lt;/li&gt;
-&lt;li&gt;结婚证、独生子女证（或子女出生证）复印件（各2份）；&lt;br /&gt;
-统招博士后请提供3  份身份证复印件 （身份证须正反复印）
-18.博士学位证书复印件（一式1份）；博士后工作证原件&lt;br /&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;注：&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;1）中国博士后系统的附件必须为原件 的扫描或拍照上传；&lt;/li&gt;
-&lt;li&gt;2）表格4-11、13、15可到南京大学人力资源处官网-博士后-表格下载处下载打印；&lt;/li&gt;
-&lt;li&gt;3) 把第1、2、3、4、5项表格装订成份,共上报3份，至少一份为原件；&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;4）表格6、7、8装订成份，共两份，至少一份为原件；&lt;/li&gt;
-&lt;li&gt;5）表格9，博士后在站期间取得江苏省博士后科研资助计划或中国博士后面上资助，且出站时未完成资助项目的情况下填写；&lt;/li&gt;
-&lt;li&gt;6）表格9、10、11、12，如博士后在站期间未获得过江苏省博士后科研资助计划和中国博士后基金项目，不必填写；&lt;/li&gt;
-&lt;li&gt;7）表格13，文科类博士后不需要盖“科技处”公章；理工科类不需要盖“社会科学处”公章；&lt;/li&gt;
-&lt;li&gt;9）所有书面材料请用A4纸打印复印，保证至少一份是原件。&lt;/li&gt;
-&lt;li&gt;10）出站申请递交至省人社厅审批通过后，会以短信形式告知申请人通过审批，并携材料办理相关手续。而申请人本人不用再次携带材料办理手续，已经代为办理。&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;8）关于迁移户口的说明：&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;A、落本人房产人员须提交《不动产权证书》或《房屋产权证》,尚未取得《不动产权证书》或《房屋产权证》的可提供《购房合同》和物业公司出具的《入住证明》。&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;B、配偶、子女办理落户所需材料：&lt;/li&gt;
-&lt;li&gt;（1）配偶、子女《户口簿》首页及《常住人口登记卡》；&lt;/li&gt;
-&lt;li&gt;（2）配偶“居民身份证”、《结婚证》；&lt;/li&gt;
-&lt;li&gt;（3）子女《出生医学证明》、《独生子女证》或《生育服务证》（说明：多胎子女及2016年1月1日后出生的子女提供生育服务证）；&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;C、离异博士后研究人员办理子女落户需提交《离婚证》、离婚判决书或经当地民政局盖章（公证处公证）的《离婚协议书》；&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;D、在港、澳、台及国外出生的婴儿，还须提交国外或境外医疗机构出具的出生证明原件、复印件，翻译机构出具的出生证明翻译件以及我驻外使领馆签发的《中华人民共和国旅行证》或《护照》。&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://oaf2qt3yk.bkt.clouddn.com/e6bcbf8165d82f1f54ad0fdcf584f6ae.png&#34; alt=&#34;办户口材料&#34; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;今日单词&#34;&gt;今日单词&lt;/h2&gt;
-
-&lt;p&gt;集体户口 collective registered residences.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://oaf2qt3yk.bkt.clouddn.com/b999b0e1ab9238e3d85cd69ebf37913a.png&#34; alt=&#34;博士后办理落户&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://oaf2qt3yk.bkt.clouddn.com/5e047fc89d894689ebf4f06ad5e9a180.png&#34; alt=&#34;户口&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://oaf2qt3yk.bkt.clouddn.com/25fa2aaaf74fa15345273794f8afcd69.png&#34; alt=&#34;身份证&#34; /&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Example Talk</title>
-      <link>/talk/example-talk/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 +0800</pubDate>
-      
-      <guid>/talk/example-talk/</guid>
-      <description>&lt;p&gt;Embed your slides or video here using &lt;a href=&#34;https://sourcethemes.com/academic/post/writing-markdown-latex/&#34; target=&#34;_blank&#34;&gt;shortcodes&lt;/a&gt;. Further details can easily be added using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Deep Learning</title>
-      <link>/project/deep-learning/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      
-      <guid>/project/deep-learning/</guid>
-      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
-
-&lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
-
-&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
-
-&lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
-
-&lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>External Project</title>
-      <link>/project/example-external-project/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      
-      <guid>/project/example-external-project/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Getting started with the Academic framework for Hugo</title>
-      <link>/post/getting-started/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0800</pubDate>
-      
-      <guid>/post/getting-started/</guid>
-      <description>
-
-&lt;p&gt;The Academic framework enables you to easily create a beautifully simple personal or academic website using the &lt;a href=&#34;https://gohugo.io&#34; target=&#34;_blank&#34;&gt;Hugo&lt;/a&gt; static site generator.&lt;/p&gt;
-
-&lt;p&gt;Key features:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Easily manage your homepage, blog posts, publications, talks, and projects&lt;/li&gt;
-&lt;li&gt;Configurable widgets available for Biography, Publications, Projects, News/Blog, Talks, and Contact&lt;/li&gt;
-&lt;li&gt;Need a different section? Just use the Custom widget!&lt;/li&gt;
-&lt;li&gt;Write in &lt;a href=&#34;/post/writing-markdown-latex/&#34; target=&#34;_blank&#34;&gt;Markdown&lt;/a&gt; for easy formatting and code highlighting, with &lt;a href=&#34;https://en.wikibooks.org/wiki/LaTeX/Mathematics&#34; target=&#34;_blank&#34;&gt;LaTeX&lt;/a&gt; for mathematical expressions&lt;/li&gt;
-&lt;li&gt;Social/academic network linking, &lt;a href=&#34;https://analytics.google.com&#34; target=&#34;_blank&#34;&gt;Google Analytics&lt;/a&gt;, and &lt;a href=&#34;https://disqus.com&#34; target=&#34;_blank&#34;&gt;Disqus&lt;/a&gt; comments&lt;/li&gt;
-&lt;li&gt;Responsive and mobile friendly&lt;/li&gt;
-&lt;li&gt;Simple and refreshing one page design&lt;/li&gt;
-&lt;li&gt;Multilingual and easy to customize&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2&gt;Table of Contents&lt;/h2&gt;
-&lt;nav id=&#34;TableOfContents&#34;&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;#installation&#34;&gt;Installation&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#getting-started&#34;&gt;Getting Started&lt;/a&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;#core-parameters&#34;&gt;Core parameters&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#introduce-yourself&#34;&gt;Introduce yourself&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#customize-the-homepage&#34;&gt;Customize the homepage&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#add-your-content&#34;&gt;Add your content&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#remove-unused-widgets-and-pages&#34;&gt;Remove unused widgets and pages&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#themes&#34;&gt;Themes&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#customization-updating&#34;&gt;Customization &amp;amp; updating&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#advanced-customization&#34;&gt;Advanced customization&lt;/a&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;#navigation-menu&#34;&gt;Navigation menu&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#website-icon&#34;&gt;Website icon&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#analytics&#34;&gt;Analytics&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#third-party-and-local-scripts-js&#34;&gt;Third party and local scripts (JS)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#language-and-translation&#34;&gt;Language and translation&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#permalinks&#34;&gt;Permalinks&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#advanced-style-customization-css&#34;&gt;Advanced style customization (CSS)&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#updating&#34;&gt;Updating&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#feedback-contributing&#34;&gt;Feedback &amp;amp; Contributing&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#license&#34;&gt;License&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/nav&gt;
-
-
-&lt;h2 id=&#34;installation&#34;&gt;Installation&lt;/h2&gt;
-
-&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://georgecushen.com/create-your-website-with-hugo/#installing-hugo&#34; target=&#34;_blank&#34;&gt;Install Hugo&lt;/a&gt; and create a new website by typing the following commands in your &lt;em&gt;Terminal&lt;/em&gt; or &lt;em&gt;Command Prompt&lt;/em&gt; app:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;hugo new site my_website
-cd my_website
-&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Install Academic with &lt;a href=&#34;https://help.github.com/articles/set-up-git/&#34; target=&#34;_blank&#34;&gt;git&lt;/a&gt;:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;git clone https://github.com/gcushen/hugo-academic.git themes/academic
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Or alternatively, &lt;a href=&#34;https://github.com/gcushen/hugo-academic/archive/master.zip&#34; target=&#34;_blank&#34;&gt;download Academic&lt;/a&gt; and extract it into a &lt;code&gt;themes/academic&lt;/code&gt; folder within your Hugo website.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;If you are creating a new website, copy the contents of the &lt;code&gt;exampleSite&lt;/code&gt; folder to your website root folder, overwriting existing files if necessary. The &lt;code&gt;exampleSite&lt;/code&gt; folder contains an example config file and content to help you get started.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;cp -av themes/academic/exampleSite/* .
-&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Start the Hugo server from your website root folder:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;hugo server
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Now you can go to &lt;a href=&#34;http://localhost:1313&#34; target=&#34;_blank&#34;&gt;localhost:1313&lt;/a&gt; and your new Academic powered website should appear.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Customize your website - refer to the &lt;em&gt;Getting Started&lt;/em&gt; section below&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Build your site by running the &lt;code&gt;hugo&lt;/code&gt; command. Then &lt;a href=&#34;https://georgecushen.com/create-your-website-with-hugo/&#34; target=&#34;_blank&#34;&gt;host it for free using Github Pages&lt;/a&gt;. Or alternatively, copy the generated &lt;code&gt;public/&lt;/code&gt; directory (by FTP, Rsync, etc.) to your production web server (such as your university&amp;rsquo;s hosting service).&lt;/p&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id=&#34;getting-started&#34;&gt;Getting Started&lt;/h2&gt;
-
-&lt;p&gt;Assuming you created a new website with the example content following the installation steps above, this section explores just a few more steps in order to customize it.&lt;/p&gt;
-
-&lt;h3 id=&#34;core-parameters&#34;&gt;Core parameters&lt;/h3&gt;
-
-&lt;p&gt;The core parameters for the website can be edited in the &lt;code&gt;config.toml&lt;/code&gt; configuration file:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Set &lt;code&gt;baseurl&lt;/code&gt; to your website URL (we recommend &lt;a href=&#34;https://georgecushen.com/create-your-website-with-hugo/&#34; target=&#34;_blank&#34;&gt;GitHub Pages&lt;/a&gt; for free hosting)&lt;/li&gt;
-&lt;li&gt;Set &lt;code&gt;title&lt;/code&gt; to your desired website title such as your name&lt;/li&gt;
-&lt;li&gt;The example Disqus commenting variable should be cleared (e.g. &lt;code&gt;disqusShortname = &amp;quot;&amp;quot;&lt;/code&gt;) or set to your own &lt;a href=&#34;https://disqus.com/&#34; target=&#34;_blank&#34;&gt;Disqus&lt;/a&gt; shortname to enable commenting&lt;/li&gt;
-&lt;li&gt;Edit your details under &lt;code&gt;[params]&lt;/code&gt;; these will be displayed mainly in the homepage &lt;em&gt;about&lt;/em&gt; and &lt;em&gt;contact&lt;/em&gt; widgets (if used). To disable a contact field, simply clear the value to &lt;code&gt;&amp;quot;&amp;quot;&lt;/code&gt;.&lt;/li&gt;
-&lt;li&gt;Place a square cropped portrait photo named &lt;code&gt;portrait.jpg&lt;/code&gt; into the &lt;code&gt;static/img/&lt;/code&gt; folder, overwriting any defaults. Note that you can edit the &lt;code&gt;avatar&lt;/code&gt; filepath to point to a different image name or clear the value to disable the avatar feature. Alternatively, set &lt;code&gt;gravatar&lt;/code&gt; to &lt;code&gt;true&lt;/code&gt; to use the Gravatar/Wordpress avatar associated with your &lt;code&gt;email&lt;/code&gt; address.&lt;/li&gt;
-&lt;li&gt;To enable LaTeX math for your site, set &lt;code&gt;math = true&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Social/academic networking links are defined as multiples of &lt;code&gt;[[params.social]]&lt;/code&gt;. They can be created or deleted as necessary.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;introduce-yourself&#34;&gt;Introduce yourself&lt;/h3&gt;
-
-&lt;p&gt;Edit your biography in the &lt;em&gt;about&lt;/em&gt; widget &lt;code&gt;content/home/about.md&lt;/code&gt; that you copied across from the &lt;code&gt;themes/academic/exampleSite/&lt;/code&gt; folder. The research interests and qualifications are stored as &lt;code&gt;interests&lt;/code&gt; and &lt;code&gt;education&lt;/code&gt; variables. The academic qualifications are defined as multiples of &lt;code&gt;[[education.courses]]&lt;/code&gt; and can be created or deleted as necessary. It&amp;rsquo;s possible to completely hide the interests and education lists by deleting their respective variables.&lt;/p&gt;
-
-&lt;h3 id=&#34;customize-the-homepage&#34;&gt;Customize the homepage&lt;/h3&gt;
-
-&lt;p&gt;Refer to our guide on using &lt;a href=&#34;/post/widgets/&#34; target=&#34;_blank&#34;&gt;widgets&lt;/a&gt; to customize your homepage.&lt;/p&gt;
-
-&lt;h3 id=&#34;add-your-content&#34;&gt;Add your content&lt;/h3&gt;
-
-&lt;p&gt;Refer to our guide on &lt;a href=&#34;/post/managing-content/&#34; target=&#34;_blank&#34;&gt;managing content&lt;/a&gt; to create your own publications, blog posts, talks, and projects.&lt;/p&gt;
-
-&lt;h3 id=&#34;remove-unused-widgets-and-pages&#34;&gt;Remove unused widgets and pages&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href=&#34;/post/managing-content/#removing-content&#34; target=&#34;_blank&#34;&gt;How to remove unused widgets and content pages&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h3 id=&#34;themes&#34;&gt;Themes&lt;/h3&gt;
-
-&lt;p&gt;The following color themes are available and can be set by the &lt;code&gt;color_theme&lt;/code&gt; option in &lt;code&gt;config.toml&lt;/code&gt;:&lt;/p&gt;
-
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;&lt;code&gt;default&lt;/code&gt;&lt;/th&gt;
-&lt;th&gt;&lt;code&gt;ocean&lt;/code&gt;&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;img src=&#34;https://raw.githubusercontent.com/gcushen/hugo-academic/master/images/theme-default.png&#34; alt=&#34;default theme&#34; /&gt;&lt;/td&gt;
-&lt;td&gt;&lt;img src=&#34;https://raw.githubusercontent.com/gcushen/hugo-academic/master/images/theme-ocean.png&#34; alt=&#34;ocean theme&#34; /&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;&lt;code&gt;forest&lt;/code&gt;&lt;/th&gt;
-&lt;th&gt;&lt;code&gt;coffee&lt;/code&gt;  + &lt;code&gt;playfair&lt;/code&gt; font&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;img src=&#34;https://raw.githubusercontent.com/gcushen/hugo-academic/master/images/theme-forest.png&#34; alt=&#34;forest theme&#34; /&gt;&lt;/td&gt;
-&lt;td&gt;&lt;img src=&#34;https://raw.githubusercontent.com/gcushen/hugo-academic/master/images/theme-coffee-playfair.png&#34; alt=&#34;coffee theme&#34; /&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;The following font styles are available and can be set by the &lt;code&gt;font&lt;/code&gt; option in &lt;code&gt;config.toml&lt;/code&gt;:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;default (modern)&lt;/li&gt;
-&lt;li&gt;classic (original Academic v1 style)&lt;/li&gt;
-&lt;li&gt;playfair (serif)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;customization-updating&#34;&gt;Customization &amp;amp; updating&lt;/h3&gt;
-
-&lt;p&gt;Continue reading below for advanced customization tips and instructions for keeping the framework up-to-date with any improvements that become available.&lt;/p&gt;
-
-&lt;h2 id=&#34;advanced-customization&#34;&gt;Advanced customization&lt;/h2&gt;
-
-&lt;p&gt;It is possible to carry out many customizations without touching any files in &lt;code&gt;themes/academic&lt;/code&gt;, making it easier to update the framework in the future.&lt;/p&gt;
-
-&lt;h3 id=&#34;navigation-menu&#34;&gt;Navigation menu&lt;/h3&gt;
-
-&lt;p&gt;The &lt;code&gt;[[menu.main]]&lt;/code&gt; entries towards the bottom of &lt;code&gt;config.toml&lt;/code&gt; define the navigation links at the top of the website. They can be added or removed as desired.&lt;/p&gt;
-
-&lt;p&gt;To create a dropdown sub-menu, add &lt;code&gt;identifier = &amp;quot;something&amp;quot;&lt;/code&gt; to the parent item and &lt;code&gt;parent = &amp;quot;something&amp;quot;&lt;/code&gt; to the child item.&lt;/p&gt;
-
-&lt;h3 id=&#34;website-icon&#34;&gt;Website icon&lt;/h3&gt;
-
-&lt;p&gt;Save your main icon and mobile icon as square PNG images named &lt;code&gt;icon.png&lt;/code&gt; and &lt;code&gt;apple-touch-icon.png&lt;/code&gt;, respectively. Place them in your root &lt;code&gt;static/img/&lt;/code&gt; folder.&lt;/p&gt;
-
-&lt;h3 id=&#34;analytics&#34;&gt;Analytics&lt;/h3&gt;
-
-&lt;p&gt;To enable &lt;a href=&#34;http://www.google.com/analytics&#34; target=&#34;_blank&#34;&gt;Google Analytics&lt;/a&gt;, add your tracking code in &lt;code&gt;config.toml&lt;/code&gt; similarly to &lt;code&gt;googleAnalytics = &amp;quot;UA-12345678-9&amp;quot;&lt;/code&gt;.&lt;/p&gt;
-
-&lt;h3 id=&#34;third-party-and-local-scripts-js&#34;&gt;Third party and local scripts (JS)&lt;/h3&gt;
-
-&lt;p&gt;To add a third party script, create a file named &lt;code&gt;head_custom.html&lt;/code&gt; in a &lt;code&gt;layouts/partials/&lt;/code&gt; folder at the root of your website (not in the &lt;code&gt;themes&lt;/code&gt; folder). Any HTML code added to this file will be included within your website&amp;rsquo;s &lt;code&gt;&amp;lt;head&amp;gt;&lt;/code&gt;. Therefore, it&amp;rsquo;s suitable for adding custom metadata or third party scripts specified with the &lt;em&gt;async&lt;/em&gt; attribute.&lt;/p&gt;
-
-&lt;p&gt;Whereas for your own local scripts, you can link your local JS assets (relative to your root &lt;code&gt;static/js&lt;/code&gt;) from your &lt;code&gt;config.toml&lt;/code&gt; using &lt;code&gt;custom_js  = [&amp;quot;custom.js&amp;quot;]&lt;/code&gt;.&lt;/p&gt;
-
-&lt;h3 id=&#34;language-and-translation&#34;&gt;Language and translation&lt;/h3&gt;
-
-&lt;p&gt;The interface text (e.g. buttons) is stored in language files which are collected from Academic&amp;rsquo;s &lt;code&gt;themes/academic/i18n/&lt;/code&gt; folder, as well as an &lt;code&gt;i18n/&lt;/code&gt; folder at the root of your project.&lt;/p&gt;
-
-&lt;p&gt;To edit the interface text, copy &lt;code&gt;themes/academic/i18n/en.yaml&lt;/code&gt; to &lt;code&gt;i18n/en.yaml&lt;/code&gt; (relative to the root of your website). Open the new file and make any desired changes to the text appearing after &lt;code&gt;translation:&lt;/code&gt;. Note that the language files are formatted in YAML syntax.&lt;/p&gt;
-
-&lt;p&gt;To translate the interface text to another language, follow the above instructions, but name the new file in the form &lt;code&gt;i18n/X.yaml&lt;/code&gt; where &lt;code&gt;X&lt;/code&gt; is the appropriate &lt;a href=&#34;http://www.w3schools.com/tags/ref_language_codes.asp&#34; target=&#34;_blank&#34;&gt;ISO/RFC5646 language identifier&lt;/a&gt; for the translation. Then follow the brief instructions in the &lt;em&gt;Language&lt;/em&gt; section at the bottom of your &lt;code&gt;config.toml&lt;/code&gt;. To change the default language used by Academic, set &lt;code&gt;defaultContentLanguage&lt;/code&gt; to the desired language identifier in your configuration file.&lt;/p&gt;
-
-&lt;p&gt;To translate the navigation bar, you can edit the default &lt;code&gt;[[menu.main]]&lt;/code&gt; instances in &lt;code&gt;config.toml&lt;/code&gt;. However, for a multilingual site, you will need to duplicate all of the &lt;code&gt;[[menu.main]]&lt;/code&gt; instances and rename the new instances from &lt;code&gt;[[menu.main]]&lt;/code&gt; to &lt;code&gt;[[Languages.X.menu.main]]&lt;/code&gt;, where &lt;code&gt;X&lt;/code&gt; is the language identifier (e.g. &lt;code&gt;[[Languages.zh.menu.main]]&lt;/code&gt; for Simplified Chinese). Thus, the navigation bar can be displayed in multiple languages.&lt;/p&gt;
-
-&lt;p&gt;To translate a content file in your &lt;code&gt;content/&lt;/code&gt; folder into another language, copy the file to &lt;code&gt;filename.X.md&lt;/code&gt; where &lt;code&gt;filename&lt;/code&gt; is your existing filename and &lt;code&gt;X&lt;/code&gt; is the appropriate &lt;a href=&#34;http://www.w3schools.com/tags/ref_language_codes.asp&#34; target=&#34;_blank&#34;&gt;ISO/RFC5646 language identifier&lt;/a&gt; for the translation. Then translate the content in the new file to the specified language.&lt;/p&gt;
-
-&lt;p&gt;For further details on Hugo&amp;rsquo;s internationalization and multilingual features, refer to the &lt;a href=&#34;https://gohugo.io/content/multilingual/&#34; target=&#34;_blank&#34;&gt;associated Hugo documentation&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h3 id=&#34;permalinks&#34;&gt;Permalinks&lt;/h3&gt;
-
-&lt;p&gt;&lt;em&gt;Permalinks&lt;/em&gt;, or &lt;em&gt;permanent links&lt;/em&gt;, are URLs to individual pages and posts on your website. They are permanent web addresses which can be used to link to your content. Using Hugo&amp;rsquo;s &lt;em&gt;permalinks&lt;/em&gt; option these can be easily customized. For example, the blog post URL can be changed to the form &lt;em&gt;yourURL/2016/05/01/my-post-slug&lt;/em&gt; by adding the following near the top of your &lt;code&gt;config.toml&lt;/code&gt; (before &lt;code&gt;[params]&lt;/code&gt; settings):&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;[permalinks]
-    post = &amp;quot;/:year/:month/:day/:slug&amp;quot;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Where &lt;code&gt;:slug&lt;/code&gt; defaults to the filename of the post, excluding the file extension. However, slug may be overridden on a per post basis if desired, simply by setting &lt;code&gt;slug = &amp;quot;my-short-post-title&amp;quot;&lt;/code&gt; in your post preamble.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Example 2:&lt;/strong&gt; let&amp;rsquo;s consider changing the URL path of posts from &lt;code&gt;post/&lt;/code&gt; to &lt;code&gt;blog/&lt;/code&gt;. First, add the following parameters right above the &lt;code&gt;[params]&lt;/code&gt; section of your &lt;code&gt;config.toml&lt;/code&gt;:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;[permalinks]
-    post = &amp;quot;/blog/:slug&amp;quot;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Then add &lt;code&gt;aliases = [&amp;quot;/blog/&amp;quot;]&lt;/code&gt; to your post archive page &lt;code&gt;post/_index.md&lt;/code&gt; so that it can be accessed from the &lt;em&gt;/blog/&lt;/em&gt; URL.&lt;/p&gt;
-
-&lt;h3 id=&#34;advanced-style-customization-css&#34;&gt;Advanced style customization (CSS)&lt;/h3&gt;
-
-&lt;p&gt;For advanced customization of the style, you can link custom CSS assets (relative to your root &lt;code&gt;static/css&lt;/code&gt;) from your &lt;code&gt;config.toml&lt;/code&gt; using &lt;code&gt;custom_css = [&amp;quot;custom.css&amp;quot;]&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;For example, let&amp;rsquo;s override some of Academic&amp;rsquo;s default styles. First, define &lt;code&gt;custom_css = [&amp;quot;override.css&amp;quot;]&lt;/code&gt; in &lt;code&gt;config.toml&lt;/code&gt;. Then we can create the file &lt;code&gt;static/css/override.css&lt;/code&gt;, relative to your website root (i.e. &lt;strong&gt;not&lt;/strong&gt; in the &lt;code&gt;themes&lt;/code&gt; directory). Add your custom CSS to this file.&lt;/p&gt;
-
-&lt;h2 id=&#34;updating&#34;&gt;Updating&lt;/h2&gt;
-
-&lt;p&gt;Feel free to &lt;em&gt;star&lt;/em&gt; the project on &lt;a href=&#34;https://github.com/gcushen/hugo-academic/&#34; target=&#34;_blank&#34;&gt;Github&lt;/a&gt; to help keep track of updates and check out the &lt;a href=&#34;https://sourcethemes.com/academic/tags/updates&#34; target=&#34;_blank&#34;&gt;release notes&lt;/a&gt; prior to updating your site.&lt;/p&gt;
-
-&lt;p&gt;Before updating the framework, it is recommended to make a backup of your entire website directory, or at least your &lt;code&gt;themes/academic&lt;/code&gt; directory.&lt;/p&gt;
-
-&lt;p&gt;Before updating for the first time, the remote &lt;em&gt;origin&lt;/em&gt; repository should be renamed to &lt;em&gt;upstream&lt;/em&gt;:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;$ cd themes/academic
-$ git remote rename origin upstream
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;To list available updates:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;$ cd themes/academic
-$ git fetch upstream
-$ git log --pretty=oneline --abbrev-commit --decorate HEAD..upstream/master
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Then, update by running:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;$ git pull upstream
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;If you have modified files in &lt;code&gt;themes/academic&lt;/code&gt;, git will attempt to auto-merge changes. If conflicts are reported, you will need to manually edit the files with conflicts and add them back (&lt;code&gt;git add &amp;lt;filename&amp;gt;&lt;/code&gt;).&lt;/p&gt;
-
-&lt;p&gt;If there are any issues after updating, you may wish to compare your site with the latest &lt;a href=&#34;https://github.com/gcushen/hugo-academic/tree/master/exampleSite&#34; target=&#34;_blank&#34;&gt;example site&lt;/a&gt; to check if any settings changed in &lt;code&gt;config.toml&lt;/code&gt; or the &lt;code&gt;+++&lt;/code&gt; frontmatter of content files.&lt;/p&gt;
-
-&lt;h2 id=&#34;feedback-contributing&#34;&gt;Feedback &amp;amp; Contributing&lt;/h2&gt;
-
-&lt;p&gt;Please use the &lt;a href=&#34;https://github.com/gcushen/hugo-academic/issues&#34; target=&#34;_blank&#34;&gt;issue tracker&lt;/a&gt; to let me know about any bugs or feature requests, or alternatively make a pull request.&lt;/p&gt;
-
-&lt;p&gt;For general questions about Hugo, there is a &lt;a href=&#34;http://discuss.gohugo.io&#34; target=&#34;_blank&#34;&gt;Hugo discussion forum&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h2 id=&#34;license&#34;&gt;License&lt;/h2&gt;
-
-&lt;p&gt;Copyright 2017 &lt;a href=&#34;https://georgecushen.com&#34; target=&#34;_blank&#34;&gt;George Cushen&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Released under the &lt;a href=&#34;https://github.com/gcushen/hugo-academic/blob/master/LICENSE.md&#34; target=&#34;_blank&#34;&gt;MIT&lt;/a&gt; license.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Customizing the homepage with widgets</title>
-      <link>/post/widgets/</link>
-      <pubDate>Tue, 19 Apr 2016 00:00:00 +0800</pubDate>
-      
-      <guid>/post/widgets/</guid>
-      <description>
-
-&lt;p&gt;Homepage widgets display as sections on the homepage. They can be enabled/disabled and configured as desired. Academic has the following widgets available to use:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;About/biography&lt;/li&gt;
-&lt;li&gt;Selected publications&lt;/li&gt;
-&lt;li&gt;Recent publications&lt;/li&gt;
-&lt;li&gt;Recent news/blog posts&lt;/li&gt;
-&lt;li&gt;Projects&lt;/li&gt;
-&lt;li&gt;Selected talks&lt;/li&gt;
-&lt;li&gt;Recent talks&lt;/li&gt;
-&lt;li&gt;Contact&lt;/li&gt;
-&lt;li&gt;Tag cloud&lt;/li&gt;
-&lt;li&gt;Hero (introduction)&lt;/li&gt;
-&lt;li&gt;Custom widget (demonstrated with the &lt;em&gt;teaching&lt;/em&gt; example)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;The example site that you copied to create your site uses all the different types of widget (except talks), so you can generally just delete the widgets you don&amp;rsquo;t need and customize the parameters of the widgets you wish to keep.&lt;/p&gt;
-
-&lt;p&gt;The parameters for each widget vary. They can be found in the preamble/frontmatter (between the pair of &lt;code&gt;+++&lt;/code&gt;) for each widget installed in the &lt;code&gt;content/home/&lt;/code&gt; folder.&lt;/p&gt;
-
-&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;p&gt;By default, publications will be displayed in a simple list. If you prefer a more detailed list with abstract and image, you can enable the detailed publication list on the homepage by setting &lt;code&gt;list_format = 2&lt;/code&gt; in &lt;code&gt;content/home/publications.md&lt;/code&gt;.&lt;/p&gt;
-
-&lt;/div&gt;
-
-
-&lt;h2 id=&#34;add-a-widget-to-the-homepage&#34;&gt;Add a widget to the homepage&lt;/h2&gt;
-
-&lt;p&gt;To add a widget manually, copy the relevant widget from &lt;code&gt;themes/academic/exampleSite/content/home/&lt;/code&gt; to your &lt;code&gt;content/home/&lt;/code&gt; folder.&lt;/p&gt;
-
-&lt;p&gt;Widget identifiers are set to their respective filenames, so a &lt;code&gt;content/home/about.md&lt;/code&gt; widget can be linked from the navigation bar by setting the relevant URL as &lt;code&gt;&amp;quot;#about&amp;quot;&lt;/code&gt; in &lt;code&gt;config.toml&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;This means that if you want to use multiple instances of a widget, each widget will be assigned a unique ID based on the filename that you set. You can then use that ID for linking, like in the above example.&lt;/p&gt;
-
-&lt;h2 id=&#34;using-the-custom-widget&#34;&gt;Using the custom widget&lt;/h2&gt;
-
-&lt;p&gt;You can use the custom widget to create your own home page sections.&lt;/p&gt;
-
-&lt;p&gt;Simply duplicate (copy/paste) and rename the example &lt;em&gt;teaching&lt;/em&gt; file at &lt;code&gt;content/home/teaching.md&lt;/code&gt;. Then edit the section title, weight (refer to &lt;em&gt;Ordering sections&lt;/em&gt; below), and content as desired.&lt;/p&gt;
-
-&lt;p&gt;You may also wish to add a navigation link to the top of the page that points to the new section. This can be achieved by adding something similar to the following lines to your &lt;code&gt;config.toml&lt;/code&gt;, where the URL will consist of the first title word in lowercase:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;[[menu.main]]
-    name = &amp;quot;Research&amp;quot;
-    url = &amp;quot;#research&amp;quot;
-    weight = 10
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h2 id=&#34;remove-a-widget-from-the-homepage&#34;&gt;Remove a widget from the homepage&lt;/h2&gt;
-
-&lt;p&gt;If you do not require a particular widget, you can simply delete any associated files from the &lt;code&gt;content/home/&lt;/code&gt; folder.&lt;/p&gt;
-
-&lt;p&gt;To remove a navigation link from the top of the page, remove the associated &lt;code&gt;[[menu.main]]&lt;/code&gt; entry in &lt;code&gt;config.toml&lt;/code&gt;.&lt;/p&gt;
-
-&lt;h2 id=&#34;ordering-widgets&#34;&gt;Ordering widgets&lt;/h2&gt;
-
-&lt;p&gt;The order that the homepage widgets are displayed in is defined by the &lt;code&gt;weight&lt;/code&gt; parameter in each of the files in the &lt;code&gt;content/home/&lt;/code&gt; directory. The widgets are displayed in ascending order of their &lt;code&gt;weight&lt;/code&gt;, so you can simply edit the &lt;code&gt;weight&lt;/code&gt; parameters as desired.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Managing content</title>
-      <link>/post/managing-content/</link>
-      <pubDate>Mon, 18 Apr 2016 00:00:00 +0800</pubDate>
-      
-      <guid>/post/managing-content/</guid>
-      <description>&lt;p&gt;This is a brief guide to managing content with the Academic framework. Content can include publications, projects, talks, news/blog articles, and widget pages. After you have read this guide about creating and managing content, you may also be interested to learn about &lt;a href=&#34;/post/writing-markdown-latex/&#34; target=&#34;_blank&#34;&gt;writing content with Markdown, LaTeX, and Shortcodes&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;To enable LaTeX math rendering for a page, you should include &lt;code&gt;math = true&lt;/code&gt; in the page&amp;rsquo;s &lt;code&gt;+++&lt;/code&gt; preamble, as demonstrated in the included example site. Otherwise, to enable math on the homepage or for all pages, you must globally set &lt;code&gt;math = true&lt;/code&gt; in &lt;code&gt;config.toml&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;To disable source code highlighting by default for all pages, set &lt;code&gt;highlight = false&lt;/code&gt; in &lt;code&gt;config.toml&lt;/code&gt;. You can then enable source code highlighting only on pages that need it by setting &lt;code&gt;highlight = true&lt;/code&gt; in that page&amp;rsquo;s preamble. See the &lt;a href=&#34;/post/writing-markdown-latex/#code-highlighting&#34; target=&#34;_blank&#34;&gt;code-highlighting docs&lt;/a&gt; for more details.&lt;/p&gt;
-
-&lt;p&gt;To display a featured image in content page headers, the parameters below can be inserted towards the end of a page&amp;rsquo;s &lt;code&gt;+++&lt;/code&gt; preamble. It is assumed that the image is located in your &lt;code&gt;static/img/&lt;/code&gt; folder, so the full path in the example below will be &lt;code&gt;static/img/headers/getting-started.png&lt;/code&gt;. The &lt;code&gt;caption&lt;/code&gt; parameter can be used to write an image caption or credit.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-toml&#34;&gt;[header]
-image = &amp;quot;headers/getting-started.png&amp;quot;
-caption = &amp;quot;Image credit: [**Academic**](https://github.com/gcushen/hugo-academic/)&amp;quot;
-
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;p&gt;If you wish to prevent a featured image automatically being used for a post&amp;rsquo;s thumbnail on the homepage, the &lt;code&gt;preview = false&lt;/code&gt; parameter can be added to &lt;code&gt;[header]&lt;/code&gt;.&lt;/p&gt;
-
-&lt;/div&gt;
-
-
-&lt;h2&gt;Table of Contents&lt;/h2&gt;
-&lt;nav id=&#34;TableOfContents&#34;&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;#create-a-publication&#34;&gt;Create a publication&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#create-a-blog-post&#34;&gt;Create a blog post&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#create-a-project&#34;&gt;Create a project&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#create-a-talk&#34;&gt;Create a talk&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#create-a-widget-page&#34;&gt;Create a widget page&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#create-other-pages-e-g-cv&#34;&gt;Create other pages (e.g. CV)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#manage-archive-pages&#34;&gt;Manage archive pages&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#removing-content&#34;&gt;Removing content&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#view-your-updated-site&#34;&gt;View your updated site&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#deploy-your-site&#34;&gt;Deploy your site&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/nav&gt;
-
-
-&lt;h2 id=&#34;create-a-publication&#34;&gt;Create a publication&lt;/h2&gt;
-
-&lt;p&gt;To create a new publication:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;hugo new publication/my-paper-name.md
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Then edit the default variables at the top of &lt;code&gt;content/publication/my-paper-name.md&lt;/code&gt; to include the details of your publication. The &lt;code&gt;url_&lt;/code&gt; variables are used to generate links associated with your publication, such as for viewing PDFs of papers. Here is an example:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;+++
-title = &amp;quot;A publication title, such as title of a paper&amp;quot;
-
-# Date first published.
-date = &amp;quot;2013-07-01&amp;quot;
-
-# Authors. Comma separated list, e.g. `[&amp;quot;Bob Smith&amp;quot;, &amp;quot;David Jones&amp;quot;]`.
-authors = [&amp;quot;First author&#39;s name&amp;quot;, &amp;quot;Second author&#39;s name&amp;quot;]
-
-# Publication type.
-# Legend:
-# 0 = Uncategorized
-# 1 = Conference proceedings
-# 2 = Journal
-# 3 = Work in progress
-# 4 = Technical report
-# 5 = Book
-# 6 = Book chapter
-publication_types = [&amp;quot;1&amp;quot;]
-
-# Publication name and optional abbreviated version.
-publication = &amp;quot;In *International Conference on Academic*. You may use *Markdown* for italics etc.&amp;quot;
-publication_short = &amp;quot;In *ICA*&amp;quot;
-
-# Abstract and optional shortened version.
-abstract = &amp;quot;The abstract. Markdown and math can be used (note that math may require escaping as detailed in the red alert box below).&amp;quot;
-abstract_short = &amp;quot;A short version of the abstract.&amp;quot;
-
-# Featured image thumbnail (optional)
-image_preview = &amp;quot;&amp;quot;
-
-# Is this a selected publication? (true/false)
-selected = true
-
-# Projects (optional).
-#   Associate this publication with one or more of your projects.
-#   Simply enter the filename (excluding &#39;.md&#39;) of your project file in `content/project/`.
-#   E.g. `projects = [&amp;quot;deep-learning&amp;quot;]` references `content/project/deep-learning.md`.
-projects = []
-
-# Links (optional).
-url_pdf = &amp;quot;pdf/my-paper-name.pdf&amp;quot;
-url_preprint = &amp;quot;&amp;quot;
-url_code = &amp;quot;&amp;quot;
-url_dataset = &amp;quot;&amp;quot;
-url_project = &amp;quot;&amp;quot;
-url_slides = &amp;quot;&amp;quot;
-url_video = &amp;quot;&amp;quot;
-url_poster = &amp;quot;&amp;quot;
-url_source = &amp;quot;&amp;quot;
-
-# Custom links (optional).
-#   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
-# url_custom = [{name = &amp;quot;Custom Link&amp;quot;, url = &amp;quot;http://example.org&amp;quot;}]
-
-# Does the content use math formatting?
-math = true
-
-# Does the content use source code highlighting?
-highlight = true
-
-# Featured image
-# Place your image in the `static/img/` folder and reference its filename below, e.g. `image = &amp;quot;example.jpg&amp;quot;`.
-[header]
-image = &amp;quot;headers/bubbles-wide.jpg&amp;quot;
-caption = &amp;quot;My caption 😄&amp;quot;
-
-+++
-
-Further details on your publication can be written here using *Markdown* for formatting. This text will be displayed on the Publication Detail page.
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;The &lt;code&gt;url_&lt;/code&gt; links can either point to local or web content. Associated local publication content, such as PDFs, may be copied to a &lt;code&gt;static/pdf/&lt;/code&gt; folder and referenced like &lt;code&gt;url_pdf = &amp;quot;pdf/my-paper-name.pdf&amp;quot;&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;You can also associate custom link buttons with the publication by adding the following block within the variable preamble above, which is denoted by &lt;code&gt;+++&lt;/code&gt;:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;url_custom = [{name = &amp;quot;Custom Link 1&amp;quot;, url = &amp;quot;http://example.org&amp;quot;},
-              {name = &amp;quot;Custom Link 2&amp;quot;, url = &amp;quot;http://example.org&amp;quot;}]
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;If you set &lt;code&gt;list_format=2&lt;/code&gt; to enable a detailed listing of publications in the Publication Widget (&lt;code&gt;home/publications.md&lt;/code&gt;) or Publication Archive (&lt;code&gt;publication/_index.md&lt;/code&gt;), then there are a few more optional variables that you can include in the publication page preamble. You may use &lt;code&gt;abstract_short = &amp;quot;friendly summary of abstract&amp;quot;&lt;/code&gt; and &lt;code&gt;publication_short = &amp;quot;abbreviated publication details&amp;quot;&lt;/code&gt; to display a friendly summary of the abstract and abbreviate the publication details, respectively. Furthermore, there is the option to display a different image on the homepage to the publication detail page by setting &lt;code&gt;image_preview = &amp;quot;my-image.jpg&amp;quot;&lt;/code&gt;. This can be useful if you wish to scale down the image for the homepage or simply if you just wish to show a different image for the preview.&lt;/p&gt;
-
-&lt;div class=&#34;alert alert-warning&#34;&gt;
-  &lt;p&gt;Any double quotes (&lt;code&gt;&amp;quot;&lt;/code&gt;) or backslashes (e.g. LaTeX &lt;code&gt;\times&lt;/code&gt;) occurring within the value of any frontmatter parameter (such as the &lt;em&gt;abstract&lt;/em&gt;) should be escaped with a backslash (&lt;code&gt;\&lt;/code&gt;). For example, the symbol &lt;code&gt;&amp;quot;&lt;/code&gt; and LaTeX text &lt;code&gt;\times&lt;/code&gt; become &lt;code&gt;\&amp;quot;&lt;/code&gt; and &lt;code&gt;\\times&lt;/code&gt;, respectively. Refer to the &lt;a href=&#34;https://github.com/toml-lang/toml#user-content-string&#34; target=&#34;_blank&#34;&gt;TOML documentation&lt;/a&gt; for more info.&lt;/p&gt;
-
-&lt;/div&gt;
-
-
-&lt;h2 id=&#34;create-a-blog-post&#34;&gt;Create a blog post&lt;/h2&gt;
-
-&lt;p&gt;To create a blog/news article:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;hugo new post/my-article-name.md
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Then edit the newly created file &lt;code&gt;content/post/my-article-name.md&lt;/code&gt; with your full title and content.&lt;/p&gt;
-
-&lt;p&gt;Hugo will automatically generate summaries of posts that appear on the homepage. If you are dissatisfied with an automated summary, you can either limit the summary length by appropriately placing &lt;code&gt;&amp;#60;&amp;#33;&amp;#45;&amp;#45;more&amp;#45;&amp;#45;&amp;#62;&lt;/code&gt; in the article body, or completely override the automated summary by adding a &lt;code&gt;summary&lt;/code&gt; parameter to the &lt;code&gt;+++&lt;/code&gt; preamble such that:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;summary = &amp;quot;Summary of my post.&amp;quot;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;To disable commenting for a specific post, you can add &lt;code&gt;disable_comments = true&lt;/code&gt; to the post &lt;code&gt;+++&lt;/code&gt; preamble. Or to disable commenting for all posts, you can either set &lt;code&gt;disqusShortname = &amp;quot;&amp;quot;&lt;/code&gt; or &lt;code&gt;disable_comments = true&lt;/code&gt; in &lt;code&gt;config.toml&lt;/code&gt;.&lt;/p&gt;
-
-&lt;h2 id=&#34;create-a-project&#34;&gt;Create a project&lt;/h2&gt;
-
-&lt;p&gt;To create a project:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;hugo new project/my-project-name.md
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Then edit the newly created file &lt;code&gt;content/project/my-project-name.md&lt;/code&gt;. Either you can link the project to an external project website by setting the &lt;code&gt;external_link = &amp;quot;http://external-project.com&amp;quot;&lt;/code&gt; variable at the top of the file, or you can add content (below the final &lt;code&gt;+++&lt;/code&gt;) in order to render a project page on your website.&lt;/p&gt;
-
-&lt;h2 id=&#34;create-a-talk&#34;&gt;Create a talk&lt;/h2&gt;
-
-&lt;p&gt;To create a talk:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;hugo new talk/my-talk-name.md
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Then edit the newly created file &lt;code&gt;content/talk/my-talk-name.md&lt;/code&gt; with your full talk title and details. Note that many of the talk parameters are similar to the publication parameters.&lt;/p&gt;
-
-&lt;h2 id=&#34;create-a-widget-page&#34;&gt;Create a widget page&lt;/h2&gt;
-
-&lt;p&gt;So you would like to create a page which utilizes Academic&amp;rsquo;s widget system, similar to the homepage?&lt;/p&gt;
-
-&lt;p&gt;Create a new folder in your &lt;code&gt;content&lt;/code&gt; folder, naming it with your new page name. In this example, we will create a &lt;em&gt;courses&lt;/em&gt; page by creating a &lt;code&gt;content/courses/&lt;/code&gt; folder.&lt;/p&gt;
-
-&lt;p&gt;Within your new &lt;code&gt;content/courses/&lt;/code&gt; folder, create a file named &lt;code&gt;_index.md&lt;/code&gt; containing the following parameters:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;+++
-title = &amp;quot;Courses&amp;quot;
-date = 2017-01-01
-widgets = true
-+++
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Install widgets into your &lt;code&gt;content/courses/&lt;/code&gt; folder. To achieve this, widgets can be copied from your &lt;code&gt;content/home/&lt;/code&gt; folder or downloaded from &lt;a href=&#34;https://github.com/gcushen/hugo-academic/tree/master/exampleSite/content/home&#34; target=&#34;_blank&#34;&gt;Github&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h2 id=&#34;create-other-pages-e-g-cv&#34;&gt;Create other pages (e.g. CV)&lt;/h2&gt;
-
-&lt;p&gt;For other types of content, it is possible to create your own custom pages. For example, let&amp;rsquo;s create a &lt;code&gt;cv.md&lt;/code&gt; page for your Curriculum Vitae in your &lt;code&gt;content&lt;/code&gt; folder. Copy across the frontmatter from the top of one of your post files, adapting it as necessary, and editing your Markdown content below. You can then link to your new page by adding the code &lt;code&gt;[My CV]{{&amp;lt; ref &amp;quot;cv.md&amp;quot; &amp;gt;}}&lt;/code&gt; to any of your existing content.&lt;/p&gt;
-
-&lt;p&gt;Alternatively, for the above example, we could use a PDF of your Curriculum Vitae. For this purpose, create a folder called &lt;code&gt;files&lt;/code&gt; within your &lt;code&gt;static&lt;/code&gt; folder and move a PDF file named &lt;code&gt;cv.pdf&lt;/code&gt; to that location, so we have a &lt;code&gt;static/files/cv.pdf&lt;/code&gt; file path. The PDF can then be linked to from any content by using the code: &lt;code&gt;{{% staticref &amp;quot;files/cv.pdf&amp;quot; %}}Download my CV{{% /staticref %}}&lt;/code&gt;.&lt;/p&gt;
-
-&lt;h2 id=&#34;manage-archive-pages&#34;&gt;Manage archive pages&lt;/h2&gt;
-
-&lt;p&gt;The archive (or &lt;em&gt;node index&lt;/em&gt;) pages (e.g. &lt;code&gt;/post/&lt;/code&gt;) are the special pages which list all of your content. They can exist for blog posts, publications, and talks. The homepage widgets will automatically link to the archive pages when you have more items of content than can be displayed in the widget. Therefore, if you don&amp;rsquo;t have much content, you may not see the automatic links yet - but you can also manually link to them using a normal Markdown formatted link in your content.&lt;/p&gt;
-
-&lt;p&gt;You can edit the title and add your own content, such as an introduction, by copying the following content &lt;code&gt;_index.md&lt;/code&gt; files from the example site to the same structure within your &lt;code&gt;content/&lt;/code&gt; folder:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;/themes/academic/exampleSite/content/post/_index.md
-/themes/academic/exampleSite/content/publication/_index.md
-/themes/academic/exampleSite/content/talk/_index.md
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Then edit the &lt;code&gt;title&lt;/code&gt; parameter in each &lt;code&gt;_index.md&lt;/code&gt; as desired and add any content after the &lt;code&gt;+++&lt;/code&gt; preamble/frontmatter ends. You will notice that the &lt;code&gt;_index.md&lt;/code&gt; files differ slightly, with some having special options available for the associated content type. For example, &lt;code&gt;publication/_index.md&lt;/code&gt; contains an option for setting the citation style of the listings which appear on the publication archive page.&lt;/p&gt;
-
-&lt;h2 id=&#34;removing-content&#34;&gt;Removing content&lt;/h2&gt;
-
-&lt;p&gt;Generally, to remove content, simply delete the relevant file from your &lt;code&gt;content/post&lt;/code&gt;, &lt;code&gt;content/publication&lt;/code&gt;, &lt;code&gt;content/project&lt;/code&gt;, or &lt;code&gt;content/talk&lt;/code&gt; folder.&lt;/p&gt;
-
-&lt;h2 id=&#34;view-your-updated-site&#34;&gt;View your updated site&lt;/h2&gt;
-
-&lt;p&gt;After you have made changes to your site, you can view it by running the &lt;code&gt;hugo server&lt;/code&gt; command and then opening &lt;a href=&#34;http://localhost:1313&#34; target=&#34;_blank&#34;&gt;localhost:1313&lt;/a&gt; in your web browser.&lt;/p&gt;
-
-&lt;h2 id=&#34;deploy-your-site&#34;&gt;Deploy your site&lt;/h2&gt;
-
-&lt;p&gt;Finally, you can build the static website to a &lt;code&gt;public/&lt;/code&gt; folder ready for deployment using the &lt;code&gt;hugo&lt;/code&gt; command.&lt;/p&gt;
-
-&lt;p&gt;You may then deploy your site by copying the &lt;code&gt;public/&lt;/code&gt; directory (by FTP, SFTP, WebDAV, Rsync, git push, etc.) to your production web server.&lt;/p&gt;
-
-&lt;p&gt;Note that running &lt;code&gt;hugo&lt;/code&gt; does not remove any previously generated files before building. Therefore, it&amp;rsquo;s best practice to delete your &lt;code&gt;public/&lt;/code&gt; directory prior to running &lt;code&gt;hugo&lt;/code&gt; to ensure no old or interim files are deployed to your server.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Writing content with Markdown, LaTeX, and Shortcodes</title>
-      <link>/post/writing-markdown-latex/</link>
-      <pubDate>Sun, 17 Apr 2016 00:00:00 +0800</pubDate>
-      
-      <guid>/post/writing-markdown-latex/</guid>
-      <description>&lt;p&gt;Content can be written using &lt;a href=&#34;https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet&#34; target=&#34;_blank&#34;&gt;Markdown&lt;/a&gt;, &lt;a href=&#34;https://en.wikibooks.org/wiki/LaTeX/Mathematics&#34; target=&#34;_blank&#34;&gt;LaTeX math&lt;/a&gt;, and &lt;a href=&#34;http://gohugo.io/extras/shortcodes/&#34; target=&#34;_blank&#34;&gt;Hugo Shortcodes&lt;/a&gt;. Additionally, HTML may be used for advanced formatting. This article gives an overview of the most common formatting options.&lt;/p&gt;
-
-&lt;h2&gt;Table of Contents&lt;/h2&gt;
-&lt;nav id=&#34;TableOfContents&#34;&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;#sub-headings&#34;&gt;Sub-headings&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#emphasis&#34;&gt;Emphasis&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#ordered-lists&#34;&gt;Ordered lists&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#unordered-lists&#34;&gt;Unordered lists&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#images&#34;&gt;Images&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#links&#34;&gt;Links&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#emojis&#34;&gt;Emojis&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#blockquote&#34;&gt;Blockquote&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#footnotes&#34;&gt;Footnotes&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#code-highlighting&#34;&gt;Code highlighting&lt;/a&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;#highlighting-options&#34;&gt;Highlighting options&lt;/a&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;#option-highlight&#34;&gt;Option &lt;code&gt;highlight&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#option-highlight-languages&#34;&gt;Option &lt;code&gt;highlight_languages&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#option-highlight-style&#34;&gt;Option &lt;code&gt;highlight_style&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#twitter-tweet&#34;&gt;Twitter tweet&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#youtube&#34;&gt;Youtube&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#vimeo&#34;&gt;Vimeo&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#github-gist&#34;&gt;GitHub gist&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#speaker-deck&#34;&gt;Speaker Deck&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#rm-latex-math&#34;&gt;$\rm \LaTeX$ math&lt;/a&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;#multiline-equations&#34;&gt;Multiline equations&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#publication-abstracts&#34;&gt;Publication abstracts&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#table&#34;&gt;Table&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#alerts&#34;&gt;Alerts&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#table-of-contents&#34;&gt;Table of Contents&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/nav&gt;
-
-
-&lt;h2 id=&#34;sub-headings&#34;&gt;Sub-headings&lt;/h2&gt;
-
-&lt;pre&gt;&lt;code&gt;## Heading 2
-### Heading 3
-#### Heading 4
-##### Heading 5
-###### Heading 6
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h2 id=&#34;emphasis&#34;&gt;Emphasis&lt;/h2&gt;
-
-&lt;pre&gt;&lt;code&gt;Italics with *asterisks* or _underscores_.
-
-Bold with **asterisks** or __underscores__.
-
-Combined emphasis with **asterisks and _underscores_**.
-
-Strikethrough with ~~two tildes~~.
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h2 id=&#34;ordered-lists&#34;&gt;Ordered lists&lt;/h2&gt;
-
-&lt;pre&gt;&lt;code&gt;1. First item
-2. Another item
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h2 id=&#34;unordered-lists&#34;&gt;Unordered lists&lt;/h2&gt;
-
-&lt;pre&gt;&lt;code&gt;* First item
-* Another item
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h2 id=&#34;images&#34;&gt;Images&lt;/h2&gt;
-
-&lt;p&gt;Images may be added to a page by placing them in your &lt;code&gt;static/img/&lt;/code&gt; folder and referencing them using one of the following two notations:&lt;/p&gt;
-
-&lt;p&gt;A general image:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;![alternative text for search engines](/img/screenshot.png)
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;A numbered figure with caption:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;{{&amp;lt; figure src=&amp;quot;/img/screenshot.png&amp;quot; title=&amp;quot;Figure Caption&amp;quot; &amp;gt;}}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h2 id=&#34;links&#34;&gt;Links&lt;/h2&gt;
-
-&lt;pre&gt;&lt;code&gt;[I&#39;m a link](https://www.google.com)
-[A post]({{&amp;lt; ref &amp;quot;post/hi.md&amp;quot; &amp;gt;}})
-[A publication]({{&amp;lt; ref &amp;quot;publication/hi.md&amp;quot; &amp;gt;}})
-[A project]({{&amp;lt; ref &amp;quot;project/hi.md&amp;quot; &amp;gt;}})
-[Another section]({{&amp;lt; relref &amp;quot;hi.md#who&amp;quot; &amp;gt;}})
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;To enable linking to a file, such as a PDF, first place the file in your &lt;code&gt;static/files/&lt;/code&gt; folder and then link to it using the following form:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;{{% staticref &amp;quot;files/cv.pdf&amp;quot; &amp;quot;newtab&amp;quot; %}}Download my CV{{% /staticref %}}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;The optional &lt;code&gt;&amp;quot;newtab&amp;quot;&lt;/code&gt; argument for &lt;code&gt;staticref&lt;/code&gt; will cause the link to be opened in a new tab.&lt;/p&gt;
-
-&lt;h2 id=&#34;emojis&#34;&gt;Emojis&lt;/h2&gt;
-
-&lt;p&gt;See the &lt;a href=&#34;http://www.webpagefx.com/tools/emoji-cheat-sheet/&#34; target=&#34;_blank&#34;&gt;Emoji cheat sheet&lt;/a&gt; for available emoticons. The following serves as an example, but you should remove the spaces between each emoji name and pair of semicolons:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;I : heart : Academic : smile :
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;I ❤️ Academic 😄&lt;/p&gt;
-
-&lt;h2 id=&#34;blockquote&#34;&gt;Blockquote&lt;/h2&gt;
-
-&lt;pre&gt;&lt;code&gt;&amp;gt; This is a blockquote.
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;This is a blockquote.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&#34;footnotes&#34;&gt;Footnotes&lt;/h2&gt;
-
-&lt;pre&gt;&lt;code&gt;I have more [^1] to say.
-
-[^1]: Footnote example.
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;I have more &lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:1&#34;&gt;&lt;a rel=&#34;footnote&#34; href=&#34;#fn:1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; to say.&lt;/p&gt;
-
-&lt;h2 id=&#34;code-highlighting&#34;&gt;Code highlighting&lt;/h2&gt;
-
-&lt;p&gt;Pass the &lt;em&gt;language&lt;/em&gt; of the code, such as &lt;code&gt;python&lt;/code&gt;, as a parameter after three backticks:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;```python
-# Example of code highlighting
-input_string_var = input(&amp;quot;Enter some data: &amp;quot;)
-print(&amp;quot;You entered: {}&amp;quot;.format(input_string_var))
-```
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Result:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;# Example of code highlighting
-input_string_var = input(&amp;quot;Enter some data: &amp;quot;)
-print(&amp;quot;You entered: {}&amp;quot;.format(input_string_var))
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h3 id=&#34;highlighting-options&#34;&gt;Highlighting options&lt;/h3&gt;
-
-&lt;p&gt;The Academic theme uses &lt;a href=&#34;https://highlightjs.org&#34; target=&#34;_blank&#34;&gt;highlight.js&lt;/a&gt; for source code highlighting, and highlighting is enabled by default for all pages. However, several configuration options are supported that allow finer-grained control over highlight.js.&lt;/p&gt;
-
-&lt;p&gt;The following table lists the supported options for configuring highlight.js, along with their expected type and a short description. A &amp;ldquo;yes&amp;rdquo; in the &lt;strong&gt;config.toml&lt;/strong&gt; column means the value can be set globally in &lt;code&gt;config.toml&lt;/code&gt;, and a &amp;ldquo;yes&amp;rdquo; in the &lt;strong&gt;preamble&lt;/strong&gt; column means that the value can be set locally in a particular page&amp;rsquo;s preamble.&lt;/p&gt;
-
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;option&lt;/th&gt;
-&lt;th&gt;type&lt;/th&gt;
-&lt;th&gt;description&lt;/th&gt;
-&lt;th&gt;config.toml&lt;/th&gt;
-&lt;th&gt;preamble&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;code&gt;highlight&lt;/code&gt;&lt;/td&gt;
-&lt;td&gt;boolean&lt;/td&gt;
-&lt;td&gt;enable/disable highlighting&lt;/td&gt;
-&lt;td&gt;yes&lt;/td&gt;
-&lt;td&gt;yes&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;&lt;code&gt;highlight_languages&lt;/code&gt;&lt;/td&gt;
-&lt;td&gt;slice&lt;/td&gt;
-&lt;td&gt;choose additional languages&lt;/td&gt;
-&lt;td&gt;yes&lt;/td&gt;
-&lt;td&gt;yes&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;&lt;code&gt;highlight_style&lt;/code&gt;&lt;/td&gt;
-&lt;td&gt;string&lt;/td&gt;
-&lt;td&gt;choose a highlighting style&lt;/td&gt;
-&lt;td&gt;yes&lt;/td&gt;
-&lt;td&gt;no&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;h4 id=&#34;option-highlight&#34;&gt;Option &lt;code&gt;highlight&lt;/code&gt;&lt;/h4&gt;
-
-&lt;p&gt;The &lt;code&gt;highlight&lt;/code&gt; option allows enabling or disabling the inclusion of highlight.js, either globally or for a particular page. If the option is unset, it has the same effect as if you had specified &lt;code&gt;highlight = true&lt;/code&gt;. That is, the highlight.js javascript and css files will be included in every page. If you&amp;rsquo;d like to only include highlight.js files on pages that actually require source code highlighting, you can set &lt;code&gt;highlight = false&lt;/code&gt; in &lt;code&gt;config.toml&lt;/code&gt;, and then override it by setting &lt;code&gt;highlight = true&lt;/code&gt; in the preamble of any pages that require source code highlighting. Conversely, you could enable highlighting globally, and disable it locally for pages that do not require it. Here is a table that shows whether highlighting will be enabled for a page, based on the values of &lt;code&gt;highlight&lt;/code&gt; set in &lt;code&gt;config.toml&lt;/code&gt; and/or the page&amp;rsquo;s preamble.&lt;/p&gt;
-
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;config.toml&lt;/th&gt;
-&lt;th&gt;page preamble&lt;/th&gt;
-&lt;th&gt;highlighting enabled for page?&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;unset or true&lt;/td&gt;
-&lt;td&gt;unset or true&lt;/td&gt;
-&lt;td&gt;yes&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;unset or true&lt;/td&gt;
-&lt;td&gt;false&lt;/td&gt;
-&lt;td&gt;no&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;false&lt;/td&gt;
-&lt;td&gt;unset or false&lt;/td&gt;
-&lt;td&gt;no&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;false&lt;/td&gt;
-&lt;td&gt;true&lt;/td&gt;
-&lt;td&gt;yes&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;h4 id=&#34;option-highlight-languages&#34;&gt;Option &lt;code&gt;highlight_languages&lt;/code&gt;&lt;/h4&gt;
-
-&lt;p&gt;The &lt;code&gt;highlight_languages&lt;/code&gt; option allows you to specify additional languages that are supported by highlight.js, but are not considered &amp;ldquo;common&amp;rdquo; and therefore are not supported by default. For example, if you want source code highlighting for Go and clojure in all pages, set &lt;code&gt;highlight_languages = [&amp;quot;go&amp;quot;, &amp;quot;clojure&amp;quot;]&lt;/code&gt; in &lt;code&gt;config.toml&lt;/code&gt;. If, on the other hand, you want to enable a language only for a specific page, you can set &lt;code&gt;highlight_languages&lt;/code&gt; in that page&amp;rsquo;s preamble.&lt;/p&gt;
-
-&lt;p&gt;The &lt;code&gt;highlight_languages&lt;/code&gt; options specified in &lt;code&gt;config.toml&lt;/code&gt; and in a page&amp;rsquo;s preamble are additive. That is, if &lt;code&gt;config.toml&lt;/code&gt; contains, &lt;code&gt;highlight_languages = [&amp;quot;go&amp;quot;]&lt;/code&gt; and the page&amp;rsquo;s preamble contains &lt;code&gt;highlight_languages = [&amp;quot;ocaml&amp;quot;]&lt;/code&gt;, then javascript files for &lt;em&gt;both&lt;/em&gt; go and ocaml will be included for that page.&lt;/p&gt;
-
-&lt;p&gt;If the &lt;code&gt;highlight_languages&lt;/code&gt; option is set, then the corresponding javascript files will be served from the &lt;a href=&#34;https://cdnjs.com/libraries/highlight.js/&#34; target=&#34;_blank&#34;&gt;cdnjs server&lt;/a&gt;. To see a list of available languages, visit the &lt;a href=&#34;https://cdnjs.com/libraries/highlight.js/&#34; target=&#34;_blank&#34;&gt;cdnjs page&lt;/a&gt; and search for links with the word &amp;ldquo;languages&amp;rdquo;.&lt;/p&gt;
-
-&lt;p&gt;The &lt;code&gt;highlight_languages&lt;/code&gt; option provides an easy and convenient way to include support for additional languages to be severed from a CDN. If serving unmodified files from cdnjs doesn&amp;rsquo;t meet your needs, you can include javascript files for additional language support via one of the methods described in the &lt;a href=&#34;/post/getting-started/#third-party-and-local-scripts-js&#34; target=&#34;_blank&#34;&gt;getting started guide&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h4 id=&#34;option-highlight-style&#34;&gt;Option &lt;code&gt;highlight_style&lt;/code&gt;&lt;/h4&gt;
-
-&lt;p&gt;The &lt;code&gt;highlight_style&lt;/code&gt; option allows you to select an alternate css style for highlighted code. For example, if you wanted to use the solarized-dark style, you could set &lt;code&gt;highlight_style = &amp;quot;solarized-dark&amp;quot;&lt;/code&gt; in &lt;code&gt;config.toml&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;If the &lt;code&gt;highlight_style&lt;/code&gt; option is unset, the default is to use the file &lt;code&gt;/css/highlight.min.css&lt;/code&gt;, either the one provided by the Academic theme, or else the one in your local &lt;code&gt;static&lt;/code&gt; directory.  The &lt;code&gt;/css/highlight.min.css&lt;/code&gt; file provided by Academic is equivalent to the &lt;code&gt;github&lt;/code&gt; style from highlight.js.&lt;/p&gt;
-
-&lt;p&gt;If the &lt;code&gt;highlight_style&lt;/code&gt; option &lt;em&gt;is&lt;/em&gt; set, then &lt;code&gt;/css/highlight.min.css&lt;/code&gt; is ignored, and the corresponding css file will be served from the &lt;a href=&#34;https://cdnjs.com/libraries/highlight.js/&#34; target=&#34;_blank&#34;&gt;cdnjs server&lt;/a&gt;. To see a list of available styles, visit the &lt;a href=&#34;https://cdnjs.com/libraries/highlight.js/&#34; target=&#34;_blank&#34;&gt;cdnjs page&lt;/a&gt; and search for links with the word &amp;ldquo;styles&amp;rdquo;.&lt;/p&gt;
-
-&lt;p&gt;See the &lt;a href=&#34;https://highlightjs.org/static/demo/&#34; target=&#34;_blank&#34;&gt;highlight.js demo page&lt;/a&gt; for examples of available styles.&lt;/p&gt;
-
-&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;p&gt;Not all styles listed on the &lt;a href=&#34;https://highlightjs.org/static/demo/&#34; target=&#34;_blank&#34;&gt;highlight.js demo page&lt;/a&gt; are available from the &lt;a href=&#34;https://cdnjs.com/libraries/highlight.js/&#34; target=&#34;_blank&#34;&gt;cdnjs server&lt;/a&gt;. If you want to use a style that is not served by cdnjs, just leave &lt;code&gt;highlight_style&lt;/code&gt; unset, and place the corresponding css file in &lt;code&gt;/static/css/highlight.min.css&lt;/code&gt;.&lt;/p&gt;
-
-&lt;/div&gt;
-
-
-&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;p&gt;If you don&amp;rsquo;t want to change the default style that ships with Academic but you do want the style file served from the &lt;a href=&#34;https://cdnjs.com/libraries/highlight.js/&#34; target=&#34;_blank&#34;&gt;cdnjs server&lt;/a&gt;, set &lt;code&gt;highlight_style = &amp;quot;github&amp;quot;&lt;/code&gt; in &lt;code&gt;config.toml&lt;/code&gt;.&lt;/p&gt;
-
-&lt;/div&gt;
-
-
-&lt;p&gt;The &lt;code&gt;highlight_style&lt;/code&gt; option is only recognized when set in &lt;code&gt;config.toml&lt;/code&gt;. Setting &lt;code&gt;highlight_style&lt;/code&gt; in your page&amp;rsquo;s preamble has no effect.&lt;/p&gt;
-
-&lt;h2 id=&#34;twitter-tweet&#34;&gt;Twitter tweet&lt;/h2&gt;
-
-&lt;p&gt;To include a single tweet, pass the tweet’s ID from the tweet&amp;rsquo;s URL as parameter to the shortcode:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;{{&amp;lt; tweet 666616452582129664 &amp;gt;}}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h2 id=&#34;youtube&#34;&gt;Youtube&lt;/h2&gt;
-
-&lt;pre&gt;&lt;code&gt;{{&amp;lt; youtube w7Ft2ymGmfc &amp;gt;}}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h2 id=&#34;vimeo&#34;&gt;Vimeo&lt;/h2&gt;
-
-&lt;pre&gt;&lt;code&gt;{{&amp;lt; vimeo 146022717 &amp;gt;}}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h2 id=&#34;github-gist&#34;&gt;GitHub gist&lt;/h2&gt;
-
-&lt;pre&gt;&lt;code&gt;{{&amp;lt; gist USERNAME GIST-ID  &amp;gt;}}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h2 id=&#34;speaker-deck&#34;&gt;Speaker Deck&lt;/h2&gt;
-
-&lt;pre&gt;&lt;code&gt;{{&amp;lt; speakerdeck 4e8126e72d853c0060001f97 &amp;gt;}}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h2 id=&#34;rm-latex-math&#34;&gt;$\rm \LaTeX$ math&lt;/h2&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-TeX&#34;&gt;$$\left [ – \frac{\hbar^2}{2 m} \frac{\partial^2}{\partial x^2} + V \right ] \Psi = i \hbar \frac{\partial}{\partial t} \Psi$$
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;$$\left [ – \frac{\hbar^2}{2 m} \frac{\partial^2}{\partial x^2} + V \right ] \Psi = i \hbar \frac{\partial}{\partial t} \Psi$$&lt;/p&gt;
-
-&lt;p&gt;Alternatively, inline math can be written by wrapping the formula with only a single &lt;code&gt;$&lt;/code&gt;:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;This is inline: $\mathbf{y} = \mathbf{X}\boldsymbol\beta + \boldsymbol\varepsilon$
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;This is inline: $\mathbf{y} = \mathbf{X}\boldsymbol\beta + \boldsymbol\varepsilon$&lt;/p&gt;
-
-&lt;p&gt;Note that Markdown special characters need to be escaped with a backslash so they are treated as math rather than Markdown. For example, &lt;code&gt;*&lt;/code&gt; and &lt;code&gt;_&lt;/code&gt; become &lt;code&gt;\*&lt;/code&gt; and &lt;code&gt;\_&lt;/code&gt; respectively.&lt;/p&gt;
-
-&lt;h3 id=&#34;multiline-equations&#34;&gt;Multiline equations&lt;/h3&gt;
-
-&lt;p&gt;The standard LaTeX line break consisting of 2 backslashes needs to be replaced with 6 backslashes:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-TeX&#34;&gt;$$f(k;p\_0^\*) = \begin{cases} p\_0^\* &amp;amp; \text{if }k=1, \\\\\\
-1-p\_0^\* &amp;amp; \text {if }k=0.\end{cases}$$
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;$$f(k;p_0^*) = \begin{cases} p_0^* &amp;amp; \text{if }k=1, \\&lt;br /&gt;
-1-p_0^* &amp;amp; \text {if }k=0.\end{cases}$$&lt;/p&gt;
-
-&lt;h3 id=&#34;publication-abstracts&#34;&gt;Publication abstracts&lt;/h3&gt;
-
-&lt;p&gt;As Hugo and Academic attempt to parse TOML, Markdown, and LaTeX content in the abstract, the following guidelines should be followed just for the publication &lt;code&gt;abstract&lt;/code&gt; and &lt;code&gt;abstract_short&lt;/code&gt; fields:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;escape each LaTeX backslash (&lt;code&gt;\&lt;/code&gt;) with an extra backslash, yielding &lt;code&gt;\\&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;escape each LaTeX underscore (&lt;code&gt;_&lt;/code&gt;) with two backslashes, yielding &lt;code&gt;\\_&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Hence, &lt;code&gt;abstract = &amp;quot;${O(d_{\max})}$&amp;quot;&lt;/code&gt; becomes &lt;code&gt;abstract = &amp;quot;${O(d\\_{\\max})}$&amp;quot;&lt;/code&gt;.&lt;/p&gt;
-
-&lt;h2 id=&#34;table&#34;&gt;Table&lt;/h2&gt;
-
-&lt;p&gt;Code:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-Markdown&#34;&gt;| Command           | Description                    |
-| ------------------| ------------------------------ |
-| `hugo`            | Build your website.            |
-| `hugo serve -w`   | View your website.             |
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Result:&lt;/p&gt;
-
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;Command&lt;/th&gt;
-&lt;th&gt;Description&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;code&gt;hugo&lt;/code&gt;&lt;/td&gt;
-&lt;td&gt;Build your website.&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;&lt;code&gt;hugo serve -w&lt;/code&gt;&lt;/td&gt;
-&lt;td&gt;View your website.&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;h2 id=&#34;alerts&#34;&gt;Alerts&lt;/h2&gt;
-
-&lt;p&gt;Alerts are a useful feature that add side content such as tips, notes, or warnings to your articles. They are especially handy when writing educational tutorial-style articles. Use the corresponding shortcodes to enable alerts inside your content:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;{{% alert note %}}
-Here&#39;s a tip or note...
-{{% /alert %}}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;This will display the following &lt;em&gt;note&lt;/em&gt; block:&lt;/p&gt;
-
-&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;p&gt;Here&amp;rsquo;s a tip or note&amp;hellip;&lt;/p&gt;
-
-&lt;/div&gt;
-
-
-&lt;pre&gt;&lt;code&gt;{{% alert warning %}}
-Here&#39;s some important information...
-{{% /alert %}}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;This will display the following &lt;em&gt;warning&lt;/em&gt; block:&lt;/p&gt;
-
-&lt;div class=&#34;alert alert-warning&#34;&gt;
-  &lt;p&gt;Here&amp;rsquo;s some important information&amp;hellip;&lt;/p&gt;
-
-&lt;/div&gt;
-
-
-&lt;h2 id=&#34;table-of-contents&#34;&gt;Table of Contents&lt;/h2&gt;
-
-&lt;p&gt;A table of contents may be particularly useful for long posts or tutorial/documentation type content. Use the &lt;code&gt;{{% toc %}}&lt;/code&gt; shortcode anywhere you wish within your Markdown content to automatically generate a table of contents.&lt;/p&gt;
-&lt;div class=&#34;footnotes&#34;&gt;
-
-&lt;hr /&gt;
-
-&lt;ol&gt;
-&lt;li id=&#34;fn:1&#34;&gt;Footnote example.
+&lt;li id=&#34;fn:1&#34;&gt;Computational Communication Collaboratory, School of Journalism and Communication, Nanjing University, Nanjing, Jiangsu, China, 210093
  &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:1&#34;&gt;&lt;sup&gt;^&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
-&lt;/div&gt;</description>
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>学校医保</title>
+      <link>https://chengjunwang.com/note/note_archive/2017-07-02-health-care/</link>
+      <pubDate>Sun, 02 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://chengjunwang.com/note/note_archive/2017-07-02-health-care/</guid>
+      <description>&lt;p&gt;南字发〔2017〕80号&lt;/p&gt;
+
+&lt;p&gt;各院系、各单位：
+为进一步加强我校公费医疗管理工作，结合工作实际，学校对《南京大学公费医疗管理暂行办法》（南字发〔2006〕151 号）进行了修订完善，形成了《南京大学教职工公费医疗管理办法》。现印发给你们，请遵照执行。
+特此通知。&lt;/p&gt;
+
+&lt;p&gt;附件：南京大学教职工公费医疗管理办法
+南京大学
+2017 年 6 月 26 日&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;为进一步加强我校公费医疗管理工作，结合工作实际，特对《南京大学公费医疗管理暂行办法》（南字发〔2006〕151 号）进行修订和完善，形成本办法。
+公费医疗遵循国家、单位和个人共同负担的基本原则，在国家给予拨款的基础上，部分自筹经费，保障教职工的基本医疗需求，合理使用有限的医疗经费。&lt;/p&gt;
+
+&lt;h2 id=&#34;第一条-适用范围&#34;&gt;第一条 适用范围&lt;/h2&gt;
+
+&lt;p&gt;1.我校事业在编教职工（留职停薪人员除外）和离退休人员。
+2.按照学校人力资源处规定，给予享受学校公费医疗待遇的特殊人员。
+3.由各单位交费参加公费医疗的企业编制职工的医疗待遇，按原办法执行，交费标准按人均公费医疗支出调整。&lt;/p&gt;
+
+&lt;h2 id=&#34;第二条-挂钩医院&#34;&gt;第二条 挂钩医院&lt;/h2&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;江苏省人民医院、江苏省中医院、江苏省肿瘤医院、南京军区总医院、南京鼓楼医院、南京市口腔医院、江苏省口腔医院、南京市胸科医院、南京市脑科医院、南京市妇幼保健医院、南京市第二人民医院、泰康仙林鼓楼医院。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&#34;第三条-特需医院&#34;&gt;第三条 特需医院&lt;/h2&gt;
+
+&lt;p&gt;在紧急情况下，病人就近选择急诊的非挂钩医院以及医
+保定点的康复病院、养老院。&lt;/p&gt;
+
+&lt;h2 id=&#34;第四条-就诊的有关规定&#34;&gt;第四条 就诊的有关规定&lt;/h2&gt;
+
+&lt;p&gt;1.教职工患病应首先在校医院就诊，凭本人校园卡挂号。
+2.因病情需要，需转上级医院诊治的，必须经校医院转诊到挂钩医院就诊，否则医疗费用自理。
+3.急诊病人无需转诊，挂钩医院按正常比例报销，非挂钩医院按特需医院报销。
+4.住医保定点的康复病院、养老院产生的药费和检查费按特需医院报销，其他费用自理。
+5.教职工因公出差在异地（境内）生病就诊，凭派遣函和所在单位证明，医疗费用按挂钩医院报销。
+6.离退休人员回原籍、长期探亲或长期外派工作人员离开本市半年以上，须事先在医疗保险管理办公室申请、备案，选择当地一所社区医院和一所二级以上的公立医院定点，同时取消本地所有挂钩医院；当地医疗费用按挂钩医院报销。
+7.特殊疑难病例，需到外地医院就诊或会诊者，须凭本市挂钩医院医务处的转诊证明，经医疗保险管理办公室批准后，可转院诊治并按挂钩医院报销，未办理转诊手续者，医疗费用自理。
+8.各类人员出国（境）工作、学习、生活期间，发生的一切医疗费用全部自理。&lt;/p&gt;
+
+&lt;h2 id=&#34;第五条-医疗费报销有关规定&#34;&gt;第五条 医疗费报销有关规定&lt;/h2&gt;
+
+&lt;p&gt;1.公费医疗的药品报销范围按《南京大学公费医疗药品报销范围》执行。
+2.各类人员医疗费用自付比例如下：&lt;/p&gt;
+
+&lt;p&gt;校医院 挂钩医院 特需医院
+在职人员 10% 15% 报销总额减半
+退休人员 10% 15% 报销总额减半
+离休人员、院士、
+副省级干部 0 0 报销总额减半&lt;/p&gt;
+
+&lt;p&gt;3.在南京市医保范围内的检查项目，按正常比例报销。
+4.材料费单价在 100 元以下的按正常比例报销，单价在100 元以上的报销 50%，离休人员、院士、副省级干部报销60%。
+5.特殊治疗（如射频消融、χ-刀、γ-刀、激光治疗、高压氧、粒子射线治疗、机器人手术以及医保范围的靶向治疗等新技术）给予报销 50%，离休人员、院士、副省级干部报销 60%；器官移植者的器官供体费用自理；透析治疗费按90%报销；特别护理、心电、血压、血糖等监护（测）费按增加自付比例 20%报销。
+6.住院床位费规定：正常报销标准 50 元/日，副高（副处）及以上按照 80 元/日报销，院士、副省级按照 150 元/日报销。
+7.自理费用：参照南京市医保。
+8.经确诊为精神分裂症、癌症的病人，凭“三甲”医院疾病诊断证明、病理检查报告单，符合公费医疗报销范围内的住院医药费全额报销，门诊医药费按正常比例报销。
+9.实行计划生育的育龄女教职工，上环、取环、人流、结扎、引产等符合计划生育技术服务基本项目的手术费及检查费，经计划生育办公室审定后，按 100%报销。孕期建小卡及药物流产等医疗费用自理。
+10.个人自投商业医疗保险，按正常报销比例测算，原则上为公费医疗报销加保险赔款总额不超过患者公费医疗范围内医疗费总额。&lt;/p&gt;
+
+&lt;h2 id=&#34;第六条&#34;&gt;第六条&lt;/h2&gt;
+
+&lt;p&gt;教职工子女参加南京市城镇居民基本医疗保险，每年个人自付金额超过 1500 元（即从 1501 元起），按男单女双的原则，凭南京市医保定点医院就诊刷卡的发票，医保范围内的自付部分，由学校给予 50%的补助，全年最高补助额 5000 元。&lt;/p&gt;
+
+&lt;h2 id=&#34;第七条&#34;&gt;第七条&lt;/h2&gt;
+
+&lt;p&gt;除上述规定外，其它未尽事宜，参照南京市医保相关报销规定执行。&lt;/p&gt;
+
+&lt;h2 id=&#34;第八条&#34;&gt;第八条&lt;/h2&gt;
+
+&lt;p&gt;本办法由学校医疗保险工作领导小组负责解释。&lt;/p&gt;
+
+&lt;h2 id=&#34;第九条&#34;&gt;第九条&lt;/h2&gt;
+
+&lt;p&gt;本办法自发布之日起施行，我校被地方政府接纳参加城镇职工医保后，本办法自行废止。&lt;/p&gt;
+
+&lt;p&gt;南京大学校长办公室 2017 年 6 月 26 日印发&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Leveraging the Flow of Collective Attention for Computational Communication Research</title>
+      <link>https://chengjunwang.com/publication/flow-network-analysis/</link>
+      <pubDate>Thu, 15 Jun 2017 22:20:56 +0800</pubDate>
+      
+      <guid>https://chengjunwang.com/publication/flow-network-analysis/</guid>
+      <description>&lt;p&gt;In preparing.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>With Great Popularity Avoids Great Responsibility: The Influentials&#39; Participation in Public Issues on Sina Weibo</title>
+      <link>https://chengjunwang.com/publication/weibo-participation/</link>
+      <pubDate>Thu, 15 Jun 2017 22:20:56 +0800</pubDate>
+      
+      <guid>https://chengjunwang.com/publication/weibo-participation/</guid>
+      <description>&lt;p&gt;To be submitted.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>紫金楼</title>
+      <link>https://chengjunwang.com/note/note_archive/2017-06-14-school-building/</link>
+      <pubDate>Wed, 14 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://chengjunwang.com/note/note_archive/2017-06-14-school-building/</guid>
+      <description>&lt;p&gt;紫金楼终于来了，现在正在封顶。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://oaf2qt3yk.bkt.clouddn.com/a7bebcfc69fce0b45bb6c304e76ef6f0.png&#34; alt=&#34;紫金楼&#34; /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;根据中共江苏省委宣传部与南京大学签订的共建新闻传播学院协议，经教育部可研评估批复，南京大学新闻传播学院楼已完成开工前手续办理，于近日正式开工建设。&lt;/p&gt;
+
+&lt;p&gt;2016年4月25日下午，江苏省委宣传部和南京大学新闻传播学院共建的紫金楼奠基仪式在仙林校区举行，省委宣传部部长王燕文、南京大学党委书记张异宾等领导和新闻传播学院师生代表共同见证紫金楼奠基。&lt;/p&gt;
+
+&lt;p&gt;据了解，新闻传播学院楼坐落于仙林校区文科组团北部，总建筑面积&lt;strong&gt;10137.8&lt;/strong&gt;平方米，建筑高度17.3米，为地上&lt;strong&gt;四层&lt;/strong&gt;的框架结构。项目总投资6400万元，由江苏广播电视集团负责建设，预计于&lt;strong&gt;2018年3月底&lt;/strong&gt;竣工验收投入使用。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://oaf2qt3yk.bkt.clouddn.com/fd096961204e0a0039e7e902db0f89ec.png&#34; alt=&#34;示意图&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://oaf2qt3yk.bkt.clouddn.com/e370fd20ef0c33d7bf17948903164b29.png&#34; alt=&#34;示意图&#34; /&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Analyzing Mobile Phone Data With Network Science</title>
+      <link>https://chengjunwang.com/publication/ica2017/</link>
+      <pubDate>Sun, 14 May 2017 22:03:57 +0800</pubDate>
+      
+      <guid>https://chengjunwang.com/publication/ica2017/</guid>
+      <description>
+
+&lt;h1 id=&#34;2017-ica-conference&#34;&gt;2017 ICA Conference&lt;/h1&gt;
+
+&lt;h2 id=&#34;temporal-and-spatial-analysis-of-mobility-data&#34;&gt;Temporal and Spatial Analysis of Mobility Data&lt;/h2&gt;
+
+&lt;p&gt;Sat, May 27, 12:30 to 13:45, Hilton San Diego Bayfront, 3, Aqua 307&lt;/p&gt;
+
+&lt;p&gt;Session Submission Type: Panel&lt;/p&gt;
+
+&lt;p&gt;Abstract
+Every human behavior, including communicative behavior, involves four basic elements (4Ws): Who does What at When and Where. Out of these 4Ws, we have accumulated some knowledge about Who and What with traditional research methods (e.g., survey, experiment, and content analysis). However, due to the unavailability of time-stamped and geo-tagged data, little is known about the When (i.e., temporal) and Where (i.e., spatial) elements in human behavior. The increasing popularity of social media, the expanding capabilities of mobile devices, and the rapid advancement of computational methods provide social researchers a “social telescope” (Golder &amp;amp; Macy, 2014, Annual Review of Sociology) to examine the temporal and spatial characteristics of human behavior at different levels of granularities.&lt;/p&gt;
+
+&lt;p&gt;The proposed panel focuses on how to model the temporal and spatial features of human behavior with mobility data in a precise and parsimonious way. The interdisciplinary panelists will use empirical examples from their own studies and others’ research to demonstrate: (1) how we can conceptualize and/or operationalize temporal and spatial variables with different mobility datasets (e.g., mobile phone use and mobile apps use); (2) how we can develop empirical/mathematical models to capture and explain the temporal and spatial characteristics of human behavior; and (3) what are the theoretical and/or practical implications in the temporal and spatial analysis of mobility data. Moreover, the panelists will discuss some “critical” questions that have been voiced: What are major challenges communication researchers need to handle in analyzing mobility data? How can communication researchers work with researchers from other disciplines in mobility modeling? How can we deal with personal privacy, replicability, and other legal/ethical dilemmas?&lt;/p&gt;
+
+&lt;p&gt;The panel aims to help raise the awareness among communication scholars of opportunities and risks in the modelling of mobility data. Moreover, the panel will try to build an interdisciplinary dialogue on computational research between communication researchers, computer scientists, and research scientists from the industry.&lt;/p&gt;
+
+&lt;p&gt;Sub Unit： computational methods&lt;/p&gt;
+
+&lt;h3 id=&#34;short-bio&#34;&gt;short-bio&lt;/h3&gt;
+
+&lt;p&gt;Cheng-Jun Wang, Ph.D. He is currently an assistant research fellow in the School of Journalism and Communication, Nanjing University. He is also the director of Ogilvy Data Science Lab, Computational Communication Collaboratory. His research on computational communication appears in both SSCI and SCI indexed journals, such as Scientific Reports, PloS ONE, Physica A, Cyberpsychology, and Journal of Social and Personal Relationships.&lt;/p&gt;
+
+&lt;h2 id=&#34;notes&#34;&gt;Notes&lt;/h2&gt;
+
+&lt;p&gt;Hello everyone. My name is Xinzhi Zhang, from baptist university of hong kong. The title of our presentation is analyzing mobile phone data with network science. I will briefly introduce the authors. Cheng-Jun Wang is currently an assistant research fellow in the School of Journalism and Communication, Nanjing University. And Xinzhi Zhang is currently a Research Assistant Professor at the Department of Journalism of Hong Kong Baptist University.&lt;/p&gt;
+
+&lt;p&gt;Computational social science provides a new lens for our research of human communication behaviors. Especially, it emphasizes the perspective of network science and big data,including website logs and web-based experiment. Duncan Watts claims that “If handled appropriately, data about Internet-based communication and interactivity could revolutionize our understanding of collective human behaviour”.  D. Watts, A twenty-first century science. Nature 445, 489 (2007).&lt;/p&gt;
+
+&lt;p&gt;Network science is important for communication research because: Firstly, we live our life in networks; and complex is a mathematical representation of various social systems. More important, compared with the other computational methods, such as computer simulations, network science is more closely connected with the real world data.&lt;/p&gt;
+
+&lt;p&gt;The mobile phone widely used in contemporary society supplies many social data for our studies, including the calling &amp;amp; messaging data, the online surfing data, and the mobility data. Just as Michael Macy said, it’s been really transformative. The digital traces help understand individual and group behavior at unprecedented scales and levels of detail.&lt;/p&gt;
+
+&lt;p&gt;For the human mobility data, we have small-scale travel surveys before, it can be coupled with GPS loggers. The rapid rise and prevalence of digital media provides a lot of big data, including: Mobile hone data, social media data, smartcard data, taxi trips data, game data.&lt;/p&gt;
+
+&lt;p&gt;Mobile phone positioning is required when a user communicates with the network. When a user initiates a network connection event (e.g. a voice-call), the cellular network operator needs to know his/her location in order to determine the cell tower used to channel this event. In this way, the subsequent positions of  the user can be well documented.&lt;/p&gt;
+
+&lt;p&gt;With the aid of the available data, researchers tried to study human mobility. For example, Brockman 2006 used the trajectories of dollar bills to study the dispersal of human, and they find that the distribution of length r can not be described as levy flights. Random processes with such a single-step distribution are known as Levy flights. Levy flights assumes that there is a power-law relationship between pr and r, the power exponent beta is usually smaller than 2. The simple Levy flight picture for dispersal is incomplete, since the dispersal is weak than expected. This is because the antagonistic interplay between scale-free displacements and waiting times: people might be less likely leave larger cities, and there are long periods of rest. Instead, they tried to describe human moblity as a continuous-time random walk, CTRW. The probability Wr(r,t) of having traversed a distance r at time t, where Lα,β is a universal scaling function that represents the characteristics of the process. According to ctrw model, t^(-α/β)*W(r, t) = Lα,β= (r/t^(α/β))**-gamma. Thus, they can fit the relationship between t^(-α/β)*W(r, t) and r/t^(α/β).&lt;/p&gt;
+
+&lt;p&gt;Gonzalez 2008 tried to study individual human mobility, and find that the distribution of both displacements and radius of gyration over all users is well approximated by a truncated power-law (see the left figures and the equations, here Rg is the radius of gyration for each user). However, after After rescaling the distance and the distribution with rg (main panel), the different curves collapse (see the right figure).&lt;/p&gt;
+
+&lt;p&gt;Song 2010 further finds that the predictions of the ctrw models are in systematic conflict with the empirical results. We introduce two principles that govern human trajectories, allowing us to build a statistically self-consistent microscopic model for individual human mobility. ” Give the number of distinct locations S(t) visited by a user is expected to follow the euation, S(t) ~ t^u, individuals has two choices, i) explore new locations. p_new = ro * s^(-gamma), and ii) preferential return to old locations, p_return = 1 – p_new&lt;/p&gt;
+
+&lt;p&gt;They observed that the distribution of time intervals of mobility follows a power law distribution, implies strong bursts. q stands for the probability of unknown locations, p(q) follows a normal distribution with a mean &lt;q&gt; = .7, indicating that we have no location update for about 70% of the hourly intervals, which masks the user’s real entropy S. The big nodes in the mobility networks are those old locations the individual preferentially return to.&lt;/p&gt;
+
+&lt;p&gt;Song measure the entropy of each individual’s trajectory to understand the potential predictability in user mobility. They distinguished three kinds of entropy, i) the random entropy s_rand, ii) the temporal uncorrelated entropy, s_unc, and iii) the reall entropy S. Let ∏ (/paɪ/ ) denote the predictability, it measures how can a algorithm predict correctly. Panel a shows the distribution of three kinds of entropies; Panel b shows the distribution of the predictability. Panel C shows the relationship between ∏max and rg We can find that a 93% of potential predictability in Panel C.&lt;/p&gt;
+
+&lt;p&gt;Brockmann and Helbing 2013 uses the global mobility network to study the arrival time of epidemics. The global mobility network is constructed from the worldwide air traffic between 4069 airports with 25,453 direct connections. Let pmn denote the fraction of travelers that leave node n and arrive  at node m, we define the effective distance dnm from a node n to a connected node m as dnm  = 1 – log pmn  &amp;gt;= 1 . The effective distance between two undirectly connected nodes can be computed as the minimum value of the product of a series of dij between m and n. In this way, the arrival time of epidemics can be precisely predicted.&lt;/p&gt;
+
+&lt;p&gt;Schich 2014 construct historical migration network using the birth-death location data of 120,211 individuals, which provide historical evidence for global patterns and local instabilities in human mobility dynamics.&lt;/p&gt;
+
+&lt;p&gt;We will talk in details about the study Titled Tracing the Attention of Moving Citizens. With the widespread use of mobile computing devices in contemporary society, our trajectories in the physical space and virtual world are increasingly closely connected. Using the anonymous smartphone data of 1×105 users in a major city of China, we study the interplay between online and offline human behaviors by constructing the mobility network (offline) and the attention network (online).&lt;/p&gt;
+
+&lt;p&gt;We can find strong correlations between offline and online behaviors.To systematically study the relationship between mobile users’ online surfing behaviors and offline mobility, we constructed mobility networks. Mobility network, nodes are physical locations and edges represent the movements between locations.Attention network, nodes are websites and edges represent the switch of users between websites&lt;/p&gt;
+
+&lt;p&gt;We primarily study their difference in terms of the network structure. Most complex networks are found to be small-world, but also many networks are fractal. For example, the internet is a small world. While the WWW is fractal. Fractals look the same on all scales = `scale-invariant’. There is a famous question about how long is the coastline of Norway. The answer depends on the length of your ruler. We can study the fractal patterns using the method of box covering. The box length is lb, and the number of boxes is nb, there is a power law relationship between them.&lt;/p&gt;
+
+&lt;p&gt;Using the box-covering method in networks, we can also calculate the box dimension db from the equation of nb(lb). Using the box-covering method, song renormalize the www network and find lb = 3, ie, within three steps, the www network can be transformed to a star network. We renormalize mobility network and attention network to compute db. There are 9899 nodes and 39,083 edges in the mobility network (Density = 7.9×10−4), and there are 16,476 nodes and 144,909 edges in the attention network (Density = 10.6 × 10−4). The diameter of the mobility network is 15, and the diameter of the attention network is only 10.&lt;/p&gt;
+
+&lt;p&gt;We find that (A) The number of boxes N(lB) is a power law function of box length lB in the attention network, and these two variables show an exponential relationship in the mobility network. (B) In the mobility network, the degree correlation (measured by the Pearson correlation coefficient Cor(Knn, k)) decreases from positive to negative when lB = 4, while the correlation remains negative in the attention network. Panel (C,D) show the transition of degree correlation in details. For the mobility network &amp;copy;, the slope of data points is positive when lB ⩽ 3, and the slope turns negative when lB ⩾ 4. Meanwhile, the correlation is always negative in the attention network (D).&lt;/p&gt;
+
+&lt;p&gt;The spatial division manifests the location-based online behaviors. There are obvious spatial constrained patterns. We show the geographical distribution of three kinds of mobile Internet use behaviors. A. Shopping (red), B. Dating (blue), and C. Taxi-calling (orange). The spatial-constrained attachment is well developed in geometric network models. We use it to reproduce our findings. We use geometric network models of different linking dynamics to test our assumptions on the origins of the observed fractal and small-world patterns in individual behaviors. In all, we suggest that we find that they belong to two different classes: the mobility network is small-world, whereas the attention network is fractal. online and offline behavior could be governed by very different mechanisms.&lt;/p&gt;
+
+&lt;p&gt;Finally, we would like to highlight some resources for human mobility research. NetworkX is a Python language software package for the creation, manipulation, and study of the structure, dynamics, and functions of complex networks. &lt;a href=&#34;http://networkx.github.io/&#34; target=&#34;_blank&#34;&gt;http://networkx.github.io/&lt;/a&gt; geopy is a Python client for several popular geocoding web services.  It helps to locate the coordinates of addresses, cities, countries, and landmarks across the globe using third-party geocoders and other data sources. bandicoot (&lt;a href=&#34;http://bandicoot.mit.edu&#34; target=&#34;_blank&#34;&gt;http://bandicoot.mit.edu&lt;/a&gt;) is Python toolbox to analyze mobile phone metadata.
+With only a few lines of code, load your datasets, visualize the data, perform analyses, and export the results. Folium builds on the data wrangling strengths of the Python ecosystem and the mapping strengths of the Leaflet.js library. Manipulate your data in Python, then visualize it in on a Leaflet map via Folium.&lt;/p&gt;
+
+&lt;p&gt;Thank you for your attention. This is the end.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>实验中心2017年相关事项</title>
+      <link>https://chengjunwang.com/note/note_archive/2017-05-07-lab-thinktank/</link>
+      <pubDate>Sun, 07 May 2017 12:00:00 +0000</pubDate>
+      
+      <guid>https://chengjunwang.com/note/note_archive/2017-05-07-lab-thinktank/</guid>
+      <description>&lt;h2 id=&#34;共建大数据实验室&#34;&gt;共建大数据实验室&lt;/h2&gt;
+
+&lt;p&gt;新闻传播学院与信管学院联合创办大数据实验室可以帮助解决共同关心的研究问题。但需要避免虚拟的实验室架构，现实的情况往往是一人身兼多职，难以兼顾，对于并非全力投入的实验室的认同感不高。因而，大数据实验室应该具有明确的人员配置和物理空间，探索建立激励机制，建立科学共同体，形成紧密的实验室群体，能够切实地开展科研与教学合作。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;开展大数据实验室讲座：组织大数据实验室系列讲座，通过分享、沟通与交流的方式进行有效的互动，发现双方共同感兴趣的研究话题。&lt;/li&gt;
+&lt;li&gt;科研方面：大数据实验室依托正在建设的大数据计算平台，基于重要科学问题和实际存在的大规模数据作为合作的基础，发表双方认可的高水平研究成果。&lt;/li&gt;
+&lt;li&gt;教学方面：
+
+&lt;ul&gt;
+&lt;li&gt;1. 大数据实验室提供大数据挖掘和分析的基础课程、工作坊；&lt;/li&gt;
+&lt;li&gt;2. 尝试双方共同建立数据新闻专业，结合新闻传播学院和信管学院双方的优势。&lt;/li&gt;
+&lt;li&gt;3. 推动研究生的联合培养模式。&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;2017年10月17日会谈备忘录&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;落实新闻传播学院一级博士点，条件成熟后合作申请“计算传播学”博士点，与信管学院合作招收联合培养的博士，不占双方名额。&lt;/li&gt;
+&lt;li&gt;联合开展本科实验班跨文理招生，系统培养数据新闻和计算传播人才。&lt;/li&gt;
+&lt;li&gt;联合申请重大工程类的项目，围绕传统文化、大运河、媒体融合等题目。例如研究中国传统文化在世界各国的传播与接纳。&lt;/li&gt;
+&lt;li&gt;用好双创、双一流计划的经费，申请省级和国家项目，建立联合实验室&lt;/li&gt;
+&lt;li&gt;开展人才的双聘机制，增强双方交流。&lt;/li&gt;
+&lt;li&gt;落实联合实验室在紫金楼的部署，依托正在建设的大数据计算平台，基于重要科学问题和实际存在的大规模数据作为合作的基础，发表双方认可的高水平研究成果。&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&#34;南大科学园&#34;&gt;南大科学园&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://oaf2qt3yk.bkt.clouddn.com/bc60c4d6fb5a76611f704c128eda0f1b.png&#34; alt=&#34;team6&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;如图，4.2m*6m的空间， 团队6所在的3#东南角。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://oaf2qt3yk.bkt.clouddn.com/a6f5dde2d3d30b8d57e06ebebeb98318.png&#34; alt=&#34;设计&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;可沟通城市是一种实践，致力于让城市空间与人形成机密的互动，是一种将建筑设计和技术（3D打印、VR、AR、可视化、语音对话等）紧密融合的艺术。作为艺术，它具有探索的过程，可以通过展览的形式展现，迅速吸引眼球。从展览到生活的过渡，则存在一条需要跨越的鸿沟。因而，需要从宏达的框架中提炼可以为普通人提供的服务。&lt;/p&gt;
+
+&lt;h2 id=&#34;国内外计算传播学方向发展的的观察&#34;&gt;国内外计算传播学方向发展的的观察&lt;/h2&gt;
+
+&lt;p&gt;学校很关心我们的计算传播学科崛起，请近期考虑引进若干名专职科研岗的具体推进方法！包括广告内容、宣传渠道、工作任务。可否你在黄俊楠配合下，这两天给一个初步思路。我们来积聚资源。&lt;/p&gt;
+
+&lt;p&gt;互联网大数据使得计算社会科学等相关领域迅猛发展，国内外传播学院校也开始拥抱这一发展潮流。南京大学新闻传播学院于2015年2月正式建立计算传播学实验中心，加州大学戴维斯分校传播系成立了&lt;a href=&#34;http://c2.ucdavis.edu/&#34; target=&#34;_blank&#34;&gt;计算传播研究实验室&lt;/a&gt;，领风气之先。其它高校虽然没有使用计算传播作为为名字，但是也大幅度招收采用大数据和计算科学进行传播学研究的学者。例如，宾州大学&lt;a href=&#34;https://www.asc.upenn.edu/people/faculty&#34; target=&#34;_blank&#34;&gt;安尼斯伯格传播学院&lt;/a&gt;也挖来了Damon Centola和Sandra González-Bailón；斯坦福大学传播系招来了&lt;a href=&#34;http://jenpan.com/&#34; target=&#34;_blank&#34;&gt;Jennifer Pan&lt;/a&gt;；国内高校以&lt;a href=&#34;http://sjc.bnu.edu.cn/sztd/index.html&#34; target=&#34;_blank&#34;&gt;北京师范大学&lt;/a&gt;（吴晔、徐敬宏、王蕊）、&lt;a href=&#34;https://mp.weixin.qq.com/s?__biz=MzA5MTExNDMyNw==&amp;amp;mid=210877062&amp;amp;idx=1&amp;amp;sn=e35b796e7fab3074221dd197a1bc4140&amp;amp;version=12020810&#34; target=&#34;_blank&#34;&gt;中山大学&lt;/a&gt;发展最为迅速，尤其是北京师范大学通过跨学科招人的方式获得跳跃式发展。&lt;/p&gt;
+
+&lt;h2 id=&#34;关于公开招聘新闻传播学院专职科研人员的启事-计算传播学研究方向&#34;&gt;关于公开招聘新闻传播学院专职科研人员的启事（计算传播学研究方向）&lt;/h2&gt;
+
+&lt;p&gt; 
+南京大学新闻传播学院因工作需要，现公开招聘计算传播学研究方向专职科研人员3名。&lt;/p&gt;
+
+&lt;p&gt;计算社会科学的发展为传播学研究指明了新的方向；基于因特网的人类传播行为和互动可以深刻地变革我们对人类群体行为的理解。计算传播是指数据驱动的、借助于计算方法所进行的传播过程。分析计算传播现象的研究领域即计算传播学。计算传播学是计算社会科学的重要分支，主要关注人类传播行为的计算基础；以传播网络分析、传播文本挖掘、数学建模等为主要分析工具；大规模地收集并分析人类传播行为数据；挖掘背后的模式和法则；分析模式背后的生成机制与基本原理；被广泛地应用于数据新闻和计算广告等场景；注重编程训练、数学建模、计算思维。&lt;/p&gt;
+
+&lt;p&gt;南京大学新闻传播学院在2015年2月创建了计算传播学实验研究中心，主要使命在于挖掘互联网数据，分析人类传播行为。经过两年多的发展，目前中心已经建成基础计算平台，包括小型计算集群、大内存服务器、数据存储平台、网络服务器，同时储备了大量数字媒体相关大数据资源，在注意力流动网络等领域发表了一系列研究成果。&lt;/p&gt;
+
+&lt;p&gt;2016年9月，第一届计算传播学论坛在南京召开，同年，国际传播学会成立了计算方法组；2017年加州大学戴维斯分校召开主题为Recomputing social science的会议，计算传播学分论坛开始出现在Sunbelt社会网络会议，计算传播学的讲习班和分论坛在中国中文信息学会所主办的全国社会媒体处理大会成功举办。越来越多的人开始对计算传播学感兴趣，为了使得更多的新闻传播学领域的研究者采用计算传播学的研究范式，第二届计算传播学论坛拓展为3天，其中包括了一天半的工作坊，过去的两天里将近80人学员参加文本挖掘基础班和网络信息传播高级班。今天大家再次汇聚一堂，很荣幸地邀请到了五位主题演讲嘉宾，同时还有poster展示、圆桌论坛多个环节，切磋学问，砥砺学术，共同推动计算传播学的发展学术共同体的成长。&lt;/p&gt;
+
+&lt;p&gt;一、岗位描述：&lt;/p&gt;
+
+&lt;p&gt;主要从事计算传播学相关研究和教学工作，独立开展科研工作以及研究课题，努力取得一定的基础和应用研究成果；具备一定的数据科学基础，熟悉Python或其它计算工具；积极与中心团队科研合作；每学期开设至少一门课程；每年以南京大学为第一单位，在相关领域发表SCI/SSCI论文不少于1篇，或CSSCI不少于3篇；参与组织计算传播学年会；积极开展国内外学术交流；积极参加科学普及与社会服务活动，积极承担校、所安排的其他工作。&lt;/p&gt;
+
+&lt;p&gt;二、应聘资格：
+1、具有较强的计算传播学研究能力和较好的论文写作能力。
+2、具有新闻学、传播学、社会学、政治学、计算机科学、物理学或其它相关学科的博士学位，35周岁以下；
+3、具备一定的数据科学基础，熟悉Python或其它用于海量数据分析的编程语言；&lt;/p&gt;
+
+&lt;p&gt;三、工资待遇
+本岗位为南京大学专职科研岗位，相关政策详见人力资源处网站《南京大学专职科研系列岗位聘任办法（试行）》文件。&lt;/p&gt;
+
+&lt;p&gt;四、申请程序及提交材料
+凡有意应聘者请将个人简历、学历学位证书复印件、科研成果目录等相关材料寄送至南京大学新闻传播学院。确定正式申请后再依规定提交其他材料。&lt;/p&gt;
+
+&lt;p&gt;五、聘后管理
+1. 对招聘到上述岗位的人员按学校相关规定管理，年薪??万不等，年均奖励或科研补助??万元左右。
+2. 专职科研系列岗位以聘用制聘用，专职从事科学研究工作，聘期三年。优秀的专职科研系列人员，聘期内或聘期结束前，可以应聘学校副教授及以上岗位。&lt;/p&gt;
+
+&lt;p&gt;五、联系方式
+通信地址：南京市鼓楼区汉口路22号，南京大学新闻传播学院
+邮政编码：210093
+联系人：黄老师
+联系电话：025-83686260&lt;/p&gt;
+
+&lt;h1 id=&#34;大力建设具有学科领先意义的实验室&#34;&gt;大力建设具有学科领先意义的实验室&lt;/h1&gt;
+
+&lt;p&gt;2）加大科研硬件投入。围绕不断发展的互联网技术，不断改造现有科研实验室，淘汰或彻底改造已经落后于技术发展的电话调查实验室，改进和完善正在建设的计算传播学实验室，兴建媒介认知心理学实验室与数据云实验室，以一系列在国内领域具有领先意义的学科实验室支持最前沿的新媒体研究。&lt;/p&gt;
+
+&lt;p&gt;2）大力建设具有学科领先意义的实验室。以手机、互联网为代表的数字媒体技术迅猛发展，一方面为新闻传播研究方法提出巨大挑战，另一方面也提供了“弯道超车”的发展机遇。通过加大科研硬件投入，完善正在建设的计算传播学实验中心，兴建媒介认知心理学实验室、数据云实验室，彻底改造或淘汰不适应新媒介环境的电话调查实验室，增强新闻传播学研究对大数据的计算、分析和挖掘能力。&lt;/p&gt;
+
+&lt;h1 id=&#34;全球华人思想库&#34;&gt;全球华人思想库&lt;/h1&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;全球华人思想库这个项目，资金到位了。现在需要开发一个工具，1、便于全球分主题投稿、整理、档案管理。2、自动生成分主题的元研究：学术搜索和整理综述。你看这个开发怎么做？需要多久？哪些成本？目前急于要开设备清单，以便李晓愚申述双创经费。你们可否在仙林或电话聊一下？只能买硬件。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+&lt;li&gt;投稿系统，可以考虑博客系统&lt;/li&gt;
+&lt;li&gt;Web服务器， 建设搜索引擎&lt;/li&gt;
+&lt;li&gt;自动主题生成&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;硬件&#34;&gt;硬件&lt;/h3&gt;
+
+&lt;p&gt;大数据实验室是计算传播学研究中心的一个重要组成部分。这个实验室目前落到了我和fm两个做project leader，系里从奥美研究院拿出50万支持这个实验室的硬件设施。&lt;/p&gt;
+
+&lt;p&gt;它的组成包括了分布式数据抓取和计算平台、共享计算平台、数据存储平台和实验室网站服务器四个部分组成。另外，接受计算士的意见，我决定购买2-3台macbook。&lt;/p&gt;
+
+&lt;h3 id=&#34;软件&#34;&gt;软件&lt;/h3&gt;
+
+&lt;p&gt;巢老师的意见是要实验室表现出传播力。因为我们从论文发表到资源积累，都落后与其他文科院系。但是即便是这些院系中的相关实验室，也较少为外界所知。这不得不让我好奇@北大新媒体这个微博账号是如何运营的啦。&lt;/p&gt;
+
+&lt;p&gt;同时他也告诉我近期的发展，实验室的人手缺乏是重要的问题。我想模仿城大的策略：吸引优秀的本系和外系本科生。目前南大鼓楼主要是商法传播物理这些院系。我想通过一些方式（读书会、沙龙）来吸引更多的本科生加入。采用一定的考核机制，实验室可以成为他们学习的空间，但他们必须参加实验室组会和其他活动，并承担一定的义务。&lt;/p&gt;
+
+&lt;p&gt;按照他的设想，11月完成硬件配置；11月和12月共组织四次活动；我在明年准备开设计算传播学导论的课程。&lt;/p&gt;
+
+&lt;p&gt;我将把我的一些合作者列为实验室的合作成员。参与weblab的组会、与计算士的午间讨论、与信纸的合作项目都可以展开了。&lt;/p&gt;
+
+&lt;p&gt;同时我自己的论文也迫在眉睫啦。&lt;/p&gt;
+
+&lt;h3 id=&#34;如何订购实验室电脑&#34;&gt;如何订购实验室电脑&lt;/h3&gt;
+
+&lt;p&gt;按要求填写申购贵重仪器设备可行性论证报告，需要寻找三家销售代理，细化装备的金额情况。在Hp和dell官网打电话找销售代理，打电话。看了apple中国的报价，以老师或学生身份购买会便宜很多。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>计算传播学——用AI穿透你的注意力壁垒</title>
+      <link>https://chengjunwang.com/talk/swarma-cc-talk/</link>
+      <pubDate>Wed, 12 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://chengjunwang.com/talk/swarma-cc-talk/</guid>
+      <description>&lt;p&gt;AI时代，每一秒钟,整个互联网上就有 60 万条信息在 Facebook 上分享,2 亿个 Email、10 万条 推文被发送,571 个新网站被建立,1.9E(1018)字节数据被交换[1]。海量的信息不断涌现, 但是全球的互联网用户总数却仅有 30 多亿(截止到 2014 年底)。每个人的注意力是有限的，我们应该如何巧妙地穿透注意力的壁垒，让信息精准地传递到我们的目标受众？计算传播学会给你答案。&lt;/p&gt;
+
+&lt;p&gt;计算传播是指数据驱动的、借助于人工智能，及其可计算方法所进行的传播过程,而分析计算传播现象的研究领域就是计算传播学。在本次讲座中，我将尝试介绍计算传播的起源、概念和应用,然后从计算社会科学的角度对计算传播学的理论脉络进行了介绍。基于以上内容,我介绍了一些计算传播学研究的例子，总结计算传播学研究中存在的从数据到模式,再从模式到机制的研究思路，最后讨论一下可能的发展方向。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;时间：2017-04-12 20:00-23:00&lt;/li&gt;
+&lt;li&gt;集智学园简介：&lt;a href=&#34;http://campus.swarma.org/gvid=10140&#34; target=&#34;_blank&#34;&gt;http://campus.swarma.org/gvid=10140&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;!--
+&lt;iframe id=&#34;video&#34; controls=&#34;controls&#34; muted=&#34;muted&#34;  src=&#34;http://campus.swarma.org/gvid=10140&#34; height=500 width=&#34;100%&#34;&gt;&lt;/iframe&gt;
+--&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>计算传播学年会工作坊组办</title>
+      <link>https://chengjunwang.com/note/note_archive/2017-04-01-conference-host/</link>
+      <pubDate>Sat, 01 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://chengjunwang.com/note/note_archive/2017-04-01-conference-host/</guid>
+      <description>&lt;h1 id=&#34;smp会议&#34;&gt;SMP会议&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.cips-smp.org/smp2017/&#34; target=&#34;_blank&#34;&gt;http://www.cips-smp.org/smp2017/&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;会议时间：9月14日~17日&lt;/li&gt;
+&lt;li&gt;会议报到时间：2017年9月13日至9月17日&lt;/li&gt;
+&lt;li&gt;会议报到地点：北京友谊宾馆&lt;/li&gt;
+&lt;li&gt;地址： 海淀区中关村南大街1号(四通桥西南角)&lt;/li&gt;
+&lt;li&gt;电话：(010)68498888&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;参加会议代表可根据个人的报销标准，自行预订酒店。&lt;/p&gt;
+
+&lt;p&gt;订房时请报“第六届全国社会媒体处理大会（SMP2017）”。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.cips-smp.org/smp2017/public/register.html&#34; target=&#34;_blank&#34;&gt;http://www.cips-smp.org/smp2017/public/register.html&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;9月13日   9月17日   500 大床&lt;/p&gt;
+
+&lt;p&gt;南京大学差旅住宿费标准明细表
+&lt;a href=&#34;https://hr.nju.edu.cn/62/72/c6664a156274/page.htm&#34; target=&#34;_blank&#34;&gt;https://hr.nju.edu.cn/62/72/c6664a156274/page.htm&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;北京 1100 650 500（三类）&lt;/p&gt;
+
+&lt;h1 id=&#34;2017年计算传播学年会暨工作坊&#34;&gt;2017年计算传播学年会暨工作坊&lt;/h1&gt;
+
+&lt;h2 id=&#34;会议帐号&#34;&gt;会议帐号&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://nic.nju.edu.cn/9003/list.htm&#34; target=&#34;_blank&#34;&gt;https://nic.nju.edu.cn/9003/list.htm&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;仅事业在编教职工、博士后、预任职员可开通此功能。资费为：50 线程，200 元/ 天；200 线程，800 元/ 天；500 线程，2000 元/ 天&lt;/p&gt;
+
+&lt;p&gt;办理办法：本人登录OA 、综合办公、“请示报告”，将填写完整的《南京大学会议网络帐号申请表（ 2016 试用版）》作为附件上传，提交网络信息中心审核。&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;100线程，22-23两天，共200元。会后财务处转账网络中心，拍照并且发邮件给yyyu@nju.edu.cn&lt;/li&gt;
+&lt;li&gt;用户名  ccc2017  密码  barabasi99&lt;/li&gt;
+&lt;li&gt;我们周四下午会打电话给杨育红老师89684795开通测试。&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&#34;内容分工&#34;&gt;内容分工&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;网络科学基础&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;信息扩散的计算因素（python+networkx基础）成军&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;单条信息传播的测量&amp;amp;机器学习框架 小可&lt;/li&gt;
+&lt;li&gt;信息传播中的节点重要性&amp;amp;可视化&lt;/li&gt;
+&lt;li&gt;行为的传播机制 海波&lt;/li&gt;
+&lt;li&gt;信息传播模型 海波、成军、阮中远&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&#34;标准&#34;&gt;标准&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;以工作坊为契机，为教学课程、科研、书籍做准备。&lt;/li&gt;
+&lt;li&gt;有一个编程实现的例子作为遴选标准&lt;/li&gt;
+&lt;li&gt;使用notebook&lt;a href=&#34;http://nbviewer.jupyter.org/github/computational-class/cjc/blob/gh-pages/slides/01.slides.slides.html&#34; target=&#34;_blank&#34;&gt;做slides，一个例子&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;deadline&#34;&gt;Deadline&lt;/h2&gt;
+
+&lt;p&gt;7月15日提交使用jupyter notebook&lt;/p&gt;
+
+&lt;h3 id=&#34;使用notebook制作slides的方法&#34;&gt;使用notebook制作slides的方法&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;安装Anaconda Python&lt;/li&gt;
+&lt;li&gt;Downnload from &lt;a href=&#34;https://github.com/damianavila/RISE&#34; target=&#34;_blank&#34;&gt;https://github.com/damianavila/RISE&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;open your teminal, cd to the RISE folder, e.g.,
+&lt;code&gt;cd /github/RISE/&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;To install this nbextension, simply run
+&lt;code&gt;python setup.py install&lt;/code&gt;
+from the RISE repository.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;In the notebook toolbar, a new button (&amp;ldquo;Enter/Exit Live Reveal Slideshow&amp;rdquo;) will be available. The notebook toolbar also contains a &amp;ldquo;Cell Toolbar&amp;rdquo; dropdown menu that gives you access to metadata for each cell.&lt;/p&gt;
+
+&lt;p&gt;If you select the Slideshow preset, you will see in the right corner of each cell a little box where you can select the cell type (similar as for the static reveal slides with &lt;code&gt;nbconvert&lt;/code&gt;).&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>大学财务报销</title>
+      <link>https://chengjunwang.com/note/note_archive/2017-03-20-ndcw/</link>
+      <pubDate>Mon, 20 Mar 2017 11:18:42 +0800</pubDate>
+      
+      <guid>https://chengjunwang.com/note/note_archive/2017-03-20-ndcw/</guid>
+      <description>&lt;h1 id=&#34;南京大学税务识别号及银行账号&#34;&gt;南京大学税务识别号及银行账号&lt;/h1&gt;
+
+&lt;p&gt;南京大学开具增值税专用发票的资料：&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;纳税人名称：南京大学　　&lt;/li&gt;
+&lt;li&gt;纳税人识别号：12100000466007458M&lt;/li&gt;
+&lt;li&gt;地址、电话：南京市栖霞区仙林大道163号　　 025-89684117&lt;/li&gt;
+&lt;li&gt;开户行及账号：工行汉口路支行　 4301011309001041656&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;财务处网站&#34;&gt;财务处网站&lt;/h1&gt;
+
+&lt;p&gt;蓝鲸大学财务网站 &lt;a href=&#34;http://ndcw.nju.edu.cn/&#34; target=&#34;_blank&#34;&gt;http://ndcw.nju.edu.cn/&lt;/a&gt; 终于搞明白了，好像只有校内网络才能登录!!!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://oaf2qt3yk.bkt.clouddn.com/fa541268765759fd854e4b24d77d0c59.png&#34; alt=&#34;网上自助平台&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;如何发放专家咨询费？&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;学生劳务费&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;我居然用了这么长的时间才搞明白这个系统，主要是自己一直在家里待着，用不了这个系统。2333&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;专家咨询费
+
+&lt;ul&gt;
+&lt;li&gt;在&lt;strong&gt;收入申报&lt;/strong&gt;部分填写!!!&lt;/li&gt;
+&lt;li&gt;选择”校外专家”&lt;/li&gt;
+&lt;li&gt;选择“校外人员信息采集”录入银行卡信息&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;已经填写了张伦的专家咨询费。填写了生成的表格，学院盖章后交给财务处报销。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://oaf2qt3yk.bkt.clouddn.com/0a72061a524c8ac8211c8aa0ed0d6d32.png&#34; alt=&#34;收入申报&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;公务卡&#34;&gt;公务卡&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://pan.baidu.com/s/1dF5ShNz&#34; target=&#34;_blank&#34;&gt;公务卡报销过程中的问题解答&lt;/a&gt; 2017年3月16日&lt;/p&gt;
+
+&lt;p&gt;2017-05-31在仙林校区外的工行激活了我的公务卡，在图书馆里使用公务卡买了火车票两张，还是挺方便的。后面去桔子酒店预订住宿一晚。希望早日学会使用公务卡消费。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;不能透支转账&lt;/li&gt;
+&lt;li&gt;且转账后的纪录在报销系统里是没有的，不能编制。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;消费满25日内还款还是有压力的吖，要去跑财务处了。&lt;/p&gt;
+
+&lt;p&gt;先在财务处网站，编制公务卡消费记录。然后，点击差旅生成公务卡消费表格。具体流程如下：&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;登录“网上自助平台”&lt;/li&gt;
+&lt;li&gt;点击”网上报账”&lt;/li&gt;
+&lt;li&gt;点击“公务卡”&lt;/li&gt;
+&lt;li&gt;然后，选择“日常报销”、”差旅报销”、“本市交通报销”中的一项生成表格，保存为pdf&lt;/li&gt;
+&lt;li&gt;学院财务一支笔签字盖章“公务卡消费表格”&lt;/li&gt;
+&lt;li&gt;出差的话，还需要填写”出差审批表”和“预算表”&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;校外接入功能的设置和使用&#34;&gt;校外接入功能的设置和使用&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://nic.nju.edu.cn/e1/29/c8913a188713/page.htm&#34; target=&#34;_blank&#34;&gt;https://nic.nju.edu.cn/e1/29/c8913a188713/page.htm&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;电话咨询了网络中心技术人员，对方不熟悉mac电脑！！！说可能是其他vpn修改了注册表。建议我重新安装，我重新安装了之后，依然没有什么作用。要考虑在windows下来完成这个过程了。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://oaf2qt3yk.bkt.clouddn.com/bf89148b1a6e799991676c29f2d37a96.png&#34; alt=&#34;virtualbox&#34; /&gt;&lt;/p&gt;
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;p&gt;通过virtualbox可以方便地实现bras连接，如上图打开了财务处网站。设置了一个共享文件夹。&lt;/p&gt;
+
+&lt;/div&gt;
+
+
+&lt;blockquote&gt;
+&lt;p&gt;In a Windows guest, shared folders are browseable and therefore visible in Windows Ex- plorer. So, to attach the host’s shared folder to your Windows guest, open Windows Ex- plorer and look for it under “My Networking Places” -&amp;gt; “Entire Network” -&amp;gt; “VirtualBox Shared Folders”.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;1）上宽带；
+2）首次使用时，须先在电脑上建立“南大BRAS校外拨入”的VPN连接。根据您的操作系统，查看校外拨入连接的设置办法：WIN10系统 WIN8系统  WIN7系统 WIN XP系统      Macintosh 系统
+  - 另：WINXP等旧系统可下载 BRAS客户端.rar ，解压后安装，并重启机器。注意：连接时，必须勾选 □off-campus 选项&lt;/p&gt;
+
+&lt;p&gt;3）需在校外访问校内图书馆资源时，点击“南大BRAS校外拨入”进行连接。&lt;br /&gt;
+4）无需访问校内图书馆资源时，请断开BRAS连接。&lt;/p&gt;
+
+&lt;p&gt;注：本操作方法在苹果leopard10.5.5和10.5.6中测试通过。
+如有疑问或无法成功设置，请联系网络信息中心 89683791 。&lt;/p&gt;
+
+&lt;p&gt;当使用BRAS校外拨入功能时，您需要在Macintosh系统上如下操作：&lt;/p&gt;
+
+&lt;p&gt;1、在菜单中点击System Preferences，打开Network选项,点击左下角“”＋”号，新建一个“VPN”连接；&lt;/p&gt;
+
+&lt;p&gt;2、选择连接类型为“l2tp over ipsec”，写入该连接的名称（任意); 在“server address ”填入地址：218.94.142.114; 在“account name”中填入您的bras账号；&lt;/p&gt;
+
+&lt;p&gt;3、打开“advanced”选项：并勾选上“send all traffic over vpn connection”；&lt;/p&gt;
+
+&lt;p&gt;4、在/etc/ppp文件夹（可能需要提供系统安装时的密码）下建一个文件，文件名为：options  ( 注意，该文件名没有后缀！)，文件内容见options内容（两行文字）；
+方法之一：打开MAC系统的“终端（Terminal）”，然后用命令行方式操作（如： cd /etc/ppp 目录，nano 或 vi 一个文件options，将两行文字写入该文件）。编辑文件前，可能需要先取得root权限。&lt;/p&gt;
+
+&lt;p&gt;5、在系统网络连接中选择前面建立的连接，点击“connect”，在弹出对话框中输入您的上网账号密码即可上网。&lt;/p&gt;
+
+&lt;p&gt;更新：&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://oaf2qt3yk.bkt.clouddn.com/52c7fd7e6fa6f96e160adcb6a9a5eeb3.png&#34; alt=&#34;下论文&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;这样虽然不能进入财务处页面，但是可以下载论文。&lt;/p&gt;</description>
     </item>
     
   </channel>

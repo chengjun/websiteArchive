@@ -816,7 +816,7 @@ article {
 
 #contact.home-section li {
   padding-top: 0.8rem; /* Align text with bottom of `fa-2x` icon. */
-  margin-bottom: 0.3rem;
+  margin-bottom: 0.4rem;
 }
 
 #contact.home-section li:last-of-type {
@@ -826,6 +826,7 @@ article {
 #map {
   height: 350px;
   width: 100%;
+  margin-bottom:0;
 }
 
 /*************************************************

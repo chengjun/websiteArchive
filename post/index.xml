@@ -1,858 +1,176 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Academic</title>
-    <link>/post/</link>
-    <description>Recent content in Posts on Academic</description>
+    <title>Posts on Cheng-Jun Wang</title>
+    <link>https://chengjunwang.com/post/</link>
+    <description>Recent content in Posts on Cheng-Jun Wang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2017 Your Name</copyright>
+    <copyright>&amp;copy; 2016 Cheng-Jun Wang</copyright>
     <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0800</lastBuildDate>
     <atom:link href="/post/" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>中国大百科：计算传播学</title>
-      <link>/post/cn/2017-10-29-ccr.zh/</link>
-      <pubDate>Sun, 29 Oct 2017 00:00:00 +0000</pubDate>
+      <title>News Map of China</title>
+      <link>https://chengjunwang.com/post/post_archive/news-map/</link>
+      <pubDate>Mon, 13 Feb 2017 14:32:07 +0800</pubDate>
       
-      <guid>/post/cn/2017-10-29-ccr.zh/</guid>
+      <guid>https://chengjunwang.com/post/post_archive/news-map/</guid>
       <description>
 
-&lt;ul&gt;
-&lt;li&gt;中文名称：计算传播学&lt;/li&gt;
-&lt;li&gt;拼音：jisuan chuanbo&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;外文名称：Computational Communication Research&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;&lt;a href=&#34;http://chengjunwang.com/newsmap/#edu/2011&#34; target=&#34;_blank&#34;&gt;News Map&lt;/a&gt; is built upon cartogram.js (a JavaScript implementation of an algoritm to construct continuous area cartograms ©1985), d3.js and colorbrewer. This visualization combines TopoJSON-encoded boundaries of the Chinese provinces with GDP data from National Bureau Statistics of the People&amp;rsquo;s Republic of China to size each province proportionally. Designed and built by Chengjun Wang and Zhicong Chen at Computational Communication Collaboratory, School of Journalism and Communication, Nanjing University.&lt;/p&gt;
 
-&lt;p&gt;基本概念条（长）&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://chengjunwang.com/newsmap/#edu/2011&#34; target=&#34;_blank&#34;&gt;Read More &amp;gt;&amp;gt;&lt;/a&gt;&lt;/p&gt;
 
-&lt;h1 id=&#34;1-定义和定性叙述&#34;&gt;1.    定义和定性叙述&lt;/h1&gt;
+&lt;h2 id=&#34;related-publication&#34;&gt;Related Publication:&lt;/h2&gt;
 
-&lt;p&gt;计算传播学是计算社会科学一个重要分支，它主要关注人类传播行为可计算的基础问题，以传播网络分析、传播文本挖掘、数据科学等作为主要的分析工具，大规模地收集并分析人类传播行为背后的模式或法则，并分析模式背后的生成机制以及基本原理，可以被广泛地应用到新闻学研究、 数据新闻和计算广告等场景。狭义的计算传播是指数据驱动的、借助于可算方法所进行的传播过程，而分析计算传播现象的研究领域就是计算传播学。&lt;/p&gt;
-
-&lt;h1 id=&#34;2-名称来源-又名&#34;&gt;2.    名称来源、又名&lt;/h1&gt;
-
-&lt;p&gt;计算传播学（英文：computational communication research）起源于计算社会科学（英文：computational social science）。2009年，Lazer等一批社会科学家、计算机科学家和物理学家在《科学》杂志上发表题为 “网络中的生活:计算社会科学时代的到来”的论文，宣告计算社会科学的诞生，提出发展计算 社会科学的主要逻辑在于我们就生活在网络之中，例如发邮件、打电话、在线支付。这些网络化的行为以数字化痕迹的方式被记录下来。计算社会科学是一个正在涌现的研究领域，强调采用计算方法研究社会科学，在利用人类社会不断增强的数据收集和分析能力方面。21世纪是计算社会科学的时代。计算社会科学具备前所未有的广度、深度和规模，为研究者提供了一个理解复杂社会系统的崭新机会。毫无疑问，采用可算方法、基于大规模的互联网上的人类传播行为数据为代表的传播学研究属于计算社会科学这一研究传统。&lt;/p&gt;
-
-&lt;h1 id=&#34;3-概念形成过程&#34;&gt;3.    概念形成过程&lt;/h1&gt;
-
-&lt;p&gt;计算传播学的概念起源于是计算社会科学的发展。计算社会科学以分析社会系统的复杂性作为主要研究范式。社会系统作为一个复杂系统，本身包含了多重本体以及他们之间众多的联系，既有从微观到宏观的联系，也有从宏观到微观的影 响，这造就了社会现象所特有的复杂性。计算社会科学研究主要关注复杂社会系统中的社会现象、社会行为、社会 组织的涌现，例如居住隔离、合作、互惠、社会规范、市场、国家。计算社会科学中的“涌现” 往往表现为一种群体智慧，它是通过海量的异质性个体之间的互动而在群体层面出现的结果。作为一种崭新的研究范式，计算社会科学从数据基础和计算方法两个层面丰富了人们对于 社会现象的认识。
-互联网上的人类传播行为是驱动计算社会科学发展的一个主要动力。与自然科学相比，社会现象卷入了海量的异质性个体的互动行为，因而异常复杂并且难以预测。通常社会科学研究的数据往往是用户报告的、静态的、小规模数据。互联网行为数据和大规模的互联网实验却提供了另外一种可能性。邓肯•瓦茨认为互联网传播数据将会变革我们对于群体人类行为的理解，并产生了一种新的社会科学，邓肯•瓦茨称之为“二十一世纪的科学”，也就是后来广为人知的“计算社会科学”。&lt;/p&gt;
-
-&lt;p&gt;Shah等人曾提出目前社交数据多为传播文本数据，并且与图形数据和视频数据相比，传播文本数据相对容易分析，因而计算社会科学将 传播文本数据作为关注焦点之一，并认为这意味着计算传播学(computational communication science)的兴起。Cohen等人2011年就提出采用计算机科学技术发展新闻学的主张。发展计算传播学研究已经成为计算社会科学在新闻传播领域主要工作。2014年祝建华等人回顾和讨论了计算社会科学在新闻传播领域的应用，按照经典的5W模型，系统介绍了计算社会科学在传播者、渠道、受众、内容、效果 五个领域的主要应用案例;(祝建华等，2014:p.3-13)。2014年，计算传播学作为一个正式的研究领域被提出，王成军从计算社会科学的视角论述了计算传播学的理论框架，强调了寻找人类传播行为“可计算的基因”作为计算传播学发展的基础，以传播网络分析和传播文本挖掘作为主要的研究方法。2015年第一本计算传播学相关的图书《社交网络上的计算传播学》出版，这本书系统总结了采用计算传播学的视角进行社交网络研究的方法、理论和进展。2015年，南京大学成立了计算传播学实验中心，2016年第一届计算传播学论坛召开。计算传播学研究社群的涌现及其建制化发展有助于建立身份认同、促进科研合作、增强 学科间对话、运用群体智慧解决现实和理论问题。&lt;/p&gt;
-
-&lt;h1 id=&#34;4-基本内容&#34;&gt;4. 基本内容&lt;/h1&gt;
-
-&lt;p&gt;一、计算传播学的定义首先强调的的人类传播行为可计算的基础。人类的传播行为、传播过程和传播技术构建了一种社会复杂系统。海量的数据和不断提升的计算能力为回答人类传播学的可计算性问题提供了重要条件。以新闻扩散研究为例， 1945年Miller 在《美国社会学评论》发表题为“一个大众传播研究笔记:我们的社区怎样知道罗斯福总统的 死讯”一文。这一研究传统经历了由盛到衰，直到社交媒体发展起来又重新复兴的过程。新闻扩散研究主要关注人们通过何种渠道获知新闻，尤其是社交和(大众)媒体在其中所扮演的角色。其中，以 Greenberg的研究最为精彩，他发现社交作用与新闻扩散规模之间存在“J”形曲线关系，即对于一些小的新闻事件，社交影响与扩散规模呈反比(可能主要靠媒体传播);对于重大的新闻，社交作用则可以促进新闻扩散。然而受到传统研究方式的限制， 研究者只能采用调查问卷的方式请受访者回忆并填写相应情况，所研究的议题也往往是总统遇 刺等突发新闻事件(往往需要被动地组织研究)，因而无论所选取的新闻事件的数量还是受访者的数量均有限，这在很大程度上限制了这一研究传统。而计算社会科学的方法和工具则可以 帮助新闻扩散研究突破选题和样本的限制。王成军利用新浪微博上的大规模信息扩散数据，采用网络门槛来度量社交影响。网络门槛起源于格兰诺维特所提出的门槛理论。门槛理论假设个体是否参加某种行为的决定主要取决于他或她的朋友参与的比例。该研究验证了“J”形曲线理论;并且发现信息扩散的深度可以调节社交作用的影响，那些扩散深度低的信息往往是局部社区的信息(无法穿透社区的束缚)，社交作用(以网络门槛度量)将限制它的扩散，例如传播一个普通人生日信息的人往往 是他或她最亲密的朋友，社交作用很强，但扩散规模很小。&lt;/p&gt;
-
-&lt;p&gt;二、计算传播学强调了对海量数据的收集、分析和挖掘。驱动计算传播的数据主要来自人类使用数字媒体时记录下来的数字痕迹或数字指纹。例如，当我们通过有线电视观看电视节目的时候、通过手机打电话的时候、通过互联网使用社交网站的时候，我们的行为都会被数字媒体详细地记录下来。这些海量的人类传播行为数据和媒体使用记录的数据构成了采用计算方法研究人类传播行为的基础。&lt;/p&gt;
-
-&lt;p&gt;三、计算传播学强调对于基于数据的清洗、分析、挖掘等计算的过程。恰如伽利略通过自己改进的天文望远镜研究天文学，计算传播学主张利用强大的计算工具研究社会问题，例如自动化信息提取、网络分析、地理空间分析、复杂性模型、社会模拟模型等。在传统的内容分析中，需要编码员人工识别文本中的信息，采用文本挖掘的方法，可以自动地提取社会事件的属性，如事件、地点、参与者、文本的主题、文本的情感等。&lt;/p&gt;
-
-&lt;p&gt;四、计算传播学强调了将大问题、大理论和大数据相结合。驱动计算传播学发展的主要力量来源于人类传播行为当中的重大问题，发展计算传播研究有助于解决新闻产业变革过程中发现的理论问题和实际困惑。就理论视角而言，计算传播学更加倾向于从复杂性的角度看待传播行为和传播过程。这种复杂性的思维方式需要研究者具备对复杂系统分析的能力和方法。值得注意的是，2017年瓦茨再次发表多篇反思计算社会科学的文章，提倡计算社会科学应该更加强调以寻找 解决方案为导向(solution-oriented)，因为社会科学存在太多的相互之间不一致的理论，而这些理论往往不能很容易地验证。寻找解决方案为导向对于新闻产业非常有价值，以新闻推荐系统为例(比如今日头 条)，如何实现更为精准的新闻推荐亟需寻找更加有价值的视角、方法和理论，可以预见经过新闻传播产业检验的理论也将具有更强的解释力和预测力。&lt;/p&gt;
-
-&lt;p&gt;五、计算传播学强调了计算社会科学在理论建构方面所追求的抽象阶梯，即一个好的研究必须是重大的社会问题驱动的，并且能够找到好的数据作为支撑(第一个阶梯);要能够从数据当中挖掘出行为的模式 (第二个阶梯);最好可以阐明模式背后对应的机制(第三个阶梯);并尝试理解背后的基本原理(第四个阶梯，往往难以企及)。从数据、模式、机制、原理这样一个不断提高的抽象的阶梯，可以衡量不同的研究所处的状态和水平，为衡量计算传播学的研究提供了一个基本的标准。&lt;/p&gt;
-
-&lt;h1 id=&#34;5-意义和影响&#34;&gt;5.    意义和影响&lt;/h1&gt;
-
-&lt;p&gt;计算传播的应用有很多，例如数据新闻、计算广告、媒体推荐系统等。计算传播学在过去的几年里，产生了深远的影响。数据新闻风靡全球，重要的国际媒体纷纷采用数据新闻，基于开放数据、数据挖掘与可视化的方式为公众提供信息和经过数据分析所发现的知识；不管是门户网站、搜索引擎、社交媒体，纷纷将计算广告作为数据变现的重要渠道，以计算方法对广告进行拍卖，实现媒体、用户、广告主三方利益的匹配；媒体推荐系统成为个性化的信息获取途径，不管是传统的社交新闻网站，还是今日头条等后起之秀，纷纷采用协同过滤的方式为用户提供信息。&lt;/p&gt;
-
-&lt;h1 id=&#34;6-参考文献&#34;&gt;6.    参考文献&lt;/h1&gt;
-
-&lt;p&gt;Watts, D.J., &amp;ldquo;A twenty-first century science,&amp;rdquo; Nature 445 (127) (2007):p.489.&lt;/p&gt;
-
-&lt;p&gt;Lazer, D., et al., &amp;ldquo;Life in the network: The coming age of computational social science,&amp;rdquo; Science 323 (5915)
-(2009):pp.721-723.
-Greenberg, B.S., &amp;ldquo;Person-to-Person Communication in the Diffusion of News Events,&amp;rdquo; Journalism Quarterly 41 (4)(1964):pp.489-494.
-Watts, D.J., &amp;ldquo;Should social science be more solution-oriented?&amp;rdquo; Nature Human Behaviour 1 (2017):p.0015.&lt;/p&gt;
-
-&lt;p&gt;王成军.计算传播学:作为计算社会科学的传播学[J].中国网络传播研究，2014，第193-206页.&lt;/p&gt;
-
-&lt;p&gt;王成军.计算传播学的起源、概念和应用[J].编辑学刊，2016(3)，第59-64页.
-祝建华、彭泰权、梁海、王成军、秦洁、陈鹤鑫.计算社会科学在新闻传播研究中的应用[J].科研信息化技术与应用，2014(2)，
-第3-13页.&lt;/p&gt;
-
-&lt;p&gt;王成军 (2017).计算社会科学视野下的新闻学研究：挑战与机遇[J]. 新闻大学, 4:26-32&lt;/p&gt;
-
-&lt;h1 id=&#34;7-推荐书目&#34;&gt;7.    推荐书目&lt;/h1&gt;
-
-&lt;p&gt;许小可、胡海波、张伦、王成军 （2015）社交网络上的计算传播学. 北京：中国科学出版社.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;撰稿：王成军&lt;/li&gt;
-&lt;li&gt;审稿：巢乃鹏&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;王成军 (2016) &lt;a href=&#34;http://chengjunwang.com/publication/cc-orgin/&#34; target=&#34;_blank&#34;&gt;计算传播学的起源、概念与应用&lt;/a&gt;. 编辑学刊,3:59-64.&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>JCR2017 for COMMUNICATION</title>
-      <link>/post/cn/2017-09-06-jcr.zh/</link>
-      <pubDate>Wed, 06 Sep 2017 00:00:00 +0000</pubDate>
+      <title>Visualizing Global Terrorism using googleVis</title>
+      <link>https://chengjunwang.com/post/post_archive/global-terrorism/</link>
+      <pubDate>Mon, 13 Feb 2017 14:32:07 +0800</pubDate>
       
-      <guid>/post/cn/2017-09-06-jcr.zh/</guid>
-      <description>
-
-&lt;h1 id=&#34;jcr&#34;&gt;JCR&lt;/h1&gt;
-
-&lt;p&gt;Journal Data Filtered By:  Selected JCR Year: 2016 Selected Editions: SCIE,SSCI Selected Categories: &amp;lsquo;COMMUNICATION&amp;rsquo; Selected Category Scheme: WoS&lt;/p&gt;
-
-&lt;h2 id=&#34;sci和scie&#34;&gt;SCI和SCIE&lt;/h2&gt;
-
-&lt;p&gt;SCI和SCIE（SCI Expanded）分别是科学引文索引及科学引文索引扩展版（即网络版），主要是收录自然科学、工程技术领域最具影响力的重要期刊，包括2000多种外围刊。&lt;/p&gt;
-
-&lt;h2 id=&#34;table&#34;&gt;Table&lt;/h2&gt;
-
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;Rank&lt;/th&gt;
-&lt;th&gt;Full Journal  Title&lt;/th&gt;
-&lt;th&gt;Total  Cites&lt;/th&gt;
-&lt;th&gt;Journal Impact  Factor&lt;/th&gt;
-&lt;th&gt;Eigenfactor  Score&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;1&lt;/td&gt;
-&lt;td&gt;NEW  MEDIA &amp;amp; SOCIETY&lt;/td&gt;
-&lt;td&gt;3,592&lt;/td&gt;
-&lt;td&gt;4.180&lt;/td&gt;
-&lt;td&gt;0.009310&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;2&lt;/td&gt;
-&lt;td&gt;Journal  of Computer-Mediated Communication&lt;/td&gt;
-&lt;td&gt;4,011&lt;/td&gt;
-&lt;td&gt;4.113&lt;/td&gt;
-&lt;td&gt;0.005010&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;3&lt;/td&gt;
-&lt;td&gt;JOURNAL  OF COMMUNICATION&lt;/td&gt;
-&lt;td&gt;5,579&lt;/td&gt;
-&lt;td&gt;3.914&lt;/td&gt;
-&lt;td&gt;0.008400&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;4&lt;/td&gt;
-&lt;td&gt;MEDIA  PSYCHOLOGY&lt;/td&gt;
-&lt;td&gt;1,264&lt;/td&gt;
-&lt;td&gt;3.125&lt;/td&gt;
-&lt;td&gt;0.001440&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;5&lt;/td&gt;
-&lt;td&gt;COMMUNICATION  RESEARCH&lt;/td&gt;
-&lt;td&gt;3,459&lt;/td&gt;
-&lt;td&gt;3.021&lt;/td&gt;
-&lt;td&gt;0.004410&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;6&lt;/td&gt;
-&lt;td&gt;JOURNAL  OF ADVERTISING&lt;/td&gt;
-&lt;td&gt;3,425&lt;/td&gt;
-&lt;td&gt;2.896&lt;/td&gt;
-&lt;td&gt;0.001740&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;7&lt;/td&gt;
-&lt;td&gt;COMMUNICATION  THEORY&lt;/td&gt;
-&lt;td&gt;1,834&lt;/td&gt;
-&lt;td&gt;2.773&lt;/td&gt;
-&lt;td&gt;0.002080&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;8&lt;/td&gt;
-&lt;td&gt;Information  Communication &amp;amp; Society&lt;/td&gt;
-&lt;td&gt;2,005&lt;/td&gt;
-&lt;td&gt;2.692&lt;/td&gt;
-&lt;td&gt;0.006010&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;9&lt;/td&gt;
-&lt;td&gt;PUBLIC  UNDERSTANDING OF SCIENCE&lt;/td&gt;
-&lt;td&gt;2,007&lt;/td&gt;
-&lt;td&gt;2.552&lt;/td&gt;
-&lt;td&gt;0.003150&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;10&lt;/td&gt;
-&lt;td&gt;POLITICAL  COMMUNICATION&lt;/td&gt;
-&lt;td&gt;1,645&lt;/td&gt;
-&lt;td&gt;2.467&lt;/td&gt;
-&lt;td&gt;0.002930&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;11&lt;/td&gt;
-&lt;td&gt;International  Journal of Advertising&lt;/td&gt;
-&lt;td&gt;1,308&lt;/td&gt;
-&lt;td&gt;2.451&lt;/td&gt;
-&lt;td&gt;0.001150&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;12&lt;/td&gt;
-&lt;td&gt;Comunicar&lt;/td&gt;
-&lt;td&gt;641&lt;/td&gt;
-&lt;td&gt;2.212&lt;/td&gt;
-&lt;td&gt;0.000650&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;13&lt;/td&gt;
-&lt;td&gt;IEEE  TRANSACTIONS ON PROFESSIONAL COMMUNICATION&lt;/td&gt;
-&lt;td&gt;515&lt;/td&gt;
-&lt;td&gt;2.184&lt;/td&gt;
-&lt;td&gt;0.000470&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;14&lt;/td&gt;
-&lt;td&gt;TECHNICAL  COMMUNICATION&lt;/td&gt;
-&lt;td&gt;615&lt;/td&gt;
-&lt;td&gt;2.100&lt;/td&gt;
-&lt;td&gt;0.000340&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;15&lt;/td&gt;
-&lt;td&gt;JOURNAL  OF ADVERTISING RESEARCH&lt;/td&gt;
-&lt;td&gt;2,514&lt;/td&gt;
-&lt;td&gt;2.034&lt;/td&gt;
-&lt;td&gt;0.000920&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;16&lt;/td&gt;
-&lt;td&gt;Journalism  Studies&lt;/td&gt;
-&lt;td&gt;1,335&lt;/td&gt;
-&lt;td&gt;1.927&lt;/td&gt;
-&lt;td&gt;0.002760&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;17&lt;/td&gt;
-&lt;td&gt;RESEARCH  ON LANGUAGE AND SOCIAL INTERACTION&lt;/td&gt;
-&lt;td&gt;1,016&lt;/td&gt;
-&lt;td&gt;1.896&lt;/td&gt;
-&lt;td&gt;0.003010&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;18&lt;/td&gt;
-&lt;td&gt;SCIENCE  COMMUNICATION&lt;/td&gt;
-&lt;td&gt;968&lt;/td&gt;
-&lt;td&gt;1.852&lt;/td&gt;
-&lt;td&gt;0.001640&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;19&lt;/td&gt;
-&lt;td&gt;COMMUNICATION  MONOGRAPHS&lt;/td&gt;
-&lt;td&gt;2,134&lt;/td&gt;
-&lt;td&gt;1.738&lt;/td&gt;
-&lt;td&gt;0.001150&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;20&lt;/td&gt;
-&lt;td&gt;Journal  of Public Relations Research&lt;/td&gt;
-&lt;td&gt;961&lt;/td&gt;
-&lt;td&gt;1.720&lt;/td&gt;
-&lt;td&gt;0.001000&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;21&lt;/td&gt;
-&lt;td&gt;JOURNAL  OF HEALTH COMMUNICATION&lt;/td&gt;
-&lt;td&gt;3,233&lt;/td&gt;
-&lt;td&gt;1.614&lt;/td&gt;
-&lt;td&gt;0.007080&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;22&lt;/td&gt;
-&lt;td&gt;HUMAN  COMMUNICATION RESEARCH&lt;/td&gt;
-&lt;td&gt;2,836&lt;/td&gt;
-&lt;td&gt;1.549&lt;/td&gt;
-&lt;td&gt;0.001950&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;23&lt;/td&gt;
-&lt;td&gt;TELECOMMUNICATIONS  POLICY&lt;/td&gt;
-&lt;td&gt;1,509&lt;/td&gt;
-&lt;td&gt;1.526&lt;/td&gt;
-&lt;td&gt;0.002270&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;24&lt;/td&gt;
-&lt;td&gt;International  Journal of Press-Politics&lt;/td&gt;
-&lt;td&gt;546&lt;/td&gt;
-&lt;td&gt;1.523&lt;/td&gt;
-&lt;td&gt;0.002120&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;25&lt;/td&gt;
-&lt;td&gt;International  Journal of Communication&lt;/td&gt;
-&lt;td&gt;1,277&lt;/td&gt;
-&lt;td&gt;1.498&lt;/td&gt;
-&lt;td&gt;0.005030&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;26&lt;/td&gt;
-&lt;td&gt;HEALTH  COMMUNICATION&lt;/td&gt;
-&lt;td&gt;2,207&lt;/td&gt;
-&lt;td&gt;1.487&lt;/td&gt;
-&lt;td&gt;0.004080&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;27&lt;/td&gt;
-&lt;td&gt;Journalism&lt;/td&gt;
-&lt;td&gt;1,204&lt;/td&gt;
-&lt;td&gt;1.484&lt;/td&gt;
-&lt;td&gt;0.003890&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;28&lt;/td&gt;
-&lt;td&gt;JOURNAL  OF SOCIAL AND PERSONAL RELATIONSHIPS&lt;/td&gt;
-&lt;td&gt;2,675&lt;/td&gt;
-&lt;td&gt;1.425&lt;/td&gt;
-&lt;td&gt;0.003050&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;29&lt;/td&gt;
-&lt;td&gt;Environmental  Communication-A Journal of Nature and Culture&lt;/td&gt;
-&lt;td&gt;371&lt;/td&gt;
-&lt;td&gt;1.414&lt;/td&gt;
-&lt;td&gt;0.000820&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;30&lt;/td&gt;
-&lt;td&gt;EUROPEAN  JOURNAL OF COMMUNICATION&lt;/td&gt;
-&lt;td&gt;885&lt;/td&gt;
-&lt;td&gt;1.408&lt;/td&gt;
-&lt;td&gt;0.001570&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;31&lt;/td&gt;
-&lt;td&gt;PUBLIC  OPINION QUARTERLY&lt;/td&gt;
-&lt;td&gt;4,893&lt;/td&gt;
-&lt;td&gt;1.386&lt;/td&gt;
-&lt;td&gt;0.005970&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;32&lt;/td&gt;
-&lt;td&gt;Television  &amp;amp; New Media&lt;/td&gt;
-&lt;td&gt;417&lt;/td&gt;
-&lt;td&gt;1.365&lt;/td&gt;
-&lt;td&gt;0.001080&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;33&lt;/td&gt;
-&lt;td&gt;JOURNAL  OF BROADCASTING &amp;amp; ELECTRONIC MEDIA&lt;/td&gt;
-&lt;td&gt;1,874&lt;/td&gt;
-&lt;td&gt;1.311&lt;/td&gt;
-&lt;td&gt;0.002040&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;33&lt;/td&gt;
-&lt;td&gt;PUBLIC  RELATIONS REVIEW&lt;/td&gt;
-&lt;td&gt;2,704&lt;/td&gt;
-&lt;td&gt;1.311&lt;/td&gt;
-&lt;td&gt;0.003070&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;35&lt;/td&gt;
-&lt;td&gt;Mass  Communication and Society&lt;/td&gt;
-&lt;td&gt;984&lt;/td&gt;
-&lt;td&gt;1.308&lt;/td&gt;
-&lt;td&gt;0.001660&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;36&lt;/td&gt;
-&lt;td&gt;JOURNALISM  &amp;amp; MASS COMMUNICATION QUARTERLY&lt;/td&gt;
-&lt;td&gt;1,574&lt;/td&gt;
-&lt;td&gt;1.301&lt;/td&gt;
-&lt;td&gt;0.001620&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;37&lt;/td&gt;
-&lt;td&gt;JOURNAL  OF LANGUAGE AND SOCIAL PSYCHOLOGY&lt;/td&gt;
-&lt;td&gt;1,011&lt;/td&gt;
-&lt;td&gt;1.272&lt;/td&gt;
-&lt;td&gt;0.000910&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;38&lt;/td&gt;
-&lt;td&gt;INTERNATIONAL  JOURNAL OF PUBLIC OPINION RESEARCH&lt;/td&gt;
-&lt;td&gt;851&lt;/td&gt;
-&lt;td&gt;1.254&lt;/td&gt;
-&lt;td&gt;0.001770&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;39&lt;/td&gt;
-&lt;td&gt;WRITTEN  COMMUNICATION&lt;/td&gt;
-&lt;td&gt;669&lt;/td&gt;
-&lt;td&gt;1.200&lt;/td&gt;
-&lt;td&gt;0.000850&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;40&lt;/td&gt;
-&lt;td&gt;MEDIA  CULTURE &amp;amp; SOCIETY&lt;/td&gt;
-&lt;td&gt;1,533&lt;/td&gt;
-&lt;td&gt;1.128&lt;/td&gt;
-&lt;td&gt;0.003180&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;41&lt;/td&gt;
-&lt;td&gt;Games  and Culture&lt;/td&gt;
-&lt;td&gt;436&lt;/td&gt;
-&lt;td&gt;1.109&lt;/td&gt;
-&lt;td&gt;0.000410&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;42&lt;/td&gt;
-&lt;td&gt;Management  Communication Quarterly&lt;/td&gt;
-&lt;td&gt;995&lt;/td&gt;
-&lt;td&gt;1.091&lt;/td&gt;
-&lt;td&gt;0.001130&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;43&lt;/td&gt;
-&lt;td&gt;Discourse  &amp;amp; Communication&lt;/td&gt;
-&lt;td&gt;326&lt;/td&gt;
-&lt;td&gt;1.085&lt;/td&gt;
-&lt;td&gt;0.000850&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;44&lt;/td&gt;
-&lt;td&gt;JOURNAL  OF BUSINESS AND TECHNICAL COMMUNICATION&lt;/td&gt;
-&lt;td&gt;243&lt;/td&gt;
-&lt;td&gt;1.062&lt;/td&gt;
-&lt;td&gt;0.000260&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;45&lt;/td&gt;
-&lt;td&gt;Journal  of Media Psychology-Theories Methods and Applications&lt;/td&gt;
-&lt;td&gt;292&lt;/td&gt;
-&lt;td&gt;1.057&lt;/td&gt;
-&lt;td&gt;0.000680&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;46&lt;/td&gt;
-&lt;td&gt;Ecquid  Novi-African Journalism Studies&lt;/td&gt;
-&lt;td&gt;153&lt;/td&gt;
-&lt;td&gt;1.056&lt;/td&gt;
-&lt;td&gt;0.000450&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;47&lt;/td&gt;
-&lt;td&gt;DISCOURSE  &amp;amp; SOCIETY&lt;/td&gt;
-&lt;td&gt;1,354&lt;/td&gt;
-&lt;td&gt;1.029&lt;/td&gt;
-&lt;td&gt;0.001420&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;48&lt;/td&gt;
-&lt;td&gt;Discourse  Context &amp;amp; Media&lt;/td&gt;
-&lt;td&gt;89&lt;/td&gt;
-&lt;td&gt;1.000&lt;/td&gt;
-&lt;td&gt;0.000590&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;49&lt;/td&gt;
-&lt;td&gt;Interaction  Studies&lt;/td&gt;
-&lt;td&gt;370&lt;/td&gt;
-&lt;td&gt;0.958&lt;/td&gt;
-&lt;td&gt;0.000660&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;50&lt;/td&gt;
-&lt;td&gt;Convergence-The  International Journal of Research into New Media Technologies&lt;/td&gt;
-&lt;td&gt;455&lt;/td&gt;
-&lt;td&gt;0.950&lt;/td&gt;
-&lt;td&gt;0.000870&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;51&lt;/td&gt;
-&lt;td&gt;Communications-European  Journal of Communication Research&lt;/td&gt;
-&lt;td&gt;340&lt;/td&gt;
-&lt;td&gt;0.933&lt;/td&gt;
-&lt;td&gt;0.000460&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;52&lt;/td&gt;
-&lt;td&gt;Critical  Discourse Studies&lt;/td&gt;
-&lt;td&gt;308&lt;/td&gt;
-&lt;td&gt;0.882&lt;/td&gt;
-&lt;td&gt;0.001090&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;53&lt;/td&gt;
-&lt;td&gt;CRITICAL  STUDIES IN MEDIA COMMUNICATION&lt;/td&gt;
-&lt;td&gt;448&lt;/td&gt;
-&lt;td&gt;0.881&lt;/td&gt;
-&lt;td&gt;0.000560&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;54&lt;/td&gt;
-&lt;td&gt;DISCOURSE  STUDIES&lt;/td&gt;
-&lt;td&gt;1,046&lt;/td&gt;
-&lt;td&gt;0.833&lt;/td&gt;
-&lt;td&gt;0.001650&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;55&lt;/td&gt;
-&lt;td&gt;LANGUAGE  &amp;amp; COMMUNICATION&lt;/td&gt;
-&lt;td&gt;848&lt;/td&gt;
-&lt;td&gt;0.793&lt;/td&gt;
-&lt;td&gt;0.001080&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;56&lt;/td&gt;
-&lt;td&gt;INTERNATIONAL  JOURNAL OF CONFLICT MANAGEMENT&lt;/td&gt;
-&lt;td&gt;652&lt;/td&gt;
-&lt;td&gt;0.786&lt;/td&gt;
-&lt;td&gt;0.000290&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;57&lt;/td&gt;
-&lt;td&gt;Communication  and Critical-Cultural Studies&lt;/td&gt;
-&lt;td&gt;249&lt;/td&gt;
-&lt;td&gt;0.767&lt;/td&gt;
-&lt;td&gt;0.000670&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;58&lt;/td&gt;
-&lt;td&gt;PERSONAL  RELATIONSHIPS&lt;/td&gt;
-&lt;td&gt;1,856&lt;/td&gt;
-&lt;td&gt;0.739&lt;/td&gt;
-&lt;td&gt;0.002100&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;59&lt;/td&gt;
-&lt;td&gt;Argumentation&lt;/td&gt;
-&lt;td&gt;324&lt;/td&gt;
-&lt;td&gt;0.689&lt;/td&gt;
-&lt;td&gt;0.000310&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;59&lt;/td&gt;
-&lt;td&gt;Visual  Communication&lt;/td&gt;
-&lt;td&gt;353&lt;/td&gt;
-&lt;td&gt;0.689&lt;/td&gt;
-&lt;td&gt;0.000760&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;61&lt;/td&gt;
-&lt;td&gt;Translator&lt;/td&gt;
-&lt;td&gt;236&lt;/td&gt;
-&lt;td&gt;0.686&lt;/td&gt;
-&lt;td&gt;0.000280&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;62&lt;/td&gt;
-&lt;td&gt;Asian  Journal of Communication&lt;/td&gt;
-&lt;td&gt;347&lt;/td&gt;
-&lt;td&gt;0.638&lt;/td&gt;
-&lt;td&gt;0.000570&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;63&lt;/td&gt;
-&lt;td&gt;International  Communication Gazette&lt;/td&gt;
-&lt;td&gt;486&lt;/td&gt;
-&lt;td&gt;0.622&lt;/td&gt;
-&lt;td&gt;0.001030&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;64&lt;/td&gt;
-&lt;td&gt;Chinese  Journal of Communication&lt;/td&gt;
-&lt;td&gt;129&lt;/td&gt;
-&lt;td&gt;0.562&lt;/td&gt;
-&lt;td&gt;0.000430&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;65&lt;/td&gt;
-&lt;td&gt;Social  Semiotics&lt;/td&gt;
-&lt;td&gt;344&lt;/td&gt;
-&lt;td&gt;0.484&lt;/td&gt;
-&lt;td&gt;0.000720&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;66&lt;/td&gt;
-&lt;td&gt;Continuum-Journal  of Media &amp;amp; Cultural Studies&lt;/td&gt;
-&lt;td&gt;496&lt;/td&gt;
-&lt;td&gt;0.468&lt;/td&gt;
-&lt;td&gt;0.000910&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;67&lt;/td&gt;
-&lt;td&gt;QUARTERLY  JOURNAL OF SPEECH&lt;/td&gt;
-&lt;td&gt;737&lt;/td&gt;
-&lt;td&gt;0.460&lt;/td&gt;
-&lt;td&gt;0.000270&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;68&lt;/td&gt;
-&lt;td&gt;Communication  Culture &amp;amp; Critique&lt;/td&gt;
-&lt;td&gt;209&lt;/td&gt;
-&lt;td&gt;0.448&lt;/td&gt;
-&lt;td&gt;0.000710&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;68&lt;/td&gt;
-&lt;td&gt;Text  &amp;amp; Talk&lt;/td&gt;
-&lt;td&gt;297&lt;/td&gt;
-&lt;td&gt;0.448&lt;/td&gt;
-&lt;td&gt;0.000830&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;70&lt;/td&gt;
-&lt;td&gt;Journal  of Mass Media Ethics&lt;/td&gt;
-&lt;td&gt;243&lt;/td&gt;
-&lt;td&gt;0.419&lt;/td&gt;
-&lt;td&gt;0.000370&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;71&lt;/td&gt;
-&lt;td&gt;JAVNOST-THE  PUBLIC&lt;/td&gt;
-&lt;td&gt;191&lt;/td&gt;
-&lt;td&gt;0.413&lt;/td&gt;
-&lt;td&gt;0.000330&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;72&lt;/td&gt;
-&lt;td&gt;Media  International Australia&lt;/td&gt;
-&lt;td&gt;264&lt;/td&gt;
-&lt;td&gt;0.346&lt;/td&gt;
-&lt;td&gt;0.000680&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;73&lt;/td&gt;
-&lt;td&gt;Rhetoric  Society Quarterly&lt;/td&gt;
-&lt;td&gt;204&lt;/td&gt;
-&lt;td&gt;0.333&lt;/td&gt;
-&lt;td&gt;0.000300&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;74&lt;/td&gt;
-&lt;td&gt;NARRATIVE  INQUIRY&lt;/td&gt;
-&lt;td&gt;379&lt;/td&gt;
-&lt;td&gt;0.317&lt;/td&gt;
-&lt;td&gt;0.000430&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;75&lt;/td&gt;
-&lt;td&gt;JOURNAL  OF APPLIED COMMUNICATION RESEARCH&lt;/td&gt;
-&lt;td&gt;692&lt;/td&gt;
-&lt;td&gt;0.308&lt;/td&gt;
-&lt;td&gt;0.000720&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;76&lt;/td&gt;
-&lt;td&gt;JOURNAL  OF MEDIA ECONOMICS&lt;/td&gt;
-&lt;td&gt;187&lt;/td&gt;
-&lt;td&gt;0.217&lt;/td&gt;
-&lt;td&gt;0.000170&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;77&lt;/td&gt;
-&lt;td&gt;African  Journalism Studies&lt;/td&gt;
-&lt;td&gt;12&lt;/td&gt;
-&lt;td&gt;0.171&lt;/td&gt;
-&lt;td&gt;0.000020&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;77&lt;/td&gt;
-&lt;td&gt;Tijdschrift  voor Communicatiewetenschap&lt;/td&gt;
-&lt;td&gt;42&lt;/td&gt;
-&lt;td&gt;0.171&lt;/td&gt;
-&lt;td&gt;0.000070&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;79&lt;/td&gt;
-&lt;td&gt;Journal  of African Media Studies&lt;/td&gt;
-&lt;td&gt;66&lt;/td&gt;
-&lt;td&gt;0.154&lt;/td&gt;
-&lt;td&gt;0.000180&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
+      <guid>https://chengjunwang.com/post/post_archive/global-terrorism/</guid>
+      <description>&lt;p&gt;Using the Data from Global Terrorism Database (GTD) and googleVis-0.5.8, I visualize the global terrorism attacks over time. The remarkable negative relationship between kills and political stability can clearly observed. &lt;a href=&#34;http://chengjun.github.io/datajournalism/vis/terrorism/&#34; target=&#34;_blank&#34;&gt;Read More &amp;gt;&amp;gt;&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>王成军参与组织数字人文大会</title>
-      <link>/post/cn/2017-07-01-digital-humanities.zh/</link>
-      <pubDate>Sat, 01 Jul 2017 00:00:00 +0000</pubDate>
+      <title>networkdiffusion: Simulating and Visualizing Network Diffusion Using R</title>
+      <link>https://chengjunwang.com/post/post_archive/networkdiffusion/</link>
+      <pubDate>Mon, 13 Feb 2017 14:16:05 +0800</pubDate>
       
-      <guid>/post/cn/2017-07-01-digital-humanities.zh/</guid>
-      <description>&lt;p&gt;2017年7月1日—2日南京大学数字人文大会在仙林校区国际会议中心召开。此次大会主题为“数字人文：大数据时代学术前沿与探索”。“数字人文”是目前国际最具潜力的新兴学科和前沿研究领域，具有创新性强、多学科交叉、研究者年轻化的特点。近十多年来，越来越多独立的“数字人文中心（系）”在北美和欧洲开设，比如美国的斯坦福大学、弗吉尼亚大学、加州大学，英国的国王学院，加拿大的阿尔伯特大学等等。这些机构不仅拥有专职研究人员和技术工程师，同时还开展了很多跨学科项目，涉及历史、考古、艺术史、文学、建筑等多个学术领域，并开始招收、培养硕士和博士研究生。&lt;/p&gt;
+      <guid>https://chengjunwang.com/post/post_archive/networkdiffusion/</guid>
+      <description>
 
-&lt;p&gt;视频回放，&lt;a href=&#34;http://zb.shixiutv.com/Play.aspx?pid=hy516044&amp;amp;code=011LXDxQ0TtXeb2df7wQ0ADHxQ0LXDxi&amp;amp;state=1&#34; target=&#34;_blank&#34;&gt;链接&lt;/a&gt;， 密码5954&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/chengjun/networkdiffusion&#34; target=&#34;_blank&#34;&gt;networkdiffusion&lt;/a&gt;, an R package which can help simulate and visualize the network diffusion. &lt;a href=&#34;http://chengjunwang.com/network-diffusion/#/&#34; target=&#34;_blank&#34;&gt;Slides&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;中国学界自2010年前后开始关注“数字人文”领域，武汉大学2011年成立了中国内地高校中的第一个数字人文中心。台湾大学及台湾中央研究院自2009年起每年举办“数位人文/数位典藏”的国际研讨会，北京大学与清华大学在2016年1月共同组织了主题大会，上海大学在2015年12月，南开大学在2016年11月都召开了相关的国际研讨会，受到了学界的广泛关注和学者们的积极参与，影响巨大。&lt;/p&gt;
+&lt;h2 id=&#34;related-activity&#34;&gt;Related Activity&lt;/h2&gt;
 
-&lt;p&gt;“数字人文：大数据时代学术前沿与探索”学术研讨会正是在此学界浪潮下应运而生，旨在聚集国内外学者探讨数字人文的前沿思想与主要议题，从而使得国内学者、学生了解数字人文国际前沿动态和主要焦点，并促进学者们的相互交流，提升数字人文在国内学术界的认知度，促进数字人文跨学科发展。&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://chengjunwang.com/img/2017/dh2017.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;会议议题主要包括，但不限于以下课题：&lt;/p&gt;
-
-&lt;p&gt;· 图像分析与艺术、数字博物馆  （召集人：陈静、殷曼楟）
-  · 文本挖掘与文学研究 （召集人：但汉松）
-  · 数字史学的方法与案例 （召集人：王涛）
-  · 数据分析及社交网络 （召集人：陈静、王成军）
-  · 历史地理信息系统（HGIS）（召集人：陈刚）
-  · 数字人文与空间 （召集人：鲁安东）
-  · 数字人文前沿问题 （召集人：邓柯）&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;会议召开时间为2017年7月1日—2日，6月30日报到。&lt;/li&gt;
-&lt;li&gt;会议地点：南京大学仙林校区（具体地点待定）。&lt;/li&gt;
-&lt;li&gt;会务联系方式：digitalhumanities@163.com.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;南京大学“数字人文：大数据时代学术前沿与探索”会务组
-2017年4月6日&lt;/p&gt;
+&lt;p&gt;Wang, C.J. (2017) &lt;a href=&#34;https://github.com/chengjun/networkdiffusion&#34; target=&#34;_blank&#34;&gt;networkdiffusion&lt;/a&gt;: Simulating and Visualizing Network Diffusion Using R. The 10th China R Conference. Beijing, May 20-21.&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>社会行为研究在线实验平台</title>
-      <link>/post/cn/2017-6-24-turk.zh/</link>
-      <pubDate>Sat, 24 Jun 2017 00:00:00 +0000</pubDate>
+      <title>scholarnetwork: Crawl and Visualize the Coauthor Network</title>
+      <link>https://chengjunwang.com/post/post_archive/scholarnetwork/</link>
+      <pubDate>Mon, 13 Feb 2017 14:15:51 +0800</pubDate>
       
-      <guid>/post/cn/2017-6-24-turk.zh/</guid>
+      <guid>https://chengjunwang.com/post/post_archive/scholarnetwork/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://pypi.python.org/pypi/scholarNetwork/&#34; target=&#34;_blank&#34;&gt;scholarNetwork&lt;/a&gt;, a Python package to crawl and visualize the coauthor network of Google Scholars.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>iching: Practising Divination of I Ching</title>
+      <link>https://chengjunwang.com/post/post_archive/iching/</link>
+      <pubDate>Mon, 13 Feb 2017 14:15:36 +0800</pubDate>
+      
+      <guid>https://chengjunwang.com/post/post_archive/iching/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://pypi.python.org/pypi/iching/&#34; target=&#34;_blank&#34;&gt;iching&lt;/a&gt;, a Python package that employs the Achillea millefolium method to practise divination of I Ching (易经的蓍草卜卦方法).&lt;/p&gt;
+
+&lt;iframe src=&#34;http://nbviewer.ipython.org/github/chengjun/iching/blob/master/iching_intro.ipynb&#34; scrolling=&#34;no&#34; width=&#34;700&#34; height=&#34;6500&#34;&gt;&lt;/iframe&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Deploy Hugo-Academic on Github Pages</title>
+      <link>https://chengjunwang.com/post/post_archive/hugo2github/</link>
+      <pubDate>Mon, 13 Feb 2017 12:54:27 +0800</pubDate>
+      
+      <guid>https://chengjunwang.com/post/post_archive/hugo2github/</guid>
       <description>
 
-&lt;h1 id=&#34;实验法&#34;&gt;实验法&lt;/h1&gt;
-
-&lt;p&gt;实验研究方法是由伽利略所发明的一种研究方法，成为了自然科学和社会科学研究最为重要的工具。自然科学取得了辉煌的研究成果，以物理学为例，主要的实证研究成果都来自于实验研究方法。社会科学的发展仅仅经历了不到三百年，最初主要模仿物理学的发展路径，例如，孔德最初将社会学命名为社会物理学，他认为人类社会是自然界的一个部分，人为的社会秩序通常可以看作自然秩序的延伸。然而，社会科学研究的研究对象&amp;ndash;人类具有意识、通过社会互动相互关联，构成了一种复杂系统，其复杂度远远超过自然科学，被邓肯-瓦茨称之为“二十一世纪的科学”。社会科学的实验往往局限于实验室内部，只能针对有限的人群（多为高校学生）开展实验研究，其外部效度有限，难以帮助研究者理解真实的社会和人类行为。&lt;/p&gt;
-
-&lt;h1 id=&#34;问题&#34;&gt;问题&lt;/h1&gt;
-
-&lt;p&gt;伴随着数据科学、网络科学的发展，采用计算方法为主的计算社会科学蓬勃发展。计算社会科学采用互联网大数据、网络科学等计算方法研究重要的社会科学问题。然而，既有的数据虽然规模巨大，但往往在很多维度上缺失，不能很好的回答因果关系、缺少控制，依然存在局限。如何针对大量的个体及其互动进行实验研究构成了互联网公司的产品经理、高校研究者共同的问题。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;问题&lt;/strong&gt;：如何针对大量的个体及其互动进行实验研究？&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://oaf2qt3yk.bkt.clouddn.com/da38e18664ffdc32018e1a96f84a1099.png&#34; alt=&#34;mechanic turk&#34; /&gt;&lt;/p&gt;
-
-&lt;h1 id=&#34;思路&#34;&gt;思路&lt;/h1&gt;
-
-&lt;p&gt;基于众包的人类计算搭建“行为实验室”为解决这一问题提出了崭新的思路。通过互联网平台招募实验参与者，通过智能的程序匹配实验者、实验对象，允许实验对象在虚拟的网络环境内进行互动共同完成一个实验任务，允许实验者进行灵活的实验控制，可以较低的价格吸引更多的实验设计者和参与者。采用这一思路最成功的案例来自于亚马逊的&lt;a href=&#34;https://www.mturk.com/mturk/welcome&#34; target=&#34;_blank&#34;&gt;Mechanic Turk&lt;/a&gt;（机械驱动的土耳其人）平台。&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;机械驱动的土耳其人（Mechanical Turk）原指18世纪一个打扮成土耳其人的机器人，曾巡回欧洲各国打败不少西洋棋高手，甚至跟名人如拿破仑或富兰克林都下过棋，后来被揭露为其实是里头藏着人的骗局。亚马逊借用这个典故，隐喻所提供的服务是一种外表提供机械性功能可是背后却是有人类智能支持。&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://oaf2qt3yk.bkt.clouddn.com/144732ecfc771f5c53b0722cf09476cc.png&#34; alt=&#34;vitual labs&#34; /&gt;
-来源：turkserver&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:turkserver&#34;&gt;&lt;a rel=&#34;footnote&#34; href=&#34;#fn:turkserver&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
-
-&lt;p&gt;互联网产品经理和高校研究者可以基于Mechanical Turk平台搭建虚拟实验室开展大规模的人类行为实验。虚拟实验室以这个互联网作为实验室，与传统的实验室相比，具有很多优点：&lt;/p&gt;
+&lt;p&gt;I tried to move from jekyll to hugo to enhance my personal website. But I still want to use Github Pages to host the generated html files (in the &lt;code&gt;Public&lt;/code&gt; folder). The trick is you have to move the files in the &lt;code&gt;Public&lt;/code&gt; folder to the local folder of your github folder.&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;可以获取大规模的数据和互动关系&lt;/li&gt;
-&lt;li&gt;持续时间可以较长、对于地理位置的约束更小&lt;/li&gt;
-&lt;li&gt;可以让实验参与者开展更为现实而非抽象的简单的任务&lt;/li&gt;
-&lt;li&gt;可以实现更为精准的记录。&lt;/li&gt;
+&lt;li&gt;Create on GitHub &lt;code&gt;mywebsite-hugo&lt;/code&gt; repository (it will host Hugo’s content)&lt;/li&gt;
+&lt;li&gt;Create on GitHub &lt;code&gt;chengjun.github.io&lt;/code&gt; repository (it will host the public folder: the static website)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;cd github&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;git clone https://github.com/chengjun/mywebsite-hugo.git&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;hugo new site mywebsite-hugo --force&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;cd mywebsite-hugo&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;download &lt;a href=&#34;https://github.com/gcushen/hugo-academic/archive/master.zip&#34; target=&#34;_blank&#34;&gt;Academic&lt;/a&gt; and extract it into a themes/academic folder within your Hugo website.&lt;/li&gt;
+&lt;li&gt;If you are creating a new website, copy the contents of the exampleSite folder to your website root folder, overwriting existing files if necessary.&lt;/li&gt;
+&lt;li&gt;Manage the content and &lt;code&gt;hugo server --watch&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Once you are happy with the results, &lt;code&gt;Ctrl+C&lt;/code&gt; (kill server)&lt;/li&gt;
+&lt;li&gt;Almost done: add a &lt;code&gt;deploy.sh&lt;/code&gt; script to help you (see the following script)&lt;/li&gt;
+&lt;li&gt;and make it executable: &lt;code&gt;chmod +x deploy.sh&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;./deploy.sh &amp;quot;Your optional commit message&amp;quot;&lt;/code&gt; to send changes to &lt;username&gt;.github.io&lt;/li&gt;
+&lt;li&gt;(careful, you may also want to commit changes on the &lt;your-project&gt;-hugo repo).&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;微软研究员科学家邓肯-瓦茨及其合作者一直致力于发展线上虚拟实验室（virtual lab），例如他们之前曾搭建&lt;a href=&#34;http://www.princeton.edu/~mjs3/musiclab.shtml&#34; target=&#34;_blank&#34;&gt;music lab&lt;/a&gt;网站研究音乐的流行度。最近，他们借助于Mechanical Turk平台搭建了&lt;a href=&#34;http://turkserver.readthedocs.io/en/latest/examples/tutorial.html&#34; target=&#34;_blank&#34;&gt;turkserver&lt;/a&gt;，研究发表了两篇论文，分别研究了&lt;a href=&#34;https://www.nature.com/articles/ncomms13800&#34; target=&#34;_blank&#34;&gt;囚徒困境&lt;/a&gt; 和灾难救助过程中的&lt;a href=&#34;http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0153048&#34; target=&#34;_blank&#34;&gt;团队合作及其绩效&lt;/a&gt; 。&lt;/p&gt;
+&lt;p&gt;The following script is content of the deploy.sh.&lt;/p&gt;
 
-&lt;p&gt;Mechanic Turk与turkserver相互配合的思路为实现大量的个体及其互动进行实验研究铺平了道路。但是目前在中国的互联网产业中，还缺乏提供类似Mechanic Turk的服务，而turkserver目前也缺少进一步的开发，这是提出本研究项目的主要目标。&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;#!/bin/bash
 
-&lt;p&gt;&lt;strong&gt;目标&lt;/strong&gt;：搭建一个简单的turkserver的扩展版，搭建一个社会行为研究在线实验平台。&lt;/p&gt;
+echo -e &amp;quot;\033[0;32mDeploying updates to GitHub...\033[0m&amp;quot;
 
-&lt;h1 id=&#34;参考文献&#34;&gt;参考文献&lt;/h1&gt;
-&lt;div class=&#34;footnotes&#34;&gt;
+# Build the project.
+hugo # if using a theme, replace by `hugo -t &amp;lt;yourtheme&amp;gt;`
 
-&lt;hr /&gt;
+# Go To Public folder
+cd ..
 
-&lt;ol&gt;
-&lt;li id=&#34;fn:turkserver&#34;&gt;turkserver &lt;a href=&#34;http://turkserver.readthedocs.io/en/latest/examples/tutorial.html&#34; target=&#34;_blank&#34;&gt;http://turkserver.readthedocs.io/en/latest/examples/tutorial.html&lt;/a&gt;, 基于amazon的mechanic turk建设virtual lab
- &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:turkserver&#34;&gt;&lt;sup&gt;^&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;
+cd chengjun.github.io
+
+cp -av /Users/chengjun/github/mywebsite-hugo/public/* .
+
+
+# Add changes to git.
+git add -A
+
+# Commit changes.
+msg=&amp;quot;rebuilding site `date`&amp;quot;
+if [ $# -eq 1 ]
+  then msg=&amp;quot;$1&amp;quot;
+fi
+git commit -m &amp;quot;$msg&amp;quot;
+
+# Push source and build repos.
+git push origin master
+
+# Come Back
+cd ..
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Each time when I want to add some files, I can easily do it using atom and terminal. for exmaple, add a markdown file to the post, I can simply run &lt;code&gt;hugo new post/example.md&lt;/code&gt; in my terminal, and then edit it using atom.&lt;/p&gt;
+
+&lt;p&gt;I can inspect the effect by running &lt;code&gt;hugo server --watch&lt;/code&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;deploying-the-html-files&#34;&gt;deploying the html files&lt;/h2&gt;
+
+&lt;p&gt;After I make some changes, I can conveniently run the following code to deploy the html files to github pages.&lt;/p&gt;
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;p&gt;&lt;code&gt;./deploy.sh &amp;quot;Your optional commit message&amp;quot;&lt;/code&gt;&lt;/p&gt;
+
 &lt;/div&gt;
+
+
+&lt;p&gt;For the source code in the mywebsite-hugo folder, I can also easily archive them within Atom using the &amp;lsquo;Git Plus&amp;rsquo; package.&lt;/p&gt;
+
+&lt;h2 id=&#34;update&#34;&gt;Update&lt;/h2&gt;
+
+&lt;p&gt;There is another way to avoid opening a terminal by using the Script package.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;install the &lt;code&gt;Script&lt;/code&gt; package of Atom,&lt;/li&gt;
+&lt;li&gt;open the deploy.sh within Atom&lt;/li&gt;
+&lt;li&gt;press &lt;code&gt;Ctrl + I&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
 </description>
     </item>
     
     <item>
       <title>Getting started with the Academic framework for Hugo</title>
-      <link>/post/getting-started/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0800</pubDate>
+      <link>https://chengjunwang.com/post/post_archive/getting-started/</link>
+      <pubDate>Wed, 20 Apr 2016 12:00:00 +0000</pubDate>
       
-      <guid>/post/getting-started/</guid>
+      <guid>https://chengjunwang.com/post/post_archive/getting-started/</guid>
       <description>
 
 &lt;p&gt;The Academic framework enables you to easily create a beautifully simple personal or academic website using the &lt;a href=&#34;https://gohugo.io&#34; target=&#34;_blank&#34;&gt;Hugo&lt;/a&gt; static site generator.&lt;/p&gt;
@@ -863,7 +181,762 @@ Watts, D.J., &amp;ldquo;Should social science be more solution-oriented?&amp;rdq
 &lt;li&gt;Easily manage your homepage, blog posts, publications, talks, and projects&lt;/li&gt;
 &lt;li&gt;Configurable widgets available for Biography, Publications, Projects, News/Blog, Talks, and Contact&lt;/li&gt;
 &lt;li&gt;Need a different section? Just use the Custom widget!&lt;/li&gt;
-&lt;li&gt;Write in &lt;a href=&#34;/post/writing-markdown-latex/&#34; target=&#34;_blank&#34;&gt;Markdown&lt;/a&gt; for easy formatting and code highlighting, with &lt;a href=&#34;https://en.wikibooks.org/wiki/LaTeX/Mathematics&#34; target=&#34;_blank&#34;&gt;LaTeX&lt;/a&gt; for mathematical expressions&lt;/li&gt;
+&lt;li&gt;Write in &lt;a href=&#34;https://chengjunwang.com/post/writing-markdown-latex/&#34; target=&#34;_blank&#34;&gt;Markdown&lt;/a&gt; for easy formatting and code highlighting, with &lt;a href=&#34;https://en.wikibooks.org/wiki/LaTeX/Mathematics&#34; target=&#34;_blank&#34;&gt;LaTeX&lt;/a&gt; for mathematical expressions&lt;/li&gt;
+&lt;li&gt;Social/academic network linking, &lt;a href=&#34;https://analytics.google.com&#34; target=&#34;_blank&#34;&gt;Google Analytics&lt;/a&gt;, and &lt;a href=&#34;https://disqus.com&#34; target=&#34;_blank&#34;&gt;Disqus&lt;/a&gt; comments&lt;/li&gt;
+&lt;li&gt;Responsive and mobile friendly&lt;/li&gt;
+&lt;li&gt;Simple and refreshing one page design&lt;/li&gt;
+&lt;li&gt;Easy to customize&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;installation&#34;&gt;Installation&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://georgecushen.com/create-your-website-with-hugo/#installing-hugo&#34; target=&#34;_blank&#34;&gt;Install Hugo&lt;/a&gt; and create a new website by typing the following commands in your &lt;em&gt;Terminal&lt;/em&gt; or &lt;em&gt;Command Prompt&lt;/em&gt; app:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;hugo new site my_website
+cd my_website
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Install Academic with &lt;a href=&#34;https://help.github.com/articles/set-up-git/&#34; target=&#34;_blank&#34;&gt;git&lt;/a&gt;:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;git clone https://github.com/gcushen/hugo-academic.git themes/academic
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Or alternatively, &lt;a href=&#34;https://github.com/gcushen/hugo-academic/archive/master.zip&#34; target=&#34;_blank&#34;&gt;download Academic&lt;/a&gt; and extract it into a &lt;code&gt;themes/academic&lt;/code&gt; folder within your Hugo website.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;If you are creating a new website, copy the contents of the &lt;code&gt;exampleSite&lt;/code&gt; folder to your website root folder, overwriting existing files if necessary. The &lt;code&gt;exampleSite&lt;/code&gt; folder contains an example config file and content to help you get started.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;cp -av themes/academic/exampleSite/* .
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Start the Hugo server from your website root folder:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;hugo server --watch
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Now you can go to &lt;a href=&#34;http://localhost:1313&#34; target=&#34;_blank&#34;&gt;localhost:1313&lt;/a&gt; and your new Academic powered website should appear.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Customize your website - refer to the &lt;em&gt;Getting Started&lt;/em&gt; section below&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Build your site by running the &lt;code&gt;hugo&lt;/code&gt; command. Then &lt;a href=&#34;https://georgecushen.com/create-your-website-with-hugo/&#34; target=&#34;_blank&#34;&gt;host it for free using Github Pages&lt;/a&gt;. Or alternatively, copy the generated &lt;code&gt;public/&lt;/code&gt; directory (by FTP, Rsync, etc.) to your production web server (such as your university&amp;rsquo;s hosting service).&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&#34;getting-started&#34;&gt;Getting Started&lt;/h2&gt;
+
+&lt;p&gt;Assuming you created a new website with the example content following the installation steps above, this section explores just a few more steps in order to customize it.&lt;/p&gt;
+
+&lt;h3 id=&#34;core-parameters&#34;&gt;Core parameters&lt;/h3&gt;
+
+&lt;p&gt;The core parameters for the website can be edited in the &lt;code&gt;config.toml&lt;/code&gt; configuration file:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Set &lt;code&gt;baseurl&lt;/code&gt; to your website URL (we recommend &lt;a href=&#34;https://georgecushen.com/create-your-website-with-hugo/&#34; target=&#34;_blank&#34;&gt;GitHub Pages&lt;/a&gt; for free hosting)&lt;/li&gt;
+&lt;li&gt;Set &lt;code&gt;title&lt;/code&gt; to your desired website title such as your name&lt;/li&gt;
+&lt;li&gt;The example Disqus commenting variable should be cleared (e.g. &lt;code&gt;disqusShortname = &amp;quot;&amp;quot;&lt;/code&gt;) or set to your own &lt;a href=&#34;https://disqus.com/&#34; target=&#34;_blank&#34;&gt;Disqus&lt;/a&gt; shortname to enable commenting&lt;/li&gt;
+&lt;li&gt;Edit your details under &lt;code&gt;[params]&lt;/code&gt;; these will be displayed mainly in the homepage &lt;em&gt;about&lt;/em&gt; and &lt;em&gt;contact&lt;/em&gt; widgets (if used). To disable a contact field, simply clear the value to &lt;code&gt;&amp;quot;&amp;quot;&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Place a square cropped portrait photo named &lt;code&gt;portrait.jpg&lt;/code&gt; into the &lt;code&gt;static/img/&lt;/code&gt; folder, overwriting any defaults. Alternatively, you can edit the &lt;code&gt;avatar&lt;/code&gt; filepath to point to a different image name or clear the value to disable the avatar feature.&lt;/li&gt;
+&lt;li&gt;To enable LaTeX math for your site, set &lt;code&gt;math = true&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Social/academic networking links are defined as multiples of &lt;code&gt;[[params.social]]&lt;/code&gt;. They can be created or deleted as necessary.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;introduce-yourself&#34;&gt;Introduce yourself&lt;/h3&gt;
+
+&lt;p&gt;Edit your biography in the &lt;em&gt;about&lt;/em&gt; widget &lt;code&gt;content/home/about.md&lt;/code&gt; that you copied across from the &lt;code&gt;themes/academic/exampleSite/&lt;/code&gt; folder. The research interests and qualifications are stored as &lt;code&gt;interests&lt;/code&gt; and &lt;code&gt;education&lt;/code&gt; variables. The academic qualifications are defined as multiples of &lt;code&gt;[[education.courses]]&lt;/code&gt; and can be created or deleted as necessary. It&amp;rsquo;s possible to completely hide the interests and education lists by deleting their respective variables.&lt;/p&gt;
+
+&lt;h3 id=&#34;customize-the-homepage&#34;&gt;Customize the homepage&lt;/h3&gt;
+
+&lt;p&gt;Refer to our guide on using &lt;a href=&#34;https://chengjunwang.com/post/widgets/&#34; target=&#34;_blank&#34;&gt;widgets&lt;/a&gt; to customize your homepage.&lt;/p&gt;
+
+&lt;h3 id=&#34;add-your-content&#34;&gt;Add your content&lt;/h3&gt;
+
+&lt;p&gt;Refer to our guide on &lt;a href=&#34;https://chengjunwang.com/post/managing-content/&#34; target=&#34;_blank&#34;&gt;managing content&lt;/a&gt; to create your own publications, blog posts, talks, and projects.&lt;/p&gt;
+
+&lt;h3 id=&#34;remove-unused-widgets-and-pages&#34;&gt;Remove unused widgets and pages&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://chengjunwang.com/post/managing-content/#removing-content&#34; target=&#34;_blank&#34;&gt;How to remove unused widgets and content pages&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&#34;customization-upgrading&#34;&gt;Customization &amp;amp; Upgrading&lt;/h3&gt;
+
+&lt;p&gt;Continue reading below for advanced customization tips and instructions for keeping the framework up-to-date with any improvements that become available.&lt;/p&gt;
+
+&lt;h2 id=&#34;advanced-customization&#34;&gt;Advanced customization&lt;/h2&gt;
+
+&lt;p&gt;It is possible to carry out many customizations without touching any files in &lt;code&gt;themes/academic&lt;/code&gt;, making it easier to upgrade the framework in the future.&lt;/p&gt;
+
+&lt;h3 id=&#34;navigation-menu&#34;&gt;Navigation menu&lt;/h3&gt;
+
+&lt;p&gt;The &lt;code&gt;[[menu.main]]&lt;/code&gt; entries towards the bottom of &lt;code&gt;config.toml&lt;/code&gt; define the navigation links at the top of the website. They can be added or removed as desired.&lt;/p&gt;
+
+&lt;p&gt;To create a dropdown sub-menu, add &lt;code&gt;identifier = &amp;quot;something&amp;quot;&lt;/code&gt; to the parent item and &lt;code&gt;parent = &amp;quot;something&amp;quot;&lt;/code&gt; to the child item.&lt;/p&gt;
+
+&lt;h3 id=&#34;website-icon&#34;&gt;Website icon&lt;/h3&gt;
+
+&lt;p&gt;Save your main icon and mobile icon as square PNG images named &lt;code&gt;icon.png&lt;/code&gt; and &lt;code&gt;apple-touch-icon.png&lt;/code&gt;, respectively. Place them in your root &lt;code&gt;static/img/&lt;/code&gt; folder.&lt;/p&gt;
+
+&lt;h3 id=&#34;theme-color-css&#34;&gt;Theme color (CSS)&lt;/h3&gt;
+
+&lt;p&gt;You can link custom CSS assets (relative to your root &lt;code&gt;static/css&lt;/code&gt;) from your &lt;code&gt;config.toml&lt;/code&gt; using &lt;code&gt;custom_css = [&amp;quot;custom.css&amp;quot;]&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;For example, lets make a green theme. First, define &lt;code&gt;custom_css = [&amp;quot;green.css&amp;quot;]&lt;/code&gt; in &lt;code&gt;config.toml&lt;/code&gt;. Then we can download the example &lt;a href=&#34;https://gist.github.com/gcushen/d5525a4506b9ccf83f2bce592a895495&#34; target=&#34;_blank&#34;&gt;green theme&lt;/a&gt; and save it as &lt;code&gt;static/css/green.css&lt;/code&gt;, relative to your website root (i.e. &lt;strong&gt;not&lt;/strong&gt; in the &lt;code&gt;themes&lt;/code&gt; directory).&lt;/p&gt;
+
+&lt;h3 id=&#34;analytics&#34;&gt;Analytics&lt;/h3&gt;
+
+&lt;p&gt;To enable &lt;a href=&#34;http://www.google.com/analytics&#34; target=&#34;_blank&#34;&gt;Google Analytics&lt;/a&gt;, add your tracking code in &lt;code&gt;config.toml&lt;/code&gt; similarly to &lt;code&gt;googleAnalytics = &amp;quot;UA-12345678-9&amp;quot;&lt;/code&gt;.&lt;/p&gt;
+
+&lt;h3 id=&#34;third-party-and-local-scripts-js&#34;&gt;Third party and local scripts (JS)&lt;/h3&gt;
+
+&lt;p&gt;To add a third party script, create a file named &lt;code&gt;head_custom.html&lt;/code&gt; in a &lt;code&gt;layouts/partials/&lt;/code&gt; folder at the root of your website (not in the &lt;code&gt;themes&lt;/code&gt; folder). Any HTML code added to this file will be included within your website&amp;rsquo;s &lt;code&gt;&amp;lt;head&amp;gt;&lt;/code&gt;. Therefore, it&amp;rsquo;s suitable for adding custom metadata or third party scripts specified with the &lt;em&gt;async&lt;/em&gt; attribute.&lt;/p&gt;
+
+&lt;p&gt;Whereas for your own local scripts, you can link your local JS assets (relative to your root &lt;code&gt;static/js&lt;/code&gt;) from your &lt;code&gt;config.toml&lt;/code&gt; using &lt;code&gt;custom_js  = [&amp;quot;custom.js&amp;quot;]&lt;/code&gt;.&lt;/p&gt;
+
+&lt;h3 id=&#34;language-and-translation&#34;&gt;Language and translation&lt;/h3&gt;
+
+&lt;p&gt;The interface text (e.g. buttons) is stored in language files which are collected from Academic&amp;rsquo;s &lt;code&gt;themes/academic/i18n/&lt;/code&gt; folder, as well as an &lt;code&gt;i18n/&lt;/code&gt; folder at the root of your project.&lt;/p&gt;
+
+&lt;p&gt;To edit the interface text, copy &lt;code&gt;themes/academic/i18n/en.yaml&lt;/code&gt; to &lt;code&gt;i18n/en.yaml&lt;/code&gt; (relative to the root of your website). Open the new file and make any desired changes to the text appearing after &lt;code&gt;translation:&lt;/code&gt;. Note that the language files are formatted in YAML syntax.&lt;/p&gt;
+
+&lt;p&gt;To translate the interface text to another language, follow the above instructions, but name the new file in the form &lt;code&gt;i18n/X.yaml&lt;/code&gt; where &lt;code&gt;X&lt;/code&gt; is the appropriate &lt;a href=&#34;http://www.w3schools.com/tags/ref_language_codes.asp&#34; target=&#34;_blank&#34;&gt;ISO/RFC5646 language identifier&lt;/a&gt; for the translation. Then follow the brief instructions in the &lt;em&gt;Language&lt;/em&gt; section at the bottom of your &lt;code&gt;config.toml&lt;/code&gt;. To change the default language used by Academic, set &lt;code&gt;defaultContentLanguage&lt;/code&gt; to the desired language identifier in your configuration file.&lt;/p&gt;
+
+&lt;p&gt;To translate the navigation bar, you can edit the default &lt;code&gt;[[menu.main]]&lt;/code&gt; instances in &lt;code&gt;config.toml&lt;/code&gt;. However, for a multilingual site, you will need to duplicate all of the &lt;code&gt;[[menu.main]]&lt;/code&gt; instances and rename the new instances from &lt;code&gt;[[menu.main]]&lt;/code&gt; to &lt;code&gt;[[languages.X.menu.main]]&lt;/code&gt;, where &lt;code&gt;X&lt;/code&gt; is the language identifier (e.g. &lt;code&gt;[[languages.zh.menu.main]]&lt;/code&gt; for Simplified Chinese). Thus, the navigation bar can be displayed in multiple languages.&lt;/p&gt;
+
+&lt;p&gt;To translate a content file in your &lt;code&gt;content/&lt;/code&gt; folder into another language, copy the file to &lt;code&gt;filename.X.md&lt;/code&gt; where &lt;code&gt;filename&lt;/code&gt; is your existing filename and &lt;code&gt;X&lt;/code&gt; is the appropriate &lt;a href=&#34;http://www.w3schools.com/tags/ref_language_codes.asp&#34; target=&#34;_blank&#34;&gt;ISO/RFC5646 language identifier&lt;/a&gt; for the translation. Then translate the content in the new file to the specified language.&lt;/p&gt;
+
+&lt;p&gt;For further details on Hugo&amp;rsquo;s internationalization and multilingual features, refer to the &lt;a href=&#34;https://gohugo.io/content/multilingual/&#34; target=&#34;_blank&#34;&gt;associated Hugo documentation&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&#34;permalinks&#34;&gt;Permalinks&lt;/h3&gt;
+
+&lt;p&gt;&lt;em&gt;Permalinks&lt;/em&gt;, or &lt;em&gt;permanent links&lt;/em&gt;, are URLs to individual pages and posts on your website. They are permanent web addresses which can be used to link to your content. Using Hugo&amp;rsquo;s &lt;em&gt;permalinks&lt;/em&gt; option these can be easily customized. For example, the blog post URL can be changed to the form &lt;em&gt;yourURL/2016/05/01/my-post-slug&lt;/em&gt; by adding the following near the top of your &lt;code&gt;config.toml&lt;/code&gt; (before &lt;code&gt;[params]&lt;/code&gt; settings):&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;[permalinks]
+    post = &amp;quot;/:year/:month/:day/:slug&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Where &lt;code&gt;:slug&lt;/code&gt; defaults to the filename of the post, excluding the file extension. However, slug may be overridden on a per post basis if desired, simply by setting &lt;code&gt;slug = &amp;quot;my-short-post-title&amp;quot;&lt;/code&gt; in your post preamble.&lt;/p&gt;
+
+&lt;h2 id=&#34;upgrading&#34;&gt;Upgrading&lt;/h2&gt;
+
+&lt;p&gt;Feel free to &lt;em&gt;star&lt;/em&gt; the project on &lt;a href=&#34;https://github.com/gcushen/hugo-academic/&#34; target=&#34;_blank&#34;&gt;Github&lt;/a&gt; and monitor the &lt;a href=&#34;https://github.com/gcushen/hugo-academic/commits/master&#34; target=&#34;_blank&#34;&gt;commits&lt;/a&gt; for updates.&lt;/p&gt;
+
+&lt;p&gt;Before upgrading the framework, it is recommended to make a backup of your entire website directory, or at least your &lt;code&gt;themes/academic&lt;/code&gt; directory. You can also read about the &lt;a href=&#34;https://github.com/gcushen/hugo-academic/releases&#34; target=&#34;_blank&#34;&gt;most recent milestones&lt;/a&gt; (but this doesn&amp;rsquo;t necessarily reflect the latest &lt;em&gt;master&lt;/em&gt; release).&lt;/p&gt;
+
+&lt;p&gt;Before upgrading for the first time, the remote &lt;em&gt;origin&lt;/em&gt; repository should be renamed to &lt;em&gt;upstream&lt;/em&gt;:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$ cd themes/academic
+$ git remote rename origin upstream
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;To list available updates:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$ cd themes/academic
+$ git fetch upstream
+$ git log --pretty=oneline --abbrev-commit --decorate HEAD..upstream/master
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Then, upgrade by running:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$ git pull upstream
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;If you have modified files in &lt;code&gt;themes/academic&lt;/code&gt;, git will attempt to auto-merge changes. If conflicts are reported, you will need to manually edit the files with conflicts and add them back (&lt;code&gt;git add &amp;lt;filename&amp;gt;&lt;/code&gt;).&lt;/p&gt;
+
+&lt;p&gt;If there are any issues after upgrading, you may wish to compare your site with the latest &lt;a href=&#34;https://github.com/gcushen/hugo-academic/tree/master/exampleSite&#34; target=&#34;_blank&#34;&gt;example site&lt;/a&gt; to check if any settings changed.&lt;/p&gt;
+
+&lt;h2 id=&#34;feedback-contributing&#34;&gt;Feedback &amp;amp; Contributing&lt;/h2&gt;
+
+&lt;p&gt;Please use the &lt;a href=&#34;https://github.com/gcushen/hugo-academic/issues&#34; target=&#34;_blank&#34;&gt;issue tracker&lt;/a&gt; to let me know about any bugs or feature requests, or alternatively make a pull request.&lt;/p&gt;
+
+&lt;p&gt;For general questions about Hugo, there is a &lt;a href=&#34;http://discuss.gohugo.io&#34; target=&#34;_blank&#34;&gt;Hugo discussion forum&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;license&#34;&gt;License&lt;/h2&gt;
+
+&lt;p&gt;Copyright 2016 &lt;a href=&#34;https://georgecushen.com&#34; target=&#34;_blank&#34;&gt;George Cushen&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Released under the &lt;a href=&#34;https://github.com/gcushen/hugo-academic/blob/master/LICENSE.md&#34; target=&#34;_blank&#34;&gt;MIT&lt;/a&gt; license.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Customizing the homepage with widgets</title>
+      <link>https://chengjunwang.com/post/post_archive/widgets/</link>
+      <pubDate>Wed, 20 Apr 2016 11:00:00 +0000</pubDate>
+      
+      <guid>https://chengjunwang.com/post/post_archive/widgets/</guid>
+      <description>
+
+&lt;p&gt;Homepage widgets display as sections on the homepage. They can be enabled/disabled and configured as desired. Academic has the following widgets available to use:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;About/biography&lt;/li&gt;
+&lt;li&gt;Selected publications&lt;/li&gt;
+&lt;li&gt;Recent publications&lt;/li&gt;
+&lt;li&gt;Recent news/blog posts&lt;/li&gt;
+&lt;li&gt;Projects&lt;/li&gt;
+&lt;li&gt;Selected talks&lt;/li&gt;
+&lt;li&gt;Recent talks&lt;/li&gt;
+&lt;li&gt;Contact&lt;/li&gt;
+&lt;li&gt;Custom widget (demonstrated with the &lt;em&gt;teaching&lt;/em&gt; example)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The example site that you copied to create your site uses all the different types of widget (except talks), so you can generally just delete the widgets you don&amp;rsquo;t need and customize the parameters of the widgets you wish to keep.&lt;/p&gt;
+
+&lt;p&gt;The parameters for each widget vary. They can be found in the preamble/frontmatter (between the pair of &lt;code&gt;+++&lt;/code&gt;) for each widget installed in the &lt;code&gt;content/home/&lt;/code&gt; folder.&lt;/p&gt;
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;p&gt;By default, publications will be displayed in a simple list. If you prefer a more detailed list with abstract and image, you can enable the detailed publication list on the homepage by setting &lt;code&gt;detailed_list = true&lt;/code&gt; in &lt;code&gt;content/home/publications.md&lt;/code&gt;.&lt;/p&gt;
+
+&lt;/div&gt;
+
+
+&lt;h2 id=&#34;add-a-widget-to-the-homepage&#34;&gt;Add a widget to the homepage&lt;/h2&gt;
+
+&lt;p&gt;To add a widget manually, copy the relevant widget from &lt;code&gt;themes/academic/exampleSite/content/home/&lt;/code&gt; to your &lt;code&gt;content/home/&lt;/code&gt; folder.&lt;/p&gt;
+
+&lt;p&gt;Widget identifiers are set to their respective filenames, so a &lt;code&gt;content/home/about.md&lt;/code&gt; widget can be linked from the navigation bar by setting the relevant URL as &lt;code&gt;&amp;quot;#about&amp;quot;&lt;/code&gt; in &lt;code&gt;config.toml&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;This means that if you want to use multiple instances of a widget, each widget will be assigned a unique ID based on the filename that you set. You can then use that ID for linking, like in the above example.&lt;/p&gt;
+
+&lt;h2 id=&#34;using-the-custom-widget&#34;&gt;Using the custom widget&lt;/h2&gt;
+
+&lt;p&gt;You can use the custom widget to create your own home page sections.&lt;/p&gt;
+
+&lt;p&gt;Simply duplicate (copy/paste) and rename the example &lt;em&gt;teaching&lt;/em&gt; file at &lt;code&gt;content/home/teaching.md&lt;/code&gt;. Then edit the section title, weight (refer to &lt;em&gt;Ordering sections&lt;/em&gt; below), and content as desired.&lt;/p&gt;
+
+&lt;p&gt;You may also wish to add a navigation link to the top of the page that points to the new section. This can be achieved by adding something similar to the following lines to your &lt;code&gt;config.toml&lt;/code&gt;, where the URL will consist of the first title word in lowercase:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;[[menu.main]]
+    name = &amp;quot;Research&amp;quot;
+    url = &amp;quot;#research&amp;quot;
+    weight = 10
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;remove-a-widget-from-the-homepage&#34;&gt;Remove a widget from the homepage&lt;/h2&gt;
+
+&lt;p&gt;If you do not require a particular widget, you can simply delete any associated files from the &lt;code&gt;content/home/&lt;/code&gt; folder.&lt;/p&gt;
+
+&lt;p&gt;To remove a navigation link from the top of the page, remove the associated &lt;code&gt;[[menu.main]]&lt;/code&gt; entry in &lt;code&gt;config.toml&lt;/code&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;ordering-widgets&#34;&gt;Ordering widgets&lt;/h2&gt;
+
+&lt;p&gt;The order that the homepage widgets are displayed in is defined by the &lt;code&gt;weight&lt;/code&gt; parameter in each of the files in the &lt;code&gt;content/home/&lt;/code&gt; directory. The widgets are displayed in ascending order of their &lt;code&gt;weight&lt;/code&gt;, so you can simply edit the &lt;code&gt;weight&lt;/code&gt; parameters as desired.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Managing content</title>
+      <link>https://chengjunwang.com/post/post_archive/managing-content/</link>
+      <pubDate>Wed, 20 Apr 2016 11:00:00 +0000</pubDate>
+      
+      <guid>https://chengjunwang.com/post/post_archive/managing-content/</guid>
+      <description>&lt;p&gt;This is a brief guide to managing content with the Academic framework. Content can include publications, projects, talks, and news/blog articles. After you have read this guide about creating and managing content, you may also be interested to learn about &lt;a href=&#34;https://chengjunwang.com/post/writing-markdown-latex/&#34; target=&#34;_blank&#34;&gt;writing content with Markdown, LaTeX, and Shortcodes&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;To enable LaTeX math rendering for a page, you should include &lt;code&gt;math = true&lt;/code&gt; in the page&amp;rsquo;s &lt;code&gt;+++&lt;/code&gt; preamble, as demonstrated in the included example site. Otherwise, to enable math on the homepage or for all pages, you must globally set &lt;code&gt;math = true&lt;/code&gt; in &lt;code&gt;config.toml&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;To disable source code highlighting by default for all pages, set &lt;code&gt;highlight = false&lt;/code&gt; in &lt;code&gt;config.toml&lt;/code&gt;. You can then enable source code highlighting only on pages that need it by setting &lt;code&gt;highlight = true&lt;/code&gt; in that page&amp;rsquo;s preamble. See the &lt;a href=&#34;https://chengjunwang.com/post/writing-markdown-latex/#code-highlighting&#34; target=&#34;_blank&#34;&gt;code-highlighting docs&lt;/a&gt; for more details.&lt;/p&gt;
+
+&lt;p&gt;To display a featured image in content page headers, the parameters below can be inserted towards the end of a page&amp;rsquo;s &lt;code&gt;+++&lt;/code&gt; preamble. It is assumed that the image is located in your &lt;code&gt;static/img/&lt;/code&gt; folder, so the full path in the example below will be &lt;code&gt;static/img/headers/getting-started.png&lt;/code&gt;. The &lt;code&gt;caption&lt;/code&gt; parameter can be used to write an image caption or credit.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-toml&#34;&gt;[header]
+image = &amp;quot;headers/getting-started.png&amp;quot;
+caption = &amp;quot;Image credit: [**Academic**](https://github.com/gcushen/hugo-academic/)&amp;quot;
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;p&gt;If you wish to prevent a featured image automatically being used for a post&amp;rsquo;s thumbnail on the homepage, the &lt;code&gt;preview = false&lt;/code&gt; parameter can be added to &lt;code&gt;[header]&lt;/code&gt;.&lt;/p&gt;
+
+&lt;/div&gt;
+
+
+&lt;h2 id=&#34;create-a-publication&#34;&gt;Create a publication&lt;/h2&gt;
+
+&lt;p&gt;To create a new publication:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;hugo new publication/my-paper-name.md
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Then edit the default variables at the top of &lt;code&gt;content/publication/my-paper-name.md&lt;/code&gt; to include the details of your publication. The &lt;code&gt;url_&lt;/code&gt; variables are used to generate links associated with your publication, such as for viewing PDFs of papers. Here is an example:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;+++
+abstract = &amp;quot;An abstract...&amp;quot;
+authors = [&amp;quot;First author&#39;s name&amp;quot;, &amp;quot;Second author&#39;s name&amp;quot;]
+date = &amp;quot;2013-07-01&amp;quot;
+image = &amp;quot;&amp;quot;
+image_preview = &amp;quot;&amp;quot;
+math = false
+publication = &amp;quot;The publishing part of the citation goes here. You may use *Markdown* for italics etc.&amp;quot;
+title = &amp;quot;A publication title, such as title of a paper&amp;quot;
+url_code = &amp;quot;&amp;quot;
+url_dataset = &amp;quot;&amp;quot;
+url_pdf = &amp;quot;pdf/my-paper-name.pdf&amp;quot;
+url_project = &amp;quot;&amp;quot;
+url_slides = &amp;quot;&amp;quot;
+url_video = &amp;quot;&amp;quot;
++++
+
+Further details on your publication can be written here using *Markdown* for formatting. This text will be displayed on the Publication Detail page.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The &lt;code&gt;url_&lt;/code&gt; links can either point to local or web content. Associated local publication content, such as PDFs, may be copied to a &lt;code&gt;static/pdf/&lt;/code&gt; folder and referenced like &lt;code&gt;url_pdf = &amp;quot;pdf/my-paper-name.pdf&amp;quot;&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;You can also associate custom link buttons with the publication by adding the following block(s) within the variable preamble above, which is denoted by &lt;code&gt;+++&lt;/code&gt;:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;[[url_custom]]
+    name = &amp;quot;Custom Link&amp;quot;
+    url = &amp;quot;http://www.example.org&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;If you enabled &lt;code&gt;detailed_list&lt;/code&gt; for publications in &lt;code&gt;config.toml&lt;/code&gt;, then there are a few more optional variables that you can include in the publication page preamble. You may use &lt;code&gt;abstract_short = &amp;quot;friendly summary of abstract&amp;quot;&lt;/code&gt; and &lt;code&gt;publication_short = &amp;quot;abbreviated publication details&amp;quot;&lt;/code&gt; to display a friendly summary of the abstract and abbreviate the publication details, respectively. Furthermore, there is the option to display a different image on the homepage to the publication detail page by setting &lt;code&gt;image_preview = &amp;quot;my-image.jpg&amp;quot;&lt;/code&gt;. This can be useful if you wish to scale down the image for the homepage or simply if you just wish to show a different image for the preview.&lt;/p&gt;
+
+&lt;div class=&#34;alert alert-warning&#34;&gt;
+  &lt;p&gt;Any double quotes (&lt;code&gt;&amp;quot;&lt;/code&gt;) or backslashes (e.g. LaTeX &lt;code&gt;\times&lt;/code&gt;) occurring within the value of any frontmatter parameter (such as the &lt;em&gt;abstract&lt;/em&gt;) should be escaped with a backslash (&lt;code&gt;\&lt;/code&gt;). For example, the symbol &lt;code&gt;&amp;quot;&lt;/code&gt; and LaTeX text &lt;code&gt;\times&lt;/code&gt; become &lt;code&gt;\&amp;quot;&lt;/code&gt; and &lt;code&gt;\\times&lt;/code&gt;, respectively. Refer to the &lt;a href=&#34;https://github.com/toml-lang/toml#user-content-string&#34; target=&#34;_blank&#34;&gt;TOML documentation&lt;/a&gt; for more info.&lt;/p&gt;
+
+&lt;/div&gt;
+
+
+&lt;h2 id=&#34;post-an-article&#34;&gt;Post an article&lt;/h2&gt;
+
+&lt;p&gt;To create a blog/news article:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;hugo new post/my-article-name.md
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Then edit the newly created file &lt;code&gt;content/post/my-article-name.md&lt;/code&gt; with your full title and content.&lt;/p&gt;
+
+&lt;p&gt;Hugo will automatically generate summaries of posts that appear on the homepage. If you are dissatisfied with an automated summary, you can either limit the summary length by appropriately placing &lt;code&gt;&amp;#60;&amp;#33;&amp;#45;&amp;#45;more&amp;#45;&amp;#45;&amp;#62;&lt;/code&gt; in the article body, or completely override the automated summary by adding a &lt;code&gt;summary&lt;/code&gt; parameter to the &lt;code&gt;+++&lt;/code&gt; preamble such that:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;summary = &amp;quot;Summary of my post.&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;To disable commenting for a specific post, you can add &lt;code&gt;disable_comments = true&lt;/code&gt; to the post &lt;code&gt;+++&lt;/code&gt; preamble. Or to disable commenting for all posts, you can either set &lt;code&gt;disqusShortname = &amp;quot;&amp;quot;&lt;/code&gt; or &lt;code&gt;disable_comments = true&lt;/code&gt; in &lt;code&gt;config.toml&lt;/code&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;create-a-project&#34;&gt;Create a project&lt;/h2&gt;
+
+&lt;p&gt;To create a project:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;hugo new project/my-project-name.md
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Then edit the newly created file &lt;code&gt;content/project/my-project-name.md&lt;/code&gt;. Either you can link the project to an external project website by setting the &lt;code&gt;external_link = &amp;quot;http://external-project.com&amp;quot;&lt;/code&gt; variable at the top of the file, or you can add content (below the final &lt;code&gt;+++&lt;/code&gt;) in order to render a project page on your website.&lt;/p&gt;
+
+&lt;h2 id=&#34;create-a-talk&#34;&gt;Create a talk&lt;/h2&gt;
+
+&lt;p&gt;To create a talk:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;hugo new talk/my-talk-name.md
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Then edit the newly created file &lt;code&gt;content/talk/my-talk-name.md&lt;/code&gt; with your full talk title and details. Note that many of the talk parameters are similar to the publication parameters.&lt;/p&gt;
+
+&lt;h2 id=&#34;manage-node-index-pages&#34;&gt;Manage node index pages&lt;/h2&gt;
+
+&lt;p&gt;The node index pages (e.g. &lt;code&gt;/post/&lt;/code&gt;) are the special pages which list all of your content. They can exist for blog posts, publications, and talks. The homepage widgets will automatically link to the node index pages when you have more items of content than can be displayed in the widget. Therefore, if you don&amp;rsquo;t have much content, you may not see the automatic links yet - but you can also manually link to them using a normal Markdown formatted link in your content.&lt;/p&gt;
+
+&lt;p&gt;You can edit the title and add your own content, such as an introduction, by creating and editing the following content files for the node indexes:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;hugo new post/_index.md
+hugo new publication/_index.md
+hugo new talk/_index.md
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Then remove all parameters except for &lt;code&gt;title&lt;/code&gt;, &lt;code&gt;math&lt;/code&gt;, &lt;code&gt;highlight&lt;/code&gt;, and &lt;code&gt;date&lt;/code&gt;. Edit the &lt;code&gt;title&lt;/code&gt; parameter as desired and add any content after the &lt;code&gt;+++&lt;/code&gt; preamble/frontmatter ends. For example, you should have something similar to:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-toml&#34;&gt;+++
+title = &amp;quot;List of my posts&amp;quot;
+date = &amp;quot;2017-01-01T00:00:00Z&amp;quot;
+math = false
+highlight = false
++++
+
+Below is an automatically generated list of all my blog posts!
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;removing-content&#34;&gt;Removing content&lt;/h2&gt;
+
+&lt;p&gt;Generally, to remove content, simply delete the relevant file from your &lt;code&gt;content/post&lt;/code&gt;, &lt;code&gt;content/publication&lt;/code&gt;, &lt;code&gt;content/project&lt;/code&gt;, or &lt;code&gt;content/talk&lt;/code&gt; folder.&lt;/p&gt;
+
+&lt;h2 id=&#34;view-your-updated-site&#34;&gt;View your updated site&lt;/h2&gt;
+
+&lt;p&gt;After you have made changes to your site, you can view it by running the &lt;code&gt;hugo server --watch&lt;/code&gt; command and then opening &lt;a href=&#34;http://localhost:1313&#34; target=&#34;_blank&#34;&gt;localhost:1313&lt;/a&gt; in your web browser.&lt;/p&gt;
+
+&lt;h2 id=&#34;deploy-your-site&#34;&gt;Deploy your site&lt;/h2&gt;
+
+&lt;p&gt;Finally, you can build the static website to a &lt;code&gt;public/&lt;/code&gt; folder ready for deployment using the &lt;code&gt;hugo&lt;/code&gt; command.&lt;/p&gt;
+
+&lt;p&gt;You may then deploy your site by copying the &lt;code&gt;public/&lt;/code&gt; directory (by FTP, SFTP, WebDAV, Rsync, git push, etc.) to your production web server.&lt;/p&gt;
+
+&lt;p&gt;Note that running &lt;code&gt;hugo&lt;/code&gt; does not remove any previously generated files before building. Therefore, it&amp;rsquo;s best practice to delete your &lt;code&gt;public/&lt;/code&gt; directory prior to running &lt;code&gt;hugo&lt;/code&gt; to ensure no old or interim files are deployed to your server.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Writing content with Markdown, LaTeX, and Shortcodes</title>
+      <link>https://chengjunwang.com/post/post_archive/writing-markdown-latex/</link>
+      <pubDate>Wed, 20 Apr 2016 10:00:00 +0000</pubDate>
+      
+      <guid>https://chengjunwang.com/post/post_archive/writing-markdown-latex/</guid>
+      <description>&lt;p&gt;Content can be written using &lt;a href=&#34;https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet&#34; target=&#34;_blank&#34;&gt;Markdown&lt;/a&gt;, &lt;a href=&#34;https://en.wikibooks.org/wiki/LaTeX/Mathematics&#34; target=&#34;_blank&#34;&gt;LaTeX math&lt;/a&gt;, and &lt;a href=&#34;http://gohugo.io/extras/shortcodes/&#34; target=&#34;_blank&#34;&gt;Hugo Shortcodes&lt;/a&gt;. Additionally, HTML may be used for advanced formatting. This article gives an overview of the most common formatting options.&lt;/p&gt;
+
+&lt;h2 id=&#34;sub-headings&#34;&gt;Sub-headings&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code&gt;## Heading 2
+### Heading 3
+#### Heading 4
+##### Heading 5
+###### Heading 6
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;emphasis&#34;&gt;Emphasis&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code&gt;Italics with *asterisks* or _underscores_.
+
+Bold with **asterisks** or __underscores__.
+
+Combined emphasis with **asterisks and _underscores_**.
+
+Strikethrough with ~~two tildes~~.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;ordered-lists&#34;&gt;Ordered lists&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code&gt;1. First item
+2. Another item
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;unordered-lists&#34;&gt;Unordered lists&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code&gt;* First item
+* Another item
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;images&#34;&gt;Images&lt;/h2&gt;
+
+&lt;p&gt;Images may be added to a page by placing them in your &lt;code&gt;static/img/&lt;/code&gt; folder and referencing them using one of the following two notations:&lt;/p&gt;
+
+&lt;p&gt;A general image:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;![alternative text for search engines](/img/screenshot.png)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;A numbered figure with caption:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;{{&amp;lt; figure src=&amp;quot;/img/screenshot.png&amp;quot; title=&amp;quot;Figure Caption&amp;quot; &amp;gt;}}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;links&#34;&gt;Links&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code&gt;[I&#39;m a link](https://www.google.com)
+[A post]({{&amp;lt; ref &amp;quot;post/hi.md&amp;quot; &amp;gt;}})
+[A publication]({{&amp;lt; ref &amp;quot;publication/hi.md&amp;quot; &amp;gt;}})
+[A project]({{&amp;lt; ref &amp;quot;project/hi.md&amp;quot; &amp;gt;}})
+[Another section]({{&amp;lt; relref &amp;quot;hi.md#who&amp;quot; &amp;gt;}})
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;emojis&#34;&gt;Emojis&lt;/h2&gt;
+
+&lt;p&gt;See the &lt;a href=&#34;http://www.webpagefx.com/tools/emoji-cheat-sheet/&#34; target=&#34;_blank&#34;&gt;Emoji cheat sheet&lt;/a&gt; for available emoticons. The following serves as an example, but you should remove the spaces between each emoji name and pair of semicolons:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;I : heart : Academic : smile :
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;I ❤️ Academic 😄&lt;/p&gt;
+
+&lt;h2 id=&#34;blockquote&#34;&gt;Blockquote&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;gt; This is a blockquote.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;This is a blockquote.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&#34;footnotes&#34;&gt;Footnotes&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code&gt;I have more [^1] to say.
+
+[^1]: Footnote example.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;I have more &lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:1&#34;&gt;&lt;a rel=&#34;footnote&#34; href=&#34;#fn:1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; to say.&lt;/p&gt;
+
+&lt;h2 id=&#34;code-highlighting&#34;&gt;Code highlighting&lt;/h2&gt;
+
+&lt;p&gt;Pass the &lt;em&gt;language&lt;/em&gt; of the code, such as &lt;code&gt;python&lt;/code&gt;, as a parameter after three backticks:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;```python
+# Example of code highlighting
+input_string_var = input(&amp;quot;Enter some data: &amp;quot;)
+print(&amp;quot;You entered: {}&amp;quot;.format(input_string_var))
+```
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Result:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;# Example of code highlighting
+input_string_var = input(&amp;quot;Enter some data: &amp;quot;)
+print(&amp;quot;You entered: {}&amp;quot;.format(input_string_var))
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;highlighting-options&#34;&gt;Highlighting options&lt;/h3&gt;
+
+&lt;p&gt;The Academic theme uses &lt;a href=&#34;https://highlightjs.org&#34; target=&#34;_blank&#34;&gt;highlight.js&lt;/a&gt; for source code highlighting, and highlighting is enabled by default for all pages. However, several configuration options are supported that allow finer-grained control over highlight.js.&lt;/p&gt;
+
+&lt;p&gt;The following table lists the supported options for configuring highlight.js, along with their expected type and a short description. A &amp;ldquo;yes&amp;rdquo; in the &lt;strong&gt;config.toml&lt;/strong&gt; column means the value can be set globally in &lt;code&gt;config.toml&lt;/code&gt;, and a &amp;ldquo;yes&amp;rdquo; in the &lt;strong&gt;preamble&lt;/strong&gt; column means that the value can be set locally in a particular page&amp;rsquo;s preamble.&lt;/p&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;option&lt;/th&gt;
+&lt;th&gt;type&lt;/th&gt;
+&lt;th&gt;description&lt;/th&gt;
+&lt;th&gt;config.toml&lt;/th&gt;
+&lt;th&gt;preamble&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;highlight&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;boolean&lt;/td&gt;
+&lt;td&gt;enable/disable highlighting&lt;/td&gt;
+&lt;td&gt;yes&lt;/td&gt;
+&lt;td&gt;yes&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;highlight_languages&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;slice&lt;/td&gt;
+&lt;td&gt;choose additional languages&lt;/td&gt;
+&lt;td&gt;yes&lt;/td&gt;
+&lt;td&gt;yes&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;highlight_style&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;string&lt;/td&gt;
+&lt;td&gt;choose a highlighting style&lt;/td&gt;
+&lt;td&gt;yes&lt;/td&gt;
+&lt;td&gt;no&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;highlight_version&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;string&lt;/td&gt;
+&lt;td&gt;choose the highlight.js version&lt;/td&gt;
+&lt;td&gt;yes&lt;/td&gt;
+&lt;td&gt;no&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h4 id=&#34;option-highlight&#34;&gt;Option &lt;code&gt;highlight&lt;/code&gt;&lt;/h4&gt;
+
+&lt;p&gt;The &lt;code&gt;highlight&lt;/code&gt; option allows enabling or disabling the inclusion of highlight.js, either globally or for a particular page. If the option is unset, it has the same effect as if you had specified &lt;code&gt;highlight = true&lt;/code&gt;. That is, the highlight.js javascript and css files will be included in every page. If you&amp;rsquo;d like to only include highlight.js files on pages that actually require source code highlighting, you can set &lt;code&gt;highlight = false&lt;/code&gt; in &lt;code&gt;config.toml&lt;/code&gt;, and then override it by setting &lt;code&gt;highlight = true&lt;/code&gt; in the preamble of any pages that require source code highlighting. Conversely, you could enable highlighting globally, and disable it locally for pages that do not require it. Here is a table that shows whether highlighting will be enabled for a page, based on the values of &lt;code&gt;highlight&lt;/code&gt; set in &lt;code&gt;config.toml&lt;/code&gt; and/or the page&amp;rsquo;s preamble.&lt;/p&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;config.toml&lt;/th&gt;
+&lt;th&gt;page preamble&lt;/th&gt;
+&lt;th&gt;highlighting enabled for page?&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;unset or true&lt;/td&gt;
+&lt;td&gt;unset or true&lt;/td&gt;
+&lt;td&gt;yes&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;unset or true&lt;/td&gt;
+&lt;td&gt;false&lt;/td&gt;
+&lt;td&gt;no&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;false&lt;/td&gt;
+&lt;td&gt;unset or false&lt;/td&gt;
+&lt;td&gt;no&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;false&lt;/td&gt;
+&lt;td&gt;true&lt;/td&gt;
+&lt;td&gt;yes&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h4 id=&#34;option-highlight-languages&#34;&gt;Option &lt;code&gt;highlight_languages&lt;/code&gt;&lt;/h4&gt;
+
+&lt;p&gt;The &lt;code&gt;highlight_languages&lt;/code&gt; option allows you to specify additional languages that are supported by highlight.js, but are not considered &amp;ldquo;common&amp;rdquo; and therefore are not supported by default. For example, if you want source code highlighting for Go and clojure in all pages, set &lt;code&gt;highlight_languages = [&amp;quot;go&amp;quot;, &amp;quot;clojure&amp;quot;]&lt;/code&gt; in &lt;code&gt;config.toml&lt;/code&gt;. If, on the other hand, you want to enable a language only for a specific page, you can set &lt;code&gt;highlight_languages&lt;/code&gt; in that page&amp;rsquo;s preamble.&lt;/p&gt;
+
+&lt;p&gt;The &lt;code&gt;highlight_languages&lt;/code&gt; options specified in &lt;code&gt;config.toml&lt;/code&gt; and in a page&amp;rsquo;s preamble are additive. That is, if &lt;code&gt;config.toml&lt;/code&gt; contains, &lt;code&gt;highlight_languages = [&amp;quot;go&amp;quot;]&lt;/code&gt; and the page&amp;rsquo;s preamble contains &lt;code&gt;highlight_languages = [&amp;quot;ocaml&amp;quot;]&lt;/code&gt;, then javascript files for &lt;em&gt;both&lt;/em&gt; go and ocaml will be included for that page.&lt;/p&gt;
+
+&lt;p&gt;If the &lt;code&gt;highlight_languages&lt;/code&gt; option is set, then the corresponding javascript files will be served from the &lt;a href=&#34;https://cdnjs.com/libraries/highlight.js/&#34; target=&#34;_blank&#34;&gt;cdnjs server&lt;/a&gt;. To see a list of available languages, visit the &lt;a href=&#34;https://cdnjs.com/libraries/highlight.js/&#34; target=&#34;_blank&#34;&gt;cdnjs page&lt;/a&gt; and search for links with the word &amp;ldquo;languages&amp;rdquo;.&lt;/p&gt;
+
+&lt;p&gt;The &lt;code&gt;highlight_languages&lt;/code&gt; option provides an easy and convenient way to include support for additional languages to be severed from a CDN. If serving unmodified files from cdnjs doesn&amp;rsquo;t meet your needs, you can include javascript files for additional language support via one of the methods described in the &lt;a href=&#34;https://chengjunwang.com/post/getting-started/#third-party-and-local-scripts-js&#34; target=&#34;_blank&#34;&gt;getting started guide&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h4 id=&#34;option-highlight-style&#34;&gt;Option &lt;code&gt;highlight_style&lt;/code&gt;&lt;/h4&gt;
+
+&lt;p&gt;The &lt;code&gt;highlight_style&lt;/code&gt; option allows you to select an alternate css style for highlighted code. For example, if you wanted to use the solarized-dark style, you could set &lt;code&gt;highlight_style = &amp;quot;solarized-dark&amp;quot;&lt;/code&gt; in &lt;code&gt;config.toml&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;If the &lt;code&gt;highlight_style&lt;/code&gt; option is unset, the default is to use the file &lt;code&gt;/css/highlight.min.css&lt;/code&gt;, either the one provided by the Academic theme, or else the one in your local &lt;code&gt;static&lt;/code&gt; directory.  The &lt;code&gt;/css/highlight.min.css&lt;/code&gt; file provided by Academic is equivalent to the &lt;code&gt;github&lt;/code&gt; style from highlight.js.&lt;/p&gt;
+
+&lt;p&gt;If the &lt;code&gt;highlight_style&lt;/code&gt; option &lt;em&gt;is&lt;/em&gt; set, then &lt;code&gt;/css/highlight.min.css&lt;/code&gt; is ignored, and the corresponding css file will be served from the &lt;a href=&#34;https://cdnjs.com/libraries/highlight.js/&#34; target=&#34;_blank&#34;&gt;cdnjs server&lt;/a&gt;. To see a list of available styles, visit the &lt;a href=&#34;https://cdnjs.com/libraries/highlight.js/&#34; target=&#34;_blank&#34;&gt;cdnjs page&lt;/a&gt; and search for links with the word &amp;ldquo;styles&amp;rdquo;.&lt;/p&gt;
+
+&lt;p&gt;See the &lt;a href=&#34;https://highlightjs.org/static/demo/&#34; target=&#34;_blank&#34;&gt;highlight.js demo page&lt;/a&gt; for examples of available styles.&lt;/p&gt;
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;p&gt;Not all styles listed on the &lt;a href=&#34;https://highlightjs.org/static/demo/&#34; target=&#34;_blank&#34;&gt;highlight.js demo page&lt;/a&gt; are available from the &lt;a href=&#34;https://cdnjs.com/libraries/highlight.js/&#34; target=&#34;_blank&#34;&gt;cdnjs server&lt;/a&gt;. If you want to use a style that is not served by cdnjs, just leave &lt;code&gt;highlight_style&lt;/code&gt; unset, and place the corresponding css file in &lt;code&gt;/static/css/highlight.min.css&lt;/code&gt;.&lt;/p&gt;
+
+&lt;/div&gt;
+
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;p&gt;If you don&amp;rsquo;t want to change the default style that ships with Academic but you do want the style file served from the &lt;a href=&#34;https://cdnjs.com/libraries/highlight.js/&#34; target=&#34;_blank&#34;&gt;cdnjs server&lt;/a&gt;, set &lt;code&gt;highlight_style = &amp;quot;github&amp;quot;&lt;/code&gt; in &lt;code&gt;config.toml&lt;/code&gt;.&lt;/p&gt;
+
+&lt;/div&gt;
+
+
+&lt;p&gt;The &lt;code&gt;highlight_style&lt;/code&gt; option is only recognized when set in &lt;code&gt;config.toml&lt;/code&gt;. Setting &lt;code&gt;highlight_style&lt;/code&gt; in your page&amp;rsquo;s preamble has no effect.&lt;/p&gt;
+
+&lt;h4 id=&#34;option-highlight-version&#34;&gt;Option &lt;code&gt;highlight_version&lt;/code&gt;&lt;/h4&gt;
+
+&lt;p&gt;The &lt;code&gt;highlight_version&lt;/code&gt; option, as the name implies, allows you to select the version of highlight.js you want to use. The default value is &amp;ldquo;9.9.0&amp;rdquo;. The &lt;code&gt;highlight_version&lt;/code&gt; option is only recognized when set in &lt;code&gt;config.toml&lt;/code&gt;. Setting &lt;code&gt;highlight_version&lt;/code&gt; in your page&amp;rsquo;s preamble has no effect.&lt;/p&gt;
+
+&lt;h2 id=&#34;twitter-tweet&#34;&gt;Twitter tweet&lt;/h2&gt;
+
+&lt;p&gt;To include a single tweet, pass the tweet’s ID from the tweet&amp;rsquo;s URL as parameter to the shortcode:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;{{&amp;lt; tweet 666616452582129664 &amp;gt;}}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;youtube&#34;&gt;Youtube&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code&gt;{{&amp;lt; youtube w7Ft2ymGmfc &amp;gt;}}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;vimeo&#34;&gt;Vimeo&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code&gt;{{&amp;lt; vimeo 146022717 &amp;gt;}}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;github-gist&#34;&gt;GitHub gist&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code&gt;{{&amp;lt; gist USERNAME GIST-ID  &amp;gt;}}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;speaker-deck&#34;&gt;Speaker Deck&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code&gt;{{&amp;lt; speakerdeck 4e8126e72d853c0060001f97 &amp;gt;}}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;rm-latex-math&#34;&gt;$\rm \LaTeX$ math&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-TeX&#34;&gt;$$\left [ – \frac{\hbar^2}{2 m} \frac{\partial^2}{\partial x^2} + V \right ] \Psi = i \hbar \frac{\partial}{\partial t} \Psi$$
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;$$\left [ – \frac{\hbar^2}{2 m} \frac{\partial^2}{\partial x^2} + V \right ] \Psi = i \hbar \frac{\partial}{\partial t} \Psi$$&lt;/p&gt;
+
+&lt;p&gt;Alternatively, inline math can be written by wrapping the formula with only a single &lt;code&gt;$&lt;/code&gt;:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;This is inline: $\mathbf{y} = \mathbf{X}\boldsymbol\beta + \boldsymbol\varepsilon$
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This is inline: $\mathbf{y} = \mathbf{X}\boldsymbol\beta + \boldsymbol\varepsilon$&lt;/p&gt;
+
+&lt;h2 id=&#34;table&#34;&gt;Table&lt;/h2&gt;
+
+&lt;p&gt;Code:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-Markdown&#34;&gt;| Command           | Description                    |
+| ------------------| ------------------------------ |
+| `hugo`            | Build your website.            |
+| `hugo serve -w`   | View your website.             |
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Result:&lt;/p&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Command&lt;/th&gt;
+&lt;th&gt;Description&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;hugo&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;Build your website.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;hugo serve -w&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;View your website.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&#34;alerts&#34;&gt;Alerts&lt;/h2&gt;
+
+&lt;p&gt;Alerts are a useful feature that add side content such as tips, notes, or warnings to your articles. They are especially handy when writing educational tutorial-style articles. Use the corresponding shortcodes to enable alerts inside your content:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;{{% alert note %}}
+Here&#39;s a tip or note...
+{{% /alert %}}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This will display the following &lt;em&gt;note&lt;/em&gt; block:&lt;/p&gt;
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;p&gt;Here&amp;rsquo;s a tip or note&amp;hellip;&lt;/p&gt;
+
+&lt;/div&gt;
+
+
+&lt;pre&gt;&lt;code&gt;{{% alert warning %}}
+Here&#39;s some important information...
+{{% /alert %}}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This will display the following &lt;em&gt;warning&lt;/em&gt; block:&lt;/p&gt;
+
+&lt;div class=&#34;alert alert-warning&#34;&gt;
+  &lt;p&gt;Here&amp;rsquo;s some important information&amp;hellip;&lt;/p&gt;
+
+&lt;/div&gt;
+
+&lt;div class=&#34;footnotes&#34;&gt;
+
+&lt;hr /&gt;
+
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34;&gt;Footnote example.
+ &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:1&#34;&gt;&lt;sup&gt;^&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>Getting started with the Academic framework for Hugo</title>
+      <link>https://chengjunwang.com/post/getting-started/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0800</pubDate>
+      
+      <guid>https://chengjunwang.com/post/getting-started/</guid>
+      <description>
+
+&lt;p&gt;The Academic framework enables you to easily create a beautifully simple personal or academic website using the &lt;a href=&#34;https://gohugo.io&#34; target=&#34;_blank&#34;&gt;Hugo&lt;/a&gt; static site generator.&lt;/p&gt;
+
+&lt;p&gt;Key features:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Easily manage your homepage, blog posts, publications, talks, and projects&lt;/li&gt;
+&lt;li&gt;Configurable widgets available for Biography, Publications, Projects, News/Blog, Talks, and Contact&lt;/li&gt;
+&lt;li&gt;Need a different section? Just use the Custom widget!&lt;/li&gt;
+&lt;li&gt;Write in &lt;a href=&#34;https://chengjunwang.com/post/writing-markdown-latex/&#34; target=&#34;_blank&#34;&gt;Markdown&lt;/a&gt; for easy formatting and code highlighting, with &lt;a href=&#34;https://en.wikibooks.org/wiki/LaTeX/Mathematics&#34; target=&#34;_blank&#34;&gt;LaTeX&lt;/a&gt; for mathematical expressions&lt;/li&gt;
 &lt;li&gt;Social/academic network linking, &lt;a href=&#34;https://analytics.google.com&#34; target=&#34;_blank&#34;&gt;Google Analytics&lt;/a&gt;, and &lt;a href=&#34;https://disqus.com&#34; target=&#34;_blank&#34;&gt;Disqus&lt;/a&gt; comments&lt;/li&gt;
 &lt;li&gt;Responsive and mobile friendly&lt;/li&gt;
 &lt;li&gt;Simple and refreshing one page design&lt;/li&gt;
@@ -961,15 +1034,15 @@ cd my_website
 
 &lt;h3 id=&#34;customize-the-homepage&#34;&gt;Customize the homepage&lt;/h3&gt;
 
-&lt;p&gt;Refer to our guide on using &lt;a href=&#34;/post/widgets/&#34; target=&#34;_blank&#34;&gt;widgets&lt;/a&gt; to customize your homepage.&lt;/p&gt;
+&lt;p&gt;Refer to our guide on using &lt;a href=&#34;https://chengjunwang.com/post/widgets/&#34; target=&#34;_blank&#34;&gt;widgets&lt;/a&gt; to customize your homepage.&lt;/p&gt;
 
 &lt;h3 id=&#34;add-your-content&#34;&gt;Add your content&lt;/h3&gt;
 
-&lt;p&gt;Refer to our guide on &lt;a href=&#34;/post/managing-content/&#34; target=&#34;_blank&#34;&gt;managing content&lt;/a&gt; to create your own publications, blog posts, talks, and projects.&lt;/p&gt;
+&lt;p&gt;Refer to our guide on &lt;a href=&#34;https://chengjunwang.com/post/managing-content/&#34; target=&#34;_blank&#34;&gt;managing content&lt;/a&gt; to create your own publications, blog posts, talks, and projects.&lt;/p&gt;
 
 &lt;h3 id=&#34;remove-unused-widgets-and-pages&#34;&gt;Remove unused widgets and pages&lt;/h3&gt;
 
-&lt;p&gt;&lt;a href=&#34;/post/managing-content/#removing-content&#34; target=&#34;_blank&#34;&gt;How to remove unused widgets and content pages&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://chengjunwang.com/post/managing-content/#removing-content&#34; target=&#34;_blank&#34;&gt;How to remove unused widgets and content pages&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h3 id=&#34;themes&#34;&gt;Themes&lt;/h3&gt;
 
@@ -1125,10 +1198,10 @@ $ git log --pretty=oneline --abbrev-commit --decorate HEAD..upstream/master
     
     <item>
       <title>Customizing the homepage with widgets</title>
-      <link>/post/widgets/</link>
+      <link>https://chengjunwang.com/post/widgets/</link>
       <pubDate>Tue, 19 Apr 2016 00:00:00 +0800</pubDate>
       
-      <guid>/post/widgets/</guid>
+      <guid>https://chengjunwang.com/post/widgets/</guid>
       <description>
 
 &lt;p&gt;Homepage widgets display as sections on the homepage. They can be enabled/disabled and configured as desired. Academic has the following widgets available to use:&lt;/p&gt;
@@ -1193,15 +1266,15 @@ $ git log --pretty=oneline --abbrev-commit --decorate HEAD..upstream/master
     
     <item>
       <title>Managing content</title>
-      <link>/post/managing-content/</link>
+      <link>https://chengjunwang.com/post/managing-content/</link>
       <pubDate>Mon, 18 Apr 2016 00:00:00 +0800</pubDate>
       
-      <guid>/post/managing-content/</guid>
-      <description>&lt;p&gt;This is a brief guide to managing content with the Academic framework. Content can include publications, projects, talks, news/blog articles, and widget pages. After you have read this guide about creating and managing content, you may also be interested to learn about &lt;a href=&#34;/post/writing-markdown-latex/&#34; target=&#34;_blank&#34;&gt;writing content with Markdown, LaTeX, and Shortcodes&lt;/a&gt;.&lt;/p&gt;
+      <guid>https://chengjunwang.com/post/managing-content/</guid>
+      <description>&lt;p&gt;This is a brief guide to managing content with the Academic framework. Content can include publications, projects, talks, news/blog articles, and widget pages. After you have read this guide about creating and managing content, you may also be interested to learn about &lt;a href=&#34;https://chengjunwang.com/post/writing-markdown-latex/&#34; target=&#34;_blank&#34;&gt;writing content with Markdown, LaTeX, and Shortcodes&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;To enable LaTeX math rendering for a page, you should include &lt;code&gt;math = true&lt;/code&gt; in the page&amp;rsquo;s &lt;code&gt;+++&lt;/code&gt; preamble, as demonstrated in the included example site. Otherwise, to enable math on the homepage or for all pages, you must globally set &lt;code&gt;math = true&lt;/code&gt; in &lt;code&gt;config.toml&lt;/code&gt;.&lt;/p&gt;
 
-&lt;p&gt;To disable source code highlighting by default for all pages, set &lt;code&gt;highlight = false&lt;/code&gt; in &lt;code&gt;config.toml&lt;/code&gt;. You can then enable source code highlighting only on pages that need it by setting &lt;code&gt;highlight = true&lt;/code&gt; in that page&amp;rsquo;s preamble. See the &lt;a href=&#34;/post/writing-markdown-latex/#code-highlighting&#34; target=&#34;_blank&#34;&gt;code-highlighting docs&lt;/a&gt; for more details.&lt;/p&gt;
+&lt;p&gt;To disable source code highlighting by default for all pages, set &lt;code&gt;highlight = false&lt;/code&gt; in &lt;code&gt;config.toml&lt;/code&gt;. You can then enable source code highlighting only on pages that need it by setting &lt;code&gt;highlight = true&lt;/code&gt; in that page&amp;rsquo;s preamble. See the &lt;a href=&#34;https://chengjunwang.com/post/writing-markdown-latex/#code-highlighting&#34; target=&#34;_blank&#34;&gt;code-highlighting docs&lt;/a&gt; for more details.&lt;/p&gt;
 
 &lt;p&gt;To display a featured image in content page headers, the parameters below can be inserted towards the end of a page&amp;rsquo;s &lt;code&gt;+++&lt;/code&gt; preamble. It is assumed that the image is located in your &lt;code&gt;static/img/&lt;/code&gt; folder, so the full path in the example below will be &lt;code&gt;static/img/headers/getting-started.png&lt;/code&gt;. The &lt;code&gt;caption&lt;/code&gt; parameter can be used to write an image caption or credit.&lt;/p&gt;
 
@@ -1423,10 +1496,10 @@ widgets = true
     
     <item>
       <title>Writing content with Markdown, LaTeX, and Shortcodes</title>
-      <link>/post/writing-markdown-latex/</link>
+      <link>https://chengjunwang.com/post/writing-markdown-latex/</link>
       <pubDate>Sun, 17 Apr 2016 00:00:00 +0800</pubDate>
       
-      <guid>/post/writing-markdown-latex/</guid>
+      <guid>https://chengjunwang.com/post/writing-markdown-latex/</guid>
       <description>&lt;p&gt;Content can be written using &lt;a href=&#34;https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet&#34; target=&#34;_blank&#34;&gt;Markdown&lt;/a&gt;, &lt;a href=&#34;https://en.wikibooks.org/wiki/LaTeX/Mathematics&#34; target=&#34;_blank&#34;&gt;LaTeX math&lt;/a&gt;, and &lt;a href=&#34;http://gohugo.io/extras/shortcodes/&#34; target=&#34;_blank&#34;&gt;Hugo Shortcodes&lt;/a&gt;. Additionally, HTML may be used for advanced formatting. This article gives an overview of the most common formatting options.&lt;/p&gt;
 
 &lt;h2&gt;Table of Contents&lt;/h2&gt;
@@ -1669,7 +1742,7 @@ print(&amp;quot;You entered: {}&amp;quot;.format(input_string_var))
 
 &lt;p&gt;If the &lt;code&gt;highlight_languages&lt;/code&gt; option is set, then the corresponding javascript files will be served from the &lt;a href=&#34;https://cdnjs.com/libraries/highlight.js/&#34; target=&#34;_blank&#34;&gt;cdnjs server&lt;/a&gt;. To see a list of available languages, visit the &lt;a href=&#34;https://cdnjs.com/libraries/highlight.js/&#34; target=&#34;_blank&#34;&gt;cdnjs page&lt;/a&gt; and search for links with the word &amp;ldquo;languages&amp;rdquo;.&lt;/p&gt;
 
-&lt;p&gt;The &lt;code&gt;highlight_languages&lt;/code&gt; option provides an easy and convenient way to include support for additional languages to be severed from a CDN. If serving unmodified files from cdnjs doesn&amp;rsquo;t meet your needs, you can include javascript files for additional language support via one of the methods described in the &lt;a href=&#34;/post/getting-started/#third-party-and-local-scripts-js&#34; target=&#34;_blank&#34;&gt;getting started guide&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The &lt;code&gt;highlight_languages&lt;/code&gt; option provides an easy and convenient way to include support for additional languages to be severed from a CDN. If serving unmodified files from cdnjs doesn&amp;rsquo;t meet your needs, you can include javascript files for additional language support via one of the methods described in the &lt;a href=&#34;https://chengjunwang.com/post/getting-started/#third-party-and-local-scripts-js&#34; target=&#34;_blank&#34;&gt;getting started guide&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h4 id=&#34;option-highlight-style&#34;&gt;Option &lt;code&gt;highlight_style&lt;/code&gt;&lt;/h4&gt;
 
@@ -1839,13 +1912,13 @@ Here&#39;s some important information...
     
     <item>
       <title>Migrate from Jekyll to Hugo</title>
-      <link>/post/migrate-from-jekyll.zh/</link>
-      <pubDate>Mon, 10 Mar 2014 00:00:00 +0800</pubDate>
+      <link>https://chengjunwang.com/post/post_archive/migrate-from-jekyll/</link>
+      <pubDate>Mon, 10 Mar 2014 00:00:00 +0000</pubDate>
       
-      <guid>/post/migrate-from-jekyll.zh/</guid>
+      <guid>https://chengjunwang.com/post/post_archive/migrate-from-jekyll/</guid>
       <description>
 
-&lt;p&gt;Here are a few tips for migrating an existing website from Jekyll to Hugo. These tips can be applied in conjunction with following Hugo Academic&amp;rsquo;s &lt;a href=&#34;/post/getting-started/&#34; target=&#34;_blank&#34;&gt;getting started guide&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Here are a few tips for migrating an existing website from Jekyll to Hugo. These tips can be applied in conjunction with following Hugo Academic&amp;rsquo;s &lt;a href=&#34;https://chengjunwang.com/post/getting-started/&#34; target=&#34;_blank&#34;&gt;getting started guide&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h2 id=&#34;move-static-content-to-static&#34;&gt;Move static content to &lt;code&gt;static&lt;/code&gt;&lt;/h2&gt;
 

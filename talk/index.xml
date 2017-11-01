@@ -1,22 +1,45 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Recent &amp; Upcoming Talks on Academic</title>
-    <link>/talk/</link>
-    <description>Recent content in Recent &amp; Upcoming Talks on Academic</description>
+    <title>Recent &amp; Upcoming Talks on Cheng-Jun Wang</title>
+    <link>https://chengjunwang.com/talk/</link>
+    <description>Recent content in Recent &amp; Upcoming Talks on Cheng-Jun Wang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2017 Your Name</copyright>
+    <copyright>&amp;copy; 2016 Cheng-Jun Wang</copyright>
     <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
     <atom:link href="/talk/" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Example Talk</title>
-      <link>/talk/example-talk/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 +0800</pubDate>
+      <title>计算传播学——用AI穿透你的注意力壁垒</title>
+      <link>https://chengjunwang.com/talk/swarma-cc-talk/</link>
+      <pubDate>Wed, 12 Apr 2017 00:00:00 +0000</pubDate>
       
-      <guid>/talk/example-talk/</guid>
-      <description>&lt;p&gt;Embed your slides or video here using &lt;a href=&#34;https://sourcethemes.com/academic/post/writing-markdown-latex/&#34; target=&#34;_blank&#34;&gt;shortcodes&lt;/a&gt;. Further details can easily be added using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
+      <guid>https://chengjunwang.com/talk/swarma-cc-talk/</guid>
+      <description>&lt;p&gt;AI时代，每一秒钟,整个互联网上就有 60 万条信息在 Facebook 上分享,2 亿个 Email、10 万条 推文被发送,571 个新网站被建立,1.9E(1018)字节数据被交换[1]。海量的信息不断涌现, 但是全球的互联网用户总数却仅有 30 多亿(截止到 2014 年底)。每个人的注意力是有限的，我们应该如何巧妙地穿透注意力的壁垒，让信息精准地传递到我们的目标受众？计算传播学会给你答案。&lt;/p&gt;
+
+&lt;p&gt;计算传播是指数据驱动的、借助于人工智能，及其可计算方法所进行的传播过程,而分析计算传播现象的研究领域就是计算传播学。在本次讲座中，我将尝试介绍计算传播的起源、概念和应用,然后从计算社会科学的角度对计算传播学的理论脉络进行了介绍。基于以上内容,我介绍了一些计算传播学研究的例子，总结计算传播学研究中存在的从数据到模式,再从模式到机制的研究思路，最后讨论一下可能的发展方向。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;时间：2017-04-12 20:00-23:00&lt;/li&gt;
+&lt;li&gt;集智学园简介：&lt;a href=&#34;http://campus.swarma.org/gvid=10140&#34; target=&#34;_blank&#34;&gt;http://campus.swarma.org/gvid=10140&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;!--
+&lt;iframe id=&#34;video&#34; controls=&#34;controls&#34; muted=&#34;muted&#34;  src=&#34;http://campus.swarma.org/gvid=10140&#34; height=500 width=&#34;100%&#34;&gt;&lt;/iframe&gt;
+--&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The Origin, Concept, and Applications of Computational Communication</title>
+      <link>https://chengjunwang.com/talk/pku-shenzhen-talk/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://chengjunwang.com/talk/pku-shenzhen-talk/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://oaf2qt3yk.bkt.clouddn.com/06ac05ad66faaaea73ade02ec4bdd608.png&#34; alt=&#34;sz-talk&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;讲座：计算传播学的起源、概念与应用&lt;/p&gt;
 </description>
     </item>
     

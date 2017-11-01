@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="theme" content="hugo-academic">
+  <meta name="generator" content="Hugo 0.30.2" />
+  <meta name="author" content="Cheng-Jun Wang">
+  <meta name="description" content="Associate Professor">
+
+  
+  
+  
+  
+    
+  
+  
+    
+    
+    <link rel="stylesheet" href="/css/highlight.min.css">
+    
+  
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha512-6MXa8B6uaO18Hid6blRMetEIoPqHf7Ux1tnyIQdpt9qI5OACx7C+O3IVTr98vwGnlcg0LOLa02i9Y1HpVhlfiw==" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.1/css/academicons.min.css" integrity="sha512-NThgw3XKQ1absAahW6to7Ey42uycrVvfNfyjqcFNgCmOCQ5AR4AO0SiXrN+8ZtYeappp56lk1WtvjVmEa+VR6A==" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous">
+  
+  
+
+
+  
+
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Montserrat:400,700%7cRoboto:400,400italic,700%7cRoboto&#43;Mono">
+  
+  <link rel="stylesheet" href="/styles.css">
+  
+
+  
+
+  
+  <link rel="alternate" href="https://chengjunwang.com/index.xml" type="application/rss+xml" title="Cheng-Jun Wang">
+  <link rel="feed" href="https://chengjunwang.com/index.xml" type="application/rss+xml" title="Cheng-Jun Wang">
+  
+
+  <link rel="icon" type="image/png" href="/img/icon.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/apple-touch-icon.png">
+
+  <link rel="canonical" href="https://chengjunwang.com/post/en/2014-03-17-fit-power-law/">
+
+  <meta property="twitter:card" content="summary_large_image">
+  
+  <meta property="twitter:site" content="@ChengJunWang">
+  <meta property="twitter:creator" content="@ChengJunWang">
+  
+  <meta property="og:site_name" content="Cheng-Jun Wang">
+  <meta property="og:url" content="https://chengjunwang.com/post/en/2014-03-17-fit-power-law/">
+  <meta property="og:title" content="Fitting rank order distribution with R | Cheng-Jun Wang">
+  <meta property="og:description" content="">
+  <meta property="og:locale" content="en-us">
+  
+  
+  
+  
+
+  
+
+  <title>Fitting rank order distribution with R | Cheng-Jun Wang</title>
+
+</head>
+<body id="top" data-spy="scroll" data-target="#navbar-main" data-offset="71">
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navbar-main">
+  <div class="container">
+
+    
+    <div class="navbar-header">
+      
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+              data-target=".navbar-collapse" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      
+      <a class="navbar-brand" href="/">Cheng-Jun Wang</a>
+    </div>
+
+    
+    <div class="collapse navbar-collapse">
+
+      
+      <ul class="nav navbar-nav navbar-right">
+        
+
+        
+
+        <li class="nav-item">
+          <a href="/#about">
+            
+            <span>Home</span>
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        <li class="nav-item">
+          <a href="/#publications_selected">
+            
+            <span>Publications</span>
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        <li class="nav-item">
+          <a href="/#projects">
+            
+            <span>Projects</span>
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        <li class="nav-item">
+          <a href="/#posts">
+            
+            <span>News</span>
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        <li class="nav-item">
+          <a href="/#teaching">
+            
+            <span>Teaching</span>
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        <li class="nav-item">
+          <a href="/#contact">
+            
+            <span>Contact</span>
+          </a>
+        </li>
+
+        
+        
+
+        
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+<article class="article" itemscope itemtype="http://schema.org/Article">
+
+  
+
+
+  <div class="article-container">
+    <div class="article-inner">
+      <h1 itemprop="name">Fitting rank order distribution with R</h1>
+
+      
+
+<div class="article-metadata">
+
+  <span class="article-date">
+    
+        Last updated on
+    
+    <time datetime="0001-01-01 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+      Jan 1, 0001
+    </time>
+  </span>
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    5 min read
+  </span>
+  
+
+  
+  
+
+  
+
+  
+  
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    <li>
+      <a class="twitter"
+         href="https://twitter.com/intent/tweet?text=Fitting%20rank%20order%20distribution%20with%20R&amp;url=https%3a%2f%2fchengjunwang.com%2fpost%2fen%2f2014-03-17-fit-power-law%2f"
+         target="_blank" rel="noopener">
+        <i class="fa fa-twitter"></i>
+      </a>
+    </li>
+    <li>
+      <a class="facebook"
+         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fchengjunwang.com%2fpost%2fen%2f2014-03-17-fit-power-law%2f"
+         target="_blank" rel="noopener">
+        <i class="fa fa-facebook"></i>
+      </a>
+    </li>
+    <li>
+      <a class="linkedin"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fchengjunwang.com%2fpost%2fen%2f2014-03-17-fit-power-law%2f&amp;title=Fitting%20rank%20order%20distribution%20with%20R"
+         target="_blank" rel="noopener">
+        <i class="fa fa-linkedin"></i>
+      </a>
+    </li>
+    <li>
+      <a class="weibo"
+         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2fchengjunwang.com%2fpost%2fen%2f2014-03-17-fit-power-law%2f&amp;title=Fitting%20rank%20order%20distribution%20with%20R"
+         target="_blank" rel="noopener">
+        <i class="fa fa-weibo"></i>
+      </a>
+    </li>
+    <li>
+      <a class="email"
+         href="mailto:?subject=Fitting%20rank%20order%20distribution%20with%20R&amp;body=https%3a%2f%2fchengjunwang.com%2fpost%2fen%2f2014-03-17-fit-power-law%2f">
+        <i class="fa fa-envelope"></i>
+      </a>
+    </li>
+  </ul>
+</div>
+
+
+  
+
+</div>
+
+
+      <div class="article-style" itemprop="articleBody">
+        
+
+<p>The long-tail distribution can be quantified in primarily <a href="http://arxiv.org/pdf/cond-mat/0412004.pdf?origin=publication_detail" target="_blank">three ways, see Newman &rsquo;s paper here</a>:</p>
+
+<ul>
+<li>Power law distribution</li>
+<li>Zipf distribution</li>
+<li>Pareto distribution</li>
+</ul>
+
+<p>Here, I talk about the Zipf distribution which assesses the relationship between rank order and Frequency (probability).</p>
+
+<blockquote>
+<p>Zipf&rsquo;s law now refers more generally to frequency distributions of &ldquo;rank data,&rdquo; in which the relative frequency of the nth-ranked item is given by the Zeta distribution. from <a href="http://en.wikipedia.org/wiki/Zipf's_law" target="_blank">Wikipedia</a></p>
+</blockquote>
+
+<h2 id="dgbd">DGBD</h2>
+
+<p>In Gustavo Martínez-Mekler et al&rsquo;s <a href="http://www.plosone.org/article/info%3adoi/10.1371/journal.pone.0004791" target="_blank">article</a>, they proposed a discrete generalized beta distribution: $$f&reg; = A(N+1-r)^b/r^a$$, where r is the rank, <strong>N</strong> is maximum value, A the normalization constant and (a, b) two fitting exponents.</p>
+
+<p>It&rsquo;s interesting to find that <a href="http://journals.aps.org/pre/pdf/10.1103/PhysRevE.84.026113" target="_blank">Wu and Zhang (2011)</a> adopt the DGBD distribution to quantify the online social systems. Basically, they are interested in accelerating growth in human online behaviors.</p>
+
+<p>Deﬁning P as the number of active users in a day and T as the total activity generated by these users, they find a power law relationship between them $$T = P^\gamma$$. Given $$\gamma$$ larger than 1, there exists an accelerating growth phenomena in online systems (e.g., tagging, microblogging)</p>
+
+<p>They denote the activity of a user in one day with t&reg;, in which r is the decreasing rank of the activity among all individual activities in the day. Thus the maximum value of r, $$r_{max}$$, equals population P. The DGBD model of individual activities is then</p>
+
+<p>$$t&reg; = A(P+1−r)^b r^a (a &gt; 0,b &gt; 0)$$</p>
+
+<p>They introduced that a determines the activities of highly active users(corresponds to the exponent $$\alpha$$ in Zipf’s law), b determines the activities of the less active users. Using the DGBD, They can ﬁt the empirical curves with $$R^2$$ &gt; 0.9.</p>
+
+<p>Here I start with an empirical dataset. The Tweet of Milan city in December 2013. Basically, we know the language of each tweet. Thus we have the frequency of each language.</p>
+
+<pre><code>freq = c(1116, 2067, 137 ,  124, 643,  2042, 55  ,47186,  7504, 1488, 211,   1608,  3517 , 7  , 896  ,  378, 17 ,3098, 164977  ,  601 ,  196, 637, 149 , 44,2 ,  1801, 882   , 636,5184,  1851,  776 ,   343   , 851, 33  ,4011,   209,  715 ,  937 , 20,   6922, 2028 , 23,  3045 , 16 , 334,  31 ,  2)
+
+lan = c(&quot;af&quot;,&quot;ar&quot;,&quot;bg&quot;,&quot;cs&quot;,&quot;da&quot;,&quot;de&quot;,&quot;el&quot;,&quot;en&quot;,&quot;es&quot;,&quot;et&quot;,&quot;fa&quot;,&quot;fi&quot;,&quot;fr&quot;,&quot;he&quot;,&quot;hr&quot;,&quot;hu&quot;,&quot;id&quot;,&quot;it&quot;,&quot;ja&quot;,&quot;ko&quot;,&quot;lt&quot;,&quot;lv&quot;,&quot;mk&quot;,&quot;ne&quot;,&quot;nl&quot;,&quot;no&quot;,&quot;pl&quot;,&quot;pt&quot;,&quot;ro&quot;,&quot;ru&quot;,&quot;sk&quot;,&quot;sl&quot;,&quot;so&quot;,&quot;sq&quot;,&quot;sv&quot;,&quot;sw&quot;,&quot;th&quot;,&quot;tl&quot;,&quot;tr&quot;,&quot;uk&quot;,&quot;und&quot;,&quot;ur&quot;,&quot;vi&quot;,&quot;zh-cn&quot;,&quot;zh-tw&quot;)
+</code></pre>
+
+<p>Thus, we can calculate the decreasing rank for each language.</p>
+
+<pre><code>Rank = rank(-freq, ties.method = c(&quot;first&quot;) )
+data = data.frame(lan, freq, Rank)
+data$Probability = data$Freq/sum(data$Freq)
+</code></pre>
+
+<p>We can write a simple function to fit the rank ordered data and capture the distribution.</p>
+
+<pre><code>get_dgbd = function(freq){
+  Rank = rank(-freq, ties.method = c(&quot;first&quot;) )
+  p = freq/sum(as.numeric(freq))
+  # get the log form
+  log.f = log(freq)
+  log.p = log(p)
+  log.rank = log(Rank)
+  log.inverse.rank = log(length(Rank)+1-Rank)
+
+  # linear regression of zifp: for probability
+  cozp=coef(lm(log.p~log.rank))
+  zipf.p = function(x) exp(cozp[[1]] + cozp[2]*log(x))
+
+  # linear regression of zifp: for frequency
+  cozf=coef(lm(log.f~log.rank))
+  zipf.f = function(x) exp(cozf[[1]] + cozf[2]*log(x))
+
+  # linear regression of dgbd: for probability
+  codp=coef(lm(log.p~log.inverse.rank + log.rank))
+  dgbd.p = function(x) exp(codp[[1]]+ codp[[2]]*log(length(x)+1-x) + codp[[3]]*log(x))
+
+  # linear regression of dgbd: for frequency
+  codf=coef(lm(log.f~log.inverse.rank + log.rank))
+  dgbd.f = function(x) exp(codf[[1]]+ codf[[2]]*log(length(x)+1-x) + codf[[3]]*log(x))
+  return(c(zipf.p, zipf.f, dgbd.p, dgbd.f))
+}
+
+zipf.p = get_dgbd(data$Freq)[[1]]
+zipf.f = get_dgbd(data$Freq)[[2]]
+dgbd.p = get_dgbd(data$Freq)[[3]]
+dgbd.f = get_dgbd(data$Freq)[[4]]
+
+
+plot(freq~Rank,log=&quot;xy&quot;, xlab = &quot;Rank (log)&quot;, ylab = &quot;Frequency (log)&quot;, data = data)
+curve(zipf.f, col=&quot;red&quot;, add = T, n = length(data$Rank))
+curve(dgbd.f, col=&quot;blue&quot;, add = T, n = length(data$Rank))
+</code></pre>
+
+<p>Remember to specify the length of values in &lsquo;curve&rsquo;. About its importance, check <a href="http://stackoverflow.com/questions/22446006/why-is-curve-so-different-from-lines-and-points-in-r" target="_blank">this post</a> on stackoverflow.</p>
+
+<p>Finally, we can plot it with ggplot2.</p>
+
+<pre><code>require(ggplot2)
+P = ggplot(data=data, aes(x=Rank, y=Freq, label = Var1)) + geom_point() +
+  coord_trans(xtrans = &quot;log10&quot;, ytrans = &quot;log10&quot;)+
+  stat_function(fun = dgbd.f, n = length(Rank), colour = 'red', size = 1)+
+  geom_text(aes(label=Var1),hjust=1.5, vjust=0, angle = 45, size = 3)
+
+png(file = &quot;./language_rank_order_distribution2.png&quot;,
+    width=8, height=5,
+    units=&quot;in&quot;, res=700)
+P
+dev.off()
+</code></pre>
+
+<p><img src="http://farm3.staticflickr.com/2725/13212714535_820edf5a12_z.jpg" alt="" /></p>
+
+<p><img src="http://farm3.staticflickr.com/2767/13213038184_4d8fb106d2_z.jpg" alt="" /></p>
+
+<h2 id="how-to-construct-your-model">How to construct your model?</h2>
+
+<p>Using the DGBD model, we can fit the frequency-rank data almost perfectly. However, there are many other other forms of alternative equations. For example, there are Zipf-Manderbrot Model and <a href="http://statweb.stanford.edu/~owen/courses/306a/ZipfAndGutenberg.pdf" target="_blank">its modifications</a>, How to guarantee that which specific model is the right one? We need to:</p>
+
+<ul>
+<li>learn more about the underlying mechanisms.</li>
+<li>observe the patterns of the data</li>
+</ul>
+
+<p>In the paper titled <a href="http://www3.nd.edu/~networks/Publication%20Categories/03%20Journal%20Articles/Social%20Science/Modeling%20bursts_Phys.%20Rev.%20E%2073,%20036127%20(2006).pdf" target="_blank">Modeling bursts and heavy tails in human dynamics</a>, Alexei Vázquez et al tried to propose two queuing models to explain the <strong>value</strong> of scaling parameter in the temporal patterns of human behaviors. They capture the temporal patterns with two measurements: interevent time $$\tau$$ and waiting times $$\tau_{w}$$.</p>
+
+<p>The time between two consecutive events is called the interevent time, $$\tau$$; the waiting (or response) time, $$\tau_w$$, representing the amount of time a task waits on an individual’s priority list before being executed.</p>
+
+<p>Assuming that <strong>the tasks are executed independently from each other at a constant rate $$\lambda$$</strong>, the time can be approximated by a Poisson process:</p>
+
+<p>$$p(\tau) = \lambda e^{-\lambda \tau}$$ .</p>
+
+<p>However, we know that in many human behaviors, the Poisson process fails to capture the burst phenomenon. The temporal patterns can be generally categorized into two classes:</p>
+
+<ul>
+<li><p>A. The $$\alpha$$= 1 universality class: Web browsing, email, and library datasets</p></li>
+
+<li><p>B. The $$\alpha$$=<sup>3</sup>&frasl;<sub>2</sub> universality class: The correspondence of Einstein, Darwin, and Freud, which is characterized by <strong>a power law decay</strong> combined with <strong>an exponential cutoff</strong>.</p></li>
+</ul>
+
+<p>$$p(\tau)\simeq \tau^{-<sup>3</sup>&frasl;<sub>2</sub>} e^{-\tau / \tau_{0}}$$.</p>
+
+<p>in which $$\tau_0 = \frac{1}{\mu (1-\sqrt{\rho})}$$, and $$\rho = \lambda / \mu$$. Recall that $$\lambda$$ is the arrival rate of new task, and $$\mu$$ is the response rate , thus $$\rho$$ is the task/job/traffic intensity.</p>
+
+<ul>
+<li>Subcritical regime: When $$\rho$$ &lt; 1, there are fewer job, and more queuing space.</li>
+<li>Critical regime: When $$\rho$$ = 1, arrival rate equals response rate</li>
+<li>Supercritical regime: When $$\rho$$ &gt; 1, there are more job, and less queuing space.</li>
+</ul>
+
+<p>However, they also find that the interevent time distribution between two consecutive transactions made by a stock broker. The distribution follows a power law with the exponential cutoff $$p(\tau)\simeq \tau^{-1.3} e^{-\tau / \tau_{0}}$$.</p>
+
+<p>####References</p>
+
+<p>Martínez-Mekler G, Martínez RA, del Río MB, Mansilla R, Miramontes P, et al. (2009) Universality of Rank-Ordering Distributions in the Arts and Sciences. PLoS ONE 4(3): e4791. doi:10.1371/journal.pone.0004791</p>
+
+<p>Wu L, Zhang J. (2011) Accelerating growth and size-dependent distribution of human online activities. PHYSICAL REVIEW E 84, 026113 (2011)</p>
+
+      </div>
+
+      
+
+    </div>
+  </div>
+
+</article>
+
+
+
+
+
+
+<div class="article-container">
+  
+
+</div>
+
+<footer class="site-footer">
+  <div class="container">
+    <p class="powered-by">
+
+      &copy; 2016 Cheng-Jun Wang &middot; 
+
+      Powered by the
+      <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+      <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+      <span class="pull-right" aria-hidden="true">
+        <a href="#" id="back_to_top">
+          <span class="button_icon">
+            <i class="fa fa-chevron-up fa-2x"></i>
+          </span>
+        </a>
+      </span>
+
+    </p>
+  </div>
+</footer>
+
+
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close btn-large" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Cite</h4>
+      </div>
+      <div>
+        <pre><code class="modal-body tex"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-primary btn-outline js-copy-cite" href="#" target="_blank">
+          <i class="fa fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-primary btn-outline js-download-cite" href="#" target="_blank">
+          <i class="fa fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+
+    
+    
+
+    
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" integrity="sha512-3P8rXCuGJdNZOnUx/03c1jOTnMn3rP63nBip5gOP2qmUh5YAdVAvFZ1E+QLZZbC1rtMrQb+mah3AfYW11RUrWA==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.3/imagesloaded.pkgd.min.js" integrity="sha512-umsR78NN0D23AzgoZ11K7raBD+R6hqKojyBZs1w8WvYlsI+QuKRGBx3LFCwhatzBunCjDuJpDHwxD13sLMbpRA==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha512-iztkobsvnjKfAtTNdHkGVjAYTrrtlC7mGp/54c40wowO7LhURYl3gVzzcEqGl/qKXQltJ2HwMrdLcNUdo+N/RQ==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.4/isotope.pkgd.min.js" integrity="sha512-VDBOIlDbuC4VWxGJNmuFRQ0Li0SKkDpmGyuhAG5LTDLd/dJ/S0WMVxriR2Y+CyPL5gzjpN4f/6iqWVBJlht0tQ==" crossorigin="anonymous"></script>
+    
+    
+    <script src="/js/hugo-academic.js"></script>
+    
+
+    
+    
+      
+      
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" integrity="sha256-/BfiIkHlHoVihZdc6TFuj7MmJ0TWcWsMXkeDFwhi0zw=" crossorigin="anonymous"></script>
+      
+
+      
+
+      
+
+      <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+
+  </body>
+</html>
+
