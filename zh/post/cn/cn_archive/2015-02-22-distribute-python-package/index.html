@@ -244,7 +244,9 @@
 
 
       <div class="article-style" itemprop="articleBody">
-        <p>我们经常写一些程序碎片，却很少有动力把它们整合起来。前段时间写了一个爬取并可视化谷歌学术网的python程序。今天想不如把它整合一下，虽然非常简单（只有一个函数）。主要参考python官网的<a href="https://packaging.python.org/en/latest/distributing.html#uploading-your-project-to-pypi" target="_blank">发布指南</a>。</p>
+        <p></p>
+
+<p>我们经常写一些程序碎片，却很少有动力把它们整合起来。前段时间写了一个爬取并可视化谷歌学术网的python程序。今天想不如把它整合一下，虽然非常简单（只有一个函数）。主要参考python官网的<a href="https://packaging.python.org/en/latest/distributing.html#uploading-your-project-to-pypi" target="_blank">发布指南</a>。</p>
 
 <p>##注册
 于是首先来到pypi网站注册。</p>
@@ -279,7 +281,6 @@ $ twine upload dist/*
 <p>我使用上传的时候出错（typeError），于是直接使用打包好的zip文件（在dist子文件夹当中）手工上传到pypi。注意，每次上传到pypi需要修改一次setup.py中的版本号，并重新打包才可上传。如此而已，比我想象当中要速度快得多、简单的多。</p>
 
 <p>这里是我刚刚打包发布的一个可视化谷歌学术网络的python软件包：<a href="https://pypi.python.org/pypi/scholarNetwork/" target="_blank">https://pypi.python.org/pypi/scholarNetwork/</a></p>
-
       </div>
 
       

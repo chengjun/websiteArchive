@@ -586,13 +586,9 @@
 
   <div class="article-style" itemprop="articleBody">
     
-    思考手机用户在真实和虚拟世界的移动本身有什么价值:比较两种类型的网络结构，一个是分形的，一个是小世界的。二者之间不是完全对立的，而是可以平滑过渡的，因而可以计算从小世界到分形的连续变量的取值，即网络增长的过程中，新节点多大程度上按照小世界规则加入网络，多大程度上按照分形加入网络（Song, 2006）。
-自相似或者说分形是本研究切入的重点，分形的特点是在不同尺度上具有相同的特征，这种自相似的特征往往表现为系统特征与观测尺度之间的对应关系。一般对于分形网络而言，重整化之后的盒子数量log(N)与盒子大小log(L)之间存在无标度关系。我们确实也发现人在移动互联网站构成的网络重整化过程中，盒子数量与盒子大小之间具有这种无标度关系，但是人在现实世界的物理移动构成的网络经过重整化，其盒子数量与盒子大小之间则是指数分布。由此可见二者网络结构是如何不同的，前者接近分形，后者接近小世界。
-衡量小世界和分形的重要方法是度相关。分形意味着较强的异配性，而小世界则是同配性。正向的度相关意味着同配性和小世界，负向意味着分形。对于同配性的网络度相关通过重整化，一般会被抹平。有趣的是我们发现真实移动网络会由正变负。即当盒子比较大的时候，局部地区的同配性消失，表现出异配性。
-Song（2006）将网络增长与重整化看成一个逆过程，网络增长的过程可以看成重整化的尺度由大变小的过程。小世界网络增长的过程中，网络的平均直径L与网络中的节点数量具有对数关系，L ~ Log(N)。重整化需要的步数约等于最终网络的平均直径，例如一个直径是14的网络，大约经过14步重整化会由一个完整的网络坍缩为一个节点。在重整化过程中，所选择的盒子的大小l的取值范围约等于最终网络的平均直径range(L)。
-Hernan Makse是City College of New York的物理学教授，主要从事复杂网络的研究，他和Song Chaoming就分形网络发表了两篇重要论文(Song 2005&amp;2006)。他非常注重代码和数据的分享。我一直关注的是第一作者Song和鼎鼎大名的Havlin，并没有注意到Hernan， 后来搜索实现fractal_model的python代码的时候才找到他，恍然发现他是两篇论文的通讯作者。
-在这个算法里面，主要有四个参数：世代（generation)、新增子代数量(m)、子代间新增链接的数量(x)、断开父代链接的比例(e)。每一代是一个操作过程：以这一代的每一条边为单位，该边上的两个节点a和b各自新增子代m个，其中m对子代间形成（x-1)个链接，若随机概率大于e，那么断开父代节点a和b之间的链接，同时增加一条m对子代间链接。
-generation, m, x, e = 2, 1, 1, 0 G=nx.Graph() G.add_edge(0,1) #Two seed nodes(generation 0), then add m offsprings to these seed nodes. node_index = 2 for n in range(1,generation+1): print 'STEP:', n, '\n' all_links = G.edges() while all_links: link = all_links.pop() # [(0, 1)] ----&gt; (0, 1) print link new_nodes_a = range(node_index,node_index + m) print link[0], new_nodes_a #random.
+    <p>思考手机用户在真实和虚拟世界的移动本身有什么价值:比较两种类型的网络结构，一个是分形的，一个是小世界的。二者之间不是完全对立的，而是可以平滑过渡的，因而可以计算从小世界到分形的连续变量的取值，即网络增长的过程中，新节点多大程度上按照小世界规则加入网络，多大程度上按照分形加入网络（Song, 2006）。</p>
+
+<p></p>
     
   </div>
   <p class="read-more">
@@ -641,8 +637,7 @@ generation, m, x, e = 2, 1, 1, 0 G=nx.Graph() G.add_edge(0,1) #Two seed nodes(ge
 
   <div class="article-style" itemprop="articleBody">
     
-    <iframe src="http://nbviewer.ipython.org/github/chengjun/iching/blob/master/iching_intro.ipynb" scrolling="no" width="700" height="6500"></iframe>
-
+    <p></p>
     
   </div>
   <p class="read-more">
@@ -691,46 +686,501 @@ generation, m, x, e = 2, 1, 1, 0 G=nx.Graph() G.add_edge(0,1) #Two seed nodes(ge
 
   <div class="article-style" itemprop="articleBody">
     
-    <p>我们经常写一些程序碎片，却很少有动力把它们整合起来。前段时间写了一个爬取并可视化谷歌学术网的python程序。今天想不如把它整合一下，虽然非常简单（只有一个函数）。主要参考python官网的<a href="https://packaging.python.org/en/latest/distributing.html#uploading-your-project-to-pypi" target="_blank">发布指南</a>。</p>
-
-<p>##注册
-于是首先来到pypi网站注册。</p>
-
-<p><a href="https://pypi.python.org/pypi?%3Aaction=submit_form" target="_blank">https://pypi.python.org/pypi?%3Aaction=submit_form</a>
-记下用户名chengjun和密码W4</p>
-
-<p>##填写软件包信息
-《指南》推荐直接在线填写 <a href="https://pypi.python.org/pypi?%3Aaction=submit_form" target="_blank">https://pypi.python.org/pypi?%3Aaction=submit_form</a></p>
-
-<p>##打包和发布工具
-先要安装两个包：twine和wheel。</p>
-
-<pre><code>pip install wheel
-pip install twine
-</code></pre>
-
-<p>##整理项目文件夹
-找项目实例（<a href="https://github.com/pypa/sampleproject）下载下来，修改其中的部分内容即可。详见指南，或者自己摸索即可。" target="_blank">https://github.com/pypa/sampleproject）下载下来，修改其中的部分内容即可。详见指南，或者自己摸索即可。</a></p>
-
-<p>##打包发布
-1.在window环境下，使用cmd，转换工作路径到项目文件夹。
-2. 主要参考 <a href="https://github.com/pypa/twine打包发布：" target="_blank">https://github.com/pypa/twine打包发布：</a></p>
-
-<pre><code>#Create some distributions in the normal way:
-$ python setup.py sdist bdist_wheel
-
-#Upload with twine:
-$ twine upload dist/*
-</code></pre>
-
-<p>我使用上传的时候出错（typeError），于是直接使用打包好的zip文件（在dist子文件夹当中）手工上传到pypi。注意，每次上传到pypi需要修改一次setup.py中的版本号，并重新打包才可上传。如此而已，比我想象当中要速度快得多、简单的多。</p>
-
-<p>这里是我刚刚打包发布的一个可视化谷歌学术网络的python软件包：<a href="https://pypi.python.org/pypi/scholarNetwork/" target="_blank">https://pypi.python.org/pypi/scholarNetwork/</a></p>
-
+    <p></p>
     
   </div>
   <p class="read-more">
     <a href="https://chengjunwang.com/zh/post/cn/cn_archive/2015-02-22-distribute-python-package/" class="btn btn-primary btn-outline">
+      继续阅读
+    </a>
+  </p>
+</div>
+
+  
+    
+    
+
+<div class="article-list-item" itemscope itemprop="blogPost">
+  
+  
+  <h3 class="article-title" itemprop="name">
+    <a href="https://chengjunwang.com/zh/post/cn/cn_archive/2015-02-22-fresh-python/" itemprop="url">表达、检索、练习——写给Python的初学者</a>
+  </h3>
+  
+
+<div class="article-metadata">
+
+  <span class="article-date">
+    
+    <time datetime="2015-02-22 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+      Feb 22, 2015
+    </time>
+  </span>
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    1 分钟阅读时间
+  </span>
+  
+
+  
+  
+
+  
+
+  
+
+</div>
+
+  <div class="article-style" itemprop="articleBody">
+    
+    <p></p>
+    
+  </div>
+  <p class="read-more">
+    <a href="https://chengjunwang.com/zh/post/cn/cn_archive/2015-02-22-fresh-python/" class="btn btn-primary btn-outline">
+      继续阅读
+    </a>
+  </p>
+</div>
+
+  
+    
+    
+
+<div class="article-list-item" itemscope itemprop="blogPost">
+  
+  
+  <h3 class="article-title" itemprop="name">
+    <a href="https://chengjunwang.com/zh/post/cn/cn_archive/2015-01-11-shinyapp/" itemprop="url">再次尝试shinyApp</a>
+  </h3>
+  
+
+<div class="article-metadata">
+
+  <span class="article-date">
+    
+    <time datetime="2015-01-11 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+      Jan 11, 2015
+    </time>
+  </span>
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    1 分钟阅读时间
+  </span>
+  
+
+  
+  
+
+  
+
+  
+
+</div>
+
+  <div class="article-style" itemprop="articleBody">
+    
+    <p></p>
+    
+  </div>
+  <p class="read-more">
+    <a href="https://chengjunwang.com/zh/post/cn/cn_archive/2015-01-11-shinyapp/" class="btn btn-primary btn-outline">
+      继续阅读
+    </a>
+  </p>
+</div>
+
+  
+    
+    
+
+<div class="article-list-item" itemscope itemprop="blogPost">
+  
+  
+  <h3 class="article-title" itemprop="name">
+    <a href="https://chengjunwang.com/zh/post/cn/cn_archive/2015-01-10-myecharts/" itemprop="url">Echarts使用简介</a>
+  </h3>
+  
+
+<div class="article-metadata">
+
+  <span class="article-date">
+    
+    <time datetime="2015-01-10 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+      Jan 10, 2015
+    </time>
+  </span>
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    1 分钟阅读时间
+  </span>
+  
+
+  
+  
+
+  
+
+  
+
+</div>
+
+  <div class="article-style" itemprop="articleBody">
+    
+    <p></p>
+    
+  </div>
+  <p class="read-more">
+    <a href="https://chengjunwang.com/zh/post/cn/cn_archive/2015-01-10-myecharts/" class="btn btn-primary btn-outline">
+      继续阅读
+    </a>
+  </p>
+</div>
+
+  
+    
+    
+
+<div class="article-list-item" itemscope itemprop="blogPost">
+  
+  
+  <h3 class="article-title" itemprop="name">
+    <a href="https://chengjunwang.com/zh/post/cn/cn_archive/2014-08-31-fast-split-data-with-python/" itemprop="url">使用Python快速分割数据的方法</a>
+  </h3>
+  
+
+<div class="article-metadata">
+
+  <span class="article-date">
+    
+    <time datetime="2014-08-31 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+      Aug 31, 2014
+    </time>
+  </span>
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    1 分钟阅读时间
+  </span>
+  
+
+  
+  
+
+  
+
+  
+
+</div>
+
+  <div class="article-style" itemprop="articleBody">
+    
+    <p></p>
+    
+  </div>
+  <p class="read-more">
+    <a href="https://chengjunwang.com/zh/post/cn/cn_archive/2014-08-31-fast-split-data-with-python/" class="btn btn-primary btn-outline">
+      继续阅读
+    </a>
+  </p>
+</div>
+
+  
+    
+    
+
+<div class="article-list-item" itemscope itemprop="blogPost">
+  
+  
+  <h3 class="article-title" itemprop="name">
+    <a href="https://chengjunwang.com/zh/post/cn/cn_archive/2014-08-27-d3network/" itemprop="url">使用d3network做网络可视化</a>
+  </h3>
+  
+
+<div class="article-metadata">
+
+  <span class="article-date">
+    
+    <time datetime="2014-08-27 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+      Aug 27, 2014
+    </time>
+  </span>
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    1 分钟阅读时间
+  </span>
+  
+
+  
+  
+
+  
+
+  
+
+</div>
+
+  <div class="article-style" itemprop="articleBody">
+    
+    <p></p>
+    
+  </div>
+  <p class="read-more">
+    <a href="https://chengjunwang.com/zh/post/cn/cn_archive/2014-08-27-d3network/" class="btn btn-primary btn-outline">
+      继续阅读
+    </a>
+  </p>
+</div>
+
+  
+    
+    
+
+<div class="article-list-item" itemscope itemprop="blogPost">
+  
+  
+  <h3 class="article-title" itemprop="name">
+    <a href="https://chengjunwang.com/zh/post/cn/cn_archive/2014-08-14-networkx-intro/" itemprop="url">NetworkX初步：创建网络、提取属性和绘图</a>
+  </h3>
+  
+
+<div class="article-metadata">
+
+  <span class="article-date">
+    
+    <time datetime="2014-08-14 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+      Aug 14, 2014
+    </time>
+  </span>
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    1 分钟阅读时间
+  </span>
+  
+
+  
+  
+
+  
+
+  
+
+</div>
+
+  <div class="article-style" itemprop="articleBody">
+    
+    <p></p>
+    
+  </div>
+  <p class="read-more">
+    <a href="https://chengjunwang.com/zh/post/cn/cn_archive/2014-08-14-networkx-intro/" class="btn btn-primary btn-outline">
+      继续阅读
+    </a>
+  </p>
+</div>
+
+  
+    
+    
+
+<div class="article-list-item" itemscope itemprop="blogPost">
+  
+  
+  <h3 class="article-title" itemprop="name">
+    <a href="https://chengjunwang.com/zh/post/cn/cn_archive/2014-07-21-chinese-university-friendship-network/" itemprop="url">中国高校间的友谊网络：大学排名、地理位置和演化规律</a>
+  </h3>
+  
+
+<div class="article-metadata">
+
+  <span class="article-date">
+    
+    <time datetime="2014-07-21 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+      Jul 21, 2014
+    </time>
+  </span>
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    1 分钟阅读时间
+  </span>
+  
+
+  
+  
+
+  
+
+  
+
+</div>
+
+  <div class="article-style" itemprop="articleBody">
+    
+    <p></p>
+    
+  </div>
+  <p class="read-more">
+    <a href="https://chengjunwang.com/zh/post/cn/cn_archive/2014-07-21-chinese-university-friendship-network/" class="btn btn-primary btn-outline">
+      继续阅读
+    </a>
+  </p>
+</div>
+
+  
+    
+    
+
+<div class="article-list-item" itemscope itemprop="blogPost">
+  
+  
+  <h3 class="article-title" itemprop="name">
+    <a href="https://chengjunwang.com/zh/post/cn/cn_archive/2014-05-05-network-dispersion/" itemprop="url">网络残缺度：共同好友间可否两步到达？</a>
+  </h3>
+  
+
+<div class="article-metadata">
+
+  <span class="article-date">
+    
+    <time datetime="2014-05-05 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+      May 5, 2014
+    </time>
+  </span>
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    1 分钟阅读时间
+  </span>
+  
+
+  
+  
+
+  
+
+  
+
+</div>
+
+  <div class="article-style" itemprop="articleBody">
+    
+    <p></p>
+    
+  </div>
+  <p class="read-more">
+    <a href="https://chengjunwang.com/zh/post/cn/cn_archive/2014-05-05-network-dispersion/" class="btn btn-primary btn-outline">
+      继续阅读
+    </a>
+  </p>
+</div>
+
+  
+    
+    
+
+<div class="article-list-item" itemscope itemprop="blogPost">
+  
+  
+  <h3 class="article-title" itemprop="name">
+    <a href="https://chengjunwang.com/zh/post/cn/cn_archive/2014-03-15-d3-map/" itemprop="url">空间分析初步：使用D3可视化</a>
+  </h3>
+  
+
+<div class="article-metadata">
+
+  <span class="article-date">
+    
+    <time datetime="2014-03-15 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+      Mar 15, 2014
+    </time>
+  </span>
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    1 分钟阅读时间
+  </span>
+  
+
+  
+  
+
+  
+
+  
+
+</div>
+
+  <div class="article-style" itemprop="articleBody">
+    
+    <p></p>
+    
+  </div>
+  <p class="read-more">
+    <a href="https://chengjunwang.com/zh/post/cn/cn_archive/2014-03-15-d3-map/" class="btn btn-primary btn-outline">
+      继续阅读
+    </a>
+  </p>
+</div>
+
+  
+    
+    
+
+<div class="article-list-item" itemscope itemprop="blogPost">
+  
+  
+  <h3 class="article-title" itemprop="name">
+    <a href="https://chengjunwang.com/zh/post/cn/cn_archive/2014-03-12-first-step-spatial-analysis-with-r/" itemprop="url">空间分析初步：空间点类型分析</a>
+  </h3>
+  
+
+<div class="article-metadata">
+
+  <span class="article-date">
+    
+    <time datetime="2014-03-12 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+      Mar 12, 2014
+    </time>
+  </span>
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    4 分钟阅读时间
+  </span>
+  
+
+  
+  
+
+  
+
+  
+
+</div>
+
+  <div class="article-style" itemprop="articleBody">
+    
+    <p></p>
+    
+  </div>
+  <p class="read-more">
+    <a href="https://chengjunwang.com/zh/post/cn/cn_archive/2014-03-12-first-step-spatial-analysis-with-r/" class="btn btn-primary btn-outline">
       继续阅读
     </a>
   </p>

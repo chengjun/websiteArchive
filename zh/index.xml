@@ -1134,9 +1134,9 @@ Watts, D.J., &amp;ldquo;Should social science be more solution-oriented?&amp;rdq
       <pubDate>Wed, 02 Dec 2015 00:00:00 +0000</pubDate>
       
       <guid>https://chengjunwang.com/zh/post/cn/cn_archive/2015-12-02-renormalization/</guid>
-      <description>
+      <description>&lt;p&gt;思考手机用户在真实和虚拟世界的移动本身有什么价值:比较两种类型的网络结构，一个是分形的，一个是小世界的。二者之间不是完全对立的，而是可以平滑过渡的，因而可以计算从小世界到分形的连续变量的取值，即网络增长的过程中，新节点多大程度上按照小世界规则加入网络，多大程度上按照分形加入网络（Song, 2006）。&lt;/p&gt;
 
-&lt;p&gt;思考手机用户在真实和虚拟世界的移动本身有什么价值:比较两种类型的网络结构，一个是分形的，一个是小世界的。二者之间不是完全对立的，而是可以平滑过渡的，因而可以计算从小世界到分形的连续变量的取值，即网络增长的过程中，新节点多大程度上按照小世界规则加入网络，多大程度上按照分形加入网络（Song, 2006）。&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
 
 &lt;p&gt;自相似或者说分形是本研究切入的重点，分形的特点是在不同尺度上具有相同的特征，这种自相似的特征往往表现为系统特征与观测尺度之间的对应关系。一般对于分形网络而言，重整化之后的盒子数量log(N)与盒子大小log(L)之间存在无标度关系。我们确实也发现人在移动互联网站构成的网络重整化过程中，盒子数量与盒子大小之间具有这种无标度关系，但是人在现实世界的物理移动构成的网络经过重整化，其盒子数量与盒子大小之间则是指数分布。由此可见二者网络结构是如何不同的，前者接近分形，后者接近小世界。&lt;/p&gt;
 
@@ -1187,8 +1187,7 @@ for n in range(1,generation+1):
 
 &lt;h3 id=&#34;参考文献&#34;&gt;参考文献&lt;/h3&gt;
 
-&lt;p&gt;Vito Latora（2002）Is the Boston subway a small-world network? Physica A&lt;/p&gt;
-</description>
+&lt;p&gt;Vito Latora（2002）Is the Boston subway a small-world network? Physica A&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -1197,8 +1196,9 @@ for n in range(1,generation+1):
       <pubDate>Sat, 04 Jul 2015 00:00:00 +0000</pubDate>
       
       <guid>https://chengjunwang.com/zh/post/cn/cn_archive/2015-07-04-iching-python/</guid>
-      <description>&lt;iframe src=&#34;http://nbviewer.ipython.org/github/chengjun/iching/blob/master/iching_intro.ipynb&#34; scrolling=&#34;no&#34; width=&#34;700&#34; height=&#34;6500&#34;&gt;&lt;/iframe&gt;
-</description>
+      <description>&lt;p&gt;&lt;/p&gt;
+
+&lt;iframe src=&#34;http://nbviewer.ipython.org/github/chengjun/iching/blob/master/iching_intro.ipynb&#34; scrolling=&#34;no&#34; width=&#34;700&#34; height=&#34;6500&#34;&gt;&lt;/iframe&gt;</description>
     </item>
     
     <item>
@@ -1207,7 +1207,9 @@ for n in range(1,generation+1):
       <pubDate>Sun, 22 Feb 2015 00:00:00 +0000</pubDate>
       
       <guid>https://chengjunwang.com/zh/post/cn/cn_archive/2015-02-22-distribute-python-package/</guid>
-      <description>&lt;p&gt;我们经常写一些程序碎片，却很少有动力把它们整合起来。前段时间写了一个爬取并可视化谷歌学术网的python程序。今天想不如把它整合一下，虽然非常简单（只有一个函数）。主要参考python官网的&lt;a href=&#34;https://packaging.python.org/en/latest/distributing.html#uploading-your-project-to-pypi&#34; target=&#34;_blank&#34;&gt;发布指南&lt;/a&gt;。&lt;/p&gt;
+      <description>&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;我们经常写一些程序碎片，却很少有动力把它们整合起来。前段时间写了一个爬取并可视化谷歌学术网的python程序。今天想不如把它整合一下，虽然非常简单（只有一个函数）。主要参考python官网的&lt;a href=&#34;https://packaging.python.org/en/latest/distributing.html#uploading-your-project-to-pypi&#34; target=&#34;_blank&#34;&gt;发布指南&lt;/a&gt;。&lt;/p&gt;
 
 &lt;p&gt;##注册
 于是首先来到pypi网站注册。&lt;/p&gt;
@@ -1241,8 +1243,7 @@ $ twine upload dist/*
 
 &lt;p&gt;我使用上传的时候出错（typeError），于是直接使用打包好的zip文件（在dist子文件夹当中）手工上传到pypi。注意，每次上传到pypi需要修改一次setup.py中的版本号，并重新打包才可上传。如此而已，比我想象当中要速度快得多、简单的多。&lt;/p&gt;
 
-&lt;p&gt;这里是我刚刚打包发布的一个可视化谷歌学术网络的python软件包：&lt;a href=&#34;https://pypi.python.org/pypi/scholarNetwork/&#34; target=&#34;_blank&#34;&gt;https://pypi.python.org/pypi/scholarNetwork/&lt;/a&gt;&lt;/p&gt;
-</description>
+&lt;p&gt;这里是我刚刚打包发布的一个可视化谷歌学术网络的python软件包：&lt;a href=&#34;https://pypi.python.org/pypi/scholarNetwork/&#34; target=&#34;_blank&#34;&gt;https://pypi.python.org/pypi/scholarNetwork/&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -1251,7 +1252,9 @@ $ twine upload dist/*
       <pubDate>Sun, 22 Feb 2015 00:00:00 +0000</pubDate>
       
       <guid>https://chengjunwang.com/zh/post/cn/cn_archive/2015-02-22-fresh-python/</guid>
-      <description>&lt;p&gt;三年前，我写过一篇小日志，介绍如何从零开始学习R语言。后来我的工作越来越多的使用python，于是摸爬滚打自己探索了挺久的。身边也越来越多的人问起新手如何从零学习python的问题。我想练习、检索、表达这三点依旧是关键，只不过顺序稍有不同。很多人说，学习python，你来推荐一些资料吧。我想了想，资料还不是关键，关键是自身。&lt;/p&gt;
+      <description>&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;三年前，我写过一篇小日志，介绍如何从零开始学习R语言。后来我的工作越来越多的使用python，于是摸爬滚打自己探索了挺久的。身边也越来越多的人问起新手如何从零学习python的问题。我想练习、检索、表达这三点依旧是关键，只不过顺序稍有不同。很多人说，学习python，你来推荐一些资料吧。我想了想，资料还不是关键，关键是自身。&lt;/p&gt;
 
 &lt;p&gt;##看书还是上手？
 以前我们学语言，比如C语言或者Basic语言，首先讲的都是字符、数字、列表、逻辑符等。几乎所有的编程书都会这么讲，所以很多人会觉得看书没有什么新意。不过我觉得看书还是必须的，重点就是要去掌握这些基本的东西。&lt;/p&gt;
@@ -1292,8 +1295,7 @@ $ twine upload dist/*
 &lt;li&gt;很多时候，最大的问题是你不知道自己面临的问题：我的经验是用英文一句话说出你的问题。然后借助搜索引擎。你一般都能找到答案。Python的email list和stackoverflow中有很多想要的答案。&lt;/li&gt;
 &lt;li&gt;实在找不到解决方案，不要过多寄希望于身边的朋友，stackoverflow上有更合适的回答你问题的人！去那里提问。&lt;/li&gt;
 &lt;li&gt;熟悉一个package。经常阅读package的文档。&lt;/li&gt;
-&lt;/ol&gt;
-</description>
+&lt;/ol&gt;</description>
     </item>
     
     <item>
@@ -1302,7 +1304,9 @@ $ twine upload dist/*
       <pubDate>Sun, 11 Jan 2015 00:00:00 +0000</pubDate>
       
       <guid>https://chengjunwang.com/zh/post/cn/cn_archive/2015-01-11-shinyapp/</guid>
-      <description>&lt;p&gt;昨天收到了shinyapp的一封邮件，想起之前自己做的关于网络扩散的东西，就想把它转化为app的形式。最直接的办法还是看tutorial，比如（&lt;a href=&#34;http://shiny.rstudio.com/tutorial）。&#34; target=&#34;_blank&#34;&gt;http://shiny.rstudio.com/tutorial）。&lt;/a&gt;&lt;/p&gt;
+      <description>&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;昨天收到了shinyapp的一封邮件，想起之前自己做的关于网络扩散的东西，就想把它转化为app的形式。最直接的办法还是看tutorial，比如（&lt;a href=&#34;http://shiny.rstudio.com/tutorial）。&#34; target=&#34;_blank&#34;&gt;http://shiny.rstudio.com/tutorial）。&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;现学现卖，于是我马上做了一个使用igraph绘制BA网络的小应用：&lt;/p&gt;
 
@@ -1326,8 +1330,7 @@ $ twine upload dist/*
   runExample(&amp;quot;09_upload&amp;quot;) # file upload wizard
   runExample(&amp;quot;10_download&amp;quot;) # file download wizard
   runExample(&amp;quot;11_timer&amp;quot;) # an automated timer
-&lt;/code&gt;&lt;/pre&gt;
-</description>
+&lt;/code&gt;&lt;/pre&gt;</description>
     </item>
     
     <item>
@@ -1336,7 +1339,9 @@ $ twine upload dist/*
       <pubDate>Sat, 10 Jan 2015 00:00:00 +0000</pubDate>
       
       <guid>https://chengjunwang.com/zh/post/cn/cn_archive/2015-01-10-myecharts/</guid>
-      <description>&lt;p&gt;昨天听谈和讲解了echarts的使用，他的讲解非常直接简单，就是直接修改echarts的实例。之后，我发现林峰将echarts的实例的html代码写得非常复杂，但其实单独调用一个js的时候，却非常简单。具体做法如下：&lt;/p&gt;
+      <description>&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;昨天听谈和讲解了echarts的使用，他的讲解非常直接简单，就是直接修改echarts的实例。之后，我发现林峰将echarts的实例的html代码写得非常复杂，但其实单独调用一个js的时候，却非常简单。具体做法如下：&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;准备工作：建立一个js子文件夹，将esl，echarts，pie，bar，map等各种js放入其中。在js文件夹外新建一个空的html文件。&lt;/li&gt;
@@ -1420,8 +1425,7 @@ $ twine upload dist/*
 发现chrome无法加载，再加入了以下代码后就可以使用了。可惜用了整整一个上午才更正这个问题。&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;        &amp;lt;script src=&amp;quot;./js/echarts.js&amp;quot; type=&amp;quot;text/javascript&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-</description>
+&lt;/code&gt;&lt;/pre&gt;</description>
     </item>
     
     <item>
@@ -1430,7 +1434,9 @@ $ twine upload dist/*
       <pubDate>Sun, 31 Aug 2014 00:00:00 +0000</pubDate>
       
       <guid>https://chengjunwang.com/zh/post/cn/cn_archive/2014-08-31-fast-split-data-with-python/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;http://chengjun.qiniudn.com/longcat.PNG&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+      <description>&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://chengjun.qiniudn.com/longcat.PNG&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;分割数据最慢的过程其实是打开和关闭一个文件，因此尽量减少这种操作可以飞速的提升分割数据的速度。之前在&lt;a href=&#34;http://stackoverflow.com/questions/519633/lazy-method-for-reading-big-file-in-python?lq=1&#34; target=&#34;_blank&#34;&gt;stackoverflow上看到一种方法&lt;/a&gt;非常高效，放在这里研究一下。&lt;/p&gt;
 
@@ -1468,8 +1474,7 @@ $ twine upload dist/*
 &lt;ol&gt;
 &lt;li&gt;使用dict来将相同的key的行整理到一起， 以便一次将吞进来的某一个key下面的数据全部写入硬盘&lt;/li&gt;
 &lt;li&gt;每次使用readlines读入足够多的行，充分发挥内存的作用&lt;/li&gt;
-&lt;/ol&gt;
-</description>
+&lt;/ol&gt;</description>
     </item>
     
     <item>
@@ -1478,7 +1483,9 @@ $ twine upload dist/*
       <pubDate>Wed, 27 Aug 2014 00:00:00 +0000</pubDate>
       
       <guid>https://chengjunwang.com/zh/post/cn/cn_archive/2014-08-27-d3network/</guid>
-      <description>&lt;p&gt;在之前的&lt;a href=&#34;http://chengjun.github.io/cn/2014/07/chinese-university-friendship-network/&#34; target=&#34;_blank&#34;&gt;一个博客&lt;/a&gt;中，我介绍了使用R进行社区划分并可视化的方法。这里使用相同的数据，介绍如何使用d3network实现网络可视化的方法。&lt;/p&gt;
+      <description>&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;在之前的&lt;a href=&#34;http://chengjun.github.io/cn/2014/07/chinese-university-friendship-network/&#34; target=&#34;_blank&#34;&gt;一个博客&lt;/a&gt;中，我介绍了使用R进行社区划分并可视化的方法。这里使用相同的数据，介绍如何使用d3network实现网络可视化的方法。&lt;/p&gt;
 
 &lt;p&gt;首先，安装d3network&lt;/p&gt;
 
@@ -1536,8 +1543,7 @@ links$value = log(links$value)
 &amp;lt;script charset=&amp;quot;gbk&amp;quot; src=http://d3js.org/d3.v3.min.js&amp;gt;&amp;lt;/script&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;除此之外，我还尝试了下&lt;a href=&#34;http://chengjun.github.io/vis/chinese_university_groups200more.html&#34; target=&#34;_blank&#34;&gt;两百所学校的情况：点这里。&lt;/a&gt;&lt;/p&gt;
-</description>
+&lt;p&gt;除此之外，我还尝试了下&lt;a href=&#34;http://chengjun.github.io/vis/chinese_university_groups200more.html&#34; target=&#34;_blank&#34;&gt;两百所学校的情况：点这里。&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     
   </channel>

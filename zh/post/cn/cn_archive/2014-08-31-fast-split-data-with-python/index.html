@@ -244,7 +244,9 @@
 
 
       <div class="article-style" itemprop="articleBody">
-        <p><img src="http://chengjun.qiniudn.com/longcat.PNG" alt="" /></p>
+        <p></p>
+
+<p><img src="http://chengjun.qiniudn.com/longcat.PNG" alt="" /></p>
 
 <p>分割数据最慢的过程其实是打开和关闭一个文件，因此尽量减少这种操作可以飞速的提升分割数据的速度。之前在<a href="http://stackoverflow.com/questions/519633/lazy-method-for-reading-big-file-in-python?lq=1" target="_blank">stackoverflow上看到一种方法</a>非常高效，放在这里研究一下。</p>
 
@@ -283,7 +285,6 @@
 <li>使用dict来将相同的key的行整理到一起， 以便一次将吞进来的某一个key下面的数据全部写入硬盘</li>
 <li>每次使用readlines读入足够多的行，充分发挥内存的作用</li>
 </ol>
-
       </div>
 
       
