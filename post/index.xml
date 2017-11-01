@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Academic on Academic</title>
-    <link>/</link>
-    <description>Recent content in Academic on Academic</description>
+    <title>Posts on Academic</title>
+    <link>/post/</link>
+    <description>Recent content in Posts on Academic</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2017 Your Name</copyright>
-    <lastBuildDate>Wed, 20 Apr 2016 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0800</lastBuildDate>
+    <atom:link href="/post/" rel="self" type="application/rss+xml" />
     
     <item>
       <title>中国大百科：计算传播学</title>
@@ -752,261 +752,6 @@ Watts, D.J., &amp;ldquo;Should social science be more solution-oriented?&amp;rdq
     </item>
     
     <item>
-      <title>网络舆论生态治理研究</title>
-      <link>/note/2017-8-27-public-opinion/</link>
-      <pubDate>Sun, 27 Aug 2017 12:00:00 +0000</pubDate>
-      
-      <guid>/note/2017-8-27-public-opinion/</guid>
-      <description>
-
-&lt;p&gt;各位老师，大家晚上好，很高兴有机会和大家讨论一下网络舆论生态治理研究的问题。&lt;/p&gt;
-
-&lt;p&gt;习近平指出，&amp;rdquo;没有网络安全就没有国家安全，没有信息化就没有现代化&amp;rdquo;。&lt;/p&gt;
-
-&lt;p&gt;习近平总书记指出:“要依法加强网络社会管理，加强网络新技术新应用管理，确保互联网可管可控。”&lt;/p&gt;
-
-&lt;p&gt;国家互联网信息办公室25日公布《互联网跟帖评论服务管理规定》提出,网站要建立跟帖评论审核管理、实时巡查、应急处置等信息安全管理制度,及时发现和处置违法信息，新规定自2017年10月1日起施行。&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:verify&#34;&gt;&lt;a rel=&#34;footnote&#34; href=&#34;#fn:verify&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; 实名制发帖对于打击网络水军、网络谣言等问题具有重要作用，符合2016年底通过的《中华人民共和国网络安全法》的精神。&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:news&#34;&gt;&lt;a rel=&#34;footnote&#34; href=&#34;#fn:news&#34;&gt;2&lt;/a&gt;&lt;/sup&gt; 2016年11月7日第十二届全国人民代表大会常务委员会第二十四次会议通过《中华人民共和国网络安全法》&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:web&#34;&gt;&lt;a rel=&#34;footnote&#34; href=&#34;#fn:web&#34;&gt;3&lt;/a&gt;&lt;/sup&gt;，自2017年6月1日起施行。&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;本规定所称跟帖评论服务，是指互联网站、应用程序、互动传播平台以及其他具有新闻舆论属性和社会动员功能的传播平台，以发帖、回复、留言、“弹幕”等方式，为用户提供发表文字、符号、表情、图片、音视频等信息的服务。&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;其实，在此之前，公民网络身份的管理已经越来越严格。比如，针对微信舆情治理的“微信十条”的发布。2014年8月7日，网信办发布《即时通信工具公众信息服务发展管理暂行规定》 ①服务提供者从事公众信息服务需取得资质 ②强调保护隐私 ③实名注册，遵守“七条底线” ④公众号需审核备案 ⑤时政新闻发布设限 ⑥明确违规如何处罚。“微信十条”发布后，国家互联网信息办公室进入立“法”密集期，《互联网用户账号名称管理规定》（“账号十条”）和《互联网新闻信息服务单位约谈工作规定》（“约谈十条”）也先后出台。&lt;/p&gt;
-
-&lt;p&gt;除了政府的管制以外，商业的因素也在其中发挥了非常大的作用，尤其是伴随着智能手机的普及，手机号码成为了识别公民身份的重要手段。为了促进移动端的发展，各大网站积极推进绑定手机号码的规定，例如2017年知乎网回帖要求必须绑定手机号码。&lt;/p&gt;
-
-&lt;p&gt;网络舆论同生态环境中的有机体一样具有开放性、自组织性 、适应环境的能力和一定的 生命周期，具有自然生态系统的一般特征。每一个网站独立地构成一个“虚拟的生命组织”，其内部的信息内容连接在一起构成一个资源和能量流动的网络：通过吸收开放的注意力流维持其新陈代谢，而产出大量的内容并进一步维系着公众注意力。网络媒体的传播范围、信息量、开放性、交互性等特点是传统媒体所不能相比的，随着手机互联网的普遍使用，网络媒体的影响力大幅度放大。&lt;/p&gt;
-
-&lt;p&gt;根据《第40次中国互联网络发展状况统计报告》&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:net&#34;&gt;&lt;a rel=&#34;footnote&#34; href=&#34;#fn:net&#34;&gt;4&lt;/a&gt;&lt;/sup&gt;，
-- 截至2017年6月，中国网民规模达7.51亿，半年共计新增网民1992万人。互联网普及率为54.3%，较 2016 年底提升了1.1个百分点。
-- 截至2017年6月，中国手机网民规模达7.24亿，较2016年底增加2830万人。
-- 网民中使用手机上网人群占比由2016年底的95.1% 提升至96.3%。
-- 截至2017年6月，中国网民中农村网民占比26.7%，规模为2.01亿。&lt;/p&gt;
-
-&lt;h1 id=&#34;舆论&#34;&gt;舆论&lt;/h1&gt;
-
-&lt;p&gt;社会转型期，贫富差距、腐败、公平正义等问题的交织，让越来越多的群体心理不平衡感上升，获得感降低。舆论是社会的皮肤和晴雨表，网络舆论则是人们获得发声的话语场，将线下社会被压抑的诉求转向网络空间寻找替代性补偿的结果。越来越多的网络热点事件将地方政府置于舆论的风口浪尖，使其成为人们利用互联网抗争的对象。如何实现这种线上线下的双重舆论治理，不断考验着地方政府的治理能力。&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://oaf2qt3yk.bkt.clouddn.com/ae91615980ce9d60ab1b0f2a121b719b.png&#34; alt=&#34;nanjing&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;钟智锦等研究2002-2012年十年的网络事件，发现每三个网络事件，就有一件与地方政府有关， 意味着地方政府和普通民众之间的矛盾是网络事件的主要诱因; 在大多数情况下， 地方政府能进行积极的回应， 但还没有形成制度化的危机管理机制。网络行动以非暴力形式为主， 绝大多数能够促使利益诉求得到满足， 但只有少量网络事件会对社会制度带来深远影响。&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://oaf2qt3yk.bkt.clouddn.com/846d3bda49ba11938089c952218f62b7.png&#34; alt=&#34;10years&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://oaf2qt3yk.bkt.clouddn.com/5f05336665bb8a6b8a55a202daa1006c.png&#34; alt=&#34;actors&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;李良荣等对2010至2011年间发生的195个网络群体性事件进行分析，发现比例最大的是有关政府与政策的事件，占到总数的35%，在69个政府与政策事件中，22件(占31%) 涉及官员腐败，凸显了网民对政府执政不 当和官员行为失范的集中关注。&lt;/p&gt;
-
-&lt;p&gt;张伦等研究了2012-2014年间我国3359个公共事件，发现涉事群体个体身份多集中于政府部门、 官员和公检法机关；事件类型中制度危机与社会公平类问题占有压倒性优势；从地理分布来看，公共事件多发生于经济较发达地区; 从事件演化模式来看，不同类别的事件呈现出竞争关系， 即大部分事件发生频度呈负相关关系。&lt;/p&gt;
-
-&lt;p&gt;在舆论形成与扩散的过程中，个人意见和与群体意见内部及其之间相互作用、相互影响，建构了舆论的动态演化(Price, 1992; 陈力丹, 1999)。舆论的形成与扩散可以分为五个阶段：问题阶段（problem phase）、建议阶段(proposal phase)、对策阶段(policy phase)、执行阶段(program phase)、评估阶段(appraisal phase)(Price, 1992)。前两个阶段，舆论的社会影响具有明显的信息扩散的特质，而后两个阶段则具有明显的社会规范的特征。概括而言，围绕着舆论形成与扩散机制，国内外相关的研究可以分为以下三种研究路径：&lt;/p&gt;
-
-&lt;p&gt;研究路径一：强调舆论形成的构成要素（element）。理论上而言，舆论的构成要素包括：舆论参与者、舆论信息、传播渠道等，而目前被研究较多的是前两者。首先，舆论形成的参与者包括公众、组织机构（例如政府、公司、媒体、 NGO）、社会精英等(陈力丹, 1999)。其中，公众根据参与的程度和类型可分为一般公众、选举公众、热心公众、积极公众、议题公众和旁观者(Price, 1992)；根据是否公开身份区分为实名用户和匿名用户(夏雨禾, 2011)。以往的研究发现不同类型的舆论参与者对于舆论形成都起着重要的作用(Price, 1992; 夏雨禾, 2011)。另外，舆论信息的特点对于舆论的形成和扩散具有显著影响。一般而言，社会关注度高的舆论内容，其扩散的速度更快(Greenberg, 1964)。例如，钟瑛等(2010)发现网络舆论事件多聚焦于政治与民生问题。最后，传播渠道制约着舆论扩散。舆论传播渠道主要包括大众媒体和人际网络，其中，各种形式的大众媒体作为传播渠道被研究得更加透彻(Greenberg, 1964)。&lt;/p&gt;
-
-&lt;p&gt;研究路径二：强调大众媒体对于舆论形成的效果（effect）。舆论扩散的渠道主要涉及人际网络和大众媒体，但目前国内外关于舆论的形成与扩散的相关研究主要集中于大众媒体的作用。早在1922年，李普曼就认为公众通过媒体获取关于外在世界的信息，而外在世界在公众脑海中形成的各种图像即为舆论(Lippmann, 1922)。围绕着大众媒体在不同维度的舆论效果，一系列基于实证研究的经典传播学理论被提出，包括框架理论(Goffman, 1974)、议程设置理论(McCombs &amp;amp; Shaw, 1972)、沉默的螺旋(Noelle-Neumann, 1993)等。&lt;/p&gt;
-
-&lt;p&gt;研究路径三：强调舆论扩散的演化过程（evolution）。描述舆论演化的模型包括传统的病毒扩散模型（epidemic model）和舆论动力学模型（opinion dynamic model）。二者都侧重于采用数学模型和仿真的方式研究舆论的形成。病毒扩散模型中的SIR模型将公众分为三种基本状态：未接触舆论信息（S状态）、接触并传递信息（I状态）、接触但拒绝传递信息（R状态）。进而建立微分方程，并采用解析或者仿真的方法求解(Pastor-Satorras &amp;amp; Vespignani, 2001; 何大韧等, 2009)。舆论动力学模型则主要关注行动者之间、行动者与环境（包括媒体）之间的互动，根据互动规则进行计算机仿真。根据互动规则的差异可分为选举者模型(Holley &amp;amp; Liggett, 1975)、 多数原则模型(Krapivsky &amp;amp; Redner, 2003)、Sznajd模型(Sznajd, 2000)等。值得一提的是，门槛也是病毒扩撒模型和舆论动力学模型的核心概念，只有当超过一定的阈值之后，模型中的参与者才会行动。&lt;/p&gt;
-
-&lt;p&gt;舆论研究作为一个发展良好的研究范式，在扩散机制分析方面依然存在着一些局限。具体包括：（1）多数研究致力于描述舆论的要素，对扩散机制的分析不够系统；（2）意见动力学等针对演化过程的研究主要建立在计算机仿真的基础上，实证分析相对薄弱；（3）对于传播学而言，舆论研究过于关注媒介效果而对人际作用关注不够。在大众媒体主导的环境下，受限于信息把关、媒介使用时间有限、公众获知的信息太少等因素，使得研究者担忧舆论主要产生于想象(Lippmann, 1922; Price, 1992)。随着媒体融合的发展，社交网络使得人际作用对于舆论扩散的意义凸显。综上，采用实证的方法分析舆论形成与扩散机制中的人际作用不可避免。&lt;/p&gt;
-
-&lt;h1 id=&#34;结构困境&#34;&gt;结构困境&lt;/h1&gt;
-
-&lt;p&gt;徐世甫（2015）在《南京社会科学》发表题为《网络舆论生态治理研究》的文章，指出了中国舆论治理的问题：&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;在由官方、媒体和公众三方舆论场建构的网络舆论生态系统中,存在着结构性问题:政府视公众为客体,在舆论引导中遭到总体性困境;媒体的舆论受到过度的政治经济干预,公信力递减甚至缺失;公众生产的网络谣言满天飞,冲击社会正常秩序。&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;为超越这些危机,政府应实施主体间性理念,推动舆论生产、消费与分解的理性合一;媒体要实现结构化转型,以增强公信力来提升舆论影响力;公众须提升信息素养,以言论自律形成人人把关的和谐舆论生态,最终实现网络舆论生态文明。&lt;/p&gt;
-
-&lt;h1 id=&#34;从舆论治理到社会治理&#34;&gt;从舆论治理到社会治理&lt;/h1&gt;
-
-&lt;p&gt;网络舆论是社会的皮肤和晴雨表，治理者需要从各种网络舆论中发现深层次的社会问题，不能拘泥于舆论表层的治理。&lt;/p&gt;
-
-&lt;p&gt;从地方政府网络安全的角度来看，运动式的舆论治理虽然可以减少网络谣言、虚假信息等有害信息，但是也会因为缺乏宽容致使社会积怨难以正常释放，无法从根本上解决问题。&lt;/p&gt;
-
-&lt;p&gt;政府对待网民舆论需要摆脱敌对思维，通过尊重、对话、信任以及符合网民需要的话语表达，来扩大公众同意凝聚共识。&lt;/p&gt;
-
-&lt;p&gt;、&lt;/p&gt;
-
-&lt;h2 id=&#34;完善网络舆情监测-研判和预警机制-落实网络事件应急处置机制&#34;&gt;完善网络舆情监测、研判和预警机制，落实网络事件应急处置机制&lt;/h2&gt;
-
-&lt;p&gt;各政府部门要与宣传部、公安局等互联网管理部门建立联动机制，实现资源及时共享，发现苗头及时通报，密切跟踪。要进一步加强网络舆情会商，联合涉情部门梳理事件相关社会背景、诱发因素、 发展态势等，在全面掌握信息的前提下实现对舆情走势和发展节点的科学、精准研判，研究制定合适的舆论引导和议程设置策略，用准确全面的信息和恰到好处的舆论引导对冲负面舆论的影响，在舆情事件演变为线下行动前化解危机。&lt;/p&gt;
-
-&lt;p&gt;建立舆情事件应急处置工作办法。明晰责任、机制和流程，启动重大舆情事件快速处理程序，做到发现快、判断快、协调快、处理快 、反馈快，打破地区、行业部门界限。例如，2015年南京市宣传部就制定了《南京市舆情事件应急处置工作办法》。&lt;/p&gt;
-
-&lt;h2 id=&#34;重视舆论治理中的对话沟通&#34;&gt;重视舆论治理中的对话沟通&lt;/h2&gt;
-
-&lt;p&gt;地方政府一方面需要从单一依靠强制力和运动式治理理念转向对话沟通，并在策略上提高大数据在网络舆论治理中的运用能力，及时发现潜舆论做好预警引导;另一方面需要拓宽沟通渠道，借助新媒体重塑官方话语体系，深刻把握网络舆论背后的社会心态，通过平等、尊重、对话等进 行调适舒缓，进而推进地方网络舆论生态的健康发展。&lt;/p&gt;
-
-&lt;p&gt;把舆情当民情，而非敌情或社会噪音。深入网络，了解问题，体察民意。&lt;/p&gt;
-
-&lt;p&gt;一、要及时发布信息，改变“封、捂、堵、压、瞒”的治理思维;
-二、要深入网络舆论场，通过“在场”来了解民意 诉求与舆论的焦点;
-三、要从运用新技术实现传统媒体、网站“两微一端”等媒介信息发布的协同，最大限度地消除信息死角;
-四、要理解网民话语表达方式，重拾生动表达传统，创新表达体系。&lt;/p&gt;
-
-&lt;h2 id=&#34;有效推进数据开放&#34;&gt;有效推进数据开放&lt;/h2&gt;
-
-&lt;p&gt;建立统一的开放数据门户，为公众提供一站式的政府数据获取及相关服务。明确数据的开放范围与保密范围 ，加快制定数据安全、信息安全、隐私保护方面的法律法规。同时，为确保政策的有效执行，建议建立有效的公众反馈机制和健全的问责制度，对各部门的执行 情况进行实时监督。对现有资源进行全面整合， 构建一个跨系统、跨部门的统一开放数据平台，为公众提供开放的数据服务。&lt;/p&gt;
-
-&lt;h2 id=&#34;提升网络舆论大数据治理能力&#34;&gt;提升网络舆论大数据治理能力。&lt;/h2&gt;
-
-&lt;p&gt;对于网络舆论治理实践，舆论大数据蕴含了 与传播内容、传播心理、传播行为、传播关系等相关 的多维度信息，为我们更大范围、更加全面地洞察 “舆论景观”提供了新的机会。通过机器学习、语义分析、社会网络分析等手段，描述网络舆论场中的议题分布与意见分布，以及从历史角度追溯其议题与意见分布的变化，进而提升预警能力。&lt;/p&gt;
-
-&lt;h2 id=&#34;侧重潜在舆论的引导&#34;&gt;侧重潜在舆论的引导。&lt;/h2&gt;
-
-&lt;p&gt;陈力丹认为，对于舆论引导来说，容易被忽视的潜舆论十分重要，如果在舆论处于潜舆论的时候进行引导，容易得到较好的效果;而引导显舆论的困难程度，则远大于潜舆论。&lt;/p&gt;
-
-&lt;h2 id=&#34;政府回应机制-网络协商机制&#34;&gt;政府回应机制。网络协商机制。&lt;/h2&gt;
-&lt;div class=&#34;footnotes&#34;&gt;
-
-&lt;hr /&gt;
-
-&lt;ol&gt;
-&lt;li id=&#34;fn:verify&#34;&gt;&lt;a href=&#34;http://media.people.com.cn/n1/2017/0825/c14677-29495044.html&#34; target=&#34;_blank&#34;&gt;http://media.people.com.cn/n1/2017/0825/c14677-29495044.html&lt;/a&gt;
- &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:verify&#34;&gt;&lt;sup&gt;^&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li id=&#34;fn:news&#34;&gt;国家网信办发布管理规定:未实名认证不得跟帖评论 &lt;a href=&#34;http://news.bandao.cn/news_html/201708/20170826/news_20170826_2757801.shtml&#34; target=&#34;_blank&#34;&gt;http://news.bandao.cn/news_html/201708/20170826/news_20170826_2757801.shtml&lt;/a&gt;
- &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:news&#34;&gt;&lt;sup&gt;^&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li id=&#34;fn:web&#34;&gt;&lt;a href=&#34;http://www.miit.gov.cn/n1146295/n1146557/n1146614/c5345009/content.html&#34; target=&#34;_blank&#34;&gt;http://www.miit.gov.cn/n1146295/n1146557/n1146614/c5345009/content.html&lt;/a&gt;
- &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:web&#34;&gt;&lt;sup&gt;^&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li id=&#34;fn:net&#34;&gt;&lt;a href=&#34;http://www.cac.gov.cn/2017-08/04/c_1121427728.htm&#34; target=&#34;_blank&#34;&gt;http://www.cac.gov.cn/2017-08/04/c_1121427728.htm&lt;/a&gt;
- &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:net&#34;&gt;&lt;sup&gt;^&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/div&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>出差订票</title>
-      <link>/note/2017-8-16-tavel/</link>
-      <pubDate>Wed, 16 Aug 2017 12:00:00 +0000</pubDate>
-      
-      <guid>/note/2017-8-16-tavel/</guid>
-      <description>
-
-&lt;h1 id=&#34;香港&#34;&gt;香港&lt;/h1&gt;
-
-&lt;p&gt;在携程网订票，支付宝支付，非常方便。微信的客服非常差。机票总价2395元，酒店5003元，往返香港大巴共360元，共计7758元。&lt;/p&gt;
-
-&lt;h2 id=&#34;机票&#34;&gt;机票&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;订单4463239049『南方航空 CZ3560&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;南京禄口机场&lt;strong&gt;T2&lt;/strong&gt;-深圳宝安机场T3&lt;/li&gt;
-&lt;li&gt;8月18日11:35-8月18日13:55&lt;/li&gt;
-&lt;li&gt;王成军，票号784-5730593747』&lt;/li&gt;
-&lt;li&gt;请提前2小时至机场值机。&lt;/li&gt;
-&lt;li&gt;成行后5天内您会收到报销凭证。&lt;/li&gt;
-&lt;li&gt;退改点击&lt;a href=&#34;http://t.ctrip.cn/FaJHbdg&#34; target=&#34;_blank&#34;&gt;http://t.ctrip.cn/FaJHbdg&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;订单4463239084『深圳航空 ZH9847&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;深圳宝安机场&lt;strong&gt;T3&lt;/strong&gt;-南京禄口机场T2&lt;/li&gt;
-&lt;li&gt;8月22日13:35-8月22日16:00&lt;/li&gt;
-&lt;li&gt;王成军，票号479-2122234103』&lt;/li&gt;
-&lt;li&gt;请提前2小时至机场值机。&lt;/li&gt;
-&lt;li&gt;成行后5天内您会收到报销凭证。&lt;/li&gt;
-&lt;li&gt;退改点击&lt;a href=&#34;http://t.ctrip.cn/FbubGHB&#34; target=&#34;_blank&#34;&gt;http://t.ctrip.cn/FbubGHB&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;酒店&#34;&gt;酒店&lt;/h2&gt;
-
-&lt;p&gt;入住&lt;strong&gt;香港皇家太平洋酒店&lt;/strong&gt;(The Royal Pacific Hotel and Towers)&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;2017/8/18&lt;/li&gt;
-&lt;li&gt;雅尚客房(内宾)，1间4晚晚，总价￥5003.00，每晚单早。&lt;/li&gt;
-&lt;li&gt;订单不能取消修改。&lt;/li&gt;
-&lt;li&gt;特别提示：此单通过代理商预订，请直接报W办理入住。&lt;/li&gt;
-&lt;li&gt;酒店地址：&lt;strong&gt;尖沙嘴&lt;/strong&gt; 广东道33号中港城，近港威大厦，T：00852-27361188。&lt;/li&gt;
-&lt;li&gt;请点击手机客户端 t.ctrip.cn/?GmaPA7NF885 查看订单详情。&lt;/li&gt;
-&lt;li&gt;携程电话：10106666(免长话费)。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;机场大巴&#34;&gt;机场大巴&lt;/h2&gt;
-
-&lt;p&gt;共计360元，往返保安机场与香港。预计耗时1.5小时中不包含过关时间，请注意为行程保留充足的时间。国内电话4008833128香港电话0085223841108&lt;/p&gt;
-
-&lt;p&gt;您预订的08月18日深圳机场-香港旺角太子（深圳宝安国际机场-尖沙咀）1张购票成功，取票号71xxxx。凭取票号验票上车，有效期截止08月18日。&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;价格180元&lt;/li&gt;
-&lt;li&gt;上车地址：深圳机场&lt;strong&gt;T3&lt;/strong&gt;航站楼地面交通中心（GTC柜台）C-205，17号门旁217柜台（330售票台旁）&lt;/li&gt;
-&lt;li&gt;车辆经深圳湾口岸出境，免下车过关；&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;您预订的08月22日香港尖沙咀-深圳机场（香港尖沙咀-宝安国际机场）1张购票成功，取票号49xxxx。凭取票号验票上车，有效期截止08月22日。&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;价格180元&lt;/li&gt;
-&lt;li&gt;上车地址：香港尖沙咀中港城地下LG32A地铺&lt;/li&gt;
-&lt;li&gt;购票成功后，凭取票号到下面地址取票验票上车，先到先上&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>南京旅游攻略</title>
-      <link>/note/2017-8-16-nanjing-tourist/</link>
-      <pubDate>Wed, 16 Aug 2017 12:00:00 +0000</pubDate>
-      
-      <guid>/note/2017-8-16-nanjing-tourist/</guid>
-      <description>
-
-&lt;h1 id=&#34;中山陵景区&#34;&gt;中山陵景区&lt;/h1&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://oaf2qt3yk.bkt.clouddn.com/9a27ce30009a0f6fd1328fd96cb5e822.png&#34; alt=&#34;三大景区&#34; /&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://zschina.nanjing.gov.cn/zsljq/tyjq/201412/W020151019406156956262.jpg&#34; target=&#34;_blank&#34;&gt;景区图&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://you.ctrip.com/sight/nanjing9/1655.html&#34; target=&#34;_blank&#34;&gt;携程网介绍&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://zschina.nanjing.gov.cn/zsljq/&#34; target=&#34;_blank&#34;&gt;钟山风景名胜区官网&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;ol&gt;
-&lt;li&gt;如果你想一并游览明孝陵、灵谷寺、音乐台和美龄宫这几个收费景点，可以购买钟山风景区套票（100元），比单独购票划算。&lt;/li&gt;
-&lt;li&gt;在钟山风景区内，可乘小火车或观光车前往中山陵、明孝陵、灵谷寺等景点，小火车和观光车的车票都是10元/人。&lt;/li&gt;
-&lt;li&gt;景区内提供导游服务，让你进一步了解这些建筑背后的历史，费用为30人以下95元/时，30人以上100元/时。&lt;/li&gt;
-&lt;li&gt;祭堂内原则上是不允许拍照的，请给予尊重。&lt;/li&gt;
-&lt;li&gt;官方微信号：zschina_nj （南京钟山风景名胜区），可享受免费语音导览。&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://oaf2qt3yk.bkt.clouddn.com/0246fc8ac524e2fca6898bf05a033ab1.png&#34; alt=&#34;观光车路线图&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;如图所示，三大景区从西到东依次是明孝陵、中山陵和灵谷寺。&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;在地铁苜蓿园1号口出站，乘&lt;code&gt;小火车&lt;/code&gt;观光车一号线先去美龄宫，凭刷身份证入。&lt;/li&gt;
-&lt;li&gt;再步行5分钟至明孝陵博物馆&lt;/li&gt;
-&lt;li&gt;参观完从大金门进明孝陵景区&lt;/li&gt;
-&lt;li&gt;经过神兽石道一路到孝陵。
-
-&lt;ul&gt;
-&lt;li&gt;四方城（即神功圣德碑及碑亭）-御河桥-石象路-神道望柱-翁仲路-棂星门-金水桥-文武方门（即正门）。&lt;/li&gt;
-&lt;li&gt;散客可以在景区金水桥旁租一个电子感应的导游器（10元）&lt;/li&gt;
-&lt;li&gt;进入文武方门，开始游览主体建筑，依次为：碑殿-享殿-内红门-升仙桥-方城-明楼-宝顶。&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;再坐&lt;code&gt;小火车&lt;/code&gt;去中山陵&lt;/li&gt;
-&lt;li&gt;然后去对面的音乐台（很近），喂喂鸽子。&lt;/li&gt;
-&lt;li&gt;最后乘&lt;code&gt;小火车&lt;/code&gt;去灵谷景区&lt;/li&gt;
-&lt;li&gt;从灵谷景区出来可乘202公交到地铁站。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;门票购买&#34;&gt;门票购买&lt;/h2&gt;
-
-&lt;p&gt;南京钟山风景区（明孝陵+灵谷寺+美龄宫+音乐台）成人票（当天订）&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://zschina.nanjing.gov.cn/jqfw/gzzs/&#34; target=&#34;_blank&#34;&gt;http://zschina.nanjing.gov.cn/jqfw/gzzs/&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>王成军参与组织数字人文大会</title>
       <link>/post/cn/2017-07-01-digital-humanities.zh/</link>
       <pubDate>Sat, 01 Jul 2017 00:00:00 +0000</pubDate>
@@ -1100,267 +845,6 @@ Watts, D.J., &amp;ldquo;Should social science be more solution-oriented?&amp;rdq
 &lt;/ol&gt;
 &lt;/div&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>博士后出站与入职</title>
-      <link>/note/2017-7-10-postdoc/</link>
-      <pubDate>Wed, 15 Mar 2017 12:00:00 +0000</pubDate>
-      
-      <guid>/note/2017-7-10-postdoc/</guid>
-      <description>
-
-&lt;p&gt;&lt;img src=&#34;http://oaf2qt3yk.bkt.clouddn.com/a9f7a5ec8e00f68c4ae5b7764b5193ad.png&#34; alt=&#34;入职程序&#34; /&gt;&lt;/p&gt;
-
-&lt;h1 id=&#34;人员调动登记表&#34;&gt;人员调动登记表&lt;/h1&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://hr.nju.edu.cn/60/be/c6666a155838/page.htm&#34; target=&#34;_blank&#34;&gt;https://hr.nju.edu.cn/60/be/c6666a155838/page.htm&lt;/a&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;调动人员户口登记表.doc&lt;/li&gt;
-&lt;li&gt;人员调动登记表.doc&lt;/li&gt;
-&lt;li&gt;填写说明.doc&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&#34;新入职人员进校流程&#34;&gt;新入职人员进校流程&lt;/h1&gt;
-
-&lt;p&gt;中国博士后办公系统处于审批中，无法修改，所以《工作期满登记表》和其中的迁移户口信息无法修改。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://lxggxz.nju.edu.cn/15/32/c411a5426/page.htm&#34; target=&#34;_blank&#34;&gt;https://lxggxz.nju.edu.cn/15/32/c411a5426/page.htm&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;国内博士后：若新进人员为校内博士后，我处开具博士后出站接收函由对方自行办理出站手续，然后持博士后出站工作分配介绍信、最终学位原件与复印件和体检表来我处进行材料审核；&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;工作协议与合同的签订
-新进人员根据入职岗位的不同在我处领取不同的工作协议及合同，带回入职院系填写并加盖行政公章。对调入和国外引进人员开具人事档案《商调函》办理相关档案商调工作、并尽快将人事档案转入我校，最后到我处交验合同及干部履历表。&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;登记注册
-新进人员填写报到登记簿，提供南京工商银行借记卡和身份证（护照）复印件用作工资卡，带一寸照片一张办理工作证，最后给新进人员开具“工作人员介绍信”到用人单位报到。&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;报到后续工作
-1)起薪：起薪时间从报到手续完备之日起算，岗位津贴从起薪的当月开始发放（2 月、8 月不发岗位津贴）。&lt;/p&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;2)校园一卡通：报到起薪后的次月 15 号后到校园一卡通中心办理“一卡通”。电话：83596529, 83596989。网址：&lt;a href=&#34;http://ecard.nju.edu.cn&#34; target=&#34;_blank&#34;&gt;http://ecard.nju.edu.cn&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;3)安家费与科研启动经费：为适应创建世界一流大学的需要，根据建设高水平教师队伍的需要，学校颁布《南京大学人才引进培养基金管理办法》。针对2002年后入校或选留具有博士学位的教学科研人员可申请科研启动经费和安家费。发放办法为：新入职人员入校手续办理完毕后每隔三个月逐批定期发放。&lt;/p&gt;
-
-&lt;p&gt;4）住房福利申请与落实：学校不再为新进人员提供宿舍，新进人员（专职科研岗除外）可以申请住房货币补贴、租金补贴和贷款贴息等相关福利。详见南大人力资源处主页“政策法规”栏“学校有关规章制度”中《新聘用教职工住房货币补贴、租金补贴及贷款贴息暂行办法》的有关规定。原已交公积金的新进人员，请与房产处房产科联系，联系电话：83596054。&lt;/p&gt;
-
-&lt;p&gt;5）落户：鉴于学校不再提供宿舍，经商校保卫处，凡新进人员的户口实行市场化管理，即全部落户在各大人才市场，由个人自行解决。如确实需落户学校集体户口的新进人员可按照下列情况办理相关手续：应届毕业生需办理户口迁移手续的，请将“户口迁移证”交至我处加盖公章，再由本人持《户口迁移证》及《报到证》复印件等材料到保卫处户籍科办理落户，联系电话：83592226。引进、调入人员需办理户口迁移手续的，可凭江苏省人社厅开具的调令直接到南京市公安局鼓楼分局（地址：定淮门大街1号）办理落户手续。联系电话：84421443。&lt;/p&gt;
-
-&lt;h1 id=&#34;博士后出站&#34;&gt;博士后出站&lt;/h1&gt;
-
-&lt;p&gt;居然有十八个表格要填！faint，暑期也搞不完了。&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;博士后编号 152283&lt;/li&gt;
-&lt;li&gt;招收类型  流动站自主招收&lt;/li&gt;
-&lt;li&gt;进站单位  南京大学政治学 -&amp;gt; 南京大学&lt;/li&gt;
-&lt;li&gt;一级学科  政治学&lt;/li&gt;
-&lt;li&gt;进站时间  2015-01-09&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.chinapostdoctor.org.cn/WebSite/program/InfoCate_Show.aspx?INFOCATEGORYID=website003004&#34; target=&#34;_blank&#34;&gt;博士后出站研究报告书写规范&lt;/a&gt;&lt;/p&gt;
-
-&lt;h1 id=&#34;博士后&#34;&gt;博士后&lt;/h1&gt;
-
-&lt;ol&gt;
-&lt;li&gt;魏强 89681559&lt;/li&gt;
-&lt;li&gt;学院导师签字，政府管理学院张冰老师盖章。&lt;/li&gt;
-&lt;li&gt;提交《中国博士后科学基金资助总结报告》&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;办公室工作人员 魏强&lt;/p&gt;
-
-&lt;p&gt;主要负责:
-1、办理博士后进、出、退站手续，包括通知发放、网上预审、预约报到、户口迁移、证书发放等；
-2、博士后起薪、止薪以及调薪工作；
-3、博士后人事档案保管、核对与转递工作；
-4、博士后办公系统的更新与维护工作；
-5、承担领导交办的其他工作。&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;联系电话：025-89681559（仙林）025-83593304（鼓楼）&lt;/li&gt;
-&lt;li&gt;联系邮件：weiqiang@nju.edu.cn&lt;/li&gt;
-&lt;li&gt;办公地址：仙林校区行政北楼518室  鼓楼校区南园综合楼418室&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;To-do：学校财务处审核《中国博士后科学基金资助总结报告》并加盖章，拿给魏强看一下。&lt;/p&gt;
-
-&lt;h2 id=&#34;基金审核&#34;&gt;基金审核&lt;/h2&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;您好！在站期间您获得了博士后基金资助。根据《中国博士后科学基金资助规定》，您需提交《中国博士后科学基金资助总结报告》。
-请登录中国博士后科学基金管理信息系统填写《中国博士后科学基金资助总结报告》，并与&lt;strong&gt;出站报告&lt;/strong&gt;一并请&lt;strong&gt;设站单位管理人员网上审核&lt;/strong&gt;，审核通过后方可办理出站手续。
-以上完成后可继续点击【提交申请】。&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://jj.chinapostdoctor.org.cn/V1/Program3/Default.aspx&#34; target=&#34;_blank&#34;&gt;http://jj.chinapostdoctor.org.cn/V1/Program3/Default.aspx&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;生成的word文档，填写，签字，盖章，扫描，上传。&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://oaf2qt3yk.bkt.clouddn.com/59d148adf960806d739c246a3afeddfc.png&#34; alt=&#34;结项&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://jj.chinapostdoctor.org.cn/V2/FundReport/FundReport_BSH.aspx?rnd=8683e8e1-0be3-475e-8ad1-0f0f8ad25d98#&#34; target=&#34;_blank&#34;&gt;http://jj.chinapostdoctor.org.cn/V2/FundReport/FundReport_BSH.aspx?rnd=8683e8e1-0be3-475e-8ad1-0f0f8ad25d98#&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://oaf2qt3yk.bkt.clouddn.com/4c6f86eaa745dac7be896a140df7ad71.png&#34; alt=&#34;等待审核&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;公共管理（政府管理学院）张  冰 党政人事秘书 博士后流动站秘书 352 89680757
-ytzhang@nju.edu.cn&lt;/p&gt;
-
-&lt;p&gt;流动站联系教师：张冰；办公电话：025－89680757；Email：ytzhang@nju.edu.cn&lt;/p&gt;
-
-&lt;h2 id=&#34;博士后出站-1&#34;&gt;博士后出站&lt;/h2&gt;
-
-&lt;ol&gt;
-&lt;li&gt;流动站自主招收出站申请材料清单  2016-11-24&lt;/li&gt;
-&lt;li&gt;流动站自主招收博士后出站申请流程图  2016-10-12&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://hr.nju.edu.cn/6334/list.htm&#34; target=&#34;_blank&#34;&gt;http://hr.nju.edu.cn/6334/list.htm&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://oaf2qt3yk.bkt.clouddn.com/c8b912ac26c1680f0a73b8df7f405355.png&#34; alt=&#34;博士后出站&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.chinapostdoctor.org.cn/WebSite/program/InfoCate_Show.aspx?INFOCATEGORYID=website003005001&#34; target=&#34;_blank&#34;&gt;http://www.chinapostdoctor.org.cn/WebSite/program/InfoCate_Show.aspx?INFOCATEGORYID=website003005001&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;注：办理进(出、退)站手续时，请您按要求携带“上传材料”和“纸质材料”中列出各项材料（&lt;strong&gt;1份原件和2份复印件&lt;/strong&gt;），并且按要求上传原件电子数据扫描件。&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;红色&lt;/strong&gt;上传 为必需上传材料;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;灰色&lt;/strong&gt;上传为&lt;strong&gt;可选&lt;/strong&gt;上传材料;&lt;/li&gt;
-&lt;li&gt;没有上传按钮的为个人携带材料。&lt;/li&gt;
-&lt;li&gt;上传后的材料可删除后重新上传。为确保顺利办理进出站手续，请下载并使用系统“电子数据”和“纸质材料”中的表格。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;发表论文&#34;&gt;发表论文&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Wang, C.J., Wu, L*, Zhang, J., Janssen, M. (2016) The Collective Direction of Attention Diffusion. Scientific Reports. 6: 34059. doi:10.1038/srep34059&lt;/li&gt;
-&lt;li&gt;Wang, C.J., Wu, L.*(2016) The Scaling of Attention Networks. Physica A: Statistical Mechanics and its Applications.448:196–204, doi: 10.1016/j.physa.2015.12.081&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&#34;博士后退站&#34;&gt;博士后退站&lt;/h1&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://hr.nju.edu.cn/6342/list.htm&#34; target=&#34;_blank&#34;&gt;http://hr.nju.edu.cn/6342/list.htm&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;办理落户&#34;&gt;办理落户&lt;/h2&gt;
-
-&lt;p&gt;今天青椒村外来务工人员一个狗去公社人力资源部办理了申请集体户口迁移的第一道手续，路过公社保卫处户籍科门口的时候，一只红脖子的鸟站在树上红了眼眶使劲叫，一个狗听了半天没听懂，当然因为它说的是鸟语。&lt;/p&gt;
-
-&lt;p&gt;到鼓楼校区北京西路附近的机械大厦找鲜峰办理博士后集体户口申请，去鼓楼保卫处户籍科办理户籍介绍的证明，然后去鼓楼公安局的办证大厅办理迁入申请，然后回老家迁移户口，最后到大方巷的鼓楼派出所办理入户。&lt;/p&gt;
-
-&lt;h2 id=&#34;流动站自主招收博士后出站申请材料清单&#34;&gt;流动站自主招收博士后出站申请材料清单&lt;/h2&gt;
-
-&lt;p&gt;发布者：贾静发布时间：2017-04-18浏览次数：294&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;博士后研究人员工作 期满登记表 （一式3份）
-在“中国博士后”网站网上填报，自动生成下载后打印； 其中，该表中的出站单位与地址必须填写，若尚未落实单位，须填写档案寄往单位（外籍人员回国的除外）。&lt;/li&gt;
-&lt;li&gt;接收单位意见表/接收函 （一式3份）
-统招统分博士后由出站单位出具，需加盖接收单位人事公章；在职博士后回原单位，不需提供。&lt;/li&gt;
-&lt;li&gt;身份证复印件（正反）&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;博士后研究人员工作期满 业务考核表 （一式3份）&lt;/li&gt;
-&lt;li&gt;博士后研究人员工作期满 审批表 （一式3份）&lt;/li&gt;
-&lt;li&gt;联系导师对博士后研究人员研究 工作评价表 （一式2份）
-由流动站合作导师签字盖章&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;南京大学博士后期满离站科研 工作评审表 （一式2份）
-由流动站组织答辩&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;南京大学博士后离站 个人总结表 （一式2份）
-流动站责任人签署意见，签字并盖章&lt;/li&gt;
-&lt;li&gt;《博士后研究人员更换资助项目负责人申请表》 （一式2份）&lt;/li&gt;
-&lt;li&gt;《江苏省博士后科研资助计划项目总结报告》 （一式2份）&lt;/li&gt;
-&lt;li&gt;《江苏省博士后科研资助计划项目经费决算表》 （一式2份）
-须到学校财务处盖章确认&lt;/li&gt;
-&lt;li&gt;《中国博士后科学基金资助总结报告》 （一式2份）；
-提交网上申请，并到学校财务处盖章确认，报校人资处审核（该表审核通过后方可提交网上出站申请）&lt;/li&gt;
-&lt;li&gt;南京大学教职工离校手续表 （一式1份）
- 需相关部门盖章&lt;/li&gt;
-&lt;li&gt;南京大学博士后研究工作报告 （一式两份）
-与博士毕业论文格式相似，包括封面（胶装）、目录、内容&lt;/li&gt;
-&lt;li&gt;出站博士后科研 成果汇总表 （一式1份）&lt;/li&gt;
-&lt;li&gt;在站期间发表论文 （一式1份）
-包括封皮、目录、首页复印件及获奖情况&lt;/li&gt;
-&lt;li&gt;结婚证、独生子女证（或子女出生证）复印件（各2份）；&lt;br /&gt;
-统招博士后请提供3  份身份证复印件 （身份证须正反复印）
-18.博士学位证书复印件（一式1份）；博士后工作证原件&lt;br /&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;注：&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;1）中国博士后系统的附件必须为原件 的扫描或拍照上传；&lt;/li&gt;
-&lt;li&gt;2）表格4-11、13、15可到南京大学人力资源处官网-博士后-表格下载处下载打印；&lt;/li&gt;
-&lt;li&gt;3) 把第1、2、3、4、5项表格装订成份,共上报3份，至少一份为原件；&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;4）表格6、7、8装订成份，共两份，至少一份为原件；&lt;/li&gt;
-&lt;li&gt;5）表格9，博士后在站期间取得江苏省博士后科研资助计划或中国博士后面上资助，且出站时未完成资助项目的情况下填写；&lt;/li&gt;
-&lt;li&gt;6）表格9、10、11、12，如博士后在站期间未获得过江苏省博士后科研资助计划和中国博士后基金项目，不必填写；&lt;/li&gt;
-&lt;li&gt;7）表格13，文科类博士后不需要盖“科技处”公章；理工科类不需要盖“社会科学处”公章；&lt;/li&gt;
-&lt;li&gt;9）所有书面材料请用A4纸打印复印，保证至少一份是原件。&lt;/li&gt;
-&lt;li&gt;10）出站申请递交至省人社厅审批通过后，会以短信形式告知申请人通过审批，并携材料办理相关手续。而申请人本人不用再次携带材料办理手续，已经代为办理。&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;8）关于迁移户口的说明：&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;A、落本人房产人员须提交《不动产权证书》或《房屋产权证》,尚未取得《不动产权证书》或《房屋产权证》的可提供《购房合同》和物业公司出具的《入住证明》。&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;B、配偶、子女办理落户所需材料：&lt;/li&gt;
-&lt;li&gt;（1）配偶、子女《户口簿》首页及《常住人口登记卡》；&lt;/li&gt;
-&lt;li&gt;（2）配偶“居民身份证”、《结婚证》；&lt;/li&gt;
-&lt;li&gt;（3）子女《出生医学证明》、《独生子女证》或《生育服务证》（说明：多胎子女及2016年1月1日后出生的子女提供生育服务证）；&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;C、离异博士后研究人员办理子女落户需提交《离婚证》、离婚判决书或经当地民政局盖章（公证处公证）的《离婚协议书》；&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;D、在港、澳、台及国外出生的婴儿，还须提交国外或境外医疗机构出具的出生证明原件、复印件，翻译机构出具的出生证明翻译件以及我驻外使领馆签发的《中华人民共和国旅行证》或《护照》。&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://oaf2qt3yk.bkt.clouddn.com/e6bcbf8165d82f1f54ad0fdcf584f6ae.png&#34; alt=&#34;办户口材料&#34; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;今日单词&#34;&gt;今日单词&lt;/h2&gt;
-
-&lt;p&gt;集体户口 collective registered residences.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://oaf2qt3yk.bkt.clouddn.com/b999b0e1ab9238e3d85cd69ebf37913a.png&#34; alt=&#34;博士后办理落户&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://oaf2qt3yk.bkt.clouddn.com/5e047fc89d894689ebf4f06ad5e9a180.png&#34; alt=&#34;户口&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://oaf2qt3yk.bkt.clouddn.com/25fa2aaaf74fa15345273794f8afcd69.png&#34; alt=&#34;身份证&#34; /&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Example Talk</title>
-      <link>/talk/example-talk/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 +0800</pubDate>
-      
-      <guid>/talk/example-talk/</guid>
-      <description>&lt;p&gt;Embed your slides or video here using &lt;a href=&#34;https://sourcethemes.com/academic/post/writing-markdown-latex/&#34; target=&#34;_blank&#34;&gt;shortcodes&lt;/a&gt;. Further details can easily be added using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Deep Learning</title>
-      <link>/project/deep-learning/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      
-      <guid>/project/deep-learning/</guid>
-      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
-
-&lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
-
-&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
-
-&lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
-
-&lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>External Project</title>
-      <link>/project/example-external-project/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      
-      <guid>/project/example-external-project/</guid>
-      <description></description>
     </item>
     
     <item>
@@ -2351,6 +1835,50 @@ Here&#39;s some important information...
  &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:1&#34;&gt;&lt;sup&gt;^&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>Migrate from Jekyll to Hugo</title>
+      <link>/post/migrate-from-jekyll.zh/</link>
+      <pubDate>Mon, 10 Mar 2014 00:00:00 +0800</pubDate>
+      
+      <guid>/post/migrate-from-jekyll.zh/</guid>
+      <description>
+
+&lt;p&gt;Here are a few tips for migrating an existing website from Jekyll to Hugo. These tips can be applied in conjunction with following Hugo Academic&amp;rsquo;s &lt;a href=&#34;/post/getting-started/&#34; target=&#34;_blank&#34;&gt;getting started guide&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;move-static-content-to-static&#34;&gt;Move static content to &lt;code&gt;static&lt;/code&gt;&lt;/h2&gt;
+
+&lt;p&gt;Jekyll has a rule that any directory not starting with &lt;code&gt;_&lt;/code&gt; will be copied as-is to the &lt;code&gt;_site&lt;/code&gt; output. Hugo keeps all static content under &lt;code&gt;static&lt;/code&gt;. You should therefore move it all there.
+With Jekyll, something that looked like&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;▾ &amp;lt;root&amp;gt;/
+    ▾ images/
+        logo.png
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;should become&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;▾ &amp;lt;root&amp;gt;/
+    ▾ static/
+        ▾ images/
+            logo.png
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Additionally, you&amp;rsquo;ll want any files that should reside at the root (such as &lt;code&gt;CNAME&lt;/code&gt;) to be moved to &lt;code&gt;static&lt;/code&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;fix-content&#34;&gt;Fix content&lt;/h2&gt;
+
+&lt;p&gt;Depending on the amount of customization that was done for each post in Jekyll, this step will require more or less effort. There are no hard and fast rules here except that &lt;code&gt;hugo server --watch&lt;/code&gt; and the Hugo Academic example site are your friends. Test your changes and fix errors as needed.&lt;/p&gt;
+
+&lt;h2 id=&#34;publish&#34;&gt;Publish&lt;/h2&gt;
+
+&lt;p&gt;The default is for Jekyll to publish the website to a &lt;code&gt;_site&lt;/code&gt; directory, whereas Hugo publishes to a &lt;code&gt;public&lt;/code&gt; directory.&lt;/p&gt;
+
+&lt;h2 id=&#34;a-practical-example&#34;&gt;A practical example&lt;/h2&gt;
+
+&lt;p&gt;Alexandre Normand migrated his website from Jekyll to Hugo in less than a day. You can see all his changes by looking at this GitHub &lt;a href=&#34;https://github.com/alexandre-normand/alexandre-normand/compare/869d69435bd2665c3fbf5b5c78d4c22759d7613a...b7f6605b1265e83b4b81495423294208cc74d610&#34; target=&#34;_blank&#34;&gt;diff&lt;/a&gt;. However, bear in mind that this example is &lt;strong&gt;not specific to the Academic theme nor does it use the latest version of Hugo&lt;/strong&gt;.&lt;/p&gt;
+</description>
     </item>
     
   </channel>
