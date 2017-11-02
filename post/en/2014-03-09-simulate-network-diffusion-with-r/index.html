@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="theme" content="hugo-academic">
+  <meta name="generator" content="Hugo 0.30.2" />
+  <meta name="author" content="Cheng-Jun Wang">
+  <meta name="description" content="Associate Professor">
+
+  
+  
+  
+  
+    
+  
+  
+    
+    
+    <link rel="stylesheet" href="/css/highlight.min.css">
+    
+  
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha512-6MXa8B6uaO18Hid6blRMetEIoPqHf7Ux1tnyIQdpt9qI5OACx7C+O3IVTr98vwGnlcg0LOLa02i9Y1HpVhlfiw==" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.1/css/academicons.min.css" integrity="sha512-NThgw3XKQ1absAahW6to7Ey42uycrVvfNfyjqcFNgCmOCQ5AR4AO0SiXrN+8ZtYeappp56lk1WtvjVmEa+VR6A==" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous">
+  
+  
+
+
+  
+
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato:400,700%7cMerriweather%7cRoboto&#43;Mono">
+  
+  <link rel="stylesheet" href="/styles.css">
+  
+
+  
+
+  
+  <link rel="alternate" href="https://chengjunwang.com/index.xml" type="application/rss+xml" title="Cheng-Jun Wang">
+  <link rel="feed" href="https://chengjunwang.com/index.xml" type="application/rss+xml" title="Cheng-Jun Wang">
+  
+
+  <link rel="icon" type="image/png" href="/img/icon.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/apple-touch-icon.png">
+
+  <link rel="canonical" href="https://chengjunwang.com/post/en/2014-03-09-simulate-network-diffusion-with-r/">
+
+  <meta property="twitter:card" content="summary_large_image">
+  
+  <meta property="twitter:site" content="@ChengJunWang">
+  <meta property="twitter:creator" content="@ChengJunWang">
+  
+  <meta property="og:site_name" content="Cheng-Jun Wang">
+  <meta property="og:url" content="https://chengjunwang.com/post/en/2014-03-09-simulate-network-diffusion-with-r/">
+  <meta property="og:title" content="Simulating network diffusion with R | Cheng-Jun Wang">
+  <meta property="og:description" content="">
+  <meta property="og:locale" content="en-us">
+  
+  
+  
+  
+
+  
+
+  <title>Simulating network diffusion with R | Cheng-Jun Wang</title>
+
+</head>
+<body id="top" data-spy="scroll" data-target="#navbar-main" data-offset="71">
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navbar-main">
+  <div class="container">
+
+    
+    <div class="navbar-header">
+      
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+              data-target=".navbar-collapse" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      
+      <a class="navbar-brand" href="/">Cheng-Jun Wang</a>
+    </div>
+
+    
+    <div class="collapse navbar-collapse">
+
+      
+      <ul class="nav navbar-nav navbar-right">
+        
+
+        
+
+        <li class="nav-item">
+          <a href="/#about">
+            
+            <span>Home</span>
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        <li class="nav-item">
+          <a href="/#publications_selected">
+            
+            <span>Publications</span>
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        <li class="nav-item">
+          <a href="/#projects">
+            
+            <span>Projects</span>
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        <li class="nav-item">
+          <a href="/#posts">
+            
+            <span>News</span>
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        <li class="nav-item">
+          <a href="/#teaching">
+            
+            <span>Teaching</span>
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        <li class="nav-item">
+          <a href="/#contact">
+            
+            <span>Contact</span>
+          </a>
+        </li>
+
+        
+        
+
+        
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+<article class="article" itemscope itemtype="http://schema.org/Article">
+
+  
+
+
+  <div class="article-container">
+    <div class="article-inner">
+      <h1 itemprop="name">Simulating network diffusion with R</h1>
+
+      
+
+<div class="article-metadata">
+
+  <span class="article-date">
+    
+        Last updated on
+    
+    <time datetime="0001-01-01 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+      0001-01-01
+    </time>
+  </span>
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    4 min read
+  </span>
+  
+
+  
+  
+
+  
+
+  
+  
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    <li>
+      <a class="twitter"
+         href="https://twitter.com/intent/tweet?text=Simulating%20network%20diffusion%20with%20R&amp;url=https%3a%2f%2fchengjunwang.com%2fpost%2fen%2f2014-03-09-simulate-network-diffusion-with-r%2f"
+         target="_blank" rel="noopener">
+        <i class="fa fa-twitter"></i>
+      </a>
+    </li>
+    <li>
+      <a class="facebook"
+         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fchengjunwang.com%2fpost%2fen%2f2014-03-09-simulate-network-diffusion-with-r%2f"
+         target="_blank" rel="noopener">
+        <i class="fa fa-facebook"></i>
+      </a>
+    </li>
+    <li>
+      <a class="linkedin"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fchengjunwang.com%2fpost%2fen%2f2014-03-09-simulate-network-diffusion-with-r%2f&amp;title=Simulating%20network%20diffusion%20with%20R"
+         target="_blank" rel="noopener">
+        <i class="fa fa-linkedin"></i>
+      </a>
+    </li>
+    <li>
+      <a class="weibo"
+         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2fchengjunwang.com%2fpost%2fen%2f2014-03-09-simulate-network-diffusion-with-r%2f&amp;title=Simulating%20network%20diffusion%20with%20R"
+         target="_blank" rel="noopener">
+        <i class="fa fa-weibo"></i>
+      </a>
+    </li>
+    <li>
+      <a class="email"
+         href="mailto:?subject=Simulating%20network%20diffusion%20with%20R&amp;body=https%3a%2f%2fchengjunwang.com%2fpost%2fen%2f2014-03-09-simulate-network-diffusion-with-r%2f">
+        <i class="fa fa-envelope"></i>
+      </a>
+    </li>
+  </ul>
+</div>
+
+
+  
+
+</div>
+
+
+      <div class="article-style" itemprop="articleBody">
+        
+
+<h2 id="introduction">Introduction</h2>
+
+<p>Different from the traditional diffusion research, network diffusion research focuses on how network structure exerts its impact on the diffusion process. In this post, I present how to simulate the most simple network diffusion with R.</p>
+
+<p>As the first step, the algorithm is quite simple:</p>
+
+<ol>
+<li>Generate a network g: g(V, E).</li>
+<li>Randomly select one or n nodes as seeds.</li>
+<li>Each infected node influences its neighbors with probability p (transmission rate, $$\beta$$).</li>
+</ol>
+
+<h2 id="si-model">SI model</h2>
+
+<p>Actually, this is the most basic epidemic model (SI model) which has only two states: Susceptible (S) and Infected (I). However, we will extend it to networks.</p>
+
+<p>SI model describes the status of individuals switching from susceptible to infected. In this model, every individual will be infected eventually. Considering a close population without birth, death, and mobility, and assuming that each agent is homogeneous mixing,  SI model implies that each individual has the same probability to transfer the something (e.g., disease, innovation or information) to its neighbors (T. G. Lewis, 2011).</p>
+
+<p>Given the transmission rate $$\beta$$, SI model can be described as:</p>
+
+<p>$$\frac{dS}{dt}=-\beta SI$$</p>
+
+<p>$$\frac{dI}{dt}=\beta SI$$</p>
+
+<p>Note that I + S = 1, the equation $$\frac{dI}{dt}=\beta SI$$ can be simplified as:</p>
+
+<p>$$\frac{dI}{dt}=\beta I(1-I)$$</p>
+
+<p>Solve this equation, we can get a logistic growth function featured by its s-shaped curve. The logistic curve increases fast after it crosses the critical point, and grows much slower in the late stage. It can be used to fit the curve of diffusion of innovations.</p>
+
+<p>Note that the SI model is quite naive. In the real case of epidemic spreading, we have to consider how the status of the infected change: the infected can recover and become susceptible again (SIS model), or the infected can recover and get immune (SIR, $$\gamma$$ denotes the removal or recovery rate).</p>
+
+<p>In this post, I intend to bring the network back into the simulation of SI model using R and the package igraph.</p>
+
+<h2 id="generate-the-network">Generate the network</h2>
+
+<pre><code>require(igraph)
+# generate a social graph
+size = 50
+
+# regular network
+g = graph.tree(size, children = 2); plot(g)
+g = graph.star(size); plot(g)
+g = graph.full(size); plot(g)
+g = graph.ring(size); plot(g)
+g = connect.neighborhood(graph.ring(size), 2); plot(g) # 最近邻耦合网络
+
+# random network
+g = erdos.renyi.game(size, 0.1)
+
+# small-world network
+g = rewire.edges(erdos.renyi.game(size, 0.1), prob = 0.8 )
+# scale-free network
+g = barabasi.game(size) ; plot(g)
+</code></pre>
+
+<h2 id="initiate-the-diffusers">Initiate the diffusers</h2>
+
+<pre><code>seeds_num = 1
+set.seed(2014); diffusers = sample(V(g),seeds_num) ; diffusers
+infected =list()
+infected[[1]]= diffusers
+
+# for example, set percolation probability
+p = 0.128
+coins = c(rep(1, p*1000), rep(0,(1-p)*1000))
+n = length(coins)
+sample(coins, 1, replace=TRUE, prob=rep(1/n, n))
+</code></pre>
+
+<h2 id="update-the-diffusers">Update the diffusers</h2>
+
+<pre><code># function for updating the diffusers
+update_diffusers = function(diffusers){
+  nearest_neighbors = neighborhood(g, 1, diffusers)
+  nearest_neighbors = data.frame(table(unlist(nearest_neighbors)))
+  nearest_neighbors = subset(nearest_neighbors, !(nearest_neighbors[,1]%in%diffusers))
+  # toss the coins
+  toss = function(freq) {
+    tossing = NULL
+    for (i in 1:freq ) tossing[i] = sample(coins, 1, replace=TRUE, prob=rep(1/n, times=n))
+    tossing = sum(tossing)
+    return (tossing)
+  }
+  keep = unlist(lapply(nearest_neighbors[,2], toss))
+  new_infected = as.numeric(as.character(nearest_neighbors[,1][keep &gt;= 1]))
+  diffusers = unique(c(diffusers, new_infected))
+  return(diffusers)
+  }
+</code></pre>
+
+<h2 id="start-the-contagion">Start the contagion!</h2>
+
+<p>R you Ready? Now we can start the contagion!</p>
+
+<pre><code>i = 1
+while(length(infected[[i]]) &lt; size){
+  infected[[i+1]] = sort(update_diffusers(infected[[i]]))
+  cat(length(infected[[i+1]]), &quot;\n&quot;)
+  i = i + 1
+}
+</code></pre>
+
+<p>Let&rsquo;s look at the diffusion curve first:</p>
+
+<pre><code># &quot;growth_curve&quot;
+num_cum = unlist(lapply(1:i, function(x) length(infected［x］) ))
+p_cum = num_cum/max(num_cum)
+time = 1:i
+
+png(file = &quot;./temporal_growth_curve.png&quot;,
+    width=5, height=5,
+    units=&quot;in&quot;, res=300)
+plot(p_cum~time, type = &quot;b&quot;)
+dev.off()
+</code></pre>
+
+<p><img src="http://farm8.staticflickr.com/7299/12845959103_e19cd9cd99_n.jpg" alt="" /></p>
+
+<p>To visualize the diffusion process, we label the infected nodes with the red color.</p>
+
+<pre><code>E(g)$color = &quot;blueviolet&quot;
+V(g)$color = &quot;white&quot;
+set.seed(2014); layout.old = layout.fruchterman.reingold(g)
+V(g)$color[V(g)%in%diffusers] = &quot;red&quot;
+plot(g, layout =layout.old)
+</code></pre>
+
+<p>I make the animated gif using the package animation developed by Yihui Xie.</p>
+
+<pre><code>library(animation)
+
+saveGIF({
+  ani.options(interval = 0.5, convert = shQuote(&quot;C:/Program Files/ImageMagick-6.8.8-Q16/convert.exe&quot;))
+  # start the plot
+  m = 1
+  while(m &lt;= length(infected)){
+    V(g)$color = &quot;white&quot;
+    V(g)$color[V(g)%in%infected[[m]]] = &quot;red&quot;
+    plot(g, layout =layout.old)
+    m = m + 1}
+})
+</code></pre>
+
+<p><img src="http://farm4.staticflickr.com/3806/12826172695_368a6f50a2_o.gif" alt="" /></p>
+
+<p><img src="http://farm3.staticflickr.com/2848/12826237753_d8c97b1019_o.gif" alt="" /></p>
+
+<p><img src="http://farm4.staticflickr.com/3729/12826584654_c84452f397_o.gif" alt="" /></p>
+
+<p><img src="http://farm3.staticflickr.com/2851/12826173505_34649f488d_o.gif" alt="" /></p>
+
+<p><img src="http://farm8.staticflickr.com/7391/12826173255_574e471023_o.gif" alt="" /></p>
+
+<p><img src="http://farm4.staticflickr.com/3675/12826584484_7c6f35380c_o.gif" alt="" /></p>
+
+<p><img src="http://farm8.staticflickr.com/7432/12826173045_ef3548ec04_o.gif" alt="" /></p>
+
+<p>Similar to Netlogo (a software used for agent-based modeling), we can monitor the dynamic diffusion process with multiple plots.</p>
+
+<pre><code>saveGIF({
+  ani.options(interval = 0.5, convert = shQuote(&quot;C:/Program Files/ImageMagick-6.8.8-Q16/convert.exe&quot;))
+  # start the plot
+  m = 1
+  while(m &lt;= length(infected)){
+    # start the plot
+    layout(matrix(c(1, 2, 1, 3), 2,2, byrow = TRUE), widths=c(3,1), heights=c(1, 1))
+    V(g)$color &lt;- &quot;white&quot;
+    V(g)$color[V(g)%in%infected[[m]]] = &quot;red&quot;
+    num_cum = unlist(lapply(1:m, function(x) length(infected[[x]]) ))
+    p_cum = num_cum/size
+    p = diff(c(0, p_cum))
+    time = 1:m
+    plot(g, layout =layout.old, edge.arrow.size=0.2)
+    title(paste(&quot;Scale-free Network \n Day&quot;, m))
+    plot(p_cum~time, type = &quot;b&quot;, ylab = &quot;CDF&quot;, xlab = &quot;Time&quot;,
+         xlim = c(0,i), ylim =c(0,1))
+    plot(p~time, type = &quot;h&quot;, ylab = &quot;PDF&quot;, xlab = &quot;Time&quot;,
+         xlim = c(0,i), ylim =c(0,1), frame.plot = FALSE)
+    m = m + 1}
+}, ani.width = 800, ani.height = 500)
+</code></pre>
+
+<p><img src="http://farm4.staticflickr.com/3672/12848749413_7f9da8b8c7_o.gif" alt="" /></p>
+
+<p>Based on this post, I made slides using Rpres in Rstudio, you can view it  following this <a href="http://chengjun.github.io/network-diffusion" target="_blank">link</a>.</p>
+
+<p><iframe src="http://chengjun.github.io/network-diffusion/" width = "600" height = "400"></p>
+
+      </div>
+
+      
+
+    </div>
+  </div>
+
+</article>
+
+
+
+
+
+
+<div class="article-container">
+  
+
+</div>
+
+<footer class="site-footer">
+  <div class="container">
+    <p class="powered-by">
+
+      &copy; 2016 Cheng-Jun Wang &middot; 
+
+      Powered by the
+      <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+      <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+      <span class="pull-right" aria-hidden="true">
+        <a href="#" id="back_to_top">
+          <span class="button_icon">
+            <i class="fa fa-chevron-up fa-2x"></i>
+          </span>
+        </a>
+      </span>
+
+    </p>
+  </div>
+</footer>
+
+
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close btn-large" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Cite</h4>
+      </div>
+      <div>
+        <pre><code class="modal-body tex"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-primary btn-outline js-copy-cite" href="#" target="_blank">
+          <i class="fa fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-primary btn-outline js-download-cite" href="#" target="_blank">
+          <i class="fa fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+
+    
+    
+
+    
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" integrity="sha512-3P8rXCuGJdNZOnUx/03c1jOTnMn3rP63nBip5gOP2qmUh5YAdVAvFZ1E+QLZZbC1rtMrQb+mah3AfYW11RUrWA==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.3/imagesloaded.pkgd.min.js" integrity="sha512-umsR78NN0D23AzgoZ11K7raBD+R6hqKojyBZs1w8WvYlsI+QuKRGBx3LFCwhatzBunCjDuJpDHwxD13sLMbpRA==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha512-iztkobsvnjKfAtTNdHkGVjAYTrrtlC7mGp/54c40wowO7LhURYl3gVzzcEqGl/qKXQltJ2HwMrdLcNUdo+N/RQ==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.4/isotope.pkgd.min.js" integrity="sha512-VDBOIlDbuC4VWxGJNmuFRQ0Li0SKkDpmGyuhAG5LTDLd/dJ/S0WMVxriR2Y+CyPL5gzjpN4f/6iqWVBJlht0tQ==" crossorigin="anonymous"></script>
+    
+    
+    <script src="/js/hugo-academic.js"></script>
+    
+
+    
+    
+      
+      
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" integrity="sha256-/BfiIkHlHoVihZdc6TFuj7MmJ0TWcWsMXkeDFwhi0zw=" crossorigin="anonymous"></script>
+      
+
+      
+
+      
+
+      <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+
+  </body>
+</html>
+

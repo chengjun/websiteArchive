@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="theme" content="hugo-academic">
+  <meta name="generator" content="Hugo 0.30.2" />
+  <meta name="author" content="Cheng-Jun Wang">
+  <meta name="description" content="Associate Professor">
+
+  
+  
+  
+  
+    
+  
+  
+    
+    
+    <link rel="stylesheet" href="/css/highlight.min.css">
+    
+  
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha512-6MXa8B6uaO18Hid6blRMetEIoPqHf7Ux1tnyIQdpt9qI5OACx7C+O3IVTr98vwGnlcg0LOLa02i9Y1HpVhlfiw==" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.1/css/academicons.min.css" integrity="sha512-NThgw3XKQ1absAahW6to7Ey42uycrVvfNfyjqcFNgCmOCQ5AR4AO0SiXrN+8ZtYeappp56lk1WtvjVmEa+VR6A==" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous">
+  
+  
+
+
+  
+
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato:400,700%7cMerriweather%7cRoboto&#43;Mono">
+  
+  <link rel="stylesheet" href="/styles.css">
+  
+
+  
+
+  
+  <link rel="alternate" href="https://chengjunwang.com/index.xml" type="application/rss+xml" title="Cheng-Jun Wang">
+  <link rel="feed" href="https://chengjunwang.com/index.xml" type="application/rss+xml" title="Cheng-Jun Wang">
+  
+
+  <link rel="icon" type="image/png" href="/img/icon.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/apple-touch-icon.png">
+
+  <link rel="canonical" href="https://chengjunwang.com/zh/post/cn/cn_archive/2014-08-14-networkx-intro/">
+
+  <meta property="twitter:card" content="summary_large_image">
+  
+  <meta property="twitter:site" content="@ChengJunWang">
+  <meta property="twitter:creator" content="@ChengJunWang">
+  
+  <meta property="og:site_name" content="Cheng-Jun Wang">
+  <meta property="og:url" content="https://chengjunwang.com/zh/post/cn/cn_archive/2014-08-14-networkx-intro/">
+  <meta property="og:title" content="NetworkX初步：创建网络、提取属性和绘图 | Cheng-Jun Wang">
+  <meta property="og:description" content="">
+  <meta property="og:locale" content="zh-cn">
+  
+  <meta property="article:published_time" content="2014-08-14T00:00:00&#43;00:00">
+  
+  <meta property="article:modified_time" content="2014-08-14T00:00:00&#43;00:00">
+  
+
+  
+
+  <title>NetworkX初步：创建网络、提取属性和绘图 | Cheng-Jun Wang</title>
+
+</head>
+<body id="top" data-spy="scroll" data-target="#navbar-main" data-offset="71">
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navbar-main">
+  <div class="container">
+
+    
+    <div class="navbar-header">
+      
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+              data-target=".navbar-collapse" aria-expanded="false">
+        <span class="sr-only">切换导航</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      
+      <a class="navbar-brand" href="/zh/">Cheng-Jun Wang</a>
+    </div>
+
+    
+    <div class="collapse navbar-collapse">
+
+      
+      <ul class="nav navbar-nav navbar-right">
+        
+
+        
+
+        <li class="nav-item">
+          <a href="/zh/#about">
+            
+            <span>关于</span>
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        <li class="nav-item">
+          <a href="/zh/#posts">
+            
+            <span>新闻</span>
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        <li class="nav-item">
+          <a href="/zh/#teaching">
+            
+            <span>教学</span>
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        <li class="nav-item">
+          <a href="/zh/#projects">
+            
+            <span>项目</span>
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        <li class="nav-item">
+          <a href="/zh/#contact">
+            
+            <span>联系</span>
+          </a>
+        </li>
+
+        
+        
+
+        
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+<article class="article" itemscope itemtype="http://schema.org/Article">
+
+  
+
+
+  <div class="article-container">
+    <div class="article-inner">
+      <h1 itemprop="name">NetworkX初步：创建网络、提取属性和绘图</h1>
+
+      
+
+<div class="article-metadata">
+
+  <span class="article-date">
+    
+    <time datetime="2014-08-14 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+      2014-08-14
+    </time>
+  </span>
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    1 分钟阅读时间
+  </span>
+  
+
+  
+  
+
+  
+
+  
+  
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    <li>
+      <a class="twitter"
+         href="https://twitter.com/intent/tweet?text=NetworkX%e5%88%9d%e6%ad%a5%ef%bc%9a%e5%88%9b%e5%bb%ba%e7%bd%91%e7%bb%9c%e3%80%81%e6%8f%90%e5%8f%96%e5%b1%9e%e6%80%a7%e5%92%8c%e7%bb%98%e5%9b%be&amp;url=https%3a%2f%2fchengjunwang.com%2fzh%2fpost%2fcn%2fcn_archive%2f2014-08-14-networkx-intro%2f"
+         target="_blank" rel="noopener">
+        <i class="fa fa-twitter"></i>
+      </a>
+    </li>
+    <li>
+      <a class="facebook"
+         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fchengjunwang.com%2fzh%2fpost%2fcn%2fcn_archive%2f2014-08-14-networkx-intro%2f"
+         target="_blank" rel="noopener">
+        <i class="fa fa-facebook"></i>
+      </a>
+    </li>
+    <li>
+      <a class="linkedin"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fchengjunwang.com%2fzh%2fpost%2fcn%2fcn_archive%2f2014-08-14-networkx-intro%2f&amp;title=NetworkX%e5%88%9d%e6%ad%a5%ef%bc%9a%e5%88%9b%e5%bb%ba%e7%bd%91%e7%bb%9c%e3%80%81%e6%8f%90%e5%8f%96%e5%b1%9e%e6%80%a7%e5%92%8c%e7%bb%98%e5%9b%be"
+         target="_blank" rel="noopener">
+        <i class="fa fa-linkedin"></i>
+      </a>
+    </li>
+    <li>
+      <a class="weibo"
+         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2fchengjunwang.com%2fzh%2fpost%2fcn%2fcn_archive%2f2014-08-14-networkx-intro%2f&amp;title=NetworkX%e5%88%9d%e6%ad%a5%ef%bc%9a%e5%88%9b%e5%bb%ba%e7%bd%91%e7%bb%9c%e3%80%81%e6%8f%90%e5%8f%96%e5%b1%9e%e6%80%a7%e5%92%8c%e7%bb%98%e5%9b%be"
+         target="_blank" rel="noopener">
+        <i class="fa fa-weibo"></i>
+      </a>
+    </li>
+    <li>
+      <a class="email"
+         href="mailto:?subject=NetworkX%e5%88%9d%e6%ad%a5%ef%bc%9a%e5%88%9b%e5%bb%ba%e7%bd%91%e7%bb%9c%e3%80%81%e6%8f%90%e5%8f%96%e5%b1%9e%e6%80%a7%e5%92%8c%e7%bb%98%e5%9b%be&amp;body=https%3a%2f%2fchengjunwang.com%2fzh%2fpost%2fcn%2fcn_archive%2f2014-08-14-networkx-intro%2f">
+        <i class="fa fa-envelope"></i>
+      </a>
+    </li>
+  </ul>
+</div>
+
+
+  
+
+</div>
+
+
+      <div class="article-style" itemprop="articleBody">
+        <p></p>
+
+<p>NetworkX是使用python分析网络数据的重要武器。它的使用非常简单。</p>
+
+<p>首先，创建网络对象：</p>
+
+<pre><code>import matplotlib.pyplot as plt
+import networkx as nx
+
+G=nx.DiGraph()
+</code></pre>
+
+<p>然后，添加链接：</p>
+
+<pre><code>G.add_edge('source',1,weight=80)
+G.add_edge(1,2,weight=50)
+G.add_edge(1,3,weight=30)
+G.add_edge(3,2,weight=10)
+G.add_edge(2,4,weight=20)
+G.add_edge(2,5,weight=30)
+G.add_edge(4,5,weight=10)
+G.add_edge(5,3,weight=5)
+G.add_edge(2,'sink',weight=10)
+G.add_edge(4,'sink',weight=10)
+G.add_edge(3,'sink',weight=25)
+G.add_edge(5,'sink',weight=35)
+</code></pre>
+
+<p>可以很容易提取边的权重:</p>
+
+<pre><code>edges,colors = zip(*nx.get_edge_attributes(G,'weight').items())
+</code></pre>
+
+<p>计算加权过的出度：</p>
+
+<pre><code>d = G.out_degree(weight = 'weight') #计算节点的中心度
+</code></pre>
+
+<p>选择一个常用的可视化方法：</p>
+
+<pre><code>pos=nx.spring_layout(G) #设置网络的布局
+</code></pre>
+
+<p>绘制网络:</p>
+
+<pre><code>nx.draw(G, pos, node_color = 'orange', with_labels = True,
+        nodelist = d.keys(), node_size = [v*5 for v in d.values()],
+        edgelist = edges, edge_color = colors, width = 5, edge_cmap=plt.cm.Blues)
+</code></pre>
+
+<p><img src="http://chengjun.qiniudn.com/demo.png" alt="" /></p>
+
+<p>计算流距离：</p>
+
+<pre><code>'''
+# get flow distance
+'''
+def toSink(G, i):
+        try:
+            di = G[i]['sink'].values()[0]
+        except:
+            di = 0
+        return di
+
+def flowDistanceDT(G): #input a balanced nx graph
+    R = G.reverse()
+    mapping = {'source':'sink','sink':'source'}
+    H = nx.relabel_nodes(R,mapping)
+    #---------initialize flow distance dict------
+    L = dict((i,1) for i in G.nodes())  #FlowDistance
+    #---------prepare weighted out-degree dict------
+    D = {i: toSink(G, i) for i in G.nodes()} #Di
+    T = G.out_degree(weight='weight')        #Ti
+    #---------iterate until converge------------
+    ls = np.array(L.values())
+    delta = len(L)*0.01 + 1
+    while delta &gt; len(L)*0.01:
+        for i in L:
+            l=1
+            for m,n in H.edges(i):
+                l+=L[n]*H[m][n].values()[0]/float(T[m])
+            L[i]=l
+        delta = sum(np.abs(np.array(L.values()) - ls))
+        ls = np.array(L.values())
+    #---------clean the result-------
+    del L['sink']
+    for i in L:
+        L[i]-=1
+    L['sink'] = L.pop('source')
+    T['sink'] = T.pop('source')
+    D['sink'] = D.pop('source')
+    return L.values(), D.values(), T.values()
+</code></pre>
+      </div>
+
+      
+
+    </div>
+  </div>
+
+</article>
+
+
+
+
+
+
+<div class="article-container">
+  
+
+</div>
+
+<footer class="site-footer">
+  <div class="container">
+    <p class="powered-by">
+
+      &copy; 2016 Cheng-Jun Wang &middot; 
+
+      Powered by the
+      <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+      <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+      <span class="pull-right" aria-hidden="true">
+        <a href="#" id="back_to_top">
+          <span class="button_icon">
+            <i class="fa fa-chevron-up fa-2x"></i>
+          </span>
+        </a>
+      </span>
+
+    </p>
+  </div>
+</footer>
+
+
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close btn-large" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">引用</h4>
+      </div>
+      <div>
+        <pre><code class="modal-body tex"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-primary btn-outline js-copy-cite" href="#" target="_blank">
+          <i class="fa fa-copy"></i> 复制
+        </a>
+        <a class="btn btn-primary btn-outline js-download-cite" href="#" target="_blank">
+          <i class="fa fa-download"></i> 下载
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+
+    
+    
+
+    
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" integrity="sha512-3P8rXCuGJdNZOnUx/03c1jOTnMn3rP63nBip5gOP2qmUh5YAdVAvFZ1E+QLZZbC1rtMrQb+mah3AfYW11RUrWA==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.3/imagesloaded.pkgd.min.js" integrity="sha512-umsR78NN0D23AzgoZ11K7raBD+R6hqKojyBZs1w8WvYlsI+QuKRGBx3LFCwhatzBunCjDuJpDHwxD13sLMbpRA==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha512-iztkobsvnjKfAtTNdHkGVjAYTrrtlC7mGp/54c40wowO7LhURYl3gVzzcEqGl/qKXQltJ2HwMrdLcNUdo+N/RQ==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.4/isotope.pkgd.min.js" integrity="sha512-VDBOIlDbuC4VWxGJNmuFRQ0Li0SKkDpmGyuhAG5LTDLd/dJ/S0WMVxriR2Y+CyPL5gzjpN4f/6iqWVBJlht0tQ==" crossorigin="anonymous"></script>
+    
+    
+    <script src="/js/hugo-academic.js"></script>
+    
+
+    
+    
+      
+      
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" integrity="sha256-/BfiIkHlHoVihZdc6TFuj7MmJ0TWcWsMXkeDFwhi0zw=" crossorigin="anonymous"></script>
+      
+
+      
+
+      
+
+      <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+
+  </body>
+</html>
+

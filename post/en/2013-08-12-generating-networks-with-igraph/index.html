@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="theme" content="hugo-academic">
+  <meta name="generator" content="Hugo 0.30.2" />
+  <meta name="author" content="Cheng-Jun Wang">
+  <meta name="description" content="Associate Professor">
+
+  
+  
+  
+  
+    
+  
+  
+    
+    
+    <link rel="stylesheet" href="/css/highlight.min.css">
+    
+  
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha512-6MXa8B6uaO18Hid6blRMetEIoPqHf7Ux1tnyIQdpt9qI5OACx7C+O3IVTr98vwGnlcg0LOLa02i9Y1HpVhlfiw==" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.1/css/academicons.min.css" integrity="sha512-NThgw3XKQ1absAahW6to7Ey42uycrVvfNfyjqcFNgCmOCQ5AR4AO0SiXrN+8ZtYeappp56lk1WtvjVmEa+VR6A==" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous">
+  
+  
+
+
+  
+
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato:400,700%7cMerriweather%7cRoboto&#43;Mono">
+  
+  <link rel="stylesheet" href="/styles.css">
+  
+
+  
+
+  
+  <link rel="alternate" href="https://chengjunwang.com/index.xml" type="application/rss+xml" title="Cheng-Jun Wang">
+  <link rel="feed" href="https://chengjunwang.com/index.xml" type="application/rss+xml" title="Cheng-Jun Wang">
+  
+
+  <link rel="icon" type="image/png" href="/img/icon.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/apple-touch-icon.png">
+
+  <link rel="canonical" href="https://chengjunwang.com/post/en/2013-08-12-generating-networks-with-igraph/">
+
+  <meta property="twitter:card" content="summary_large_image">
+  
+  <meta property="twitter:site" content="@ChengJunWang">
+  <meta property="twitter:creator" content="@ChengJunWang">
+  
+  <meta property="og:site_name" content="Cheng-Jun Wang">
+  <meta property="og:url" content="https://chengjunwang.com/post/en/2013-08-12-generating-networks-with-igraph/">
+  <meta property="og:title" content="Generating networks with igraph | Cheng-Jun Wang">
+  <meta property="og:description" content="">
+  <meta property="og:locale" content="en-us">
+  
+  
+  
+  
+
+  
+
+  <title>Generating networks with igraph | Cheng-Jun Wang</title>
+
+</head>
+<body id="top" data-spy="scroll" data-target="#navbar-main" data-offset="71">
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navbar-main">
+  <div class="container">
+
+    
+    <div class="navbar-header">
+      
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+              data-target=".navbar-collapse" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      
+      <a class="navbar-brand" href="/">Cheng-Jun Wang</a>
+    </div>
+
+    
+    <div class="collapse navbar-collapse">
+
+      
+      <ul class="nav navbar-nav navbar-right">
+        
+
+        
+
+        <li class="nav-item">
+          <a href="/#about">
+            
+            <span>Home</span>
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        <li class="nav-item">
+          <a href="/#publications_selected">
+            
+            <span>Publications</span>
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        <li class="nav-item">
+          <a href="/#projects">
+            
+            <span>Projects</span>
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        <li class="nav-item">
+          <a href="/#posts">
+            
+            <span>News</span>
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        <li class="nav-item">
+          <a href="/#teaching">
+            
+            <span>Teaching</span>
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        <li class="nav-item">
+          <a href="/#contact">
+            
+            <span>Contact</span>
+          </a>
+        </li>
+
+        
+        
+
+        
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+<article class="article" itemscope itemtype="http://schema.org/Article">
+
+  
+
+
+  <div class="article-container">
+    <div class="article-inner">
+      <h1 itemprop="name">Generating networks with igraph</h1>
+
+      
+
+<div class="article-metadata">
+
+  <span class="article-date">
+    
+        Last updated on
+    
+    <time datetime="0001-01-01 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+      0001-01-01
+    </time>
+  </span>
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    3 min read
+  </span>
+  
+
+  
+  
+
+  
+
+  
+  
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    <li>
+      <a class="twitter"
+         href="https://twitter.com/intent/tweet?text=Generating%20networks%20with%20igraph&amp;url=https%3a%2f%2fchengjunwang.com%2fpost%2fen%2f2013-08-12-generating-networks-with-igraph%2f"
+         target="_blank" rel="noopener">
+        <i class="fa fa-twitter"></i>
+      </a>
+    </li>
+    <li>
+      <a class="facebook"
+         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fchengjunwang.com%2fpost%2fen%2f2013-08-12-generating-networks-with-igraph%2f"
+         target="_blank" rel="noopener">
+        <i class="fa fa-facebook"></i>
+      </a>
+    </li>
+    <li>
+      <a class="linkedin"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fchengjunwang.com%2fpost%2fen%2f2013-08-12-generating-networks-with-igraph%2f&amp;title=Generating%20networks%20with%20igraph"
+         target="_blank" rel="noopener">
+        <i class="fa fa-linkedin"></i>
+      </a>
+    </li>
+    <li>
+      <a class="weibo"
+         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2fchengjunwang.com%2fpost%2fen%2f2013-08-12-generating-networks-with-igraph%2f&amp;title=Generating%20networks%20with%20igraph"
+         target="_blank" rel="noopener">
+        <i class="fa fa-weibo"></i>
+      </a>
+    </li>
+    <li>
+      <a class="email"
+         href="mailto:?subject=Generating%20networks%20with%20igraph&amp;body=https%3a%2f%2fchengjunwang.com%2fpost%2fen%2f2013-08-12-generating-networks-with-igraph%2f">
+        <i class="fa fa-envelope"></i>
+      </a>
+    </li>
+  </ul>
+</div>
+
+
+  
+
+</div>
+
+
+      <div class="article-style" itemprop="articleBody">
+        
+
+<p>We know that the most simple network is the regular network, such as the ring network. If all the edges in a network are generated randomly, we can get a random graph or Erdos-Renyi network (ER network).</p>
+
+<h2 id="erdős-rényi-random-graph-model">Erdős–Rényi Random Graph model</h2>
+
+<blockquote>
+<p>The Erdős–Rényi model, named for Paul Erdős and Alfréd Rényi, is used for generating random graphs in which edges are set between nodes with equal probabilities.</p>
+</blockquote>
+
+<p>There is a continuous shift between randomness and regularity. What are the networks between random network and regular networks?</p>
+
+<h2 id="watts-strogatz-small-world-model">Watts-Strogatz Small World model</h2>
+
+<blockquote>
+<p>The Watts and Strogatz model is a random graph generation model that produces graphs with small-world properties.
+An initial lattice structure is used to generate a Watts-Strogatz model. Each node in the network is initially linked to its k closest neighbors. Another parameter is specified as the rewiring probability. Each edge has a probability p that it will be rewired to the graph as a random edge.</p>
+</blockquote>
+
+<h2 id="barabási-albert-ba-preferential-attachment-model">Barabási–Albert (BA) Preferential Attachment model</h2>
+
+<blockquote>
+<p>The Barabási–Albert model is a random network model used to demonstrate a preferential attachment or a &ldquo;rich-get-richer&rdquo; effect. In this model, an edge is most likely to attach to nodes with higher degrees. The network begins with an initial network of m nodes. m ≥ 2 and the degree of each node in the initial network should be at least 1, otherwise it will always remain disconnected from the rest of the network.</p>
+
+<p>In the BA model, new nodes are added to the network one at a time. Each new node is connected to m existing nodes with a probability that is proportional to the number of links that the existing nodes already have.</p>
+</blockquote>
+
+<p>We can use igraph to play the network games, and explore the properties of generated networks.</p>
+
+<blockquote>
+<p>igraph is an open source C library for the analysis of large-scale complex networks, with interfaces to R, Python and Ruby.</p>
+</blockquote>
+
+<p>Here is the R script for generating and visualizing networks.</p>
+
+<pre><code>library(igraph)
+g1 &lt;- graph.ring(500)
+g2 &lt;- erdos.renyi.game(500, 0.0035)
+g3 &lt;- rewire.edges( g1, prob = 0.5 )
+g4 &lt;- barabasi.game(500)
+# 保存图片格式
+png(&quot;d:/network_game.png&quot;,
+    width=5, height=5,
+    units=&quot;in&quot;, res=700)
+# 绘制图片
+par(mfrow=c(2,2))
+plot(g1, vertex.label= NA, edge.arrow.size=0.02,vertex.size = 0.5, xlab = &quot;Ring Network&quot;)
+plot(g2, vertex.label= NA, edge.arrow.size=0.02,vertex.size = 0.5, xlab = &quot;Random Network&quot;)
+plot(g3, vertex.label= NA, edge.arrow.size=0.02,vertex.size = 0.5, xlab = &quot;Small World Network&quot;)
+plot(g4, vertex.label= NA, edge.arrow.size=0.02,vertex.size = 0.5, xlab = &quot;Scale-free Network&quot;)
+# 结束保存图片
+dev.off()
+</code></pre>
+
+<p><img src="http://farm3.staticflickr.com/2875/9490993155_0787ab3832_c.jpg" alt="" /></p>
+
+<p>Of courese, there are other network games in the library of igraph, such as the game of forest fire.</p>
+
+<pre><code>g5 &lt;- forest.fire.game(200, fw.prob=0.37, bw.factor=0.32/0.37)
+plot(g5, vertex.label= NA, edge.arrow.size=0.02,vertex.size = 0.5)
+</code></pre>
+
+<p><strong>References</strong></p>
+
+<p><a href="http://en.wikipedia.org/wiki/Network_science#Network_models" target="_blank">http://en.wikipedia.org/wiki/Network_science#Network_models</a></p>
+
+      </div>
+
+      
+
+    </div>
+  </div>
+
+</article>
+
+
+
+
+
+
+<div class="article-container">
+  
+
+</div>
+
+<footer class="site-footer">
+  <div class="container">
+    <p class="powered-by">
+
+      &copy; 2016 Cheng-Jun Wang &middot; 
+
+      Powered by the
+      <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+      <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+      <span class="pull-right" aria-hidden="true">
+        <a href="#" id="back_to_top">
+          <span class="button_icon">
+            <i class="fa fa-chevron-up fa-2x"></i>
+          </span>
+        </a>
+      </span>
+
+    </p>
+  </div>
+</footer>
+
+
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close btn-large" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Cite</h4>
+      </div>
+      <div>
+        <pre><code class="modal-body tex"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-primary btn-outline js-copy-cite" href="#" target="_blank">
+          <i class="fa fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-primary btn-outline js-download-cite" href="#" target="_blank">
+          <i class="fa fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+
+    
+    
+
+    
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" integrity="sha512-3P8rXCuGJdNZOnUx/03c1jOTnMn3rP63nBip5gOP2qmUh5YAdVAvFZ1E+QLZZbC1rtMrQb+mah3AfYW11RUrWA==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.3/imagesloaded.pkgd.min.js" integrity="sha512-umsR78NN0D23AzgoZ11K7raBD+R6hqKojyBZs1w8WvYlsI+QuKRGBx3LFCwhatzBunCjDuJpDHwxD13sLMbpRA==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha512-iztkobsvnjKfAtTNdHkGVjAYTrrtlC7mGp/54c40wowO7LhURYl3gVzzcEqGl/qKXQltJ2HwMrdLcNUdo+N/RQ==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.4/isotope.pkgd.min.js" integrity="sha512-VDBOIlDbuC4VWxGJNmuFRQ0Li0SKkDpmGyuhAG5LTDLd/dJ/S0WMVxriR2Y+CyPL5gzjpN4f/6iqWVBJlht0tQ==" crossorigin="anonymous"></script>
+    
+    
+    <script src="/js/hugo-academic.js"></script>
+    
+
+    
+    
+      
+      
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" integrity="sha256-/BfiIkHlHoVihZdc6TFuj7MmJ0TWcWsMXkeDFwhi0zw=" crossorigin="anonymous"></script>
+      
+
+      
+
+      
+
+      <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+
+  </body>
+</html>
+
