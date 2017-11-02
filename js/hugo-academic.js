@@ -144,8 +144,9 @@
       let url = $(this).val();
       if (url.substr(0, 9) == '.pubtype-') {
         window.location.hash = url.substr(9);
+
       } else {
-        window.location.hash = '';
+        window.location.hash = '#';
       }
     }
   });
@@ -169,7 +170,7 @@
     $grid_pubs.isotope({ filter: filterValues });
 
     // Set selected option.
-    $('.pubtype-select').val(filterValue);
+    $('.pubtype-select').val(urlHash);
   }
 
   /* ---------------------------------------------------------------------------
@@ -266,8 +267,8 @@
     // Enable publication filter for publication index page.
     if ($('.pub-filters-select')) {
       filter_publications();
-      // Useful for changing hash manually (e.g. in development):
-      // window.addEventListener('hashchange', filter_publications, false);
+       //Useful for changing hash manually (e.g. in development):
+      //  window.addEventListener('hashchange', filter_publications, false);
     }
 
     // Load citation modal on 'Cite' click.
