@@ -86,6 +86,20 @@ Watts, D.J., &amp;ldquo;Should social science be more solution-oriented?&amp;rdq
     </item>
     
     <item>
+      <title>扶贫数据</title>
+      <link>https://chengjunwang.com/zh/post/cn/2017-11-20-poverty/</link>
+      <pubDate>Sun, 29 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://chengjunwang.com/zh/post/cn/2017-11-20-poverty/</guid>
+      <description>&lt;p&gt;党的十九大报告再次对打赢脱贫攻坚战作出部署，明确指出重点攻克深度贫困地区脱贫任务，确保到2020年我国现行标准下农村人口实现脱贫，贫困县全部摘帽，解决区域性整体贫困，做到脱真贫、真脱贫。&lt;/p&gt;
+
+&lt;p&gt;全国6000多万贫困人口稳定脱贫，贫困发生率从10.2%下降到4%以下。精准扶贫，不仅要精准施策，而且要精准到户。&lt;/p&gt;
+
+&lt;p&gt;眼下，脱贫攻坚战的主战场正在转移到深度贫困地区。今年6月份，习近平总书记在山西考察时，深刻论述了深度贫困问题。扶贫攻坚从精准扶贫到瞄准深度贫困，既是认识的深化&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>JCR2017 for COMMUNICATION</title>
       <link>https://chengjunwang.com/zh/post/cn/2017-09-06-jcr/</link>
       <pubDate>Wed, 06 Sep 2017 00:00:00 +0000</pubDate>
@@ -1475,75 +1489,6 @@ $ twine upload dist/*
 &lt;li&gt;使用dict来将相同的key的行整理到一起， 以便一次将吞进来的某一个key下面的数据全部写入硬盘&lt;/li&gt;
 &lt;li&gt;每次使用readlines读入足够多的行，充分发挥内存的作用&lt;/li&gt;
 &lt;/ol&gt;</description>
-    </item>
-    
-    <item>
-      <title>使用d3network做网络可视化</title>
-      <link>https://chengjunwang.com/zh/post/cn/cn_archive/2014-08-27-d3network/</link>
-      <pubDate>Wed, 27 Aug 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://chengjunwang.com/zh/post/cn/cn_archive/2014-08-27-d3network/</guid>
-      <description>&lt;p&gt;&lt;/p&gt;
-
-&lt;p&gt;在之前的&lt;a href=&#34;http://chengjun.github.io/cn/2014/07/chinese-university-friendship-network/&#34; target=&#34;_blank&#34;&gt;一个博客&lt;/a&gt;中，我介绍了使用R进行社区划分并可视化的方法。这里使用相同的数据，介绍如何使用d3network实现网络可视化的方法。&lt;/p&gt;
-
-&lt;p&gt;首先，安装d3network&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;devtools::install_github(&amp;quot;d3Network&amp;quot;, &amp;quot;christophergandrud&amp;quot;)
-require(d3Network)
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;之后可以使用简单的可视化方法：&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;d3SimpleNetwork(data[,1:2],
-                file = &amp;quot;chinese_university100.html&amp;quot;,
-                width = 1024,
-                height = 763,
-                fontsize = 12)
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;我想要展现社区划分的结果：&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;#链接数据
-links = data
-names(links) = c(&amp;quot;source&amp;quot;, &amp;quot;target&amp;quot;, &amp;quot;value&amp;quot;)
-
-#节点列表
-fc = fastgreedy.community(g); sizes(fc)
-mfc = membership(fc)
-nodes = data.frame(name = names(mfc), group = mfc)
-
-#对应链接数据和节点数据
-ids = 0:(nrow(nodes)-1) # notice: start with zero!
-links[,1] = ids[match(links[,1], nodes$name )]
-links[,2] = ids[match(links[,2], nodes$name )]
-links = links[with(links, order(source)), ] # sort by source
-
-#处理边的权重大小
-links$value = log(links$value)
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;之后就可以使实现可视化结果啦：&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;d3ForceNetwork(Links = links, Nodes = nodes,
-               Source = &amp;quot;source&amp;quot;, Target = &amp;quot;target&amp;quot;,
-               Value = &amp;quot;value&amp;quot;,
-               NodeID = &amp;quot;name&amp;quot;,
-               Group = &amp;quot;group&amp;quot;,
-               file = &amp;quot;chinese_university_groups100.html&amp;quot;,
-               width = 1550, height = 800,iframe = TRUE,
-               opacity = 0.9, zoom = TRUE)
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;iframe src=&#39;http://chengjun.github.io/vis/chinese_university_groups100.html&#39; scrolling=&#34;no&#34; width=&#34;800&#34; height = &#34;800&#34;&gt;&lt;/iframe&gt;
-
-&lt;p&gt;但是对于中文要麻烦一些，需要手工修改html里的encoding设置，包括meta部分和script部分两个地方：&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;&amp;lt;meta charset=&amp;quot;gbk&amp;quot;&amp;gt;
-&amp;lt;script charset=&amp;quot;gbk&amp;quot; src=http://d3js.org/d3.v3.min.js&amp;gt;&amp;lt;/script&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;除此之外，我还尝试了下&lt;a href=&#34;http://chengjun.github.io/vis/chinese_university_groups200more.html&#34; target=&#34;_blank&#34;&gt;两百所学校的情况：点这里。&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     
   </channel>
