@@ -11,6 +11,22 @@
     <atom:link href="/zh/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>2017年社科项目进展</title>
+      <link>https://chengjunwang.com/zh/post/cn/2017-11-25-cn-project/</link>
+      <pubDate>Sat, 25 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://chengjunwang.com/zh/post/cn/2017-11-25-cn-project/</guid>
+      <description>&lt;ol&gt;
+&lt;li&gt;文献综述：采用引文分析等方法系统整理舆论扩散研究领域的论文和成果。尤其是针对舆论扩散的讨论模型进行了系统的总结，从参与者、议题、行动三个维度刻画了舆论扩散的过程。&lt;/li&gt;
+&lt;li&gt;数据获取：基本完成数据收集方案，获取1千万新浪微博用户的数据信息，建立新浪微博舆论扩散数据库；收集了占领华尔街这一主题的推特数据库；收集了Digg新闻扩散数据库。&lt;/li&gt;
+&lt;li&gt;数据分析：对这个数据进行数据清洗、分析，按照门槛模型、扩散深度等概念的要求，从多个维度对舆论扩散数据进行测量。一、尝试采用网路科学分析方法，文本挖掘的方法挖掘微博信息扩散的网络门槛与扩散规模之间的关系，发现扩散深度对于网络门槛影响的调节作用。二、对于占领华尔街的推特数据，从时间序列分析方法对数据进行分析和挖掘，有针对性地提取了舆论的讨论模型的三要素：参与者、议题、行动，建立了结构化贝叶斯模型，分析了三者对于舆论演化的整体影响；三、针对Digg数据，从注意力流动网络的角度刻画了新闻舆论扩散的过程；&lt;/li&gt;
+&lt;li&gt;整理了现阶段的研究成果，发表了一系列相关的论文，其中包括五篇英文论文和三篇中文论文，以及多篇会议论文。
+经费使用：主要用于会议、差旅和少数办公用品，共花费18735元。&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+    <item>
       <title>中国大百科：计算传播学</title>
       <link>https://chengjunwang.com/zh/post/cn/2017-10-29-ccr/</link>
       <pubDate>Sun, 29 Oct 2017 00:00:00 +0000</pubDate>
@@ -82,6 +98,24 @@ Watts, D.J., &amp;ldquo;Should social science be more solution-oriented?&amp;rdq
 &lt;li&gt;撰稿：王成军&lt;/li&gt;
 &lt;li&gt;审稿：巢乃鹏&lt;/li&gt;
 &lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>后记</title>
+      <link>https://chengjunwang.com/zh/post/cn/2017-12-05-backwords/</link>
+      <pubDate>Sun, 29 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://chengjunwang.com/zh/post/cn/2017-12-05-backwords/</guid>
+      <description>&lt;p&gt;”计算传播学，给了传播学这个领域一个革命的火种。”&lt;/p&gt;
+
+&lt;p&gt;2010年9月作为博士生进入到香港城市大学互联网挖掘实验室以来，我切身感受到了传播学研究者在互联网时代的身份焦虑。1998年邓肯-瓦茨关于小世界网络的模型和1999年阿尔伯特-巴拉巴西关于幂律和无标度网络的研究复兴了网络科学。一石激起千层浪，在学术领域产生了深远的影响。对于万维网上的人类行为的研究也形成了一个子领域，被称之为万维网科学(Web Science);伴随着社交媒体等数字媒体的发展，对于社会学而言，社会网络分析开始受到前所未有的重视，对于传播学而言，社交网络上的信息流动网络研究也引起广泛的兴趣；与此同时，机器学习和数据科学取得了突飞猛进的发展，进一步加速了计算化的浪潮；在新闻传播产业当中，数据驱动的新闻生产、计算广告和媒体推荐系统开始成为席卷世界的潮流。&lt;/p&gt;
+
+&lt;p&gt;“计算传播学”这个词的提出源于香港城市大学互联网挖掘实验室成员之间在2012年初的一次组会讨论。每周，祝建华老师都会组织实验室成员进行内部讨论，讨论的主要内容除了每个人的研究进展之外，还包括文献分享、经验见闻等内容。在我的印象里，在这次讨论当中，我们再一次讨论了2009年大卫-拉泽等人发表在科学杂志上的一篇文章《计算社会科学》。在这篇文章当中，来自社会科学、计算机科学、网络科学等领域的资深研究者们宣告了计算社会科学的诞生，它以大规模数据收集和数据分析作为主要的工具，采用网络科学作为主要的研究视角，力图揭示个体和群体行为的模式。&lt;/p&gt;
+
+&lt;p&gt;2012年3月26日，计算传播学豆瓣小站正式建立。2012年底，吴令飞在多贝上发布了一系列计算传播学课程，后来更名为计算社会科学系列课程，之后他完成新书《Data Mining in Social Science》，发布在GitBook上，可免费在线阅读或者下载PDF。&lt;/p&gt;
+
+&lt;p&gt;2017年春季，在酝酿第二届计算传播学论坛暨工作坊的过程中，许小可老师、张伦老师、胡海波老师和我开始计划写一本《计算传播学导论》书。按照祝建华老师的建议，我们曾对参加了2016年第一届计算传播学论坛的研究者公开征集计算传播学工作坊的题目。经过汇总整理之后的题目包括：计算机模拟/多主体建模、社交媒体数据爬取、传播文本挖掘和主题模型分析、使用深度学习进行传播学研究、社交媒体数据的时间序列分析和空间分析、传播学研究和数据新闻的可视化方法、传播网络分析（社区识别、复杂网络与信息流动）、机器学习、意见形成、Python编程，以及如何教授新闻传播学专业的学生网络分析/数据新闻/编程。我们的想法是每年遴选两个主题组织计算传播学工作坊，系统地整理和组织工作坊教学材料，基于此形成《计算传播学导论》一书的基本材料。2017年2月22-23日，第一届计算传播学工作坊在南京大学成功举办。为期一天半，分为两个子题并行进行，分别为“信息传播的网络分析”(Network Approaches to Information Diffusion)和“文本数据处理方法”(Processing Text Data)。前者定位为高级程度，聚焦于计算传播学研究中的一个核心而又困难的题目，以探讨研究设计、理论模型、数据要求、方法选择等问题为主、操作问题为辅，适合已掌握基本方法并有一定研究经验者。后者定位为入门程度，介绍用于文本数据处理的各个步骤上的方法、工具、算法等，含有众多动手操作。这次工作坊“信息传播的网络分析”部分由张子柯和王成军主讲《网络信息传播基础》、许小可讲《网络信息传播实证研究》、胡海波和阮中远讲解《网络信息传播模型》，“文本数据处理方法”部分又张伦主讲《文本分析的基本步骤与方法》、王成军介绍《主题模型》、汪臻真主讲《情感分析》。&lt;/p&gt;
 </description>
     </item>
     
@@ -1345,150 +1379,6 @@ $ twine upload dist/*
   runExample(&amp;quot;10_download&amp;quot;) # file download wizard
   runExample(&amp;quot;11_timer&amp;quot;) # an automated timer
 &lt;/code&gt;&lt;/pre&gt;</description>
-    </item>
-    
-    <item>
-      <title>Echarts使用简介</title>
-      <link>https://chengjunwang.com/zh/post/cn/cn_archive/2015-01-10-myecharts/</link>
-      <pubDate>Sat, 10 Jan 2015 00:00:00 +0000</pubDate>
-      
-      <guid>https://chengjunwang.com/zh/post/cn/cn_archive/2015-01-10-myecharts/</guid>
-      <description>&lt;p&gt;&lt;/p&gt;
-
-&lt;p&gt;昨天听谈和讲解了echarts的使用，他的讲解非常直接简单，就是直接修改echarts的实例。之后，我发现林峰将echarts的实例的html代码写得非常复杂，但其实单独调用一个js的时候，却非常简单。具体做法如下：&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;准备工作：建立一个js子文件夹，将esl，echarts，pie，bar，map等各种js放入其中。在js文件夹外新建一个空的html文件。&lt;/li&gt;
-&lt;li&gt;首先，调用esl.js，它提供了echarts图片的载体。&lt;/li&gt;
-&lt;li&gt;其次，使用require方法调用echarts.js和具体使用的类型图的js（比如map.js）。&lt;/li&gt;
-&lt;li&gt;再次，输入需要输入的数据。&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;最后，封装。&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;    &amp;lt;!DCOTYPE html&amp;gt;
-    &amp;lt;html&amp;gt;
-        &amp;lt;head&amp;gt;
-            &amp;lt;meta charset=&amp;quot;utf-8&amp;quot;&amp;gt;
-            &amp;lt;title&amp;gt;echarts testing page&amp;lt;/title&amp;gt;
-            &amp;lt;script src=&amp;quot;./js/esl.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;
-            &amp;lt;script src=&amp;quot;./js/echarts.js&amp;quot; type=&amp;quot;text/javascript&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;
-        &amp;lt;/head&amp;gt;
-        &amp;lt;body&amp;gt;
-            &amp;lt;div id=&amp;quot;main&amp;quot; style=&amp;quot;height:400px;&amp;quot;&amp;gt;&amp;lt;/div&amp;gt;
-            &amp;lt;script type=&amp;quot;text/javascript&amp;quot;&amp;gt;
-                require.config({
-                    paths:{
-                        &amp;quot;echarts&amp;quot;:&amp;quot;js/echarts&amp;quot;,
-                        &amp;quot;echarts/chart/map&amp;quot;:&amp;quot;js/map&amp;quot;
-                    }
-                });
-
-                //using
-                require(
-                    [
-                        &amp;quot;echarts&amp;quot;,
-                        &amp;quot;echarts/chart/map&amp;quot;
-                    ],
-                    function(ec){
-                        var myChart=ec.init(document.getElementById(&amp;quot;main&amp;quot;));  
-                        &amp;lt;!--Input your code below--&amp;gt;                    
-
-                        &amp;lt;!--Input your code above--&amp;gt;                    
-                //loading data
-                        myChart.setOption(option);
-                    }
-                );
-            &amp;lt;/script&amp;gt;
-        &amp;lt;/body&amp;gt;
-    &amp;lt;/html&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;##弦图
-&lt;a href=&#34;http://chengjun.github.io/myecharts/chord.html&#34; target=&#34;_blank&#34;&gt;http://chengjun.github.io/myecharts/chord.html&lt;/a&gt;&lt;/p&gt;
-
-&lt;iframe src=&#39;http://chengjun.github.io/myecharts/chord.html&#39; scrolling=&#34;no&#34; width=&#34;600&#34; height = &#34;400&#34;&gt;&lt;/iframe&gt;
-
-&lt;p&gt;##柱状图
-&lt;a href=&#34;http://chengjun.github.io/myecharts/bar.html&#34; target=&#34;_blank&#34;&gt;http://chengjun.github.io/myecharts/bar.html&lt;/a&gt;&lt;/p&gt;
-
-&lt;iframe src=&#39;http://chengjun.github.io/myecharts/bar.html&#39; scrolling=&#34;no&#34; width=&#34;600&#34; height = &#34;400&#34;&gt;&lt;/iframe&gt;
-
-&lt;p&gt;##饼图
-&lt;a href=&#34;http://chengjun.github.io/myecharts/pie1.html&#34; target=&#34;_blank&#34;&gt;http://chengjun.github.io/myecharts/pie1.html&lt;/a&gt;&lt;/p&gt;
-
-&lt;iframe src=&#39;http://chengjun.github.io/myecharts/pie1.html&#39; scrolling=&#34;no&#34; width=&#34;600&#34; height = &#34;400&#34;&gt;&lt;/iframe&gt;
-
-&lt;p&gt;##线图
-&lt;a href=&#34;http://chengjun.github.io/myecharts/line1.html&#34; target=&#34;_blank&#34;&gt;http://chengjun.github.io/myecharts/line1.html&lt;/a&gt;&lt;/p&gt;
-
-&lt;iframe src=&#39;http://chengjun.github.io/myecharts/line1.html&#39; scrolling=&#34;no&#34; width=&#34;600&#34; height = &#34;400&#34;&gt;&lt;/iframe&gt;
-
-&lt;p&gt;##地图
-&lt;a href=&#34;http://chengjun.github.io/myecharts/map9.html&#34; target=&#34;_blank&#34;&gt;http://chengjun.github.io/myecharts/map9.html&lt;/a&gt;&lt;/p&gt;
-
-&lt;iframe src=&#39;http://chengjun.github.io/myecharts/map9.html&#39; scrolling=&#34;no&#34; width=&#34;600&#34; height = &#34;400&#34;&gt;&lt;/iframe&gt;
-
-&lt;p&gt;##力图&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://chengjun.github.io/myecharts/force2&#34; target=&#34;_blank&#34;&gt;http://chengjun.github.io/myecharts/force2&lt;/a&gt;&lt;/p&gt;
-
-&lt;iframe src=&#39;http://chengjun.github.io/myecharts/force2.html&#39; scrolling=&#34;no&#34; width=&#34;600&#34; height = &#34;400&#34;&gt;&lt;/iframe&gt;
-
-&lt;p&gt;##后记
-发现chrome无法加载，再加入了以下代码后就可以使用了。可惜用了整整一个上午才更正这个问题。&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;        &amp;lt;script src=&amp;quot;./js/echarts.js&amp;quot; type=&amp;quot;text/javascript&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;</description>
-    </item>
-    
-    <item>
-      <title>使用Python快速分割数据的方法</title>
-      <link>https://chengjunwang.com/zh/post/cn/cn_archive/2014-08-31-fast-split-data-with-python/</link>
-      <pubDate>Sun, 31 Aug 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://chengjunwang.com/zh/post/cn/cn_archive/2014-08-31-fast-split-data-with-python/</guid>
-      <description>&lt;p&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://chengjun.qiniudn.com/longcat.PNG&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;分割数据最慢的过程其实是打开和关闭一个文件，因此尽量减少这种操作可以飞速的提升分割数据的速度。之前在&lt;a href=&#34;http://stackoverflow.com/questions/519633/lazy-method-for-reading-big-file-in-python?lq=1&#34; target=&#34;_blank&#34;&gt;stackoverflow上看到一种方法&lt;/a&gt;非常高效，放在这里研究一下。&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt; from collections import defaultdict
-
- path = &#39;D:/chengjun/Sina Weibo/DepthOverTime/&#39;
-
- #define a function
- def splitData(f):
-     #using dict to &#39;classify&#39; rows
-     E = defaultdict(lambda:[])
-     for line in f:
-         lists = line.strip().split(&#39;,&#39;)
-         rtmid = lists[0]
-         file_save = path + &#39;single_weibo/&#39;+rtmid
-         E[file_save].append(line)
-     for key in E.keys():
-         try:
-             with open(key,&#39;a&#39;) as p:
-                 for record in E[key]:
-                     p.write(record+&amp;quot;\n&amp;quot;)
-         except:
-             pass
- # start to read in data by chunks
- bigfile = open(path + &#39;diffusion_path_date2552.csv&#39;)
- chunkSize = 100000000
- chunk = bigfile.readlines(chunkSize)
- while chunk:
-     splitData(chunk)
-     chunk = bigfile.readlines(chunkSize)
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;上面这段代码有两个地方导致非常高效：&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;使用dict来将相同的key的行整理到一起， 以便一次将吞进来的某一个key下面的数据全部写入硬盘&lt;/li&gt;
-&lt;li&gt;每次使用readlines读入足够多的行，充分发挥内存的作用&lt;/li&gt;
-&lt;/ol&gt;</description>
     </item>
     
   </channel>
