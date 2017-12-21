@@ -27,6 +27,110 @@
     </item>
     
     <item>
+      <title>2017年黑客马拉松之turkserver</title>
+      <link>https://chengjunwang.com/zh/post/cn/2017-12-14-turkserver/</link>
+      <pubDate>Sun, 29 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://chengjunwang.com/zh/post/cn/2017-12-14-turkserver/</guid>
+      <description>
+
+&lt;p&gt;turkserver&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://turkserver.readthedocs.io/&#34; target=&#34;_blank&#34;&gt;http://turkserver.readthedocs.io/&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;tutorials-quick-start&#34;&gt;Tutorials：quick start&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://turkserver.readthedocs.io/en/latest/quick-start.html&#34; target=&#34;_blank&#34;&gt;http://turkserver.readthedocs.io/en/latest/quick-start.html&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;TurkServer/tutorial &lt;a href=&#34;https://github.com/TurkServer/tutorial&#34; target=&#34;_blank&#34;&gt;https://github.com/TurkServer/tutorial&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;install meteor&lt;/li&gt;
+&lt;li&gt;sign up AWS Account, get the id and secret.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;浏览器歧视:
+- 一个可以打开 &lt;a href=&#34;http://localhost:3000/experiment&#34; target=&#34;_blank&#34;&gt;http://localhost:3000/experiment&lt;/a&gt;
+- 另一个打开 &lt;a href=&#34;http://localhost:3000/turkserver&#34; target=&#34;_blank&#34;&gt;http://localhost:3000/turkserver&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Oops, looks like there&amp;rsquo;s no route on the client or the server for url: &amp;ldquo;&lt;a href=&#34;http://localhost:3000/mturk/externalSubmit.&amp;quot;&#34; target=&#34;_blank&#34;&gt;http://localhost:3000/mturk/externalSubmit.&amp;quot;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;mlab&#34;&gt;mlab&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://mlab.com/&#34; target=&#34;_blank&#34;&gt;https://mlab.com/&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;azure&#34;&gt;azure&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://portal.azure.cn/&#34; target=&#34;_blank&#34;&gt;https://portal.azure.cn/&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;chengjunwang@chengjunwang.partner.onmschina.cn&lt;/li&gt;
+&lt;li&gt;Datalab2017&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;error&#34;&gt;error&lt;/h1&gt;
+
+&lt;p&gt;chengjuns-MacBook-Pro:server chengjun$ MONGO_URL=mongodb://localhost:27017/test PORT=3000 ROOT_URL=&lt;a href=&#34;http://localhost:3000&#34; target=&#34;_blank&#34;&gt;http://localhost:3000&lt;/a&gt; npm start&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;meteor-dev-bundle@0.0.0 start /Users/chengjun/GitHub/tutorial/.demeteorized/bundle/programs/server
+node ../../main&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;/Users/chengjun/GitHub/tutorial/.demeteorized/bundle/programs/server/node_modules/fibers/future.js:313
+                        throw(ex);
+                        ^&lt;/p&gt;
+
+&lt;p&gt;Error: failed to connect to [localhost:27017]
+    at Object.Future.wait (/Users/chengjun/GitHub/tutorial/.demeteorized/bundle/programs/server/node_modules/fibers/future.js:449:15)
+    at new MongoConnection (packages/mongo/mongo_driver.js:213:27)
+    at new MongoInternals.RemoteCollectionDriver (packages/mongo/remote_collection_driver.js:4:16)
+    at Object.&lt;anonymous&gt; (packages/mongo/remote_collection_driver.js:38:10)
+    at Object.defaultRemoteCollectionDriver (packages/underscore/underscore.js:750:1)
+    at new Mongo.Collection (packages/mongo/collection.js:103:40)
+    at AccountsServer.AccountsCommon (packages/accounts-base/accounts_common.js:23:18)
+    at new AccountsServer (packages/accounts-base/accounts_server.js:18:5)
+    at meteorInstall.node_modules.meteor.accounts-base.server_main.js (packages/accounts-base/server_main.js:9:12)
+    at fileEvaluate (packages/modules-runtime/.npm/package/node_modules/install/install.js:153:1)
+    - - - - -
+    at .&lt;anonymous&gt; (/Users/chengjun/GitHub/tutorial/.demeteorized/bundle/programs/server/npm/node_modules/meteor/npm-mongo/node_modules/mongodb/lib/mongodb/connection/server.js:556:25)
+    at emitThree (events.js:116:13)
+    at emit (events.js:194:7)
+    at .&lt;anonymous&gt; (/Users/chengjun/GitHub/tutorial/.demeteorized/bundle/programs/server/npm/node_modules/meteor/npm-mongo/node_modules/mongodb/lib/mongodb/connection/connection_pool.js:156:15)
+    at emitTwo (events.js:106:13)
+    at emit (events.js:191:7)
+    at Socket.&lt;anonymous&gt; (/Users/chengjun/GitHub/tutorial/.demeteorized/bundle/programs/server/npm/node_modules/meteor/npm-mongo/node_modules/mongodb/lib/mongodb/connection/connection.js:534:10)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at emitErrorNT (net.js:1272:8)&lt;/p&gt;
+
+&lt;p&gt;npm ERR! Darwin 17.2.0
+npm ERR! argv &amp;ldquo;/usr/local/bin/node&amp;rdquo; &amp;ldquo;/usr/local/bin/npm&amp;rdquo; &amp;ldquo;start&amp;rdquo;
+npm ERR! node v6.2.2
+npm ERR! npm  v3.9.5
+npm ERR! code ELIFECYCLE
+npm ERR! meteor-dev-bundle@0.0.0 start: &lt;code&gt;node ../../main&lt;/code&gt;
+npm ERR! Exit status 1
+npm ERR!
+npm ERR! Failed at the meteor-dev-bundle@0.0.0 start script &amp;lsquo;node ../../main&amp;rsquo;.
+npm ERR! Make sure you have the latest version of node.js and npm installed.
+npm ERR! If you do, this is most likely a problem with the meteor-dev-bundle package,
+npm ERR! not with npm itself.
+npm ERR! Tell the author that this fails on your system:
+npm ERR!     node ../../main
+npm ERR! You can get information on how to open an issue for this project with:
+npm ERR!     npm bugs meteor-dev-bundle
+npm ERR! Or if that isn&amp;rsquo;t available, you can get their info via:
+npm ERR!     npm owner ls meteor-dev-bundle
+npm ERR! There is likely additional logging output above.&lt;/p&gt;
+
+&lt;p&gt;npm ERR! Please include the following file with any support request:
+npm ERR!     /Users/chengjun/GitHub/tutorial/.demeteorized/bundle/programs/server/npm-debug.log
+chengjuns-MacBook&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>中国大百科：计算传播学</title>
       <link>https://chengjunwang.com/zh/post/cn/2017-10-29-ccr/</link>
       <pubDate>Sun, 29 Oct 2017 00:00:00 +0000</pubDate>
@@ -1343,41 +1447,6 @@ $ twine upload dist/*
 &lt;li&gt;实在找不到解决方案，不要过多寄希望于身边的朋友，stackoverflow上有更合适的回答你问题的人！去那里提问。&lt;/li&gt;
 &lt;li&gt;熟悉一个package。经常阅读package的文档。&lt;/li&gt;
 &lt;/ol&gt;</description>
-    </item>
-    
-    <item>
-      <title>再次尝试shinyApp</title>
-      <link>https://chengjunwang.com/zh/post/cn/cn_archive/2015-01-11-shinyapp/</link>
-      <pubDate>Sun, 11 Jan 2015 00:00:00 +0000</pubDate>
-      
-      <guid>https://chengjunwang.com/zh/post/cn/cn_archive/2015-01-11-shinyapp/</guid>
-      <description>&lt;p&gt;&lt;/p&gt;
-
-&lt;p&gt;昨天收到了shinyapp的一封邮件，想起之前自己做的关于网络扩散的东西，就想把它转化为app的形式。最直接的办法还是看tutorial，比如（&lt;a href=&#34;http://shiny.rstudio.com/tutorial）。&#34; target=&#34;_blank&#34;&gt;http://shiny.rstudio.com/tutorial）。&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;现学现卖，于是我马上做了一个使用igraph绘制BA网络的小应用：&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://chengjun.shinyapps.io/testApp/&#34; target=&#34;_blank&#34;&gt;https://chengjun.shinyapps.io/testApp/&lt;/a&gt;&lt;/p&gt;
-
-&lt;iframe src=&#39;https://chengjun.shinyapps.io/testApp/&#39; scrolling=&#34;no&#34; width=&#34;600&#34; height = &#34;800&#34;&gt;&lt;/iframe&gt;
-
-&lt;p&gt;##通过rstudio学习shinyApp制作
-其实R的王牌编辑器Rstudio已经和shiny完美的结合，完全可以通过rstudio学习shinyApp制作。&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;  system.file(&amp;quot;examples&amp;quot;, package=&amp;quot;shiny&amp;quot;)
-
-  runExample(&amp;quot;01_hello&amp;quot;) # a histogram
-  runExample(&amp;quot;02_text&amp;quot;) # tables and data frames
-  runExample(&amp;quot;03_reactivity&amp;quot;) # a reactive expression
-  runExample(&amp;quot;04_mpg&amp;quot;) # global variables
-  runExample(&amp;quot;05_sliders&amp;quot;) # slider bars
-  runExample(&amp;quot;06_tabsets&amp;quot;) # tabbed panels
-  runExample(&amp;quot;07_widgets&amp;quot;) # help text and submit buttons
-  runExample(&amp;quot;08_html&amp;quot;) # shiny app built from HTML
-  runExample(&amp;quot;09_upload&amp;quot;) # file upload wizard
-  runExample(&amp;quot;10_download&amp;quot;) # file download wizard
-  runExample(&amp;quot;11_timer&amp;quot;) # an automated timer
-&lt;/code&gt;&lt;/pre&gt;</description>
     </item>
     
   </channel>
