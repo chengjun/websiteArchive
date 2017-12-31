@@ -200,6 +200,8 @@
 <ul>
 <li>
 <ul>
+<li><a href="#could-not-read-username">could not read Username</a></li>
+<li><a href="#create-a-ssh-key">Create a ssh key</a></li>
 <li><a href="#hugo-on-github">Hugo on github</a></li>
 <li><a href="#domain-name">domain name</a></li>
 <li><a href="#平行的文本框">平行的文本框</a>
@@ -242,7 +244,7 @@
   
   <span class="middot-divider"></span>
   <span class="article-reading-time">
-    2 min read
+    3 min read
   </span>
   
 
@@ -300,6 +302,46 @@
 
       <div class="article-style" itemprop="articleBody">
         
+
+<h2 id="could-not-read-username">could not read Username</h2>
+
+<pre><code>fatal: could not read Username for 'https://github.com': Invalid argument
+</code></pre>
+
+<p>Go to the github repository of my personal computer，and running the following scripts in the terminal.</p>
+
+<pre><code>ssh-add ~/.ssh/id_rsa
+
+git remote set-url origin git@github.com:username/repo.git
+</code></pre>
+
+<h2 id="create-a-ssh-key">Create a ssh key</h2>
+
+<p>1- Create a ssh key using Git Bash using following command</p>
+
+<pre><code>ssh-keygen -t rsa -b 4096 -C &quot;your-github@email.com&quot;
+</code></pre>
+
+<p>After running this command just install the by default options and enter the password balnk when it prompts.</p>
+
+<p>2- Then run the following commands to locate the public/private key generated from step1</p>
+
+<pre><code>cd .ssh
+
+cd ~/.ssh
+</code></pre>
+
+<p>3- Then run the following command to view your public:</p>
+
+<pre><code>cat id_rsa.pub
+</code></pre>
+
+<p>4- Copy your public key and go to your <strong>GitHub account</strong> -&gt; <strong>settings</strong> -&gt; create a SSH and GPG keys then click new ssh key and past your public key in the in key text field.</p>
+
+<p>5- Verify your public key using Git Bash by running the following command:</p>
+
+<pre><code>ssh -vT git@github.com
+</code></pre>
 
 <h2 id="hugo-on-github">Hugo on github</h2>
 
@@ -517,9 +559,9 @@ cd ..
   <h3>Related</h3>
   <ul>
     
-    <li><a href="/note/note_archive/2016-05-04-sr-revising/">语言是一道门槛</a></li>
-    
     <li><a href="/note/note_archive/2016-05-04-atom/">测试Atom软件</a></li>
+    
+    <li><a href="/note/note_archive/2016-05-04-sr-revising/">语言是一道门槛</a></li>
     
     <li><a href="/post/writing-markdown-latex/">Writing content with Markdown, LaTeX, and Shortcodes</a></li>
     
