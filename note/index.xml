@@ -325,7 +325,7 @@
 &lt;/tbody&gt;
 &lt;/table&gt;
 
-&lt;h2 id=&#34;薪资纳税计算&#34;&gt;薪资纳税计算&lt;/h2&gt;
+&lt;h1 id=&#34;薪资纳税计算&#34;&gt;薪资纳税计算&lt;/h1&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;学校财务处 &lt;a href=&#34;http://ndcw.nju.edu.cn/&#34; target=&#34;_blank&#34;&gt;http://ndcw.nju.edu.cn/&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
@@ -358,6 +358,8 @@ tax(40000, 0.30, 2755)*12 + tax(20000, 0.25, 1005) = 129150
 tax(50000, 0.35, 5505)*10 = 133900
 tax(500000, 0.45, 13505) = 213450
 &lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;从2016年1月到2018年1月，&lt;strong&gt;共计&lt;/strong&gt;25个月。&lt;/p&gt;
 
 &lt;h2 id=&#34;劳务报酬纳税计算&#34;&gt;劳务报酬纳税计算&lt;/h2&gt;
 
@@ -1055,7 +1057,9 @@ tax(500000, 0.45, 13505) = 213450
       <pubDate>Wed, 14 Jun 2017 00:00:00 +0000</pubDate>
       
       <guid>https://chengjunwang.com/note/note_archive/2017-06-14-school-building/</guid>
-      <description>&lt;p&gt;紫金楼终于来了，现在正在封顶。&lt;/p&gt;
+      <description>&lt;p&gt;联系施工方，2018年4月交付使用，之后学院装修，计划9月搬入。&lt;/p&gt;
+
+&lt;p&gt;紫金楼终于来了，现在正在封顶。&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;
 
