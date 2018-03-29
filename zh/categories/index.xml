@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Academic</title>
+    <link>https://chengjunwang.com/zh/categories/</link>
+    <description>Recent content in Categories on Academic</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>&amp;copy; 2016 Cheng-Jun Wang</copyright>
+    
+	<atom:link href="https://chengjunwang.com/zh/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Network</title>
+      <link>https://chengjunwang.com/zh/categories/network/</link>
+      <pubDate>Thu, 14 Aug 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://chengjunwang.com/zh/categories/network/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Python</title>
+      <link>https://chengjunwang.com/zh/categories/python/</link>
+      <pubDate>Sat, 04 Jul 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://chengjunwang.com/zh/categories/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>R</title>
+      <link>https://chengjunwang.com/zh/categories/r/</link>
+      <pubDate>Sat, 07 Sep 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://chengjunwang.com/zh/categories/r/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Text Mining</title>
+      <link>https://chengjunwang.com/zh/categories/text-mining/</link>
+      <pubDate>Sat, 07 Sep 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://chengjunwang.com/zh/categories/text-mining/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Topic Models</title>
+      <link>https://chengjunwang.com/zh/categories/topic-models/</link>
+      <pubDate>Fri, 27 Sep 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://chengjunwang.com/zh/categories/topic-models/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>传媒透视</title>
+      <link>https://chengjunwang.com/zh/categories/%E4%BC%A0%E5%AA%92%E9%80%8F%E8%A7%86/</link>
+      <pubDate>Sat, 15 Dec 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://chengjunwang.com/zh/categories/%E4%BC%A0%E5%AA%92%E9%80%8F%E8%A7%86/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>可视化</title>
+      <link>https://chengjunwang.com/zh/categories/%E5%8F%AF%E8%A7%86%E5%8C%96/</link>
+      <pubDate>Wed, 27 Aug 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://chengjunwang.com/zh/categories/%E5%8F%AF%E8%A7%86%E5%8C%96/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>小说</title>
+      <link>https://chengjunwang.com/zh/categories/%E5%B0%8F%E8%AF%B4/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://chengjunwang.com/zh/categories/%E5%B0%8F%E8%AF%B4/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>教学</title>
+      <link>https://chengjunwang.com/zh/categories/%E6%95%99%E5%AD%A6/</link>
+      <pubDate>Sun, 11 Jan 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://chengjunwang.com/zh/categories/%E6%95%99%E5%AD%A6/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>数字媒体阅读报告</title>
+      <link>https://chengjunwang.com/zh/categories/%E6%95%B0%E5%AD%97%E5%AA%92%E4%BD%93%E9%98%85%E8%AF%BB%E6%8A%A5%E5%91%8A/</link>
+      <pubDate>Sun, 16 Dec 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://chengjunwang.com/zh/categories/%E6%95%B0%E5%AD%97%E5%AA%92%E4%BD%93%E9%98%85%E8%AF%BB%E6%8A%A5%E5%91%8A/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>研究</title>
+      <link>https://chengjunwang.com/zh/categories/%E7%A0%94%E7%A9%B6/</link>
+      <pubDate>Sat, 24 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://chengjunwang.com/zh/categories/%E7%A0%94%E7%A9%B6/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>社会网络</title>
+      <link>https://chengjunwang.com/zh/categories/%E7%A4%BE%E4%BC%9A%E7%BD%91%E7%BB%9C/</link>
+      <pubDate>Mon, 05 May 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://chengjunwang.com/zh/categories/%E7%A4%BE%E4%BC%9A%E7%BD%91%E7%BB%9C/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>社会网络分析</title>
+      <link>https://chengjunwang.com/zh/categories/%E7%A4%BE%E4%BC%9A%E7%BD%91%E7%BB%9C%E5%88%86%E6%9E%90/</link>
+      <pubDate>Sun, 01 Jul 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://chengjunwang.com/zh/categories/%E7%A4%BE%E4%BC%9A%E7%BD%91%E7%BB%9C%E5%88%86%E6%9E%90/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>空间分析</title>
+      <link>https://chengjunwang.com/zh/categories/%E7%A9%BA%E9%97%B4%E5%88%86%E6%9E%90/</link>
+      <pubDate>Sat, 15 Mar 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://chengjunwang.com/zh/categories/%E7%A9%BA%E9%97%B4%E5%88%86%E6%9E%90/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>读书笔记</title>
+      <link>https://chengjunwang.com/zh/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</link>
+      <pubDate>Sat, 08 Jan 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://chengjunwang.com/zh/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

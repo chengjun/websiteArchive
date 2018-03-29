@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="theme" content="hugo-academic">
+  <meta name="generator" content="Hugo 0.37.1" />
+  <meta name="author" content="Cheng-Jun Wang">
+  <meta name="description" content="Associate Professor">
+
+  
+  
+  
+    
+  
+  
+    
+    
+    <link rel="stylesheet" href="/css/highlight.min.css">
+    
+  
+  <link rel="stylesheet" href="/css/fontsgoogle.css">
+  <link rel="stylesheet" href="/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/css/font-awesome.min.css">
+  <link rel="stylesheet" href="/css/academicons.min.css">
+
+  <link rel="stylesheet" href="/css/hugo-academic.css">
+  
+
+  <link rel="alternate" href="https://chengjunwang.com/index.xml" type="application/rss+xml" title="Academic">
+  <link rel="feed" href="https://chengjunwang.com/index.xml" type="application/rss+xml" title="Academic">
+
+  <link rel="icon" type="image/png" href="/img/icon.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/apple-touch-icon.png">
+
+  <link rel="canonical" href="https://chengjunwang.com/zh/post/cn/2014-05-05-network-dispersion/">
+
+  
+
+  <title>网络残缺度：共同好友间可否两步到达？ | Academic</title>
+
+</head>
+<body id="top" data-spy="scroll" data-target="#navbar-main" data-offset="71">
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navbar-main">
+  <div class="container">
+
+    
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+              data-target=".navbar-collapse" aria-expanded="false">
+        <span class="sr-only">切换导航</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/">Academic</a>
+    </div>
+
+    
+    <div class="collapse navbar-collapse">
+
+      
+      <ul class="nav navbar-nav navbar-right">
+        
+
+        
+
+        <li class="nav-item">
+          <a href="/zh/#about.zh">
+            
+            <span>关于</span>
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        <li class="nav-item">
+          <a href="/zh/#posts.zh">
+            
+            <span>新闻</span>
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        <li class="nav-item">
+          <a href="/zh/#teaching.zh">
+            
+            <span>教学</span>
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        <li class="nav-item">
+          <a href="/zh/#projects.zh">
+            
+            <span>项目</span>
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        <li class="nav-item">
+          <a href="/zh/#contact.zh">
+            
+            <span>联系</span>
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        <li class="nav-item">
+          <a href="/en">
+            
+            <span>English</span>
+          </a>
+        </li>
+
+        
+        
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+<article class="article" itemscope itemtype="http://schema.org/Article">
+
+
+
+  
+
+
+  
+
+
+<div class="col-sm-2 col-sm-offset-1 doc-sidebar right">
+
+	<div id="sidebar">
+	<div class="sidebar-module">
+		<div class="sidebar-toc">
+			<h4 class="sidebar-heading">Table of Contents</h4>
+			
+			<nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#关系强度-tie-strength">关系强度（<code>tie strength</code>)</a></li>
+<li><a href="#共同好友-common-friends">共同好友（<code>common friends</code>）</a></li>
+<li><a href="#嵌入度-embededness">嵌入度（<code>embededness</code>）</a></li>
+<li><a href="#残缺性-dispersion">残缺性（<code>dispersion</code>）</a></li>
+<li><a href="#参考文献">参考文献</a></li>
+</ul></li>
+</ul>
+</nav>
+		</div>
+	</div>
+	
+	</div>
+
+</div>
+
+
+
+  <div class="article-container">
+
+
+    <h1 itemprop="name">网络残缺度：共同好友间可否两步到达？</h1>
+    
+
+<div class="article-metadata">
+
+  <span class="article-date">
+    <time datetime="2014-05-05 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+      Mon, May 5, 2014
+    </time>
+  </span>
+
+  
+  
+  
+  <span class="article-categories">
+    <i class="fa fa-folder"></i>
+    
+    <a href="/zh/categories/%e7%a4%be%e4%bc%9a%e7%bd%91%e7%bb%9c">社会网络</a
+    >
+    
+  </span>
+  
+  
+
+  
+  
+  
+  <span class="article-tags">
+    <i class="fa fa-tags"></i>
+    
+    <a href="/zh/tags/%e5%85%b3%e7%b3%bb">关系</a
+    >, 
+    
+    <a href="/zh/tags/%e5%b5%8c%e5%85%a5%e5%ba%a6">嵌入度</a
+    >, 
+    
+    <a href="/zh/tags/%e6%ae%8b%e7%bc%ba%e5%ba%a6">残缺度</a
+    >
+    
+  </span>
+  
+  
+
+  
+  
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    <li>
+      <a class="facebook"
+         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fchengjunwang.com%2fzh%2fpost%2fcn%2f2014-05-05-network-dispersion%2f"
+         target="_blank">
+        <i class="fa fa-facebook"></i>
+      </a>
+    </li>
+    <li>
+      <a class="twitter"
+         href="https://twitter.com/intent/tweet?text=%e7%bd%91%e7%bb%9c%e6%ae%8b%e7%bc%ba%e5%ba%a6%ef%bc%9a%e5%85%b1%e5%90%8c%e5%a5%bd%e5%8f%8b%e9%97%b4%e5%8f%af%e5%90%a6%e4%b8%a4%e6%ad%a5%e5%88%b0%e8%be%be%ef%bc%9f&amp;url=https%3a%2f%2fchengjunwang.com%2fzh%2fpost%2fcn%2f2014-05-05-network-dispersion%2f"
+         target="_blank">
+        <i class="fa fa-twitter"></i>
+      </a>
+    </li>
+    <li>
+      <a class="linkedin"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fchengjunwang.com%2fzh%2fpost%2fcn%2f2014-05-05-network-dispersion%2f&amp;title=%e7%bd%91%e7%bb%9c%e6%ae%8b%e7%bc%ba%e5%ba%a6%ef%bc%9a%e5%85%b1%e5%90%8c%e5%a5%bd%e5%8f%8b%e9%97%b4%e5%8f%af%e5%90%a6%e4%b8%a4%e6%ad%a5%e5%88%b0%e8%be%be%ef%bc%9f"
+         target="_blank">
+        <i class="fa fa-linkedin"></i>
+      </a>
+    </li>
+    <li>
+      <a class="weibo"
+         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2fchengjunwang.com%2fzh%2fpost%2fcn%2f2014-05-05-network-dispersion%2f&amp;title=%e7%bd%91%e7%bb%9c%e6%ae%8b%e7%bc%ba%e5%ba%a6%ef%bc%9a%e5%85%b1%e5%90%8c%e5%a5%bd%e5%8f%8b%e9%97%b4%e5%8f%af%e5%90%a6%e4%b8%a4%e6%ad%a5%e5%88%b0%e8%be%be%ef%bc%9f"
+         target="_blank">
+        <i class="fa fa-weibo"></i>
+      </a>
+    </li>
+    <li>
+      <a class="email"
+         href="mailto:?subject=%e7%bd%91%e7%bb%9c%e6%ae%8b%e7%bc%ba%e5%ba%a6%ef%bc%9a%e5%85%b1%e5%90%8c%e5%a5%bd%e5%8f%8b%e9%97%b4%e5%8f%af%e5%90%a6%e4%b8%a4%e6%ad%a5%e5%88%b0%e8%be%be%ef%bc%9f&amp;body=https%3a%2f%2fchengjunwang.com%2fzh%2fpost%2fcn%2f2014-05-05-network-dispersion%2f">
+        <i class="fa fa-envelope"></i>
+      </a>
+    </li>
+  </ul>
+</div>
+
+
+  
+
+</div>
+
+
+    <div class="article-style" itemprop="articleBody">
+      
+
+<p>网络是由节点和关系构成的，而对于关系的描述是社会网络的关键。我们已经知道对于节点的网络特性可以从中心度、近度、介度、特征度（eigenvalue centrality）等方式描述。那么对于关系呢？最简单的就是直接关系的强度了。</p>
+
+<h2 id="关系强度-tie-strength">关系强度（<code>tie strength</code>)</h2>
+
+<p>通常对于关系强度的测量是基于两个节点之间链接的权重来衡量的。并不是说关系的强度越高越好，也不是说越多的强关系就越好。例如，格兰诺维特的论文<code>The strength of weak ties</code>强调了弱关系的重要性。</p>
+
+<h2 id="共同好友-common-friends">共同好友（<code>common friends</code>）</h2>
+
+<p>但是以直接的链接强度度量一对关系的强度显然过于简单。它忽略的网络中的三角形（triads）：网络的局部传递性(transtivity)。关系的传递性是社会网络分析的一种重要观点。比如，朋友的朋友成为自己的朋友的可能性很高。这种关系的强度不只限于一模网络中。在传播学中有ABX模型，A和B是两个人，X是一种对象（信息、意见、创新等）。A和B是好朋友，A喜欢X，那么B喜欢X的可能性就提高。也就是爱朋友及朋友喜欢的东西，有点像爱屋及乌。</p>
+
+<p>怎么抓住网络的传递性？找两个节点(一对关系)的共同好友！找到共同好友就抓住了网络中的三角形。存在的三角形数量就表明了传递性的程度。这种思路其实对于做共引（co-citation)分析的学者来说并不陌生。如果一篇论文同时引用了两篇论文，那么这两篇论文就存在一定的相似性。因此，找共同好友类似于找共引关系。</p>
+
+<h2 id="嵌入度-embededness">嵌入度（<code>embededness</code>）</h2>
+
+<p><img src="https://farm6.staticflickr.com/5323/13926813860_7382ec2f52_o.png" alt="" /></p>
+
+<p>共同好友数量是判断两个人亲密程度的一个重要变量。如果共同好友的数量足够多，表明这两个人彼此深度的融入了对方的社会关系当中。基于这种思路，我们可以计算嵌入型。对于i和j两个人, $$k<em>{i}$$、$$k</em>{j}$$分别表示i和j的好友数量。$$n_{ij}$$表示其共同好友数量。那么，我们可以如下计算嵌入度：</p>
+
+<p>$$
+Embededness<em>{ij} = \frac{n</em>{ij}}{(k<em>{i} -1) + (k</em>{j} -1) - n_{ij}}
+$$</p>
+
+<h2 id="残缺性-dispersion">残缺性（<code>dispersion</code>）</h2>
+
+<p>残缺度（<code>dispersion</code>， 或译为分散度）是Lars Backstrom &amp; Jon Kleinberg (2013) 为了识别Facebook中亲密关系而提出的度量。它同样是基于共同好友的，主要测量的是共同好友之间的链接缺失程度。</p>
+
+<blockquote>
+<p>‘dispersion’ — the extent to which two people’s mutual friends are not themselves well-connected. <code>Lars Backstrom &amp; Jon Kleinberg (2013)</code></p>
+</blockquote>
+
+<p>Lars Backstrom &amp; Jon Kleinberg使用了脸书的数据发现，使用残缺度这个度量方式，可以非常准确识别诸如夫妻、男女朋友、恋爱关系。</p>
+
+<p><img src="https://farm8.staticflickr.com/7429/14090280746_d962b282c8_o.png" alt="" /></p>
+
+<p>如上图中，u和v两个人有a、b、c、d四个共同好友。残缺度主要考察在多大程度上，这些共同好友<strong>不能</strong>在<code>两步之内到达彼此</code>。如果两个共同好友之间不存在直接连接，且也不存在（除去u和v之外的）共同好友，那么残缺度就增加1。</p>
+
+<p>以C_{uv}来表示u和v的共同好友之间的链接，那么在上图中只有a、b之间和c、d之间存在链接。a-c, a-d, b-c, b-d四对节点之间既没有直接链接又没有共同好友（除去了u和v)。所以残缺度是4。</p>
+
+<p>再举一个例子，如果u和v的共同好友b-c之间存在直接的链接。那么残缺度会是多大？如下图：</p>
+
+<p><img src="https://farm3.staticflickr.com/2936/14133498133_ed0857e2a0_o.png" alt="" /></p>
+
+<p>因为只有a-d之间没有办法在两步内到达彼此，所以残缺度是1。</p>
+
+<p>当然了这种定义残缺度的方法是基于节点间的距离的。例如以$$d_{s, t}$$表示共同好友中任意两个节点s和t之间的距离。在这个初始的定义中，两步内不能到达算是关系残缺。那么我们可以将其扩展为3步内不能到达算残缺，或者n步能不能到达算残缺。不过根据Lars Backstrom &amp; Jon Kleinberg的实验，两步不能到达是一个较好的基准。</p>
+
+<p>如果浪漫关系的确可以由高残缺度刻画，那么说明兔子不吃窝边草在国外是存在的。太熟了下不去手的现象在国内也是存在的。记得一个笑话说：找男女朋友的时候都说找互补的，实际上找到的都是类似的！白富美总是跟高富帅在一起嘛。这应该是对的，人的收入、相貌、工作都是匹配的（match）,从这个角度上讲的确是相似的。但至少从网路结构的角度来说，男女关系依然是互补的！</p>
+
+<h2 id="参考文献">参考文献</h2>
+
+<p>Lars Backstrom &amp; Jon Kleinberg (2013) Romantic Partnerships and the <code>Dispersion</code> of Social Ties: A Network Analysis of Relationship Status on Facebook.arXiv</p>
+
+    </div>
+
+  </div>
+
+
+</article>
+
+<div class="container">
+  <nav>
+  <ul class="pager">
+    
+    <li class="previous"><a href="https://chengjunwang.com/zh/post/cn/2014-03-15-d3-map/"><span
+      aria-hidden="true">&larr;</span> 空间分析初步：使用D3可视化</a></li>
+    
+
+    
+    <li class="next"><a href="https://chengjunwang.com/zh/post/cn/2014-07-21-chinese-university-friendship-network/">中国高校间的友谊网络：大学排名、地理位置和演化规律 <span
+      aria-hidden="true">&rarr;</span></a></li>
+    
+  </ul>
+</nav>
+
+</div>
+
+<div class="article-container">
+  
+<section id="comments">
+  <div id="disqus_thread">
+    <div id="disqus_thread"></div>
+<script>
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "ChengjunWang" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+  </div>
+</section>
+
+
+
+</div>
+
+
+
+<footer class="site-footer">
+  <div class="container">
+    <p class="powered-by">
+
+      &copy; 2016 Cheng-Jun Wang &middot; 
+
+      Powered by the <a href="https://github.com/gcushen/hugo-academic" target="_blank">Academic
+      theme</a> for <a href="http://gohugo.io" target="_blank">Hugo</a> and <a href="http://github.com/" target="_blank">Github</a>.
+
+      <span class="pull-right" aria-hidden="true">
+        <a href="#" id="back_to_top">
+          <span class="button_icon">
+            <i class="fa fa-chevron-up fa-2x"></i>
+          </span>
+        </a>
+      </span>
+
+    </p>
+  </div>
+</footer>
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/gsap/1.18.4/TweenMax.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/gsap/latest/plugins/ScrollToPlugin.min.js"></script>
+    <script src="/js/jquery-1.12.3.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/isotope.pkgd.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.1/imagesloaded.pkgd.min.js"></script>
+    <script src="/js/hugo-academic.js"></script>
+    
+
+    
+
+    
+    
+      
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/highlight.min.js"></script>
+
+      
+
+      
+
+      <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+
+    
+
+  </body>
+</html>
+

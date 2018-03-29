@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Split on Academic</title>
+    <link>https://chengjunwang.com/zh/tags/split/</link>
+    <description>Recent content in Split on Academic</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>&amp;copy; 2016 Cheng-Jun Wang</copyright>
+    <lastBuildDate>Sun, 31 Aug 2014 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://chengjunwang.com/zh/tags/split/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>使用Python快速分割数据的方法</title>
+      <link>https://chengjunwang.com/zh/post/cn/2014-08-31-fast-split-data-with-python/</link>
+      <pubDate>Sun, 31 Aug 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://chengjunwang.com/zh/post/cn/2014-08-31-fast-split-data-with-python/</guid>
+      <description>分割数据最慢的过程其实是打开和关闭一个文件，因此尽量减少这种操作可以飞速的提升分割数据的速度。之前在stackoverflow上看到一种方法非常高效，放在这里研究一下。
+ from collections import defaultdict path = &#39;D:/chengjun/Sina Weibo/DepthOverTime/&#39; #define a function def splitData(f): #using dict to &#39;classify&#39; rows E = defaultdict(lambda:[]) for line in f: lists = line.strip().split(&#39;,&#39;) rtmid = lists[0] file_save = path + &#39;single_weibo/&#39;+rtmid E[file_save].append(line) for key in E.keys(): try: with open(key,&#39;a&#39;) as p: for record in E[key]: p.write(record+&amp;quot;\n&amp;quot;) except: pass # start to read in data by chunks bigfile = open(path + &#39;diffusion_path_date2552.csv&#39;) chunkSize = 100000000 chunk = bigfile.</description>
+    </item>
+    
+  </channel>
+</rss>
