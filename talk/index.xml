@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Recent &amp; Upcoming Talks on Cheng-Jun Wang</title>
+    <link>https://chengjunwang.com/talk/</link>
+    <description>Recent content in Recent &amp; Upcoming Talks on Cheng-Jun Wang</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2016 Cheng-Jun Wang</copyright>
+    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://chengjunwang.com/talk/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>社会阶层与数字媒体中的注意力流动</title>
+      <link>https://chengjunwang.com/talk/tencent-nju-talk/</link>
+      <pubDate>Sat, 24 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://chengjunwang.com/talk/tencent-nju-talk/</guid>
+      <description>社会阶层与数字媒体中的注意力流动
+王成军
+数字媒体改变了人类的生存方式，加速了社会阶层的再生产。当我们上网、看新闻、浏览网页的时候，我们的注意力在不同的信息当中流动。数字信息构成了我们每日的精神食粮，充当着一种社会知识。从社会群体的角度而言，我们的注意力在形形色色社会知识中的流动冲刷出来一个社会知识的空间，而每一个人每天孜孜不倦地在这个空间中穿梭。但是，不管人类在虚拟世界和物理空间的行为实际上都受到社会阶层的重要影响。数字媒体记录下来人类的媒介使用行为，为我们研究社会阶层对人类在知识空间中的移动行为影响及其内在机制提供了新的数据。借助于计算社会科学，尤其是网络科学，我们可以构造出社会知识的空间，并详细刻画海量的个体在这个知识空间的移动。我们假设社会阶层会型塑人们的日常生活方式和阅读行习惯，造成知沟在群体中的出现，并进一步稳固已有的社会阶层。初步的研究发现证实了社会阶层的影响，例如穷人会使用更多不常用的个性的app，而富人更多使用一些常用的手机app；穷人阅读娱乐型内容多，富人阅读知识性内容多。</description>
+    </item>
+    
+    <item>
+      <title>计算传播学——用AI穿透你的注意力壁垒</title>
+      <link>https://chengjunwang.com/talk/swarma-cc-talk/</link>
+      <pubDate>Wed, 12 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://chengjunwang.com/talk/swarma-cc-talk/</guid>
+      <description>AI时代，每一秒钟,整个互联网上就有 60 万条信息在 Facebook 上分享,2 亿个 Email、10 万条 推文被发送,571 个新网站被建立,1.9E(1018)字节数据被交换[1]。海量的信息不断涌现, 但是全球的互联网用户总数却仅有 30 多亿(截止到 2014 年底)。每个人的注意力是有限的，我们应该如何巧妙地穿透注意力的壁垒，让信息精准地传递到我们的目标受众？计算传播学会给你答案。
+计算传播是指数据驱动的、借助于人工智能，及其可计算方法所进行的传播过程,而分析计算传播现象的研究领域就是计算传播学。在本次讲座中，我将尝试介绍计算传播的起源、概念和应用,然后从计算社会科学的角度对计算传播学的理论脉络进行了介绍。基于以上内容,我介绍了一些计算传播学研究的例子，总结计算传播学研究中存在的从数据到模式,再从模式到机制的研究思路，最后讨论一下可能的发展方向。
+ 时间：2017-04-12 20:00-23:00 集智学园简介：http://campus.swarma.org/gvid=10140   -- </description>
+    </item>
+    
+    <item>
+      <title>The Origin, Concept, and Applications of Computational Communication</title>
+      <link>https://chengjunwang.com/talk/pku-shenzhen-talk/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://chengjunwang.com/talk/pku-shenzhen-talk/</guid>
+      <description>讲座：计算传播学的起源、概念与应用</description>
+    </item>
+    
+  </channel>
+</rss>

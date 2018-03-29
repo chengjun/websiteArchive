@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="theme" content="hugo-academic">
+  <meta name="generator" content="Hugo 0.37.1" />
+  <meta name="author" content="Cheng-Jun Wang">
+  <meta name="description" content="Associate Professor">
+
+  
+  
+  
+  
+    
+  
+  
+    
+    
+    <link rel="stylesheet" href="/css/highlight.min.css">
+    
+  
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha512-6MXa8B6uaO18Hid6blRMetEIoPqHf7Ux1tnyIQdpt9qI5OACx7C+O3IVTr98vwGnlcg0LOLa02i9Y1HpVhlfiw==" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.1/css/academicons.min.css" integrity="sha512-NThgw3XKQ1absAahW6to7Ey42uycrVvfNfyjqcFNgCmOCQ5AR4AO0SiXrN+8ZtYeappp56lk1WtvjVmEa+VR6A==" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous">
+  
+  
+
+
+  
+
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato:400,700%7cMerriweather%7cRoboto&#43;Mono">
+  
+  <link rel="stylesheet" href="/styles.css">
+  
+
+  
+
+  
+  <link rel="alternate" href="https://chengjunwang.com/index.xml" type="application/rss+xml" title="Cheng-Jun Wang">
+  <link rel="feed" href="https://chengjunwang.com/index.xml" type="application/rss+xml" title="Cheng-Jun Wang">
+  
+
+  <link rel="icon" type="image/png" href="/img/icon.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/apple-touch-icon.png">
+
+  <link rel="canonical" href="https://chengjunwang.com/zh/post/cn/cn_archive/2013-08-31-topic-modeling-with-r/">
+
+  <meta property="twitter:card" content="summary_large_image">
+  
+  <meta property="twitter:site" content="@ChengJunWang">
+  <meta property="twitter:creator" content="@ChengJunWang">
+  
+  <meta property="og:site_name" content="Cheng-Jun Wang">
+  <meta property="og:url" content="https://chengjunwang.com/zh/post/cn/cn_archive/2013-08-31-topic-modeling-with-r/">
+  <meta property="og:title" content="使用R做主题模型：词语筛选和主题数量确定 | Cheng-Jun Wang">
+  <meta property="og:description" content="">
+  <meta property="og:locale" content="zh-cn">
+  
+  <meta property="article:published_time" content="2013-08-31T00:00:00&#43;00:00">
+  
+  <meta property="article:modified_time" content="2013-08-31T00:00:00&#43;00:00">
+  
+
+  
+
+  <title>使用R做主题模型：词语筛选和主题数量确定 | Cheng-Jun Wang</title>
+
+</head>
+<body id="top" data-spy="scroll" data-target="#navbar-main" data-offset="71">
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navbar-main">
+  <div class="container">
+
+    
+    <div class="navbar-header">
+      
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+              data-target=".navbar-collapse" aria-expanded="false">
+        <span class="sr-only">切换导航</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      
+      <a class="navbar-brand" href="/zh/">Cheng-Jun Wang</a>
+    </div>
+
+    
+    <div class="collapse navbar-collapse">
+
+      
+      <ul class="nav navbar-nav navbar-right">
+        
+
+        
+
+        <li class="nav-item">
+          <a href="/zh/#about">
+            
+            <span>关于</span>
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        <li class="nav-item">
+          <a href="/zh/#posts">
+            
+            <span>新闻</span>
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        <li class="nav-item">
+          <a href="/zh/#teaching">
+            
+            <span>教学</span>
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        <li class="nav-item">
+          <a href="/zh/#projects">
+            
+            <span>项目</span>
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        <li class="nav-item">
+          <a href="/zh/#contact">
+            
+            <span>联系</span>
+          </a>
+        </li>
+
+        
+        
+
+        
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+<article class="article" itemscope itemtype="http://schema.org/Article">
+
+  
+
+
+  
+
+
+<div class="col-sm-2 col-sm-offset-1 doc-sidebar right">
+
+	<div id="sidebar">
+	<div class="sidebar-module">
+		<div class="sidebar-toc">
+			<h4 class="sidebar-heading">Table of Contents</h4>
+			
+			<nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#1-筛选单词">1. 筛选单词</a></li>
+<li><a href="#2-确定主题数量">2. 确定主题数量</a></li>
+</ul></li>
+</ul>
+</nav>
+		</div>
+	</div>
+	
+	</div>
+
+</div>
+
+
+
+  <div class="article-container">
+    <div class="article-inner">
+      <h1 itemprop="name">使用R做主题模型：词语筛选和主题数量确定</h1>
+
+      
+
+<div class="article-metadata">
+
+  <span class="article-date">
+    
+    <time datetime="2013-08-31 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+      2013-08-31
+    </time>
+  </span>
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    3 分钟阅读时间
+  </span>
+  
+
+  
+  
+
+  
+
+  
+  
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    <li>
+      <a class="twitter"
+         href="https://twitter.com/intent/tweet?text=%e4%bd%bf%e7%94%a8R%e5%81%9a%e4%b8%bb%e9%a2%98%e6%a8%a1%e5%9e%8b%ef%bc%9a%e8%af%8d%e8%af%ad%e7%ad%9b%e9%80%89%e5%92%8c%e4%b8%bb%e9%a2%98%e6%95%b0%e9%87%8f%e7%a1%ae%e5%ae%9a&amp;url=https%3a%2f%2fchengjunwang.com%2fzh%2fpost%2fcn%2fcn_archive%2f2013-08-31-topic-modeling-with-r%2f"
+         target="_blank" rel="noopener">
+        <i class="fa fa-twitter"></i>
+      </a>
+    </li>
+    <li>
+      <a class="facebook"
+         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fchengjunwang.com%2fzh%2fpost%2fcn%2fcn_archive%2f2013-08-31-topic-modeling-with-r%2f"
+         target="_blank" rel="noopener">
+        <i class="fa fa-facebook"></i>
+      </a>
+    </li>
+    <li>
+      <a class="linkedin"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fchengjunwang.com%2fzh%2fpost%2fcn%2fcn_archive%2f2013-08-31-topic-modeling-with-r%2f&amp;title=%e4%bd%bf%e7%94%a8R%e5%81%9a%e4%b8%bb%e9%a2%98%e6%a8%a1%e5%9e%8b%ef%bc%9a%e8%af%8d%e8%af%ad%e7%ad%9b%e9%80%89%e5%92%8c%e4%b8%bb%e9%a2%98%e6%95%b0%e9%87%8f%e7%a1%ae%e5%ae%9a"
+         target="_blank" rel="noopener">
+        <i class="fa fa-linkedin"></i>
+      </a>
+    </li>
+    <li>
+      <a class="weibo"
+         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2fchengjunwang.com%2fzh%2fpost%2fcn%2fcn_archive%2f2013-08-31-topic-modeling-with-r%2f&amp;title=%e4%bd%bf%e7%94%a8R%e5%81%9a%e4%b8%bb%e9%a2%98%e6%a8%a1%e5%9e%8b%ef%bc%9a%e8%af%8d%e8%af%ad%e7%ad%9b%e9%80%89%e5%92%8c%e4%b8%bb%e9%a2%98%e6%95%b0%e9%87%8f%e7%a1%ae%e5%ae%9a"
+         target="_blank" rel="noopener">
+        <i class="fa fa-weibo"></i>
+      </a>
+    </li>
+    <li>
+      <a class="email"
+         href="mailto:?subject=%e4%bd%bf%e7%94%a8R%e5%81%9a%e4%b8%bb%e9%a2%98%e6%a8%a1%e5%9e%8b%ef%bc%9a%e8%af%8d%e8%af%ad%e7%ad%9b%e9%80%89%e5%92%8c%e4%b8%bb%e9%a2%98%e6%95%b0%e9%87%8f%e7%a1%ae%e5%ae%9a&amp;body=https%3a%2f%2fchengjunwang.com%2fzh%2fpost%2fcn%2fcn_archive%2f2013-08-31-topic-modeling-with-r%2f">
+        <i class="fa fa-envelope"></i>
+      </a>
+    </li>
+  </ul>
+</div>
+
+
+  
+
+</div>
+
+
+      <div class="article-style" itemprop="articleBody">
+        <p></p>
+
+<h2 id="1-筛选单词">1. 筛选单词</h2>
+
+<p>在数据清理（pre-processing）之后，需要对数据进行适当筛选。对数据的筛选包括至少两个步骤：</p>
+
+<p>第一步，在DocumentTermMatrix中设定</p>
+
+<p>使用R的topicmodels发现设定在DocumentTermMatrix里的约束条件失效，解决方法<a href="http://stackoverflow.com/questions/13366897/r-documenttermmatrix-control-list-not-working" target="_blank">在此</a>，其实在topicmodels的包里也粗略提及，只是用习惯了tm包的人觉得二者是无缝对接的。其实还很多差异，比如在tm里相似功能称之为TermDocumentMatrix</p>
+
+<pre><code>dtm &lt;- DocumentTermMatrix(corpus, control = list(stemming = TRUE,  
+                                                 stopwords = TRUE,
+                                                 wordLengths=c(4, 15),
+                                                 bounds = list(global = c(5,Inf)), # each term appears in at least 5 docs
+                                                 removeNumbers = TRUE,
+                                                 removePunctuation  = list(preserve_intra_word_dashes = FALSE)
+                                                 #,encoding = &quot;UTF-8&quot;
+                                                 )
+                         )
+
+
+colnames(dtm)   ##  inspect all the words for errors
+dim(dtm)
+</code></pre>
+
+<p>{:lang=&ldquo;ruby&rdquo;}</p>
+
+<p>第二步，通过tf-idf和col_sums选择高频词</p>
+
+<p>这背后的逻辑在于主题模型是要对文本进行分类，频次较少的词的贡献并不大。但会显著的占用计算资源。</p>
+
+<pre><code>term_tfidf &lt;-tapply(dtm$v/row_sums(dtm)[dtm$i], dtm$j, mean) * log2(nDocs(dtm)/col_sums(dtm &gt; 0))
+
+l1=term_tfidf &gt;= quantile(term_tfidf, 0.1)       # fix this!
+dtm &lt;- dtm[,l1]
+l2=col_sums(dtm) &gt;= quantile(col_sums(dtm), 0.1)  # fix this!
+dtm &lt;- dtm[,l2]
+
+dtm = dtm[row_sums(dtm)&gt;0, ]; dim(dtm) # 2246 6210
+range(col_sums(dtm))
+</code></pre>
+
+<p>{:lang=&ldquo;ruby&rdquo;}</p>
+
+<h2 id="2-确定主题数量">2. 确定主题数量</h2>
+
+<p>在对单个词进行筛选之后，就可以正式进行主题模型的设定了。这是一步非常耗时间的工作，但第一步当然是理解主题模型的基本思路。</p>
+
+<p>主题模型是在概率潜在语义分析（probabilistic latent semanticanalysis，PLSI）的基础上发展起来的。从对矩阵进行因子分解的角度而言，可以看做是对离散数据进行主成分分析。其具体内容可以参见Blei发表在Communication of ACM上的<a href="http://cacm.acm.org/magazines/2012/4/147361-probabilistic-topic-models/fulltext" target="_blank">文献回顾文章</a>（Blei(2012) Probalistic topic models. Communication of ACM, 55, 77-84）。</p>
+
+<p>简而言之，我们看到是单词在文本中的分布。1. 我们认为在单词和文本之间存在潜在的主题，并且每个主题$$β<em>{1:K}$$可以表达为一些词语在这个文本里的分布；2. 一篇文章可能对应多个主题，假设我们已经知道了存在哪些主题，那么一个主题在一个文本中的比例$$θ</em>{d:k}$$也应该知道；3. 我们将主题和词语对应起来，建立一个映射$$z<em>{d:n}$$，这样我们就知道把文章d中的第n个词赋给哪个主题；4.但实际上前三步都是不能直接观察到的，之间看到的就是词语在文本中的分布$$w</em>{d:n}$$ ，例如文本d当中第n个词语是什么，即词在文本中的分布。</p>
+
+<p>前三个隐变量和第四个先变量之间的联合分布（joint distribution）就是主题生成的过程，这个过程还可以使用概率图模型的方法进行建模。如下图所示：</p>
+
+<p><img src="http://farm4.staticflickr.com/3756/9634040055_1bdc1c8013.jpg" alt="" /></p>
+
+<p>其主要逻辑是机器学习的思路：给定了可以观察到的词语在文本中的分布$$w_{d:n}$$，主题结构可以表达为一个条件分布：$$p(\beta _{1:K},\theta <em>{1:D},z</em>{1:D} \mid w_{1:D})$$。这是后验分布的分析思路。因为可能的主题结构太多，这个后验分布无法计算出来，而主题模型的主要目的也只是逼近这个后验分布。</p>
+
+<p>通常逼近这个后验分布的方法可以分为两类：1. 变异算法（variational algorithms）,这是一种决定论式的方法。变异式算法假设一些参数分布，并根据这些理想中的分布与后验的数据相比较，并从中找到最接近的。由此，将一个估计问题转化为最优化问题。最主要的算法是变异式的期望最大化算法(variational expectation-maximization，VEM)。这个方法是最主要使用的方法。在R软件的tomicmodels包中被重点使用。 2. 基于抽样的算法。抽样的算法，如吉布斯抽样（gibbs sampling）主要是构造一个马尔科夫链，从后验的实证的分布中抽取一些样本，以之估计后验分布。吉布斯抽样的方法在R软件的lda包中广泛使用。</p>
+
+<p>常用的主题模型是LDA, 可以使用VEM和gibbs两种方法估计。之后的模型的发展，主要是要放松严格的模型假设，其中之一是允许主题之间存在相关。由此Blei等人提出了相关的主题模型（correalted topic model，CTM），可以使用VEM方法估计。在本文当中，我们采用CTM为例。</p>
+
+<pre><code>fold_num = 10
+kv_num = c(5, 10*c(1:5, 10))
+seed_num = 2003
+
+
+smp&lt;-function(cross=fold_num,n,seed)
+{
+  set.seed(seed)
+  dd=list()
+  aa0=sample(rep(1:cross,ceiling(n/cross))[1:n],n)
+  for (i in 1:cross) dd[[i]]=(1:n)[aa0==i]
+  return(dd)
+}
+
+selectK&lt;-function(dtm,kv=kv_num,SEED=seed_num,cross=fold_num,sp) # change 60 to 15
+{
+  per_ctm=NULL
+  log_ctm=NULL
+  for (k in kv)
+  {
+    per=NULL
+    loglik=NULL
+    for (i in 1:3)  #only run for 3 replications#
+    {
+      cat(&quot;R is running for&quot;, &quot;topic&quot;, k, &quot;fold&quot;, i,
+          as.character(as.POSIXlt(Sys.time(), &quot;Asia/Shanghai&quot;)),&quot;\n&quot;)
+      te=sp[[i]]
+      tr=setdiff(1:nrow(dtm),te)
+
+      # VEM = LDA(dtm[tr, ], k = k, control = list(seed = SEED)),
+      # VEM_fixed = LDA(dtm[tr,], k = k, control = list(estimate.alpha = FALSE, seed = SEED)),
+
+      CTM = CTM(dtm[tr,], k = k,
+                control = list(seed = SEED, var = list(tol = 10^-4), em = list(tol = 10^-3)))  
+
+      # Gibbs = LDA(dtm[tr,], k = k, method = &quot;Gibbs&quot;,
+      # control = list(seed = SEED, burnin = 1000,thin = 100, iter = 1000))
+
+      per=c(per,perplexity(CTM,newdata=dtm[te,]))
+      loglik=c(loglik,logLik(CTM,newdata=dtm[te,]))
+    }
+    per_ctm=rbind(per_ctm,per)
+    log_ctm=rbind(log_ctm,loglik)
+  }
+  return(list(perplex=per_ctm,loglik=log_ctm))
+}
+
+sp=smp(n=nrow(dtm),seed=seed_num)
+
+system.time((ctmK=selectK(dtm=dtm,kv=kv_num,SEED=seed_num,cross=fold_num,sp=sp)))
+
+## plot the perplexity
+
+m_per=apply(ctmK[[1]],1,mean)
+m_log=apply(ctmK[[2]],1,mean)
+
+k=c(kv_num)
+df = ctmK[[1]]  # perplexity matrix
+matplot(k, df, type = c(&quot;b&quot;), xlab = &quot;Number of topics&quot;,
+        ylab = &quot;Perplexity&quot;, pch=1:5,col = 1, main = '')       
+legend(&quot;bottomright&quot;, legend = paste(&quot;fold&quot;, 1:5), col=1, pch=1:5)
+</code></pre>
+
+<p>{:lang=&ldquo;ruby&rdquo;}</p>
+
+<p>有趣的是计算时间：</p>
+
+<pre><code>&gt; system.time((ctmK=selectK(dtm=dtm,kv=kv_num,SEED=seed_num,cross=fold_num,sp=sp)))
+R is running for topic 5 fold 1 2013-08-31 18:26:32
+R is running for topic 5 fold 2 2013-08-31 18:26:39
+R is running for topic 5 fold 3 2013-08-31 18:26:45
+R is running for topic 10 fold 1 2013-08-31 18:26:50
+R is running for topic 10 fold 2 2013-08-31 18:27:14
+R is running for topic 10 fold 3 2013-08-31 18:27:36
+R is running for topic 20 fold 1 2013-08-31 18:27:57
+R is running for topic 20 fold 2 2013-08-31 18:29:42
+R is running for topic 20 fold 3 2013-08-31 18:32:00
+R is running for topic 30 fold 1 2013-08-31 18:33:42
+R is running for topic 30 fold 2 2013-08-31 18:37:39
+R is running for topic 30 fold 3 2013-08-31 18:45:46
+R is running for topic 40 fold 1 2013-08-31 18:52:52
+R is running for topic 40 fold 2 2013-08-31 18:57:26
+R is running for topic 40 fold 3 2013-08-31 19:00:31
+R is running for topic 50 fold 1 2013-08-31 19:03:47
+R is running for topic 50 fold 2 2013-08-31 19:04:02
+R is running for topic 50 fold 3 2013-08-31 19:04:52
+R is running for topic 100 fold 1 2013-08-31 19:05:42
+R is running for topic 100 fold 2 2013-08-31 19:06:05
+R is running for topic 100 fold 3 2013-08-31 19:06:28
+   user  system elapsed
+2417.801.13 2419.28
+</code></pre>
+
+<p>{:lang=&ldquo;ruby&rdquo;}</p>
+
+<p>看一下最终绘制的perplexity的图，如下可见，在本例当中，当主题数量为30的时候，perplexity最小，模型的最大似然率最高，由此确定主题数量为30。</p>
+
+<p><img src="http://farm8.staticflickr.com/7290/9633619385_13a1472d1b.jpg" alt="" /></p>
+      </div>
+
+      
+
+    </div>
+  </div>
+
+</article>
+
+
+
+
+
+
+<div class="article-container">
+  
+
+</div>
+
+<footer class="site-footer">
+  <div class="container">
+    <p class="powered-by">
+
+      &copy; 2016 Cheng-Jun Wang &middot; 
+
+      Powered by the
+      <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+      <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+      <span class="pull-right" aria-hidden="true">
+        <a href="#" id="back_to_top">
+          <span class="button_icon">
+            <i class="fa fa-chevron-up fa-2x"></i>
+          </span>
+        </a>
+      </span>
+
+    </p>
+  </div>
+</footer>
+
+
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close btn-large" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">引用</h4>
+      </div>
+      <div>
+        <pre><code class="modal-body tex"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-primary btn-outline js-copy-cite" href="#" target="_blank">
+          <i class="fa fa-copy"></i> 复制
+        </a>
+        <a class="btn btn-primary btn-outline js-download-cite" href="#" target="_blank">
+          <i class="fa fa-download"></i> 下载
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+
+    
+    
+
+    
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" integrity="sha512-3P8rXCuGJdNZOnUx/03c1jOTnMn3rP63nBip5gOP2qmUh5YAdVAvFZ1E+QLZZbC1rtMrQb+mah3AfYW11RUrWA==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.3/imagesloaded.pkgd.min.js" integrity="sha512-umsR78NN0D23AzgoZ11K7raBD+R6hqKojyBZs1w8WvYlsI+QuKRGBx3LFCwhatzBunCjDuJpDHwxD13sLMbpRA==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha512-iztkobsvnjKfAtTNdHkGVjAYTrrtlC7mGp/54c40wowO7LhURYl3gVzzcEqGl/qKXQltJ2HwMrdLcNUdo+N/RQ==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.4/isotope.pkgd.min.js" integrity="sha512-VDBOIlDbuC4VWxGJNmuFRQ0Li0SKkDpmGyuhAG5LTDLd/dJ/S0WMVxriR2Y+CyPL5gzjpN4f/6iqWVBJlht0tQ==" crossorigin="anonymous"></script>
+    
+    
+    <script src="/js/hugo-academic.js"></script>
+    
+
+    
+    
+      
+      
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" integrity="sha256-/BfiIkHlHoVihZdc6TFuj7MmJ0TWcWsMXkeDFwhi0zw=" crossorigin="anonymous"></script>
+      
+
+      
+
+      
+
+      <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+
+  </body>
+</html>
+

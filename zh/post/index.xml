@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Academic</title>
+    <title>Posts on Cheng-Jun Wang</title>
     <link>https://chengjunwang.com/zh/post/</link>
-    <description>Recent content in Posts on Academic</description>
+    <description>Recent content in Posts on Cheng-Jun Wang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>&amp;copy; 2016 Cheng-Jun Wang</copyright>
@@ -14,10 +14,10 @@
     
     <item>
       <title>2017年“大事记”</title>
-      <link>https://chengjunwang.com/zh/post/news2017/</link>
+      <link>https://chengjunwang.com/zh/post/post_archive/news2017/</link>
       <pubDate>Thu, 28 Dec 2017 14:32:07 +0800</pubDate>
       
-      <guid>https://chengjunwang.com/zh/post/news2017/</guid>
+      <guid>https://chengjunwang.com/zh/post/post_archive/news2017/</guid>
       <description>计算传播2017非毕业班的同学们：我8月8日登陆教务处系统录入成绩，发现系统暂时关闭了成绩录入；联系教务处（025-89682303）回复说因为系统原因，我需要开学后才能给你们录入成绩。
 https://github.com/computational-class/cc2017/issues/4
 SUNBELT2017社会网络分析国际研讨会 2017年6月4日上午，实验中心成员王成军在北京参加了2017年XXXV|| International Network for Social Network Analysis Conference 社会网络分析国际研讨会及第十三届中国社会学会社会网与社会资本研究专业委员会年会，发表论文Leveraging the Flow of Collective Attention for Computational Communication Research，并主持社会网络与计算传播学分论坛第二场。
@@ -28,11 +28,95 @@ SUNBELT2017社会网络分析国际研讨会 2017年6月4日上午，实验中�
     </item>
     
     <item>
+      <title>2017年社科项目进展</title>
+      <link>https://chengjunwang.com/zh/post/cn/2017-11-25-cn-project/</link>
+      <pubDate>Sat, 25 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://chengjunwang.com/zh/post/cn/2017-11-25-cn-project/</guid>
+      <description> 文献综述：采用引文分析等方法系统整理舆论扩散研究领域的论文和成果。尤其是针对舆论扩散的讨论模型进行了系统的总结，从参与者、议题、行动三个维度刻画了舆论扩散的过程。 数据获取：基本完成数据收集方案，获取1千万新浪微博用户的数据信息，建立新浪微博舆论扩散数据库；收集了占领华尔街这一主题的推特数据库；收集了Digg新闻扩散数据库。 数据分析：对这个数据进行数据清洗、分析，按照门槛模型、扩散深度等概念的要求，从多个维度对舆论扩散数据进行测量。一、尝试采用网路科学分析方法，文本挖掘的方法挖掘微博信息扩散的网络门槛与扩散规模之间的关系，发现扩散深度对于网络门槛影响的调节作用。二、对于占领华尔街的推特数据，从时间序列分析方法对数据进行分析和挖掘，有针对性地提取了舆论的讨论模型的三要素：参与者、议题、行动，建立了结构化贝叶斯模型，分析了三者对于舆论演化的整体影响；三、针对Digg数据，从注意力流动网络的角度刻画了新闻舆论扩散的过程； 整理了现阶段的研究成果，发表了一系列相关的论文，其中包括五篇英文论文和三篇中文论文，以及多篇会议论文。 经费使用：主要用于会议、差旅和少数办公用品，共花费18735元。  </description>
+    </item>
+    
+    <item>
+      <title>2017年黑客马拉松之turkserver</title>
+      <link>https://chengjunwang.com/zh/post/cn/2017-12-14-turkserver/</link>
+      <pubDate>Sun, 29 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://chengjunwang.com/zh/post/cn/2017-12-14-turkserver/</guid>
+      <description>turkserver
+http://turkserver.readthedocs.io/
+Tutorials：quick start http://turkserver.readthedocs.io/en/latest/quick-start.html
+TurkServer/tutorial https://github.com/TurkServer/tutorial
+ install meteor sign up AWS Account, get the id and secret.  浏览器歧视: - 一个可以打开 http://localhost:3000/experiment - 另一个打开 http://localhost:3000/turkserver
+Oops, looks like there&amp;rsquo;s no route on the client or the server for url: &amp;ldquo;http://localhost:3000/mturk/externalSubmit.&amp;quot;
+mlab https://mlab.com/
+azure https://portal.azure.cn/
+ chengjunwang@chengjunwang.partner.onmschina.cn Datalab2017  error chengjuns-MacBook-Pro:server chengjun$ MONGO_URL=mongodb://localhost:27017/test PORT=3000 ROOT_URL=http://localhost:3000 npm start
+ meteor-dev-bundle@0.0.0 start /Users/chengjun/GitHub/tutorial/.demeteorized/bundle/programs/server node ../../main
+ /Users/chengjun/GitHub/tutorial/.demeteorized/bundle/programs/server/node_modules/fibers/future.js:313 throw(ex); ^
+Error: failed to connect to [localhost:27017] at Object.</description>
+    </item>
+    
+    <item>
+      <title>中国大百科：计算传播学</title>
+      <link>https://chengjunwang.com/zh/post/cn/2017-10-29-ccr/</link>
+      <pubDate>Sun, 29 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://chengjunwang.com/zh/post/cn/2017-10-29-ccr/</guid>
+      <description>中文名称：计算传播学 拼音：jisuan chuanbo
+ 外文名称：Computational Communication Research  基本概念条（长）
+1. 定义和定性叙述 计算传播学是计算社会科学一个重要分支，它主要关注人类传播行为可计算的基础问题，以传播网络分析、传播文本挖掘、数据科学等作为主要的分析工具，大规模地收集并分析人类传播行为背后的模式或法则，并分析模式背后的生成机制以及基本原理，可以被广泛地应用到新闻学研究、 数据新闻和计算广告等场景。狭义的计算传播是指数据驱动的、借助于可算方法所进行的传播过程，而分析计算传播现象的研究领域就是计算传播学。
+2. 名称来源、又名 计算传播学（英文：computational communication research）起源于计算社会科学（英文：computational social science）。2009年，Lazer等一批社会科学家、计算机科学家和物理学家在《科学》杂志上发表题为 “网络中的生活:计算社会科学时代的到来”的论文，宣告计算社会科学的诞生，提出发展计算 社会科学的主要逻辑在于我们就生活在网络之中，例如发邮件、打电话、在线支付。这些网络化的行为以数字化痕迹的方式被记录下来。计算社会科学是一个正在涌现的研究领域，强调采用计算方法研究社会科学，在利用人类社会不断增强的数据收集和分析能力方面。21世纪是计算社会科学的时代。计算社会科学具备前所未有的广度、深度和规模，为研究者提供了一个理解复杂社会系统的崭新机会。毫无疑问，采用可算方法、基于大规模的互联网上的人类传播行为数据为代表的传播学研究属于计算社会科学这一研究传统。
+3. 概念形成过程 计算传播学的概念起源于是计算社会科学的发展。计算社会科学以分析社会系统的复杂性作为主要研究范式。社会系统作为一个复杂系统，本身包含了多重本体以及他们之间众多的联系，既有从微观到宏观的联系，也有从宏观到微观的影 响，这造就了社会现象所特有的复杂性。计算社会科学研究主要关注复杂社会系统中的社会现象、社会行为、社会 组织的涌现，例如居住隔离、合作、互惠、社会规范、市场、国家。计算社会科学中的“涌现” 往往表现为一种群体智慧，它是通过海量的异质性个体之间的互动而在群体层面出现的结果。作为一种崭新的研究范式，计算社会科学从数据基础和计算方法两个层面丰富了人们对于 社会现象的认识。 互联网上的人类传播行为是驱动计算社会科学发展的一个主要动力。与自然科学相比，社会现象卷入了海量的异质性个体的互动行为，因而异常复杂并且难以预测。通常社会科学研究的数据往往是用户报告的、静态的、小规模数据。互联网行为数据和大规模的互联网实验却提供了另外一种可能性。邓肯•瓦茨认为互联网传播数据将会变革我们对于群体人类行为的理解，并产生了一种新的社会科学，邓肯•瓦茨称之为“二十一世纪的科学”，也就是后来广为人知的“计算社会科学”。
+Shah等人曾提出目前社交数据多为传播文本数据，并且与图形数据和视频数据相比，传播文本数据相对容易分析，因而计算社会科学将 传播文本数据作为关注焦点之一，并认为这意味着计算传播学(computational communication science)的兴起。Cohen等人2011年就提出采用计算机科学技术发展新闻学的主张。发展计算传播学研究已经成为计算社会科学在新闻传播领域主要工作。2014年祝建华等人回顾和讨论了计算社会科学在新闻传播领域的应用，按照经典的5W模型，系统介绍了计算社会科学在传播者、渠道、受众、内容、效果 五个领域的主要应用案例;(祝建华等，2014:p.3-13)。2014年，计算传播学作为一个正式的研究领域被提出，王成军从计算社会科学的视角论述了计算传播学的理论框架，强调了寻找人类传播行为“可计算的基因”作为计算传播学发展的基础，以传播网络分析和传播文本挖掘作为主要的研究方法。2015年第一本计算传播学相关的图书《社交网络上的计算传播学》出版，这本书系统总结了采用计算传播学的视角进行社交网络研究的方法、理论和进展。2015年，南京大学成立了计算传播学实验中心，2016年第一届计算传播学论坛召开。计算传播学研究社群的涌现及其建制化发展有助于建立身份认同、促进科研合作、增强 学科间对话、运用群体智慧解决现实和理论问题。
+4. 基本内容 一、计算传播学的定义首先强调的的人类传播行为可计算的基础。人类的传播行为、传播过程和传播技术构建了一种社会复杂系统。海量的数据和不断提升的计算能力为回答人类传播学的可计算性问题提供了重要条件。以新闻扩散研究为例， 1945年Miller 在《美国社会学评论》发表题为“一个大众传播研究笔记:我们的社区怎样知道罗斯福总统的 死讯”一文。这一研究传统经历了由盛到衰，直到社交媒体发展起来又重新复兴的过程。新闻扩散研究主要关注人们通过何种渠道获知新闻，尤其是社交和(大众)媒体在其中所扮演的角色。其中，以 Greenberg的研究最为精彩，他发现社交作用与新闻扩散规模之间存在“J”形曲线关系，即对于一些小的新闻事件，社交影响与扩散规模呈反比(可能主要靠媒体传播);对于重大的新闻，社交作用则可以促进新闻扩散。然而受到传统研究方式的限制， 研究者只能采用调查问卷的方式请受访者回忆并填写相应情况，所研究的议题也往往是总统遇 刺等突发新闻事件(往往需要被动地组织研究)，因而无论所选取的新闻事件的数量还是受访者的数量均有限，这在很大程度上限制了这一研究传统。而计算社会科学的方法和工具则可以 帮助新闻扩散研究突破选题和样本的限制。王成军利用新浪微博上的大规模信息扩散数据，采用网络门槛来度量社交影响。网络门槛起源于格兰诺维特所提出的门槛理论。门槛理论假设个体是否参加某种行为的决定主要取决于他或她的朋友参与的比例。该研究验证了“J”形曲线理论;并且发现信息扩散的深度可以调节社交作用的影响，那些扩散深度低的信息往往是局部社区的信息(无法穿透社区的束缚)，社交作用(以网络门槛度量)将限制它的扩散，例如传播一个普通人生日信息的人往往 是他或她最亲密的朋友，社交作用很强，但扩散规模很小。
+二、计算传播学强调了对海量数据的收集、分析和挖掘。驱动计算传播的数据主要来自人类使用数字媒体时记录下来的数字痕迹或数字指纹。例如，当我们通过有线电视观看电视节目的时候、通过手机打电话的时候、通过互联网使用社交网站的时候，我们的行为都会被数字媒体详细地记录下来。这些海量的人类传播行为数据和媒体使用记录的数据构成了采用计算方法研究人类传播行为的基础。
+三、计算传播学强调对于基于数据的清洗、分析、挖掘等计算的过程。恰如伽利略通过自己改进的天文望远镜研究天文学，计算传播学主张利用强大的计算工具研究社会问题，例如自动化信息提取、网络分析、地理空间分析、复杂性模型、社会模拟模型等。在传统的内容分析中，需要编码员人工识别文本中的信息，采用文本挖掘的方法，可以自动地提取社会事件的属性，如事件、地点、参与者、文本的主题、文本的情感等。
+四、计算传播学强调了将大问题、大理论和大数据相结合。驱动计算传播学发展的主要力量来源于人类传播行为当中的重大问题，发展计算传播研究有助于解决新闻产业变革过程中发现的理论问题和实际困惑。就理论视角而言，计算传播学更加倾向于从复杂性的角度看待传播行为和传播过程。这种复杂性的思维方式需要研究者具备对复杂系统分析的能力和方法。值得注意的是，2017年瓦茨再次发表多篇反思计算社会科学的文章，提倡计算社会科学应该更加强调以寻找 解决方案为导向(solution-oriented)，因为社会科学存在太多的相互之间不一致的理论，而这些理论往往不能很容易地验证。寻找解决方案为导向对于新闻产业非常有价值，以新闻推荐系统为例(比如今日头 条)，如何实现更为精准的新闻推荐亟需寻找更加有价值的视角、方法和理论，可以预见经过新闻传播产业检验的理论也将具有更强的解释力和预测力。
+五、计算传播学强调了计算社会科学在理论建构方面所追求的抽象阶梯，即一个好的研究必须是重大的社会问题驱动的，并且能够找到好的数据作为支撑(第一个阶梯);要能够从数据当中挖掘出行为的模式 (第二个阶梯);最好可以阐明模式背后对应的机制(第三个阶梯);并尝试理解背后的基本原理(第四个阶梯，往往难以企及)。从数据、模式、机制、原理这样一个不断提高的抽象的阶梯，可以衡量不同的研究所处的状态和水平，为衡量计算传播学的研究提供了一个基本的标准。
+5. 意义和影响 计算传播的应用有很多，例如数据新闻、计算广告、媒体推荐系统等。计算传播学在过去的几年里，产生了深远的影响。数据新闻风靡全球，重要的国际媒体纷纷采用数据新闻，基于开放数据、数据挖掘与可视化的方式为公众提供信息和经过数据分析所发现的知识；不管是门户网站、搜索引擎、社交媒体，纷纷将计算广告作为数据变现的重要渠道，以计算方法对广告进行拍卖，实现媒体、用户、广告主三方利益的匹配；媒体推荐系统成为个性化的信息获取途径，不管是传统的社交新闻网站，还是今日头条等后起之秀，纷纷采用协同过滤的方式为用户提供信息。
+6. 参考文献 Watts, D.J., &amp;ldquo;A twenty-first century science,&amp;rdquo; Nature 445 (127) (2007):p.</description>
+    </item>
+    
+    <item>
+      <title>后记</title>
+      <link>https://chengjunwang.com/zh/post/cn/2017-12-05-backwords/</link>
+      <pubDate>Sun, 29 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://chengjunwang.com/zh/post/cn/2017-12-05-backwords/</guid>
+      <description>2010年9月，我作为博士生进入到香港城市大学互联网挖掘实验室以来，切身感受到了传播学研究者在互联网时代的身份焦虑。1998年邓肯-瓦茨关于小世界网络的模型和1999年阿尔伯特-巴拉巴西关于幂律和无标度网络的研究复兴了网络科学。一石激起千层浪，在学术领域产生了深远的影响。对于万维网上的人类行为的研究也形成了一个子领域，被称之为万维网科学(Web Science);伴随着社交媒体等数字媒体的发展，对于社会学而言，社会网络分析开始受到前所未有的重视，对于传播学而言，社交网络上的信息流动网络研究也引起广泛的兴趣；与此同时，机器学习和数据科学取得了突飞猛进的发展，进一步加速了计算化的浪潮；在新闻传播产业当中，数据驱动的新闻生产、计算广告和媒体推荐系统开始成为席卷世界的潮流。面对海量的互联网数据、持续困扰人类的重大社会问题、崭新的理论视角、诱人的物理学模型，在世界大战中发展起来的新闻传播学研究会走向什么地方？这构成了困扰我们的时代问题。
+面对这些挑战，或许很多人可以做一群鸵鸟，只盯住让自己感觉舒适的领域，当危险来的时候干脆把头埋进沙子里，但是年轻人没有逃避的理由。年轻研究者必须敢于冒险，才能走出不一样的路来。计算传播学正是回应这一时代叩问的一种尝试，它也给了传播学这个领域一个革命的火种。
+“计算传播学”这个词的提出源于香港城市大学互联网挖掘实验室成员之间在2012年初的一次组会讨论。每周，祝建华老师都会组织实验室成员进行内部讨论，讨论的主要内容除了每个人的研究进展之外，还包括文献分享、经验见闻等内容。在我的印象里，在这次讨论当中，我们再一次讨论了2009年大卫-拉泽等人发表在科学杂志上的一篇文章《计算社会科学》。在这篇文章当中，来自社会科学、计算机科学、网络科学等领域的资深研究者们宣告了计算社会科学的诞生，它以大规模数据收集和数据分析作为主要的工具，采用网络科学作为主要的研究视角，力图揭示个体和群体行为的模式。2012年1月29日，我在新浪博客上写了一篇短文《计算传播学:宣言与版图》，强调了将寻找人类传播行为的可计算基因作为计算传播学的发展使命。这篇小文章首先在一个名为《数字媒体阅读报告》的小圈子里流传。 在2月14日，我在与澳大利亚国立大学的指导老师Robert Ackland的邮件通信中，我提出了我想要做计算传播方面的研究的想法。2012年2月21日-23日，林武来实验室交流，分享了关于Python编程基础、数据抓取、hadoop使用等方面的知识。应该是2月21日或者2月22日，在实验室组会上，当我们再次讨论到在计算社会科学时代，我们自己期待传播学将走向什么地方这一时代问题的时候，我再次提出了计算传播（computational communication）的思路。当天晚上，吴令飞、汪臻真、我三个人在又一城散步的时候，令飞很郑重地说应该重视计算传播学的发展，在他的提议之下，2012年2月22日计算传播学谷歌邮件组建立。2月29日吴令飞在计算传播学谷歌邮件组发了第一封邮件，分享了抓取Alexa点击流网络的Python代码；2012年3月26日，计算传播学豆瓣小站正式建立。2012年底，吴令飞在多贝上发布了一系列计算传播学课程，后来更名为计算社会科学系列课程，之后他完成新书《Data Mining in Social Science》，发布在GitBook上，可免费在线阅读或者下载PDF。
+2017年春季，在酝酿第二届计算传播学论坛暨工作坊的过程中，许小可老师、张伦老师、胡海波老师和我开始计划写一本《计算传播学导论》书。按照祝建华老师的建议，我们曾对参加了2016年第一届计算传播学论坛的研究者公开征集计算传播学工作坊的题目。经过汇总整理之后的题目包括：计算机模拟/多主体建模、社交媒体数据爬取、传播文本挖掘和主题模型分析、使用深度学习进行传播学研究、社交媒体数据的时间序列分析和空间分析、传播学研究和数据新闻的可视化方法、传播网络分析（社区识别、复杂网络与信息流动）、机器学习、意见形成、Python编程，以及如何教授新闻传播学专业的学生网络分析/数据新闻/编程。我们的想法是每年遴选两个主题组织计算传播学工作坊，系统地整理和组织工作坊教学材料，基于此形成《计算传播学导论》一书的基本材料。2017年2月22-23日，第一届计算传播学工作坊在南京大学成功举办。为期一天半，分为两个子题并行进行，分别为“信息传播的网络分析”(Network Approaches to Information Diffusion)和“文本数据处理方法”(Processing Text Data)。前者定位为高级程度，聚焦于计算传播学研究中的一个核心而又困难的题目，以探讨研究设计、理论模型、数据要求、方法选择等问题为主、操作问题为辅，适合已掌握基本方法并有一定研究经验者。后者定位为入门程度，介绍用于文本数据处理的各个步骤上的方法、工具、算法等，含有众多动手操作。这次工作坊“信息传播的网络分析”部分由张子柯和王成军主讲《网络信息传播基础》、许小可讲《网络信息传播实证研究》、胡海波和阮中远讲解《网络信息传播模型》，“文本数据处理方法”部分又张伦主讲《文本分析的基本步骤与方法》、王成军介绍《主题模型》、汪臻真主讲《情感分析》。</description>
+    </item>
+    
+    <item>
+      <title>扶贫数据</title>
+      <link>https://chengjunwang.com/zh/post/cn/2017-11-20-poverty/</link>
+      <pubDate>Sun, 29 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://chengjunwang.com/zh/post/cn/2017-11-20-poverty/</guid>
+      <description>党的十九大报告再次对打赢脱贫攻坚战作出部署，明确指出重点攻克深度贫困地区脱贫任务，确保到2020年我国现行标准下农村人口实现脱贫，贫困县全部摘帽，解决区域性整体贫困，做到脱真贫、真脱贫。
+全国6000多万贫困人口稳定脱贫，贫困发生率从10.2%下降到4%以下。精准扶贫，不仅要精准施策，而且要精准到户。
+眼下，脱贫攻坚战的主战场正在转移到深度贫困地区。今年6月份，习近平总书记在山西考察时，深刻论述了深度贫困问题。扶贫攻坚从精准扶贫到瞄准深度贫困，既是认识的深化</description>
+    </item>
+    
+    <item>
+      <title>JCR2017 for COMMUNICATION</title>
+      <link>https://chengjunwang.com/zh/post/cn/2017-09-06-jcr/</link>
+      <pubDate>Wed, 06 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://chengjunwang.com/zh/post/cn/2017-09-06-jcr/</guid>
+      <description>JCR Journal Data Filtered By: Selected JCR Year: 2016 Selected Editions: SCIE,SSCI Selected Categories: &amp;lsquo;COMMUNICATION&amp;rsquo; Selected Category Scheme: WoS
+SCI和SCIE SCI和SCIE（SCI Expanded）分别是科学引文索引及科学引文索引扩展版（即网络版），主要是收录自然科学、工程技术领域最具影响力的重要期刊，包括2000多种外围刊。
+Table    Rank Full Journal Title Total Cites Journal Impact Factor Eigenfactor Score     1 NEW MEDIA &amp;amp; SOCIETY 3,592 4.180 0.009310   2 Journal of Computer-Mediated Communication 4,011 4.113 0.005010   3 JOURNAL OF COMMUNICATION 5,579 3.914 0.008400   4 MEDIA PSYCHOLOGY 1,264 3.</description>
+    </item>
+    
+    <item>
       <title>集智俱乐部暑期研读营</title>
-      <link>https://chengjunwang.com/zh/post/swarma-summer-camp/</link>
+      <link>https://chengjunwang.com/zh/post/post_archive/swarma-summer-camp/</link>
       <pubDate>Tue, 18 Jul 2017 14:32:07 +0800</pubDate>
       
-      <guid>https://chengjunwang.com/zh/post/swarma-summer-camp/</guid>
+      <guid>https://chengjunwang.com/zh/post/post_archive/swarma-summer-camp/</guid>
       <description>今年的研读营主要由吴令飞和尤亦庄负责。吴令飞主张研读营应该解决只有研读营才能做的事情。最初大家想分组搞一些研究项目，但考虑到大家因为项目的压力，每一个人都想得是一个可以deliver的东西。虫洞和weak tie有什么关联？boltzmann machine与社会计算？ising model与图灵机：一个社会系统在做计算。就人员组成而言，主要分成了社会科学组合物理学组两大阵营。
 社科与物理两大阵营是否可以理解对方的工作？ 社科和物理两大阵营作为两个组，每个组提议五对文献，任意一对论文有一篇好的，一篇是相对差的。于是两组分别出了一套题目，仅仅给出标题和摘要。
  社会科学组出的题目
@@ -44,10 +128,10 @@ SUNBELT2017社会网络分析国际研讨会 2017年6月4日上午，实验中�
     
     <item>
       <title>Data Tech2017大赛</title>
-      <link>https://chengjunwang.com/zh/post/zjmobile/</link>
+      <link>https://chengjunwang.com/zh/post/post_archive/zjmobile/</link>
       <pubDate>Sun, 16 Jul 2017 14:32:07 +0800</pubDate>
       
-      <guid>https://chengjunwang.com/zh/post/zjmobile/</guid>
+      <guid>https://chengjunwang.com/zh/post/post_archive/zjmobile/</guid>
       <description>Data Tech2017大赛由中国移动浙江公司与浙江大数据交易中心联合主办，大赛以“数据众智美好未来”为主题，解锁运营商数据，整合气象、交通、空间等数据， 以“开放、互联”的精神激发全社会创新能量，共创美好未来。
 数据改变了人类的生活方式，从衣、食、住、行到生产生活都离不开数据的支撑。数据，让一切有迹可循，让一切有源可溯。为了挖掘数据价值、实践数据赋能，推动大众创业、万众创新，由浙江省经济和信息化委员会指导，中国移动浙江公司和浙江大数据交易中心主办的Data Tech 2017浙江大数据建模与创新应用大赛即将拉开序幕。
 本次Data Tech 2017浙江大数据建模与创新应用大赛以”数据众智美好未来”为主题，分为“模型挑战赛”和“众智创新赛”，并面向全社会开放，高等院校、科研单位、互联网企业、创客团队等人员均可报名参赛。数据集由中国移动浙江公司和浙江大数据交易中心会员单位授权提供，所有数据均以经过脱敏处理，切实保障数据安全。参赛者们利用数据分析方法，挖掘数据价值，探索数据应用，寻找真实业务问题和社会问题的解决方案。
@@ -91,34 +175,15 @@ SUNBELT2017社会网络分析国际研讨会 2017年6月4日上午，实验中�
     
     <item>
       <title>气候变迁研究：数据、调查、视角</title>
-      <link>https://chengjunwang.com/zh/post/climate-change/</link>
+      <link>https://chengjunwang.com/zh/post/post_archive/climate-change/</link>
       <pubDate>Thu, 29 Jun 2017 14:32:07 +0800</pubDate>
       
-      <guid>https://chengjunwang.com/zh/post/climate-change/</guid>
+      <guid>https://chengjunwang.com/zh/post/post_archive/climate-change/</guid>
       <description>Data for Climate Change Big data has big potential for applications to climate change adaptation. PNAS 2016 http://www.dataforclimateaction.org/home/data/
  Anonymized records of cell-phone use could in principle enable the large-scale tracing of people’s movements in the wake of a climate change-related disaster. Image courtesy of Shutterstock/Athi Aachawaradt.
   GlobeScan pew 马里兰大学世界公共舆论 WPO http://worldpublicopinion.net PIPA 世界银行 盖洛普 BBC NSEE 欧盟民意委员会 美国气候地图  人口迁移、极端气候、青藏高原、西北地区
 中国气候指数 中国气候指数系列分为年度和月度指数,包括雨涝、干旱、台风、高温、低温冰冻五类指数,以及在此基础上合成的中国气候风险指数。以中国气候风险指数为例,风险等级从低至高分为0到10。1981年至2016年,中国气候风险指数平均值为4.19。对比1999年前后的平均值就可明显看出,风险指数从3.69上升为4.69,气候风险呈逐步增加趋势。 http://news.sciencenet.cn/htmlnews/2017/3/370039.shtm
 环保部 - 工作简报内容分析</description>
-    </item>
-    
-    <item>
-      <title>社会行为研究在线实验平台</title>
-      <link>https://chengjunwang.com/zh/post/2017-6-24-turk/</link>
-      <pubDate>Sat, 24 Jun 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://chengjunwang.com/zh/post/2017-6-24-turk/</guid>
-      <description> 实验法 实验研究方法是由伽利略所发明的一种研究方法，成为了自然科学和社会科学研究最为重要的工具。自然科学取得了辉煌的研究成果，以物理学为例，主要的实证研究成果都来自于实验研究方法。社会科学的发展仅仅经历了不到三百年，最初主要模仿物理学的发展路径，例如，孔德最初将社会学命名为社会物理学，他认为人类社会是自然界的一个部分，人为的社会秩序通常可以看作自然秩序的延伸。然而，社会科学研究的研究对象&amp;ndash;人类具有意识、通过社会互动相互关联，构成了一种复杂系统，其复杂度远远超过自然科学，被邓肯-瓦茨称之为“二十一世纪的科学”。社会科学的实验往往局限于实验室内部，只能针对有限的人群（多为高校学生）开展实验研究，其外部效度有限，难以帮助研究者理解真实的社会和人类行为。
-问题 伴随着数据科学、网络科学的发展，采用计算方法为主的计算社会科学蓬勃发展。计算社会科学采用互联网大数据、网络科学等计算方法研究重要的社会科学问题。然而，既有的数据虽然规模巨大，但往往在很多维度上缺失，不能很好的回答因果关系、缺少控制，依然存在局限。如何针对大量的个体及其互动进行实验研究构成了互联网公司的产品经理、高校研究者共同的问题。
-问题：如何针对大量的个体及其互动进行实验研究？
-思路 基于众包的人类计算搭建“行为实验室”为解决这一问题提出了崭新的思路。通过互联网平台招募实验参与者，通过智能的程序匹配实验者、实验对象，允许实验对象在虚拟的网络环境内进行互动共同完成一个实验任务，允许实验者进行灵活的实验控制，可以较低的价格吸引更多的实验设计者和参与者。采用这一思路最成功的案例来自于亚马逊的Mechanic Turk（机械驱动的土耳其人）平台。
- 机械驱动的土耳其人（Mechanical Turk）原指18世纪一个打扮成土耳其人的机器人，曾巡回欧洲各国打败不少西洋棋高手，甚至跟名人如拿破仑或富兰克林都下过棋，后来被揭露为其实是里头藏着人的骗局。亚马逊借用这个典故，隐喻所提供的服务是一种外表提供机械性功能可是背后却是有人类智能支持。
- 来源：turkserver1
-互联网产品经理和高校研究者可以基于Mechanical Turk平台搭建虚拟实验室开展大规模的人类行为实验。虚拟实验室以这个互联网作为实验室，与传统的实验室相比，具有很多优点：
- 可以获取大规模的数据和互动关系 持续时间可以较长、对于地理位置的约束更小 可以让实验参与者开展更为现实而非抽象的简单的任务 可以实现更为精准的记录。  微软研究员科学家邓肯-瓦茨及其合作者一直致力于发展线上虚拟实验室（virtual lab），例如他们之前曾搭建music lab网站研究音乐的流行度。最近，他们借助于Mechanical Turk平台搭建了turkserver，研究发表了两篇论文，分别研究了囚徒困境 和灾难救助过程中的团队合作及其绩效 。
-Mechanic Turk与turkserver相互配合的思路为实现大量的个体及其互动进行实验研究铺平了道路。但是目前在中国的互联网产业中，还缺乏提供类似Mechanic Turk的服务，而turkserver目前也缺少进一步的开发，这是提出本研究项目的主要目标。
-目标：搭建一个简单的turkserver的扩展版，搭建一个社会行为研究在线实验平台。
-参考文献  turkserver http://turkserver.readthedocs.io/en/latest/examples/tutorial.html, 基于amazon的mechanic turk建设virtual lab ^   </description>
     </item>
     
     <item>
@@ -142,797 +207,374 @@ Mechanic Turk与turkserver相互配合的思路为实现大量的个体及其互
     
     <item>
       <title>手机用户在真实与虚拟空间中的移动</title>
-      <link>https://chengjunwang.com/zh/post/cn/2015-12-02-renormalization/</link>
+      <link>https://chengjunwang.com/zh/post/cn/cn_archive/2015-12-02-renormalization/</link>
       <pubDate>Wed, 02 Dec 2015 00:00:00 +0000</pubDate>
       
-      <guid>https://chengjunwang.com/zh/post/cn/2015-12-02-renormalization/</guid>
-      <description>思考手机用户在真实和虚拟世界的移动本身有什么价值:比较两种类型的网络结构，一个是分形的，一个是小世界的。二者之间不是完全对立的，而是可以平滑过渡的，因而可以计算从小世界到分形的连续变量的取值，即网络增长的过程中，新节点多大程度上按照小世界规则加入网络，多大程度上按照分形加入网络（Song, 2006）。
-自相似或者说分形是本研究切入的重点，分形的特点是在不同尺度上具有相同的特征，这种自相似的特征往往表现为系统特征与观测尺度之间的对应关系。一般对于分形网络而言，重整化之后的盒子数量log(N)与盒子大小log(L)之间存在无标度关系。我们确实也发现人在移动互联网站构成的网络重整化过程中，盒子数量与盒子大小之间具有这种无标度关系，但是人在现实世界的物理移动构成的网络经过重整化，其盒子数量与盒子大小之间则是指数分布。由此可见二者网络结构是如何不同的，前者接近分形，后者接近小世界。
-衡量小世界和分形的重要方法是度相关。分形意味着较强的异配性，而小世界则是同配性。正向的度相关意味着同配性和小世界，负向意味着分形。对于同配性的网络度相关通过重整化，一般会被抹平。有趣的是我们发现真实移动网络会由正变负。即当盒子比较大的时候，局部地区的同配性消失，表现出异配性。
-Song（2006）将网络增长与重整化看成一个逆过程，网络增长的过程可以看成重整化的尺度由大变小的过程。小世界网络增长的过程中，网络的平均直径L与网络中的节点数量具有对数关系，L ~ Log(N)。重整化需要的步数约等于最终网络的平均直径，例如一个直径是14的网络，大约经过14步重整化会由一个完整的网络坍缩为一个节点。在重整化过程中，所选择的盒子的大小l的取值范围约等于最终网络的平均直径range(L)。
-Hernan Makse是City College of New York的物理学教授，主要从事复杂网络的研究，他和Song Chaoming就分形网络发表了两篇重要论文(Song 2005&amp;amp;2006)。他非常注重代码和数据的分享。我一直关注的是第一作者Song和鼎鼎大名的Havlin，并没有注意到Hernan， 后来搜索实现fractal_model的python代码的时候才找到他，恍然发现他是两篇论文的通讯作者。
-在这个算法里面，主要有四个参数：世代（generation)、新增子代数量(m)、子代间新增链接的数量(x)、断开父代链接的比例(e)。每一代是一个操作过程：以这一代的每一条边为单位，该边上的两个节点a和b各自新增子代m个，其中m对子代间形成（x-1)个链接，若随机概率大于e，那么断开父代节点a和b之间的链接，同时增加一条m对子代间链接。
-generation, m, x, e = 2, 1, 1, 0 G=nx.Graph() G.add_edge(0,1) #Two seed nodes(generation 0), then add m offsprings to these seed nodes. node_index = 2 for n in range(1,generation+1): print &#39;STEP:&#39;, n, &#39;\n&#39; all_links = G.edges() while all_links: link = all_links.pop() # [(0, 1)] ----&amp;gt; (0, 1) print link new_nodes_a = range(node_index,node_index + m) print link[0], new_nodes_a #random.</description>
+      <guid>https://chengjunwang.com/zh/post/cn/cn_archive/2015-12-02-renormalization/</guid>
+      <description>&lt;p&gt;思考手机用户在真实和虚拟世界的移动本身有什么价值:比较两种类型的网络结构，一个是分形的，一个是小世界的。二者之间不是完全对立的，而是可以平滑过渡的，因而可以计算从小世界到分形的连续变量的取值，即网络增长的过程中，新节点多大程度上按照小世界规则加入网络，多大程度上按照分形加入网络（Song, 2006）。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>iching：一个用来算卦的python包</title>
-      <link>https://chengjunwang.com/zh/post/cn/2015-07-04-iching-python/</link>
+      <link>https://chengjunwang.com/zh/post/cn/cn_archive/2015-07-04-iching-python/</link>
       <pubDate>Sat, 04 Jul 2015 00:00:00 +0000</pubDate>
       
-      <guid>https://chengjunwang.com/zh/post/cn/2015-07-04-iching-python/</guid>
-      <description> </description>
+      <guid>https://chengjunwang.com/zh/post/cn/cn_archive/2015-07-04-iching-python/</guid>
+      <description>&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>打包发布python软件包</title>
-      <link>https://chengjunwang.com/zh/post/cn/2015-02-22-distribute-python-package/</link>
+      <link>https://chengjunwang.com/zh/post/cn/cn_archive/2015-02-22-distribute-python-package/</link>
       <pubDate>Sun, 22 Feb 2015 00:00:00 +0000</pubDate>
       
-      <guid>https://chengjunwang.com/zh/post/cn/2015-02-22-distribute-python-package/</guid>
-      <description>我们经常写一些程序碎片，却很少有动力把它们整合起来。前段时间写了一个爬取并可视化谷歌学术网的python程序。今天想不如把它整合一下，虽然非常简单（只有一个函数）。主要参考python官网的发布指南。
-##注册 于是首先来到pypi网站注册。
-https://pypi.python.org/pypi?%3Aaction=submit_form 记下用户名chengjun和密码W4
-##填写软件包信息 《指南》推荐直接在线填写 https://pypi.python.org/pypi?%3Aaction=submit_form
-##打包和发布工具 先要安装两个包：twine和wheel。
-pip install wheel pip install twine  ##整理项目文件夹 找项目实例（https://github.com/pypa/sampleproject）下载下来，修改其中的部分内容即可。详见指南，或者自己摸索即可。
-##打包发布 1.在window环境下，使用cmd，转换工作路径到项目文件夹。 2. 主要参考 https://github.com/pypa/twine打包发布：
-#Create some distributions in the normal way: $ python setup.py sdist bdist_wheel #Upload with twine: $ twine upload dist/*  我使用上传的时候出错（typeError），于是直接使用打包好的zip文件（在dist子文件夹当中）手工上传到pypi。注意，每次上传到pypi需要修改一次setup.py中的版本号，并重新打包才可上传。如此而已，比我想象当中要速度快得多、简单的多。
-这里是我刚刚打包发布的一个可视化谷歌学术网络的python软件包：https://pypi.python.org/pypi/scholarNetwork/</description>
+      <guid>https://chengjunwang.com/zh/post/cn/cn_archive/2015-02-22-distribute-python-package/</guid>
+      <description>&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>表达、检索、练习——写给Python的初学者</title>
-      <link>https://chengjunwang.com/zh/post/cn/2015-02-22-fresh-python/</link>
+      <link>https://chengjunwang.com/zh/post/cn/cn_archive/2015-02-22-fresh-python/</link>
       <pubDate>Sun, 22 Feb 2015 00:00:00 +0000</pubDate>
       
-      <guid>https://chengjunwang.com/zh/post/cn/2015-02-22-fresh-python/</guid>
-      <description>三年前，我写过一篇小日志，介绍如何从零开始学习R语言。后来我的工作越来越多的使用python，于是摸爬滚打自己探索了挺久的。身边也越来越多的人问起新手如何从零学习python的问题。我想练习、检索、表达这三点依旧是关键，只不过顺序稍有不同。很多人说，学习python，你来推荐一些资料吧。我想了想，资料还不是关键，关键是自身。
-##看书还是上手？ 以前我们学语言，比如C语言或者Basic语言，首先讲的都是字符、数字、列表、逻辑符等。几乎所有的编程书都会这么讲，所以很多人会觉得看书没有什么新意。不过我觉得看书还是必须的，重点就是要去掌握这些基本的东西。
-当然了，掌握这些并不能帮助我们完成手上的工作。是的，并不能！总有一些细节的地方你必须去hack现有的代码。于是乎就有了另外一种学习语言的哲学：干中学（learn by doing）。基本的逻辑就是不断摸索，硬着头皮上。这种风格非常强悍，虽然刚开始的时候容易犯非常浅显的毛病，但是却是真正学语言的不二法门。
-##表达 到底看书还是上手呢？我主张先明确自己的问题是什么。做研究的人都知道，我们往往对于自己所面临的问题并不明确。写程序、学语言也是这个样子。首先要明确地表达出来。这是表达的第一重意思。
-##检索 当你问题明确之后，就可以去检索了。去哪里检索？书中、网上，不拘于形式。重要的是解决问题。这个过程中，我们带着问题读书、上网、提问，能够培养我们独立思考的能力。
-互联网的发展，使得很多时候我们并不需要真正去创造什么，只要检索一下，总能找到好的代码，修改以下就能解决自己的问题。我觉得挺好。这符合我们学习语言的初衷。有个说法是十年学会编程，但是使用编程一个月就够了。
-既然可以看书，有什么推荐的吗？我推荐Beginning Python这本书，虽然我是从A Byte of Python开始看的。
- A Byte of Python http://book.douban.com/subject/5948760/ Beginning Python （Python 基础教程） http://book.douban.com/subject/3205338/ Hello World！Computer Programming for Kids and Other Beginners 与孩子一起学编程 http://book.douban.com/subject/5338024/ How to Think Like a Computer Scientist: Learning with Python http://book.douban.com/subject/1481058/ 21 Recipes for Mining Twitter http://book.douban.com/subject/5988563/ Mining the Social Web http://book.douban.com/subject/5391582/ Toby Segaran (2007) Programming Collective Intelligence Building Smart Web 2.0 Applications. O&amp;rsquo;Reilly Media Python公开课 中文课程 http://www.</description>
+      <guid>https://chengjunwang.com/zh/post/cn/cn_archive/2015-02-22-fresh-python/</guid>
+      <description>&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>再次尝试shinyApp</title>
-      <link>https://chengjunwang.com/zh/post/cn/2015-01-11-shinyapp/</link>
+      <link>https://chengjunwang.com/zh/post/cn/cn_archive/2015-01-11-shinyapp/</link>
       <pubDate>Sun, 11 Jan 2015 00:00:00 +0000</pubDate>
       
-      <guid>https://chengjunwang.com/zh/post/cn/2015-01-11-shinyapp/</guid>
-      <description>昨天收到了shinyapp的一封邮件，想起之前自己做的关于网络扩散的东西，就想把它转化为app的形式。最直接的办法还是看tutorial，比如（http://shiny.rstudio.com/tutorial）。
-现学现卖，于是我马上做了一个使用igraph绘制BA网络的小应用：
-https://chengjun.shinyapps.io/testApp/
- ##通过rstudio学习shinyApp制作 其实R的王牌编辑器Rstudio已经和shiny完美的结合，完全可以通过rstudio学习shinyApp制作。
- system.file(&amp;quot;examples&amp;quot;, package=&amp;quot;shiny&amp;quot;) runExample(&amp;quot;01_hello&amp;quot;) # a histogram runExample(&amp;quot;02_text&amp;quot;) # tables and data frames runExample(&amp;quot;03_reactivity&amp;quot;) # a reactive expression runExample(&amp;quot;04_mpg&amp;quot;) # global variables runExample(&amp;quot;05_sliders&amp;quot;) # slider bars runExample(&amp;quot;06_tabsets&amp;quot;) # tabbed panels runExample(&amp;quot;07_widgets&amp;quot;) # help text and submit buttons runExample(&amp;quot;08_html&amp;quot;) # shiny app built from HTML runExample(&amp;quot;09_upload&amp;quot;) # file upload wizard runExample(&amp;quot;10_download&amp;quot;) # file download wizard runExample(&amp;quot;11_timer&amp;quot;) # an automated timer  </description>
+      <guid>https://chengjunwang.com/zh/post/cn/cn_archive/2015-01-11-shinyapp/</guid>
+      <description>&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Echarts使用简介</title>
-      <link>https://chengjunwang.com/zh/post/cn/2015-01-10-myecharts/</link>
+      <link>https://chengjunwang.com/zh/post/cn/cn_archive/2015-01-10-myecharts/</link>
       <pubDate>Sat, 10 Jan 2015 00:00:00 +0000</pubDate>
       
-      <guid>https://chengjunwang.com/zh/post/cn/2015-01-10-myecharts/</guid>
-      <description>昨天听谈和讲解了echarts的使用，他的讲解非常直接简单，就是直接修改echarts的实例。之后，我发现林峰将echarts的实例的html代码写得非常复杂，但其实单独调用一个js的时候，却非常简单。具体做法如下：
- 准备工作：建立一个js子文件夹，将esl，echarts，pie，bar，map等各种js放入其中。在js文件夹外新建一个空的html文件。 首先，调用esl.js，它提供了echarts图片的载体。 其次，使用require方法调用echarts.js和具体使用的类型图的js（比如map.js）。 再次，输入需要输入的数据。 最后，封装。
- &amp;lt;!DCOTYPE html&amp;gt; &amp;lt;html&amp;gt; &amp;lt;head&amp;gt; &amp;lt;meta charset=&amp;quot;utf-8&amp;quot;&amp;gt; &amp;lt;title&amp;gt;echarts testing page&amp;lt;/title&amp;gt; &amp;lt;script src=&amp;quot;./js/esl.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt; &amp;lt;script src=&amp;quot;./js/echarts.js&amp;quot; type=&amp;quot;text/javascript&amp;quot;&amp;gt;&amp;lt;/script&amp;gt; &amp;lt;/head&amp;gt; &amp;lt;body&amp;gt; &amp;lt;div id=&amp;quot;main&amp;quot; style=&amp;quot;height:400px;&amp;quot;&amp;gt;&amp;lt;/div&amp;gt; &amp;lt;script type=&amp;quot;text/javascript&amp;quot;&amp;gt; require.config({ paths:{ &amp;quot;echarts&amp;quot;:&amp;quot;js/echarts&amp;quot;, &amp;quot;echarts/chart/map&amp;quot;:&amp;quot;js/map&amp;quot; } }); //using require( [ &amp;quot;echarts&amp;quot;, &amp;quot;echarts/chart/map&amp;quot; ], function(ec){ var myChart=ec.init(document.getElementById(&amp;quot;main&amp;quot;)); &amp;lt;!--Input your code below--&amp;gt; &amp;lt;!--Input your code above--&amp;gt; //loading data myChart.setOption(option); } ); &amp;lt;/script&amp;gt; &amp;lt;/body&amp;gt; &amp;lt;/html&amp;gt;   ##弦图 http://chengjun.github.io/myecharts/chord.html
- ##柱状图 http://chengjun.github.io/myecharts/bar.html
- ##饼图 http://chengjun.github.io/myecharts/pie1.html</description>
+      <guid>https://chengjunwang.com/zh/post/cn/cn_archive/2015-01-10-myecharts/</guid>
+      <description>&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>使用Python快速分割数据的方法</title>
-      <link>https://chengjunwang.com/zh/post/cn/2014-08-31-fast-split-data-with-python/</link>
+      <link>https://chengjunwang.com/zh/post/cn/cn_archive/2014-08-31-fast-split-data-with-python/</link>
       <pubDate>Sun, 31 Aug 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://chengjunwang.com/zh/post/cn/2014-08-31-fast-split-data-with-python/</guid>
-      <description>分割数据最慢的过程其实是打开和关闭一个文件，因此尽量减少这种操作可以飞速的提升分割数据的速度。之前在stackoverflow上看到一种方法非常高效，放在这里研究一下。
- from collections import defaultdict path = &#39;D:/chengjun/Sina Weibo/DepthOverTime/&#39; #define a function def splitData(f): #using dict to &#39;classify&#39; rows E = defaultdict(lambda:[]) for line in f: lists = line.strip().split(&#39;,&#39;) rtmid = lists[0] file_save = path + &#39;single_weibo/&#39;+rtmid E[file_save].append(line) for key in E.keys(): try: with open(key,&#39;a&#39;) as p: for record in E[key]: p.write(record+&amp;quot;\n&amp;quot;) except: pass # start to read in data by chunks bigfile = open(path + &#39;diffusion_path_date2552.csv&#39;) chunkSize = 100000000 chunk = bigfile.</description>
+      <guid>https://chengjunwang.com/zh/post/cn/cn_archive/2014-08-31-fast-split-data-with-python/</guid>
+      <description>&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>使用d3network做网络可视化</title>
-      <link>https://chengjunwang.com/zh/post/cn/2014-08-27-d3network/</link>
+      <link>https://chengjunwang.com/zh/post/cn/cn_archive/2014-08-27-d3network/</link>
       <pubDate>Wed, 27 Aug 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://chengjunwang.com/zh/post/cn/2014-08-27-d3network/</guid>
-      <description>在之前的一个博客中，我介绍了使用R进行社区划分并可视化的方法。这里使用相同的数据，介绍如何使用d3network实现网络可视化的方法。
-首先，安装d3network
-devtools::install_github(&amp;quot;d3Network&amp;quot;, &amp;quot;christophergandrud&amp;quot;) require(d3Network)  之后可以使用简单的可视化方法：
-d3SimpleNetwork(data[,1:2], file = &amp;quot;chinese_university100.html&amp;quot;, width = 1024, height = 763, fontsize = 12)  我想要展现社区划分的结果：
-#链接数据 links = data names(links) = c(&amp;quot;source&amp;quot;, &amp;quot;target&amp;quot;, &amp;quot;value&amp;quot;) #节点列表 fc = fastgreedy.community(g); sizes(fc) mfc = membership(fc) nodes = data.frame(name = names(mfc), group = mfc) #对应链接数据和节点数据 ids = 0:(nrow(nodes)-1) # notice: start with zero! links[,1] = ids[match(links[,1], nodes$name )] links[,2] = ids[match(links[,2], nodes$name )] links = links[with(links, order(source)), ] # sort by source #处理边的权重大小 links$value = log(links$value)  之后就可以使实现可视化结果啦：</description>
+      <guid>https://chengjunwang.com/zh/post/cn/cn_archive/2014-08-27-d3network/</guid>
+      <description>&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>NetworkX初步：创建网络、提取属性和绘图</title>
-      <link>https://chengjunwang.com/zh/post/cn/2014-08-14-networkx-intro/</link>
+      <link>https://chengjunwang.com/zh/post/cn/cn_archive/2014-08-14-networkx-intro/</link>
       <pubDate>Thu, 14 Aug 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://chengjunwang.com/zh/post/cn/2014-08-14-networkx-intro/</guid>
-      <description>NetworkX是使用python分析网络数据的重要武器。它的使用非常简单。
-首先，创建网络对象：
-import matplotlib.pyplot as plt import networkx as nx G=nx.DiGraph()  然后，添加链接：
-G.add_edge(&#39;source&#39;,1,weight=80) G.add_edge(1,2,weight=50) G.add_edge(1,3,weight=30) G.add_edge(3,2,weight=10) G.add_edge(2,4,weight=20) G.add_edge(2,5,weight=30) G.add_edge(4,5,weight=10) G.add_edge(5,3,weight=5) G.add_edge(2,&#39;sink&#39;,weight=10) G.add_edge(4,&#39;sink&#39;,weight=10) G.add_edge(3,&#39;sink&#39;,weight=25) G.add_edge(5,&#39;sink&#39;,weight=35)  可以很容易提取边的权重:
-edges,colors = zip(*nx.get_edge_attributes(G,&#39;weight&#39;).items())  计算加权过的出度：
-d = G.out_degree(weight = &#39;weight&#39;) #计算节点的中心度  选择一个常用的可视化方法：
-pos=nx.spring_layout(G) #设置网络的布局  绘制网络:
-nx.draw(G, pos, node_color = &#39;orange&#39;, with_labels = True, nodelist = d.keys(), node_size = [v*5 for v in d.values()], edgelist = edges, edge_color = colors, width = 5, edge_cmap=plt.</description>
+      <guid>https://chengjunwang.com/zh/post/cn/cn_archive/2014-08-14-networkx-intro/</guid>
+      <description>&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>中国高校间的友谊网络：大学排名、地理位置和演化规律</title>
-      <link>https://chengjunwang.com/zh/post/cn/2014-07-21-chinese-university-friendship-network/</link>
+      <link>https://chengjunwang.com/zh/post/cn/cn_archive/2014-07-21-chinese-university-friendship-network/</link>
       <pubDate>Mon, 21 Jul 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://chengjunwang.com/zh/post/cn/2014-07-21-chinese-university-friendship-network/</guid>
-      <description>许小可老师和我决定使用可视化的方法分析一下中国高校之间的友谊关系网络。我们是想通过这个图从一个侧面说明各个大学在社交网络上的影响力和关系：所以节点大小表示每个大学在该网络中的友谊关系数量，连边宽度表示节点之间的连接关系，节点颜色的不同可以表示节点的影响力大小（介度中心性指标）。
-###数据清洗 现有数据有学校信息。我可以通过构建字典的方式来将user_id和学校信息（以最新的学校信息为主）剥离出来。使用这个字典可以计算学校人数的分布并挑选前一百的学校。然后根据user_id来match社交网络数据和学校数据，构建：university1&amp;mdash;university2&amp;mdash;date的数据形式。如果该行数据中的学校都在top100的名单中，则保留，否则不保留，这样可以构建所需要的学校和学校的随时间变化的网络，并采用考虑连边权重的贪婪算法来划分网络社团。
-###数据分析
-数据清洗之后，使用R软件进行数据分析，使用igraph包进行数据的可视化。代码如下：
-library(igraph) setwd(&amp;quot;F:/xiaonei/&amp;quot;) ################ # all data ################ data = read.table(&amp;quot;./friends_university_top100_by_all.txt&amp;quot;, header = FALSE, sep = &#39;\t&#39;, stringsAsFactors = FALSE) data = data[which(data[,3] &amp;gt;= mean(data[,3])*1.2), ] data = data[which(data[,1] != data[,2]),] g =graph.data.frame(data[,1:2],directed=FALSE ) E(g)$weight = data[,3] E(g)$color = &amp;quot;lightgrey&amp;quot; # layout set.seed(34) ## to make this reproducable l=layout.fruchterman.reingold(g) # size nodeSize = graph.strength(g) V(g)$size = (nodeSize - min(nodeSize))/(max(nodeSize) - min(nodeSize))*20 centrality = betweenness(g) # colors colors = heat.</description>
+      <guid>https://chengjunwang.com/zh/post/cn/cn_archive/2014-07-21-chinese-university-friendship-network/</guid>
+      <description>&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>网络残缺度：共同好友间可否两步到达？</title>
-      <link>https://chengjunwang.com/zh/post/cn/2014-05-05-network-dispersion/</link>
+      <link>https://chengjunwang.com/zh/post/cn/cn_archive/2014-05-05-network-dispersion/</link>
       <pubDate>Mon, 05 May 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://chengjunwang.com/zh/post/cn/2014-05-05-network-dispersion/</guid>
-      <description>网络是由节点和关系构成的，而对于关系的描述是社会网络的关键。我们已经知道对于节点的网络特性可以从中心度、近度、介度、特征度（eigenvalue centrality）等方式描述。那么对于关系呢？最简单的就是直接关系的强度了。
-关系强度（tie strength) 通常对于关系强度的测量是基于两个节点之间链接的权重来衡量的。并不是说关系的强度越高越好，也不是说越多的强关系就越好。例如，格兰诺维特的论文The strength of weak ties强调了弱关系的重要性。
-共同好友（common friends） 但是以直接的链接强度度量一对关系的强度显然过于简单。它忽略的网络中的三角形（triads）：网络的局部传递性(transtivity)。关系的传递性是社会网络分析的一种重要观点。比如，朋友的朋友成为自己的朋友的可能性很高。这种关系的强度不只限于一模网络中。在传播学中有ABX模型，A和B是两个人，X是一种对象（信息、意见、创新等）。A和B是好朋友，A喜欢X，那么B喜欢X的可能性就提高。也就是爱朋友及朋友喜欢的东西，有点像爱屋及乌。
-怎么抓住网络的传递性？找两个节点(一对关系)的共同好友！找到共同好友就抓住了网络中的三角形。存在的三角形数量就表明了传递性的程度。这种思路其实对于做共引（co-citation)分析的学者来说并不陌生。如果一篇论文同时引用了两篇论文，那么这两篇论文就存在一定的相似性。因此，找共同好友类似于找共引关系。
-嵌入度（embededness） 共同好友数量是判断两个人亲密程度的一个重要变量。如果共同好友的数量足够多，表明这两个人彼此深度的融入了对方的社会关系当中。基于这种思路，我们可以计算嵌入型。对于i和j两个人, $$k{i}$$、$$k{j}$$分别表示i和j的好友数量。$$n_{ij}$$表示其共同好友数量。那么，我们可以如下计算嵌入度：
-$$ Embededness{ij} = \frac{n{ij}}{(k{i} -1) + (k{j} -1) - n_{ij}} $$
-残缺性（dispersion） 残缺度（dispersion， 或译为分散度）是Lars Backstrom &amp;amp; Jon Kleinberg (2013) 为了识别Facebook中亲密关系而提出的度量。它同样是基于共同好友的，主要测量的是共同好友之间的链接缺失程度。
- ‘dispersion’ — the extent to which two people’s mutual friends are not themselves well-connected. Lars Backstrom &amp;amp; Jon Kleinberg (2013)
- Lars Backstrom &amp;amp; Jon Kleinberg使用了脸书的数据发现，使用残缺度这个度量方式，可以非常准确识别诸如夫妻、男女朋友、恋爱关系。
-如上图中，u和v两个人有a、b、c、d四个共同好友。残缺度主要考察在多大程度上，这些共同好友不能在两步之内到达彼此。如果两个共同好友之间不存在直接连接，且也不存在（除去u和v之外的）共同好友，那么残缺度就增加1。
-以C_{uv}来表示u和v的共同好友之间的链接，那么在上图中只有a、b之间和c、d之间存在链接。a-c, a-d, b-c, b-d四对节点之间既没有直接链接又没有共同好友（除去了u和v)。所以残缺度是4。
-再举一个例子，如果u和v的共同好友b-c之间存在直接的链接。那么残缺度会是多大？如下图：</description>
+      <guid>https://chengjunwang.com/zh/post/cn/cn_archive/2014-05-05-network-dispersion/</guid>
+      <description>&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>空间分析初步：使用D3可视化</title>
-      <link>https://chengjunwang.com/zh/post/cn/2014-03-15-d3-map/</link>
+      <link>https://chengjunwang.com/zh/post/cn/cn_archive/2014-03-15-d3-map/</link>
       <pubDate>Sat, 15 Mar 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://chengjunwang.com/zh/post/cn/2014-03-15-d3-map/</guid>
-      <description>图1 D3 examples
-###1. 起源 斯坦福学校可视化团队Jeff Heer教授, 那时候的博士生Mike Bostock,那时候的硕士生 Vadim Ogievetsky在2009年创造了Protovis：一个从数据中生成 SVG 图的工具。2011年, Bostock和的老板Heer、师弟Ogievetsky开发了D3.js (Bostock, Heer &amp;amp; Ogievetsky 2011).
-图2 Eyeo 2013 - Mike Bostock
-此后，Mike Bostocks致力于D3的继续开发和维护， Mike的网站http://bost.ocks.org/和github（https://github.com/mbostock/d3）成为发展D3力量的重要领地。仅仅三年，作为一个社区（community)，D3的发展已经蔚为大观。
-###2. D3是什么？ D3是数据驱动文件（Data-Driven Documents）的缩写。作为一个javascript的库，D3(或D3.js)建构于电子数据（digital data）之上，使用数据创造并控制在网络浏览器里运行的动态交互的图形。
-D3必须要嵌入到html网页中，它依赖矢量图像（Scalable Vector Graphics，SVG）、层叠式样式表（Cascading Style Sheets，CSS3)等html的工具来展示图形。
-JavaScript函数来选择（select）元素，生成矢量图（SVG），赋予其样式（style），加入变化。 这种函数式的操作使得D3可以很容易的将大的数据（large dataset,而不是big data）从原始数据格式（json, csv， geoJSON, topoJOSON）转为矢量图对象，并且速度非常快。
-D3拥有自己的哲学，其中很重要的一条是Thinking with Joins。比如，读者与D3制作的图形交互的时候，会激发数据请求（如选择某一个时间段的数据），新的数据进来（data enter），D3的元素（如svg）就会相应的更新（elements update）。数据与元素的互动是由D3编写的Javascript函数指导的，交互之后之后互动结束，读者就看到一个新的图形了。一个例子是使用D3制作的《悲惨世界》中人物的共现关系（Les Misérables Co-occurrence）。这样做的好处是使得动态的图形展示变得简单。
-图3 Thinking with Joins
-3. 学习D3 学习使用D3可以从这个Tutorials开始。
-4. 使用D3绘制网络 因为网络的可视化相对简单，因而发展也比较成熟。R社区很快开发了R包d3network
-5. 使用D3绘制地图 Christchurch 2010 Timeline这个例子正是我想要的。
-一些其它的例子。
-Let’s Make a Map</description>
+      <guid>https://chengjunwang.com/zh/post/cn/cn_archive/2014-03-15-d3-map/</guid>
+      <description>&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>空间分析初步：空间点类型分析</title>
-      <link>https://chengjunwang.com/zh/post/cn/2014-03-12-first-step-spatial-analysis-with-r/</link>
+      <link>https://chengjunwang.com/zh/post/cn/cn_archive/2014-03-12-first-step-spatial-analysis-with-r/</link>
       <pubDate>Wed, 12 Mar 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://chengjunwang.com/zh/post/cn/2014-03-12-first-step-spatial-analysis-with-r/</guid>
-      <description>引言 空间分析（spatial analysis）对于扩散研究非常重要，它揭示了传播在空间维度上的分布。令人略感惊奇的是空间分析的研究者越来越多地使用R软件。其中一个原因是R包罗万象，而空间分析仍在发展且神情未定。在这个时候难以判定哪种方法最优。此时，策略当然是博观约取。R因其囊括众多统计方法而成为连接不同分析套路的首选；另外在R当中使用者可以继续开发新的数据分析包。可谓一举两得。　数据读入 我使用的是2013年米兰城12月份推特用户的地理信息数据。该数据来自Big Data Challenge of Telecommunication。使用Python写很简单的script从其服务器api接口读取数据:
-# Download milano tweets data using python # chengjun wang @ cmc # 2014 Mar 11 import urllib2 import json f = open(&#39;D:/chengjun/Milan/Social pulse/Milano_sample.csv&#39;, &#39;w&#39;) for offset in range(0,269290/100 +1): print &amp;quot;working on offset: &amp;quot;, offset req_url = &#39;https://api.dandelion.eu/datagem/social-pulse-milano/data/v1/?$limit=100&amp;amp;$offset=&#39;+str(offset)+&#39;&amp;amp;$app_id=d...a&amp;amp;$app_key=2e...7c&#39; jstr = urllib2.urlopen(req_url).read() # json string &amp;quot;&amp;quot;&amp;quot; these are flickr-specific &amp;quot;&amp;quot;&amp;quot; jinfo = json.loads( jstr ) for i in range(0, len(jinfo[&#39;items&#39;])): lan = jinfo[&#39;items&#39;][i][&#39;language&#39;] time = jinfo[&#39;items&#39;][i][&#39;created&#39;] geo = jinfo[&#39;items&#39;][i][&#39;geometry&#39;][&#39;coordinates&#39;] timestamp = jinfo[&#39;items&#39;][i][&#39;timestamp&#39;] municipality_name = jinfo[&#39;items&#39;][i][&#39;municipality&#39;][&#39;name&#39;] municipality_id = jinfo[&#39;items&#39;][i][&#39;municipality&#39;][&#39;acheneID&#39;] entities = jinfo[&#39;items&#39;][i][&#39;entities&#39;] user = jinfo[&#39;items&#39;][i][&#39;user&#39;] print &amp;gt;&amp;gt;f, &amp;quot;%s;%s;%s;%s;%s;%s;&#39;%s&#39;;%s&amp;quot; % (lan, time, geo, timestamp, municipality_name, municipality_id, entities, user) f.</description>
+      <guid>https://chengjunwang.com/zh/post/cn/cn_archive/2014-03-12-first-step-spatial-analysis-with-r/</guid>
+      <description>&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Migrate from Jekyll to Hugo</title>
+      <link>https://chengjunwang.com/zh/post/migrate-from-jekyll/</link>
+      <pubDate>Mon, 10 Mar 2014 00:00:00 +0800</pubDate>
+      
+      <guid>https://chengjunwang.com/zh/post/migrate-from-jekyll/</guid>
+      <description>Here are a few tips for migrating an existing website from Jekyll to Hugo. These tips can be applied in conjunction with following Hugo Academic&amp;rsquo;s getting started guide.
+Move static content to static Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content under static. You should therefore move it all there. With Jekyll, something that looked like</description>
     </item>
     
     <item>
       <title>使用R模拟网络扩散</title>
-      <link>https://chengjunwang.com/zh/post/cn/2014-02-28-simulate-network-diffusion-with-r/</link>
+      <link>https://chengjunwang.com/zh/post/cn/cn_archive/2014-02-28-simulate-network-diffusion-with-r/</link>
       <pubDate>Fri, 28 Feb 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://chengjunwang.com/zh/post/cn/2014-02-28-simulate-network-diffusion-with-r/</guid>
-      <description>与普通的扩散研究不同，网络扩散开始考虑网络结构对于扩散过程的影响。
-这里介绍一个使用R模拟网络扩散的例子。基本的算法非常简单：
- 生成一个网络:g(V, E)。 随机选择一个或几个节点作为种子（seeds）。 每个感染者以概率p（可视作该节点的传染能力,通常表示为$$\beta$$）影响与其相连的节点。  其实这是一个最简单的SI模型在网络中的实现。S表示可感染（susceptible）, I表示被感染（infected）。SI模型描述了个体的状态从S到I之间的转变。因为形式简单，SI模型是可以求出其解析解的。考虑一个封闭的群体，没有出生、死亡和迁移。并假设个体是均匀混合的（homogeneous mixing),也就是要求个体的地理分布均匀，且被感染的概率也相同(T. G. Lewis, 2011)。那么β表示传染率（transmission rate)。SI模型可以表达为：
-$$\frac{dS}{dt}=-\beta SI$$
-$$\frac{dI}{dt}=\beta SI$$
-且满足 I + S = 1，那么以上方程$$\frac{dI}{dt}=\beta SI$$可以表达为：
-$$\frac{dI}{dt}=\beta I(1-I)$$
-解这个微分方程，我们可以得到累计增长曲线的表达式。有趣的是，这是一个logistic增长，具有明显的S型曲线（S-shaped curve）特征。该模型在初期跨越临界点之后增长较快，后期则变得缓慢。 因而可以用来描述和拟合创新扩散过程（diffusion of innovations）。
-当然，对疾病传播而言，SI模型是非常初级的（naive），主要因为受感染的个体以一定的概率恢复健康，或者继续进入可以被感染状态(S，据此扩展为SIS模型)或者转为免疫状态（R,据此扩展为SIR模型）。 免疫表示为R，用$$\gamma$$代表免疫概率（removal or recovery rate)。对于信息扩散而言，这种考虑暂时是不需要的。
-第一步，生成网络。
-require(igraph) # generate a social graph size = 50 # 规则网 g = graph.tree(size, children = 2); plot(g) g = graph.star(size); plot(g) g = graph.full(size); plot(g) g = graph.ring(size); plot(g) g = connect.</description>
+      <guid>https://chengjunwang.com/zh/post/cn/cn_archive/2014-02-28-simulate-network-diffusion-with-r/</guid>
+      <description>&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>东风夜放花千树：对宋词进行主题分析初探</title>
-      <link>https://chengjunwang.com/zh/post/cn/2013-09-27-topic-modeling-of-song-peom/</link>
+      <link>https://chengjunwang.com/zh/post/cn/cn_archive/2013-09-27-topic-modeling-of-song-peom/</link>
       <pubDate>Fri, 27 Sep 2013 00:00:00 +0000</pubDate>
       
-      <guid>https://chengjunwang.com/zh/post/cn/2013-09-27-topic-modeling-of-song-peom/</guid>
-      <description>邱怡轩在统计之都中展示了对宋词进行的分析（参见http://cos.name/tag/%E5%AE%8B%E8%AF%8D/），因为当时缺乏中文分词的工具，他独辟蹊径，假设宋词中任意两个相邻的汉字构成一个词语，进而找到了宋词当中的高频词。本文则尝试使用他所提供的宋词语料（http://cos.name/wp-content/uploads/2011/03/SongPoem.tar.gz），分析一下使用R进行中文分词、构建词云、高频词语聚类以及主题模型分析。
-首先要载入使用的R包并读入数据。
-library(Rwordseg) require(rJava) library(tm) library(slam) library(topicmodels) library(wordcloud) library(igraph) setwd(&amp;quot;D:/github/text mining/song&amp;quot;) # 更改为你的工作路径，并存放数据在此。 txt=read.csv(&amp;quot;SongPoem.csv&amp;quot;,colClasses=&amp;quot;character&amp;quot;)  {:lang=&amp;ldquo;ruby&amp;rdquo;}
-然后进行对数据的操作。当然，第一步是进行中文分词，主要使用Rwordseg这个R包，其分词效果不错。分词的过程可以自动去掉标点符号。
-poem_words &amp;lt;- lapply(1:length(txt$Sentence), function(i) segmentCN(txt$Sentence[i], nature = TRUE))  {:lang=&amp;ldquo;ruby&amp;rdquo;}
-然后，我们将数据通过tm这个R包转化为文本-词矩阵（DocumentTermMatrix）。 wordcorpus &amp;lt;- Corpus(VectorSource(poem_words), encoding = &amp;ldquo;UTF-8&amp;rdquo;) # 组成语料库格式
-Sys.setlocale(locale=&amp;quot;Chinese&amp;quot;) dtm1 &amp;lt;- DocumentTermMatrix(wordcorpus, control = list( wordLengths=c(1, Inf), # to allow long words bounds = list(global = c(5,Inf)), # each term appears in at least 5 docs removeNumbers = TRUE, # removePunctuation = list(preserve_intra_word_dashes = FALSE), weighting = weightTf, encoding = &amp;quot;UTF-8&amp;quot;) ) colnames(dtm1) findFreqTerms(dtm1, 1000) # 看一下高频词  {:lang=&amp;ldquo;ruby&amp;rdquo;}</description>
+      <guid>https://chengjunwang.com/zh/post/cn/cn_archive/2013-09-27-topic-modeling-of-song-peom/</guid>
+      <description>&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>使用聚类分析为主题模型划分主题类型</title>
-      <link>https://chengjunwang.com/zh/post/cn/2013-09-08-using-cluster-analysis-to-classify-topics-generated-by-topic-modeling/</link>
+      <link>https://chengjunwang.com/zh/post/cn/cn_archive/2013-09-08-using-cluster-analysis-to-classify-topics-generated-by-topic-modeling/</link>
       <pubDate>Sun, 08 Sep 2013 00:00:00 +0000</pubDate>
       
-      <guid>https://chengjunwang.com/zh/post/cn/2013-09-08-using-cluster-analysis-to-classify-topics-generated-by-topic-modeling/</guid>
-      <description>使用主题模型（topic models）可以较为高效地划分文本的主题，但一个不得不面对的问题是有时候主题的划分过细，使得解读和归类成为困难。其实，聚类分析作为一个“古老”的分析方法可以较为简洁的解决这个问题。
-举一个小例子，我们主要使用tm这个R包来完成文本挖掘的前期任务。在得到DocumentTermMatrix之后，可以通过计算cosine 相似度的方法来计算文本之间的不一致性（dissimilarity）。
-# Using cluster analysis to classify topics generated by topic modeling # 2013 Sep 08 # Cheng-Jun Wang library(tm) library(topicmodels) require(proxy) data(acq) data(crude) m &amp;lt;- c(acq, crude) dtm &amp;lt;- DocumentTermMatrix(m) dtm &amp;lt;- removeSparseTerms(dtm, 0.8) inspect(dtm[1:5, 1:5]) # cluster analysis of documents based on DocumentTermMatrix dist_dtm &amp;lt;- dissimilarity(mtd, method = &#39;cosine&#39;) hc &amp;lt;- hclust(dist_dtm, method = &#39;ave&#39;) plot(hc, xlab = &#39;&#39;)  {:lang=&amp;ldquo;ruby&amp;rdquo;}
-我在做RA的时候，面临的一个问题就是在做主体模型的时候出现的：模型拟合得到的主题数量太多。我们用下面这个例子进行简单的介绍。
-# topic modeling topic_num = 50 for (k in c(topic_num)) { # k &amp;lt;- 10 SEED &amp;lt;- 2010 jss_TM &amp;lt;- list( VEM = LDA(dtm, k = k, control = list(seed = SEED)), VEM_fixed = LDA(dtm, k = k, control = list(estimate.</description>
+      <guid>https://chengjunwang.com/zh/post/cn/cn_archive/2013-09-08-using-cluster-analysis-to-classify-topics-generated-by-topic-modeling/</guid>
+      <description>&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>文本挖掘基础：使用openNLP进行词性标注</title>
-      <link>https://chengjunwang.com/zh/post/cn/2013-09-07-part-of-speech-analysis-with-opennlp/</link>
+      <link>https://chengjunwang.com/zh/post/cn/cn_archive/2013-09-07-part-of-speech-analysis-with-opennlp/</link>
       <pubDate>Sat, 07 Sep 2013 00:00:00 +0000</pubDate>
       
-      <guid>https://chengjunwang.com/zh/post/cn/2013-09-07-part-of-speech-analysis-with-opennlp/</guid>
-      <description>使用R软件进行自然语言处理（文本挖掘）是比较方便的。其中一个比较基础的分析是采用part-of-speech tagging的思路进行词性标注。在本文中，我将简单地介绍使用R软件及其子包openNLP进行词性标注。这里的测试语料依然是英文，采用的算法主要是最大熵的方法。
-openNLP的发展开始回归到底层的基本功能，之前搭建起来的比较方便实用的函数被取消了，比如tagPOS命令消失了。所以，需要自己来重新写这个方程。这也不太难，根据R文档对Maxent_POS_Tag_Annotator的介绍中的例子重新组合一下，就可以得到。
-动词和名词的使用在文本挖掘中异常重要，单纯的名词语料可以用于进一步的文本挖掘，如我要做的是采用它们继续做主题挖掘（topic modeling）。
-第一步，当然是重组这个tagPOS命令。
-library(openNLP) library(tm) require(NLP) # Compose the tagPOS function tagPOS &amp;lt;- function(text.var, pos_tag_annotator, ...) { s &amp;lt;- as.String(text.var) ## Set up the POS annotator if missing (for parallel) PTA &amp;lt;- Maxent_POS_Tag_Annotator() ## Need sentence and word token annotations. word_token_annotator &amp;lt;- Maxent_Word_Token_Annotator() a2 &amp;lt;- Annotation(1L, &amp;quot;sentence&amp;quot;, 1L, nchar(s)) a2 &amp;lt;- annotate(s, word_token_annotator, a2) a3 &amp;lt;- annotate(s, PTA, a2) ## Determine the distribution of POS tags for word tokens.</description>
+      <guid>https://chengjunwang.com/zh/post/cn/cn_archive/2013-09-07-part-of-speech-analysis-with-opennlp/</guid>
+      <description>&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>使用R做主题模型：词语筛选和主题数量确定</title>
-      <link>https://chengjunwang.com/zh/post/cn/2013-08-31-topic-modeling-with-r/</link>
+      <link>https://chengjunwang.com/zh/post/cn/cn_archive/2013-08-31-topic-modeling-with-r/</link>
       <pubDate>Sat, 31 Aug 2013 00:00:00 +0000</pubDate>
       
-      <guid>https://chengjunwang.com/zh/post/cn/2013-08-31-topic-modeling-with-r/</guid>
-      <description>1. 筛选单词 在数据清理（pre-processing）之后，需要对数据进行适当筛选。对数据的筛选包括至少两个步骤：
-第一步，在DocumentTermMatrix中设定
-使用R的topicmodels发现设定在DocumentTermMatrix里的约束条件失效，解决方法在此，其实在topicmodels的包里也粗略提及，只是用习惯了tm包的人觉得二者是无缝对接的。其实还很多差异，比如在tm里相似功能称之为TermDocumentMatrix
-dtm &amp;lt;- DocumentTermMatrix(corpus, control = list(stemming = TRUE, stopwords = TRUE, wordLengths=c(4, 15), bounds = list(global = c(5,Inf)), # each term appears in at least 5 docs removeNumbers = TRUE, removePunctuation = list(preserve_intra_word_dashes = FALSE) #,encoding = &amp;quot;UTF-8&amp;quot; ) ) colnames(dtm) ## inspect all the words for errors dim(dtm)  {:lang=&amp;ldquo;ruby&amp;rdquo;}
-第二步，通过tf-idf和col_sums选择高频词
-这背后的逻辑在于主题模型是要对文本进行分类，频次较少的词的贡献并不大。但会显著的占用计算资源。
-term_tfidf &amp;lt;-tapply(dtm$v/row_sums(dtm)[dtm$i], dtm$j, mean) * log2(nDocs(dtm)/col_sums(dtm &amp;gt; 0)) l1=term_tfidf &amp;gt;= quantile(term_tfidf, 0.</description>
+      <guid>https://chengjunwang.com/zh/post/cn/cn_archive/2013-08-31-topic-modeling-with-r/</guid>
+      <description>&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>使用R做主题模型：举一个处理Encoding问题的例子</title>
-      <link>https://chengjunwang.com/zh/post/cn/2013-08-29-encoding-in-r-for-text-mining/</link>
+      <link>https://chengjunwang.com/zh/post/cn/cn_archive/2013-08-29-encoding-in-r-for-text-mining/</link>
       <pubDate>Thu, 29 Aug 2013 00:00:00 +0000</pubDate>
       
-      <guid>https://chengjunwang.com/zh/post/cn/2013-08-29-encoding-in-r-for-text-mining/</guid>
-      <description>引言 遭遇“邪恶的拉丁引号” 我遇到的问题比较复杂，因为原文里混合了latin1和UTF-8两种encoding的字形，最初我统一再读入text数据的时候采用encoding =&amp;ldquo;UTF-8&amp;rdquo;的方法，结果发现了很多奇诡的单引号和双引号错误。在生成的DocumentTermMatrix里出现了很多以引号开始或结束的terms，例如：“grandfather， “deputy with the constitution” 。用Encoding命令看一下它的原形是：
-&amp;gt; Encoding(&amp;quot;“&amp;quot;) [1] &amp;quot;latin1&amp;quot;  只所以说是原形，是因为它们可以变形！&amp;rdquo;â€œ&amp;rdquo;， &amp;ldquo;â€™&amp;rdquo;， &amp;ldquo;â€\u009d&amp;rdquo;， &amp;ldquo;â€&amp;rdquo;都是它在不设定Encoding的环境下的形状。但我觉得不足以刻画我对它的厌恶，特别附图一张：
-直到最后，我也没彻底搞定这些邪恶的拉丁引号，但我使用了一些tricks解决的我的问题。
-1. 读入数据不设定encoding！ 因为邪恶的拉丁引号在UTF-8格式下根本就无法对付，在不设encoding方法的时候，它们现身为â€“, â€™, â€œ等形式，还可以对付。
-dat1 = read.csv(&amp;quot;D:/chengjun/Crystal/Schwab_data_cleaningSep.csv&amp;quot;, header = F, sep = &amp;quot;|&amp;quot;, quote = &amp;quot;&amp;quot;, stringsAsFactors=F, fileEncoding = &amp;quot;&amp;quot;) # , encoding =&amp;quot;UTF-8&amp;quot;); dim(dat1) names(dat1) = c(&#39;name&#39;, &#39;organization&#39;, &#39;year&#39;, &#39;country&#39;, &#39;website&#39;, &#39;shortIntro&#39;, &#39;focus&#39;, &#39;geo&#39;, &#39;model&#39;, &#39;benefit&#39;, &#39;budget&#39;, &#39;revenue&#39;, &#39;recognization&#39;, &#39;background&#39;, &#39;innovation&#39;, &#39;entrepreneur&#39;)  2. 文本数据清理第一步：载入R包，选取变量 library(tm) library(topicmodels) text = dat1$entrepreneur  3.</description>
+      <guid>https://chengjunwang.com/zh/post/cn/cn_archive/2013-08-29-encoding-in-r-for-text-mining/</guid>
+      <description>&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>探寻社交网络中的关系: 统计网络模型初探</title>
-      <link>https://chengjunwang.com/zh/post/cn/2013-08-09-sna-book-chapter/</link>
+      <link>https://chengjunwang.com/zh/post/cn/cn_archive/2013-08-09-sna-book-chapter/</link>
       <pubDate>Fri, 09 Aug 2013 00:00:00 +0000</pubDate>
       
-      <guid>https://chengjunwang.com/zh/post/cn/2013-08-09-sna-book-chapter/</guid>
-      <description>王成军
-香港城市大学媒体与传播系
-在上一章当中，我们对于网络的基本知识进行了介绍，这些知识构建起了网络科学的基础，同时也孕育着巨大的潜能。社会科学追求理论的建构，但疏于思考理论层次的丰富性。以社会学为例，一度在宏大理论和抽象实证主义之间摇摆（参见米尔斯所著《社会学的想象力》）。大数据时代的到来，再一次使得少数人开始对理论的认识产生动摇，以为只要把握住数据就足够了。这与可计算性社会科学都是相互矛盾的。可计算性社会科学研究社会现实，紧紧抓住数据，但是绝不束缚于数据。
-数据（data）、模式（pattern）、法则（law）、机制（mechanism）和隐含的原理(principle)构成了科学研究等级，如图11-1所示。科学理论的等级在这里又被粗略地划分为四个等级：模式、法则、机制和原理。网络科学以关系来度量物理世界和社会现实（social reality）。这些稳定的关系——表现为网络中的链接——构成了网络科学可计算性的基础。沿着网络中的链接出发，网络科学正在尝试突破社会现实混沌的迷宫，从社会现实的数据出发，发掘社会系统内部的模式、法则、机制、原理。
-图 11-1. 科学研究的金字塔
-网络科学所采用的方法非常多样，除了经典的统计方法之外，很多物理学的方法也被广泛的应用在网络研究当中。具体而言，网络科学有两个方法来源，一个是传统的社会网络分析，一个是近十几年里面迅猛发展起来的复杂网络研究。这两股研究的脉络构成了网络科学的两条主线。网络科学已经走出传统的社会网研究的藩篱。互联网浪潮的袭来推动传统网络研究与互联网科学（web science)的融合。一种以复杂网络（complex network）为代表的新型网络科学开始迅速成长(Barabasi, 2003)。例如，巴拉巴西等人采用动力系统的研究方法分析复杂网络的增长机制(Barabási &amp;amp; Albert, 1999)。但在本章当中，我将主要关注统计网络模型（statistical network models），并通过介绍处理社会化网络数据的例子来深化我们对于网络的认识。
-本章的结构安排如下：一、通过介绍网络科学的异军突起来思考可计算性在不同学科的发展，以便于启发我们对于可计算社会科学的认识；二、我们介绍数字化媒体的发展，以及由此带来的大数据浪潮的挑战和机遇；三、我们开始介绍网络链接的属性，拓展对于网络的认识；四、简略介绍QAP检验；五、介绍指数随机图模型；六、结论和讨论。
- 网络科学的异军突起：反思可计算性 数字化媒体和大数据 扩展对于网络的认识（二模网络与多模网络和时间序列网络） QAP检验 指数随机图模型（ERGM） 一条开放的道路  ###一、网络科学的异军突起：反思可计算性
-事实上，作为一个后起之声，可计算性社会科学（computational social science）已经在各个分支学科和新的交叉性学科中如火如荼！关于计算社会科学的介绍可见Lazer等人(2009)发表在《科学》杂志上的一文。Lazer等人综述了可计算性社会科学的涌现和发展，尤其强调了网络科学研究在其中所扮演的角色和数字媒体所提供的机遇。网络科学和可计算性社会科学的兴起都使得我们开始更加严肃地思考可计算性在科学版图当中的作用。
-对于可计算性的追求在自然科学一直是主流。物理学具有着最强的可计算性。物质世界的稳定性给了物理学发展提供了得天独厚的条件。物理学家采用各种稳定的手段测量物理世界的状态：长度、面积、体积、质量、速度、时间、能量。从牛顿力学到相对论，电磁学、再到量子力学，物理学展现了理论和数据的高度统一：我们可以精确地知道桥梁的重量、地球到月球的距离和卫星发射的速度。这种成就在一开始就激励着社会科学的发展。生物学诞生之初，研究者多少博物学家，忙着收集标本，区分生物所属的界、门、纲、目、科、属、种的类别。即使到了达尔文提出物种起源假说，生物学的发展依然备受局限。是什么使得生物学步入可计算化的路径，进而实现新的飞跃？一个可能的答案是“基因”。抓住这个计算性的本源，生物学开始迅速崛起。
-社会科学则是另一番图景。试思考为什么经济学是社会科学中发展较好的？答案是货币。用货币度量经济行为使经济学具有了天然的可计算性；其次是心理学，不是量表，而是实验，使得心理学具有了“模糊的”比较能力。而其他传统的社会科学，如传播学，则处于摇摆当中缓慢发展。
-值得注意的是三个迅速发展的学科：计算机科学、统计语言学、和我们正在谈论的网络科学。毋庸置疑，计算机科学是二十世纪发展最快的学科之一。其中一个重要的原因就在于计算机科学所对付的对象是离散的0和1。0和1通过二进制的运算构成了现代计算机的基础，也使得计算机科学从诞生之初，其“基因”当中就蕴含了强大的可计算性。在此基础上，计算机科学可以相对容易地与数学相结合研究信息和通信问题，并借助计算性思维（computational thinking）通过算法设计来自动化地解决问题(Wing, 2006)。统计语言学是传统语言学与计算机科学相互融合的结果。通过建立关于语言学的数学模型，并通过计算机来进行运算，统计语言学使得语言学在过去的三十年当中取得长足进步(吴军, 2012)，例如自然语言处理（natural language processing）已经广泛地应用在互联网产业当中和其他学科的研究当中。最近升起的新星则当属网络科学。网络科学对社会关系进行运算，借用统计物理的方法，很快发现复杂网络（例如，大规模的社会网络就是一种复杂网络）具有明显的小世界特征(Watts &amp;amp; Strogatz, 1998)和无标度特征(Barabási &amp;amp; Albert, 1999)。
-概括以上内容，我们可以发现：可计算性植根于不同的学科当中。发掘可计算性对于不同的学科具有举足轻重的意义。基于可计算性的研究才有较高的信度和效度，才能得到更确实的（solid）发现，才能和数学工具和物理学工具更好的结合，才能更深刻地探寻社会模式背后的法则、机制、规律。
-图 11-2. 学科历史与其可计算性的关系
-###二、数字化媒体和大数据 互联网的发展使得人类社会进入了一个新的时代：数字媒体时代（the era of digital media）。这种变化的影响已经被诸多预言者和研究者所分析，也为这个时代的个体所体认与观察。人类的交往模式，商业行为，舆论空间等，都因互联网而改变。但本文由数字化痕迹开始讲起。
-数字化媒体（digital media）的崛起正在深刻变革的社会科学的研究视野。因为数字化技术的发展（比如互联网）使得很多的人类行为变得可以观察，因而给我们更真实地认识世界提供了一个崭新的入口——数字化痕迹（digital traces）。比如，你在网络上购物的经历，你在社交媒体上的使用记录。这些数字化痕迹（又称数字化指纹（digital fingerprint），或数字化脚印（digital footprint）），使得研究者可以追逐这种痕迹，分析其行为背后隐藏的社会规律，进而提供了一个巨大的资源。这种资源的出现正在变革着不同学科的研究视角和研究疆域。比如，网络化的大规模数据的数字化痕迹（digital traces）第一次使得传播行为获得了计算性。而记录（document）、收集（collect）、分析（analyze）、可视化（visualize）这些传播行为就成为了计算传播学的主要工作。按照这个设想，社会科学必须走出传统的研究套路，获得在网络上保存、抓取、分析、可视化大规模电子化数据的能力，也需要支持这些工作的工具。毫无疑问，社会科学因此将和计算机科学开始交汇，至少需要程序员投入到这种大规模数据的挖掘工作中来。计算机科学家越来越将更多的注意力放在社交媒体的使用研究方面来。一系列的计算机会议以社交媒体研究作为重心。其它的学科分支也马上意识到互联网带来的机遇和挑战。这里要首先谈人类认知世界的一个重要方法——观察法。
-观察法是社会研究和自然研究最古老的方法。在社会研究领域，这种方法因其复杂和难以操控，往往只是适用于研究初期。研究中后期往往使用调查和实验方法，但后面这两种方法的优点是根据研究者的视角进行操控（manipulate），但缺点也在这里。因为访谈或问卷或实验，往往会降低研究的效度。而数字化痕迹使得这种限制减少，使得研究者真正在研究活生生的人类行为，并且研究的规模非常巨大，且往往具有时间序列的信息。数字化痕迹使得非介入的观察（unobtrusive observation）成为可能，因而给研究者带来的巨大的机遇。机遇是数据的获取为检验和发展经典理论提供了土壤。但同时也伴随着挑战。这种挑战则首先主要来自这种数字痕迹的获取、分析和储存上。
-当然第一关是数据的获取。资源虽然存在，却并不能为所有的人所使用。因为这里有一个天然的、历史原因造成的技术屏障——计算机技术。数字化痕迹的还有一些其它特点。比如规模巨大，难以分析，当然这涉及到数据的分析问题，不是本文的重点。另外一个方面，这些数字指纹往往是流数据，这意味着如果此刻不获取这些数据，过一段时间这些数据就很难或者没有可能获取了。甚至因为数据规模庞大，一些互联网公司也并不会储存所有的数据。这也为数据获取者提供了一种学习的急迫性。
-其中最简单的是研究者的编程技术。传统的社会科学研究者和读者往往忽略计算机技术尤其是编程能力的培养。因而，在学科转型之初，第一步就是这种开始学习崭新的东西。这多多少少让新手感到畏惧。需要指出的是，这种畏惧是不必要的。因为技术的发展趋势是越来越人性化和具有可读性。这给编程语言的学习带来便利。社会科学研究者可以选取简单的编程语言（R、Python、Ruby）开始计算机编程的学习。一个问题是是否可以采用即成的数据抓取软件呢？我的理解是，就目前而言，打包好的数据抓取软件过于死板，且效率低下，并且多数价格不菲、不是开源的软件。因而不是首选。现在很多统计语言往往也可以从事数据抓取的工作，比如R社趣发展了twiiteR的包和Rweibo的包。虽然其接口并不完善，但研究者根据自我需求进行自由的开发。
-社交网站为了自身的发展，往往选择向外界开放部分资源，以方便第三方发展基于该社交网站的产品，进而更好吸引使用者使用。比如新浪微博上有着纵多的应用，这些应用的数据接口就是由新浪微博所提供的。当然这种数据提供需要注册和认证，例如，对新浪微博而言可到应用开发页面注册 。因而，数据抓取的第一步，就是建立数据连接的工作，以获取社交网站开放数据流的许可。现在流行的方式是使用OAuth获取连接社会化媒体的API的使用权限。这种机制的好处是直接从网站数据库获取数据，因而数据结构化较好，不需要经过复杂繁琐的处理。且更好保护了使用者的隐私(Russell, 2011)。获取数据使用许可之后，其使用就非常方便灵活了。
-在本章当中，我们使用李舰 (Li, 2013)编写的Rweibo来连接新浪微博的API接口，并获取我们所需要的信息。Rweibo是一个新浪微博针对R语言的软件开发工具包（Software Development Kit, SDK）。作为一个R的软件包，Rweibo可以在R软件当中自由安装和调用。</description>
+      <guid>https://chengjunwang.com/zh/post/cn/cn_archive/2013-08-09-sna-book-chapter/</guid>
+      <description>&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>QAP检验：计算两个网络的关联</title>
-      <link>https://chengjunwang.com/zh/post/cn/2013-08-04-qap-test-of-network-analysis/</link>
+      <link>https://chengjunwang.com/zh/post/cn/cn_archive/2013-08-04-qap-test-of-network-analysis/</link>
       <pubDate>Sun, 04 Aug 2013 00:00:00 +0000</pubDate>
       
-      <guid>https://chengjunwang.com/zh/post/cn/2013-08-04-qap-test-of-network-analysis/</guid>
-      <description>QAP检验：两个网络之间的关联 通常一组个体具有多种类型的关系，例如友谊关系和经济往来关系。我们通常会对这两种网络关系在多大程度上相互关联感兴趣。当我们知道一组个体之间的两种关系网络，我们就可以计算这个两个关系网络之间的相关程度。在统计学当中，皮尔森相关系数是用来反映两个变量线性相关程度的统计量。与之类似，对于由一组个体所组成的两个网络，也可以计算其相应的相关皮尔逊相关系数。当然，还可以计算其他你感兴趣的统计量，如协相关系数。
-我们使用sna这个R软件包来计算网络相关系数（并调用qaptest命令）。通过安装和使用statnet这个R软件包，就会自动加载sna等子软件包。另外，statnet当中还集成了其他的几个相关的R软件包，包括进行动态网络建模的tergm子软件包。
-# R程序11-8：计算网络的皮尔逊相关系数 install.packages(&amp;quot;statnet&amp;quot;) library(statnet) # 首先随机生成3个由10个节点构成的有向网络 g=array(dim=c(3,10,10)) g[1,,] = rgraph(10) g[2,,] = rgraph(10,tprob=g[1,,]*0.8) # 设置g1和g2两个网络强相关 g[3,,] = 1; g[3,1,2] = 0 # g3接近于一个派系（clique） # 绘制这3个网络 par(mfrow=c(1,3)) for(i in 1:3) { gplot(g[i,,],usecurv=TRUE, mode = &amp;quot;fruchtermanreingold&amp;quot;, vertex.sides=3:8)} #计算网络的相关矩阵 gcor(g)  在通常使用皮尔逊相关系数的时候，可以用t统计量对总体相关系数为0的原假设进行检验。但在计算网络的相关系数（graph correlations）时，经典的零假设检验方法往往会带来偏差，因而并不适用。通常使用非参数检验的方法，比如QAP(Quadratic Assignment Procedure)检验。
-矩阵的随机排列（Random matrix permutations）是QAP检验的关键部分，在子软件包sna中主要通过rmperm来进行。通过矩阵的随机排列，可以对网络中的节点编号（而不是链接！！）进行随机置换（relabelling）或重新“洗牌”（reshuffling），并得到一组（比如1000个）重连后的网络。因为只是置换节点，这种操作只是重新标记节点的编号（relabelling）。
-# R程序11-9：矩阵的随机置换方法 j = rgraph(5) # 随机生成一个网络 j #看一下这个网络的矩阵形式 rmperm(j) #随机置换后的网络的矩阵形式  对这一组重构的网络可以计算其网络级别的参数（如两个网络的相关参数，协相关参数），并因此得到一个参数分布。QAP检验的零假设是实际观测到的网络参数（如）来自于这一个参数分布。也就是说，原假设认为这种观测到的相关关系是由随机因素带来的，因而这种网络相关并不显著。拒绝原假设，就从统计的角度证明了观测到的网络相关系数是显著的。
-# R程序11-10：QAP检验 q.12 = qaptest(g, gcor, g1 = 1, g2 = 2) q.</description>
+      <guid>https://chengjunwang.com/zh/post/cn/cn_archive/2013-08-04-qap-test-of-network-analysis/</guid>
+      <description>&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>互联网的法则：网络生态学的起点</title>
-      <link>https://chengjunwang.com/zh/post/cn/2012-12-06-intenet-ecology/</link>
+      <link>https://chengjunwang.com/zh/post/cn/cn_archive/2012-12-06-intenet-ecology/</link>
       <pubDate>Sun, 16 Dec 2012 00:00:00 +0000</pubDate>
       
-      <guid>https://chengjunwang.com/zh/post/cn/2012-12-06-intenet-ecology/</guid>
-      <description>作者： 黠之大者（网名），王成军，香港城市大学博士（在读）
-本文载于《数字媒体阅读报告》
-The Laws of the Web Patterns in the Ecology of Information Bernardo A. Huberman (Author)
-Paperback: 115 pages
-Publisher: The MIT Press (April 1, 2001)
-Language: English
-ISBN-10: 0262582252
-伯纳德-胡伯曼是惠普实验室的科学家，同时是斯坦福大学应用物理系的顾问教授（Consulting Professor）。他培养了很多学生，其中比较有名的当属Lada Adamic。他们两个在1999年以来的关于互联网的研究使之成为网络科学研究的重要成员，也奠定了本书基本的架构。他的第一篇论文发表于1970年，可以说是一个常青树。直到现在，依然保持着较高的学术产量。
-浏览其发表的论文，会很明显得发现他从物理学转型到互联网的结构和动态的研究，而现在则主要关注注意力经济的研究。从Strong Regularities in World Wide Web Surfing （1998， 《科学》），Evolutionary Dynamics of the World Wide Web （1999， 《自然》）等文章开始，胡伯曼的研究成为与其它主流研究者（如巴拉巴西）对话的重要人物，尤其是关于互联网的直径问题和互联网的增长机制问题 （读者可参见更好地一篇书评 ）。在其1998年的文章中，胡伯曼就提出了互联网的访问量满足幂律分布，而1999年的文章则表明互联网的结构同样满足幂律分布。这种普世的现象，胡伯曼将之称之为法则（law）。
-在讨论网络的演化与结构的过程中，胡伯曼强调关于市场中的个体的计划和策略的相吸信息不足以帮助我们理解一个市场的行为。主要是因为集体行为是互动的结果，单纯的个体信息只抓住了节点，而忽略的动态的互动。因此，追踪一些单个的个体的网页浏览行为也不能预测整体上的网络浏览规律。胡伯曼说，“我们必须放弃这些个体信息，而代之以更为整体的、系统水平的行为特征 ”（p. 23）。他将这种思路称之为整体的思路（the aggregate way），并认为这是一个强大的方法论，可以用来解决的大的分布系统，如股票市场、计算机网络、社会组织。不得不说，这是一种过于简略的思路。胡伯曼在这个问题上似乎对于微观的机制并没有太多兴趣，他执意要绕开从微观行为到宏观结果的涌现，而在系统层面讨论系统问题。恰因如此，他能够顺畅地讨论网络增长和网路规模这种系统水平的问题，而避开令人畏惧的个体行为。
-在等待牛顿的道路上，这对于普通研究者而言，不失为一种明智之举。却也显露出胡伯曼的局限。不过，这也是不绝对的，科学的道路，在发现法则之后，必然要走向背后的机制（mechanism）和普世的原理（principle）。物理学方法重视动力学方程的建立，他们以另外一种方式——数学和理论的途径面对微观的问题，但十分清楚这个从微观到宏观的过程不是简单的个体信息能顺利解决的。网络的另一特特征是小世界特性，胡伯曼指出目前的研究，尤其是巴拉巴西等人提出的优先链接机制不能较好的揭示网络的聚类特征，因此网络科学仍在寻找一个能够综合小世界特征和无标度特征的网络生成机制。其它几章讲解互联网阻塞、信息下载和互联网市场的问题，也多真知灼见。整体来看，这是一本非常简明的小书（正文只有95页）。作为较早的对网络科学研究的一个总结，值得读一下。</description>
+      <guid>https://chengjunwang.com/zh/post/cn/cn_archive/2012-12-06-intenet-ecology/</guid>
+      <description>&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>“众说纷纭”抑或“一言九鼎”？——以卡扎菲官邸攻陷事件在新浪微博上的信息扩散为例</title>
-      <link>https://chengjunwang.com/zh/post/cn/2011-08-22-gaddafi-diffusion/</link>
+      <link>https://chengjunwang.com/zh/post/cn/cn_archive/2011-08-22-gaddafi-diffusion/</link>
       <pubDate>Sat, 15 Dec 2012 00:00:00 +0000</pubDate>
       
-      <guid>https://chengjunwang.com/zh/post/cn/2011-08-22-gaddafi-diffusion/</guid>
-      <description>本文载于《传媒透视》
-作者：王成军、张昕之 （作者皆为 香港城市大学 媒体与传播系 博士候选人）
-2011年8月22日，利比亚反对派军队攻占卡扎菲官邸。初传卡扎菲被击毙，后又有消息称，卡扎菲实已经密道逃亡，截止本文完成之时（8月27日），仍无其最新下落。
-如今微博已成为普通受众获知新闻、分享内容、沟通友人的重要渠道。利比亚内战一事在微博上迅速成为热门话题。然而微博用户众多，每个人的职业、地域、社会经济地位、社会网络、认知水平乃至动机，均有参差。尽管每个人用户都看似卷入了对重大事件的讨论，但是其发言的“质量”（如逻辑、可信度等）值得商榷。同时，微博有“V认证”以标识媒体工作者、社会名流、公共知识分子等人。这些人或因粉丝众多、或因观点犀利、或因独家爆料，其发言常被众多用户转发或评论，比起普通用户的“众说纷纭”，可谓“一言九鼎”。那么，事件发生后，在一个特定的微博用户群中，究竟是每个人平等参与了新闻的讨论和扩散抑或仅有几个活跃用户推进参与讨论的过程？新闻的信源与信息发布者之间、活跃用户与其粉丝之间、粉丝与粉丝之间——的互动关系在某个特定时间段表现为何种形式？
-为回答以上问题，作为一个探索研究，本文采用新浪微博API，抓取短短4分钟内（2011/8/22 15:06—15:10）所有新浪微博上对于卡扎菲官邸攻陷事件的信息发布、转发、评论，共计738条微博。四分钟的信息流，处于信息扩散阶段的一个短暂的瞬间，因而无法窥见整体层面的信息扩散规律。但因所采集的数据为随着时间有规律增长的宏大信息流的片段，同样可能起到窥一斑而见全豹的目的，其独特意义在于：海量数据流给信息处理和网络抽样带来巨大挑战，面对庞大的关系数据，传统统计方法不再适用；了解瞬间的数据流的特点是理解海量信息流的基础。本文从“瞬间数据流”的整体（而非样本）出发，探究其内在特点，可为网络舆论研究提供新视角。抛开技术的细枝末节，我们有四个重要发现:
-##发现一：自发性信息推荐群体的出现：从“自说自话”到“信息推荐” 738条微博信息中，转发的内容达262条，占三成，剩余约三分之二为原创新内容（476条）。主动的受众积极地转载来自其他渠道的信息。例如，其中有152条微博带有网络链接，30条提及电视台，26条提及路透社，23条提及齐鲁晚报。这表明有一个活跃的、自发性的“信息推荐群体”存在着，他们看似“自言自语”的原创微博发挥着信息推荐的作用。
-##发现二： “一言九鼎”的“舆论领袖” 在短短4分钟内，就有44条帖子被转发262次，平均每条帖子被转发6次。最多的一条帖子——华尔街日报关于卡扎菲倒、油价可能上涨的消息,在四分钟内被转发了43次；该消息发布于本研究抓取数据一个小时前的14:18， 一个小时中累计被转发290次，被评论105次。四分钟内转发数量超过9条的微博客用户，主要为媒体、媒体评论人，几乎全是加V的新浪认证用户（只有 “愤青3D”例外），并具有超过百万的粉丝数量。转发情况如图1。
-图 1 微博用户及其微博被转发次数（Top 10）
-##发现三：活跃的信息转发者：多次转发同一条信息的个体 本文分析了信息转发的网络关系，该有向网络由99个节点构成，拥有262条边，然而出乎意料的是这仅仅构成了一个稀疏的信息扩散网络：该网络的网络密度仅为0.027。网络密度衡量的是网络中真实存在的边与可能存在的边的数量的比值，本转发网络密度(0.027)低于期望值（0.054），说明有些节点之间存在多条链接，即某一个特定人物发布的某一条重要的信息，被“同一个转发者”多次转发。比如新闻评论人李承鹏所发的一条微博在4分钟内被转发15次。这15次并非被15个人“一人转发一次”，而是其中被一个ID为“古火拉兹-五毛”的人转发高达9次之上，剩下的几次由另两个ID（“慧-丽” 和“跪下去求婚站起来演说”）所转发。
-图 2 微博转发网络（箭头代表信息流动方向）
-##发现四: 原创型微博和被转发微博的语义网络：经济的还是政治的？ 上文中我们提到了两类微博：一是“推荐者”们原创的微博，二是意见领袖被转发的微博。为粗略地比较两类微博内容的区别，本文对这四分钟内抽取的微博内容，通过提取高频词，构建语义网络进行分析。发现：两类微博除了都关注新闻事件本身的基本经过、“5W”之外，“原创”微博关注政治及社会自由方面（图3）， 而社会名人被转发的微博主要针对新闻事件对经济的影响（图4）。
-图 3原创型微博的语义网络
-图 4 被转发微博的语义网络
-##总结 本例中，微博资讯的传播和扩散主要始于少数的意见领袖，跨国大型新闻机构亦是主要消息来源。微博时代，传统媒体如果善用网络平台仍可成为主要的信息来源。作为信息聚合作用的草根媒体开始出现，并扮演对传统媒体之信息进行过滤的把关人角色。此外，一些知名的草根ID通过自身的独特定位和宣传包装技巧，同样开始广泛的发挥舆论领袖的作用。值得注意的是，公共讨论和自言自语相互结合的原创类型微博占到了信息流的主体。“自媒体”从“自广播”开始起步，普通的微博使用者开始运用微博转载新闻、表明态度，使得微博成为孕育公共讨论的新机制。这种底层的广泛的信息转载虽然在四分钟内未获得转发，但在其各自子群中，都扮演着信息推荐者的角色。
-最后，作为一个探索性的研究，后续研究仍需要大量的文献梳理和技术支持。未来可以考量更为漫长的时间段内信息的扩散过程。另外，对制度性的不同话语主体之间（如政府、媒介、国际机构等）的互动，不同类型事件、乃至国内（敏感新闻、突发新闻更甚）新闻的扩散机制——凡此种种，均可成为后续研究之鉴。</description>
+      <guid>https://chengjunwang.com/zh/post/cn/cn_archive/2011-08-22-gaddafi-diffusion/</guid>
+      <description>&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>通往统计语言学的桥梁——写在《数学之美》的边缘上</title>
-      <link>https://chengjunwang.com/zh/post/cn/2012-12-15-beautiful-math/</link>
+      <link>https://chengjunwang.com/zh/post/cn/cn_archive/2012-12-15-beautiful-math/</link>
       <pubDate>Sat, 15 Dec 2012 00:00:00 +0000</pubDate>
       
-      <guid>https://chengjunwang.com/zh/post/cn/2012-12-15-beautiful-math/</guid>
-      <description>本文载于《数字媒体阅读报告》
-王成军
-作者: 吴军
-出版社: 人民邮电出版社
-出版年: 2012-5
-页数: 304
-定价: 45.00元
-ISBN: 9787115282828
-语言学是传播学的近邻，很多传播学研究都要借助于语言学的工作。经典的语言学或传统的语言学大师——乔姆斯基的跨界之作《媒介控制》也被传播学研究者奉为经典（读者可参见笔者之前的书评）。然而，在过去的三十年里，语言学经历的翻天覆地的变化，一个最明显的趋势是与计算机科学、数学的联姻——计算语言学在诸多藩篱中开花发枝长叶，变得日益蓬勃，并伴随着互联网的发展，成为一门支脉显学。
-这恐怕是这个学科的创建者及其论辩对象都没有想到的。当然直到现在，传统的语言学研究者和计算语言学的研究者依然剑拔弩张，大家去不同的会议，论文发表在不同的期刊。在第二章《自然语言处理——从规则到统计》中，吴军简略介绍了这两种思路的起源、冲突和发展。
-统计语言学之所以重要，是因为它开始充分利用语言学本身所特有的可计算性。可计算性是衡量一门科学发展阶段的重要尺度。如下图所示，我列出了几个学科的诞生时间和可计算性程度。当然数学和哲学不包括在内，因为数学超脱于可计算性，而哲学，在更大程度上不具有可计算性。网络科学以度为计量单位，经济学以货币为计量基础，物理学以时空为测量手段。值得一提的是，不是所有科学一诞生就有可计算性的，比如生物科学，刚开始的阶段要经历博物学这个考察物种的漫长阶段，直到沃森和克里克的工作揭示DNA的基本结构之后，生物科学才真正具备了可计算性。可计算性，非常关键，它可以使得学科在短期飞跃发展，分子生物学如此，计算机科学如此。正是将计算机科学置于比特这个基本的测量尺度上，计算机科学后起而领袖群雄。
-值得一提的是，语言学的可计算性程度要高于网络科学和经济学。然而，传统的语言学研究在更大程度上忽略了这种天然的优势，直到计算机科学诞生之后，学科的融合、产业的需求才开始催生它的发展。吴军尤其强调的是数学的作用，有了优质的数据的金矿并不必然会做出与之相应的结果或产品。“自然语言处理和通信的世界级专家……都有一个共同的特点就是数学非常好，同时解决了很多实际问题”。吴军认为是数学之美是其中的关键原因。
-图 1 不同学科可计算性的程度
-写到这里，或许我们可以谈一下科学的境界的问题。虽然饱经争议。但这的确是一个值得思考的问题。除计算机科学考虑算法及其计算复杂性，工程类科学考虑实际应用意外，大多数的理科和社会科学都考虑理论的发展问题 （其实信息论恰是纯粹的理论导向，但具有巨大的应用能力）。然而大家对理论是什么却显然有着很多模糊的理解，尤其在社会科学。所谓的理论往往被简化为概念之间的关系，于是置身于虚悬的概念游戏里再也脱不出来，还可美其名曰“理论研究者”。谬矣！与米尔斯所言之抽象实证主义相对的宏大理论学派同样好不到哪里去，甚至更差。历经波折，白首穷经的老社会科学家们到最好才悟到中层理论的优势，要能上下接通。然而仅仅是middle-range theory还是远远不够的，它顶多是一剂泻火的凉茶。社会科学的一个严峻问题依然是计算性的问题以及基于计算性探寻规律(pattern)、法则（law）、机制（mechanism）和原理（principle）的过程。于是，听众问：我们的理论哪里去了。答曰：规律(pattern)、法则（law）、机制（mechanism）和原理（principle）才是理论！可比较，有层级，能预测，可推导。这才是让人不失兴趣的理论研究。任何一个研究，如不能在这四个层级做出实在的贡献就是扯淡，是在学术的场域里耍流氓。
-吴军在书中谈及google创业之初很多工作没有系统的模型和理论基础。“这些方法比没有做任何事情好一些，但是几乎没有完善和提高的可能，而且使程序的逻辑非常混乱”（p 259 后记）。而一个巨大的压力是很多人在其成长的过程中失去了思考的能力！对周遭不好奇不敏感。《数学之美》一书结合具体的计算语言学在互联网中的应用问题给出了一个个生动活泼的例子，如中文分词、语音识别、网络爬虫、网页排名、网页相关性计算、地图搜索、新闻分类、词汇聚类、搜索引擎反作弊、拼音输入法、CDMA、搜索广告、MapReduce算法等诸多有着实际意义和巨大商业价值的问题。但胡乱地思考这些问题并不能揭示背后的理论。只有回到背后的原理，机制、法则（模型、算法皆在此列）、规律才能谈清楚这些问题。
-除了介绍这些理论和应用之外，吴军不失幽默地回顾了统计语言学派的大师们和现在的众多领军人物。贾里尼克和马库斯的经历让人倍感振奋，如此不虚人生一场追寻。诸多轶事趣闻读来让人浮想联翩，为之莞尔。吴军是 贾里尼克所在的霍普金斯大学拿到的博士学位，其后他加入了google，开创网络搜索反作弊的算法。例如，在youtube上面，一个盗版的视频的上传者是无法获取广告收入的，他获取的点击量将被归属于原始的上传者。之后，吴军加入了腾讯公司。除了这本《数学之美》之外，他还写了《浪潮之巅》，介绍众多互联网公司在数字浪潮中的创造的一个个神话。本文的副标题是——写在《数学之美》的边缘上， 因为实在是远远未能窥及书中的奥妙及其背后的东西。作为一本近乎科普的书，背后牵连的是宽广的知识网络：信息论、机器学习、数理统计，不一而足。相信认真对过本书的人能走得更远。</description>
+      <guid>https://chengjunwang.com/zh/post/cn/cn_archive/2012-12-15-beautiful-math/</guid>
+      <description>&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>爆发：人类行为在时间尺度上的特征</title>
-      <link>https://chengjunwang.com/zh/post/cn/2012-08-31-burst/</link>
+      <link>https://chengjunwang.com/zh/post/cn/cn_archive/2012-08-31-burst/</link>
       <pubDate>Fri, 31 Aug 2012 00:00:00 +0000</pubDate>
       
-      <guid>https://chengjunwang.com/zh/post/cn/2012-08-31-burst/</guid>
-      <description>本文载于《数字媒体阅读报告》
-Bursts: The Hidden Pattern Behind Everything We Do
-作者: [美] 艾伯特-拉斯洛•巴拉巴西
-黠之大者
-人类动力学是一个迷人的研究领域，其中孕育了一系列有意义的研究。《爆发：人类90%的行为是可以预测的》一书正是其中一本重要著作。
-本书作者巴拉巴西是复杂网络研究的重要领军人物，1999年之后先后在《自然》、《科学》杂志上发表重要论文，指出诸如社会网络、神经网络、交通网络等多种复杂网络的节点密度的幂律分布，及其网络演化增长的优先链接机制。他和其博士阿尔伯特提出了“无标度网络”的概念，以及巴拉巴西-阿尔伯特模型（通常简写为BA模型）被广泛引用和报道，影响深远。其论文和书籍引发复杂网络研究在过去十余年中的研究热潮。巴拉巴西关于复杂网络研究的介绍可见其书籍《链接：网络新科学》，该书已经被湖南科技出版社翻译为中文，感兴趣的读者可以参阅。 巴拉巴西1967年生于罗马尼亚，从小就对物理学感兴趣。在欧洲获取本科和硕士学位后，巴拉巴西于1991年来到美国的波斯顿大学师从统计物理学家斯坦利攻读博士学位。事实证明，斯坦利对于巴拉巴西的研究兴趣影响深远，因为斯坦利本人就是一个跨学科研究者。虽然专注于复杂系统的研究，但斯坦利的研究覆盖众多领域，囊括物理学、生物学和社会科学，值得一提的是斯坦利本人就是经济物理学的创立者之一。笔者曾读过斯坦利关于海鸟迁徙行为的论文，非常具有想象力（或许这也跟后来巴拉巴西及其团队研究人类移动行为有关系）。1994年获得博士学位以后，巴拉巴西于次年加入圣母大学，开始其独立而不乏传奇色彩的学术研究之旅。圣母大学的13年执教时间，是巴拉巴西做出最多的学术贡献的阶段。2007年的秋天，巴拉巴西由位于美国印第安那州的圣母大学转入现在的东北大学，并创立了现在的复杂网络研究中心。现在的东北大学已经成为复杂网络研究的重镇。其研究小组非常强大，网罗了众多网络科学的研究者和访问学者。
-2005年作为一个物理学家，巴拉巴西在《自然》杂志上发表了一篇题为《人类动态中的重尾现象和爆发现象的起源》的论文，同一年就同一话题在《自然》杂志上发表题为《达尔文和爱因斯坦通信行为特征》的另一研究论文。两篇论文都是针对人类传播行为，指出这种人类传播行为在时间维度上具有明显的爆发特征，即短期内很多通信行为，而在相当长的时间间隔内则没有任何人类传播行为。这种爆发显现显然无法用描述随机过程的泊松过程来刻画，因为人类通信行为的间隔时间（或等待时间）的数学分布并非泊松分布，而是幂律分布。那么这种行为的特征背后的社会意义是什么呢？为此巴拉巴西进行了长久地思考。其结果就是于此相关的一系列论文和这本有趣的小书《爆发：人类90%的行为是可以预测的》。
-在本书中巴拉巴西介绍了自己研究这种人类行为在时间尺度上的爆发现象的很多细节和隐含的哲学。如同爱好旅行、浪迹天涯的网络科学研究者厄多斯一样，巴拉巴西的很多工作都是在旅途中，尤其是飞机上做出的。例如他关于网络增长的优先链接的模型的灵感就来源于在飞机上的思考，这个关于人类行为在时间尺度上爆发显现的研究与之类似。但因为当时在飞机上的他随身携带的电脑上的没有安装他所偏好的软件，他不得不去使用一个他当时还不太熟练的软件——Mathematica。后者是天才物理学家斯蒂芬•沃尔夫勒姆（Stephen Wolfram ）做创造的，具有非常强大的符号和数值计算软件，适合于做各种数学分析和模拟工作。不过，可惜巴拉巴西当时因为一个编程的细节错误而未能得到理想的结果。之后，这个研究一直萦绕到他的脑中，直到最后发现原来真理和谬误只差一个编程的细节。
-巴拉巴西善于描写人和事，其写作具有异乎寻常的天分，状人写物常有出神之处。这本书中写了一个关于泊松分布的提出者泊松的故事，十分有趣。泊松是一个法国数学家，同时也是一个物理学家，他的研究覆盖范围同样异乎广泛，非常高产，例如刻画随机过程的泊松分布就是他首先引入的。虽然巴拉巴西不太喜欢泊松分布，觉得有些过于简单而枯燥，但巴拉巴西对泊松本人的研究和生活却似乎很有兴趣。
-巴拉巴西在书中介绍了泊松的“成功秘诀”，原来泊松有一个习惯，当他想到一个好的研究问题的时候，泊松总是先按捺住内心的兴趣，只是将这个问题记在一个笔记本中，然后继续专注于自己在研究问题。直到把手头的工作完全解决，泊松才会回到那个记录着很多有趣研究问题的笔记本中，从中挑出一个最有趣的研究问题，继续开始研究。泊松给每个问题按照优先度排序，先去完成优先度最高的。这个故事或许启发我们如何才能够更有效率，更成功，那就是要专注，不要被枝节的问题所吸引注意力，但巴拉巴西却看得更远，他看到了人类行为在时间尺度上的爆发现象的深层社会原因，即个体给将要去完成的事件按优先性排序！按照排队理论，巴拉巴西马上建立数学模型，得到了想要的结果。
-对于社会现象的研究在社会科学中常常被变异性所牵引，给人造成一种社会科学没有统一规律的误解。巴拉巴西及其合作者对于人类行为的一系列研究无疑为其注入了一股清新的解毒剂。复杂网络处于规则与随机（或者说混沌）的边缘，同样人类的行为特征也具有类似特点。精确刻画出这种行为的统计特征，预测才变得可能。但其实预测与了解行为背后的机制相比，并非那么重要。巴拉巴西等人的工作至少似的人类行为的研究站在稳定的数学特征上开始追问其隐藏的机制。虽然距离揭示一种普遍的准则还有一段很远的距离，但所取得的成果依然非常令人振奋。因为人类90%的行为是可以预测的！本书的副标题的翻译比较灵活，因为其英文版的副标题则为“我们所做的所有事情背后所隐藏的规律”。但这种翻译并非耸人听闻，因为根据巴拉巴西和其合作者的对于人类移动行为的一项研究，这种预测能力可以高达93%。
-当前大数据和云计算成为关键词，作为普通的个体，我们依然需要一种分辨什么样的研究和事情才是重要的排序能力！值得注意的是伴随着网络科学在过去十几年间的崛起，可计算性社会科学变得成为可能。伴随着人类传播行为的研究在很多方面被不断推广和深入，作为其分支的计算传播学也开始变得呼之欲出。我们可以期待，一种扎根于可依赖的测量基础上的人类传播行为的中孕育着更多的、隐藏的、稳定的规律。揭示这种规律背后的机制和法则将是未来计算传播学的重要工作。
-本书当中还有很多真知灼见、有趣见闻，可以使得我们窥见最优秀的研究者的思维特点和点滴的经验教训。笔者从事信息扩散的研究，读这本小书常为之击节。人类行为的集体爆发显现非常广泛，不管在新闻扩散，还是在视频浏览数量增长方面，都在不断得到印证，并引发更多相关的研究涌现。如果读者对于网络科学和人类行为感兴趣的话，这本书应引起重视；如果读者觉得不够尽兴的话，一定不要错过巴拉巴西的网站和其所发表的一系列论文。不过，个人喜欢归个人喜欢，大多数的读者似乎并不觉得这本书怎么样，尤其是面对高昂的定价和过高的期待之时，甚至有人觉得《黑天鹅》也比这本书好，笔者无意冒犯，却实实在在不敢苟同，或许只有平心静气地读过相关的论文才能更好地理解本书中谈到的各种细节，而这对于很多人来说，似乎是不可能做到的，惜乎。</description>
+      <guid>https://chengjunwang.com/zh/post/cn/cn_archive/2012-08-31-burst/</guid>
+      <description>&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>第4章 派系、聚类和组元</title>
-      <link>https://chengjunwang.com/zh/post/cn/2012-07-01-snabook-chapter4/</link>
+      <link>https://chengjunwang.com/zh/post/cn/cn_archive/2012-07-01-snabook-chapter4/</link>
       <pubDate>Sun, 01 Jul 2012 00:00:00 +0000</pubDate>
       
-      <guid>https://chengjunwang.com/zh/post/cn/2012-07-01-snabook-chapter4/</guid>
-      <description>在前面章节中，我们主要分析了社会网络中的个体特征。从这一章开始， 我们将开始循序渐进探讨网络中的更大的分析单元，不仅分析个体及其相互联系特征，还要分析所有子图和聚类的特征。我们将探索处于一个三元组当中到底意味着什么，以及作为结构洞的好处和压力。 首先，我们将通过逐步去除部分网络的方法来解构网络，以便找到网络的核心(有时有多个核心)；接着，我们将使用网络的组分（二元组、三元组、派系、家族和聚类）来重构网络。
-##4.1组元和子图 为了将网络分解为可分析的单元，我们将首先给出一些定义：
-• 子图 子图（subgraph）是由一个网络的部分节点及这些节点之间的链接构成。任意一组节点都可以构成子图，稍后我们会介绍一些使用子图的有趣的方法。
-• 组元 组元（components)）是由网络当中相互分隔的部分构成。比如，在罗密欧和朱丽叶相遇之前，他们所在的两个家族没有联系（互相仇视，水火不容），因而可以被看作两个组元。
-许多真实的网络，尤其是那些通过随机抽样搜集到的网络数据，有很多组元存在。有些人可以质疑这是抽样误差（这是很有可能的）造成，但同时，这也可能只是意味着这些组元之间的链接在样本框之外，因此实际上这些组元之间本来就没有关联。
-###使用Python分析组元 埃及暴动的推特转发网络是一个具有很多组元的网络的好例子。本书所讨论的推特转发网络数据，因为只收集了1%的推特用户所发的微博信息，所以很不完整。让我们读入并检查该数据。NetworkX包含一个分析孤立的相互关联的组元的命令（connected_component_subgraphs(e); 这个命令可以根据各个相互关联的组元返回其相应的图对象的数组）：
-&amp;gt;&amp;gt;&amp;gt; e=net.read_pajek(&amp;quot;egypt_retweets.net&amp;quot;) &amp;gt;&amp;gt;&amp;gt; len(e) 25178 &amp;gt;&amp;gt;&amp;gt; len(net.connected_component_subgraphs(e)) 3122  以上程序表明这个转发网络包含约25000个节点，但这个网络被分割成为超过3000个组元的子图。我们现在可以分析这些组元的规模大小的分布：
-&amp;gt;&amp;gt;&amp;gt; import matplotlib.pyplot as plot &amp;gt;&amp;gt;&amp;gt; x=[len(c) for c in net.connected_component_subgraphs(e)] &amp;gt;&amp;gt;&amp;gt; plot.hist()  在约3100个组元中，有2471个组元的规模是1——这些节点被称之为“孤立点”，并且应该从网络的剔除。有546个组元的大小是2（也就是只有一个转发），67个组元的规模是3， 14个组元的规模是4，11个组元的规模是5。组元的规模等于或大于10的情况，其频数非常小：
-&amp;gt;&amp;gt;&amp;gt; [len(c) for c in net.connected_component_subgraphs(e) if len(c) &amp;gt; 10] [17762, 64, 16, 16, 14, 13, 11, 11]  以上代码表明存在一个大小超过17000的巨大组元，7个组元的规模小于100，规模介于100到17000之间，不存在任何组元。
-在这个特例中，我们可以将这个巨大组元看作整个网络进行分析；但这个网络仍然因为规模太大而不能得出有趣的推论。
-###网络中的岛屿 一个分析网络的技术被称之为“岛屿方法”（参见图 4-1）；这种方法尤其适合于分析权重网络，比如我们作为例子的埃及革命的推特转发网络。 岛屿方法按照以下过程工作：将我们的网络想象成一个具有复杂地形的岛屿，地形中每一个点的高度被定义为节点的数值（比如程度中心性）或边（比如转发量）。现在环绕这个岛屿的海平面高度随着时间缓慢增加，使得岛屿随着时间逐渐没于水面以下。到岛上的低谷被海水覆盖，这个岛屿就被分割为众多小岛——使得岛屿的最高峰显露出来，并且随着时间增长，这些显露于海面以上的高峰逐渐变小。
-图 4-1 岛屿方法
-当海水高度足够高之后，整个岛屿都可能完全消失在海水下面。因为，为了得到有意义的结果，这种方法需要被恰当地使用。</description>
+      <guid>https://chengjunwang.com/zh/post/cn/cn_archive/2012-07-01-snabook-chapter4/</guid>
+      <description>&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>第5章 二模网络</title>
-      <link>https://chengjunwang.com/zh/post/cn/2012-07-01-snabook-chapter5/</link>
+      <link>https://chengjunwang.com/zh/post/cn/cn_archive/2012-07-01-snabook-chapter5/</link>
       <pubDate>Sun, 01 Jul 2012 00:00:00 +0000</pubDate>
       
-      <guid>https://chengjunwang.com/zh/post/cn/2012-07-01-snabook-chapter5/</guid>
-      <description>在本章中，我们将探索分析具有两种及两种以上节点类型的复杂网络的方法。但首先，我们先从一个故事开始。
-###竞选资金是否影响选举？
- “我们有一个用金钱能买到的最好的政府。”——马克•吐温
- 每年四月份，在芝加哥帕尔默家园希尔顿酒店(The Palmer House Hilton)，政治科学家在中西部政治学年会（讨论特殊利益集团政治和竞选资金的顶级会议）上准备好辩论马克•吐温的话是否正确，或者美国政治系统实际上对于金钱的影响是否免疫。
-带着一个关于竞选资金及其对选举结果影响的大规模社会网络研究，我们 在2006年加入这场辩论。在本节中，我们将简要回顾这个研究，并介绍得出这些结果所使用的方法。
-但首先，让我们开始玩一个小游戏。
-看一下图5-1。这个图中的节点是积极卷入2000年美国国会选举和总统选举的政治组织或政治行动委员会（political action committee， PAC）。红色和蓝色的节点分别代表共和党和民主党（州和全国），绿色节点代表单个事件群体，紫色节点代表工业协会，黄色节点代表非盈利组织。政治行动委员会之间的网络链接表示它们花钱的地方——如果A和B向同一个候选人捐款，在它们之间就存在一条链接——并且他们越相似，网络链接的权重越大。权重大的网络链接在图中用粗的线条表示（我们将在稍后介绍这是如何做的）。
-P93 图5-1 竞选资金——政治行动委员会网络
-这个研究是基于依照麦肯恩-法因戈尔德竞选改革法案由联邦选举委员会所公布的数据 。这个数据是基于政治行动委员会每次向一个候选人捐款时按照要求提交的表格。这个数据在每个选举年份可从http://fec.gov/获取，但是数据信息的质量和覆盖范围因选举年的政治环境的不同而存在差异。
-正如你所看到的，单个事件政治行动委员会主导整个网络。右方是共和党群集，以共和党国家委员会（RNC）为首，而左方是民主党群集和民主党国家委员会（DNC）。但是，三个政治行动委员会紧挨着并且与这些“国家队队员”有着紧密联系，它们看上去支配着这个网络里非常多的权力。
-你能猜出它们是谁吗？
-答案在图5-2当中。在紧密相连的三元组的左方和右方的节点分别是全美堕胎及生殖权行动联盟（NARAL）和国家生命权利委员会——代表了关于堕胎问题的两个阵营，这在2000年和现在都是美国政治中最富争议的问题之一。
-图 5-2 竞选资金——美国政治行动委员会网络（核心网络）
-在中间的是美国劳工联合会—产业工业联合会（AFL-CIO），它代表了美国最大的工会和它所代表的超过一千一百万选民。这个组织在历史上倾向于支持民主党，但是共和党需要赢得重要的、像俄亥俄和密歇根这样的工业发达的州的选票以便于控制国会并让共和党候选人当选总统，这意味着要从传统选区那里吸引工会的选票。这需要一个“杠杆问题”：一个能够使得工会成员打破对于政党的附属关系的非常争议的问题，比如堕胎。
-可能是因为精心设计或者命运的偶然，我们现在可以说即使堕胎问题不是一个有争议性的问题，也是一个影响2000年大选的少数问题之一 。
-一点点额外的娱乐，我想要你注意一下图 5-2中做下角。这一个政治行动委员会的群集（除了纽约州民主委员会（New York State Democratic Committee）之外）仅仅为了一个原因而存在——打败希拉里•克林顿（Hillary Colinton）。
-我们将再稍后重新回到这个竞选数据，但首先让我们看一下如何来完成这些研究。
-###二模网络的理论
-现存的大多数网络数据都是二模的（双峰的或双向的）形式——也就是说，存在两种不同类型的节点，并且网络链接表示一群节点和另外一群节点之间的关系。
-例如，一个数据当中可能包含多种关系，例如政治贡献（例如政治行动委员会资助候选人）、雇佣关系（个体被组织所雇佣）或社会化媒体使用行为（用户对某些页面的喜爱）。这些网络经常包含两种以上类型的节点，例如天使投资人向创业者所创建的公司投资（这更有趣，因为成功的创业者最后自己也成了天使投资人）。但是，方法基本没有什么改变。
-社会学家提出一个概念：个体和群体的二元性 。从本质上讲，这个概念是指人们的想法、态度和社会关系是由个体在群体中的身份所决定的，而群体的形成源于是由成员的态度。这适用于公司、帮派、政党、社交俱乐部等。因为人们往往不仅具有一种群体成员身份，群体成员的身份可以被看作一种分析和汇总个体之间的相似性和差异性的一种方法。
-###隶属网络 ( affiliation network )
-图 5-3 展示的是一个简单的二模网络——个体A和B都是一个俱乐部的成员。这实质上构成了一个开放式的三元组，或者一个结构洞——但我们可以推断如果A和B是同一家俱乐部的会员，他/她们可能知道彼此，因而推断这个三元组实际上是闭合的。这当然是一种很弱的推断：举一个更具体的例子，还应该考虑A和B是否在同一个时间段里是这个俱乐部的成员，或者这个俱乐部在不同的城市里有多个分会，等等。但这只是一个开始。
-图 5-3 三元组的闭合与共同成员身份
-现在想象一个人是多个俱乐部的成员（在图5-4中，节点E，F,H是两个俱乐部的成员）。据此我们可以推断他们之间存在较强的联系，或许暗示着一种共享的群体身份。我们可以继续增加成员关系直到我们确信这些联系是真实的，并给推断出的链接赋予权重。
-图 5-4 从二模网络中创造一个隶属网络
-图 5-4 展示了由原始的二模网络推断出来的两个网络——一个是是由个体之间共享的群体身份决定的人际网络，另一个是不同的组织之间所共同包括的成员所决定的群体网络。创造这种网络，我们只需要统计每个人或每个俱乐部的共享成员身份的数量。
-正如其它的社会网络一样，这些网络也可以采用相同的分析方法，并且非常适合采用“岛屿方法”（参见第四章 网络上的岛屿 一节）和聚类方法（参见第四章 分层聚类 一节）。这是因为这些网络实质上是基于相似度或者相关程度的网络，因而其意义很容易理解。
-###属性网络
-二模网络分析的另外一个应用是基于同质性（homophily，希腊文， “喜欢相似的人或物”）的想法——这个想法认为相对于具有不同兴趣或属性的人，具有相同兴趣或属性的人倾向于和相似的人交流并建立联系。那么如何理解“异性相吸”等说法呢？这个理论似乎适用于一些情况，但并不适用于另外一些情况，因此这个理论并非是一个普适的法则。我们也知道如果人们更紧密地在一起，他们就会在意见、观点上更相似——但这种影响存在一定限度的。
-但是，如果你想要建立一种线上社会网络里的朋友推荐机制，把属性矩阵或兴趣矩阵转化为一个二模网络是一个有用的方法。所需要做的就是把每一份信息（标签、关键词等）看作是二模网络中的节点，从中得到一个人和人之间的隶属网络，应用岛屿方法或者聚类方法找到潜在地属于同一个群体的人。在此基础上推荐朋友，只需要从隶属网络中挑选最强的网络链接。</description>
+      <guid>https://chengjunwang.com/zh/post/cn/cn_archive/2012-07-01-snabook-chapter5/</guid>
+      <description>&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>第6章 信息扩散：像病毒一样传播开来</title>
-      <link>https://chengjunwang.com/zh/post/cn/2012-07-01-snabook-chapter6/</link>
+      <link>https://chengjunwang.com/zh/post/cn/cn_archive/2012-07-01-snabook-chapter6/</link>
       <pubDate>Sun, 01 Jul 2012 00:00:00 +0000</pubDate>
       
-      <guid>https://chengjunwang.com/zh/post/cn/2012-07-01-snabook-chapter6/</guid>
-      <description>这一章或许是你挑选这本书的首要原因。很多人好奇事物（视频、网站、新闻等）如何像病毒一样在网络上传播开来——迅速扩散并成为文化中的一部分（同时在这个过程中，使得创造它们的作者富有）。我们应该预先告诉你我们并没有现成的答案。实际上没有任何人知道答案，并且这个过程中有一些运气的成分在——但在本章中，我们将要尝试使你更加理解驱动扩散的原因以及你的决策如何驱动购买行为。
-##6.1病毒视频剖析 假设给你的猫拍摄了一段非常可爱的视频，上传到YouTube网站上并通过推特进行宣传。你是否正走在通往财富的道路上？答案是，不一定。
-这主要取决于谁看到了这个视频，以及他们在看完之后做了什么。首先，唯一看到视频的是位于你的自我中心网（ego network）中的成员——比如你的朋友。这样的观看总数的增长是非常缓慢的；观看总次数随着时间是线性增长的，这意味着每个时间段的观看次数接近一个固定常数。在这种情况下， 我们可以将观看次数描述为一个泊松过程，其中的每个观看你的视频的浏览行为彼此之间是独立的。最后，你的视频所获得的总浏览数量与你的粉丝的数量（你的程度中心性）存在数学上的关联。
-但如果发生了一些其它的事情并且你的朋友们转发了这个视频给他们的朋友（等等，使得越来越多的人知晓这个视频），你的猫的视频将马上成为YouTube上面最流行的视频，并且好莱坞的制片人前来你家拜访。或者这一些都没有发生。
-有一个奇怪的事情在这个过程中间的某处发生了。你的一个朋友说“你看过这个视频吗？”，另一个朋友回答“是的，我已经看过了”，这强化了这个视频是一个“觅母”（meme） ——一个新的、独立的文化人造产品的观念。突然之间，让别人接触这个觅母就成一个人的第二天性或者甚至是一种必须的行为。
-从一个无足轻重的事物（但是可爱或有趣）变成一个必须分享的事物的质变过程是增长曲线的一个剧烈的转折，也被称为“临界质量”（critical mass）。如果在一定量的时间里，觅母未能在一定的时间范围里到达临界质量，它的采纳率开始下降并最终消亡。
-但是如果到达了临界质量，它将指数增长直到达到饱和点——也就是几乎每个可能采纳这个觅母的人都已经采纳。从这一点开始，觅母将会开始走下坡路。
-需要注意的是临界质量和饱和的概念适用于每个网络和社群——一个觅母在一个社群到达饱和点而在另一个社群里无人知晓是可能的。但是，因为社群是相互连接的，所以觅母通过跨界者从一个社群传入另一个社群并确立一个新的临界质量和更高的饱和点是可能的。
-###脸书做对了什么 在脸书（Facebook）出现之前，存在着其它社会网络。我们中的一切人或许还有聚友网（MySpace）的账号。一些人还记得Friendster。在Friendster之前，在所有其它SNS之前还有一个叫SixDegrees的网站。SixDegrees创立于1997年，它承诺将连接人们和他们的朋友、以及他们的朋友之间、最好的律师、医生、水暖工等。这样做，它将提供帮助人们通过社会网络完成任务的有用的功能。
-SixDegrees早于时代5年时间，并且尽管采用了全国范围内的广告宣传、良好的设计（对1997年而言）、在博客（令人尊重的Slashdot网站和波音波音（BoingBoing）网站都曾重点推介过它）和杂志（连线杂志）中良好的形象，它从未迎来增长的临界点。
-哪里出错了呢？答案非常简单——Sixdegrees未能到达它的临界质量。网站本身是全国性的，他们却实际上试图建立一个蔓延全国的地方化的市场，结果未能完成这个任务——实际上几乎不可能在这个网站上找到一个水暖工，部分原因是那时很少有水暖工使用互联网（或者觉得建立一个网络SNS账号很麻烦），部分原因是SNS的使用强度非常低。
-当脸书2003年建立的时候（仍使用最初的名字“Facemash”），它是一个哈佛本科生组成的小而紧密的网络社群。创立于一个较小的地区使得他们可以快速到达增长的临界质量。实际上，在它上线约四个小时内，就已经吸引了450个访问者，或者大约6%全部的本科生。记住6%这个数字，它非常重要。
-在哈佛内部，早期的脸书经历了一系列反复，直到找到一个易于扩展的设计并最终覆盖50%的哈佛本科生而达到饱和。从那开始，它的触角开始伸向其它常青藤高校，一个接一个，最终覆盖了美国所有大学。最后在2005年，它开始面向高中生——并奠定了它主宰世界的基础。
-脸书所遵循的规则——也是脸书不同于Sixdegrees和Friendster的地方——是在一个社群里到达饱和点之后才移入一个更大的社群。通过这种方式，临界质量从未被错过，并且新的成员完美地嵌入他们来自其他学校的伙伴建构的社会结构之中。
-###如何估计临界质量 在“三元组、网络密度和冲突”一节中，我们讨论了冲突如何在社会网络中蔓延及其对于网络链接的密度的影响。如果你回去重新仔细看图4-13，你会发现一个非常相似的增长方程——相同的S形曲线，如同我们在图 6-1中所观察到的一样。
-图 6-1 扩散曲线——临界质量、繁荣和萧条
-图字翻译：
-如果从线性的蔓延到指数（病毒式的）增长的确依赖于封闭的三元组（也就是说，朋友的朋友也是我的朋友） ，这样连接的临界质量的可以通过测量随机增加一个链接（比如，从A到B）与其它节点之间所形成的一个或多个开放三元组的概率的方法加以估计。这个概率与已经彼此相连的节点的数量（我们用2与节点数量相乘是因为每个边占用两个节点）：
-P(开放三元组) ~= 链接的数量/(2*节点的数量)
-这样，当四分之一的节点彼此相连的时候构成一个开放的三元组概率是50%——并且每一个新的链接使得闭合三元组能够创造甚至更多的链接，进一步增加形成级联（Cascade）的概率。
-我们在实验中发现当网络密度接近7%的时候将从线性增长（每一次增加一条链接）转化为病毒式扩散——也就是说，当有意采纳这个“觅母”、转发一个视频、加入一个网络社群等的人的比例达到7%的时候，其他人将会在关键阶段马上跟进。
-这是一个推动脸书走出哈佛的、神奇的数字。在我们的研究过程中，我们发现的一些其它的例子也表明当网络中的采纳比例小于10%时会发生病毒式扩散。
-从这一点可以得到的一个推论是在一个较小的社群里更容易达到临界质量——马克•扎克伯格（Mark Zuckerber）本能地知道或者（更可能）偶然发现。
-tips： 对于一个新兴公司（尤指新兴网络公司）的创立者而言，这是违背直觉的。每一个风险投资者都想知道整个市场到底有多大以及新兴公司完成市场渗透的计划。追逐小的自给自足的细分市场看上去与指数式的增长背道而驰。但是，一个细分市场的高饱和度是通往其它细分市场的一个好跳板——如果它们在地理上接近或者其利益非常吸引人。
-###维基经济的临界质量 关于临界质量的问题还有一种看法——参与成本理论。即使在一个提供免费服务品的世界，任何事物都有成本。这种成本包括金钱成本、时间成本、或者机会成本（也就是说，花费时间在脸书上，就无法花费时间在酒吧里——至少在移动手机变得普遍之前）。其它形式的参与文化，比如维基百科，需要其作者和编辑花费更多的时间，但得到的收益却非常短暂。
-一个过时但依然有说服力的例子是传真机的出现。当第一个传真机在上世纪七十年代中期，从施乐的装配线上生产出来之后，其成本高达几千美元并且完全得没有什么用处。另外不要忘记，如果一个传真从它那里发出，并没有位于另一端的一个传真机接受它。当第二台传真机在几分钟之后从生产线上滑落的时候，两台传真机的价值都无限增加了——现在一个银行可以（通过传真机）与其分支网点通讯了。但是，这台机器的用处随着越来越多的机器被生产出来而不断增加，直到传真机成为一种不可或缺的办公用品。
-在传真机的例子中，传真机最初被应用于大公司的总部连接其分支机构（代替了庞大的电传机）。所以每个公司独立地、按照自己的时间到达它们自己的临界质量——如果公司已经投资足够多资金到传真机设备上，在更大的范围销售传真机将会变得非常困难或者不可能。 一个经济学家会使用交易成本的概念讨论这件事情，并画出如图 6-2的曲线。
-图 6-2 成本曲线——社会化媒介的经济学
-图字翻译：
-假设参与成本是一个固定的值。在一些例子中（例如，传真机），当大规模生产时生产成本降低，但在参与式的文化（例如，维基百科）中，成本实际上随着生产规模膨胀而变大了——但我们可以在短期里认为它是常数。
-对于一个早期采纳者而言，成本是非常真实的，而利润还没有实现。当有更多人加入这个网络之后，收益以连接的数量的函数的形式增加，这使得新观念、觅母、社会网络网站的渗透漫漫长路中的每一步都变得更为容易。
-当使用一个产品带来的收益超过其成本的时候，扩散将接近临界质量。此时，每增加一个链接将会带来更多的链接，进一步增加收益——而成本却保持不变。
-如果没有到达成本/收益的平衡点，在网络中存在多少链接都是没有意义的——因为，最终在这个网络中的扩散都会失败。
-###内容（依旧）为王 当我开始1995年开始为网络项目而工作时 ，曾经有一个说法叫做“内容为王”。内容可以吸引使用者、留住使用者、挽回使用者。那时候流行很多理论——其中一个说应该确保用户点击鼠标不超过6次就能够找到他/她想要的内容，另一个说重要的信息不要被屏幕翻页所分割（载入的计算机屏幕的第一页之后部分信息）。不管是在过去还是在现在，这些都是好的设计准则。但是如果网站的内容非常吸引人，其它的这些都不再重要。如果翻页后的内容很有价值，人们就会点击和滚动鼠标去看。
-这种观点在今天同样存在：如果内容在某些方面是引人入胜的，这将提高收益并使得成本和收益的平衡更快到达，并因此将链接的临界质量从7%降低到3%或4%。如果内容的质量不是那么好，那么可能根本就无法到达临界质量。
-这是社会网络的定量分析止步的地方，也是关于信息重要性的理论过度盛行的领域。下面的这个理论是许多试图定性地解释信息扩散的一种方式。
-当我们想要知道一个信息是否可以在一个网络中扩散时，实际上我们的问题是“这个信息是否会和网络中的成员引起共鸣？”。或者，更准确地说，“个体如何获取信息？”。我们可以将信息的作用分解为几个维度的变量：
-• 相关性（Relevance） 我是否关心？（以及其变体，显著性（saliency）——我现在是否在乎？）
-• 共鸣（Resonance） 信息的内容和我所相信的内容是否一致？
-• 严重性(Severity) 信息的内容有多好或多坏？
-• 紧迫性（Immediacy） 这个信息是否需要（人们）马上行动？与严重性一起，表示（看到信息后）不做出任何行动的后果。</description>
+      <guid>https://chengjunwang.com/zh/post/cn/cn_archive/2012-07-01-snabook-chapter6/</guid>
+      <description>&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>重返沙堆：通往理解信息扩散的实在之路</title>
-      <link>https://chengjunwang.com/zh/post/cn/2012-05-16-return-to-the-sandpile/</link>
+      <link>https://chengjunwang.com/zh/post/cn/cn_archive/2012-05-16-return-to-the-sandpile/</link>
       <pubDate>Wed, 16 May 2012 00:00:00 +0000</pubDate>
       
-      <guid>https://chengjunwang.com/zh/post/cn/2012-05-16-return-to-the-sandpile/</guid>
-      <description>本文载于《数字媒体阅读报告》
-How Nature Works: The Science of Self-Organized Criticality 作者: Per Bak
-黠之大者
-任何一个学科都需要从其它学科学习其精髓，对于在走向可计算化道路的社会科学，尤其是传播学而言，这种开放性更是时代的压力和必然的结果。因为网络时代的到来所带了的传播关系的变革、数字化的行为印记（digital traces or digital footprint）、大规模的网络数据的开放都推动着学科的变革。无疑对于传播学而言，这是一个必须抓住的机遇。
-爱因斯坦在老年时在一个自述中讨论了一个问题，即为什么他念了物理没有念数学。他说:“在数学领域里，我的直觉不够，不能辨别哪些是真正重要的研究，哪些只是不重要的。在物理领域里，我很快学到怎样找到基本的问题来下功夫。”我想这几句话的意思应该是每一个大学教授，每一个大学研究生应该仔细想法体会的。如果思考重要的问题，自然做出的东西不容易琐碎（trivial）。虽然最终问题的本质可以用一个美妙的数学形式表达（不应该是统计方程），但从那么多的相（万象）中找到基本的相，稳定的相（pattern)。依然是一个不容易的事情。 到幂律分布（power law）之类的发现依然是唯相的阶段。社会科学的冒进在于每次都妄想一个理论框架。每次都拿理论发现来宽慰自己。殊不知己之理论与彼之理论，相差如同天壤。大数据（big data）引发了很多欢呼和争论，虽然这是机遇，但也隐含着危险。大数据（big data）如果是无偏的，有代表性的，那么就蕴含着机遇。常见的一个错误是误以为google成功于海量数据，谬矣。信度和效度的问题，在我的理解里，这都是你选择的测量的可计算性的问题。好的测量（measure）往往一针见血，如货币，如基因，如能量，如比特。在互联网里目前最成功的测量是什么？我以为是pagerank。借助用户的评价，一下子就抓住了一个网页的重要性！googe最成功的是pagerank这个好的测量。这样好的测量才能赚钱，才有可计算性，基于兹的研究才有信度和效度。类似的测量当属度了，度分布的幂律分布（power law）被无数的研究所发现，可以算到了唯相了。
-作者愚见，觉得扩散是最为普遍而重要的现象，它广泛地存在于各个学科中，并几乎都成为最重要也是研究的最彻底的、最吸引人注意力的领域。我自己对于扩散有着超乎直觉的兴趣。借用古希腊哲学家的话：万物皆流，万物皆变。身在浩浩汤汤的洪流中的个体很容易对流产生兴趣。因而，我将研究流的扩散，更具体的说信息的扩散，作为了自己博士研究的主要工作。 而选择研究信息扩散的一个驱动力就是巴克（Per Bak）的这本书《大自然是如何工作的》，这本书通过沙堆模型讲自组织临界性，对我的启发很大。当我对信息扩散的数据浸淫日久之后，深感必须重返沙堆模型，才能真正理解信息的扩散，因此便有了本文。在本文当中，我将归纳关于扩散研究的三种路径。
-##一、描述式的社会科学套路 如经典的新闻扩散（news diffusion）的研究、两级传播理论（two-step flow）、创新的扩散（diffusion of innovations）。这些研究主要是为了描述现实，沿着这条道路走下去，可以更真实地理解5w，却很难理解1h（即how）。
-虽然社会科学因为无历史包袱，所以视角更为多元，比如两级传播理论所揭示的媒介的直接影响非常不同于自然系统的扩散的特点， 经典的新闻扩散研究发现的J曲线指出人际作用和媒介作用的对立，以及其对传播规模的非线性影响也很有想象力。但社会科学却在可计算化方面做得并不好（读者可参见本文作者在上一期杂志上关于计算传播学的文章）。比如经典的创新的扩散理论中所着重论述的s曲线实在是一个坏到家的定义。因为并未能给出s曲线的数学表达，而几乎不管什么曲线方程（如罗杰斯蒂方程，但注意s曲线不是罗杰斯蒂曲线），只要使用超过三个数学参数就可以拟合任何曲线，这使得大家即喜欢这个s曲线的比喻，又根本抓不住什么才是s曲线。成为了难以比较，不可琢磨的臆测。
-二、微分方程的数学视角。 比如Bass扩散模型(bass diffusion model), 这实在是一个了不起的工作。我写一个的短评，如下：
-从bass diffusion model开始讲，这个与生存（survival analysis）里的hazard rate息息相关。因为F&amp;rsquo;(t)/(1-F(t))被定义为hazard rate。其实是一个条件概率，就是没有采纳的人（没被传染的人）（1-F(t)）在时间点t采纳（被传染）的概率。
-关于hazard rate设置的方法导致Bass扩散模型(bass diffusion model)，前几天刚看了，h(t)=p+q*F(t)。解这个微分方程，可以求出F(t)和f(t)。这个东西可以预测增长曲线。p和q分别代表创新性和模仿性。感觉很好玩。p=0, 即没有创新性的时候，是罗杰斯蒂增长（logistic growth）；q=0, 即没有模仿性，只有创新性的时候，是指数增长（exponential growth）。
-讲到谣言传播的第一种模型的时候，hazard rate=d，这个时候就是指数增长；但这样设置有些随意（arbitrary），因为有些人拒绝传播。就有了一个叫拒绝率r的东西，这个我还是第一次看到，因此它是在试图修正hazard rate。那么r是什么呢？没有讲清楚。我试图从R(t)=r*F(t）/(1-F(t))这个我自己构造的公式来理解。r*F(t)衡量的是已经知道谣言的人拒绝传播的概率, 再除以1-F(t)就是不知道谣言的人受拒绝传播的人影响的概率。 那么就有h(t)=d-R(t)。 但这种工作有点arbitrary，因为你说p是创新性，q是模仿性，然后就开始推导了 （推导可见我的一篇博文， 另电子杂志可以加链接于我而言是意见快乐的事情） 下面沿着率方程的道路走下去的是一个伟大的传统，即传染模型（epidemic model）。最主要的是sis和sir。其主要思路是将传染的过程分为3个阶段：susceptible&amp;mdash;&amp;gt;infectious&amp;mdash;-&amp;gt;recovered (and immune)。sir说一次恢复，永远免疫，再也不怕了；sis则不然，好了还会被再次感染。传染病模型中一个主要的工作是确定一个传播率，它是感染率和治愈率的比值。这个传播率一般存在一个threshold，当高于这个threshold的时候，能够全局传播；否则只能感染少输人。
-网络科学开始考虑人际接触关系（contact relationship）是如何受网络度分布的影响的，加入度分布的因素之后开始考虑统合门槛(threshold)的大小问题，一个著名的工作是Romualdo etc在2001年发表的一篇题为epidemic spreading in scale-free networks的论文，被广泛引用，因为他们发现scale-free network里的感染门槛是0！！！没错，就是0，也就是说全局传播不是问题。</description>
+      <guid>https://chengjunwang.com/zh/post/cn/cn_archive/2012-05-16-return-to-the-sandpile/</guid>
+      <description>&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>计算传播学：宣言与版图 </title>
-      <link>https://chengjunwang.com/zh/post/cn/2012-02-19-computational-communication/</link>
+      <link>https://chengjunwang.com/zh/post/cn/cn_archive/2012-02-19-computational-communication/</link>
       <pubDate>Thu, 09 Feb 2012 00:00:00 +0000</pubDate>
       
-      <guid>https://chengjunwang.com/zh/post/cn/2012-02-19-computational-communication/</guid>
-      <description>本文载于《数字媒体阅读报告》
-黠之大者
-引言：大道
-听李金铨(CC.Lee)老师讲治学，喟叹“大道不过三两句，说破能值几文钱？”这是一个开放性的问题，道出了社会科学家(social scientist)的无奈。诸多好玩的东西，归结到最后只有所为“理论”的贡献，而没有应用的价值。CC.Lee一语也是一种挑战：希望学术有助于现世之生活。
-但显然学术应辅助于生活，被认为是传播学创始人之一的卢因博士曾言： Many psychologists working today in an applied area are keenly aware of the need for close cooperation between theoretical and applied psychology. This can be accomplished in psychology, as it has been accomplished in physics, if the theorist does not look toward applied problems with highbrow aversion or with a fear of social problems, and if the applied psychologist realizes that there is nothing so practical as a good theory.</description>
+      <guid>https://chengjunwang.com/zh/post/cn/cn_archive/2012-02-19-computational-communication/</guid>
+      <description>&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>媒介控制：呓语抑或现实？</title>
-      <link>https://chengjunwang.com/zh/post/cn/2011-11-17-media-control/</link>
+      <link>https://chengjunwang.com/zh/post/cn/cn_archive/2011-11-17-media-control/</link>
       <pubDate>Thu, 17 Nov 2011 00:00:00 +0000</pubDate>
       
-      <guid>https://chengjunwang.com/zh/post/cn/2011-11-17-media-control/</guid>
-      <description>本文载于《数字媒体阅读报告》
-作者: Noam Chomsky; 出版社: Seven Stories Press; ISBN: 9781888363494
-黠之大者
-乔姆斯基（Noam Chomsky）在1991年开始出版第一版的《媒介控制》（Media Control: The Spectacular Achievements of Propaganda ）一书，讨论宣传的历史、旁观者民主（spectator democracy）、公关、被策划的观点（engineering opinion）、替代现实的再现（representation as reality）、异议文化、游行的敌人、选择性认知。之后讨论海湾战争，和想象中的传媒业——来自火星的记者。全书围绕媒介的作用展开，总共才101页，十分短小。
-乔氏的讨论问题比之经典的传播研究迟滞了至少70年，但讨论的视角更为广阔。例如乔氏讨论民主之理解，于细节处见思想的宏伟。乔氏将民主的理解非为两类：一类是参与的权力；一类是信息控制的权力。并认为信息控制是一个更为主导但被忽略的方面。这种思路是很有见地的。乔氏对于政治的叙述更多批判意识。例如他一针见血地指出特权阶级（specialized class）的存在，他欣赏李普曼对于大众的悲观思想（大众是惊恐的羊群；特权阶级必须安抚羊群以保护自己免于羊群的践踏）。这些羊群式的普罗大众，就是观察者。当这些羊群式的大众成为政治的参与者的时候，特权阶层必须考虑如何同化这些大众——通过被制造的合意（the manufacture of consent），使得社会被整合，大众被分心，最终使得羊群式的大众成为政治参与的观察者（spectators of action）。而制造合意的方法莫过于宣传。乔氏说宣传之于民主，恰若棒子之于专政。
-对于公关的讨论开始引入媒体作用，比如使个体原子化。这是最初的传播学研究的“巨大效果论”时期的滥觞。而实际却可能远非如此，虽然城市化开始使得人和人关系疏离。但人总是生活在社会的细胞之中，生活在参考群体（reference group）之中。乔氏认为世界进入一个商业化驱动的社会（business-run society）。将个体组织起来的力量是不存在的（unions are virtually nonexistent）。其中的一个问题是媒体所有权的控制问题。商业开始通过公关操纵政治，以至于政党也只是商业利益的代言人，进而大众不愿意选举因为它看起来无意义（Most of the population doesn’t even bother voting because it looks meaningless）。
-有能力策划合意的人（the people who are able to engineer consent）是占有资源和权力的。民众被认为从未被很好的安抚，屡有反抗，但媒介致力于改变之成为病态的居民，使之无力也无心反抗。例如，乔氏举例在海湾战争中华盛顿邮报鼓吹好战的精神（martial value）。之于关于作为显示的再现的讨论，大多是在回溯柏拉图问题——洞穴中被束缚的囚徒如何认识世界。但这些多很难有一致性的结论，因为媒体这样写了，读者未必这么认为。尤其是在媒体公信力下降的社会。
-乔氏之天才在于其视野之广阔。乔姆斯基反观历史，指出美国以非法占领和伤害人权作为参战理由。很多人也如是解读，这是宣传系统制造合意的力量。然而这种逻辑并没有被完全地应用于美国的行为。例如，1969年南非非法占领纳米比亚之时，美国政府并未作出任何反应，反而是二十年的冷外交。而在这二十年里，一百五十万非洲人被杀。再比如对于萨达姆-侯赛因的反对在美国的报纸上从来都有，在海湾战争之前就有，但是直到海湾战争时，美国人才认识到这是一个问题。似乎存在一个门槛（threshold），美国人对一些媒体上的问题视若无睹，直到美国的宣传工具开始告诉他们这是一个严重的问题。羊群式的美国人似乎真的没有认识能力（也许乔氏真得是唯一的例外）。以色列自从1978年就吞并了叙利亚戈兰高地和东耶路撒冷时，萨达姆宣称无法容忍以色列的吞并行为。伊拉克参战，继而美国参战，海湾战争爆发。乔氏认为萨达姆和布什总统的口号是一致的。然而美国人却毫不认同相同的口号。
-本书的局限很多，一个主要的方面是信手拈来，诸多不严谨之处。全书流于论辩、讲演式的思想铺陈，逻辑过于天马行空，缺乏现实的支撑。反观之现实，顿时觉得乔氏更像一个来自火星的记者，并没有去了解现实的受众。看似弱不禁风的羊群（herd），多大程度上被媒体的所指引？整体而言，这本书并未获得学术界的认可，因为乔氏的研究根本是与传统的研究是脱节的。书中主要的叙述手法仍然趋于评论性质，缺少严格的证据（evidence）。值得注意的是，1991年正是传播学发展由“有限效果论”、“一般效果论”再次进入“强大效果论”的时刻。回到一战和二战时的经典传播学研究，拉斯韦尔等人主要讨论宣传的作用（见《世界大战中的宣传技巧》一书），认为媒介的作用是“巨大效果”。但经历了严格的实证研究的洗礼，发现媒介的影响在很大程度上是受到局限的。因此经历了著名的传播学存在还是消亡的争论。但是伴随着议程设置理论的发展，媒体的作用开始被重新认识。但此时已非毫无限制的。经典的文献总结为“媒体也许并不能有效地控制人们如何想，但可以决定人们想什么”。在此之后的传播学理论也开始另辟蹊径，在媒介如何影响人们的认知框架（priming）和思维角度（framing）的角度展开，而非简单的媒介效果在行为层面的作用。但乔氏似乎也在另外的角度开始接近事实的真相。</description>
+      <guid>https://chengjunwang.com/zh/post/cn/cn_archive/2011-11-17-media-control/</guid>
+      <description>&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>呓语与幻想：传播学疆界的扩张</title>
-      <link>https://chengjunwang.com/zh/post/cn/2011-07-09-universal-communication/</link>
+      <link>https://chengjunwang.com/zh/post/cn/cn_archive/2011-07-09-universal-communication/</link>
       <pubDate>Tue, 19 Jul 2011 00:00:00 +0000</pubDate>
       
-      <guid>https://chengjunwang.com/zh/post/cn/2011-07-09-universal-communication/</guid>
-      <description>本文载于《数字媒体阅读报告》
-王成军
-起初对科幻并无太多的兴趣，在深圳的时候李晓煦博士推荐的苏联科幻电影Solaris，用了三个小时，感受了“聚念成人”的快乐与痛苦：一个中年男人来到一个名为Solaris的陌生星球，调查发生在宇航员身上的各种离奇事件：他每天清晨发现自己少年时候爱过的女人坐在窗前，穿着那件记忆中的衣服。然而，一切都是虚幻的，她只不过是这个名为Solaris的星球根据你的想象生成的虚假的实体。假的依然是假的，甚至比不过记忆中模糊的形体。男人将她们通过小型发射器放逐到太空中。故事的结局令人唏嘘：把录音带投入到Solaris星球，搅乱了星球对于人类思维的识别，最终了结了这种种离奇事件。这个故事对我的吸引力在于，如果是你，你能强大到拒绝她们吗？我时时怀疑。因为记忆中的美好的身影早已将自己迷惑。或许，我会选择永远生活在那里。我喜欢这个能直面人性真实的星球，它抚慰时间箭头带给我们的损伤。四十年过去了，她还在，还是那样年轻，风姿绰约。这样的美丽你如何拒绝? 我觉得苏联电影的好处是特别的粗糙所指向的极度的真实，影片之初对于暴雨前的深林的拍摄令人无限忧郁。
-媒介技术学派是一个充满个性的群体，然而这也许并非一个准确的称谓 。或许更恰当的称谓仍是多伦多学派，以英尼斯，麦克卢汉等人为代表，其著作分析媒介与文明的关系，媒介技术对于文化和社会的影响。本文无意分析、辨明其思想脉络，只想在这个专刊里，从其源头走向、并走出其中一个集大成者：麦克卢汉。
-##呓语：技术与疆界
-麦克卢汉如同一个呓语者，他的文笔过于随意，远远非学派开创者英尼斯之历史视角和细致有力的分析。伴随着那个思想涌动的时代，这个伴随着邻邦实证主义发展起来的分析视角到了麦克卢汉这里，怵然开始转折：文笔之大胆生动，远远超出了想象。“地球村”早成现实，“媒介即信息”也被广泛印证，“媒介即按摩”也可以自圆其说，然而总是透着一种不够严谨的感觉。麦克卢汉对语言的随意应用，使他的思想因其看似荒诞而广泛流传。麦克卢汉像一个高高的奇形怪状的灯塔，立在传播学的海洋边上。若问一个其他学科中的人对于传播学大师们的认识，恐怕无人能出麦克卢汉之右。
-技术毫无疑问在不断深入地形塑着传播学，拓展着传播学的疆界，在mass media出现之初，人类传播行为只限于人际传播和群体传播。然而从印刷技术，造纸技术开始，书、报、杂志、广播，电视开始勾勒出传播学的疆界。在过去的二十多年里，这个疆界因互联网之产生，而变得无远弗至。
-然而，或许，这只是传播学疆界扩展的开始阶段。一个更为大胆的设想是：宇宙传播学。在我所接触到的不多的科幻小说里 ，这种想法已经开始变得不那么流于空想。
-##幻想：传播即死亡 在这里要聊的是刘慈欣的《三体》三部曲。我是先读第二部黑暗森林，然后读第三部 死神永生，最后读了第一部《地球往事》。三体三部曲汪洋恣肆，想象力异常丰富。一开始就被认为是开创了所谓“宇宙社会学”，因为大刘构造了“黑暗森林”的假说。这个假说所处理的是地球与外星球文明的关系，在《三体》三部曲中就是名为三体的这个星球。
-宇宙的文明发展并非均衡的，三体文明超越了地球文明，然而，三体人的人际传播方式完全不同于地球文明。三体人之间可以完全读出对方内心，不需要经过言语的交流和表达。这使得三体文明出现了一种更加简洁的社会构造。然而，单纯的三体文明内部发展的故事并不足为奇，故事的巧妙之处仍在于地球文明和三体文明的冲突。刘慈欣将宇宙间文明互动的规则总结为“黑暗森林”假说：宇宙如同一个黑暗而庞大的森林，文明分布稀疏（这符合一个称之为“费米悖论”的解释，费米说：如果存在外星文明，它们也该出现了。它们一直未出现。因此并不存在这个外星文明。） ，每一个文明都像一个在黑暗森林里跋涉的猎人，手执猎枪，当他发现一个外星文明的时候，因为无法判别对方的善意，因此最好的方法是消灭这个被发现的文明。这就是一个信息博弈的悖论。
-《三体①》的主旋律是失望和复仇，女主角的父亲在文革中被打死，她因缘巧合卷入一个军事计划，却通过太阳作为信息放大器向宇宙发射了关于地球的信息。三体人收到信息，制造出智子，人类陷入科学封锁的困境。《三体②》的主体是被分隔的爱情。为了对抗三体人的科学封锁和信息监控，地球联盟选择了五个面壁者。其中的逻辑是一个令人敬畏的思考者，作为一个面壁者，他有着自己对于情感的追求。 在一个幽静的欧洲密林深处，他守候着自己的爱人，过着最为普通的生活。读到这些美丽的文字，我都在想，何必要有责任，眼前的红袖添香、西窗剪烛不是人生最大的快乐吗？但是，逻辑依然是逻辑，为了肩负的面壁者的使命，以及妻子和孩子的安全，只好选择了和她们分开。《三体③》最为浪漫，一个男人在去世之前送给一个女人一个星球。之后这个男人的大脑被送往三体人。他的基因被复原，并在三体人的领地生活。潜伏其中的他跟女主角有了一次接触，传递了画中人以维度杀人的秘密。
-仔细辨明这些黑暗森林假说和其信息博弈的过程，我们会发现，悖论来源于宇宙文明之间的传播障碍。这种传播障碍在危机来临的时候，超越了文明内的传播障碍 。对此，在三体中所描述的危机纪元有充分的描述：一个恐怖组织的精神领袖，在地球面临外星球文明威胁的时候，变得土崩瓦解。曾经组织内部铁血的斗争意志，在全人类面临危机的时候被消解。而内部的传播机制决定了一切的游戏规则。比如，女主角叶文洁向宇宙发出了地球的信息，被三体人所截获，暴露了地球文明的位置，引来了三体文明的入侵。地球文明对于宇宙文明的广播行为，或者说对话行为招来杀身之祸。然而罗辑巧妙地利用向宇宙中广播三体星球的位置的做法，使得地球转危为安。全书中如果描绘了一种“宇宙传播学”的话，那么，在刘慈欣眼里，显然是“传播即死亡”。
-宇宙文明之间的传播行为是一个囚徒困境，走不出来。一旦经由广播等传播行为而暴露，就以为着文明的消亡。这是一种富有张力的图景。但透着文明间对话困境的思索。用禅语说，就是“不可说”。 ##宇宙传播学：宇宙传播技术的诞生 然而，当死亡的阴影笼罩整个宇宙之后，文明方可真正经由死亡走向永生：废弃理性主导的荒诞，由杀戮走向合作。三体三最后描述了维度之剑下宇宙文明损失殆尽，小的文明火种经由构造狭小的宇宙空间而得存留。然而这种存留的代价是抢夺宇宙的物质。痛定思痛的宇宙各文明最终放弃苟延残喘，将物质归还宇宙，期待宇宙文明的重新孕育和诞生。
-刘慈欣在书中略微调侃人类的传播媒介，在所有的传播媒介中，只有石刻最能经受岁月的摧残。而电子设备与之相比，其储存的期限远远不可比拟。
-很显然刘慈欣是一个传播学视角下的悲观主义者，然而，人类文明已经不止一次向其它宇宙文明“表达”自身的存在和存在的善意。很显然，如果费米悖论正确，那么人类是宇宙的孤家寡人，如果错误，人类在自取死亡。唯一可抱希望的是，是否有一种宇宙语言诞生，让宇宙文明可以对话 。对此，建造圣经中的巴别塔是有必要的。上帝为防止人类合作建造巴别塔，而使人类说不同语言，失去交流的可能，而终结了不同语言的种族间合作的可能。
-回到媒介技术学派的思路：是否可能有一种宇宙传播技术的诞生，使得宇宙文明之间可以在一个没有猜疑的语义空间里对话？</description>
+      <guid>https://chengjunwang.com/zh/post/cn/cn_archive/2011-07-09-universal-communication/</guid>
+      <description>&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>通识与考据：论社会科学知识的如何增长 </title>
-      <link>https://chengjunwang.com/zh/post/cn/2011-05-15-historical-insights/</link>
+      <link>https://chengjunwang.com/zh/post/cn/cn_archive/2011-05-15-historical-insights/</link>
       <pubDate>Sun, 15 May 2011 00:00:00 +0000</pubDate>
       
-      <guid>https://chengjunwang.com/zh/post/cn/2011-05-15-historical-insights/</guid>
-      <description>本文载于《数字媒体阅读报告》
-——读《治史三书》
-黠之大者
-史学的视野对于媒介研究具有重要意义。互联网时代之历史观照更是非常重要。时代变革对于社会中智识分子的考验往往首先是观察视角的转变。
-二十世纪六十年代社会科学实证研究狂飙突进，拉杂斯菲尔德开创性的将panel study运用到媒介效果研究中来，时间的维度成为因果判定的重要依据。然而，即使如此，依然忽略了大的历史背景。拉氏的同事怀特-米尔斯反戈一击，历史社会学开始盛行。互联网时代同样提出了新的时代问题：如何运用和分析网络时代的海量数据。这当然是一个见仁见智的问题，远不是个人努力和方法洞见多能解决。在这种转折的时刻，思考史学对于媒介研究的启发不无助益。
-本文是作者上李金铨博士在香港城市大学所开的课程的所做之阅读笔记，李金铨老师极为推崇严耕望先生研究历史的视角和方法。严耕望（1916-1996）先生生逢乱世，而潜心治学，体现了一个史家的坚韧。《治史三书》上两篇谈治史经验，后一篇述人生际遇。两相匹对，可窥见其一生治学得失的深刻思考。抛书沉思，可悟社会科学知识的增长。
-史学是一门通观古今的学科，西学东渐，西方社会科学的套路逐渐与东方的治学传统相互交融。虽有方法之差异，然于追求历史知识的增长方面则有更多共同点。历史有着自身独特的优势与劣势，优势在于煌煌五千年，积累了大量的有价值的研究问题，且国人重历史记录，积累了大量的历史资料（朝代通史，县志乡约，个人札记），因而历史学有充足的研究数据。但是面对这些“历史现实”如何才能从纷繁复杂、真假难辨的史料中悟出其规律，洞见其真假，则是一个超越了平常人认识能力的问题。 互联网时代的对于网民行为的记录已经积累了超过20多年，瞬间所为，即可与过往相比对。虽然很短，但对于只重视截面数据的研究而言，已经是一个很大的机遇。
-史家之所为：读史，做札记，收集史料，然后以以线索连而贯之。其过程很类似康德所言之科学知识的增长：个人为自然立法。以先天综合观念统合历史资料，务求其融洽自如，殊非常人所为。因为社会科学面对的是一个复杂的过程，超越了简单的决定论的视野。康德之言颇有洞见，社会科学知识的增长首先是研究者自身修为的增长，自身修为不增长，妄图将人类之理智投射到社会规律上去，只能适得其反。媒介研究于理论构建方面往往广泛吸收，然而仍缺乏系统性。如何洞见传播现象之下隐藏的规律，莫非有充分的积累，实在是难以把握。
-严耕望先生讲专精通博的问题，很像中国武侠里之修习上乘内功的过程。需要付出长期而且艰苦的努力。初闻觉不适合于我辈之快节奏，三年博士教育，做的却是社会科学的训练，本是需要一个漫长艰辛的读书、做笔记、做调查的体悟过程，却被压缩成一个一个deadline之前的追赶。然而每个人都如此，何以见高下？短期之中，的确是难见高下的。一个人可以选择一个讨巧的题目和方法，精读几篇文章，少选几门课，也可以相对轻松，然而如果以十年之期衡量，比较一个读书做笔记、勤思考、每天写东西的人，和一个仓皇应对的人，再思严耕望先生之言方觉良药苦口，实在是看上去慢，其实很快的捷径。
-然而本书作为大家之言，其中有很多大胆的见解。例如耕望先生说集中精力做面的研究，不要做点的究。目标要大些，范围要大些，大问题里有许多小问题。这是很关键的，因为如果你的研究没有足够的研究意义（significance），纵然做的再精致，再深入，再举一反三，都很不值得。反面的例子是史学大家、旷世奇才的陈寅恪先生晚年所著述之《柳如是别传》。陈寅恪先生中年体弱，老年目盲，然而以毕生心血写就七十万言的《柳如是别传》，考究精密，令人赞叹。然而耕望先生评此书“虽极见才学”却“影响作用不会太大。”因而发出感悟“何不尚太史公转悲愤为力量，选取一个重大题目，一抒长才。”转思诸己，媒介研究本就显狭隘，若再略去政治和历史的场景，其研究的很难被评价为重大研究。圣经云上帝告诫人类说“你们要进窄门”。一个年轻学者用这句话反思自我做研究太追新潮，每次都不能将问题说透，反倒不如从一个小问题出发，然而却能跟许多有重大意义的问题对话。这不失为一种智慧的策略，媒介研究也要一小见大，把小的问题说透彻，跟大的理论对话。
-研究要无孔不入，有缝必弥。年轻人做论文，多容易宽容自己的缺点和错误。而无追求完美、严格要求的心性。于是一片文章做好投出去之后，就收到大量的意见，诸多地方需要修改。改完了仍无法发表，原来有一个小地方无法自圆其说，于是论文被拒。再去看大家的务求完美，严格要求，便多了很多理解。
-耕望先生说社会科学理论只是历史研究的辅助工具，不能以运用理论为主导方法。这个看起来也是极大胆的说法。社会科学本是追求建构理论的，单纯的运用理论的确不能成为主导方法，然而如果理论只是辅助工具，那么主要工具是什么呢？换言之，是相信既有理论，还是相信史实（数据）。原来耕望先生认为理论是演绎的路数，而历史研究更多要依赖归纳的方法去求得新结论。所以，有理论并不一定好，没有理论一定不好，且一定要发展新理论，找到新的概念。另外，耕望先生谈及这个问题的背景是针对单纯用决定论的唯物史观推论历史的问题。但不管怎么说这个对于年轻学者是很有启发的。理论是最重要的，但不是保守既有理论，而是说发展新的理论。当理论与数据不合时，理论是应当被质疑的，所以不应唯理论，而应重发展理论。尽信书不如无书，唯理论或许还不如接受纷乱的史实（数据）。同样的思路，耕望先生提醒我们研究历史不要从哲学入手，以免犯先入为主的错误。
-每一个研究者都是在从不同的视角下出发，进而丰富我们对于社会事实的认识。耕望先生总结了自己的两个兴趣政治制度和历史地理。这很像米尔斯所言之社会学的想象力，向社会学加入历史视角。同样做历史研究的也要增加新的视角。因而，可以想象这种对于新视角的掌控运用能力，是区分学科发展阶段的重要依据。Live and let live. 物理学和信息科学的视角同样有益于媒介分析和传播研究。引入统计物理的视角研究传播网络同样是有裨益的。在过去的五十年里，传播学广泛的引入了政治学、社会学、心理学、历史学、经济学多种理论视角，我们这些年轻人也将见证未来五十年传播学的发展。未来的传播学研究的主导视角是什么，这实在是一个猜不透的问题。
-其余各章述及诸多学者修养和个人经历的经验教训，一代学人的洞见饱含各种启发。我们这些年轻人看严耕望先生谈做研究的史识之培养（理论洞见），考据之修习（历史现实，数据），于我们这些数字时代的观察者而言，颇有助益。</description>
+      <guid>https://chengjunwang.com/zh/post/cn/cn_archive/2011-05-15-historical-insights/</guid>
+      <description>&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>遭遇巨人歌利亚——读《链接：网络新科学》</title>
-      <link>https://chengjunwang.com/zh/post/cn/2011-03-10-network-giant/</link>
+      <link>https://chengjunwang.com/zh/post/cn/cn_archive/2011-03-10-network-giant/</link>
       <pubDate>Thu, 10 Mar 2011 00:00:00 +0000</pubDate>
       
-      <guid>https://chengjunwang.com/zh/post/cn/2011-03-10-network-giant/</guid>
-      <description>本文载于《数字媒体阅读报告》
-黠之大者
-FBI在千禧年逮捕了一个加拿大少年黑客，他用不起眼的电脑当“弹弓”，打败了信息时代的巨人“歌利亚”，使一些网站因不断收到“好的，我听见了”而瘫痪；基督教的成功归功于一个保守而虔诚的犹太人：保罗。保罗最初反对基督教，后来却变为一个虔诚的基督徒。因为他对神学的熟悉和对社会网络的控制能力，基督教开始广为传播。保罗和黑客少年成功的关键隐藏在网络的结构和运行的拓扑结构中，也隐藏在他们操作网络的能力上。魔鬼就隐藏在“结构”之中，然而关于网络社会的研究长久以来被既有的科学框架的简化论所束缚。图或网络具有自身的属性，这种属性隐藏在它们自身的结构中，可以限制或增强我们使用网络的能力。尤其是在我们尚无法把握各种复杂网络的结构之前，理解网络结构就成了认识周围复杂世界的关键。
-《链接：网络新科学》一书作者艾伯特-拉斯洛•巴拉巴西（Barabási）是美国圣母院大学教授，致力于对于复杂网络的研究：找到下一场科学革命——网络新科学的奥秘。巴拉巴西和阿尔伯特、郑浩雄一起在1998年开始了对网络的研究，一年后在《科学》上发表了关于无标度网络的论文，掀起网络科学研究的新浪潮。诚如两千年前希腊哲学家引导我们“认识你自己”一样，《链接》一书引导我们认识世界的网络结构。
-##随机宇宙
-人类对于网络的认识最初源于规则网。例如哥斯堡七桥问题，一个四个点七个边的图，图上带有奇数边的点，不是行程的起点，就是终点。如果一个图中有两个以上这样的点，就不存在一次遍历七桥的路线。在哥斯堡图上，有4个这样的点，因而无法找到所需的路线。
-用规则网作为复杂网络的理想型显然存在不足。人类智识群体由规则网滑到另一个极端：随机网络。Eros和Renyi认为自然界所能提供的最简单解答：随机连接节点。他们得出结论，创造网络最简单的办法是掷骰子。规则网络图的特别之处就在于每个节点都有恰好同样书里那个的链接。而在随机网络图中，根本不存在这样的规则性。随机网络模型的柱状图遵循Poisson distribution，其分布有一个显著的峰值，表明大多数节点的平均链接数都是一样的。在峰值的两边，分布迅速下降，与平均值相差较大的值极为少见。这就是广为所知的ER模型（Eros-Renyi模型，下文简称为“ER模型”）。
-然而，如爱因斯坦却倾向于相反的观点：对于宇宙，上帝不喜欢掷骰子。社会网络极其复杂，没有任何成员能够游离在外，其中的每个节点都能被访问到，因此，世界上不存在完全和外部世界隔绝的孤岛。
-##六度分隔的小世界 郑浩雄创建了一个简单的网络爬虫，让它下载文件，查找文件中的所有链接，然后按照这些链接访问并下载指向的文档。就这样自动进行下去，直到得到所有关联的页面。用它获得网络的完整地图。首先，该机器人访问圣母院大学网站域名下的所有300000份文档，绘制出地图。我们只是关心网页上的链接，它们告诉我们如何从一个页面跳转到另一个页面。结果发现随着链接的增加，节点间的距离会骤然变小。巨大的网络变小了，造成了我们周围一个又一个网络的小小世界。 大量的社会链接能够将无比巨大的网络也缩小成小小世界。例如Renyi比Eros小7岁，但是在布达佩斯的时候，他们的父母早就有交往，因而两人得以结识。
-中心节点和连接者所造成的群集现象是ER模型的随机世界观的第一个裂隙。瓦茨和斯托加茨发现了一个惊人的特点：即使只是添加少数几个链接，就能把所有节点之间的平均间隔大大降低，这少数几个节点却不会改变网络的群集系数。
-规模不是演员网络最重要的因素，虽然三级片明星饰演过的影片数量惊人，但是他们没能靠近好莱坞的中心。网络真正的中心留给了在多个大型集群里都有自己的位置的节点。对于演员网络，这种节点就是饰演过多种类型影片的演员；根据美国电话电报公司的一项研究，一小部分电话号码打出或接听了极大量的电话，这主要包括电话销售公司和客户服务电话等；生态学家认为，食物链的中心节点就是其中的关键物种，该物种对于保持生态系统的稳定居功至伟。
-对于社会，这种节点就是那种和各个领域的人都有交往的人。万维网的拓扑结构具有高度的不均衡现象。对于万维网，这种节点不但提供独特的链接，而且提供各种不同类型链接的网站。 中心节点的确很特殊，在任何存在中心节点的网络中，它们都对网络结构起到关键作用，使该网络呈现小世界的特点。联结者现象（具有大量链接节点的存在）是对ER模型和watts和stogazt模型的致命打击，我们必须完全抛弃随机世界观。
-以上都是网络新科学的关于小世界网络的研究，但这种研究在社会科学中很早就有涉及。20世纪60年代，耶鲁大学的社会心理学家米尔格兰姆(Stanley Milgram)就设计了一个实验。他将一套信件随机发送给居住在内布拉斯加州奥马哈的160个人，信中放了一个波士顿股票经纪人的名字，信中要求每个收信人将这套信寄给自己认为是比较接近那个股票经纪人的朋友。朋友收信后照此办理。最终，大部分信在经过五、六个步骤后都抵达了该股票经纪人。于是米尔格兰姆提出六度分隔理论。然而，类似其它传统的社会网络研究，六度分隔理论仍然缺乏“可计算性”，网络新科学的研究深化了这些关于网络结构的认识，使得洞见具有了可证伪性。
-##幂律分布中的标度 通常各种社会现象都符合或者可以转化为正态分布，进而使用大数定律和中心极限定理为基础的统计方法，采用最小二乘法或者最大似然估计方法进行分析，正态分布的特点是其数学分布较为均匀，以人的身高为例，绝大多数正常的成年人都在一个稳定的范围内，即使存在高度如姚明的“小巨人”或者身高有限的侏儒，但并不存在真正的身高超过3米的巨人和身高小于5厘米的“米粒姑娘”。在分析符合正态分布的社会现象的时候，我们往往可以采用平均数（或众数）来测度群体的基本情况，在一个固定的分布中，总有一种处于理想状态的“平均人”或“常人”存在着，他代表着该群体的平均状况。
-如幂律分布（以经济学中的帕累托定律和语言学中的zipf律为代表）所揭示的，存在着诸多的社会现象不符合正态分布的状况，而幂律分布往往很难转化为正态分布来处理。在符合幂律分布的社会现象中存在真正的巨人，他们所占有的资源远远超过其他人所占有的资源的总和，恰如帕累托定律所揭示的，也许20%的人占有了整个社会的80%的财富，同样，可能仅仅是20%的人为整个社会贡献了80%的财富。做了20年铁路工程师的帕累托如此钟爱物理学中的数学之美，为了使经济学变成物理学一样严谨的科学，写成《普通社会学纲要》。他发现20%的豆荚结了80%的豆子，20%的人占有了80%土地，（后来发展成为墨菲管理定律，20%的员工创造了80%的利润），这就是帕累托分布的起源。1932年，哈佛大学的语言学专家Zipf在研究英文单词出现的频率时，发现如果把单词出现的频率按由大到小的顺序排列，则每个单词出现的频率与它的名次的常数次幂存在简单的反比关系，这种关系就称为Zipf定律。
-Barabási在其1999年发表在《科学》杂志上的一篇著名的论文《随机网络中尺度的涌现》一文中指出如基因网络和互联网这样具有复杂拓扑结构的网络中节点之间的联系符合一种普遍的无尺度的幂率分布。他认为这是由于两个原因造成的，一方面，新的节点持续不断地加入；另一方面，新的节点偏好选择那些已经具有良好连通性的网络。这篇论文引起巨大轰动，此后从这一角度出发，学界将之应用自然科学以外的到各个领域，其中不乏运用复杂网络的方法分析人类传播行为的研究出现。
-幂律分布的最突出特点，不仅是其中有许多小事件，而且是许多小事件伴随着少数极大的事件。这种超乎寻常的大事件是不可能存在于钟形曲线内的。在这分布图的末端，幂律分布和钟形分布也存在重要的性质差异，钟形曲线末端呈指数递减，递减速度比幂律分布曲线大。出现这种呈指数级递减的末端，原因在于钟形曲线上缺乏中心节点。相比之下，幂律分布曲线递减速度较慢，允许罕见事件如中心节点的存在。
-在随机网络中，分布的峰值意味着大多数节点的链接数量都相当，偏离此数值的节点极其少见。因此，随机网络的节点连通性具有自身的尺度特征，这种特征由普通节点体现出来，并受等级分布峰值的限制；而在幂律分布中，缺乏峰值，这说明在真实网络中，不存在带有随便性的典型节点，我们看到的是连续的有等级特征的节点，从罕见的中心节点到无数小节点一级一级分布开来。最大的中心节点后面紧跟着两三个较小的中心节点，然后是十几个更小的节点，以此类推，直到最后无数小节点。
-在互联网中发现幂律的存在，不仅使我们吃惊，还迫使我们承认中心节点确实存在。缓慢降低的幂律分布很自然地能和高度链接的异常节点结合起来，它预言每个无尺度网络都会有几个大的中心节点确定网络的拓扑结构。该拓扑结构决定了真实网络的结构稳定性、动态行为、稳健性（robustness）、容错性以及承受攻击的能力。
-##阿基里斯的脚踵 1965年美国东北部大停电，凸显了人造复杂网络的一个问题：由连通性所导致的脆弱性。大停电事故是一个典型的级联故障；经济领域经常出现级联故障，如1997年亚洲金融危机；互联网也存在路由器破坏造成的级联故障，重新发送的信息进一步加剧网络拥挤。与之不同，尤卡坦陨星撞击灭绝了成千上万物种，其中就包括恐龙，但整个生态系统显示出人造系统所不具备的容错性。1911年禁止猎捕海獭，海獭物种迅速恢复，海胆减少，海藻增多，为海洋鱼类提供了食物，避免了加州海滩的退化，保护好一个处于中心节点的物种，就极大地改变了海岸的生态。
-这种容错性是通过高度互联的复杂网络保证的。 Shlomo Havlin等发现对于无尺度网络来说，如果次数幂小于等于3，这一阈值就不存在。而绝大多数无尺度网络，无论是互联网还是细胞，都是无尺度的，而且其次数幂都小于3。因此，这些网络只有当所有节点被移除后才会崩溃。但实际上，删除多个节点后，造成的破坏就开始明显显现出来，进一步删除更多中心节点，就目睹了网络的大崩溃，把互联网分割成了细小的互相隔绝的碎片。破坏少数几个中心节点，一个无尺度网络就能立即瘫痪。
-我们发现网络的崩溃不是渐进的过程，随机网络存在一个错误临界阈值，只随机删除几个节点对网络的整体性影响不大，直到超过这一阈值才会崩溃；但互联网络却拒绝崩溃，证明了互联网络和人类的其它系统不同，它具有高度的稳健性。偶尔删除一个中心节点也不会带来致命的危害，其它的按等级分布的中心节点依然维持着网络的整体性。
-无尺度网络结构中隐藏着人们未曾料到的阿基里斯的脚踵。邓肯-瓦茨证明删除的节点的连通性越高，就越有可能使整个系统瘫痪。其面对故障的稳健性和面临针对中心节点的攻击的脆弱性是共存的。针对中心节点的攻击可以使网络迅速崩溃。如细胞的蛋白质网络，在发生随机突变的情况下不会崩溃，但某种药物或疾病关闭了编码生成连通性最强的蛋白质的基因，细胞就无法生存了；针对中心节点进行攻击的菲律宾爱虫电脑病毒（Love bug）可以在几小时之内传遍全世界，造成全球互联网崩溃。　判断性网络是无尺度的，还是随机的，我们无需完整的性网络地图，我们只需检测这个网络的等级分布。Liljeros证明了性网络的无尺度特征，艾滋病病毒的传播网络的无尺度拓扑特征使这一病毒会不断传播，难以消亡。被治疗的中心节点越多，该传染病的阈值越高，这一病毒消亡的可能性越高。即便是我们无法找到所有的中心节点，但只要朝偏向高连通度的节点的这个方向去做，就能降低疾病传播的速率。
-《圣经》中描述了大卫与巨人歌利亚之间的战斗，大卫，取出弹弓，借助上帝的帮助轻而易举地将巨人歌利亚杀死。歌利亚的死去使得敌军土崩瓦解，大卫一战成名。庞大的互联网中心节点也如同歌利亚一般，异常强大，它们带领着一个无标度的网路大军，所到之处，无往不胜。面对如洪水猛兽般的网络大军，黑客们只需要寻找中心节点，取其上将首级。当这些少数的巨人歌利亚倒下之后，网络大军就走到了崩溃的边缘。
-##网络地图 米尔格兰姆的实验对象根本就不知道联系到目标对象的最短路径。即使手头有指南针，而且知道出口大体上是在北方，想找出出口也会耗费大量的事件，而且我们的行动效率也会很低，相反，如果手头有迷宫地图，不出5分钟，我们就能走出来；大多数疾病，并不是由特定的某一个疾病基因引起的，多基因通过隐藏在细胞中的复杂网络相互作用。后基因组计划即绘制细胞内部的网络地图，有了生命之书，我们现在需要的是生命地图。
-社会网络、蛋白质网络等大多数网络是无向的，万维网和食物链是有方向的。有向性使万维网成为一个非均匀网络。
-万维网被分隔成3个主要的大陆:IN大陆、中央大陆、OUT大陆、从IN大陆到OUT大陆的管道、IN大陆和OUT大陆上的触须、孤岛。互联网呈现碎片状的特征，孤岛和IN大陆部分处于隔离状态，无论网络机器人多么努力也找不到那上面的文档。无论网络是随机的还是无尺度的，只要链接是有向的，就会存在3个大陆，3个大陆并不是仅有的分隔，仔细观察还会发现大陆会进一步分为很小的村庄和大城市。
-现在我们开始把细胞看作似乎一个整体，即作为一个网络，而不是一袋子独立的化学物质。例如，过去认为控制癌症的p53基因远没有想象的那么大力量，摆脱对p53细胞周期调控因子的迷信，而关注p53网络，这使我们看到另一条道路：首先需要破译网络地图的拓扑结构，找到修复p53细胞周期调控因子功能的药物。
-##互联网的觉醒：自组织和适应性 我们先遮盖细节，只观察节点和链接；完成这一步之后，我们必须跨越拓扑结构，关注链接上的动能，弄清楚节点和节点之间的动力学机制。
-幂律的存在，将复杂网络从ER模型的随机性的丛林里拯救出来，将其放在色彩斑斓的，充满了丰富理论营养的自组织的舞台的中心。1965年，Leo Kadanoff突然意识到：在临界点附近，我们就不能再把原子当成独立的粒子看待，而应该把它们看作是属于一个个社区，共同行动的群体。可以把原子看作是装在一个个盒子里，每个盒子里的原子都有同样的行为方式。Kenneth Wilson的重正化理论证明了每当无序变成有序的临界点，即由混沌到有序的临界点的时候都会发现幂律的存在，他给相变理论的金字塔添上了顶端的最后一块石头，并于1982年获得诺贝尔物理学奖。一旦系统被迫发生相变，一切随之改变，继而出现幂律。相变理论表明了从混沌到有序的过程受到自组织的影响。爱因斯坦对印度不知名的物理学者玻色论文，并在其基础上写成论文《单原子气体量子论》。爱因斯坦预测，如果全部的粒子足够冷却，粒子中的一大部分会安顿在最低的能量点上，他们会形成新的形态，称作“玻色-爱因斯坦凝聚”。直到1995年才被证明，“玻色-爱因斯坦凝聚”成了物理学家的标准工具箱。
-我们遇到一个问题，幂律的存在是否意味着网络是从无序到有序的相变的产物？答案是网络并不处于由随机到有序的道路上，它们也不处于随机性和混沌的边缘，无尺度拓扑结构表明网络的形成源于自组织原则的作用，不管网络多大、多复杂，只要存在优先原则和增长因素，它就会保持中心节点和无尺度拓扑结构。
-在某些网络中胜者通吃，会获得所有链接，因而带有明显的“玻色-爱因斯坦凝聚”特征。但胜者通吃网络并不是无尺度的，这种网络只有一个中心节点和多个微型节点。而无尺度网络中，节点带有明显的等级分布。胜者通吃行为会破坏无尺度拓扑结构中中心节点的等级分布，使其变成星状网络，如微软公司。节点永远为了为获得联系而竞争，因为在相互联系的世界中，连接数量就代表了生存能力。公司争夺客户、演员争夺角色、普通人找你过多的社会链接。 与胜者通吃的星状网络相比，无尺度网络是一个适应性网络。
-自组织网络具有的适应性和对内部故障的容忍度是其天然优势，基地组织是一个没有蜘蛛的网络，没有变成中央集权的网络，没有军队和企业所采用的属性结构，它发展成为一个自组织的网络，网络中的等级化的中心节点使组织联系在一起。因此，即使去除了拉登和他最亲近的亲信，也可能无法根除它带来的威胁。我们最大的敌人，可能是对这种新秩序不熟悉，而且缺乏有效的语言来表述我们的经历。针对基地组织的战斗，其手段可能是尽可能多的去除网络中的中心节点；然而是基地组织崩溃并不能终结这场战争，只有充分消除其自组织的法则——伊斯兰好战分子的愤怒——才能根除恐怖分子节点建立链接的需求和渴望。
-你知道字母a存储在大脑的哪个位置吗？自组织结构也不知道答案从哪里来的。 我们无法预言网络何时会具有自我意识，但显然它已经有了自己的生命，它在不断成长，不断演化。《黑客帝国》描绘了全球互联网具有智能后的图景，也许这并不仅仅是想象。或许有一天，互联网会觉醒。</description>
+      <guid>https://chengjunwang.com/zh/post/cn/cn_archive/2011-03-10-network-giant/</guid>
+      <description>&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>从概念到真实：SNS的形式蜕变</title>
-      <link>https://chengjunwang.com/zh/post/cn/2011-03-02-sns-as-a-bridge/</link>
+      <link>https://chengjunwang.com/zh/post/cn/cn_archive/2011-03-02-sns-as-a-bridge/</link>
       <pubDate>Wed, 02 Mar 2011 00:00:00 +0000</pubDate>
       
-      <guid>https://chengjunwang.com/zh/post/cn/2011-03-02-sns-as-a-bridge/</guid>
-      <description>本文载于《数字媒体阅读报告》
-本文是作者从技术和资本角度对于SNS浪潮的反思。其中部分内容取自作者硕士毕业论文，虽然名为《正在爆发的互联网革命》一书的读书笔记，但并不限于此。
-黠之大者
-“部落化——非部落化——重新部落化的三段论,是麦克卢汉的一个天才般的预言。人们曾经在部落化时代，面对面地进行口耳交流，而网络科技的发展虽然使在人们之间架起了信息的高速公路，却也把人类锁进了各自的“盒子”。地球变成了“地球村”，但村里的人却很少出门抛头露面，甚至不知道隔壁住的是男是女或者只是一条狗,亲近的信息距离与遥远的心理距离使网络社会进入令人尴尬的状态。社会性网络服务（SNS）的出现使人类在重新部落化的过程中，找回了村里的亲近感,回到了个人对个人真实交往的形态，这也显示出了人们对于回归真实人际交流的内在需求与渴望。（陈卉，2009）”
-这是一个对于互联网时代的网络社会交往的形象而生动的描述，表现了SNS在网络社会交往中的独特意义：相比于个人在社区生活“鸡犬相闻、老死不相往来”式的落寞，行动者个体在SNS上则表现出了超常的热情，加好友、写日志、发照片、更新状态、种菜偷菜，忙得不亦乐乎，很多人的SNS门户终日熙熙攘攘，一派繁忙景象，似乎真得通过网络实现了部落化，回归到奉行“差序格局”的传统村落。
-SNS 全称Social Networking Site，即社交网站，是基于六度空间理论下的典型媒介形态。随着互联网技术的进一步成熟，社交网站（SNS）迅速发展，继Facebook之后，其它SNS网站迅猛发展，2008年SNS的另一典型代表微博客twitter迅猛扩张。在中国以校内网和开心网为代表的SNS网站同样发展迅速，以校内网（www.xiaonei.com）为例，其实名制注册用户数1500多万，活跃用户高达880多万。
-技术与形式：SNS的流变 SNS的发展从1997年开始，SIX DEGREE网站创立，依靠站内信促成好友关系的形成，但由于其概念过于超前，未能获得广发扩散，于2000年被迫出售。随后出现一系列SNS网站，但未能掀起全球范围内的SNS“浪潮”，直到2003年3月Friendster.com诞生。Friendster.com获得极大成功，依然延续六度分割理论，使用率低，用户黏性弱，2004年因为访问量过大，服务器过载，导致用户流失。
-Myspace2003年7月在美国创立，是一个开放的交友网站，在2004年到2006年之间经历了高速增长期，允许用户以独特的页面和音乐展示自我，结交朋友和吸引异性，是一个基于兴趣为中心建立的SNS网站，但因陌生人的交友模式缺乏黏性，当用户的好奇心过去之后，就失去了吸引力。2008年6月，被Facebook所超越。
-Facebook创建于2004年2月，创建者为哈佛大学心理系的学生马克-扎克伯格（Mark Zuckberg），类似比尔-盖茨，他同样19岁辍学，开始创业，该网站的成功被认为是因为定位得当，致力于为主流用户群体为现实社会生活提供辅助的网络服务，而不是创建一个完全不存在的新社区，因而其网站经营策略更加务实，与Youtube等视频分享网站和Twitter等微博客的发展同步，SNS的发展进入到另外一个高潮。
-SNS发展过程可概括为：“早期概念化——SixDegrees代表的初探六度分隔理论阶段；结交陌生人——Friendster帮用户建立弱关系从而带来社会化实践价值的阶段；娱乐社交化——MySpace创造的丰富多媒体个性化空间吸引年轻人注意力的阶段；真实社交化——Facebook帮助用户将线下真实人际网络搬到线上，实现现实世界之外的社交阶段。”
-国外SNS的发展路径如下图所示：
-图 1 国外主要SNS网站的创建时间及社区网站转型为SNS网站的时间
-中国第一批SNS网站创业者模仿Friendster.com创立了UUme.com和亿友网等网站，但类似其模仿对象，最终未能幸存。在Myspace的发展迅猛的鼓舞之下，我国诞生了51.com、UU地带、魔时网、猫扑网等SNS网站，QQ也于200年推出QQ空间；此后，中国SNS网站再次复制Facebook的成功经验，校内网、5Q校园网、占座网、易聚网等众多SNS网站先后创立，其中，校内网的发展拔得头筹，但其创立者王兴最终因为资本瓶颈被迫将其出售给千橡互动集团，后者整合猫扑网、Kaixin.com、校内网，组建了现在的“人人网”。
-继校内网之后，另外一个以真实社会生活为SNS运作基础的网站Kaixin001.com成功攫取企业内部的社会网络关系这一细分市场，获得极大成功。模仿Youtube和Twitter，国内先后出现大批视频网站和微博客，类似国外SNS市场发展之势，中国SNS的发展风起云涌。
-我国校园SNS网站是指以我国校园大学生为主要目标用户群的交友网。国内最大的校园SNS网站是成立于2005年的校内网（www.xiaonei.com），2008年其实名制注册用户数1500 多万，几乎囊括中国所有的学校，成为一个极其活跃的大学生在线社会交往的网络社区。
-SNS的内部关系 但SNS的发展并不仅仅使得重新部落化的网络社会找回了真实交往的亲切感，它还将使用者之间的关系转化为资本——社会资本——这是SNS发展的一个真正更为宏大而深远的意义。
-SNS的整体发展路径，从形式上看，经历了从概念到现实的蜕变过程，这与中国互联网整体的发展趋势是相同的，从最初的通过Email和bbs互动，互联网的网络社交经历了不同 的网络服务形式，如下图所示：
-图 2 网络社交人脉演进简史
-在这种发展过程中，关系的强度对于SNS的发展存在着重要的作用，从最初SNS追逐概念开始，经历互联网市场严酷的大浪淘沙，生存下来的SNS网站所整个的关系强度大多较强，例如51.com是一个恋爱交友类网站，其关系相对较弱，校内网只所以能发展起来，其原因正是因为整合了现实的校园同学关系，其关系相对较强，Kaixin001.com致力于发展基于公司内部同事关系的社会网络，天际网则更有针对性地为白领等职业人士设计，以满足他们商业和职业方面的需要，帮助他们更有效地建立、管理、拓展人际关系网，后二者内部的社会关系更为密切。如下图所示：
-图 3 国内SNS用户群体分布
-在这里，值得注意的是豆瓣网，倘若从SNS的发展过程来看，豆瓣的幸存不啻是一个奇迹。豆瓣是一个以读书、电影、音乐兴趣为中心建立的SNS网站，在某种程度上与Myspace类似，但通过书评和音乐、电影评论，使其内部在陌生人之间建立起牢固的关系，豆瓣群组的关系更是促进使用者基于兴趣的交流，更为重要的是豆瓣将虚拟的网络关系引入现实，豆瓣上存在着大量以城市为中心的各种线下活动，这种以兴趣为基点，从线上关系到线下关系的过渡方式，使得豆瓣获得了长足的发展。
-社会性网络服务异军突起的原因在于社会性服务网络在人际传播方面的特殊优势。进一步摆脱虚拟束缚，沟通了线上与线下关系，通过线上线下的双重接触，更好的实现人际传播的最终目的。社会性网络服务不仅帮助用户权衡网络个人空间与公共领域，找到合适的传播的边界，还有助于他们拓展人际关系，分享个人信息，实现社会穿透。
-黑天鹅：重生抑或死亡？ SNS诞生之初，没人知道它会活下来，如同就在人类文明中的个体无法想象黑天鹅的存在。困于概念与技术黑洞中的个体将失去洞察社会趋势的能力。为潮流鼓噪呐喊者必为时代所遗忘，因为当你完全卷入时，也就失去了批判的能力。
-SNS并不是一个维系强关系最为经济和有效的手段，对于大学生群体的强关系而言，主要是跟自己关系紧密的身边的同学，多为同宿舍同学，舍弃直接的人际沟通而采用SNS并非最佳选择，校内网更为重要的作用在于维系弱关系。
-SNS本身是一个受到监视的私人空间和公共空间的融合，虽然可以通过写悄悄话、校内即时聊天、站内信的方式沟通，但是这种间接的沟通并不能满足维持强关系所需要的面对面的沟通，而维持紧密关系所使用的语言往往会因为预期到的他人的监视而有所增减，正如，校内个人主页上面可以设置特别好友，但是一旦你设置的特别好友之后，就意味着你明确告诉身边其他未能被你选为特别好友的同学你们之间的关系仅仅是弱关系，这有些类似《老友记》里Chandler与Joey争夺作为Ross的伴郎。校内网作为一个使得网络社会交往关系可视化的空间，赋予了其被监视的特点，这是有别于现实的交往空间的。
-图 4 校内网使用频率与满意度之间的对应关系
-校内网服务的使用频率来看，基本上都处于较低的水平上，如图校内网服务的使用频率所示，校内网服务的使用频率得分大多低于中等水平3分。浏览他人相册和评论他人相册功能的使用频率更高；此外是回复日志和留言功能、状态和分享功能。值得注意的这两项服务的功能都在于“监测环境”——即了解好友的动态、并对好友的动态做出简短的反应，这与使用校内网的最主要的目的在于了解朋友动态、与朋友联系是完全契合的。
-与此相比，校内网在表达自我、展现自我层面上则仍处于一个相对较弱的位置，虽然用户对于上传照片功能和写日志功能相对满意，但对于上传照片功能和写日志功能的使用则较少，对此的解释当然与中国特定的文化有关系，中庸的处世之道依然影响着中国大学生的交往行为，尤其是在SNS中的“印象管理”环节。印象管理不仅仅在中国是十分重要的影响因素，Anne Hewitt等发现三分之一的使用facebook的学生反对教师使用facebook，其主要的原因是个人隐私与印象管理。
-当然，对于用户对于上传照片功能和写日志功能使用较少的原因同样与用户的自我表达和自我展现的能力密切相关，毕竟有些人不善于叙述生活中的事情，不善于表达自我的情感。对此的一个佐证是几乎所有的用户对于“校内状态”功能的满意度和使用频率都相对较高。另外一个显著的调查发现时单身者更加倾向于使用校园类型SNS，这当然是校园类型SNS的生存之道，但也开启了其覆灭之门。
-商业逻辑同样会限制网络游戏类别的SNS的发展，上班族的偷菜行为虽然可以密切同事关系，增强组织效率，但同样面临因为投入时间过多，粘性过大，而损伤资本的商业利润。流畅的网络服务和角色扮演、深度介入的SNS游戏最终会被资本挤出工作的场所。
-SNS 因为使用者开辟一个新的自我展现和个体间互动的平台而崛起，但也最终为其膨胀设下一个最重要的障碍：当所有的人都只看不写的时候，传统的SNS就成了一片死地。
-技术乐观主义无法解救资本的陷阱中的黑天鹅。SNS躁动之时，没人知道它未来是否能活下来。流变，重生，抑或死亡。唯一可以确认的是未来的SNS绝非今日之SNS。
-参考文献 陈卉. 社会性网络服务（SNS）流行原因分析[J].新闻世界.2009.05:114-115.
-郑宇钧，林琳.当校园SNS 照进现实———校内网的人际传播模式探讨[J].广东技术师范学院学报，2008（3）.
-西门柳上，马国良，刘清华.正在爆发的互联网革命[M].北京：机械工业出版社.2009:96
-Danah, M. Boyd and Nicole, B. Ellison. 2007. Social Network Sites: Definition, History, and Scholarship Journal of Computer-Mediated Communication, 13(1), article 11, 2007</description>
+      <guid>https://chengjunwang.com/zh/post/cn/cn_archive/2011-03-02-sns-as-a-bridge/</guid>
+      <description>&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>民国时期的土匪</title>
-      <link>https://chengjunwang.com/zh/post/cn/2011-01-08-bandit-in-the-chinese-of-republic/</link>
+      <link>https://chengjunwang.com/zh/post/cn/cn_archive/2011-01-08-bandit-in-the-chinese-of-republic/</link>
       <pubDate>Sat, 08 Jan 2011 00:00:00 +0000</pubDate>
       
-      <guid>https://chengjunwang.com/zh/post/cn/2011-01-08-bandit-in-the-chinese-of-republic/</guid>
-      <description>民国时期的土匪（Bandits in Republican China，1988）英国学者贝思飞（Phil Billingsley）历时十年的作品，令人忍俊不禁、倍感亲切的是他边照顾孩子边写作的场景，这在大仲马是根本不可能的，想来贝思飞是一个模范好男人，他试图展现土匪群体的出现与壮大对现实的合理的反应，本书是根据其博士论文为雏形完成的，可见，学术大多是积累起来的。
-毛泽东将土匪归于游民阶层，指出其类似民族资产阶级的两面性和容易动摇的特点，贝思飞则将土匪分为偶尔为匪和惯匪，并将土匪群体分为三种基本类型：单纯的匪帮、综合的匪帮、匪军。
-全书就是以土匪为核心展开的，刻画了匪与农民、军阀、地方政府、兵、绅士、外国人、革命力量之间的立体的关系。从盗足石到童林响马，占山为王的匪在中国历史上并不少见，贝思飞区分了匪帮与秘密社团，指出前者的散漫无常与后者的长期维持的不同之处。
-从白朗到老洋人，樊钟秀，到临城劫车案的孙美瑶，匪在历史上留下了并不华丽却很抢眼的印迹。但究其为匪的原因，贫穷和饥饿是最主要的原因。平原多洪水多饥荒，遂多响马；边界地带三不管，遂多盘踞为匪者。有趣的是，匪的出现和农耕的周期密切相关，农民在春天吃完余粮，高粱高长时出现，到了5月收割小麦的时候消失。
-贝思飞讲到军阀统治时说，军阀统治有一种自身无法延续的悲剧，来自上层的暴力煽动下层的暴力，军阀征丁、牲畜，影响农业生产，入伍之后没有生计之道，遂为匪。形成一个恶性循环。张作霖在吉林大量流失枪支；冯玉祥在甘肃种鸦片引起叛乱；阎锡山在山西，红抢会涌现。河南、山东、江苏、安徽四省交界处形成了土匪中心。军阀割据下的土匪王国形成了一种地缘暴力政治。
-第三章讲了河南的土匪，主要讲了白朗及其后继者老洋人的故事。第一次听说白朗这个名字是在贾平凹的商州夜话一书中，没有想到白朗如此真切的存在过。在大刘庄，在车队，为匪，壮大，迁徙，叛变。一个最成功而传奇的土匪走不出匪之为匪的生命周期。
-衣食足而知荣辱，活不下去才会逼上梁山，去过颠沛流离的生活。匪帮的组成有着内部严密的规则，遵循着残酷的民主。土匪的生活是很凄惨的，他们注重内部的等级制度，为了突出这种等级，他们往往注重服饰，形成差别，这种差别往往到可笑的地步，除了服饰之外，土匪对于女性的态度也值得思索，很多土匪是为了娶老婆才加入土匪的。因为土匪的亡命生涯和土匪的道德劣势，他们对各种言语存在着禁忌，占卜、祈祷在土匪中是很常见的。视金钱如粪土的背后是土匪的生死无常和极度贫穷。
-土匪是一种艰苦而又危险的职业。地方统治是依靠乡绅的，也就是乡土绅士，传统 的乡土中国一直存在着权力不下县的说法：在这些土匪活动的基层地区，绅士、土匪、农民就构成了一个生态系统。地方官作为一个外来人，所关系的是金钱和仕途升迁，此外，他所掌握的少数武装力量使他缺乏对抗土匪的力量。地方官吏普遍的‘始而讳盗，继而纵盗，相习成风。
-兵与匪是相互依存的关系，没有了匪，兵的灰色收入就减少了；兵并不去全力剿匪，往往与匪还存在着默契甚至交易，比如出售枪支。匪与乡绅和农民也保持着辩证的关系，匪存在的主要经济来源来自于乡绅，通过打劫乡绅，匪获得自己的生命线，但当富人消失之后，匪往往退而求其次，压榨中等富裕甚至穷苦的人。
-对于绑票的介绍是十分有意思的，匪自身经常处于行走过程中，因此他们更倾向于绑票而不是抢劫其他不易携带之物，并且经常杀死因生病等不能跟上队伍者。已婚妇女一方面因裹脚，不便行走，并非理想的绑票对象，因为严格的道德对于已婚妇女有着严格的限制；未婚妇女则往往成为绑票对象。肉票还像期货一样在市场上流转，其他匪帮可以购买另一匪帮的肉票，以期勒索更高的价格。匪在绑票方面往往不择手段，儿童也会成为重要的绑票对象。后来，外国人也成为重点绑票的对象，例如孙美瑶在山东临城的劫车案中绑架外国人跟政府谈判，名利双收。除了绑架之外，敲诈也是匪的常用伎俩。
-事实证明匪对乡土有着强烈的依附。兔子不吃窝边草，离开的当地农民的帮助，匪往往会在中央剿匪的围攻下瓦解。例如，白朗杀富济贫使自己的匪在当地受到爱戴，农民往往积极参加其队伍，并为其免费侦查，但是当白朗开始扩大地盘，四处出击之后，往往面临着被当地农民所排斥的困境，尤其是其在甘肃遭遇了回民的排斥。土匪内部也存在着类似老乡的观念，例如白朗真正信任的人只是大刘乡的同乡。这种对乡土的依附和对迁移的不适应成为白朗起义失败的重要原因。此外，土匪的报复性行为往往使农民对匪产生强烈的恐惧和不信任，与传说中的大侠或者说罗宾汉相差甚远。
-随着袁世凯之后的军阀混战，土匪作为军事力量开始成为制度化的军事力量。但是值得注意的是这些土匪的战斗力往往很差，例如冯玉祥的第二、三师面对吴佩孚和张作霖的军队落荒而败，张宗昌的军队面对北伐军毫无抵抗之力。朱德和张作霖都注意到这个问题，后者清理了自己军队中的土匪成分。
-土匪只有利益，没有立场，镇嵩军从推翻清王朝的革命转变为出兵陕西围困冯玉祥，孙美瑶在临城劫车案被招安，去镇压其他匪帮，后被害。
-匪酋中的成功者莫过于张作霖、陆荣廷、杨虎城等人了，但大多数土匪头目都在社会的下层挣扎，往往在斗争中落败身亡，即使是聪敏如樊钟秀者在依靠本土的力量发展起来之后始终无法发展壮大，左右摇摆，最终还是失败了。
-兵匪不同于土匪，他们往往来自于解散的军队，具有更强的战斗力，对当地没有土匪那样的感性，往往会更为残酷的对待农民。如老洋人，快速行动，极度破坏，绑架洋人。
-日本为了占领东北，对土匪进行了有效的利用，如扶植张作霖、策划临城劫车案，利用日本浪人小日向白朗（当时成为满洲主要的土匪领袖）化解绑架外国人的事件，使土匪从南满迁到北京，清讨土匪。
-土匪生逢其时，遭遇了辛亥革命、二次革命、大革命、抗日战争、内战，在这个过程中作为地方势力的土匪往往革命的各个力量的游说的对象，很多土匪参与到革命的过程中来，虽然他们都有自己的考虑。白朗在二次革命中支持孙中山，成为袁世凯的眼中钉。游击战的方法和土匪的策略一脉相承，土匪经过军事化改造成为军队的重要来源。在49年之后，大陆仍有大量的土匪存在，经历了几年才完全镇压。
-像大门口的陌生人、中华帝国晚期的叛乱及其敌人、乡土中国一样，土匪一书也提供了我们看待近代史的一种视角，从这个视角里，我们能看到某种一直被我们所忽略的近代史生态链中不可或缺的一部分，他们当然不是这个社会和历史进步抑或退步的决定性力量，在某种程度上，他们一直在转变自己去适应历史的变化，但大多是失败的，然而，他们的确参与了历史过程。 </description>
+      <guid>https://chengjunwang.com/zh/post/cn/cn_archive/2011-01-08-bandit-in-the-chinese-of-republic/</guid>
+      <description>&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>我们能走多远——读王晓明的《鲁迅传》</title>
-      <link>https://chengjunwang.com/zh/post/cn/2009-02-14-read-luxun-in-text/</link>
+      <link>https://chengjunwang.com/zh/post/cn/cn_archive/2009-02-14-read-luxun-in-text/</link>
       <pubDate>Sat, 14 Feb 2009 00:00:00 +0000</pubDate>
       
-      <guid>https://chengjunwang.com/zh/post/cn/2009-02-14-read-luxun-in-text/</guid>
-      <description>我不再像先前那样崇拜他了，但我自觉在深层的心理和情感距离上，似乎是离他越来越近；我也不再将他视作一个偶像，他分明就在我们中间，和我们一样在深重的危机中苦苦挣扎。 ——王晓明 自己在网上碰到这本书，就下了下来，但自己对于鲁迅的记忆却局限于高中教科书《社戏》、《从百草园到三味书屋》里面，恰若我们对于马克思同样很无知一样，我们距离这些曾经吸引民族目光的人物似乎很近，但又的确很远。但人生的某个阶段总会有难解的问题，这个时候就只好去走进这些被我们所远离的灵魂。
-鲁迅本姓周，名樟寿，后改为树人：号豫山，后改为豫才。鲁迅是他的笔名，一八八一年九月二十五日出生在绍兴城内周姓望族，祖父周介孚，出身翰林，让鲁迅在启蒙的时候先读历史，而不是四书五经；父亲周伯宜，对鲁迅非常宽厚，允许他读闲书；母亲鲁瑞更是喜欢他。少年鲁迅便生活在这种颇为繁华而宽厚的环境中读书长大，调皮好斗，有着少年所特有的骄傲。但祖父却因为一次科场行贿案下狱，父亲也吐血并终于去世，亲戚便不再对鲁迅家客气，分房子的时候给鲁迅家最差的房子。这种世态炎凉、由繁华转为凄苦的经历很容易让人想到曹雪芹，另一个在中国的晚期封建社会反儒家的困顿的斗士。后来在广州，青年学生问他为什么憎恶旧社会，他回答：“我小的时候，因为家境好，人们看我像王子一样，但是，一旦我家庭发生变故后，人们就把我看成叫花子都不如了，我感到这不是一个人住的社会，从那时起，我就恨这个社会。”今天再思考这个，我们究竟走出去多远呢？市场经济之后，实用主义潮起，我们仿佛又能看到那些忧伤的娜拉了。
-若以事件史的眼光看个体的人，就要重视他在十八岁的选择，这一年鲁迅乡试成绩为中上等，却因为一个弟弟的夭亡而放弃复试，家境的中落、人情的冷落也使他不能去经商或者像很多绍兴人一样选择去做师爷、幕僚。*如今日高考无望的情况相识，鲁迅只能选择去读江南水师学堂，差不多是免费。*王晓明写到：“可也惟其如此，学生多不愿以本名注册，而要改换姓名，鲁迅那个‘周树人’的名字，就是这样起的。”但不满意学堂教员的无知只好转到路矿学院，1902年，因为没有钱只好争取公费去那个极度自卑并极度自大的在7年前打败中国的地方留学去了，在日本呆了七年，因为日本人的傲慢、侮辱和留日学生的不成器的丑态而痛苦，终于无法忍受，放弃学医转而从文，要医治这个民族的精神状况。但如王晓明所言，“一九0六年初夏，鲁迅返回东京，这时候他已经二十六岁了。用去了八年的青春，从中国到日本，又从仙台回东京，四处寻求生路，却总是走不通，兜了一个大圈子，还是回到老地方：没有钱，也没有文凭，两手空空，一无所有。”在这一点上，马克思比鲁迅幸运多了，至少他在大学阶段找到了自己受用终生的道路——哲学。
-我们已经知道了鲁迅从少年时代就开始大量阅读各种杂书，他应该感谢自己的这种习惯，王晓明描绘了鲁迅的读书状况：林纾翻译的小说一本不落；梁启超主笔的《时务报》几乎是每期必读；他更用心读理论书，严复翻译的《天演论》和《法意》，他是读了又读，还郑重其事地向别人推荐，还曾给周作人推荐约翰•穆勒的《逻辑体系》。以今日状况来看，有多少人真正读过《进化论》和《论法的精神》呢？更不用说小穆勒的书了。尤其是达尔文的理论使鲁迅走出了历史悲观主义关于“今不胜昔”和“一乱一治”的历史循环主义，对于鲁迅来说这不啻是精神革命，正如马克思读了在大学里成为了一个激进的青年黑格尔主义者一样，鲁迅也成了一个“我以我血荐轩辕”的社会进化论者，从仙台来到东京，他毅然剪掉了辫子，严肃地和同学们一起思考民族的问题。
-话说回来，也许正如张饶庭所说，人本身就是loglinear，是非线性的，总是充满了矛盾。记得我自己更夸张的说过“人即回归”的话，都是一样的，只不过是加入了点宿命的色彩。传统与革命便如此自然地熔铸在鲁迅的遭遇中。热血青年鲁迅在日本思想开始倾向于革命，并且 *真真正正的加入了光复会*，然而当被要求回国像徐锡麟一样刺杀满清高官的时候，鲁迅却问了句：“如果我被抓住，被砍头，剩下我的母亲，谁负责赡养她呢？”领导收回成命，刺杀遂无疾而终。对此王晓明写道：他不能无条件地相信别人。即便一时冲动，时间稍长，他对卑劣人心的体验，对一切冠冕堂皇的东西的习惯性怀疑。正是在1906年，鲁迅被母亲以生病为由骗回家，娶了朱安，后者曾经拒绝按照鲁迅的意见进入新式学堂读书。鲁迅在婚后第四天就回了日本。
-一九○八年夏天，继续在东京读书学德语。从夏天开始，每星期日往章太炎在东京的寓所，听他讲学，历时大约半年。称章太炎为鲁迅的老师，跟这个有关系吧。1909年，与周作人合译的《域外小说集》第一册出版，不久《域外小说集》第二册出版。为了负担家庭经济，离开日本回国，结束了七年的留学生活。 回国后，就任杭州的浙江两级师范学堂的生理和化学教员，兼任日籍教师的翻译。1910年担任绍兴府中学堂的监学，兼教生物课。1911年，武昌起义爆发，绍兴城内一片混乱，遂应府中学堂学生的请求，回校暂管校务。 带领学生演说队上街宣传革命，安定民心。不久，受新任绍兴军政府都督王金发委任，担任山会初级师范学堂监督。但是，革命并没有给民族带来更多的东西，革命党的官员一样压抑自由和新思想，鲁迅最终选择离开。
-靠着朋友的推荐、应教育总长蔡元培邀请，去南京中华民国临时政府的教育部任职。从此，逃离绍兴。因教育部北迁，单身前往北京，住进宣武门外的绍兴会馆。 任北洋政府教育部佥事，兼第一科科长。这便是鲁迅中年一次重要选择：为官的仕途之路，所幸收入颇高。但鲁迅虽有怀疑的毛病，却无法接受现实的倾轧，他去研究石刻拓本、抄古碑，他每天上午九、十点钟起床，梳洗后直接去部里办公，到黄昏时返回会馆。吃过晚饭，八点钟开始抄碑，看佛经，读墓志，常常要到半夜一两点钟。对此，王晓明说：对自己的个人幸福，他也不能再抱什么希望了。他刻了一方石章，曰“堂”；又给自己选了一个号，叫做“俟堂”。笔划虽不同，意思是一个，就是“待死堂”。这个时候，鲁迅已经不得不去思考死亡、品味孤独、遭遇自我。生活、婚姻、国家的不顺遂和鲁迅的悲观主义都把他引入到了遭遇虚无的境地。从这个角度上讲，鲁迅和陀思妥耶夫斯基和托尔斯泰是有相近之处的。鲁迅的待死堂和陀思妥耶夫斯基的《死屋手记》中的死屋何其相似。
-对于在五四阶段鲁迅带着面具的呐喊，王晓明直言：对启蒙的信心，他其实比其他人小，对中国的前途，也看得比其他人糟。五四的成功使鲁迅获得了极高的文学声望，“他不再是绍兴会馆里那个默默无闻的“待死”者了，他现在成了大学讲台上的名教授，读者钦慕的名作家。”
-1925年，“鲁迅和女师大的学生许广平等人开始来往，通信日渐频繁，好感逐渐加深，他在感情上，也会不自觉地向这批学生倾斜，于是在五月十二日的《京报副刊》上，他公开表态支持学生，随后又联络其他一些教员，联名宣告反对杨荫榆。”这场纠纷使鲁迅失去了他的官位——章士钊撤了她的职。后来，鲁迅起诉了章士钊重新获得了这个职位。对此王晓明说：从少年时代起，他就吃够了贫困的苦头，他很早就懂得了没有钱，什么事都干不成，在那篇《娜拉走后怎样》的演讲中，他那样强调“经济权”，就正是出于自己的痛苦经验。
-人存在的意义是什么？王晓明说：“人的生存意义，就体现在他人对你的需要之中，即使鲁迅对社会的变革完全失去信心，对自己在这变革中的作用也不存指望，他的精神世界大概仍不会垮掉，还有一根坚固的支柱在支撑着他，那就是他对和睦的家庭生活的期待，对自己作为这个家庭的主要维持者的自豪。” 1923年，鲁迅和羽太信子发生严重的冲突 ，随之和周作人兄弟反目，他就迁往西城的砖塔胡同六十一号。鲁迅对自己的母亲并没有太大的好感，家庭的分裂，更让他陷入了痛苦的深渊之中。
-鲁迅从人道主义转向了个人主义，由启蒙的悲观主义，转向了存在的虚无主义。俄国作家阿尔志跋绥夫在小说《工人绥惠略夫》中，以主人公绥惠略夫表现的一种思想，用鲁迅的话说，就是“要救群众，而反被群众所迫害，终至成了单人，忿激之余，一转而仇视一切，无论对谁都开枪，自己也归于毁灭。” 王晓明写到：从启蒙者的悲观和绝望，从对尼采和绥惠略夫的共鸣和认同，鲁迅一步步走进了虚无感。
-鲁迅在虚无主义的鬼气中滑落的太远，但1925年，他还是找打了一个缺口：对女人的爱情，逃了出来。这一年他和许广平相爱了，许并不漂亮，但对于新思想、自由、革命的坚毅鼓舞了鲁迅。26年，鲁迅到厦门大学任教，后来又去了广州中山大学，此刻许广平已经陪伴在他身边了。因为老对手顾颉刚要到中大，鲁迅和许广平便到了上海。王晓明写道：“从某种意义上讲，鲁迅和许广平相爱而终于同居，在上海建立新的家庭，是他一生中最有光彩的举动。正是在这件事情上，他充分表现了生命意志的执拗的力量，表现了背叛传统礼教的坚决的勇气，表现了一个现代人追求个人自由的个性风采。但是，也恰恰在这件事情上，他内心深处的软弱和自卑，他对传统道德的下意识的认同，他对社会和人性的根深蒂固的不信任，都表现得格外触目。一个人一旦相信爱情，就不再是虚无主义者。”
-鲁迅的人生是在上海画上终点的，在这个时期，鲁迅不断遭遇到华盖运。早期，鲁迅是要医治民族性，对大众，他是轻蔑的，他依靠知识分子的，尤其是学生，但人生的种种遭遇却使他不断看到知识分子的局限性，读了一些马克思主义的东西之后，鲁迅转而提出大众才是推动历史变革者。但是这与他素有的思想是矛盾的。终于，他提出了新知识分子的说法。“一九三二年底，他第二次回北京探望母亲，去北京女子文理学院和北京师范大学演讲，都特别挑起知识阶级会不会灭亡的话题，反复强调说，有一种新的知识者，他们与群众结合，反对个人主义，能够把握住实际人生，因此在将来仍能生存。”
-一九三０年五月，他发起成立了左联的筹备会。他刚刚和共产党人结盟，共产党的一位领导人李立三，就秘密约见他，要他以周树人的名字写一篇骂蒋介石的文章，被鲁迅婉言拒绝。虽然他倾向于共产党，但他同样厌恶成仿吾和周扬那一类共产党人。
-在生命中的最后一年，1936年，鲁迅写了《死》，显示出一种非常特别的态度：既不回避，也不设法改造，就站在那里谈论自己的死。十月十九日，上午五时二十五分逝世。
-这便是鲁迅的一生，一个对我们来说应该熟悉、但其实显然十分陌生的人生，我们在他的身上看到了太多的矛盾，看到了存在主义哲学对人生的思考的深刻的印记。处于一个悲剧似的、似乎看不到希望地转折的时代，鲁迅经历了人生中的种种波折，大到祖国，中到家庭，小到个人，没有一个顺遂人心，这个小个子、坏脾气、多疑的人，在那个时代里耗尽了自己的所有生命力。鲁迅在他的人生的当中不可避免的遭遇虚无，国家风雨飘摇、鸡鸣不已，大众是冷漠的、愚蠢的群体，少年家道中落，慈母是误进的毒药，朱安是无法交流的对象，和弟弟周作人虽志趣相近却终于反目，最后自己所倾向的知识分子也多靠不住。鲁迅的幸运是青少年时的广泛读书、留学日本的经历、加入光复会的经验、许广平的爱情和共产主义的发展。
-鲁迅故去93年了，我们已经从鲁迅的铁屋走出了很远，但我们绝大多数人对鲁迅的认识依然很浅薄。娜拉出走之后怎样？我们挣脱了一个旧的世界，我们又能走多远？鲁迅今日若在，他又能写写什么呢？鲁迅说：“跨过那站着的前人。”我们真的超越了吗？</description>
+      <guid>https://chengjunwang.com/zh/post/cn/cn_archive/2009-02-14-read-luxun-in-text/</guid>
+      <description>&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Parsing Githubarchive Data using Python</title>
-      <link>https://chengjunwang.com/zh/post/cn/2016-06-18-parsing-githubarchive-json/</link>
+      <link>https://chengjunwang.com/zh/post/cn/cn_archive/2016-06-18-parsing-githubarchive-json/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://chengjunwang.com/zh/post/cn/2016-06-18-parsing-githubarchive-json/</guid>
-      <description>Githubarchive整理了github的历史数据，每一个小时一个数据文件，我下载了2011-2014年四年的数据，结果发现2012年的多数数据存在错误换行的问题，需要清洗。一般而言，正确的情况是一个字典格式的数据占一行，错误的情况就会是所有的字典格式的数据合并为了一行。似乎是缺乏换行符造成的。
-http://stackoverflow.com/questions/10432432/yajl-parse-error-with-githubarchive-org-json-stream-in-python# 这里详细记录了这个问题。
-按照这个帖子，我尝试了很多方法，yajl和ijson，但是都不能很优雅的解决我的问题。不妨采用暴力的方法。
-rirwin利用了{和}出现的偶数关系来分割字符串，但是这种方法容易遗漏数据且速度较慢。
-仔细思考这个问题就是：Parse multiple json objects that are in one line。 搜索之，发现了http://stackoverflow.com/questions/36967236/parse-multiple-json-objects-that-are-in-one-line
-其中，Francesco的解决方法比较高效：
-f = &#39;/Users/chengjun/百度云同步盘/githubarchive/2012-03-10-22.json.gz&#39; f = gzip.open(f, &#39;rb&#39;) f = f.readline() r = re.split(&#39;(\{.*?\})(?= *\{)&#39;, f) accumulator = &#39;&#39; res = [] for subs in r: accumulator += subs try: res.append(json.loads(accumulator)) accumulator = &#39;&#39; except: pass len(res)   Out [29]: 1270
- 基于这种方法，可以写一个函数来实现对于数据的正确读取。
-#f = &#39;/Users/chengjun/百度云同步盘/test.json&#39; #f = open(f) f = &#39;/Users/chengjun/百度云同步盘/githubarchive/2012-06-01-15.json.gz&#39; f = gzip.</description>
+      <guid>https://chengjunwang.com/zh/post/cn/cn_archive/2016-06-18-parsing-githubarchive-json/</guid>
+      <description>&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>写在《袁氏当国》之后</title>
-      <link>https://chengjunwang.com/zh/post/cn/2008-09-25-yuan-shikai/</link>
+      <link>https://chengjunwang.com/zh/post/cn/cn_archive/2008-09-25-yuan-shikai/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://chengjunwang.com/zh/post/cn/2008-09-25-yuan-shikai/</guid>
-      <description>“袁世凯在中国近代的历时转型期中，也算是一个悲剧人物。”——唐德刚 一 挟六镇军威 养敌以自重 袁世凯是一个以军功起家的人物，以小站练兵的方式建立了忠于自己的军队——北洋六镇，又被称之为北洋系，是民国后各系军阀之祖。在袁世凯的班底中，其文班底“嵩山四友”：徐世昌，李经羲，张謇，赵尔巽；武班底包括“北洋三杰”龙虎狗三将军：王士珍，段祺瑞，冯国璋。
-但袁世凯的仕途并没有我们所想的那般顺畅，1908年四十九岁的袁世凯被摄政王载沣开缺回籍。之后他以中国古代官僚所特有的政治智慧自诩“洹上钓叟”，于养寿园中悠游林泉。历时三年，方才应召回京，东山再起，是年10月10日武昌起义，受令讨伐武汉之起义军。狡猾的袁世凯称疾不就，养敌自重。 二 中山成黑马 国体师美国 革命军可基本上分为武汉方面（简称汉方）和上海方面（简称沪方）。汉方拥护黎元洪为革命军大元帅，沪方则抢先选举黄兴为大元帅。后双方到达南京重新选举，以黎，黄分任正负大元帅。 鉴于袁世凯的军威，清廷和革命军都在事实上不得不接受让袁世凯担任皇帝或者总统的现实。但是深谙中国五千年来的政治智慧的袁世凯却既不愿逼宫取位，他盘算着让溥仪退位禅让，自己则必须三辞而后受之；又不能鲁莽得接受国民党等革命军的议会选举，事缓则圆，袁世凯也不想仓促中激起清廷的对抗。 恰在袁世凯举旗观望和黎黄争位之时，孙中山兼程回国，“参议员诸公既然不能举孙为大元帅，就只有举他为临时大总统，以待袁驱除鞑虏后再来让贤了”，这样中山先生就只好以其建国学理和崇高威望戏剧性地成了中华民国第一任临时大总统了，当然选孙文为大总统的另一个原因是传言他获得海外华人百万捐款（实际上却是不名一钱）。 值得一书的是在大局未定之时沪汉双方都同意采纳美国的政治制度：议会制和总统制。这可以被认为中国的共和制度之始，实在是意义非凡。 ##三 不流血政变 袁世凯当权 南方已定，孙文电告袁世凯，暂代临时大总统，虚位以待袁。 此时的袁世凯也不得不加快逼宫的进程，裕隆太后为袁世凯所骗，先是拿出私帑以救武汉之急，后有听信革命军如何有钱，如何厉害，只有退位了。裕隆念念不忘袁世凯许诺的每年400万两的皇室优待费，同意让溥仪退位。是为1912年2月12日之宣统下诏退位，遂成中国之不流血的宫廷政变。 之后，做了45天大总统的孙文辞职，中华民国临时参议院在南京全票选举袁世凯为中华民国第二位临时大总统，并派人迎接袁世凯建都南京。狡猾的袁世凯制造了京津兵变，假称北方未定，不肯迁都南京，革命派只好顺从其意。 为了安抚孙大炮，袁世凯让他出任中国铁路总公司总理的优缺肥差。原来，理想主义的中山先生有一个20万里铁路计划，这不能不说是个万分宏伟的想法，因为中国在1998年方才规划到2002年实现铁路突破7万里。袁世凯明知孙中山之计划不切实际，不可能实现，却并不挑明。待得后来孙文浪费百十万两白银未修成一寸铁路，真可谓“君子可欺以其方”。黄兴则没有这么好远，被任命为南京留守，做安抚那些要被解散的革命军的吃力不讨好的事情，最后被裁撤了之。 但1912年3月11日，孙文任总统期间却公布了由《临时政府组织大纲》改订的《中华民国临时约法》，其核心是将政体由美国总统制改为法国式的内阁制，总统的权利受到内阁限制。由内阁总理直接向国会负责，总统成为虚位元首，这当然是为袁世凯而设计的。 但袁世凯却是一个离不开权利的人，不久唐绍仪内阁即告倒台。年轻的宋教仁从唐内阁中下岗之后就开始了收编小党，将同盟会该组成国民党的活动，后者在1913年在国会中大获全胜，而宋教仁在之前就对外宣称要组织清一色的国民党内阁，这些当然不免让袁世凯大叫其苦。 袁世凯于其时不怕重理论的孙大炮，却怕有组织才能并且锋芒毕露的宋教仁。收买不成，就只好假赵秉均之手杀之而后快了，是为震惊民国的“宋教仁案”。 唐德刚评论说：”在民国史上政变不循法律途径而用枪杆。袁之杀宋是一错，国民党之以暴易暴，兴兵讨袁，则是再错。”“接着三错，四错随之而来，就变成武力至上，军阀混战了。” 教仁即殁，黄兴等主和派主张以法律解决，孙中山等主战派则主张以武力讨伐之。但国民党其实无兵无地又无钱，而袁世凯却恰好获得六国银行团的贷款2500万金镑，未经一月革命党之二月革命即告破产，袁世凯却托中山之福剪除异己，削除藩镇，一举控制了广东江西和安徽这几那个云南，广西。南京的张勋，山西的阎锡山，奉天张作霖，云南唐继尧莫不胆寒，连黎菩萨元洪也被请到北京软禁起来，当然几乎同时被软禁起来的还有梁启超弟子，云南王蔡锷将军。 权倾朝野的袁大头终于登上正式大总统宝座，1914年公布的《中华民国约法》和同年12月29日《修正大总统选举法》袁遂成终身大总统并且可以传位于妻，子。但是贪心不足的袁世凯却在犹豫不定中想要走得更远。 ##四 称帝忧患间 墙倒众人推 民国创立后的第一次农民起义——白朗起义于1913年秋爆发了，次年8月被平定。但相较于内忧，外患才是最严重的：美国划定所谓的麦克马洪线侵占西藏；日本和俄国瓜分东北三省；俄国策划外蒙古独立；日本更是雪上加霜地侵占胶州湾取代了德国在山东的特权，袁世凯拖不过去到底签了丧权辱国的二十一条。凡此种种，袁世凯虽勉力维持，终不堪重负，贻人口舌。 在风雨飘摇之中的袁世凯却最终不合时宜地在摇摆不定地萌发了做皇帝的想法，由其控制的筹安会“六君子”，参政院和全国代表大会拥立袁世凯复辟。袁终于在１９１５年１２月１３日成为中华帝国的洪宪大皇帝。 袁世凯称帝自然为革命派所不容，但其内部的文武班底也反对。狗将军冯国璋和虎将军段祺瑞都恐与之交恶的袁世凯的大儿子袁克定继承大统之后对他们痛下杀手，遂成北洋系之窝里反。更加重袁世凯的担心的是日本也发表了对袁世凯称帝的反对。 外为舆论不容，内为自家人反对，袁世凯在风雨飘摇中走到了人生的终点。１９１６年９月６日，袁世凯病逝，符合袁世凯对冯国璋所说的袁家男人寿不过六十的话。正应了老子之言：物壮则老，谓之不道，不道早已。 是年，段祺瑞取而代之，民国遂入军阀混乱之迷局。惜哉。 ##五　帝制向后转　共和向前看 对于历史深层的国体政体之选择，唐德刚先生说，走过了两千年的封建和帝制的历史，中国已经驶入转型时期的历史三峡，“顺流而下，滩高浪险，掉头逆水，必然翻船，而袁世凯及其党不知也，悲夫。” 是啊，共和制也不是万能的，但共和制虽有诸多不合国情之处却毕竟是向前看的，恰若唐德刚先生所言，共和制是权力递减的制度安排，在一个转型的历史阶段，运用共和制有可能会带来暂时的权力的极度地扩张，恰如蒋介石的权力在某些方面比之古代君王有过之而无不及，但是到了其子蒋经国先生的时候，总统的权力就已经有效地减小了。看来，唐德刚先生是一个赞成政治上的休克疗法的学者。</description>
+      <guid>https://chengjunwang.com/zh/post/cn/cn_archive/2008-09-25-yuan-shikai/</guid>
+      <description>&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>围城里的快乐</title>
-      <link>https://chengjunwang.com/zh/post/cn/2008-05-01-happy-city/</link>
+      <link>https://chengjunwang.com/zh/post/cn/cn_archive/2008-05-01-happy-city/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://chengjunwang.com/zh/post/cn/2008-05-01-happy-city/</guid>
-      <description>黠之大者
-序言 这个短篇小说是我对本科生活的纪念。那时候的我蜗居在一个山村里。紧张得上着课，看各种不着边际的书。渴望未来，却看不到边界；憧憬爱情，却不善于表达。
-王二是我们在大学这座围城的缩影。本科的学习，我们仍无法窥见科学的全景，对各种工具也缺乏了解，更多的时候只是抱着人文取暖。大四的时候，看王小波的《黄金时代》，叙事的精巧，精神的贲张，让我为之击节。王二便是借了其中的主人公的名字，但缺少了其中的锋芒，多了更多的世俗和顽固。
-围城里有快乐吗？这是一个开放的问题。我想是有的，因为大学时一个改变的场所，身处其境，每时每刻都埋藏着思想和行为改变的种子。虽然身在其中却往往不得其所。这正是大学的魅力，让你身在囹圄，却得以茁壮成长。
-目录  chapter1 王二 chapter2 杨亦凌 chapter3 一条狗 chapter4 小六 chapter5 女大学生 chapter6 教学楼 chapter7 图书馆 chapter8 考研时期的爱情 chapter9 一切都如此重要 chapter10 毛片 chapter11 女人如衣服 chapter12 影吧 chapter13 毛片续 chapter13 鬼的存在 chapter15 失乐园 chapter16 失恋 chapter17 空档期 chapter18 烟 chapter19 自杀论 chapter20 功利主义 chapter21 挟持 chapter22 许三多和斯密 chapter25 纠缠不清 chapter26 旁观者 chapter27 不会经历的奇遇  chapter1:王二 “我们根本就生活在一个悲剧的时代，因此我们不愿惊惶自忧。大灾难已经来临，我们处于废墟之中，我们开始建立一些新的小小的栖息地，怀抱一些新的微小的希望。这是一种颇为艰难的工作。现在没有一条通向未来的康庄大道，但是我们却迂回前进，或攀援障碍而过。不管天翻地覆，我们都得生活。” ——《查泰莱夫人的情人》
-王二何许人也，已经无人考证，因为考证出了也不能写个论文、发个帖子什么的光耀门楣。重要的是王二生在了80年代，这注定了他在一个社会转型的黑铁时代兀自唏嘘。
-虽然王二不是一个经常多愁善感的人，做人也很低调，但是还是有好事者考证出了王二的出处：他是一个学生物的，L大学图书馆里的生物化学课本上都有王二的笔迹。后来我去找过，没发现。
-生在八十年代的王二干事情很认真，他是农民的儿子，是个穿着谈吐透着土气。王二04年高考了，之前他从来没有关心过别人，包括他的父母。王二想的很简单，考个好学校，找个好女人。王二要为他的简单付出代价。
-成绩下来，王二高兴地填了L大学。于是我今天才会写这个短篇。我想幸亏王二选了L大学。不然，我的书就有得换主角了，我很早就打算写本小说，换了很多主角了，从江隆基到李发伸，但是我终于发现我面对他们时丝毫没有激情。我不会写作了。但自从遇到王二，我知道我该写谁了。傻逼王二全身透着冲突，不然后来他不会自杀了。
-我想肯定是王二得罪了这个好事者。不过王二一向龌龊，这样似乎也在所难免。
-我第一次见王二是四年前，那时候的王二身高已经达到1.69m,比我低了一头。王二见到我时说：“丫的你留了多少级，长这么高。”我就只好给王二解释说，身高和营养有很大关系，要多喝牛奶，多锻炼。后来王二就常跟我们去锻炼，打篮球。但是四年过去了，我可以肯定的是：他一厘米也没再长高，还是比我低一头，我也没长高。大学四年了，我们似乎被凝固了，什么也没变。
-chapter2:杨亦凌 就是在球场上王二第一次遇到了杨亦凌。杨亦凌是新疆人，高高的鼻梁表明她有维族人的血统，杨亦凌的父亲是汉族人，母亲是维族。当兵的杨父在新疆看上了美丽的杨母就再也没回老家。杨亦凌跟其他女孩不同，她喜欢打篮球。那天杨亦凌正在跟几个维族帅哥一起打球。</description>
+      <guid>https://chengjunwang.com/zh/post/cn/cn_archive/2008-05-01-happy-city/</guid>
+      <description>&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
   </channel>

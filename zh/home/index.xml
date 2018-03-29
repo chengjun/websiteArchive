@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Homes on Academic</title>
+    <title>Homes on Cheng-Jun Wang</title>
     <link>https://chengjunwang.com/zh/home/</link>
-    <description>Recent content in Homes on Academic</description>
+    <description>Recent content in Homes on Cheng-Jun Wang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>&amp;copy; 2016 Cheng-Jun Wang</copyright>
@@ -18,7 +18,16 @@
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>https://chengjunwang.com/zh/home/about/</guid>
-      <description>王成军 王成军，传播学博士。现为南京大学新闻传播学院副教授，奥美数据科学实验室主任，计算传播学实验中心成员，兼任香港城市大学互联网挖掘实验室研究员。参与翻译《社会网络分析：方法与实践》(2013)、合著《社交网络上的计算传播学》(2015)。他的研究成果发表于SSCI和SCI索引的期刊，例如Scientific Reports、PloS ONE、Physica A、Cyberpsychology。2014年，王成军发起创建了计算传播网。更多信息见英文页面或他的简历。</description>
+      <description>王成军 王成军，传播学博士。现为南京大学新闻传播学院副教授，奥美数据科学实验室主任，计算传播学实验中心副主任，兼任香港城市大学互联网挖掘实验室研究员。参与翻译《社会网络分析：方法与实践》(2013)、合著《社交网络上的计算传播学》(2015)。他的研究成果发表于SSCI和SCI索引的期刊，例如Scientific Reports、PloS ONE、Physica A、Cyberpsychology。2014年，王成军发起创建了计算传播网。更多信息见英文页面或他的简历。</description>
+    </item>
+    
+    <item>
+      <title>Recent Posts</title>
+      <link>https://chengjunwang.com/zh/home/posts/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://chengjunwang.com/zh/home/posts/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -31,15 +40,6 @@
     </item>
     
     <item>
-      <title>新闻公告</title>
-      <link>https://chengjunwang.com/zh/home/posts/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://chengjunwang.com/zh/home/posts/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>教学</title>
       <link>https://chengjunwang.com/zh/home/teaching/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
@@ -48,7 +48,7 @@
       <description>  复旦大学《计算新闻传播学》课程 python代码、PPT见GitHub 。课程内容包括：计算传播学导论、大数据简介、数据科学的编程工具、数据抓取、数据清洗、统计分析、机器学习、文本挖掘、推荐系统、网络科学多个部分。
   南京大学本科生课程 《数据新闻》  2017 秋季 周一 第3-4节 逸B-210 1-18周 2016 秋季 2015 秋季  2017级人文艺术传播类《媒介案例研究》
  《计算传播》案例部分 每周二7、8节（4-18周）逸B-104  南京大学本科生课程 《计算传播》
- 2017 春季   学生  研究生：周纬、秦强、陈志聪 本科生（指导毕业论文）：  2017：沈越、曾维靓   </description>
+ 2017 春季   学生  研究生(在读)：秦强、陈志聪 已毕业研究生：周纬(2017) 本科生（指导毕业论文）：  2017：沈越、曾维靓   </description>
     </item>
     
     <item>
@@ -58,6 +58,17 @@
       
       <guid>https://chengjunwang.com/zh/home/contact/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://chengjunwang.com/zh/home/hero/</link>
+      <pubDate>Sun, 15 Oct 2017 00:00:00 +0800</pubDate>
+      
+      <guid>https://chengjunwang.com/zh/home/hero/</guid>
+      <description> Quotations  Before God we are all equally wise and equally foolish. Do not worry about your difficulties in Mathematics. I can assure you mine are still greater. &amp;ndash; Albert Einstein 🚀
+We know that people often desire something but do not really want it. Don’t be afraid to really want what you desire. &amp;ndash; Slavoj Žižek speaks at Occupy Wall Street 🚀
+ </description>
     </item>
     
   </channel>

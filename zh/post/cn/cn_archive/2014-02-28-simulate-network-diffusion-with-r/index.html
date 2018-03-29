@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="theme" content="hugo-academic">
+  <meta name="generator" content="Hugo 0.37.1" />
+  <meta name="author" content="Cheng-Jun Wang">
+  <meta name="description" content="Associate Professor">
+
+  
+  
+  
+  
+    
+  
+  
+    
+    
+    <link rel="stylesheet" href="/css/highlight.min.css">
+    
+  
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha512-6MXa8B6uaO18Hid6blRMetEIoPqHf7Ux1tnyIQdpt9qI5OACx7C+O3IVTr98vwGnlcg0LOLa02i9Y1HpVhlfiw==" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.1/css/academicons.min.css" integrity="sha512-NThgw3XKQ1absAahW6to7Ey42uycrVvfNfyjqcFNgCmOCQ5AR4AO0SiXrN+8ZtYeappp56lk1WtvjVmEa+VR6A==" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous">
+  
+  
+
+
+  
+
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato:400,700%7cMerriweather%7cRoboto&#43;Mono">
+  
+  <link rel="stylesheet" href="/styles.css">
+  
+
+  
+
+  
+  <link rel="alternate" href="https://chengjunwang.com/index.xml" type="application/rss+xml" title="Cheng-Jun Wang">
+  <link rel="feed" href="https://chengjunwang.com/index.xml" type="application/rss+xml" title="Cheng-Jun Wang">
+  
+
+  <link rel="icon" type="image/png" href="/img/icon.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/apple-touch-icon.png">
+
+  <link rel="canonical" href="https://chengjunwang.com/zh/post/cn/cn_archive/2014-02-28-simulate-network-diffusion-with-r/">
+
+  <meta property="twitter:card" content="summary_large_image">
+  
+  <meta property="twitter:site" content="@ChengJunWang">
+  <meta property="twitter:creator" content="@ChengJunWang">
+  
+  <meta property="og:site_name" content="Cheng-Jun Wang">
+  <meta property="og:url" content="https://chengjunwang.com/zh/post/cn/cn_archive/2014-02-28-simulate-network-diffusion-with-r/">
+  <meta property="og:title" content="使用R模拟网络扩散 | Cheng-Jun Wang">
+  <meta property="og:description" content="">
+  <meta property="og:locale" content="zh-cn">
+  
+  <meta property="article:published_time" content="2014-02-28T00:00:00&#43;00:00">
+  
+  <meta property="article:modified_time" content="2014-02-28T00:00:00&#43;00:00">
+  
+
+  
+
+  <title>使用R模拟网络扩散 | Cheng-Jun Wang</title>
+
+</head>
+<body id="top" data-spy="scroll" data-target="#navbar-main" data-offset="71">
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navbar-main">
+  <div class="container">
+
+    
+    <div class="navbar-header">
+      
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+              data-target=".navbar-collapse" aria-expanded="false">
+        <span class="sr-only">切换导航</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      
+      <a class="navbar-brand" href="/zh/">Cheng-Jun Wang</a>
+    </div>
+
+    
+    <div class="collapse navbar-collapse">
+
+      
+      <ul class="nav navbar-nav navbar-right">
+        
+
+        
+
+        <li class="nav-item">
+          <a href="/zh/#about">
+            
+            <span>关于</span>
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        <li class="nav-item">
+          <a href="/zh/#posts">
+            
+            <span>新闻</span>
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        <li class="nav-item">
+          <a href="/zh/#teaching">
+            
+            <span>教学</span>
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        <li class="nav-item">
+          <a href="/zh/#projects">
+            
+            <span>项目</span>
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        <li class="nav-item">
+          <a href="/zh/#contact">
+            
+            <span>联系</span>
+          </a>
+        </li>
+
+        
+        
+
+        
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+<article class="article" itemscope itemtype="http://schema.org/Article">
+
+  
+
+
+  
+
+
+<div class="col-sm-2 col-sm-offset-1 doc-sidebar right">
+
+	<div id="sidebar">
+	<div class="sidebar-module">
+		<div class="sidebar-toc">
+			<h4 class="sidebar-heading">Table of Contents</h4>
+			
+			
+		</div>
+	</div>
+	
+	</div>
+
+</div>
+
+
+
+  <div class="article-container">
+    <div class="article-inner">
+      <h1 itemprop="name">使用R模拟网络扩散</h1>
+
+      
+
+<div class="article-metadata">
+
+  <span class="article-date">
+    
+    <time datetime="2014-02-28 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+      2014-02-28
+    </time>
+  </span>
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    3 分钟阅读时间
+  </span>
+  
+
+  
+  
+
+  
+
+  
+  
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    <li>
+      <a class="twitter"
+         href="https://twitter.com/intent/tweet?text=%e4%bd%bf%e7%94%a8R%e6%a8%a1%e6%8b%9f%e7%bd%91%e7%bb%9c%e6%89%a9%e6%95%a3&amp;url=https%3a%2f%2fchengjunwang.com%2fzh%2fpost%2fcn%2fcn_archive%2f2014-02-28-simulate-network-diffusion-with-r%2f"
+         target="_blank" rel="noopener">
+        <i class="fa fa-twitter"></i>
+      </a>
+    </li>
+    <li>
+      <a class="facebook"
+         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fchengjunwang.com%2fzh%2fpost%2fcn%2fcn_archive%2f2014-02-28-simulate-network-diffusion-with-r%2f"
+         target="_blank" rel="noopener">
+        <i class="fa fa-facebook"></i>
+      </a>
+    </li>
+    <li>
+      <a class="linkedin"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fchengjunwang.com%2fzh%2fpost%2fcn%2fcn_archive%2f2014-02-28-simulate-network-diffusion-with-r%2f&amp;title=%e4%bd%bf%e7%94%a8R%e6%a8%a1%e6%8b%9f%e7%bd%91%e7%bb%9c%e6%89%a9%e6%95%a3"
+         target="_blank" rel="noopener">
+        <i class="fa fa-linkedin"></i>
+      </a>
+    </li>
+    <li>
+      <a class="weibo"
+         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2fchengjunwang.com%2fzh%2fpost%2fcn%2fcn_archive%2f2014-02-28-simulate-network-diffusion-with-r%2f&amp;title=%e4%bd%bf%e7%94%a8R%e6%a8%a1%e6%8b%9f%e7%bd%91%e7%bb%9c%e6%89%a9%e6%95%a3"
+         target="_blank" rel="noopener">
+        <i class="fa fa-weibo"></i>
+      </a>
+    </li>
+    <li>
+      <a class="email"
+         href="mailto:?subject=%e4%bd%bf%e7%94%a8R%e6%a8%a1%e6%8b%9f%e7%bd%91%e7%bb%9c%e6%89%a9%e6%95%a3&amp;body=https%3a%2f%2fchengjunwang.com%2fzh%2fpost%2fcn%2fcn_archive%2f2014-02-28-simulate-network-diffusion-with-r%2f">
+        <i class="fa fa-envelope"></i>
+      </a>
+    </li>
+  </ul>
+</div>
+
+
+  
+
+</div>
+
+
+      <div class="article-style" itemprop="articleBody">
+        <p></p>
+
+<p>与普通的扩散研究不同，网络扩散开始考虑网络结构对于扩散过程的影响。</p>
+
+<p>这里介绍一个使用R模拟网络扩散的例子。基本的算法非常简单：</p>
+
+<ol>
+<li>生成一个网络:g(V, E)。</li>
+<li>随机选择一个或几个节点作为种子（seeds）。</li>
+<li>每个感染者以概率p（可视作该节点的传染能力,通常表示为$$\beta$$）影响与其相连的节点。</li>
+</ol>
+
+<p>其实这是一个最简单的SI模型在网络中的实现。S表示可感染（susceptible）, I表示被感染（infected）。SI模型描述了个体的状态从S到I之间的转变。因为形式简单，SI模型是可以求出其解析解的。考虑一个封闭的群体，没有出生、死亡和迁移。并假设个体是均匀混合的（homogeneous mixing),也就是要求个体的地理分布均匀，且被感染的概率也相同(T. G. Lewis, 2011)。那么β表示传染率（transmission rate)。SI模型可以表达为：</p>
+
+<p>$$\frac{dS}{dt}=-\beta SI$$</p>
+
+<p>$$\frac{dI}{dt}=\beta SI$$</p>
+
+<p>且满足 I + S = 1，那么以上方程$$\frac{dI}{dt}=\beta SI$$可以表达为：</p>
+
+<p>$$\frac{dI}{dt}=\beta I(1-I)$$</p>
+
+<p>解这个微分方程，我们可以得到累计增长曲线的表达式。有趣的是，这是一个logistic增长，具有明显的S型曲线（S-shaped curve）特征。该模型在初期跨越临界点之后增长较快，后期则变得缓慢。 因而可以用来描述和拟合创新扩散过程（diffusion of innovations）。</p>
+
+<p>当然，对疾病传播而言，SI模型是非常初级的（naive），主要因为受感染的个体以一定的概率恢复健康，或者继续进入可以被感染状态(S，据此扩展为SIS模型)或者转为免疫状态（R,据此扩展为SIR模型）。 免疫表示为R，用$$\gamma$$代表免疫概率（removal or recovery rate)。对于信息扩散而言，这种考虑暂时是不需要的。</p>
+
+<p>第一步，生成网络。</p>
+
+<pre><code>require(igraph)
+# generate a social graph
+size = 50
+
+# 规则网
+g = graph.tree(size, children = 2); plot(g)
+g = graph.star(size); plot(g)
+g = graph.full(size); plot(g)
+g = graph.ring(size); plot(g)
+g = connect.neighborhood(graph.ring(size), 2); plot(g) # 最近邻耦合网络
+
+# 随机网络
+g = erdos.renyi.game(size, 0.1)
+
+# 小世界网络
+g = rewire.edges(erdos.renyi.game(size, 0.1), prob = 0.8 )
+# 无标度网络
+g = barabasi.game(size) ; plot(g)
+</code></pre>
+
+<p>第二步，随机选取一个或n个种子。</p>
+
+<pre><code>#  initiate the diffusers
+seeds_num = 1
+set.seed(2014); diffusers = sample(V(g),seeds_num) ; diffusers
+infected =list()
+infected[[1]]= diffusers
+</code></pre>
+
+<p>第三步，在这个简单的例子中，每个节点的传染能力是0.5，即与其相连的节点以0.5的概率被其感染。在R中的实现是通过抛硬币的方式来实现的。</p>
+
+<pre><code># for example, set percolation probability = 0.5
+coins = c(0,1)
+n = length(coins)
+sample(coins, 1, replace=TRUE, prob=rep(1/n, n))
+</code></pre>
+
+<p>显然，这很容易扩展到更一般的情况，比如节点的平均感染能力是0.128，那么可以这么写：</p>
+
+<pre><code>p = 0.128
+coins = c(rep(1, p*1000), rep(0,(1-p)*1000))
+n = length(coins)
+sample(coins, 1, replace=TRUE, prob=rep(1/n, n))
+</code></pre>
+
+<p>当然最重要的一步是要能按照“时间”更新网络节点被感染的信息。</p>
+
+<pre><code># function for updating the diffusers
+update_diffusers = function(diffusers){
+  nearest_neighbors = neighborhood(g, 1, diffusers)
+  nearest_neighbors = data.frame(table(unlist(nearest_neighbors)))
+  nearest_neighbors = subset(nearest_neighbors, !(nearest_neighbors[,1]%in%diffusers))
+  # toss the coins
+  toss = function(freq) {
+    tossing = NULL
+    for (i in 1:freq ) tossing[i] = sample(coins, 1, replace=TRUE, prob=rep(1/n, times=n))
+    tossing = sum(tossing)
+    return (tossing)
+  }
+  keep = unlist(lapply(nearest_neighbors[,2], toss))
+  new_infected = as.numeric(as.character(nearest_neighbors[,1][keep &gt;= 1]))
+  diffusers = unique(c(diffusers, new_infected))
+  return(diffusers)
+  }
+</code></pre>
+
+<p>完成了以上三步。准备好了吗，现在开始开启扩散过程！</p>
+
+<pre><code>## Start the contagion!
+i = 1
+while(length(infected[[i]]) &lt; size){
+  infected[[i+1]] = sort(update_diffusers(infected[[i]]))
+  cat(length(infected[[i+1]]), &quot;\n&quot;)
+  i = i + 1
+}
+</code></pre>
+
+<p>先看看S曲线吧：</p>
+
+<pre><code># &quot;growth_curve&quot;
+num_cum = unlist(lapply(1:i, function(x) length(infected［x］) ))
+p_cum = num_cum/max(num_cum)
+time = 1:i
+
+png(file = &quot;./temporal_growth_curve.png&quot;,
+    width=5, height=5,
+    units=&quot;in&quot;, res=300)
+plot(p_cum~time, type = &quot;b&quot;)
+dev.off()
+</code></pre>
+
+<p><img src="http://farm8.staticflickr.com/7299/12845959103_e19cd9cd99_n.jpg" alt="" /></p>
+
+<p>为了可视化这个扩散的过程，我们用红色来标记被感染者。</p>
+
+<pre><code># generate a palette
+E(g)$color = &quot;blueviolet&quot;
+V(g)$color = &quot;white&quot;
+set.seed(2014); layout.old = layout.fruchterman.reingold(g)
+V(g)$color[V(g)%in%diffusers] = &quot;red&quot;
+plot(g, layout =layout.old)
+</code></pre>
+
+<p>使用谢益辉开发的animation的R包可视化。</p>
+
+<pre><code>library(animation)
+
+saveGIF({
+  ani.options(interval = 0.5, convert = shQuote(&quot;C:/Program Files/ImageMagick-6.8.8-Q16/convert.exe&quot;))
+  # start the plot
+  m = 1
+  while(m &lt;= length(infected)){
+    V(g)$color = &quot;white&quot;
+    V(g)$color[V(g)%in%infected[[m]]] = &quot;red&quot;
+    plot(g, layout =layout.old)
+    m = m + 1}
+})
+</code></pre>
+
+<p><img src="http://farm4.staticflickr.com/3806/12826172695_368a6f50a2_o.gif" alt="" /></p>
+
+<p><img src="http://farm3.staticflickr.com/2848/12826237753_d8c97b1019_o.gif" alt="" /></p>
+
+<p><img src="http://farm4.staticflickr.com/3729/12826584654_c84452f397_o.gif" alt="" /></p>
+
+<p><img src="http://farm3.staticflickr.com/2851/12826173505_34649f488d_o.gif" alt="" /></p>
+
+<p><img src="http://farm8.staticflickr.com/7391/12826173255_574e471023_o.gif" alt="" /></p>
+
+<p><img src="http://farm4.staticflickr.com/3675/12826584484_7c6f35380c_o.gif" alt="" /></p>
+
+<p><img src="http://farm8.staticflickr.com/7432/12826173045_ef3548ec04_o.gif" alt="" /></p>
+
+<p>如同在Netlogo里一样，我们可以把网络扩散与增长曲线同时展示出来：</p>
+
+<pre><code>saveGIF({
+  ani.options(interval = 0.5, convert = shQuote(&quot;C:/Program Files/ImageMagick-6.8.8-Q16/convert.exe&quot;))
+  # start the plot
+  m = 1
+  while(m &lt;= length(infected)){
+    # start the plot
+    layout(matrix(c(1, 2, 1, 3), 2,2, byrow = TRUE), widths=c(3,1), heights=c(1, 1))
+    V(g)$color = &quot;white&quot;
+    V(g)$color[V(g)%in%infected[[m]]] = &quot;red&quot;
+    num_cum = unlist(lapply(1:m, function(x) length(infected[[x]]) ))
+    p_cum = num_cum/size
+    p = diff(c(0, p_cum))
+    time = 1:m
+    plot(g, layout =layout.old, edge.arrow.size=0.2)
+    title(paste(&quot;Scale-free Network \n Day&quot;, m))
+    plot(p_cum~time, type = &quot;b&quot;, ylab = &quot;CDF&quot;, xlab = &quot;Time&quot;,
+         xlim = c(0,i), ylim =c(0,1))
+    plot(p~time, type = &quot;h&quot;, ylab = &quot;PDF&quot;, xlab = &quot;Time&quot;,
+         xlim = c(0,i), ylim =c(0,1), frame.plot = FALSE)
+    m = m + 1}
+}, ani.width = 800, ani.height = 500)
+</code></pre>
+
+<p><img src="http://farm4.staticflickr.com/3672/12848749413_7f9da8b8c7_o.gif" alt="" /></p>
+      </div>
+
+      
+
+    </div>
+  </div>
+
+</article>
+
+
+
+
+
+
+<div class="article-container">
+  
+
+</div>
+
+<footer class="site-footer">
+  <div class="container">
+    <p class="powered-by">
+
+      &copy; 2016 Cheng-Jun Wang &middot; 
+
+      Powered by the
+      <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+      <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+      <span class="pull-right" aria-hidden="true">
+        <a href="#" id="back_to_top">
+          <span class="button_icon">
+            <i class="fa fa-chevron-up fa-2x"></i>
+          </span>
+        </a>
+      </span>
+
+    </p>
+  </div>
+</footer>
+
+
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close btn-large" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">引用</h4>
+      </div>
+      <div>
+        <pre><code class="modal-body tex"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-primary btn-outline js-copy-cite" href="#" target="_blank">
+          <i class="fa fa-copy"></i> 复制
+        </a>
+        <a class="btn btn-primary btn-outline js-download-cite" href="#" target="_blank">
+          <i class="fa fa-download"></i> 下载
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+
+    
+    
+
+    
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" integrity="sha512-3P8rXCuGJdNZOnUx/03c1jOTnMn3rP63nBip5gOP2qmUh5YAdVAvFZ1E+QLZZbC1rtMrQb+mah3AfYW11RUrWA==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.3/imagesloaded.pkgd.min.js" integrity="sha512-umsR78NN0D23AzgoZ11K7raBD+R6hqKojyBZs1w8WvYlsI+QuKRGBx3LFCwhatzBunCjDuJpDHwxD13sLMbpRA==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha512-iztkobsvnjKfAtTNdHkGVjAYTrrtlC7mGp/54c40wowO7LhURYl3gVzzcEqGl/qKXQltJ2HwMrdLcNUdo+N/RQ==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.4/isotope.pkgd.min.js" integrity="sha512-VDBOIlDbuC4VWxGJNmuFRQ0Li0SKkDpmGyuhAG5LTDLd/dJ/S0WMVxriR2Y+CyPL5gzjpN4f/6iqWVBJlht0tQ==" crossorigin="anonymous"></script>
+    
+    
+    <script src="/js/hugo-academic.js"></script>
+    
+
+    
+    
+      
+      
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" integrity="sha256-/BfiIkHlHoVihZdc6TFuj7MmJ0TWcWsMXkeDFwhi0zw=" crossorigin="anonymous"></script>
+      
+
+      
+
+      
+
+      <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+
+  </body>
+</html>
+

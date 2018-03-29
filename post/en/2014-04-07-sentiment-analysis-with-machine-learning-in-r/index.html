@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="theme" content="hugo-academic">
+  <meta name="generator" content="Hugo 0.37.1" />
+  <meta name="author" content="Cheng-Jun Wang">
+  <meta name="description" content="Associate Professor">
+
+  
+  
+  
+  
+    
+  
+  
+    
+    
+    <link rel="stylesheet" href="/css/highlight.min.css">
+    
+  
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha512-6MXa8B6uaO18Hid6blRMetEIoPqHf7Ux1tnyIQdpt9qI5OACx7C+O3IVTr98vwGnlcg0LOLa02i9Y1HpVhlfiw==" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.1/css/academicons.min.css" integrity="sha512-NThgw3XKQ1absAahW6to7Ey42uycrVvfNfyjqcFNgCmOCQ5AR4AO0SiXrN+8ZtYeappp56lk1WtvjVmEa+VR6A==" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous">
+  
+  
+
+
+  
+
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato:400,700%7cMerriweather%7cRoboto&#43;Mono">
+  
+  <link rel="stylesheet" href="/styles.css">
+  
+
+  
+
+  
+  <link rel="alternate" href="https://chengjunwang.com/index.xml" type="application/rss+xml" title="Cheng-Jun Wang">
+  <link rel="feed" href="https://chengjunwang.com/index.xml" type="application/rss+xml" title="Cheng-Jun Wang">
+  
+
+  <link rel="icon" type="image/png" href="/img/icon.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/apple-touch-icon.png">
+
+  <link rel="canonical" href="https://chengjunwang.com/post/en/2014-04-07-sentiment-analysis-with-machine-learning-in-r/">
+
+  <meta property="twitter:card" content="summary_large_image">
+  
+  <meta property="twitter:site" content="@ChengJunWang">
+  <meta property="twitter:creator" content="@ChengJunWang">
+  
+  <meta property="og:site_name" content="Cheng-Jun Wang">
+  <meta property="og:url" content="https://chengjunwang.com/post/en/2014-04-07-sentiment-analysis-with-machine-learning-in-r/">
+  <meta property="og:title" content="Sentiment analysis with machine learning in R | Cheng-Jun Wang">
+  <meta property="og:description" content="">
+  <meta property="og:locale" content="en-us">
+  
+  
+  
+  
+
+  
+
+  <title>Sentiment analysis with machine learning in R | Cheng-Jun Wang</title>
+
+</head>
+<body id="top" data-spy="scroll" data-target="#navbar-main" data-offset="71">
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navbar-main">
+  <div class="container">
+
+    
+    <div class="navbar-header">
+      
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+              data-target=".navbar-collapse" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      
+      <a class="navbar-brand" href="/">Cheng-Jun Wang</a>
+    </div>
+
+    
+    <div class="collapse navbar-collapse">
+
+      
+      <ul class="nav navbar-nav navbar-right">
+        
+
+        
+
+        <li class="nav-item">
+          <a href="/#about">
+            
+            <span>Home</span>
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        <li class="nav-item">
+          <a href="/#publications_selected">
+            
+            <span>Publications</span>
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        <li class="nav-item">
+          <a href="/#projects">
+            
+            <span>Projects</span>
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        <li class="nav-item">
+          <a href="/#posts">
+            
+            <span>News</span>
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        <li class="nav-item">
+          <a href="/#teaching">
+            
+            <span>Teaching</span>
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        <li class="nav-item">
+          <a href="/#contact">
+            
+            <span>Contact</span>
+          </a>
+        </li>
+
+        
+        
+
+        
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+<article class="article" itemscope itemtype="http://schema.org/Article">
+
+  
+
+
+  
+
+
+<div class="col-sm-2 col-sm-offset-1 doc-sidebar right">
+
+	<div id="sidebar">
+	<div class="sidebar-module">
+		<div class="sidebar-toc">
+			<h4 class="sidebar-heading">Table of Contents</h4>
+			
+			<nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li>
+<ul>
+<li><a href="#sentiment-analysis-for-tweets">Sentiment analysis for tweets</a></li>
+</ul></li>
+</ul></li>
+</ul>
+</nav>
+		</div>
+	</div>
+	
+	</div>
+
+</div>
+
+
+
+  <div class="article-container">
+    <div class="article-inner">
+      <h1 itemprop="name">Sentiment analysis with machine learning in R</h1>
+
+      
+
+<div class="article-metadata">
+
+  <span class="article-date">
+    
+    <time datetime="0001-01-01 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+      0001-01-01
+    </time>
+  </span>
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    5 min read
+  </span>
+  
+
+  
+  
+
+  
+
+  
+  
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    <li>
+      <a class="twitter"
+         href="https://twitter.com/intent/tweet?text=Sentiment%20analysis%20with%20machine%20learning%20in%20R&amp;url=https%3a%2f%2fchengjunwang.com%2fpost%2fen%2f2014-04-07-sentiment-analysis-with-machine-learning-in-r%2f"
+         target="_blank" rel="noopener">
+        <i class="fa fa-twitter"></i>
+      </a>
+    </li>
+    <li>
+      <a class="facebook"
+         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fchengjunwang.com%2fpost%2fen%2f2014-04-07-sentiment-analysis-with-machine-learning-in-r%2f"
+         target="_blank" rel="noopener">
+        <i class="fa fa-facebook"></i>
+      </a>
+    </li>
+    <li>
+      <a class="linkedin"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fchengjunwang.com%2fpost%2fen%2f2014-04-07-sentiment-analysis-with-machine-learning-in-r%2f&amp;title=Sentiment%20analysis%20with%20machine%20learning%20in%20R"
+         target="_blank" rel="noopener">
+        <i class="fa fa-linkedin"></i>
+      </a>
+    </li>
+    <li>
+      <a class="weibo"
+         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2fchengjunwang.com%2fpost%2fen%2f2014-04-07-sentiment-analysis-with-machine-learning-in-r%2f&amp;title=Sentiment%20analysis%20with%20machine%20learning%20in%20R"
+         target="_blank" rel="noopener">
+        <i class="fa fa-weibo"></i>
+      </a>
+    </li>
+    <li>
+      <a class="email"
+         href="mailto:?subject=Sentiment%20analysis%20with%20machine%20learning%20in%20R&amp;body=https%3a%2f%2fchengjunwang.com%2fpost%2fen%2f2014-04-07-sentiment-analysis-with-machine-learning-in-r%2f">
+        <i class="fa fa-envelope"></i>
+      </a>
+    </li>
+  </ul>
+</div>
+
+
+  
+
+</div>
+
+
+      <div class="article-style" itemprop="articleBody">
+        
+
+<p>In <a href="http://chengjun.github.io/en/2012/03/sentiment-analysi-with-python/" target="_blank">an earlier post</a>, I tried to reproduce the sentiment analysis using machine learning in Python. Here, I will introduce how to do it in the framework of R.</p>
+
+<p>In the landscape of R, both sentiment analysis package and the general text mining package of machine learning have been well developed by <a href="https://github.com/timjurka" target="_blank">Timothy P. Jurka</a>. You can check out the<a href="https://github.com/timjurka/sentiment" target="_blank"> sentiment package</a> and the fantastic <a href="https://github.com/timjurka/RTextTools" target="_blank">RTextTools package</a>. Actually, Timothy also writes <a href="https://github.com/timjurka/maxent" target="_blank">an maxent package</a> for low-memory multinomial logistic regression (also known as maximum entropy).</p>
+
+<p><img src="https://www.gravatar.com/avatar/92b11d2b562de1d82bf134c80b4ee925?s=128&amp;d=identicon&amp;r=PG" alt="" /></p>
+
+<p><p style="text-align:center"> Timothy P. Jurka </p></p>
+
+<p>However, the naive bayes method is not included into RTextTools. Maybe the reason is it&rsquo;s too easy to make it in R, since the e1071 package did a good job. e1071 seems to be a course of the Department of Statistics (e1071), TU Wien. Its primary developer is <a href="http://www.technikum-wien.at/fh/institute/wirtschaftsinformatik/team/meyer/" target="_blank">David Meyer</a>.</p>
+
+<p><img src="http://ih1.redbubble.net/image.9785413.8464/fig,royal_blue,mens,ffffff.jpg" alt="" /></p>
+
+<p>Text analysis in R has been well recognized (see <a href="http://cran.r-project.org/web/views/NaturalLanguageProcessing.html" target="_blank">the R views on natural language processing</a>). Part of the success belongs to the <a href="http://cran.r-project.org/web/packages/tm/index.html" target="_blank">tm package</a>: A framework for text mining applications within R. It did a good job for text cleaning (stemming, delete the stopwords, etc) and transforming texts to document-term matrix (dtm). There is <a href="http://www.jstatsoft.org/v25/i05/paper" target="_blank">one paper</a> about it. As you know the most important part of text analysis is to get the feature vectors for each document. The word feature is the most important one. Of course, you can also extend the <strong>unigram</strong> word features to <strong>bigram</strong> and <strong>trigram</strong>, and so on to <strong>n-grams</strong>. However, here for our simple case, we stick to the unigram word features.</p>
+
+<p>Note, it&rsquo;s easy to use ngrams in R. In the past, the package of Rweka supplies functions to do it (<a href="http://stackoverflow.com/questions/8161167/what-algorithm-i-need-to-find-n-grams" target="_blank">check this example</a>). Now, you can set the <code>ngramLength</code> in the function of create_matrix using RTextTools.</p>
+
+<p>The first step is to read data:</p>
+
+<pre><code>###########################################
+&quot;Sentiment analysis with machine learning&quot;
+##########################################
+library(RTextTools)
+library(e1071)
+
+pos_tweets =  rbind(
+  c('I love this car', 'positive'),
+  c('This view is amazing', 'positive'),
+  c('I feel great this morning', 'positive'),
+  c('I am so excited about the concert', 'positive'),
+  c('He is my best friend', 'positive')
+)
+
+
+neg_tweets = rbind(
+  c('I do not like this car', 'negative'),
+  c('This view is horrible', 'negative'),
+  c('I feel tired this morning', 'negative'),
+  c('I am not looking forward to the concert', 'negative'),
+  c('He is my enemy', 'negative')
+)
+
+
+test_tweets = rbind(
+  c('feel happy this morning', 'positive'),
+  c('larry friend', 'positive'),
+  c('not like that man', 'negative'),
+  c('house not great', 'negative'),
+  c('your song annoying', 'negative')
+)
+
+tweets = rbind(pos_tweets, neg_tweets, test_tweets)
+</code></pre>
+
+<p>Then we can build the document-term matrix:</p>
+
+<pre><code># build dtm
+matrix= create_matrix(tweets[,1], language=&quot;english&quot;,
+                      removeStopwords=FALSE, removeNumbers=TRUE,  # we can also removeSparseTerms
+                      stemWords=FALSE)
+</code></pre>
+
+<p>Now, we can train the naive Bayes model with the training set. Note that, e1071 asks the response variable to be numeric or factor. Thus, we convert characters to factors here. This is a little trick.</p>
+
+<pre><code># train the model
+mat = as.matrix(matrix)
+classifier = naiveBayes(mat[1:10,], as.factor(tweets[1:10,2]) )
+</code></pre>
+
+<p>Now we can step further to test the accuracy.</p>
+
+<pre><code># test the validity
+predicted = predict(classifier, mat[11:15,]); predicted
+table(tweets[11:15, 2], predicted)
+recall_accuracy(tweets[11:15, 2], predicted)
+&gt; 0.8
+</code></pre>
+
+<p>Apparently, the result is the same with Python (compare it with the results in <a href="http://chengjun.github.io/en/2012/03/sentiment-analysi-with-python/" target="_blank">an earlier post</a>).</p>
+
+<p>How about the other machine learning methods? As I mentioned, we can do it using RTextTools. Let&rsquo;s rock!</p>
+
+<p>First, to specify our data:</p>
+
+<pre><code># build the data to specify response variable, training set, testing set.
+container = create_container(matrix, as.numeric(as.factor(tweets[,2])),
+                             trainSize=1:10, testSize=11:15,virgin=FALSE)
+</code></pre>
+
+<p>Second, to train the model with multiple machine learning algorithms:</p>
+
+<pre><code>models = train_models(container, algorithms=c(&quot;MAXENT&quot; , &quot;SVM&quot;, &quot;RF&quot;, &quot;BAGGING&quot;, &quot;TREE&quot;))
+</code></pre>
+
+<p>Now, we can classify the testing set using the trained models.</p>
+
+<pre><code>results = classify_models(container, models)
+</code></pre>
+
+<p>How about the accuracy?</p>
+
+<pre><code># accuracy table
+table(as.numeric(as.factor(tweets[11:15, 2])), results[,&quot;FORESTS_LABEL&quot;])
+table(as.numeric(as.factor(tweets[11:15, 2])), results[,&quot;MAXENTROPY_LABEL&quot;])
+
+# recall accuracy
+recall_accuracy(as.numeric(as.factor(tweets[11:15, 2])), results[,&quot;FORESTS_LABEL&quot;])
+recall_accuracy(as.numeric(as.factor(tweets[11:15, 2])), results[,&quot;MAXENTROPY_LABEL&quot;])
+recall_accuracy(as.numeric(as.factor(tweets[11:15, 2])), results[,&quot;TREE_LABEL&quot;])
+recall_accuracy(as.numeric(as.factor(tweets[11:15, 2])), results[,&quot;BAGGING_LABEL&quot;])
+recall_accuracy(as.numeric(as.factor(tweets[11:15, 2])), results[,&quot;SVM_LABEL&quot;])
+</code></pre>
+
+<p>To summarize the results (especially the validity) in a formal way:</p>
+
+<pre><code># model summary
+analytics = create_analytics(container, results)
+summary(analytics)
+head(analytics@document_summary)
+analytics@ensemble_summary
+</code></pre>
+
+<p>To cross validate the results:</p>
+
+<pre><code>N=4
+set.seed(2014)
+cross_validate(container,N,&quot;MAXENT&quot;)
+cross_validate(container,N,&quot;TREE&quot;)
+cross_validate(container,N,&quot;SVM&quot;)
+cross_validate(container,N,&quot;RF&quot;)
+</code></pre>
+
+<p>The results can be found on <a href="http://rpubs.com/chengjun/sentiment" target="_blank">my Rpub page</a>. It seems that maxent reached the same recall accuracy as naive Bayes. The other methods even did a worse job. This is understandable, since we have only a very small data set. To enlarge the training set, we can get a much better results for sentiment analysis of tweets using more sophisticated methods. I will show the results with anther example.</p>
+
+<h3 id="sentiment-analysis-for-tweets">Sentiment analysis for tweets</h3>
+
+<p>The data comes from <a href="https://github.com/victorneo/Twitter-Sentimental-Analysis" target="_blank">https://github.com/victorneo/Twitter-Sentimental-Analysis</a>. victorneo shows how to do sentiment analysis for tweets using Python. Here, I will demonstrate how to do it in R.</p>
+
+<p><img src="https://www.volacci.com/files/imce-uploads/twitter-SEO.jpg" alt="" /></p>
+
+<p>Read data:</p>
+
+<pre><code>###################
+&quot;load data&quot;
+###################
+setwd(&quot;D:/Twitter-Sentimental-Analysis-master/&quot;)
+happy = readLines(&quot;./happy.txt&quot;)
+sad = readLines(&quot;./sad.txt&quot;)
+happy_test = readLines(&quot;./happy_test.txt&quot;)
+sad_test = readLines(&quot;./sad_test.txt&quot;)
+
+tweet = c(happy, sad)
+tweet_test= c(happy_test, sad_test)
+tweet_all = c(tweet, tweet_test)
+sentiment = c(rep(&quot;happy&quot;, length(happy) ),
+              rep(&quot;sad&quot;, length(sad)))
+sentiment_test = c(rep(&quot;happy&quot;, length(happy_test) ),
+                   rep(&quot;sad&quot;, length(sad_test)))
+sentiment_all = as.factor(c(sentiment, sentiment_test))
+
+
+library(RTextTools)
+</code></pre>
+
+<p>First, try naive Bayes.</p>
+
+<pre><code># naive bayes
+mat= create_matrix(tweet_all, language=&quot;english&quot;,
+                   removeStopwords=FALSE, removeNumbers=TRUE,
+                        stemWords=FALSE, tm::weightTfIdf)
+
+mat = as.matrix(mat)
+
+classifier = naiveBayes(mat[1:160,], as.factor(sentiment_all[1:160]))
+predicted = predict(classifier, mat[161:180,]); predicted
+
+table(sentiment_test, predicted)
+recall_accuracy(sentiment_test, predicted)
+&gt; 0.65
+</code></pre>
+
+<p>Then, try the other methods:</p>
+
+<pre><code># the other methods
+mat= create_matrix(tweet_all, language=&quot;english&quot;,
+                   removeStopwords=FALSE, removeNumbers=TRUE,
+                   stemWords=FALSE, tm::weightTfIdf)
+
+container = create_container(mat, as.numeric(sentiment_all),
+                              trainSize=1:160, testSize=161:180,virgin=FALSE) #可以设置removeSparseTerms
+
+models = train_models(container, algorithms=c(&quot;MAXENT&quot;,
+                                              &quot;SVM&quot;,
+                                               #&quot;GLMNET&quot;, &quot;BOOSTING&quot;,
+                                               &quot;SLDA&quot;,&quot;BAGGING&quot;,
+                                              &quot;RF&quot;, # &quot;NNET&quot;,
+                                              &quot;TREE&quot;
+                                               ))
+
+# test the model
+results = classify_models(container, models)
+
+table(as.numeric(as.numeric(sentiment_all[161:180])), results[,&quot;FORESTS_LABEL&quot;])
+&gt;
+      1  2
+   1 10  0
+   2  1  9
+
+recall_accuracy(as.numeric(as.numeric(sentiment_all[161:180])), results[,&quot;FORESTS_LABEL&quot;])
+&gt; 0.95
+</code></pre>
+
+<p>Here we also want to get the formal test results, including:</p>
+
+<ul>
+<li><p><strong>analytics@algorithm_summary</strong>: SUMMARY OF PRECISION, RECALL, F-SCORES, AND ACCURACY SORTED BY TOPIC CODE FOR EACH ALGORITHM</p></li>
+
+<li><p><strong>analytics@label_summary</strong>: SUMMARY OF LABEL (e.g. TOPIC) ACCURACY</p></li>
+
+<li><p><strong>analytics@document_summary</strong>: RAW SUMMARY OF ALL DATA AND SCORING</p></li>
+
+<li><p><strong>analytics@ensemble_summary</strong>: SUMMARY OF ENSEMBLE PRECISION/COVERAGE. USES THE n VARIABLE PASSED INTO create_analytics()</p></li>
+</ul>
+
+<p>Now let&rsquo;s see the results:</p>
+
+<pre><code># formal tests
+analytics = create_analytics(container, results)
+summary(analytics)
+
+head(analytics@algorithm_summary)
+head(analytics@label_summary)
+head(analytics@document_summary)
+analytics@ensemble_summary # Ensemble Agreement
+
+
+# Cross Validation
+N=3
+cross_SVM = cross_validate(container,N,&quot;SVM&quot;)
+cross_GLMNET = cross_validate(container,N,&quot;GLMNET&quot;)
+cross_MAXENT = cross_validate(container,N,&quot;MAXENT&quot;)
+</code></pre>
+
+<p><img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRug6OmP3_ewf_UUj1nng90QiZbjcMeZoXNnU-RBXHRaCsmr8yREw" alt="" /></p>
+
+<p>You can find that compared with naive Bayes, the other algorithms did a much better job to achieve a recall accuracy higher than 0.95. Check <a href="http://rpubs.com/chengjun/tweets_sentiment_analysis" target="_blank">the results on Rpub</a>.</p>
+
+      </div>
+
+      
+
+    </div>
+  </div>
+
+</article>
+
+
+
+
+
+
+<div class="article-container">
+  
+
+</div>
+
+<footer class="site-footer">
+  <div class="container">
+    <p class="powered-by">
+
+      &copy; 2016 Cheng-Jun Wang &middot; 
+
+      Powered by the
+      <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+      <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+      <span class="pull-right" aria-hidden="true">
+        <a href="#" id="back_to_top">
+          <span class="button_icon">
+            <i class="fa fa-chevron-up fa-2x"></i>
+          </span>
+        </a>
+      </span>
+
+    </p>
+  </div>
+</footer>
+
+
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close btn-large" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Cite</h4>
+      </div>
+      <div>
+        <pre><code class="modal-body tex"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-primary btn-outline js-copy-cite" href="#" target="_blank">
+          <i class="fa fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-primary btn-outline js-download-cite" href="#" target="_blank">
+          <i class="fa fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+
+    
+    
+
+    
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" integrity="sha512-3P8rXCuGJdNZOnUx/03c1jOTnMn3rP63nBip5gOP2qmUh5YAdVAvFZ1E+QLZZbC1rtMrQb+mah3AfYW11RUrWA==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.3/imagesloaded.pkgd.min.js" integrity="sha512-umsR78NN0D23AzgoZ11K7raBD+R6hqKojyBZs1w8WvYlsI+QuKRGBx3LFCwhatzBunCjDuJpDHwxD13sLMbpRA==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha512-iztkobsvnjKfAtTNdHkGVjAYTrrtlC7mGp/54c40wowO7LhURYl3gVzzcEqGl/qKXQltJ2HwMrdLcNUdo+N/RQ==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.4/isotope.pkgd.min.js" integrity="sha512-VDBOIlDbuC4VWxGJNmuFRQ0Li0SKkDpmGyuhAG5LTDLd/dJ/S0WMVxriR2Y+CyPL5gzjpN4f/6iqWVBJlht0tQ==" crossorigin="anonymous"></script>
+    
+    
+    <script src="/js/hugo-academic.js"></script>
+    
+
+    
+    
+      
+      
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" integrity="sha256-/BfiIkHlHoVihZdc6TFuj7MmJ0TWcWsMXkeDFwhi0zw=" crossorigin="anonymous"></script>
+      
+
+      
+
+      
+
+      <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+
+  </body>
+</html>
+

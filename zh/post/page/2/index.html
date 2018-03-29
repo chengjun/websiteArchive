@@ -13,6 +13,7 @@
   
   
   
+  
     
   
   
@@ -21,25 +22,50 @@
     <link rel="stylesheet" href="/css/highlight.min.css">
     
   
-  <link rel="stylesheet" href="/css/fontsgoogle.css">
-  <link rel="stylesheet" href="/css/bootstrap.min.css">
-  <link rel="stylesheet" href="/css/font-awesome.min.css">
-  <link rel="stylesheet" href="/css/academicons.min.css">
-
-  <link rel="stylesheet" href="/css/hugo-academic.css">
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha512-6MXa8B6uaO18Hid6blRMetEIoPqHf7Ux1tnyIQdpt9qI5OACx7C+O3IVTr98vwGnlcg0LOLa02i9Y1HpVhlfiw==" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.1/css/academicons.min.css" integrity="sha512-NThgw3XKQ1absAahW6to7Ey42uycrVvfNfyjqcFNgCmOCQ5AR4AO0SiXrN+8ZtYeappp56lk1WtvjVmEa+VR6A==" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous">
+  
   
 
-  <link rel="alternate" href="https://chengjunwang.com/zh/post/index.xml" type="application/rss+xml" title="Academic">
-  <link rel="feed" href="https://chengjunwang.com/zh/post/index.xml" type="application/rss+xml" title="Academic">
+
+  
+
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato:400,700%7cMerriweather%7cRoboto&#43;Mono">
+  
+  <link rel="stylesheet" href="/styles.css">
+  
+
+  
+
+  
+  <link rel="alternate" href="https://chengjunwang.com/zh/post/index.xml" type="application/rss+xml" title="Cheng-Jun Wang">
+  <link rel="feed" href="https://chengjunwang.com/zh/post/index.xml" type="application/rss+xml" title="Cheng-Jun Wang">
+  
 
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/apple-touch-icon.png">
 
   <link rel="canonical" href="https://chengjunwang.com/zh/post/">
 
+  <meta property="twitter:card" content="summary_large_image">
+  
+  <meta property="twitter:site" content="@ChengJunWang">
+  <meta property="twitter:creator" content="@ChengJunWang">
+  
+  <meta property="og:site_name" content="Cheng-Jun Wang">
+  <meta property="og:url" content="https://chengjunwang.com/zh/post/">
+  <meta property="og:title" content="Posts | Cheng-Jun Wang">
+  <meta property="og:description" content="Associate Professor">
+  <meta property="og:locale" content="zh-cn">
+  
+  <meta property="og:updated_time" content="2014-08-14T00:00:00&#43;00:00">
   
 
-  <title>Posts | Academic</title>
+  
+
+  <title>Posts | Cheng-Jun Wang</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#navbar-main" data-offset="71">
@@ -49,6 +75,7 @@
 
     
     <div class="navbar-header">
+      
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
               data-target=".navbar-collapse" aria-expanded="false">
         <span class="sr-only">切换导航</span>
@@ -56,7 +83,8 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="/">Academic</a>
+      
+      <a class="navbar-brand" href="/zh/">Cheng-Jun Wang</a>
     </div>
 
     
@@ -69,7 +97,7 @@
         
 
         <li class="nav-item">
-          <a href="/zh/#about.zh">
+          <a href="/zh/#about">
             
             <span>关于</span>
           </a>
@@ -81,7 +109,7 @@
         
 
         <li class="nav-item">
-          <a href="/zh/#posts.zh">
+          <a href="/zh/#posts">
             
             <span>新闻</span>
           </a>
@@ -93,7 +121,7 @@
         
 
         <li class="nav-item">
-          <a href="/zh/#teaching.zh">
+          <a href="/zh/#teaching">
             
             <span>教学</span>
           </a>
@@ -105,7 +133,7 @@
         
 
         <li class="nav-item">
-          <a href="/zh/#projects.zh">
+          <a href="/zh/#projects">
             
             <span>项目</span>
           </a>
@@ -117,7 +145,7 @@
         
 
         <li class="nav-item">
-          <a href="/zh/#contact.zh">
+          <a href="/zh/#contact">
             
             <span>联系</span>
           </a>
@@ -127,21 +155,28 @@
         
 
         
-
-        <li class="nav-item">
-          <a href="/en">
-            
-            <span>English</span>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true">
+            <i class="fa fa-globe" aria-hidden="true"></i>
+            <span>中文 (简体)</span>
           </a>
+          <ul class="dropdown-menu">
+            
+            <li class="nav-item">
+              <a href="/post/">
+                <span>English</span>
+              </a>
+            </li>
+            
+          </ul>
         </li>
-
-        
         
       </ul>
 
     </div>
   </div>
 </nav>
+
 
 
 
@@ -154,493 +189,995 @@
 
   
   
-  <div>
     
-    <h2><a href="https://chengjunwang.com/zh/post/cn/2015-02-22-fresh-python/">表达、检索、练习——写给Python的初学者</a></h2>
     
+
+<div class="article-list-item" itemscope itemprop="blogPost">
+  
+  
+  <h3 class="article-title" itemprop="name">
+    <a href="https://chengjunwang.com/zh/post/cn/cn_archive/2014-08-14-networkx-intro/" itemprop="url">NetworkX初步：创建网络、提取属性和绘图</a>
+  </h3>
+  
 
 <div class="article-metadata">
 
   <span class="article-date">
-    <time datetime="2015-02-22 00:00:00 &#43;0000 UTC" itemprop="datePublished">
-      Sun, Feb 22, 2015
-    </time>
-  </span>
-
-  
-  
-  
-  <span class="article-categories">
-    <i class="fa fa-folder"></i>
     
-    <a href="/zh/categories/python">python</a
-    >
-    
-  </span>
-  
-  
-
-  
-  
-  
-  <span class="article-tags">
-    <i class="fa fa-tags"></i>
-    
-    <a href="/zh/tags/%e5%85%a5%e9%97%a8">入门</a
-    >
-    
-  </span>
-  
-  
-
-  
-
-</div>
-
-    
-  </div>
-  
-  <div>
-    
-    <h2><a href="https://chengjunwang.com/zh/post/cn/2015-01-11-shinyapp/">再次尝试shinyApp</a></h2>
-    
-
-<div class="article-metadata">
-
-  <span class="article-date">
-    <time datetime="2015-01-11 00:00:00 &#43;0000 UTC" itemprop="datePublished">
-      Sun, Jan 11, 2015
-    </time>
-  </span>
-
-  
-  
-  
-  <span class="article-categories">
-    <i class="fa fa-folder"></i>
-    
-    <a href="/zh/categories/%e6%95%99%e5%ad%a6">教学</a
-    >
-    
-  </span>
-  
-  
-
-  
-  
-  
-  <span class="article-tags">
-    <i class="fa fa-tags"></i>
-    
-    <a href="/zh/tags/%e5%8f%af%e8%a7%86%e5%8c%96">可视化</a
-    >
-    
-  </span>
-  
-  
-
-  
-
-</div>
-
-    
-  </div>
-  
-  <div>
-    
-    <h2><a href="https://chengjunwang.com/zh/post/cn/2015-01-10-myecharts/">Echarts使用简介</a></h2>
-    
-
-<div class="article-metadata">
-
-  <span class="article-date">
-    <time datetime="2015-01-10 00:00:00 &#43;0000 UTC" itemprop="datePublished">
-      Sat, Jan 10, 2015
-    </time>
-  </span>
-
-  
-  
-  
-  <span class="article-categories">
-    <i class="fa fa-folder"></i>
-    
-    <a href="/zh/categories/%e6%95%99%e5%ad%a6">教学</a
-    >
-    
-  </span>
-  
-  
-
-  
-  
-  
-  <span class="article-tags">
-    <i class="fa fa-tags"></i>
-    
-    <a href="/zh/tags/%e5%8f%af%e8%a7%86%e5%8c%96">可视化</a
-    >
-    
-  </span>
-  
-  
-
-  
-
-</div>
-
-    
-  </div>
-  
-  <div>
-    
-    <h2><a href="https://chengjunwang.com/zh/post/cn/2014-08-31-fast-split-data-with-python/">使用Python快速分割数据的方法</a></h2>
-    
-
-<div class="article-metadata">
-
-  <span class="article-date">
-    <time datetime="2014-08-31 00:00:00 &#43;0000 UTC" itemprop="datePublished">
-      Sun, Aug 31, 2014
-    </time>
-  </span>
-
-  
-  
-  
-  <span class="article-categories">
-    <i class="fa fa-folder"></i>
-    
-    <a href="/zh/categories/python">Python</a
-    >
-    
-  </span>
-  
-  
-
-  
-  
-  
-  <span class="article-tags">
-    <i class="fa fa-tags"></i>
-    
-    <a href="/zh/tags/defaultdict">defaultdict</a
-    >, 
-    
-    <a href="/zh/tags/split">split</a
-    >
-    
-  </span>
-  
-  
-
-  
-
-</div>
-
-    
-  </div>
-  
-  <div>
-    
-    <h2><a href="https://chengjunwang.com/zh/post/cn/2014-08-27-d3network/">使用d3network做网络可视化</a></h2>
-    
-
-<div class="article-metadata">
-
-  <span class="article-date">
-    <time datetime="2014-08-27 00:00:00 &#43;0000 UTC" itemprop="datePublished">
-      Wed, Aug 27, 2014
-    </time>
-  </span>
-
-  
-  
-  
-  <span class="article-categories">
-    <i class="fa fa-folder"></i>
-    
-    <a href="/zh/categories/%e5%8f%af%e8%a7%86%e5%8c%96">可视化</a
-    >
-    
-  </span>
-  
-  
-
-  
-  
-  
-  <span class="article-tags">
-    <i class="fa fa-tags"></i>
-    
-    <a href="/zh/tags/d3">d3</a
-    >, 
-    
-    <a href="/zh/tags/r">R</a
-    >
-    
-  </span>
-  
-  
-
-  
-
-</div>
-
-    
-  </div>
-  
-  <div>
-    
-    <h2><a href="https://chengjunwang.com/zh/post/cn/2014-08-14-networkx-intro/">NetworkX初步：创建网络、提取属性和绘图</a></h2>
-    
-
-<div class="article-metadata">
-
-  <span class="article-date">
     <time datetime="2014-08-14 00:00:00 &#43;0000 UTC" itemprop="datePublished">
-      Thu, Aug 14, 2014
+      2014-08-14
     </time>
   </span>
 
   
-  
-  
-  <span class="article-categories">
-    <i class="fa fa-folder"></i>
-    
-    <a href="/zh/categories/network">network</a
-    >
-    
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    1 分钟阅读时间
   </span>
-  
   
 
   
   
-  
-  <span class="article-tags">
-    <i class="fa fa-tags"></i>
-    
-    <a href="/zh/tags/networkx">networkx</a
-    >, 
-    
-    <a href="/zh/tags/python">python</a
-    >
-    
-  </span>
-  
+
   
 
   
 
 </div>
 
+  <div class="article-style" itemprop="articleBody">
+    
+    <p></p>
     
   </div>
+  <p class="read-more">
+    <a href="https://chengjunwang.com/zh/post/cn/cn_archive/2014-08-14-networkx-intro/" class="btn btn-primary btn-outline">
+      继续阅读
+    </a>
+  </p>
+</div>
+
   
-  <div>
     
-    <h2><a href="https://chengjunwang.com/zh/post/cn/2014-07-21-chinese-university-friendship-network/">中国高校间的友谊网络：大学排名、地理位置和演化规律</a></h2>
     
+
+<div class="article-list-item" itemscope itemprop="blogPost">
+  
+  
+  <h3 class="article-title" itemprop="name">
+    <a href="https://chengjunwang.com/zh/post/cn/cn_archive/2014-07-21-chinese-university-friendship-network/" itemprop="url">中国高校间的友谊网络：大学排名、地理位置和演化规律</a>
+  </h3>
+  
 
 <div class="article-metadata">
 
   <span class="article-date">
+    
     <time datetime="2014-07-21 00:00:00 &#43;0000 UTC" itemprop="datePublished">
-      Mon, Jul 21, 2014
+      2014-07-21
     </time>
   </span>
 
   
-  
-  
-  <span class="article-categories">
-    <i class="fa fa-folder"></i>
-    
-    <a href="/zh/categories/%e5%8f%af%e8%a7%86%e5%8c%96">可视化</a
-    >
-    
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    1 分钟阅读时间
   </span>
-  
   
 
   
   
-  
-  <span class="article-tags">
-    <i class="fa fa-tags"></i>
-    
-    <a href="/zh/tags/%e7%a4%be%e4%bc%9a%e7%bd%91%e7%bb%9c">社会网络</a
-    >
-    
-  </span>
-  
+
   
 
   
 
 </div>
 
+  <div class="article-style" itemprop="articleBody">
+    
+    <p></p>
     
   </div>
+  <p class="read-more">
+    <a href="https://chengjunwang.com/zh/post/cn/cn_archive/2014-07-21-chinese-university-friendship-network/" class="btn btn-primary btn-outline">
+      继续阅读
+    </a>
+  </p>
+</div>
+
   
-  <div>
     
-    <h2><a href="https://chengjunwang.com/zh/post/cn/2014-05-05-network-dispersion/">网络残缺度：共同好友间可否两步到达？</a></h2>
     
+
+<div class="article-list-item" itemscope itemprop="blogPost">
+  
+  
+  <h3 class="article-title" itemprop="name">
+    <a href="https://chengjunwang.com/zh/post/cn/cn_archive/2014-05-05-network-dispersion/" itemprop="url">网络残缺度：共同好友间可否两步到达？</a>
+  </h3>
+  
 
 <div class="article-metadata">
 
   <span class="article-date">
+    
     <time datetime="2014-05-05 00:00:00 &#43;0000 UTC" itemprop="datePublished">
-      Mon, May 5, 2014
+      2014-05-05
     </time>
   </span>
 
   
-  
-  
-  <span class="article-categories">
-    <i class="fa fa-folder"></i>
-    
-    <a href="/zh/categories/%e7%a4%be%e4%bc%9a%e7%bd%91%e7%bb%9c">社会网络</a
-    >
-    
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    1 分钟阅读时间
   </span>
-  
   
 
   
   
-  
-  <span class="article-tags">
-    <i class="fa fa-tags"></i>
-    
-    <a href="/zh/tags/%e5%85%b3%e7%b3%bb">关系</a
-    >, 
-    
-    <a href="/zh/tags/%e5%b5%8c%e5%85%a5%e5%ba%a6">嵌入度</a
-    >, 
-    
-    <a href="/zh/tags/%e6%ae%8b%e7%bc%ba%e5%ba%a6">残缺度</a
-    >
-    
-  </span>
-  
+
   
 
   
 
 </div>
 
+  <div class="article-style" itemprop="articleBody">
+    
+    <p></p>
     
   </div>
+  <p class="read-more">
+    <a href="https://chengjunwang.com/zh/post/cn/cn_archive/2014-05-05-network-dispersion/" class="btn btn-primary btn-outline">
+      继续阅读
+    </a>
+  </p>
+</div>
+
   
-  <div>
     
-    <h2><a href="https://chengjunwang.com/zh/post/cn/2014-03-15-d3-map/">空间分析初步：使用D3可视化</a></h2>
     
+
+<div class="article-list-item" itemscope itemprop="blogPost">
+  
+  
+  <h3 class="article-title" itemprop="name">
+    <a href="https://chengjunwang.com/zh/post/cn/cn_archive/2014-03-15-d3-map/" itemprop="url">空间分析初步：使用D3可视化</a>
+  </h3>
+  
 
 <div class="article-metadata">
 
   <span class="article-date">
+    
     <time datetime="2014-03-15 00:00:00 &#43;0000 UTC" itemprop="datePublished">
-      Sat, Mar 15, 2014
+      2014-03-15
     </time>
   </span>
 
   
-  
-  
-  <span class="article-categories">
-    <i class="fa fa-folder"></i>
-    
-    <a href="/zh/categories/%e7%a9%ba%e9%97%b4%e5%88%86%e6%9e%90">空间分析</a
-    >
-    
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    1 分钟阅读时间
   </span>
-  
   
 
   
   
-  
-  <span class="article-tags">
-    <i class="fa fa-tags"></i>
-    
-    <a href="/zh/tags/d3">D3</a
-    >, 
-    
-    <a href="/zh/tags/%e5%8f%af%e8%a7%86%e5%8c%96">可视化</a
-    >
-    
-  </span>
-  
+
   
 
   
 
 </div>
 
+  <div class="article-style" itemprop="articleBody">
+    
+    <p></p>
     
   </div>
+  <p class="read-more">
+    <a href="https://chengjunwang.com/zh/post/cn/cn_archive/2014-03-15-d3-map/" class="btn btn-primary btn-outline">
+      继续阅读
+    </a>
+  </p>
+</div>
+
   
-  <div>
     
-    <h2><a href="https://chengjunwang.com/zh/post/cn/2014-03-12-first-step-spatial-analysis-with-r/">空间分析初步：空间点类型分析</a></h2>
     
+
+<div class="article-list-item" itemscope itemprop="blogPost">
+  
+  
+  <h3 class="article-title" itemprop="name">
+    <a href="https://chengjunwang.com/zh/post/cn/cn_archive/2014-03-12-first-step-spatial-analysis-with-r/" itemprop="url">空间分析初步：空间点类型分析</a>
+  </h3>
+  
 
 <div class="article-metadata">
 
   <span class="article-date">
+    
     <time datetime="2014-03-12 00:00:00 &#43;0000 UTC" itemprop="datePublished">
-      Wed, Mar 12, 2014
+      2014-03-12
     </time>
   </span>
 
   
-  
-  
-  <span class="article-categories">
-    <i class="fa fa-folder"></i>
-    
-    <a href="/zh/categories/%e7%a9%ba%e9%97%b4%e5%88%86%e6%9e%90">空间分析</a
-    >
-    
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    4 分钟阅读时间
   </span>
-  
   
 
   
   
-  
-  <span class="article-tags">
-    <i class="fa fa-tags"></i>
-    
-    <a href="/zh/tags/r">R</a
-    >
-    
-  </span>
-  
+
   
 
   
 
 </div>
 
+  <div class="article-style" itemprop="articleBody">
+    
+    <p></p>
     
   </div>
+  <p class="read-more">
+    <a href="https://chengjunwang.com/zh/post/cn/cn_archive/2014-03-12-first-step-spatial-analysis-with-r/" class="btn btn-primary btn-outline">
+      继续阅读
+    </a>
+  </p>
+</div>
+
+  
+    
+    
+
+<div class="article-list-item" itemscope itemprop="blogPost">
+  
+  
+  <h3 class="article-title" itemprop="name">
+    <a href="https://chengjunwang.com/zh/post/migrate-from-jekyll/" itemprop="url">Migrate from Jekyll to Hugo</a>
+  </h3>
+  
+
+<div class="article-metadata">
+
+  <span class="article-date">
+    
+    <time datetime="2014-03-10 00:00:00 &#43;0800 CST" itemprop="datePublished">
+      2014-03-10
+    </time>
+  </span>
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    2 分钟阅读时间
+  </span>
+  
+
+  
+  
+
+  
+
+  
+
+</div>
+
+  <div class="article-style" itemprop="articleBody">
+    
+    <p>Learn how to migrate an existing website from Jekyll to Hugo.</p>
+    
+  </div>
+  <p class="read-more">
+    <a href="https://chengjunwang.com/zh/post/migrate-from-jekyll/" class="btn btn-primary btn-outline">
+      继续阅读
+    </a>
+  </p>
+</div>
+
+  
+    
+    
+
+<div class="article-list-item" itemscope itemprop="blogPost">
+  
+  
+  <h3 class="article-title" itemprop="name">
+    <a href="https://chengjunwang.com/zh/post/cn/cn_archive/2014-02-28-simulate-network-diffusion-with-r/" itemprop="url">使用R模拟网络扩散</a>
+  </h3>
+  
+
+<div class="article-metadata">
+
+  <span class="article-date">
+    
+    <time datetime="2014-02-28 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+      2014-02-28
+    </time>
+  </span>
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    3 分钟阅读时间
+  </span>
+  
+
+  
+  
+
+  
+
+  
+
+</div>
+
+  <div class="article-style" itemprop="articleBody">
+    
+    <p></p>
+    
+  </div>
+  <p class="read-more">
+    <a href="https://chengjunwang.com/zh/post/cn/cn_archive/2014-02-28-simulate-network-diffusion-with-r/" class="btn btn-primary btn-outline">
+      继续阅读
+    </a>
+  </p>
+</div>
+
+  
+    
+    
+
+<div class="article-list-item" itemscope itemprop="blogPost">
+  
+  
+  <h3 class="article-title" itemprop="name">
+    <a href="https://chengjunwang.com/zh/post/cn/cn_archive/2013-09-27-topic-modeling-of-song-peom/" itemprop="url">东风夜放花千树：对宋词进行主题分析初探</a>
+  </h3>
+  
+
+<div class="article-metadata">
+
+  <span class="article-date">
+    
+    <time datetime="2013-09-27 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+      2013-09-27
+    </time>
+  </span>
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    4 分钟阅读时间
+  </span>
+  
+
+  
+  
+
+  
+
+  
+
+</div>
+
+  <div class="article-style" itemprop="articleBody">
+    
+    <p></p>
+    
+  </div>
+  <p class="read-more">
+    <a href="https://chengjunwang.com/zh/post/cn/cn_archive/2013-09-27-topic-modeling-of-song-peom/" class="btn btn-primary btn-outline">
+      继续阅读
+    </a>
+  </p>
+</div>
+
+  
+    
+    
+
+<div class="article-list-item" itemscope itemprop="blogPost">
+  
+  
+  <h3 class="article-title" itemprop="name">
+    <a href="https://chengjunwang.com/zh/post/cn/cn_archive/2013-09-08-using-cluster-analysis-to-classify-topics-generated-by-topic-modeling/" itemprop="url">使用聚类分析为主题模型划分主题类型</a>
+  </h3>
+  
+
+<div class="article-metadata">
+
+  <span class="article-date">
+    
+    <time datetime="2013-09-08 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+      2013-09-08
+    </time>
+  </span>
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    2 分钟阅读时间
+  </span>
+  
+
+  
+  
+
+  
+
+  
+
+</div>
+
+  <div class="article-style" itemprop="articleBody">
+    
+    <p></p>
+    
+  </div>
+  <p class="read-more">
+    <a href="https://chengjunwang.com/zh/post/cn/cn_archive/2013-09-08-using-cluster-analysis-to-classify-topics-generated-by-topic-modeling/" class="btn btn-primary btn-outline">
+      继续阅读
+    </a>
+  </p>
+</div>
+
+  
+    
+    
+
+<div class="article-list-item" itemscope itemprop="blogPost">
+  
+  
+  <h3 class="article-title" itemprop="name">
+    <a href="https://chengjunwang.com/zh/post/cn/cn_archive/2013-09-07-part-of-speech-analysis-with-opennlp/" itemprop="url">文本挖掘基础：使用openNLP进行词性标注</a>
+  </h3>
+  
+
+<div class="article-metadata">
+
+  <span class="article-date">
+    
+    <time datetime="2013-09-07 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+      2013-09-07
+    </time>
+  </span>
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    2 分钟阅读时间
+  </span>
+  
+
+  
+  
+
+  
+
+  
+
+</div>
+
+  <div class="article-style" itemprop="articleBody">
+    
+    <p></p>
+    
+  </div>
+  <p class="read-more">
+    <a href="https://chengjunwang.com/zh/post/cn/cn_archive/2013-09-07-part-of-speech-analysis-with-opennlp/" class="btn btn-primary btn-outline">
+      继续阅读
+    </a>
+  </p>
+</div>
+
+  
+    
+    
+
+<div class="article-list-item" itemscope itemprop="blogPost">
+  
+  
+  <h3 class="article-title" itemprop="name">
+    <a href="https://chengjunwang.com/zh/post/cn/cn_archive/2013-08-31-topic-modeling-with-r/" itemprop="url">使用R做主题模型：词语筛选和主题数量确定</a>
+  </h3>
+  
+
+<div class="article-metadata">
+
+  <span class="article-date">
+    
+    <time datetime="2013-08-31 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+      2013-08-31
+    </time>
+  </span>
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    3 分钟阅读时间
+  </span>
+  
+
+  
+  
+
+  
+
+  
+
+</div>
+
+  <div class="article-style" itemprop="articleBody">
+    
+    <p></p>
+    
+  </div>
+  <p class="read-more">
+    <a href="https://chengjunwang.com/zh/post/cn/cn_archive/2013-08-31-topic-modeling-with-r/" class="btn btn-primary btn-outline">
+      继续阅读
+    </a>
+  </p>
+</div>
+
+  
+    
+    
+
+<div class="article-list-item" itemscope itemprop="blogPost">
+  
+  
+  <h3 class="article-title" itemprop="name">
+    <a href="https://chengjunwang.com/zh/post/cn/cn_archive/2013-08-29-encoding-in-r-for-text-mining/" itemprop="url">使用R做主题模型：举一个处理Encoding问题的例子</a>
+  </h3>
+  
+
+<div class="article-metadata">
+
+  <span class="article-date">
+    
+    <time datetime="2013-08-29 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+      2013-08-29
+    </time>
+  </span>
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    3 分钟阅读时间
+  </span>
+  
+
+  
+  
+
+  
+
+  
+
+</div>
+
+  <div class="article-style" itemprop="articleBody">
+    
+    <p></p>
+    
+  </div>
+  <p class="read-more">
+    <a href="https://chengjunwang.com/zh/post/cn/cn_archive/2013-08-29-encoding-in-r-for-text-mining/" class="btn btn-primary btn-outline">
+      继续阅读
+    </a>
+  </p>
+</div>
+
+  
+    
+    
+
+<div class="article-list-item" itemscope itemprop="blogPost">
+  
+  
+  <h3 class="article-title" itemprop="name">
+    <a href="https://chengjunwang.com/zh/post/cn/cn_archive/2013-08-09-sna-book-chapter/" itemprop="url">探寻社交网络中的关系: 统计网络模型初探</a>
+  </h3>
+  
+
+<div class="article-metadata">
+
+  <span class="article-date">
+    
+    <time datetime="2013-08-09 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+      2013-08-09
+    </time>
+  </span>
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    10 分钟阅读时间
+  </span>
+  
+
+  
+  
+
+  
+
+  
+
+</div>
+
+  <div class="article-style" itemprop="articleBody">
+    
+    <p></p>
+    
+  </div>
+  <p class="read-more">
+    <a href="https://chengjunwang.com/zh/post/cn/cn_archive/2013-08-09-sna-book-chapter/" class="btn btn-primary btn-outline">
+      继续阅读
+    </a>
+  </p>
+</div>
+
+  
+    
+    
+
+<div class="article-list-item" itemscope itemprop="blogPost">
+  
+  
+  <h3 class="article-title" itemprop="name">
+    <a href="https://chengjunwang.com/zh/post/cn/cn_archive/2013-08-04-qap-test-of-network-analysis/" itemprop="url">QAP检验：计算两个网络的关联</a>
+  </h3>
+  
+
+<div class="article-metadata">
+
+  <span class="article-date">
+    
+    <time datetime="2013-08-04 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+      2013-08-04
+    </time>
+  </span>
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    1 分钟阅读时间
+  </span>
+  
+
+  
+  
+
+  
+
+  
+
+</div>
+
+  <div class="article-style" itemprop="articleBody">
+    
+    <p></p>
+    
+  </div>
+  <p class="read-more">
+    <a href="https://chengjunwang.com/zh/post/cn/cn_archive/2013-08-04-qap-test-of-network-analysis/" class="btn btn-primary btn-outline">
+      继续阅读
+    </a>
+  </p>
+</div>
+
+  
+    
+    
+
+<div class="article-list-item" itemscope itemprop="blogPost">
+  
+  
+  <h3 class="article-title" itemprop="name">
+    <a href="https://chengjunwang.com/zh/post/cn/cn_archive/2012-12-06-intenet-ecology/" itemprop="url">互联网的法则：网络生态学的起点</a>
+  </h3>
+  
+
+<div class="article-metadata">
+
+  <span class="article-date">
+    
+    <time datetime="2012-12-16 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+      2012-12-16
+    </time>
+  </span>
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    1 分钟阅读时间
+  </span>
+  
+
+  
+  
+
+  
+
+  
+
+</div>
+
+  <div class="article-style" itemprop="articleBody">
+    
+    <p></p>
+    
+  </div>
+  <p class="read-more">
+    <a href="https://chengjunwang.com/zh/post/cn/cn_archive/2012-12-06-intenet-ecology/" class="btn btn-primary btn-outline">
+      继续阅读
+    </a>
+  </p>
+</div>
+
+  
+    
+    
+
+<div class="article-list-item" itemscope itemprop="blogPost">
+  
+  
+  <h3 class="article-title" itemprop="name">
+    <a href="https://chengjunwang.com/zh/post/cn/cn_archive/2011-08-22-gaddafi-diffusion/" itemprop="url">“众说纷纭”抑或“一言九鼎”？——以卡扎菲官邸攻陷事件在新浪微博上的信息扩散为例</a>
+  </h3>
+  
+
+<div class="article-metadata">
+
+  <span class="article-date">
+    
+    <time datetime="2012-12-15 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+      2012-12-15
+    </time>
+  </span>
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    1 分钟阅读时间
+  </span>
+  
+
+  
+  
+
+  
+
+  
+
+</div>
+
+  <div class="article-style" itemprop="articleBody">
+    
+    <p></p>
+    
+  </div>
+  <p class="read-more">
+    <a href="https://chengjunwang.com/zh/post/cn/cn_archive/2011-08-22-gaddafi-diffusion/" class="btn btn-primary btn-outline">
+      继续阅读
+    </a>
+  </p>
+</div>
+
+  
+    
+    
+
+<div class="article-list-item" itemscope itemprop="blogPost">
+  
+  
+  <h3 class="article-title" itemprop="name">
+    <a href="https://chengjunwang.com/zh/post/cn/cn_archive/2012-12-15-beautiful-math/" itemprop="url">通往统计语言学的桥梁——写在《数学之美》的边缘上</a>
+  </h3>
+  
+
+<div class="article-metadata">
+
+  <span class="article-date">
+    
+    <time datetime="2012-12-15 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+      2012-12-15
+    </time>
+  </span>
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    1 分钟阅读时间
+  </span>
+  
+
+  
+  
+
+  
+
+  
+
+</div>
+
+  <div class="article-style" itemprop="articleBody">
+    
+    <p></p>
+    
+  </div>
+  <p class="read-more">
+    <a href="https://chengjunwang.com/zh/post/cn/cn_archive/2012-12-15-beautiful-math/" class="btn btn-primary btn-outline">
+      继续阅读
+    </a>
+  </p>
+</div>
+
+  
+    
+    
+
+<div class="article-list-item" itemscope itemprop="blogPost">
+  
+  
+  <h3 class="article-title" itemprop="name">
+    <a href="https://chengjunwang.com/zh/post/cn/cn_archive/2012-08-31-burst/" itemprop="url">爆发：人类行为在时间尺度上的特征</a>
+  </h3>
+  
+
+<div class="article-metadata">
+
+  <span class="article-date">
+    
+    <time datetime="2012-08-31 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+      2012-08-31
+    </time>
+  </span>
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    1 分钟阅读时间
+  </span>
+  
+
+  
+  
+
+  
+
+  
+
+</div>
+
+  <div class="article-style" itemprop="articleBody">
+    
+    <p></p>
+    
+  </div>
+  <p class="read-more">
+    <a href="https://chengjunwang.com/zh/post/cn/cn_archive/2012-08-31-burst/" class="btn btn-primary btn-outline">
+      继续阅读
+    </a>
+  </p>
+</div>
+
+  
+    
+    
+
+<div class="article-list-item" itemscope itemprop="blogPost">
+  
+  
+  <h3 class="article-title" itemprop="name">
+    <a href="https://chengjunwang.com/zh/post/cn/cn_archive/2012-07-01-snabook-chapter4/" itemprop="url">第4章 派系、聚类和组元</a>
+  </h3>
+  
+
+<div class="article-metadata">
+
+  <span class="article-date">
+    
+    <time datetime="2012-07-01 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+      2012-07-01
+    </time>
+  </span>
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    7 分钟阅读时间
+  </span>
+  
+
+  
+  
+
+  
+
+  
+
+</div>
+
+  <div class="article-style" itemprop="articleBody">
+    
+    <p></p>
+    
+  </div>
+  <p class="read-more">
+    <a href="https://chengjunwang.com/zh/post/cn/cn_archive/2012-07-01-snabook-chapter4/" class="btn btn-primary btn-outline">
+      继续阅读
+    </a>
+  </p>
+</div>
+
+  
+    
+    
+
+<div class="article-list-item" itemscope itemprop="blogPost">
+  
+  
+  <h3 class="article-title" itemprop="name">
+    <a href="https://chengjunwang.com/zh/post/cn/cn_archive/2012-07-01-snabook-chapter5/" itemprop="url">第5章 二模网络</a>
+  </h3>
+  
+
+<div class="article-metadata">
+
+  <span class="article-date">
+    
+    <time datetime="2012-07-01 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+      2012-07-01
+    </time>
+  </span>
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    3 分钟阅读时间
+  </span>
+  
+
+  
+  
+
+  
+
+  
+
+</div>
+
+  <div class="article-style" itemprop="articleBody">
+    
+    <p></p>
+    
+  </div>
+  <p class="read-more">
+    <a href="https://chengjunwang.com/zh/post/cn/cn_archive/2012-07-01-snabook-chapter5/" class="btn btn-primary btn-outline">
+      继续阅读
+    </a>
+  </p>
+</div>
+
   
 
   
 <nav>
   <ul class="pager">
     
-    <li><a href="https://chengjunwang.com//zh/post/">&laquo; Previous</a></li>
+    <li><a href="/zh/post/">&lt;</a></li>
     
     
-    <li><a href="https://chengjunwang.com//zh/post/page/3/">Next &raquo;</a></li>
+    <li><a href="/zh/post/page/3/">&gt;</a></li>
     
   </ul>
 </nav>
@@ -654,8 +1191,9 @@
 
       &copy; 2016 Cheng-Jun Wang &middot; 
 
-      Powered by the <a href="https://github.com/gcushen/hugo-academic" target="_blank">Academic
-      theme</a> for <a href="http://gohugo.io" target="_blank">Hugo</a> and <a href="http://github.com/" target="_blank">Github</a>.
+      Powered by the
+      <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+      <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
 
       <span class="pull-right" aria-hidden="true">
         <a href="#" id="back_to_top">
@@ -669,21 +1207,53 @@
   </div>
 </footer>
 
-    <script src="//cdnjs.cloudflare.com/ajax/libs/gsap/1.18.4/TweenMax.min.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/gsap/latest/plugins/ScrollToPlugin.min.js"></script>
-    <script src="/js/jquery-1.12.3.min.js"></script>
-    <script src="/js/bootstrap.min.js"></script>
-    <script src="/js/isotope.pkgd.min.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.1/imagesloaded.pkgd.min.js"></script>
-    <script src="/js/hugo-academic.js"></script>
+
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close btn-large" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">引用</h4>
+      </div>
+      <div>
+        <pre><code class="modal-body tex"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-primary btn-outline js-copy-cite" href="#" target="_blank">
+          <i class="fa fa-copy"></i> 复制
+        </a>
+        <a class="btn btn-primary btn-outline js-download-cite" href="#" target="_blank">
+          <i class="fa fa-download"></i> 下载
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
     
 
+    
+    
+
+    
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" integrity="sha512-3P8rXCuGJdNZOnUx/03c1jOTnMn3rP63nBip5gOP2qmUh5YAdVAvFZ1E+QLZZbC1rtMrQb+mah3AfYW11RUrWA==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.3/imagesloaded.pkgd.min.js" integrity="sha512-umsR78NN0D23AzgoZ11K7raBD+R6hqKojyBZs1w8WvYlsI+QuKRGBx3LFCwhatzBunCjDuJpDHwxD13sLMbpRA==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha512-iztkobsvnjKfAtTNdHkGVjAYTrrtlC7mGp/54c40wowO7LhURYl3gVzzcEqGl/qKXQltJ2HwMrdLcNUdo+N/RQ==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.4/isotope.pkgd.min.js" integrity="sha512-VDBOIlDbuC4VWxGJNmuFRQ0Li0SKkDpmGyuhAG5LTDLd/dJ/S0WMVxriR2Y+CyPL5gzjpN4f/6iqWVBJlht0tQ==" crossorigin="anonymous"></script>
+    
+    
+    <script src="/js/hugo-academic.js"></script>
     
 
     
     
       
-      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/highlight.min.js"></script>
+      
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" integrity="sha256-/BfiIkHlHoVihZdc6TFuj7MmJ0TWcWsMXkeDFwhi0zw=" crossorigin="anonymous"></script>
+      
 
       
 
@@ -693,8 +1263,6 @@
     
 
     
-    
-
     
 
   </body>

@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Cheng-Jun Wang</title>
+    <link>https://chengjunwang.com/post/</link>
+    <description>Recent content in Posts on Cheng-Jun Wang</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2016 Cheng-Jun Wang</copyright>
+    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0800</lastBuildDate>
+    
+	<atom:link href="https://chengjunwang.com/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>News Map of China</title>
+      <link>https://chengjunwang.com/post/post_archive/news-map/</link>
+      <pubDate>Mon, 13 Feb 2017 14:32:07 +0800</pubDate>
+      
+      <guid>https://chengjunwang.com/post/post_archive/news-map/</guid>
+      <description>News Map is built upon cartogram.js (a JavaScript implementation of an algoritm to construct continuous area cartograms ©1985), d3.js and colorbrewer. This visualization combines TopoJSON-encoded boundaries of the Chinese provinces with GDP data from National Bureau Statistics of the People&amp;rsquo;s Republic of China to size each province proportionally. Designed and built by Chengjun Wang and Zhicong Chen at Computational Communication Collaboratory, School of Journalism and Communication, Nanjing University.
+Read More &amp;gt;&amp;gt;</description>
+    </item>
+    
+    <item>
+      <title>Visualizing Global Terrorism using googleVis</title>
+      <link>https://chengjunwang.com/post/post_archive/global-terrorism/</link>
+      <pubDate>Mon, 13 Feb 2017 14:32:07 +0800</pubDate>
+      
+      <guid>https://chengjunwang.com/post/post_archive/global-terrorism/</guid>
+      <description>Using the Data from Global Terrorism Database (GTD) and googleVis-0.5.8, I visualize the global terrorism attacks over time. The remarkable negative relationship between kills and political stability can clearly observed.
+Read More &amp;gt;&amp;gt;</description>
+    </item>
+    
+    <item>
+      <title>networkdiffusion: Simulating and Visualizing Network Diffusion Using R</title>
+      <link>https://chengjunwang.com/post/post_archive/networkdiffusion/</link>
+      <pubDate>Mon, 13 Feb 2017 14:16:05 +0800</pubDate>
+      
+      <guid>https://chengjunwang.com/post/post_archive/networkdiffusion/</guid>
+      <description>networkdiffusion, an R package which can help simulate and visualize the network diffusion. Slides.
+Related Activity Wang, C.J. (2017) networkdiffusion: Simulating and Visualizing Network Diffusion Using R. The 10th China R Conference. Beijing, May 20-21.</description>
+    </item>
+    
+    <item>
+      <title>scholarnetwork: Crawl and Visualize the Coauthor Network</title>
+      <link>https://chengjunwang.com/post/post_archive/scholarnetwork/</link>
+      <pubDate>Mon, 13 Feb 2017 14:15:51 +0800</pubDate>
+      
+      <guid>https://chengjunwang.com/post/post_archive/scholarnetwork/</guid>
+      <description>scholarNetwork, a Python package to crawl and visualize the coauthor network of Google Scholars.</description>
+    </item>
+    
+    <item>
+      <title>iching: Practising Divination of I Ching</title>
+      <link>https://chengjunwang.com/post/post_archive/iching/</link>
+      <pubDate>Mon, 13 Feb 2017 14:15:36 +0800</pubDate>
+      
+      <guid>https://chengjunwang.com/post/post_archive/iching/</guid>
+      <description>iching, a Python package that employs the Achillea millefolium method to practise divination of I Ching (易经的蓍草卜卦方法).
+ </description>
+    </item>
+    
+    <item>
+      <title>Deploy Hugo-Academic on Github Pages</title>
+      <link>https://chengjunwang.com/post/post_archive/hugo2github/</link>
+      <pubDate>Mon, 13 Feb 2017 12:54:27 +0800</pubDate>
+      
+      <guid>https://chengjunwang.com/post/post_archive/hugo2github/</guid>
+      <description>I tried to move from jekyll to hugo to enhance my personal website. But I still want to use Github Pages to host the generated html files (in the Public folder). The trick is you have to move the files in the Public folder to the local folder of your github folder.
+ Create on GitHub mywebsite-hugo repository (it will host Hugo’s content) Create on GitHub chengjun.github.io repository (it will host the public folder: the static website) cd github git clone https://github.</description>
+    </item>
+    
+    <item>
+      <title>Getting started with the Academic framework for Hugo</title>
+      <link>https://chengjunwang.com/post/post_archive/getting-started/</link>
+      <pubDate>Wed, 20 Apr 2016 12:00:00 +0000</pubDate>
+      
+      <guid>https://chengjunwang.com/post/post_archive/getting-started/</guid>
+      <description>The Academic framework enables you to easily create a beautifully simple personal or academic website using the Hugo static site generator.
+Key features:
+ Easily manage your homepage, blog posts, publications, talks, and projects Configurable widgets available for Biography, Publications, Projects, News/Blog, Talks, and Contact Need a different section? Just use the Custom widget! Write in Markdown for easy formatting and code highlighting, with LaTeX for mathematical expressions Social/academic network linking, Google Analytics, and Disqus comments Responsive and mobile friendly Simple and refreshing one page design Easy to customize  Installation  Install Hugo and create a new website by typing the following commands in your Terminal or Command Prompt app:</description>
+    </item>
+    
+    <item>
+      <title>Customizing the homepage with widgets</title>
+      <link>https://chengjunwang.com/post/post_archive/widgets/</link>
+      <pubDate>Wed, 20 Apr 2016 11:00:00 +0000</pubDate>
+      
+      <guid>https://chengjunwang.com/post/post_archive/widgets/</guid>
+      <description>Homepage widgets display as sections on the homepage. They can be enabled/disabled and configured as desired. Academic has the following widgets available to use:
+ About/biography Selected publications Recent publications Recent news/blog posts Projects Selected talks Recent talks Contact Custom widget (demonstrated with the teaching example)  The example site that you copied to create your site uses all the different types of widget (except talks), so you can generally just delete the widgets you don&amp;rsquo;t need and customize the parameters of the widgets you wish to keep.</description>
+    </item>
+    
+    <item>
+      <title>Managing content</title>
+      <link>https://chengjunwang.com/post/post_archive/managing-content/</link>
+      <pubDate>Wed, 20 Apr 2016 11:00:00 +0000</pubDate>
+      
+      <guid>https://chengjunwang.com/post/post_archive/managing-content/</guid>
+      <description>&lt;p&gt;This is a brief guide to managing content with the Academic framework. Content can include publications, projects, talks, and news/blog articles. After you have read this guide about creating and managing content, you may also be interested to learn about &lt;a href=&#34;https://chengjunwang.com/post/writing-markdown-latex/&#34; target=&#34;_blank&#34;&gt;writing content with Markdown, LaTeX, and Shortcodes&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Writing content with Markdown, LaTeX, and Shortcodes</title>
+      <link>https://chengjunwang.com/post/post_archive/writing-markdown-latex/</link>
+      <pubDate>Wed, 20 Apr 2016 10:00:00 +0000</pubDate>
+      
+      <guid>https://chengjunwang.com/post/post_archive/writing-markdown-latex/</guid>
+      <description>&lt;p&gt;Content can be written using &lt;a href=&#34;https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet&#34; target=&#34;_blank&#34;&gt;Markdown&lt;/a&gt;, &lt;a href=&#34;https://en.wikibooks.org/wiki/LaTeX/Mathematics&#34; target=&#34;_blank&#34;&gt;LaTeX math&lt;/a&gt;, and &lt;a href=&#34;http://gohugo.io/extras/shortcodes/&#34; target=&#34;_blank&#34;&gt;Hugo Shortcodes&lt;/a&gt;. Additionally, HTML may be used for advanced formatting. This article gives an overview of the most common formatting options.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Getting started with the Academic framework for Hugo</title>
+      <link>https://chengjunwang.com/post/getting-started/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0800</pubDate>
+      
+      <guid>https://chengjunwang.com/post/getting-started/</guid>
+      <description>The Academic framework enables you to easily create a beautifully simple personal or academic website using the Hugo static site generator.
+Key features:
+ Easily manage your homepage, blog posts, publications, talks, and projects Configurable widgets available for Biography, Publications, Projects, News/Blog, Talks, and Contact Need a different section? Just use the Custom widget! Write in Markdown for easy formatting and code highlighting, with LaTeX for mathematical expressions Social/academic network linking, Google Analytics, and Disqus comments Responsive and mobile friendly Simple and refreshing one page design Multilingual and easy to customize     Installation Getting Started  Core parameters Introduce yourself Customize the homepage Add your content Remove unused widgets and pages Themes Customization &amp;amp; updating  Advanced customization  Navigation menu Website icon Analytics Third party and local scripts (JS) Language and translation Permalinks Advanced style customization (CSS)  Updating Feedback &amp;amp; Contributing License    Installation  Install Hugo and create a new website by typing the following commands in your Terminal or Command Prompt app:</description>
+    </item>
+    
+    <item>
+      <title>Customizing the homepage with widgets</title>
+      <link>https://chengjunwang.com/post/widgets/</link>
+      <pubDate>Tue, 19 Apr 2016 00:00:00 +0800</pubDate>
+      
+      <guid>https://chengjunwang.com/post/widgets/</guid>
+      <description>Homepage widgets display as sections on the homepage. They can be enabled/disabled and configured as desired. Academic has the following widgets available to use:
+ About/biography Selected publications Recent publications Recent news/blog posts Projects Selected talks Recent talks Contact Tag cloud Hero (introduction) Custom widget (demonstrated with the teaching example)  The example site that you copied to create your site uses all the different types of widget (except talks), so you can generally just delete the widgets you don&amp;rsquo;t need and customize the parameters of the widgets you wish to keep.</description>
+    </item>
+    
+    <item>
+      <title>Managing content</title>
+      <link>https://chengjunwang.com/post/managing-content/</link>
+      <pubDate>Mon, 18 Apr 2016 00:00:00 +0800</pubDate>
+      
+      <guid>https://chengjunwang.com/post/managing-content/</guid>
+      <description>&lt;p&gt;This is a brief guide to managing content with the Academic framework. Content can include publications, projects, talks, news/blog articles, and widget pages. After you have read this guide about creating and managing content, you may also be interested to learn about &lt;a href=&#34;https://chengjunwang.com/post/writing-markdown-latex/&#34; target=&#34;_blank&#34;&gt;writing content with Markdown, LaTeX, and Shortcodes&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Writing content with Markdown, LaTeX, and Shortcodes</title>
+      <link>https://chengjunwang.com/post/writing-markdown-latex/</link>
+      <pubDate>Sun, 17 Apr 2016 00:00:00 +0800</pubDate>
+      
+      <guid>https://chengjunwang.com/post/writing-markdown-latex/</guid>
+      <description>&lt;p&gt;Content can be written using &lt;a href=&#34;https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet&#34; target=&#34;_blank&#34;&gt;Markdown&lt;/a&gt;, &lt;a href=&#34;https://en.wikibooks.org/wiki/LaTeX/Mathematics&#34; target=&#34;_blank&#34;&gt;LaTeX math&lt;/a&gt;, and &lt;a href=&#34;http://gohugo.io/extras/shortcodes/&#34; target=&#34;_blank&#34;&gt;Hugo Shortcodes&lt;/a&gt;. Additionally, HTML may be used for advanced formatting. This article gives an overview of the most common formatting options.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Migrate from Jekyll to Hugo</title>
+      <link>https://chengjunwang.com/post/post_archive/migrate-from-jekyll/</link>
+      <pubDate>Mon, 10 Mar 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://chengjunwang.com/post/post_archive/migrate-from-jekyll/</guid>
+      <description>Here are a few tips for migrating an existing website from Jekyll to Hugo. These tips can be applied in conjunction with following Hugo Academic&amp;rsquo;s getting started guide.
+Move static content to static Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content under static. You should therefore move it all there. With Jekyll, something that looked like</description>
+    </item>
+    
+    <item>
+      <title>Blogging with markdown on Octopress</title>
+      <link>https://chengjunwang.com/post/en/2013-08-03-bloging-with-markdown-on-octopress/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://chengjunwang.com/post/en/2013-08-03-bloging-with-markdown-on-octopress/</guid>
+      <description>Set up Octopress I refer to this blog and this blog to setup octopress. It&amp;rsquo;s very helpful for windows users.
+For encoding errors Most chinese windows users encounter the problem of encoding error, such as this one: invalid byte sequence in GBK. I handle it following three suggestions:
+1.Modify the file located at C:\Ruby193\lib\ruby\gems\1.9.1\gems\jekyll-0.11.2\lib\jekyll\convertible.rb, to change:
+self.content = File.read(File.join(base, name))  into:
+self.content = File.read(File.join(base, name), :encoding =&amp;gt; &amp;quot;utf-8&amp;quot;)  2.</description>
+    </item>
+    
+    <item>
+      <title>Fitting rank order distribution with R</title>
+      <link>https://chengjunwang.com/post/en/2014-03-17-fit-power-law/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://chengjunwang.com/post/en/2014-03-17-fit-power-law/</guid>
+      <description>The long-tail distribution can be quantified in primarily three ways, see Newman &amp;rsquo;s paper here:
+ Power law distribution Zipf distribution Pareto distribution  Here, I talk about the Zipf distribution which assesses the relationship between rank order and Frequency (probability).
+ Zipf&amp;rsquo;s law now refers more generally to frequency distributions of &amp;ldquo;rank data,&amp;rdquo; in which the relative frequency of the nth-ranked item is given by the Zeta distribution. from Wikipedia</description>
+    </item>
+    
+    <item>
+      <title>Generating networks with igraph</title>
+      <link>https://chengjunwang.com/post/en/2013-08-12-generating-networks-with-igraph/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://chengjunwang.com/post/en/2013-08-12-generating-networks-with-igraph/</guid>
+      <description>We know that the most simple network is the regular network, such as the ring network. If all the edges in a network are generated randomly, we can get a random graph or Erdos-Renyi network (ER network).
+Erdős–Rényi Random Graph model  The Erdős–Rényi model, named for Paul Erdős and Alfréd Rényi, is used for generating random graphs in which edges are set between nodes with equal probabilities.
+ There is a continuous shift between randomness and regularity.</description>
+    </item>
+    
+    <item>
+      <title>Hosting pandoc slides on Octopress</title>
+      <link>https://chengjunwang.com/post/en/2013-08-06-present-pandoc-slides-on-octopress/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://chengjunwang.com/post/en/2013-08-06-present-pandoc-slides-on-octopress/</guid>
+      <description>##
+I have made a dzslides from a markdown file using pandoc, and then I want to archive and present it on octopress. Check the result to learn about how to make simple slides using pandoc here.
+The mechanism of octopress is a little bit inflexible.
+Basicially, we generate markdown files in the directory of _posts:
+rake new_post[&amp;quot;the title of your post&amp;quot;]  and then we transform the markdown files to html placed in the dirctory of public.</description>
+    </item>
+    
+    <item>
+      <title>Learning basic epidemic models with Python</title>
+      <link>https://chengjunwang.com/post/en/2013-03-14-learn-basic-epidemic-models-with-python/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://chengjunwang.com/post/en/2013-03-14-learn-basic-epidemic-models-with-python/</guid>
+      <description>The epidemic model is another intellectual source for information diffusion research. The first known mathematical model of epidemiology is formulated by Daniel Bernoulli (1760) when he studied the mortality rates in order to eradicate the smallpox. However, it was not until the early twentieth century that deterministic modeling of epidemiology started. Ross (1911) developed differential equation models of epidemics in 1911. Later, Kermack and McKendrick (1927) found the epidemic threshold and they argued that the density of susceptible must exceed a critical value to make the outbreak of an epidemic happen.</description>
+    </item>
+    
+    <item>
+      <title>My vision statement</title>
+      <link>https://chengjunwang.com/post/en/2014-04-06-vison-statement/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://chengjunwang.com/post/en/2014-04-06-vison-statement/</guid>
+      <description>My ideal career path is to work in a research university where I can continue my on-going study of opinion dynamics, and to share my understanding of computational communication (e.g. human online behavior, network science, and data journalism).
+Computational Communication (CC) Computational communication is part of computational social science (pdf). Computational communication emphasizes the importance of computational thinking in both theory-building and method-development. Network science, natural language processing, as well as the agent-based modeling methods opened a new door to the development of human communication research.</description>
+    </item>
+    
+    <item>
+      <title>Plot regression coefficient with R</title>
+      <link>https://chengjunwang.com/post/en/2013-08-16-plot-regression-coefficient-with-r/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://chengjunwang.com/post/en/2013-08-16-plot-regression-coefficient-with-r/</guid>
+      <description>To visualize the regression coefficient is very useful. There are at least to packages (arm, coefplot) devoted to this purpose. However, both them are not beautiful enough, compared with the effect of boxplot.
+I refer to the R script written by Carlisle Rainey. What I do is to add rectangles and vertical line into the plot made by Carlisle Rainey.Please refer to this post for more information: http://www.carlislerainey.com/2012/06/30/coefficient-plots-in-r/
+Figure 1 Plot with rectangles and vertical lines</description>
+    </item>
+    
+    <item>
+      <title>Recoding variables in R</title>
+      <link>https://chengjunwang.com/post/en/2013-08-14-recoding-in-r/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://chengjunwang.com/post/en/2013-08-14-recoding-in-r/</guid>
+      <description>Recoding variables is fairly easy in R. Here I summarize three appoaches and recommend the first one to you.
+##1.List slicing
+The method of list slicing is the most convenient way to recode a variable.
+ x = 1:10 x[x == 1] = 0 x[x &amp;gt; 1 &amp;amp; x &amp;lt; 6] = 1 x[x &amp;gt;= 6] = 3 &amp;gt; x &amp;gt; [1] 0 1 1 1 1 3 3 3 3 3 x[x == 1 | x == 0] = 4 &amp;gt; x &amp;gt; [1] 4 4 4 4 4 3 3 3 3 3  Here is another example to create 3 age categories</description>
+    </item>
+    
+    <item>
+      <title>Scraping New York Times &amp; The Guardian using Python</title>
+      <link>https://chengjunwang.com/post/en/2012-04-23-scraping-newyork-times-with-python/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://chengjunwang.com/post/en/2012-04-23-scraping-newyork-times-with-python/</guid>
+      <description>I have read the blog post about Scraping New York Times Articles with R. It’s great. I want to reproduce the work with python. First, we should learn about nytimes article search api.
+http://developer.nytimes.com/docs/article_search_api/
+Second, we need to register and get the key which will be used in python script.
+http://developer.nytimes.com/apps/register
+# !/usr/bin/env python # -*- coding: UTF-8 -*- # Scraping New York Times using python # 20120421@ Canberra # chengjun wang import json import urllib2 &#39;&#39;&#39; About the api and the key, see the links above.</description>
+    </item>
+    
+    <item>
+      <title>Scraping data from Sina Weibo using Python</title>
+      <link>https://chengjunwang.com/post/en/2014-03-16-scraping-weibo-using-python/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://chengjunwang.com/post/en/2014-03-16-scraping-weibo-using-python/</guid>
+      <description>Weibo Oauth2.0 I would like to introduce you how to use python to scrape tweets from Sina Weibo in this post.
+Automatically get authorization by oauth2.0 First, following this webpage to set your app, especially to get the app key, app secret, and set the callback url. See an introduction.
+Second, following this link, you can automatically get the code from the callback url.
+The following python script demonstrates how to automatically get authorization.</description>
+    </item>
+    
+    <item>
+      <title>Scraping tweets using Twitter stream API</title>
+      <link>https://chengjunwang.com/post/en/2013-01-20-scraping-tweets-from-twitter/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://chengjunwang.com/post/en/2013-01-20-scraping-tweets-from-twitter/</guid>
+      <description>I want to randomly sample twitter streams. Thus, i turn to the stream api of twitter.
+ The set of streaming APIs offered by Twitter give developers low latency access to Twitter&amp;rsquo;s global stream of Tweet data. A proper implementation of a streaming client will be pushed messages indicating Tweets and other events have occurred, without any of the overhead associated with polling a REST endpoint.[from Twitter]
+ Of course, as the first step, you should register the stream api on Twitter to get the consumer key, consumer secret, access key, and access secret.</description>
+    </item>
+    
+    <item>
+      <title>Sentiment analysis with Python</title>
+      <link>https://chengjunwang.com/post/en/2012-03-19-sentiment-analysi-with-python/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://chengjunwang.com/post/en/2012-03-19-sentiment-analysi-with-python/</guid>
+      <description>Learning To Do Sentiment Analysis Using Python &amp;amp; NLTK
+This is my first try to learn sentiment analysis using python. You can find the original post by Laurent Luce following this link.
+I am glad to know that, with the aid of naive Bayes, NLTK could distinguish ‘like’ and ‘does not like’ into &amp;lsquo;positive&amp;rsquo; and &amp;lsquo;negative&amp;rsquo; respectively. I am wondering how R behaves compared with it. The method below employed the procedures depicted in the following figure.</description>
+    </item>
+    
+    <item>
+      <title>Sentiment analysis with machine learning in R</title>
+      <link>https://chengjunwang.com/post/en/2014-04-07-sentiment-analysis-with-machine-learning-in-r/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://chengjunwang.com/post/en/2014-04-07-sentiment-analysis-with-machine-learning-in-r/</guid>
+      <description>In an earlier post, I tried to reproduce the sentiment analysis using machine learning in Python. Here, I will introduce how to do it in the framework of R.
+In the landscape of R, both sentiment analysis package and the general text mining package of machine learning have been well developed by Timothy P. Jurka. You can check out thesentiment package and the fantastic RTextTools package. Actually, Timothy also writes an maxent package for low-memory multinomial logistic regression (also known as maximum entropy).</description>
+    </item>
+    
+    <item>
+      <title>Simulating network diffusion with R</title>
+      <link>https://chengjunwang.com/post/en/2014-03-09-simulate-network-diffusion-with-r/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://chengjunwang.com/post/en/2014-03-09-simulate-network-diffusion-with-r/</guid>
+      <description>Introduction Different from the traditional diffusion research, network diffusion research focuses on how network structure exerts its impact on the diffusion process. In this post, I present how to simulate the most simple network diffusion with R.
+As the first step, the algorithm is quite simple:
+ Generate a network g: g(V, E). Randomly select one or n nodes as seeds. Each infected node influences its neighbors with probability p (transmission rate, $$\beta$$).</description>
+    </item>
+    
+    <item>
+      <title>Social Entrepreneurs Worldwide: Visualization using WebGL Globe</title>
+      <link>https://chengjunwang.com/post/en/2014-08-20-ashoka-fellows-worldwide/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://chengjunwang.com/post/en/2014-08-20-ashoka-fellows-worldwide/</guid>
+      <description>View it here http://chengjun.github.io/globe/ashoka.html
+####Social Entrepreneurs Worldwide Ashoka is the largest network of social entrepreneurs worldwide. Ashoka Fellows are leading social entrepreneurs who we recognize to have innovative solutions to social problems and the potential to change patterns across society. They demonstrate unrivaled commitment to bold new ideas and prove that compassion, creativity, and collaboration are tremendous forces for change. Ashoka Fellows work in over 70 countries around the globe in every area of human need.</description>
+    </item>
+    
+    <item>
+      <title>Subscribe to This Blog by Email</title>
+      <link>https://chengjunwang.com/post/en/2014-09-03-subscribe-by-email/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://chengjunwang.com/post/en/2014-09-03-subscribe-by-email/</guid>
+      <description>I learnt that many people like to subscribe a blog by email. The website usually supplies its feed, but not such subscription service. Actually, it&amp;rsquo;s quite straightford to do so using the feedburner of Google. After the webmaster sucessfully makes up the feedburner, he or she can look into the Publicize webpage, and click the button of Subscription Management. After it is activated, you can got the url for email subscription.</description>
+    </item>
+    
+    <item>
+      <title>The Craft of Writing</title>
+      <link>https://chengjunwang.com/post/en/2011-03-18-craft-of-writing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://chengjunwang.com/post/en/2011-03-18-craft-of-writing/</guid>
+      <description>As an American sociologist, Howard S. Becker writes the book titled Writing for Social Scientists in which he generously shares his experience and insightful understandings by analyzing the writing issues in the perspective of sociology. Howard works in the way of anthropology and treats his classroom of writing as a field of observation.
+First, He asks his students whose fears of writing overshadow their torture of taking class of composition again,to share their experience of writing, which convinces readers that all of us share common problems of writing: instead of treating writing as a work which should be done at once, we turn to all the rituals we know and as a result waste a lot time.</description>
+    </item>
+    
+    <item>
+      <title>The Rich-club on Sina Weibo</title>
+      <link>https://chengjunwang.com/post/en/2014-03-14-weibo-landscape/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://chengjunwang.com/post/en/2014-03-14-weibo-landscape/</guid>
+      <description>This post is about the opinions tweeted &amp;amp; retweeted by the most influential users of Sina Weibo.
+About Sina Weibo, you can refer to the webpage of wikipedia:
+ Sina Weibo (Chinese: 新浪微博; pinyin: Xīnlàng Wēibó; literally “Sina Microblog”) is a Chinese microblogging (weibo) website. Akin to a hybrid of Twitter and Facebook, it is one of the most popular sites in China, in use by well over 30% of Internet users, with a similar market penetration that Twitter has established in the USA.</description>
+    </item>
+    
+    <item>
+      <title>Understanding Bass diffusion model with R</title>
+      <link>https://chengjunwang.com/post/en/2012-04-26-understanding-bass-diffusion-model-with-r/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://chengjunwang.com/post/en/2012-04-26-understanding-bass-diffusion-model-with-r/</guid>
+      <description>Introduction I had made slides to understand the bass diffusion model which is proposed by Frank M. Bass in 1969. The model proposes that diffusion is motivated both by inovativeness and imitation: first, the innovative early adopters adopted the products, after which the followers will imitate them and adopt the products.
+ The Bass model coefficient (parameter) of innovation is p.
+ The Bass model coefficient (parameter) of imitation is q.</description>
+    </item>
+    
+    <item>
+      <title>Using slidify to publish HTML5 presentations</title>
+      <link>https://chengjunwang.com/post/en/2013-08-18-using-slidify-to-publish-html5-presentations/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://chengjunwang.com/post/en/2013-08-18-using-slidify-to-publish-html5-presentations/</guid>
+      <description>I am inspired to use markdown to make HTML5 slides, However the specification is too hard. Actually, I don&amp;rsquo;t know how to make it less ugly, especilly for the first page of the slides.
+By chance, I find Torres&amp;rsquo;s slides (Click here), it is made through R using the slidify package. Of course, you also need to write R markdown using Rstudio and Knitr.
+Install slidify package in Rstudio install_github(&#39;slidify&#39;, &#39;ramnathv&#39;) install_github(&#39;slidifyLibraries&#39;, &#39;ramnathv&#39;)  {:lang=&amp;ldquo;ruby&amp;rdquo;}</description>
+    </item>
+    
+    <item>
+      <title>Using the front-page of Octopress instead of the blog page</title>
+      <link>https://chengjunwang.com/post/en/2013-08-06-using-the-front-page-of-octopress-instead-of-the-blog-page/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://chengjunwang.com/post/en/2013-08-06-using-the-front-page-of-octopress-instead-of-the-blog-page/</guid>
+      <description>Using a Landing Page rather than the Blog Page It&amp;rsquo;s annoying to find that users are directed to your blog page directly. In my point of view, octopress is not just a personal blog. It is your website, your home online, where you can present yourself easily, rather than limiting yourself to the blog posts.
+I have made a &amp;ldquo;Home&amp;rdquo; page before. However, the home page is not directed as the landing page.</description>
+    </item>
+    
+    <item>
+      <title>Visualizing dynamic changes with googleVis</title>
+      <link>https://chengjunwang.com/post/en/2011-12-11-visualize-with-googlevis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://chengjunwang.com/post/en/2011-12-11-visualize-with-googlevis/</guid>
+      <description>GoogleVis could be used to visualize the dynamic change of social pattern. Here I will test some examples.
+First, let us see the examples in googleVis:
+library(googleVis) data(package=&amp;quot;googleVis&amp;quot;) # Data sets in package ‘googleVis’: # Andrew Hurricane Andrew: googleVis example data set # CityPopularity CityPopularity: googleVis example data set # Exports Exports: googleVis example data set # Fruits Fruits: googleVis example data set # OpenClose OpenClose: googleVis example data set # Population Population: googleVis example data set # Regions Regions: googleVis example data set # Stock Stock: googleVis example data set  Second, we try the example of hurricane of andrew:</description>
+    </item>
+    
+    <item>
+      <title>scholarNetwork: Visualizing Google Scholar Network</title>
+      <link>https://chengjunwang.com/post/en/2015-02-22-scholarnetwork/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://chengjunwang.com/post/en/2015-02-22-scholarnetwork/</guid>
+      <description>#scholarNetwork
+Developed by Cheng-Jun Wang &amp;amp; Lingfei Wu
+Cheng-Jun Wang wangchj04@gmail.com Lingfei Wu wlf850927@gmail.com
+Introduction scholarNetwork is a python package for crawling and visualizing the co-author network of Google Scholar.
+To use it, you must have access to Google Scholar, and you would also install beautifulsoup4 and networkx during the installation process.
+Install Install from pypi using pip or easy_install
+ pip install scholarNetwork  or
+ easy_install scholarNetwork  ##Use</description>
+    </item>
+    
+  </channel>
+</rss>
