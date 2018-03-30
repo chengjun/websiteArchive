@@ -588,6 +588,69 @@ tax(500000, 0.45, 13505) = 213450
     </item>
     
     <item>
+      <title>scholarNetwork: Visualizing Google Scholar Network</title>
+      <link>https://chengjunwang.com/post/en/2015-02-22-scholarnetwork/</link>
+      <pubDate>Sun, 29 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://chengjunwang.com/post/en/2015-02-22-scholarnetwork/</guid>
+      <description>
+
+&lt;p&gt;#scholarNetwork&lt;/p&gt;
+
+&lt;p&gt;Developed by Cheng-Jun Wang &amp;amp; Lingfei Wu&lt;/p&gt;
+
+&lt;p&gt;Cheng-Jun Wang wangchj04@gmail.com
+Lingfei Wu wlf850927@gmail.com&lt;/p&gt;
+
+&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+
+&lt;p&gt;scholarNetwork is a python package for crawling and visualizing the co-author network of Google Scholar.&lt;/p&gt;
+
+&lt;p&gt;To use it, you must have access to Google Scholar, and you would also install beautifulsoup4 and networkx during the installation process.&lt;/p&gt;
+
+&lt;h2 id=&#34;install&#34;&gt;Install&lt;/h2&gt;
+
+&lt;p&gt;Install from pypi using pip or easy_install&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;     pip install scholarNetwork
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;or&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;     easy_install scholarNetwork
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;##Use&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;    from scholarNetwork import scholarNetwork
+    import matplotlib.pyplot as plt
+    import networkx as nx
+
+    ## The seed of crawler
+    seed = &#39;https://scholar.google.nl/citations?user=nNdt_G8AAAAJ&amp;amp;hl=en&amp;amp;oe=ASCII&#39;
+    ## How many nodes do you want to visulize? Always start with a small one.
+    Nmax = 21
+    ## Get the graph g
+    g = scholarNetwork.getGraph(seed, Nmax)
+
+    ## plot the network
+    pos=nx.spring_layout(g) #setup the layout
+
+    nx.draw(g, pos, node_shape = &#39;o&#39;,
+            edge_color = &#39;gray&#39;, width = 0.5,
+            with_labels = True, arrows = True)
+    plt.show()
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://chengjun.qiniudn.com/example.png&#34; alt=&#34;1&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Of course, you can get a much larger graph to see what&amp;rsquo;s happening around you, just to change the value of Nmax. However, you have to be patient to wait for much longer time.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://chengjun.qiniudn.com/ego300large.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>自我介绍</title>
       <link>https://chengjunwang.com/note/note_archive/2015-08-13-self-intro/</link>
       <pubDate>Wed, 13 Sep 2017 00:00:00 +0000</pubDate>
@@ -1290,82 +1353,6 @@ tax(500000, 0.45, 13505) = 213450
 &lt;p&gt;&lt;img src=&#34;http://oaf2qt3yk.bkt.clouddn.com/fd096961204e0a0039e7e902db0f89ec.png&#34; alt=&#34;示意图&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;http://oaf2qt3yk.bkt.clouddn.com/e370fd20ef0c33d7bf17948903164b29.png&#34; alt=&#34;示意图&#34; /&gt;&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Analyzing Mobile Phone Data With Network Science</title>
-      <link>https://chengjunwang.com/publication/ica2017/</link>
-      <pubDate>Sun, 14 May 2017 22:03:57 +0800</pubDate>
-      
-      <guid>https://chengjunwang.com/publication/ica2017/</guid>
-      <description>
-
-&lt;h1 id=&#34;2017-ica-conference&#34;&gt;2017 ICA Conference&lt;/h1&gt;
-
-&lt;h2 id=&#34;temporal-and-spatial-analysis-of-mobility-data&#34;&gt;Temporal and Spatial Analysis of Mobility Data&lt;/h2&gt;
-
-&lt;p&gt;Sat, May 27, 12:30 to 13:45, Hilton San Diego Bayfront, 3, Aqua 307&lt;/p&gt;
-
-&lt;p&gt;Session Submission Type: Panel&lt;/p&gt;
-
-&lt;p&gt;Abstract
-Every human behavior, including communicative behavior, involves four basic elements (4Ws): Who does What at When and Where. Out of these 4Ws, we have accumulated some knowledge about Who and What with traditional research methods (e.g., survey, experiment, and content analysis). However, due to the unavailability of time-stamped and geo-tagged data, little is known about the When (i.e., temporal) and Where (i.e., spatial) elements in human behavior. The increasing popularity of social media, the expanding capabilities of mobile devices, and the rapid advancement of computational methods provide social researchers a “social telescope” (Golder &amp;amp; Macy, 2014, Annual Review of Sociology) to examine the temporal and spatial characteristics of human behavior at different levels of granularities.&lt;/p&gt;
-
-&lt;p&gt;The proposed panel focuses on how to model the temporal and spatial features of human behavior with mobility data in a precise and parsimonious way. The interdisciplinary panelists will use empirical examples from their own studies and others’ research to demonstrate: (1) how we can conceptualize and/or operationalize temporal and spatial variables with different mobility datasets (e.g., mobile phone use and mobile apps use); (2) how we can develop empirical/mathematical models to capture and explain the temporal and spatial characteristics of human behavior; and (3) what are the theoretical and/or practical implications in the temporal and spatial analysis of mobility data. Moreover, the panelists will discuss some “critical” questions that have been voiced: What are major challenges communication researchers need to handle in analyzing mobility data? How can communication researchers work with researchers from other disciplines in mobility modeling? How can we deal with personal privacy, replicability, and other legal/ethical dilemmas?&lt;/p&gt;
-
-&lt;p&gt;The panel aims to help raise the awareness among communication scholars of opportunities and risks in the modelling of mobility data. Moreover, the panel will try to build an interdisciplinary dialogue on computational research between communication researchers, computer scientists, and research scientists from the industry.&lt;/p&gt;
-
-&lt;p&gt;Sub Unit： computational methods&lt;/p&gt;
-
-&lt;h3 id=&#34;short-bio&#34;&gt;short-bio&lt;/h3&gt;
-
-&lt;p&gt;Cheng-Jun Wang, Ph.D. He is currently an assistant research fellow in the School of Journalism and Communication, Nanjing University. He is also the director of Ogilvy Data Science Lab, Computational Communication Collaboratory. His research on computational communication appears in both SSCI and SCI indexed journals, such as Scientific Reports, PloS ONE, Physica A, Cyberpsychology, and Journal of Social and Personal Relationships.&lt;/p&gt;
-
-&lt;h2 id=&#34;notes&#34;&gt;Notes&lt;/h2&gt;
-
-&lt;p&gt;Hello everyone. My name is Xinzhi Zhang, from baptist university of hong kong. The title of our presentation is analyzing mobile phone data with network science. I will briefly introduce the authors. Cheng-Jun Wang is currently an assistant research fellow in the School of Journalism and Communication, Nanjing University. And Xinzhi Zhang is currently a Research Assistant Professor at the Department of Journalism of Hong Kong Baptist University.&lt;/p&gt;
-
-&lt;p&gt;Computational social science provides a new lens for our research of human communication behaviors. Especially, it emphasizes the perspective of network science and big data,including website logs and web-based experiment. Duncan Watts claims that “If handled appropriately, data about Internet-based communication and interactivity could revolutionize our understanding of collective human behaviour”.  D. Watts, A twenty-first century science. Nature 445, 489 (2007).&lt;/p&gt;
-
-&lt;p&gt;Network science is important for communication research because: Firstly, we live our life in networks; and complex is a mathematical representation of various social systems. More important, compared with the other computational methods, such as computer simulations, network science is more closely connected with the real world data.&lt;/p&gt;
-
-&lt;p&gt;The mobile phone widely used in contemporary society supplies many social data for our studies, including the calling &amp;amp; messaging data, the online surfing data, and the mobility data. Just as Michael Macy said, it’s been really transformative. The digital traces help understand individual and group behavior at unprecedented scales and levels of detail.&lt;/p&gt;
-
-&lt;p&gt;For the human mobility data, we have small-scale travel surveys before, it can be coupled with GPS loggers. The rapid rise and prevalence of digital media provides a lot of big data, including: Mobile hone data, social media data, smartcard data, taxi trips data, game data.&lt;/p&gt;
-
-&lt;p&gt;Mobile phone positioning is required when a user communicates with the network. When a user initiates a network connection event (e.g. a voice-call), the cellular network operator needs to know his/her location in order to determine the cell tower used to channel this event. In this way, the subsequent positions of  the user can be well documented.&lt;/p&gt;
-
-&lt;p&gt;With the aid of the available data, researchers tried to study human mobility. For example, Brockman 2006 used the trajectories of dollar bills to study the dispersal of human, and they find that the distribution of length r can not be described as levy flights. Random processes with such a single-step distribution are known as Levy flights. Levy flights assumes that there is a power-law relationship between pr and r, the power exponent beta is usually smaller than 2. The simple Levy flight picture for dispersal is incomplete, since the dispersal is weak than expected. This is because the antagonistic interplay between scale-free displacements and waiting times: people might be less likely leave larger cities, and there are long periods of rest. Instead, they tried to describe human moblity as a continuous-time random walk, CTRW. The probability Wr(r,t) of having traversed a distance r at time t, where Lα,β is a universal scaling function that represents the characteristics of the process. According to ctrw model, t^(-α/β)*W(r, t) = Lα,β= (r/t^(α/β))**-gamma. Thus, they can fit the relationship between t^(-α/β)*W(r, t) and r/t^(α/β).&lt;/p&gt;
-
-&lt;p&gt;Gonzalez 2008 tried to study individual human mobility, and find that the distribution of both displacements and radius of gyration over all users is well approximated by a truncated power-law (see the left figures and the equations, here Rg is the radius of gyration for each user). However, after After rescaling the distance and the distribution with rg (main panel), the different curves collapse (see the right figure).&lt;/p&gt;
-
-&lt;p&gt;Song 2010 further finds that the predictions of the ctrw models are in systematic conflict with the empirical results. We introduce two principles that govern human trajectories, allowing us to build a statistically self-consistent microscopic model for individual human mobility. ” Give the number of distinct locations S(t) visited by a user is expected to follow the euation, S(t) ~ t^u, individuals has two choices, i) explore new locations. p_new = ro * s^(-gamma), and ii) preferential return to old locations, p_return = 1 – p_new&lt;/p&gt;
-
-&lt;p&gt;They observed that the distribution of time intervals of mobility follows a power law distribution, implies strong bursts. q stands for the probability of unknown locations, p(q) follows a normal distribution with a mean &lt;q&gt; = .7, indicating that we have no location update for about 70% of the hourly intervals, which masks the user’s real entropy S. The big nodes in the mobility networks are those old locations the individual preferentially return to.&lt;/p&gt;
-
-&lt;p&gt;Song measure the entropy of each individual’s trajectory to understand the potential predictability in user mobility. They distinguished three kinds of entropy, i) the random entropy s_rand, ii) the temporal uncorrelated entropy, s_unc, and iii) the reall entropy S. Let ∏ (/paɪ/ ) denote the predictability, it measures how can a algorithm predict correctly. Panel a shows the distribution of three kinds of entropies; Panel b shows the distribution of the predictability. Panel C shows the relationship between ∏max and rg We can find that a 93% of potential predictability in Panel C.&lt;/p&gt;
-
-&lt;p&gt;Brockmann and Helbing 2013 uses the global mobility network to study the arrival time of epidemics. The global mobility network is constructed from the worldwide air traffic between 4069 airports with 25,453 direct connections. Let pmn denote the fraction of travelers that leave node n and arrive  at node m, we define the effective distance dnm from a node n to a connected node m as dnm  = 1 – log pmn  &amp;gt;= 1 . The effective distance between two undirectly connected nodes can be computed as the minimum value of the product of a series of dij between m and n. In this way, the arrival time of epidemics can be precisely predicted.&lt;/p&gt;
-
-&lt;p&gt;Schich 2014 construct historical migration network using the birth-death location data of 120,211 individuals, which provide historical evidence for global patterns and local instabilities in human mobility dynamics.&lt;/p&gt;
-
-&lt;p&gt;We will talk in details about the study Titled Tracing the Attention of Moving Citizens. With the widespread use of mobile computing devices in contemporary society, our trajectories in the physical space and virtual world are increasingly closely connected. Using the anonymous smartphone data of 1×105 users in a major city of China, we study the interplay between online and offline human behaviors by constructing the mobility network (offline) and the attention network (online).&lt;/p&gt;
-
-&lt;p&gt;We can find strong correlations between offline and online behaviors.To systematically study the relationship between mobile users’ online surfing behaviors and offline mobility, we constructed mobility networks. Mobility network, nodes are physical locations and edges represent the movements between locations.Attention network, nodes are websites and edges represent the switch of users between websites&lt;/p&gt;
-
-&lt;p&gt;We primarily study their difference in terms of the network structure. Most complex networks are found to be small-world, but also many networks are fractal. For example, the internet is a small world. While the WWW is fractal. Fractals look the same on all scales = `scale-invariant’. There is a famous question about how long is the coastline of Norway. The answer depends on the length of your ruler. We can study the fractal patterns using the method of box covering. The box length is lb, and the number of boxes is nb, there is a power law relationship between them.&lt;/p&gt;
-
-&lt;p&gt;Using the box-covering method in networks, we can also calculate the box dimension db from the equation of nb(lb). Using the box-covering method, song renormalize the www network and find lb = 3, ie, within three steps, the www network can be transformed to a star network. We renormalize mobility network and attention network to compute db. There are 9899 nodes and 39,083 edges in the mobility network (Density = 7.9×10−4), and there are 16,476 nodes and 144,909 edges in the attention network (Density = 10.6 × 10−4). The diameter of the mobility network is 15, and the diameter of the attention network is only 10.&lt;/p&gt;
-
-&lt;p&gt;We find that (A) The number of boxes N(lB) is a power law function of box length lB in the attention network, and these two variables show an exponential relationship in the mobility network. (B) In the mobility network, the degree correlation (measured by the Pearson correlation coefficient Cor(Knn, k)) decreases from positive to negative when lB = 4, while the correlation remains negative in the attention network. Panel (C,D) show the transition of degree correlation in details. For the mobility network &amp;copy;, the slope of data points is positive when lB ⩽ 3, and the slope turns negative when lB ⩾ 4. Meanwhile, the correlation is always negative in the attention network (D).&lt;/p&gt;
-
-&lt;p&gt;The spatial division manifests the location-based online behaviors. There are obvious spatial constrained patterns. We show the geographical distribution of three kinds of mobile Internet use behaviors. A. Shopping (red), B. Dating (blue), and C. Taxi-calling (orange). The spatial-constrained attachment is well developed in geometric network models. We use it to reproduce our findings. We use geometric network models of different linking dynamics to test our assumptions on the origins of the observed fractal and small-world patterns in individual behaviors. In all, we suggest that we find that they belong to two different classes: the mobility network is small-world, whereas the attention network is fractal. online and offline behavior could be governed by very different mechanisms.&lt;/p&gt;
-
-&lt;p&gt;Finally, we would like to highlight some resources for human mobility research. NetworkX is a Python language software package for the creation, manipulation, and study of the structure, dynamics, and functions of complex networks. &lt;a href=&#34;http://networkx.github.io/&#34; target=&#34;_blank&#34;&gt;http://networkx.github.io/&lt;/a&gt; geopy is a Python client for several popular geocoding web services.  It helps to locate the coordinates of addresses, cities, countries, and landmarks across the globe using third-party geocoders and other data sources. bandicoot (&lt;a href=&#34;http://bandicoot.mit.edu&#34; target=&#34;_blank&#34;&gt;http://bandicoot.mit.edu&lt;/a&gt;) is Python toolbox to analyze mobile phone metadata.
-With only a few lines of code, load your datasets, visualize the data, perform analyses, and export the results. Folium builds on the data wrangling strengths of the Python ecosystem and the mapping strengths of the Leaflet.js library. Manipulate your data in Python, then visualize it in on a Leaflet map via Folium.&lt;/p&gt;
-
-&lt;p&gt;Thank you for your attention. This is the end.&lt;/p&gt;
-</description>
     </item>
     
   </channel>

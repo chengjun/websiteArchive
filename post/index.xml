@@ -13,6 +13,22 @@
     
     
     <item>
+      <title>scholarNetwork: Visualizing Google Scholar Network</title>
+      <link>https://chengjunwang.com/post/en/2015-02-22-scholarnetwork/</link>
+      <pubDate>Sun, 29 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://chengjunwang.com/post/en/2015-02-22-scholarnetwork/</guid>
+      <description>#scholarNetwork
+Developed by Cheng-Jun Wang &amp;amp; Lingfei Wu
+Cheng-Jun Wang wangchj04@gmail.com Lingfei Wu wlf850927@gmail.com
+Introduction scholarNetwork is a python package for crawling and visualizing the co-author network of Google Scholar.
+To use it, you must have access to Google Scholar, and you would also install beautifulsoup4 and networkx during the installation process.
+Install Install from pypi using pip or easy_install
+ pip install scholarNetwork  or
+ easy_install scholarNetwork  ##Use</description>
+    </item>
+    
+    <item>
       <title>News Map of China</title>
       <link>https://chengjunwang.com/post/post_archive/news-map/</link>
       <pubDate>Mon, 13 Feb 2017 14:32:07 +0800</pubDate>
@@ -398,22 +414,6 @@ I have made a &amp;ldquo;Home&amp;rdquo; page before. However, the home page is 
       <description>GoogleVis could be used to visualize the dynamic change of social pattern. Here I will test some examples.
 First, let us see the examples in googleVis:
 library(googleVis) data(package=&amp;quot;googleVis&amp;quot;) # Data sets in package ‘googleVis’: # Andrew Hurricane Andrew: googleVis example data set # CityPopularity CityPopularity: googleVis example data set # Exports Exports: googleVis example data set # Fruits Fruits: googleVis example data set # OpenClose OpenClose: googleVis example data set # Population Population: googleVis example data set # Regions Regions: googleVis example data set # Stock Stock: googleVis example data set  Second, we try the example of hurricane of andrew:</description>
-    </item>
-    
-    <item>
-      <title>scholarNetwork: Visualizing Google Scholar Network</title>
-      <link>https://chengjunwang.com/post/en/2015-02-22-scholarnetwork/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://chengjunwang.com/post/en/2015-02-22-scholarnetwork/</guid>
-      <description>#scholarNetwork
-Developed by Cheng-Jun Wang &amp;amp; Lingfei Wu
-Cheng-Jun Wang wangchj04@gmail.com Lingfei Wu wlf850927@gmail.com
-Introduction scholarNetwork is a python package for crawling and visualizing the co-author network of Google Scholar.
-To use it, you must have access to Google Scholar, and you would also install beautifulsoup4 and networkx during the installation process.
-Install Install from pypi using pip or easy_install
- pip install scholarNetwork  or
- easy_install scholarNetwork  ##Use</description>
     </item>
     
   </channel>
