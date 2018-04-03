@@ -1,0 +1,45 @@
+<svg 
+  width="1040" 
+  height="280" 
+    viewBox="-250,50,1200, 300"
+  xmlns="http://www.w3.org/2000/svg" 
+  xmlns:svg="http://www.w3.org/2000/svg">
+ <!-- Created with SVG-edit - http://svg-edit.googlecode.com/ -->
+ <defs>
+  <pattern height="100" width="100" y="0" x="0" patternUnits="userSpaceOnUse" id="gridpattern">
+   <image height="100" width="100" y="0" x="0" id="svg_1"/>
+  </pattern>
+  <pattern id="gridpattern" patternUnits="userSpaceOnUse" x="0" y="0" width="100" height="100">
+   <image id="svg_3" x="0" y="0" width="100" height="100"/>
+  </pattern>
+  <pattern height="100" width="100" y="0" x="0" patternUnits="userSpaceOnUse" id="gridpattern">
+   <image height="100" width="100" y="0" x="0"/>
+  </pattern>
+ </defs>
+ <g>
+  <title>Layer 1</title>
+  <g id="svg_17">
+   <g id="svg_57"/>
+   <g id="svg_103"/>
+   <g id="svg_160"/>
+   <path stroke="#fcf9f9" transform="rotate(18.608373641967773 470.659973144531,216.12499999999991) " fill="#007f3f" stroke-width="5" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" d="m392.82498,216.125l77.83497,-73.23359l77.83497,73.23359l-77.83497,73.23359l-77.83497,-73.23359z" id="svg_21"/>
+   <g id="svg_20" stroke="null">
+    <g id="svg_24">
+     <rect fill="#3f007f" stroke-width="5" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x="263.99299" y="204.43026" width="145.44477" height="64.80568" id="svg_5" stroke="#fcf9f9"/>
+     <rect fill="#3f007f" stroke-width="5" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x="80.18916" y="215.70081" width="120.67121" height="39.44693" id="svg_11" stroke="#fcf9f9"/>
+     <rect fill="#3f007f" stroke-width="5" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x="170.49278" y="204.43026" width="104.68827" height="64.80568" id="svg_6" stroke="#fcf9f9"/>
+     <rect fill="#3f007f" stroke-width="5" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x="237.62113" y="224.85814" width="80.71385" height="10.56614" id="svg_7" stroke="#fcf9f9"/>
+     <rect fill="#3f007f" stroke-width="5" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x="328.32433" y="195.27294" width="210.17569" height="67.62331" id="svg_12" stroke="#fcf9f9"/>
+     <circle fill="#aad4ff" stroke-width="5" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" cx="135.72988" cy="277.68885" r="21.5623" id="svg_15" stroke="#fcf9f9"/>
+     <rect fill="#3f007f" stroke-width="5" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x="126.14012" y="236.12869" width="16.78209" height="39.44693" id="svg_16" stroke="#fcf9f9"/>
+     <path fill="#3f007f" stroke-width="5" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" d="m79.55355,258.71875l-42.16589,-20.80397l41.74127,-21.45895l0.42461,42.26292l0.00001,0z" id="svg_18" stroke="#fcf9f9"/>
+     <circle fill="#aad4ff" stroke-width="5" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" cx="472.57038" cy="263.24845" r="42.29562" id="svg_19" stroke="#fcf9f9"/>
+     <circle fill="#aad4ff" stroke-width="5" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" cx="339.91196" cy="265.71389" r="29.96847" id="svg_9" stroke="#fcf9f9"/>
+    </g>
+   </g>
+   <text stroke="#fcf9f9" transform="matrix(0.7021524310112,0,0,0.5223880410194397,101.98486916907132,107.94030272960663) " xml:space="preserve" text-anchor="middle" font-family="serif" font-size="24" id="svg_23" y="195.02857" x="507.02734" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" fill="#ffffff">cheng-Jun Wang</text>
+  </g>
+  <polygon strokeWidth="5" strokecolor="#fcf9f9" fill="#7f00ff" edge="0" orient="x" sides="3" shape="regularPoly" id="svg_8" cy="27" cx="101"/>
+  <polygon strokeWidth="5" strokecolor="none" fill="#7f00ff" edge="0" orient="x" sides="3" shape="regularPoly" id="svg_14" cy="85" cx="362"/>
+ </g>
+</svg>
