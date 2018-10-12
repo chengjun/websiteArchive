@@ -13,6 +13,17 @@
     
     
     <item>
+      <title>关于房子</title>
+      <link>https://chengjunwang.com/note/note_archive/2015-12-30-house/</link>
+      <pubDate>Thu, 11 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://chengjunwang.com/note/note_archive/2015-12-30-house/</guid>
+      <description>&lt;p&gt;人总是要在一个房子里度过，不管是冰房子、石头房子、草房子、泥房子。一个房子是一个私有的领地，你在里面，便感觉自己自己可以安心地干点什么。但是现实生活却让人不断望而却步，因为房子太贵了。这么说，也是矫情。现在谁买不起个房子啊，中国人是三代人一起买房子。钱凑一下总是会有的。但是这中有一个限度。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>语录</title>
       <link>https://chengjunwang.com/note/note_archive/2014-08-29-her-words/</link>
       <pubDate>Tue, 04 Sep 2018 00:00:00 +0000</pubDate>
@@ -455,17 +466,6 @@ $$T(r) = A D_{rmax}^a D(r)^b$$
 T(r)和D(r)代表沿半径r从source到sink对节点的直接流通量$t_i$和耗散量$d_i$进行积分。当r=rmax时，D(r)=D(rmax)=UV。
 果然效果好了。
 看到这里我自愧弗如远甚。</description>
-    </item>
-    
-    <item>
-      <title>关于房子</title>
-      <link>https://chengjunwang.com/note/note_archive/2015-12-30-house/</link>
-      <pubDate>Wed, 30 Dec 2015 00:00:00 +0000</pubDate>
-      
-      <guid>https://chengjunwang.com/note/note_archive/2015-12-30-house/</guid>
-      <description>&lt;p&gt;人总是要在一个房子里度过，不管是冰房子、石头房子、草房子、泥房子。一个房子是一个私有的领地，你在里面，便感觉自己自己可以安心地干点什么。但是现实生活却让人不断望而却步，因为房子太贵了。这么说，也是矫情。现在谁买不起个房子啊，中国人是三代人一起买房子。钱凑一下总是会有的。但是这中有一个限度。&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
