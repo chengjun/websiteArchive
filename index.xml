@@ -43,6 +43,46 @@
     </item>
     
     <item>
+      <title>计算传播学导论</title>
+      <link>https://chengjunwang.com/publication/ccr-book/</link>
+      <pubDate>Wed, 17 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://chengjunwang.com/publication/ccr-book/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;《计算传播学导论》&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;作者: 张伦 / 王成军 / 许小可&lt;/li&gt;
+&lt;li&gt;出版社: 北京师范大学出版社&lt;/li&gt;
+&lt;li&gt;出版年: 2018-9&lt;/li&gt;
+&lt;li&gt;页数: 239&lt;/li&gt;
+&lt;li&gt;装帧: 平装&lt;/li&gt;
+&lt;li&gt;ISBN: 9787303241200&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;二十一世纪是计算社会科学的时代。1998年邓肯·瓦茨关于小世界网络的模型和1999年阿尔伯特·巴拉巴西关于幂律和无标度网络的研究复兴了网络科学。一石激起千层浪，在学术领域产生了深远的影响。对于万维网上的人类行为的研究也形成了一个子领域，被称之为万维网科学(Web Science)；伴随着社交媒体等数字媒体的发展，社会网络分析开始受到前所未有的重视，社交网络上的信息流动网络研究也引起广泛的兴趣；与此同时，机器学习和数据科学取得了突飞猛进的发展，进一步加速了计算化的浪潮；在新闻传播产业当中，数据驱动的新闻生产、计算广告和媒体推荐系统开始成为席卷世界的潮流。面对海量的互联网数据、持续困扰人类的重大社会问题、崭新的理论视角、诱人的物理学模型，在世界大战中发展起来的新闻传播学研究会走向什么地方？这构成了困扰我们的时代问题，而计算传播学正是试图回应这一时代叩问的一种尝试。在大数据和人工智能时代，未来的计算社会科学家更需要训练问题意识、培养计算思维、增强数据挖掘和分析的能力，而这正是本书写作的一个重要目的。&lt;/p&gt;
+
+&lt;p&gt;计算传播学将传播学研究置于数据和计算方法的坚固基础上。数据作为一种新的石油，解放了社会科学家对于理论的过度依赖。随着数字媒体的发展，人类社会积累的人类传播行为数据的规模日趋庞大，详尽地记录了社会发展和人类互动的各种细节。运用这些生动的人类传播行为数据，可以从更细的颗粒度、更大的样本规模上让我们捕捉社会的发展。毫无疑问，对于数据的挖掘依赖于人类的计算能力的提高，依赖于跨学科的研究方法和研究视角。我们人类传播行为的基因恰恰隐藏在互动性当中，但这种人类传播行为的互动性本身也使得传播过程充满了复杂性。网络科学为捕捉到纷繁复杂的人类互动提供了一个很好的视角。从数据出发，借助于计算方法和好的理论视角，就可以更好地刻画人类传播行为的模式和法则。&lt;/p&gt;
+
+&lt;p&gt;Slides和Code见：&lt;a href=&#34;https://github.com/computational-class/ccrbook&#34; target=&#34;_blank&#34;&gt;https://github.com/computational-class/ccrbook&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;计算传播学网站&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Python代码&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;教案&lt;/li&gt;
+&lt;li&gt;案例&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;《计算传播学》导教班及教学研讨会&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;2019年&lt;/li&gt;
+&lt;li&gt;培训对象：利用本书作为核心教材的青年教师&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
       <title>关于房子</title>
       <link>https://chengjunwang.com/note/note_archive/2015-12-30-house/</link>
       <pubDate>Thu, 11 Oct 2018 00:00:00 +0000</pubDate>
@@ -2019,21 +2059,6 @@ Lingfei Wu wlf850927@gmail.com&lt;/p&gt;
 &lt;p&gt;本办法自发布之日起施行，我校被地方政府接纳参加城镇职工医保后，本办法自行废止。&lt;/p&gt;
 
 &lt;p&gt;南京大学校长办公室 2017 年 6 月 26 日印发&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Leveraging the Flow of Collective Attention for Computational Communication Research</title>
-      <link>https://chengjunwang.com/publication/flow-network-analysis/</link>
-      <pubDate>Thu, 15 Jun 2017 22:20:56 +0800</pubDate>
-      
-      <guid>https://chengjunwang.com/publication/flow-network-analysis/</guid>
-      <description>&lt;ul&gt;
-&lt;li&gt;The Panel of Social Networks and Computational Communication, The XXXVII Sunbelt Social Networks Conference of the International Network for Social Network Analysis(INSNA), May 30th – June 4th, 2017 Beijing, China.&lt;/li&gt;
-&lt;li&gt;网络与数据科学前沿论坛，2017年11月11-12日，西北工业大学，国际会议中心第二会议室，西安，中国&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;In preparing.&lt;/p&gt;
-</description>
     </item>
     
   </channel>
