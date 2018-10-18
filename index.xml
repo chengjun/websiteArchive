@@ -48,7 +48,9 @@
       <pubDate>Wed, 17 Oct 2018 00:00:00 +0000</pubDate>
       
       <guid>https://chengjunwang.com/publication/ccr-book/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;《计算传播学导论》&lt;/strong&gt;&lt;/p&gt;
+      <description>
+
+&lt;p&gt;&lt;strong&gt;《计算传播学导论》&lt;/strong&gt;&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;作者: 张伦 / 王成军 / 许小可&lt;/li&gt;
@@ -63,9 +65,27 @@
 
 &lt;p&gt;计算传播学将传播学研究置于数据和计算方法的坚固基础上。数据作为一种新的石油，解放了社会科学家对于理论的过度依赖。随着数字媒体的发展，人类社会积累的人类传播行为数据的规模日趋庞大，详尽地记录了社会发展和人类互动的各种细节。运用这些生动的人类传播行为数据，可以从更细的颗粒度、更大的样本规模上让我们捕捉社会的发展。毫无疑问，对于数据的挖掘依赖于人类的计算能力的提高，依赖于跨学科的研究方法和研究视角。我们人类传播行为的基因恰恰隐藏在互动性当中，但这种人类传播行为的互动性本身也使得传播过程充满了复杂性。网络科学为捕捉到纷繁复杂的人类互动提供了一个很好的视角。从数据出发，借助于计算方法和好的理论视角，就可以更好地刻画人类传播行为的模式和法则。&lt;/p&gt;
 
-&lt;p&gt;Slides和Code见：&lt;a href=&#34;https://github.com/computational-class/ccrbook&#34; target=&#34;_blank&#34;&gt;https://github.com/computational-class/ccrbook&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;目标读者&#34;&gt;目标读者&lt;/h3&gt;
 
-&lt;p&gt;计算传播学网站&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;致力于进行“计算社会科学” 研究的本科生与研究生&lt;/li&gt;
+&lt;li&gt;准备开设《计算传播学》或《计算社会科学》课程的青年教师&lt;/li&gt;
+&lt;li&gt;对于定量传播学研究有基本了解&lt;/li&gt;
+&lt;li&gt;对于Python、R等软件仅初步了解&lt;/li&gt;
+&lt;li&gt;致力于日后进入相关数据科学领域工作的学生&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;本书特色&#34;&gt;本书特色&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;强调跨学科合作 （传播学、网络科学、计算机科学）&lt;/li&gt;
+&lt;li&gt;引用大量发表于Science、Nature、Proceedings of National Sciences (PNAS) 等国际顶级期刊的论文&lt;/li&gt;
+&lt;li&gt;附加主要Python程序代码&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;书籍网站&#34;&gt;书籍网站&lt;/h3&gt;
+
+&lt;p&gt;Slides和Code见：&lt;a href=&#34;https://github.com/computational-class/ccrbook&#34; target=&#34;_blank&#34;&gt;https://github.com/computational-class/ccrbook&lt;/a&gt;&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Python代码&lt;br /&gt;&lt;/li&gt;
@@ -73,7 +93,7 @@
 &lt;li&gt;案例&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;《计算传播学》导教班及教学研讨会&lt;/p&gt;
+&lt;h3 id=&#34;计算传播学-导教班及教学研讨会&#34;&gt;《计算传播学》导教班及教学研讨会&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;2019年&lt;/li&gt;
