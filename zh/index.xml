@@ -11,6 +11,32 @@
     <atom:link href="/zh/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>2019系统科学大会的计算传播学Panel</title>
+      <link>https://chengjunwang.com/zh/post/cn/2018-12-07-ccr-panel/</link>
+      <pubDate>Fri, 07 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://chengjunwang.com/zh/post/cn/2018-12-07-ccr-panel/</guid>
+      <description>&lt;p&gt;第三届中国系统科学大会拟于2019年5月18-19日在湖南长沙举行。大会由上海系统科学研究院主办,国防科技大学承办,中国科学院数学与系统科学研究院系统科学研究所、北京师范大学系统科学学院、北京交通大学交通系统科学与工程研究院、中国船舶工业系统工程研究院、中国系统工程学会、中国自动化学会控制理论专业委员会等单位协办。旨在为系统科学及其相关领域的国内外专家学者提供一个学术交流平台，促进相关学科的交流、发展和融合，促进新方向、新领域的产生。会议将采取大会报告、专题研讨、会前专题讲座、分组报告等形式进行交流。
+&lt;a href=&#34;http://iss.amss.cas.cn/cssc2019/zwtz/&#34; target=&#34;_blank&#34;&gt;http://iss.amss.cas.cn/cssc2019/zwtz/&lt;/a&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;2019系统科学大会邀请组组织者，请提交一个不超过500字的邀请组申请书，并附拟邀请报告人的姓名、单位、联系信息等。每个邀请组须由8-10位报告人组成。详情参见：&lt;a href=&#34;http://cms.amss.ac.cn。&#34; target=&#34;_blank&#34;&gt;http://cms.amss.ac.cn。&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;人类和疾病的传播行为之所以难以理解主要的原因在于其中卷入了海量的异质性的个体及其相互之间的互动，而复杂系统和网络科学为理解人类信息扩散和疾病传播提供了丰富的理论视角。人类的存在无往不在各种复杂系统当中，包括但不限于社会系统、经济系统、通信系统、交通系统、生态系统等。基于数字媒体等方式可以从复杂系统当中收集的海量数据，而大数据技术和人工智能的发展则为理解各种传播现象提供了丰富的计算方法。面对纷繁复杂的重要问题，收集大规模数据，采用计算机科学的算法挖掘和分析背后的模式，采用数据科学、系统科学的视角构建模型则为我们理解模式背后的机制提供了更多的可能性。&lt;/p&gt;
+
+&lt;p&gt;狭义的计算传播是指数据驱动的、借助于可算方法所进行的传播过程，而分析计算传播现象的研究领域就是计算传播学。计算传播学主要关注人类传播行为可计算的基础问题，以传播网络分析、传播文本挖掘、数据科学等作为主要的分析工具，大规模地收集并分析人类和疾病传播行为背后的模式或法则，并分析模式背后的生成机制以及基本原理。为了更好地理解疾病扩散、假新闻的传播等计算传播问题，我们提议在系统科学年会中组织计算传播分论坛，邀请相关领域的研究者对（包括但不限于）以下研究领域进行探讨：&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;复杂系统当中的传播现象的计算基础是什么？其本身是否可以计算？是否可预测？&lt;/li&gt;
+&lt;li&gt;计算传播如何推动大问题、大理论、大数据的融合？如何帮助我们理解复杂的人类群体行为？&lt;/li&gt;
+&lt;li&gt;计算方法在计算传播研究中的应用。&lt;/li&gt;
+&lt;li&gt;计算传播的实践或者商业价值&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+    <item>
       <title>2017年“大事记”</title>
       <link>https://chengjunwang.com/zh/post/post_archive/news2017/</link>
       <pubDate>Thu, 28 Dec 2017 14:32:07 +0800</pubDate>
@@ -268,8 +294,9 @@ chengjuns-MacBook&lt;/p&gt;
 
 &lt;h1 id=&#34;3-概念形成过程&#34;&gt;3.    概念形成过程&lt;/h1&gt;
 
-&lt;p&gt;计算传播学的概念起源于是计算社会科学的发展。计算社会科学以分析社会系统的复杂性作为主要研究范式。社会系统作为一个复杂系统，本身包含了多重本体以及他们之间众多的联系，既有从微观到宏观的联系，也有从宏观到微观的影 响，这造就了社会现象所特有的复杂性。计算社会科学研究主要关注复杂社会系统中的社会现象、社会行为、社会 组织的涌现，例如居住隔离、合作、互惠、社会规范、市场、国家。计算社会科学中的“涌现” 往往表现为一种群体智慧，它是通过海量的异质性个体之间的互动而在群体层面出现的结果。作为一种崭新的研究范式，计算社会科学从数据基础和计算方法两个层面丰富了人们对于 社会现象的认识。
-互联网上的人类传播行为是驱动计算社会科学发展的一个主要动力。与自然科学相比，社会现象卷入了海量的异质性个体的互动行为，因而异常复杂并且难以预测。通常社会科学研究的数据往往是用户报告的、静态的、小规模数据。互联网行为数据和大规模的互联网实验却提供了另外一种可能性。邓肯•瓦茨认为互联网传播数据将会变革我们对于群体人类行为的理解，并产生了一种新的社会科学，邓肯•瓦茨称之为“二十一世纪的科学”，也就是后来广为人知的“计算社会科学”。&lt;/p&gt;
+&lt;p&gt;计算传播学的概念起源于是计算社会科学的发展。计算社会科学以分析社会系统的复杂性作为主要研究范式。社会系统作为一个复杂系统，本身包含了多重本体以及他们之间众多的联系，既有从微观到宏观的联系，也有从宏观到微观的影 响，这造就了社会现象所特有的复杂性。计算社会科学研究主要关注复杂社会系统中的社会现象、社会行为、社会 组织的涌现，例如居住隔离、合作、互惠、社会规范、市场、国家。计算社会科学中的“涌现” 往往表现为一种群体智慧，它是通过海量的异质性个体之间的互动而在群体层面出现的结果。作为一种崭新的研究范式，计算社会科学从数据基础和计算方法两个层面丰富了人们对于 社会现象的认识。&lt;/p&gt;
+
+&lt;p&gt;互联网上的人类传播行为是驱动计算社会科学发展的一个主要动力。与自然科学相比，社会现象卷入了海量的异质性个体的互动行为，因而异常复杂并且难以预测。通常社会科学研究的数据往往是用户报告的、静态的、小规模数据。互联网行为数据和大规模的互联网实验却提供了另外一种可能性。邓肯•瓦茨认为互联网传播数据将会变革我们对于群体人类行为的理解，并产生了一种新的社会科学，邓肯•瓦茨称之为“二十一世纪的科学”，也就是后来广为人知的“计算社会科学”。&lt;/p&gt;
 
 &lt;p&gt;Shah等人曾提出目前社交数据多为传播文本数据，并且与图形数据和视频数据相比，传播文本数据相对容易分析，因而计算社会科学将 传播文本数据作为关注焦点之一，并认为这意味着计算传播学(computational communication science)的兴起。Cohen等人2011年就提出采用计算机科学技术发展新闻学的主张。发展计算传播学研究已经成为计算社会科学在新闻传播领域主要工作。2014年祝建华等人回顾和讨论了计算社会科学在新闻传播领域的应用，按照经典的5W模型，系统介绍了计算社会科学在传播者、渠道、受众、内容、效果 五个领域的主要应用案例;(祝建华等，2014:p.3-13)。2014年，计算传播学作为一个正式的研究领域被提出，王成军从计算社会科学的视角论述了计算传播学的理论框架，强调了寻找人类传播行为“可计算的基因”作为计算传播学发展的基础，以传播网络分析和传播文本挖掘作为主要的研究方法。2015年第一本计算传播学相关的图书《社交网络上的计算传播学》出版，这本书系统总结了采用计算传播学的视角进行社交网络研究的方法、理论和进展。2015年，南京大学成立了计算传播学实验中心，2016年第一届计算传播学论坛召开。计算传播学研究社群的涌现及其建制化发展有助于建立身份认同、促进科研合作、增强 学科间对话、运用群体智慧解决现实和理论问题。&lt;/p&gt;
 
@@ -293,16 +320,17 @@ chengjuns-MacBook&lt;/p&gt;
 
 &lt;p&gt;Watts, D.J., &amp;ldquo;A twenty-first century science,&amp;rdquo; Nature 445 (127) (2007):p.489.&lt;/p&gt;
 
-&lt;p&gt;Lazer, D., et al., &amp;ldquo;Life in the network: The coming age of computational social science,&amp;rdquo; Science 323 (5915)
-(2009):pp.721-723.
-Greenberg, B.S., &amp;ldquo;Person-to-Person Communication in the Diffusion of News Events,&amp;rdquo; Journalism Quarterly 41 (4)(1964):pp.489-494.
-Watts, D.J., &amp;ldquo;Should social science be more solution-oriented?&amp;rdquo; Nature Human Behaviour 1 (2017):p.0015.&lt;/p&gt;
+&lt;p&gt;Lazer, D., et al., &amp;ldquo;Life in the network: The coming age of computational social science,&amp;rdquo; Science 323 (5915)(2009):pp.721-723.&lt;/p&gt;
+
+&lt;p&gt;Greenberg, B.S., &amp;ldquo;Person-to-Person Communication in the Diffusion of News Events,&amp;rdquo; Journalism Quarterly 41 (4)(1964):pp.489-494.&lt;/p&gt;
+
+&lt;p&gt;Watts, D.J., &amp;ldquo;Should social science be more solution-oriented?&amp;rdquo; Nature Human Behaviour 1 (2017):p.0015.&lt;/p&gt;
 
 &lt;p&gt;王成军.计算传播学:作为计算社会科学的传播学[J].中国网络传播研究，2014，第193-206页.&lt;/p&gt;
 
-&lt;p&gt;王成军.计算传播学的起源、概念和应用[J].编辑学刊，2016(3)，第59-64页.
-祝建华、彭泰权、梁海、王成军、秦洁、陈鹤鑫.计算社会科学在新闻传播研究中的应用[J].科研信息化技术与应用，2014(2)，
-第3-13页.&lt;/p&gt;
+&lt;p&gt;王成军.计算传播学的起源、概念和应用[J].编辑学刊，2016(3)，第59-64页.&lt;/p&gt;
+
+&lt;p&gt;祝建华、彭泰权、梁海、王成军、秦洁、陈鹤鑫.计算社会科学在新闻传播研究中的应用[J].科研信息化技术与应用，2014(2)，第3-13页.&lt;/p&gt;
 
 &lt;p&gt;王成军 (2017).计算社会科学视野下的新闻学研究：挑战与机遇[J]. 新闻大学, 4:26-32&lt;/p&gt;
 
@@ -1462,51 +1490,6 @@ for n in range(1,generation+1):
       <description>&lt;p&gt;&lt;/p&gt;
 
 &lt;iframe src=&#34;http://nbviewer.ipython.org/github/chengjun/iching/blob/master/iching_intro.ipynb&#34; scrolling=&#34;no&#34; width=&#34;700&#34; height=&#34;6500&#34;&gt;&lt;/iframe&gt;</description>
-    </item>
-    
-    <item>
-      <title>打包发布python软件包</title>
-      <link>https://chengjunwang.com/zh/post/cn/cn_archive/2015-02-22-distribute-python-package/</link>
-      <pubDate>Sun, 22 Feb 2015 00:00:00 +0000</pubDate>
-      
-      <guid>https://chengjunwang.com/zh/post/cn/cn_archive/2015-02-22-distribute-python-package/</guid>
-      <description>&lt;p&gt;&lt;/p&gt;
-
-&lt;p&gt;我们经常写一些程序碎片，却很少有动力把它们整合起来。前段时间写了一个爬取并可视化谷歌学术网的python程序。今天想不如把它整合一下，虽然非常简单（只有一个函数）。主要参考python官网的&lt;a href=&#34;https://packaging.python.org/en/latest/distributing.html#uploading-your-project-to-pypi&#34; target=&#34;_blank&#34;&gt;发布指南&lt;/a&gt;。&lt;/p&gt;
-
-&lt;p&gt;##注册
-于是首先来到pypi网站注册。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://pypi.python.org/pypi?%3Aaction=submit_form&#34; target=&#34;_blank&#34;&gt;https://pypi.python.org/pypi?%3Aaction=submit_form&lt;/a&gt;
-记下用户名chengjun和密码W4&lt;/p&gt;
-
-&lt;p&gt;##填写软件包信息
-《指南》推荐直接在线填写 &lt;a href=&#34;https://pypi.python.org/pypi?%3Aaction=submit_form&#34; target=&#34;_blank&#34;&gt;https://pypi.python.org/pypi?%3Aaction=submit_form&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;##打包和发布工具
-先要安装两个包：twine和wheel。&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;pip install wheel
-pip install twine
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;##整理项目文件夹
-找项目实例（&lt;a href=&#34;https://github.com/pypa/sampleproject）下载下来，修改其中的部分内容即可。详见指南，或者自己摸索即可。&#34; target=&#34;_blank&#34;&gt;https://github.com/pypa/sampleproject）下载下来，修改其中的部分内容即可。详见指南，或者自己摸索即可。&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;##打包发布
-1.在window环境下，使用cmd，转换工作路径到项目文件夹。
-2. 主要参考 &lt;a href=&#34;https://github.com/pypa/twine打包发布：&#34; target=&#34;_blank&#34;&gt;https://github.com/pypa/twine打包发布：&lt;/a&gt;&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;#Create some distributions in the normal way:
-$ python setup.py sdist bdist_wheel
-
-#Upload with twine:
-$ twine upload dist/*
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;我使用上传的时候出错（typeError），于是直接使用打包好的zip文件（在dist子文件夹当中）手工上传到pypi。注意，每次上传到pypi需要修改一次setup.py中的版本号，并重新打包才可上传。如此而已，比我想象当中要速度快得多、简单的多。&lt;/p&gt;
-
-&lt;p&gt;这里是我刚刚打包发布的一个可视化谷歌学术网络的python软件包：&lt;a href=&#34;https://pypi.python.org/pypi/scholarNetwork/&#34; target=&#34;_blank&#34;&gt;https://pypi.python.org/pypi/scholarNetwork/&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     
   </channel>
