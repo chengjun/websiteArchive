@@ -11,6 +11,37 @@
     <atom:link href="/zh/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>学折纸、学开车</title>
+      <link>https://chengjunwang.com/zh/post/cn/2019-02-14-lovers-day/</link>
+      <pubDate>Wed, 13 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://chengjunwang.com/zh/post/cn/2019-02-14-lovers-day/</guid>
+      <description>
+
+&lt;p&gt;2019年来了，农历新年过去了，今天是情人节。米粒马上四岁，米果也快要满两岁了。再过两年，牛年一到，我也要36岁了。岁月太可怕了，总以为自己还有很多时间，却似乎一转眼就要40岁了。&lt;/p&gt;
+
+&lt;p&gt;今天一早，我搭晓青公司的车去驾校，晓青去合肥出差。&lt;/p&gt;
+
+&lt;h2 id=&#34;鲜花折纸&#34;&gt;鲜花折纸&lt;/h2&gt;
+
+&lt;p&gt;很漂亮的&lt;a href=&#34;https://sv.baidu.com/videoui/page/videoland?pd=bjh&amp;amp;context={%22nid%22:%225549192849981073829%22,%22sourceFrom%22:%22bjh%22}&#34; target=&#34;_blank&#34;&gt;月季花折纸&lt;/a&gt;,简单易学,看了就会的手工DIY花朵&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://chengjunwang.com/img/2019/steps.png&#34; title=&#34;月季花折纸步骤&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;我和米粒搜索了半天，这个方法最为简单。
+- 但是，因为没有粉红色的纸，我们首先用水墨的颜料将白色便签纸染成粉红。
+- 要严格按照上图的步骤来，前三步最关键。否则，容易把花朵🌺&lt;strong&gt;剪成两半！&lt;/strong&gt;
+- 然后，按照图纸一番折腾，终于得到如下图的一朵粉红色的小花。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://chengjunwang.com/img/2019/flower.jpg&#34; title=&#34;祝晓青情人节快乐&#34;&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;学开车&#34;&gt;学开车&lt;/h2&gt;
+
+&lt;p&gt;另外，晓青强行给我在手机app上预约了三天的驾驶科目三的课程。今天谷峰驾校第一天开课，我一早8点就找到了教练。结果，驾校开会从8：30到10点多。然后，就开始练习。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>2019系统科学大会的计算传播学Panel</title>
       <link>https://chengjunwang.com/zh/post/cn/2018-12-07-ccr-panel/</link>
       <pubDate>Thu, 06 Dec 2018 00:00:00 +0000</pubDate>
@@ -1479,17 +1510,6 @@ for n in range(1,generation+1):
 &lt;h3 id=&#34;参考文献&#34;&gt;参考文献&lt;/h3&gt;
 
 &lt;p&gt;Vito Latora（2002）Is the Boston subway a small-world network? Physica A&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>iching：一个用来算卦的python包</title>
-      <link>https://chengjunwang.com/zh/post/cn/cn_archive/2015-07-04-iching-python/</link>
-      <pubDate>Sat, 04 Jul 2015 00:00:00 +0000</pubDate>
-      
-      <guid>https://chengjunwang.com/zh/post/cn/cn_archive/2015-07-04-iching-python/</guid>
-      <description>&lt;p&gt;&lt;/p&gt;
-
-&lt;iframe src=&#34;http://nbviewer.ipython.org/github/chengjun/iching/blob/master/iching_intro.ipynb&#34; scrolling=&#34;no&#34; width=&#34;700&#34; height=&#34;6500&#34;&gt;&lt;/iframe&gt;</description>
     </item>
     
   </channel>
