@@ -75,6 +75,20 @@
     </item>
     
     <item>
+      <title>找回失落的参考群体：对“沉默的螺旋”进行多主体建模</title>
+      <link>https://chengjunwang.com/publication/abm-sos/</link>
+      <pubDate>Tue, 01 Jan 2019 11:33:49 +0800</pubDate>
+      
+      <guid>https://chengjunwang.com/publication/abm-sos/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;引用&lt;/strong&gt;: 王成军、党明辉、杜骏飞(2019).找回失落的参考群体：对“沉默的螺旋”进行多主体建模. 新闻大学, tba&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;[Abstract]&lt;/strong&gt; The purpose of this study is threefold: first, to bring reference groups back into the framework of spiral of silence (SOS) by proposing an integrated framework of dual opinion climate; second, to investigate the boundary conditions of SOS; third, to identify the characteristics of SOS in terms of spatial variation and temporal evolution. Modeling SOS with agent-based models, the findings suggest that there is no guarantee of SOS with reference groups being brought back; the stable existence of SOS is contingent upon the comparative strength of mass media over reference groups; SOS is size-dependent upon reference groups and the population; the growth rate of SOS decreases over time. Thus, this research presents an extension of the SOS theory.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;[Key Words]&lt;/strong&gt; spiral of silence; agent-based model; reference group; size-dependent; computational communication research&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>The Hidden Shape of Stories Reveals Positivity Bias and Gender Bias</title>
       <link>https://chengjunwang.com/publication/storytelling/</link>
       <pubDate>Wed, 14 Nov 2018 00:00:00 +0000</pubDate>
@@ -1673,131 +1687,6 @@ Lingfei Wu wlf850927@gmail.com&lt;/p&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;通常容易欠缺的是中层的研究问题。什么是中层问题？为什么要选中层问题？中层问题可以较好的建立自己的生态位，可以做的东西太多了，人的精力却很有限。&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>网络舆论生态治理研究</title>
-      <link>https://chengjunwang.com/note/2017-8-27-public-opinion/</link>
-      <pubDate>Sun, 27 Aug 2017 12:00:00 +0000</pubDate>
-      
-      <guid>https://chengjunwang.com/note/2017-8-27-public-opinion/</guid>
-      <description>&lt;p&gt;各位老师，大家晚上好，很高兴有机会和大家讨论一下网络舆论生态治理研究的问题。&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;
-
-&lt;p&gt;习近平指出，&amp;rdquo;没有网络安全就没有国家安全，没有信息化就没有现代化&amp;rdquo;。&lt;/p&gt;
-
-&lt;p&gt;习近平总书记指出:“要依法加强网络社会管理，加强网络新技术新应用管理，确保互联网可管可控。”&lt;/p&gt;
-
-&lt;p&gt;国家互联网信息办公室25日公布《互联网跟帖评论服务管理规定》提出,网站要建立跟帖评论审核管理、实时巡查、应急处置等信息安全管理制度,及时发现和处置违法信息，新规定自2017年10月1日起施行。&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:verify&#34;&gt;&lt;a href=&#34;#fn:verify&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; 实名制发帖对于打击网络水军、网络谣言等问题具有重要作用，符合2016年底通过的《中华人民共和国网络安全法》的精神。&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:news&#34;&gt;&lt;a href=&#34;#fn:news&#34;&gt;2&lt;/a&gt;&lt;/sup&gt; 2016年11月7日第十二届全国人民代表大会常务委员会第二十四次会议通过《中华人民共和国网络安全法》&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:web&#34;&gt;&lt;a href=&#34;#fn:web&#34;&gt;3&lt;/a&gt;&lt;/sup&gt;，自2017年6月1日起施行。&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;本规定所称跟帖评论服务，是指互联网站、应用程序、互动传播平台以及其他具有新闻舆论属性和社会动员功能的传播平台，以发帖、回复、留言、“弹幕”等方式，为用户提供发表文字、符号、表情、图片、音视频等信息的服务。&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;其实，在此之前，公民网络身份的管理已经越来越严格。比如，针对微信舆情治理的“微信十条”的发布。2014年8月7日，网信办发布《即时通信工具公众信息服务发展管理暂行规定》 ①服务提供者从事公众信息服务需取得资质 ②强调保护隐私 ③实名注册，遵守“七条底线” ④公众号需审核备案 ⑤时政新闻发布设限 ⑥明确违规如何处罚。“微信十条”发布后，国家互联网信息办公室进入立“法”密集期，《互联网用户账号名称管理规定》（“账号十条”）和《互联网新闻信息服务单位约谈工作规定》（“约谈十条”）也先后出台。&lt;/p&gt;
-
-&lt;p&gt;除了政府的管制以外，商业的因素也在其中发挥了非常大的作用，尤其是伴随着智能手机的普及，手机号码成为了识别公民身份的重要手段。为了促进移动端的发展，各大网站积极推进绑定手机号码的规定，例如2017年知乎网回帖要求必须绑定手机号码。&lt;/p&gt;
-
-&lt;p&gt;网络舆论同生态环境中的有机体一样具有开放性、自组织性 、适应环境的能力和一定的 生命周期，具有自然生态系统的一般特征。每一个网站独立地构成一个“虚拟的生命组织”，其内部的信息内容连接在一起构成一个资源和能量流动的网络：通过吸收开放的注意力流维持其新陈代谢，而产出大量的内容并进一步维系着公众注意力。网络媒体的传播范围、信息量、开放性、交互性等特点是传统媒体所不能相比的，随着手机互联网的普遍使用，网络媒体的影响力大幅度放大。&lt;/p&gt;
-
-&lt;p&gt;根据《第40次中国互联网络发展状况统计报告》&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:net&#34;&gt;&lt;a href=&#34;#fn:net&#34;&gt;4&lt;/a&gt;&lt;/sup&gt;，
-- 截至2017年6月，中国网民规模达7.51亿，半年共计新增网民1992万人。互联网普及率为54.3%，较 2016 年底提升了1.1个百分点。
-- 截至2017年6月，中国手机网民规模达7.24亿，较2016年底增加2830万人。
-- 网民中使用手机上网人群占比由2016年底的95.1% 提升至96.3%。
-- 截至2017年6月，中国网民中农村网民占比26.7%，规模为2.01亿。&lt;/p&gt;
-
-&lt;h1 id=&#34;舆论&#34;&gt;舆论&lt;/h1&gt;
-
-&lt;p&gt;社会转型期，贫富差距、腐败、公平正义等问题的交织，让越来越多的群体心理不平衡感上升，获得感降低。舆论是社会的皮肤和晴雨表，网络舆论则是人们获得发声的话语场，将线下社会被压抑的诉求转向网络空间寻找替代性补偿的结果。越来越多的网络热点事件将地方政府置于舆论的风口浪尖，使其成为人们利用互联网抗争的对象。如何实现这种线上线下的双重舆论治理，不断考验着地方政府的治理能力。&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://chengjunwang.com/img/qiniu/ae91615980ce9d60ab1b0f2a121b719b.png&#34; alt=&#34;nanjing&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;钟智锦等研究2002-2012年十年的网络事件，发现每三个网络事件，就有一件与地方政府有关， 意味着地方政府和普通民众之间的矛盾是网络事件的主要诱因; 在大多数情况下， 地方政府能进行积极的回应， 但还没有形成制度化的危机管理机制。网络行动以非暴力形式为主， 绝大多数能够促使利益诉求得到满足， 但只有少量网络事件会对社会制度带来深远影响。&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://chengjunwang.com/img/qiniu/846d3bda49ba11938089c952218f62b7.png&#34; alt=&#34;10years&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://chengjunwang.com/img/qiniu/5f05336665bb8a6b8a55a202daa1006c.png&#34; alt=&#34;actors&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;李良荣等对2010至2011年间发生的195个网络群体性事件进行分析，发现比例最大的是有关政府与政策的事件，占到总数的35%，在69个政府与政策事件中，22件(占31%) 涉及官员腐败，凸显了网民对政府执政不 当和官员行为失范的集中关注。&lt;/p&gt;
-
-&lt;p&gt;张伦等研究了2012-2014年间我国3359个公共事件，发现涉事群体个体身份多集中于政府部门、 官员和公检法机关；事件类型中制度危机与社会公平类问题占有压倒性优势；从地理分布来看，公共事件多发生于经济较发达地区; 从事件演化模式来看，不同类别的事件呈现出竞争关系， 即大部分事件发生频度呈负相关关系。&lt;/p&gt;
-
-&lt;p&gt;在舆论形成与扩散的过程中，个人意见和与群体意见内部及其之间相互作用、相互影响，建构了舆论的动态演化(Price, 1992; 陈力丹, 1999)。舆论的形成与扩散可以分为五个阶段：问题阶段（problem phase）、建议阶段(proposal phase)、对策阶段(policy phase)、执行阶段(program phase)、评估阶段(appraisal phase)(Price, 1992)。前两个阶段，舆论的社会影响具有明显的信息扩散的特质，而后两个阶段则具有明显的社会规范的特征。概括而言，围绕着舆论形成与扩散机制，国内外相关的研究可以分为以下三种研究路径：&lt;/p&gt;
-
-&lt;p&gt;研究路径一：强调舆论形成的构成要素（element）。理论上而言，舆论的构成要素包括：舆论参与者、舆论信息、传播渠道等，而目前被研究较多的是前两者。首先，舆论形成的参与者包括公众、组织机构（例如政府、公司、媒体、 NGO）、社会精英等(陈力丹, 1999)。其中，公众根据参与的程度和类型可分为一般公众、选举公众、热心公众、积极公众、议题公众和旁观者(Price, 1992)；根据是否公开身份区分为实名用户和匿名用户(夏雨禾, 2011)。以往的研究发现不同类型的舆论参与者对于舆论形成都起着重要的作用(Price, 1992; 夏雨禾, 2011)。另外，舆论信息的特点对于舆论的形成和扩散具有显著影响。一般而言，社会关注度高的舆论内容，其扩散的速度更快(Greenberg, 1964)。例如，钟瑛等(2010)发现网络舆论事件多聚焦于政治与民生问题。最后，传播渠道制约着舆论扩散。舆论传播渠道主要包括大众媒体和人际网络，其中，各种形式的大众媒体作为传播渠道被研究得更加透彻(Greenberg, 1964)。&lt;/p&gt;
-
-&lt;p&gt;研究路径二：强调大众媒体对于舆论形成的效果（effect）。舆论扩散的渠道主要涉及人际网络和大众媒体，但目前国内外关于舆论的形成与扩散的相关研究主要集中于大众媒体的作用。早在1922年，李普曼就认为公众通过媒体获取关于外在世界的信息，而外在世界在公众脑海中形成的各种图像即为舆论(Lippmann, 1922)。围绕着大众媒体在不同维度的舆论效果，一系列基于实证研究的经典传播学理论被提出，包括框架理论(Goffman, 1974)、议程设置理论(McCombs &amp;amp; Shaw, 1972)、沉默的螺旋(Noelle-Neumann, 1993)等。&lt;/p&gt;
-
-&lt;p&gt;研究路径三：强调舆论扩散的演化过程（evolution）。描述舆论演化的模型包括传统的病毒扩散模型（epidemic model）和舆论动力学模型（opinion dynamic model）。二者都侧重于采用数学模型和仿真的方式研究舆论的形成。病毒扩散模型中的SIR模型将公众分为三种基本状态：未接触舆论信息（S状态）、接触并传递信息（I状态）、接触但拒绝传递信息（R状态）。进而建立微分方程，并采用解析或者仿真的方法求解(Pastor-Satorras &amp;amp; Vespignani, 2001; 何大韧等, 2009)。舆论动力学模型则主要关注行动者之间、行动者与环境（包括媒体）之间的互动，根据互动规则进行计算机仿真。根据互动规则的差异可分为选举者模型(Holley &amp;amp; Liggett, 1975)、 多数原则模型(Krapivsky &amp;amp; Redner, 2003)、Sznajd模型(Sznajd, 2000)等。值得一提的是，门槛也是病毒扩撒模型和舆论动力学模型的核心概念，只有当超过一定的阈值之后，模型中的参与者才会行动。&lt;/p&gt;
-
-&lt;p&gt;舆论研究作为一个发展良好的研究范式，在扩散机制分析方面依然存在着一些局限。具体包括：（1）多数研究致力于描述舆论的要素，对扩散机制的分析不够系统；（2）意见动力学等针对演化过程的研究主要建立在计算机仿真的基础上，实证分析相对薄弱；（3）对于传播学而言，舆论研究过于关注媒介效果而对人际作用关注不够。在大众媒体主导的环境下，受限于信息把关、媒介使用时间有限、公众获知的信息太少等因素，使得研究者担忧舆论主要产生于想象(Lippmann, 1922; Price, 1992)。随着媒体融合的发展，社交网络使得人际作用对于舆论扩散的意义凸显。综上，采用实证的方法分析舆论形成与扩散机制中的人际作用不可避免。&lt;/p&gt;
-
-&lt;h1 id=&#34;结构困境&#34;&gt;结构困境&lt;/h1&gt;
-
-&lt;p&gt;徐世甫（2015）在《南京社会科学》发表题为《网络舆论生态治理研究》的文章，指出了中国舆论治理的问题：&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;在由官方、媒体和公众三方舆论场建构的网络舆论生态系统中,存在着结构性问题:政府视公众为客体,在舆论引导中遭到总体性困境;媒体的舆论受到过度的政治经济干预,公信力递减甚至缺失;公众生产的网络谣言满天飞,冲击社会正常秩序。&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;为超越这些危机,政府应实施主体间性理念,推动舆论生产、消费与分解的理性合一;媒体要实现结构化转型,以增强公信力来提升舆论影响力;公众须提升信息素养,以言论自律形成人人把关的和谐舆论生态,最终实现网络舆论生态文明。&lt;/p&gt;
-
-&lt;h1 id=&#34;从舆论治理到社会治理&#34;&gt;从舆论治理到社会治理&lt;/h1&gt;
-
-&lt;p&gt;网络舆论是社会的皮肤和晴雨表，治理者需要从各种网络舆论中发现深层次的社会问题，不能拘泥于舆论表层的治理。&lt;/p&gt;
-
-&lt;p&gt;从地方政府网络安全的角度来看，运动式的舆论治理虽然可以减少网络谣言、虚假信息等有害信息，但是也会因为缺乏宽容致使社会积怨难以正常释放，无法从根本上解决问题。&lt;/p&gt;
-
-&lt;p&gt;政府对待网民舆论需要摆脱敌对思维，通过尊重、对话、信任以及符合网民需要的话语表达，来扩大公众同意凝聚共识。&lt;/p&gt;
-
-&lt;p&gt;、&lt;/p&gt;
-
-&lt;h2 id=&#34;完善网络舆情监测-研判和预警机制-落实网络事件应急处置机制&#34;&gt;完善网络舆情监测、研判和预警机制，落实网络事件应急处置机制&lt;/h2&gt;
-
-&lt;p&gt;各政府部门要与宣传部、公安局等互联网管理部门建立联动机制，实现资源及时共享，发现苗头及时通报，密切跟踪。要进一步加强网络舆情会商，联合涉情部门梳理事件相关社会背景、诱发因素、 发展态势等，在全面掌握信息的前提下实现对舆情走势和发展节点的科学、精准研判，研究制定合适的舆论引导和议程设置策略，用准确全面的信息和恰到好处的舆论引导对冲负面舆论的影响，在舆情事件演变为线下行动前化解危机。&lt;/p&gt;
-
-&lt;p&gt;建立舆情事件应急处置工作办法。明晰责任、机制和流程，启动重大舆情事件快速处理程序，做到发现快、判断快、协调快、处理快 、反馈快，打破地区、行业部门界限。例如，2015年南京市宣传部就制定了《南京市舆情事件应急处置工作办法》。&lt;/p&gt;
-
-&lt;h2 id=&#34;重视舆论治理中的对话沟通&#34;&gt;重视舆论治理中的对话沟通&lt;/h2&gt;
-
-&lt;p&gt;地方政府一方面需要从单一依靠强制力和运动式治理理念转向对话沟通，并在策略上提高大数据在网络舆论治理中的运用能力，及时发现潜舆论做好预警引导;另一方面需要拓宽沟通渠道，借助新媒体重塑官方话语体系，深刻把握网络舆论背后的社会心态，通过平等、尊重、对话等进 行调适舒缓，进而推进地方网络舆论生态的健康发展。&lt;/p&gt;
-
-&lt;p&gt;把舆情当民情，而非敌情或社会噪音。深入网络，了解问题，体察民意。&lt;/p&gt;
-
-&lt;p&gt;一、要及时发布信息，改变“封、捂、堵、压、瞒”的治理思维;
-二、要深入网络舆论场，通过“在场”来了解民意 诉求与舆论的焦点;
-三、要从运用新技术实现传统媒体、网站“两微一端”等媒介信息发布的协同，最大限度地消除信息死角;
-四、要理解网民话语表达方式，重拾生动表达传统，创新表达体系。&lt;/p&gt;
-
-&lt;h2 id=&#34;有效推进数据开放&#34;&gt;有效推进数据开放&lt;/h2&gt;
-
-&lt;p&gt;建立统一的开放数据门户，为公众提供一站式的政府数据获取及相关服务。明确数据的开放范围与保密范围 ，加快制定数据安全、信息安全、隐私保护方面的法律法规。同时，为确保政策的有效执行，建议建立有效的公众反馈机制和健全的问责制度，对各部门的执行 情况进行实时监督。对现有资源进行全面整合， 构建一个跨系统、跨部门的统一开放数据平台，为公众提供开放的数据服务。&lt;/p&gt;
-
-&lt;h2 id=&#34;提升网络舆论大数据治理能力&#34;&gt;提升网络舆论大数据治理能力。&lt;/h2&gt;
-
-&lt;p&gt;对于网络舆论治理实践，舆论大数据蕴含了 与传播内容、传播心理、传播行为、传播关系等相关 的多维度信息，为我们更大范围、更加全面地洞察 “舆论景观”提供了新的机会。通过机器学习、语义分析、社会网络分析等手段，描述网络舆论场中的议题分布与意见分布，以及从历史角度追溯其议题与意见分布的变化，进而提升预警能力。&lt;/p&gt;
-
-&lt;h2 id=&#34;侧重潜在舆论的引导&#34;&gt;侧重潜在舆论的引导。&lt;/h2&gt;
-
-&lt;p&gt;陈力丹认为，对于舆论引导来说，容易被忽视的潜舆论十分重要，如果在舆论处于潜舆论的时候进行引导，容易得到较好的效果;而引导显舆论的困难程度，则远大于潜舆论。&lt;/p&gt;
-
-&lt;h2 id=&#34;政府回应机制-网络协商机制&#34;&gt;政府回应机制。网络协商机制。&lt;/h2&gt;
-&lt;div class=&#34;footnotes&#34;&gt;
-
-&lt;hr /&gt;
-
-&lt;ol&gt;
-&lt;li id=&#34;fn:verify&#34;&gt;&lt;a href=&#34;http://media.people.com.cn/n1/2017/0825/c14677-29495044.html&#34; target=&#34;_blank&#34;&gt;http://media.people.com.cn/n1/2017/0825/c14677-29495044.html&lt;/a&gt;
- &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:verify&#34;&gt;&lt;sup&gt;^&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li id=&#34;fn:news&#34;&gt;国家网信办发布管理规定:未实名认证不得跟帖评论 &lt;a href=&#34;http://news.bandao.cn/news_html/201708/20170826/news_20170826_2757801.shtml&#34; target=&#34;_blank&#34;&gt;http://news.bandao.cn/news_html/201708/20170826/news_20170826_2757801.shtml&lt;/a&gt;
- &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:news&#34;&gt;&lt;sup&gt;^&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li id=&#34;fn:web&#34;&gt;&lt;a href=&#34;http://www.miit.gov.cn/n1146295/n1146557/n1146614/c5345009/content.html&#34; target=&#34;_blank&#34;&gt;http://www.miit.gov.cn/n1146295/n1146557/n1146614/c5345009/content.html&lt;/a&gt;
- &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:web&#34;&gt;&lt;sup&gt;^&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li id=&#34;fn:net&#34;&gt;&lt;a href=&#34;http://www.cac.gov.cn/2017-08/04/c_1121427728.htm&#34; target=&#34;_blank&#34;&gt;http://www.cac.gov.cn/2017-08/04/c_1121427728.htm&lt;/a&gt;
- &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:net&#34;&gt;&lt;sup&gt;^&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/div&gt;</description>
     </item>
     
   </channel>
