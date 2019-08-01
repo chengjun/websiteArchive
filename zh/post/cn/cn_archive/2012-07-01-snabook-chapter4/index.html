@@ -550,7 +550,7 @@ type_string='type',filename_prefix='',output_type='pdf'):
         t=m.node[n][type_string]
         nodesets[t].append(n)
     ## 使用相应的颜色设置，将每组中的节点分开绘制
-    print &quot;drawing nodes...&quot;
+    print(&quot;drawing nodes...&quot;)
     i=0
     for key in nodesets.keys():
         ns=[d[n]*100 for n in nodesets[key]]
@@ -568,7 +568,9 @@ type_string='type',filename_prefix='',output_type='pdf'):
     plot.axis('off')
     if filename_prefix is not '':
         plot.savefig(filename_prefix+'.'+output_type)
+
 最后，我们绘制出网络：
+
 import multimode as mm
 
 # type-string 指引函数某种需要辨别的属性
