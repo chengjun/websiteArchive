@@ -43,6 +43,23 @@
     </item>
     
     <item>
+      <title>Elements of Computational Communication</title>
+      <link>https://chengjunwang.com/publication/ccbook/</link>
+      <pubDate>Tue, 01 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://chengjunwang.com/publication/ccbook/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://chengjunwang.com/img/headers/ccbooklogo2.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;My ebook &lt;strong&gt;Elements of Computational Communication (In Chinese 计算传播基础）&lt;/strong&gt; is now available online, enjoy! &lt;a href=&#34;http://computational-class.github.io/ccbook/&#34; target=&#34;_blank&#34;&gt;http://computational-class.github.io/ccbook/&lt;/a&gt;. It is based on two related master courses:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/computational-class/bigdata&#34; target=&#34;_blank&#34;&gt;https://github.com/computational-class/bigdata&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/computational-class/cjc&#34; target=&#34;_blank&#34;&gt;https://github.com/computational-class/cjc&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Journal Citation Report 2019 for Communication Journals</title>
       <link>https://chengjunwang.com/post/en/2019-07-11-jcr/</link>
       <pubDate>Thu, 11 Jul 2019 00:00:00 +0000</pubDate>
@@ -2246,69 +2263,6 @@ tax(500000, 0.45, 13505) = 213450
 &lt;p&gt;职工申请成功后，系统于次日（工作日）将提取资金转入职工本人联名（银行）卡，同时给职工发送资金到账提示短信。&lt;/p&gt;
 
 &lt;p&gt;南京住房公积金管理中心办公室        2017年8月23日印发&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>scholarNetwork: Visualizing Google Scholar Network</title>
-      <link>https://chengjunwang.com/post/en/2015-02-22-scholarnetwork/</link>
-      <pubDate>Sun, 29 Oct 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://chengjunwang.com/post/en/2015-02-22-scholarnetwork/</guid>
-      <description>
-
-&lt;p&gt;#scholarNetwork&lt;/p&gt;
-
-&lt;p&gt;Developed by Cheng-Jun Wang &amp;amp; Lingfei Wu&lt;/p&gt;
-
-&lt;p&gt;Cheng-Jun Wang wangchj04@gmail.com
-Lingfei Wu wlf850927@gmail.com&lt;/p&gt;
-
-&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
-
-&lt;p&gt;scholarNetwork is a python package for crawling and visualizing the co-author network of Google Scholar.&lt;/p&gt;
-
-&lt;p&gt;To use it, you must have access to Google Scholar, and you would also install beautifulsoup4 and networkx during the installation process.&lt;/p&gt;
-
-&lt;h2 id=&#34;install&#34;&gt;Install&lt;/h2&gt;
-
-&lt;p&gt;Install from pypi using pip or easy_install&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;     pip install scholarNetwork
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;or&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;     easy_install scholarNetwork
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;##Use&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;    from scholarNetwork import scholarNetwork
-    import matplotlib.pyplot as plt
-    import networkx as nx
-
-    ## The seed of crawler
-    seed = &#39;https://scholar.google.nl/citations?user=nNdt_G8AAAAJ&amp;amp;hl=en&amp;amp;oe=ASCII&#39;
-    ## How many nodes do you want to visulize? Always start with a small one.
-    Nmax = 21
-    ## Get the graph g
-    g = scholarNetwork.getGraph(seed, Nmax)
-
-    ## plot the network
-    pos=nx.spring_layout(g) #setup the layout
-
-    nx.draw(g, pos, node_shape = &#39;o&#39;,
-            edge_color = &#39;gray&#39;, width = 0.5,
-            with_labels = True, arrows = True)
-    plt.show()
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://chengjun.qiniudn.com/example.png&#34; alt=&#34;1&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Of course, you can get a much larger graph to see what&amp;rsquo;s happening around you, just to change the value of Nmax. However, you have to be patient to wait for much longer time.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://chengjun.qiniudn.com/ego300large.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-</description>
     </item>
     
   </channel>
