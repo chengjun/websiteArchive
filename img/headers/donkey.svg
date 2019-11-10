@@ -13,10 +13,14 @@
 	<!ENTITY ns_svg "http://www.w3.org/2000/svg">
 	<!ENTITY ns_xlink "http://www.w3.org/1999/xlink">
 ]>
-<svg 
+<svg
 	 xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;" i:viewOrigin="166.5049 741.1592" i:rulerOrigin="0 0" i:pageBounds="0 792 612 0"
 	 xmlns="&ns_svg;" xmlns:xlink="&ns_xlink;" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
-	 width="357.897" height="334.297" viewBox="0 0 357.897 334.297" overflow="visible" enable-background="new 0 0 357.897 334.297"
+	 width="357.897"
+	 height="134.297"
+	 viewBox="-500 0 1357.897 334.297"
+	 overflow="visible"
+	 enable-background="new 0 0 357.897 334.297"
 	 xml:space="preserve">
 	<metadata>
 <rdf:RDF
@@ -66,44 +70,44 @@
 		<g i:extraneous="self">
 			<g id="Layer_1" i:layer="yes" i:dimmedPercent="50" i:rgbTrio="#4F008000FFFF">
 				<g>
-					
+
 						<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="#BFBFBF" stroke="#000000" stroke-width="0.36" stroke-miterlimit="2.4142" d="
 						M17.184,98.12c0,0,9.889,5.546,5.186,11.334C18.389,114.521,38.531,100.772,17.184,98.12z"/>
-					
+
 						<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="#6B432F" stroke="#000000" stroke-width="0.36" stroke-miterlimit="2.4142" d="
 						M80.982,24.914C80.861,24.551,73.987,8.875,70.729,6.1c-3.376-2.774-2.772-1.688-2.653,0.724
 						c0.122,2.291,1.93,14.834,1.568,20.623c-0.241,5.789,2.17,22.071,2.532,22.071C72.66,49.517,85.564,59.888,80.982,24.914z"/>
-					
+
 						<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#241610" stroke-width="0.72" stroke-linecap="round" stroke-miterlimit="2.4142" d="
 						M69.524,20.813c0,0-2.05-16.523-1.567-16.401c4.824,0.843,9.406,12.543,9.406,12.543"/>
 					<g>
-						
+
 							<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#301E15" stroke-width="0.72" stroke-linecap="round" stroke-miterlimit="2.4142" d="
 							M69.524,21.055c0,0-2.05-16.282-1.207-16.282c4.342,0.724,9.287,12.784,9.287,12.784"/>
-						
+
 							<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#3A251A" stroke-width="0.72" stroke-linecap="round" stroke-miterlimit="2.4142" d="
 							M69.524,21.175c0,0-2.05-16.041-0.843-16.041c3.858,0.604,9.165,12.906,9.165,12.906"/>
-						
+
 							<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#472D1F" stroke-width="0.72" stroke-linecap="round" stroke-miterlimit="2.4142" d="
 							M69.645,21.416c0,0-2.17-15.799-0.724-15.799c3.618,0.243,9.045,12.906,9.045,12.906"/>
-						
+
 							<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#543424" stroke-width="0.72" stroke-linecap="round" stroke-miterlimit="2.4142" d="
 							M69.645,21.657c0,0-2.051-15.558-0.362-15.678c3.135,0.12,8.924,13.025,8.924,13.025"/>
-						
+
 							<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#5E3B29" stroke-width="0.72" stroke-linecap="round" stroke-miterlimit="2.4142" d="
 							M69.766,21.778c0,0-2.171-15.196-0.121-15.316c2.773-0.121,8.683,13.145,8.683,13.145"/>
 					</g>
-					
+
 						<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#6B432F" stroke-width="0.72" stroke-linecap="round" stroke-miterlimit="2.4142" d="
 						M69.766,22.018c0,0-2.171-14.954,0.241-15.195c2.412-0.241,8.563,13.267,8.563,13.267"/>
-					
+
 						<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000000" stroke-width="0.36" stroke-linecap="round" stroke-miterlimit="2.4142" d="
 						M69.645,23.225c0,0-1.688-14.712-1.688-16.763c0,0-1.086-3.015,0.844-2.05c0,0,4.462,0.843,10.613,17.004"/>
-					
+
 						<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="#8FA6AB" stroke="#000000" stroke-width="0.36" stroke-miterlimit="2.4142" d="
 						M334.364,157.454c0,0,15.558-2.652,20.861-2.895l0.243-0.965c0,0,1.085,1.087,0.12,2.774l-0.363-0.965
 						C355.226,155.403,336.292,157.454,334.364,157.454z"/>
-					
+
 						<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="#1A110C" stroke="#000000" stroke-width="0.36" stroke-miterlimit="2.4142" d="
 						M70.247,48.671c0,0,0.482-0.482,0-1.084c-0.602-0.603-2.17-1.207-2.17-1.207l1.93,0.361c0,0,0.481,0-0.121-0.963
 						c-0.603-0.965-1.085-1.567-1.81-1.809c-0.723-0.363,2.412,0.602,2.895,1.446c0.604,0.843,1.206,0.362,0.724-0.24
@@ -145,108 +149,108 @@
 						c0.482,0.603,3.017,0.361,3.017,0.724c0,0.481-3.258-0.241-3.258,0.603c-0.119,1.086,1.689,1.086,2.653,0.844
 						c0.965-0.12,2.654-0.483,2.051,0c-0.724,0.482-1.086,0.965-0.241,0.844c0.845,0,1.447,1.69,3.496,1.328
 						c2.052-0.241,6.634-0.724,5.911,0.12c-0.724,0.845-4.342,2.171-4.342,2.413S150.689,117.293,70.247,48.671z"/>
-					
+
 						<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000000" stroke-width="0.36" stroke-miterlimit="2.4142" d="
 						M76.882,48.671c0,0-3.136-3.256-4.222-3.978"/>
-					
+
 						<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000000" stroke-width="0.36" stroke-miterlimit="2.4142" d="
 						M77.243,46.259c0,0-2.412-4.824-3.136-5.307"/>
-					
+
 						<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000000" stroke-width="0.36" stroke-miterlimit="2.4142" d="
 						M78.69,47.346c0,0-2.774-7.237-3.739-7.839"/>
 					<path i:knockout="Off" fill="none" stroke="#000000" stroke-width="0.36" stroke-miterlimit="2.4142" d="M77.966,41.557
 						l-1.93-3.135"/>
-					
+
 						<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000000" stroke-width="0.36" stroke-miterlimit="2.4142" d="
 						M87.855,51.204c0,0,4.583-7.115,4.462-10.13"/>
-					
+
 						<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000000" stroke-width="0.36" stroke-miterlimit="2.4142" d="
 						M90.992,50.482c0,0,2.412-4.584,2.773-7.356"/>
-					
+
 						<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000000" stroke-width="0.36" stroke-miterlimit="2.4142" d="
 						M96.9,46.501c0,0-2.773,6.994-3.858,8.081"/>
-					
+
 						<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000000" stroke-width="0.36" stroke-miterlimit="2.4142" d="
 						M98.951,50.482c0,0-3.015,5.185-4.101,5.667"/>
-					
+
 						<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000000" stroke-width="0.36" stroke-miterlimit="2.4142" d="
 						M95.695,53.495c0,0,2.17-4.46,2.894-6.754"/>
-					
+
 						<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000000" stroke-width="0.36" stroke-miterlimit="2.4142" d="
 						M101.364,51.565c0,0-2.051,5.066-4.222,5.91"/>
-					
+
 						<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000000" stroke-width="0.36" stroke-miterlimit="2.4142" d="
 						M104.86,54.943c0,0-1.688,4.704-3.858,5.548"/>
-					
+
 						<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000000" stroke-width="0.36" stroke-miterlimit="2.4142" d="
 						M104.499,50.36c0,0-2.773,7.237-4.704,8.685"/>
-					
+
 						<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000000" stroke-width="0.36" stroke-miterlimit="2.4142" d="
 						M107.031,55.667c0,0-1.567,4.1-4.342,5.548"/>
-					
+
 						<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000000" stroke-width="0.36" stroke-miterlimit="2.4142" d="
 						M103.775,59.284c0,0,2.17-3.496,2.773-5.789"/>
-					
+
 						<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000000" stroke-width="0.36" stroke-miterlimit="2.4142" d="
 						M109.082,56.028c0,0-2.895,6.393-4.824,6.997"/>
-					
+
 						<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000000" stroke-width="0.36" stroke-miterlimit="2.4142" d="
 						M110.649,62.06c0,0-1.809,3.255-3.377,3.859"/>
-					
+
 						<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000000" stroke-width="0.36" stroke-miterlimit="2.4142" d="
 						M114.509,63.747c0,0-2.894,4.102-4.583,4.341"/>
-					
+
 						<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000000" stroke-width="0.36" stroke-miterlimit="2.4142" d="
 						M108.72,67.366c0,0,3.86-3.619,4.583-4.945"/>
-					
+
 						<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000000" stroke-width="0.36" stroke-miterlimit="2.4142" d="
 						M118.248,64.953c0,0-4.462,4.943-6.03,5.426"/>
-					
+
 						<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000000" stroke-width="0.36" stroke-miterlimit="2.4142" d="
 						M121.865,71.344c0,0-4.101,3.859-5.064,3.859"/>
-					
+
 						<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000000" stroke-width="0.36" stroke-miterlimit="2.4142" d="
 						M120.78,67.849c0,0-4.342,4.581-6.15,5.063"/>
-					
+
 						<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000000" stroke-width="0.36" stroke-miterlimit="2.4142" d="
 						M117.041,73.395c0,0,4.704-3.737,5.307-4.581"/>
-					
+
 						<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000000" stroke-width="0.36" stroke-miterlimit="2.4142" d="
 						M127.292,71.827c0,0-3.255,5.547-7.236,7.117"/>
-					
+
 						<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000000" stroke-width="0.36" stroke-miterlimit="2.4142" d="
 						M129.825,77.616c0,0-4.101,4.1-5.547,4.341"/>
-					
+
 						<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000000" stroke-width="0.36" stroke-miterlimit="2.4142" d="
 						M129.221,74.481c0,0-5.667,5.667-6.873,6.15"/>
-					
+
 						<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000000" stroke-width="0.36" stroke-miterlimit="2.4142" d="
 						M132.115,78.099c0,0-4.582,5.426-6.391,5.547"/>
-					
+
 						<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000000" stroke-width="0.36" stroke-miterlimit="2.4142" d="
 						M136.338,80.873c0,0-6.754,4.704-8.683,4.583"/>
-					
+
 						<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000000" stroke-width="0.36" stroke-miterlimit="2.4142" d="
 						M140.799,81.475c0,0-8.924,5.911-10.732,6.03"/>
-					
+
 						<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000000" stroke-width="0.36" stroke-miterlimit="2.4142" d="
 						M142.85,86.781c0,0-7.356,3.137-9.287,3.376"/>
-					
+
 						<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000000" stroke-width="0.36" stroke-miterlimit="2.4142" d="
 						M140.438,84.851c0,0-4.704,3.017-6.031,3.377"/>
-					
+
 						<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000000" stroke-width="0.36" stroke-miterlimit="2.4142" d="
 						M147.07,88.229c0,0-7.959,4.705-9.526,4.824"/>
-					
+
 						<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000000" stroke-width="0.36" stroke-miterlimit="2.4142" d="
 						M148.639,89.557c0,0-6.633,4.824-8.563,5.185"/>
-					
+
 						<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000000" stroke-width="0.36" stroke-miterlimit="2.4142" d="
 						M150.568,91.004c0,0-6.753,4.824-8.201,4.942"/>
-					
+
 						<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000000" stroke-width="0.36" stroke-miterlimit="2.4142" d="
 						M154.548,93.776c0,0-7.236,4.221-9.045,4.221"/>
-					
+
 						<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000000" stroke-width="0.36" stroke-miterlimit="2.4142" d="
 						M161.542,95.829c0,0-6.873,1.326-8.924,2.53c-2.17,1.207-3.979,1.689-3.979,1.689"/>
 					<path i:knockout="Off" fill="none" stroke="#000000" stroke-width="0.36" stroke-miterlimit="2.4142" d="M164.317,100.652
@@ -261,27 +265,27 @@
 					<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="#593727" d="M343.048,186.76
 						c-0.482-5.065-1.328-9.527-0.965-10.372c0,0-2.172-3.619,3.134-11.578c0,0,0.241,11.817,0.241,15.195
 						c0,1.328,0.483,3.859,0.966,6.391C346.424,186.397,343.53,191.223,343.048,186.76z"/>
-					
+
 						<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#241610" stroke-width="0.72" stroke-linecap="round" stroke-miterlimit="2.4142" d="
 						M343.648,189.292c1.81,3.256,2.896-1.205,2.896-1.205"/>
 					<g>
-						
+
 							<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#2E1D14" stroke-width="0.72" stroke-linecap="round" stroke-miterlimit="2.4142" d="
 							M343.648,189.051c1.568,2.774,2.896-1.206,2.896-1.206"/>
-						
+
 							<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#392419" stroke-width="0.72" stroke-linecap="round" stroke-miterlimit="2.4142" d="
 							M343.53,188.688c1.326,2.534,2.894-1.205,2.894-1.205"/>
-						
+
 							<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#442A1D" stroke-width="0.72" stroke-linecap="round" stroke-miterlimit="2.4142" d="
 							M343.53,188.327c1.084,2.171,2.894-1.204,2.894-1.204"/>
-						
+
 							<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#4E3122" stroke-width="0.72" stroke-linecap="round" stroke-miterlimit="2.4142" d="
 							M343.53,187.966c0.722,1.809,2.772-1.207,2.772-1.207"/>
 					</g>
-					
+
 						<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#593727" stroke-width="0.72" stroke-linecap="round" stroke-miterlimit="2.4142" d="
 						M343.408,187.724c0.604,1.327,2.895-1.205,2.895-1.205"/>
-					
+
 						<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000000" stroke-width="0.36" stroke-miterlimit="2.4142" d="
 						M345.217,164.689c0,0,0.241,11.821,0.241,15.197c0,3.256,3.017,14.352,1.93,12.18c-1.085-2.17,4.221,10.854,2.773,8.321
 						c-1.326-2.532,5.308,10.009,3.378,7.839c-1.931-2.291,7.235,14.11,3.256,11.336c-3.86-2.773,3.618,7.237-1.087,5.548
@@ -289,11 +293,11 @@
 						c0,0-1.688-7.478-2.288-6.393c-0.484,1.087-1.087-2.532-2.174-9.769c0,0-1.085,10.856-1.326-6.872
 						c0,0-0.604,6.872-2.049-12.784c0,0-2.412-2.291-2.412-16.643c0,0-1.689-3.137,0.238-13.389c0,0-2.169-2.411-0.238-7.476
 						c0,0-1.809,2.05,0.843-5.789c2.532-7.96-1.206-22.19-0.36-23.879C342.083,176.267,339.911,172.65,345.217,164.689z"/>
-					
+
 						<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="#593727" stroke="#000000" stroke-width="0.36" stroke-miterlimit="2.4142" d="
 						M345.941,153.354c0,0,1.326-5.186,2.292-5.427c0.963-0.361-0.604-4.702-2.051-3.619
 						C344.614,145.394,344.734,151.062,345.941,153.354z"/>
-					
+
 						<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="#6B432F" stroke="#000000" stroke-width="0.36" stroke-miterlimit="2.4142" d="
 						M331.71,242.356c0,0,0.361-4.702,0-6.632c-0.362-1.929-2.653-3.617-1.205-7.476c0,0,2.895,1.565,0.482-1.811
 						c0,0-0.604-1.326-0.363-2.651c0,0,1.447,0,0.604-2.051c0,0-0.482-1.93-0.362-2.413c0.122-0.361,1.569,1.087,0.362-1.689
@@ -321,7 +325,7 @@
 						c2.773,1.327,3.256,4.944,5.306,6.874c3.859,3.979,7.477-9.165,9.647-14.352c1.689-3.979,3.859-5.306,5.307-5.306
 						c0,0,2.774-1.689-2.291,6.15c0,0-11.337,14.352-8.563,31.235c0,0,0.603,1.327,0.241,4.946
 						c-0.241,3.617,9.165,19.658,6.753,17.728C114.388,190.377,115.112,187.241,115.112,187.241z"/>
-					
+
 						<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="#E6E6E6" stroke="#000000" stroke-width="0.36" stroke-miterlimit="2.4142" d="
 						M109.805,178.801c0,0,0.724,4.341,1.93,5.546c0,0,0.362,6.393,1.206,6.03c0,0-0.122,4.704,1.206,4.826
 						c0,0,1.206,4.22,2.171,4.702c0,0,1.084,3.858,2.17,4.341c0,0,0.724,2.413,2.291,2.532c0,0,0.724,2.895,2.654,3.017
@@ -355,45 +359,45 @@
 						c0,0-23.276-22.673-26.533-25.447c-3.377-2.774-12.542-7.476-14.952-19.658c-2.534-12.18-6.151-17.487-15.078-14.472
 						c-8.803,3.135-25.686,14.713-76.821,5.306c-27.136-4.945-23.154-4.102-26.773,0.602c-4.342,5.67-10.854,19.658-14.473,22.432
 						s-17.244-0.482-27.738-11.938C119.332,188.206,111.735,179.041,109.805,178.801z"/>
-					
+
 						<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="#E6E6CF" stroke="#000000" stroke-width="0.072" stroke-linecap="round" stroke-miterlimit="2.4142" d="
 						M25.385,106.319c-0.242-0.241-2.17,0.483-1.929,1.448C23.937,109.334,26.47,107.887,25.385,106.319z"/>
-					
+
 						<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="#E6E6CF" stroke="#000000" stroke-width="0.072" stroke-linecap="round" stroke-miterlimit="2.4142" d="
 						M23.335,107.406c-0.362-0.482-2.292,0.118-1.93,1.327C21.888,110.299,24.3,108.852,23.335,107.406z"/>
-					
+
 						<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="#E6E6CF" stroke="#000000" stroke-width="0.072" stroke-linecap="round" stroke-miterlimit="2.4142" d="
 						M21.284,108.369c-0.361-0.482-2.654,0.241-1.93,1.326C20.44,111.265,22.37,109.937,21.284,108.369z"/>
-					
+
 						<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="#E6E6CF" stroke="#000000" stroke-width="0.072" stroke-linecap="round" stroke-miterlimit="2.4142" d="
 						M17.425,110.058c-0.241-0.482-2.895,0.481-1.93,1.326C17.425,112.952,18.511,111.625,17.425,110.058z"/>
-					
+
 						<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="#E6E6CF" stroke="#000000" stroke-width="0.072" stroke-linecap="round" stroke-miterlimit="2.4142" d="
 						M19.235,109.334c-0.363-0.482-2.895,0.482-1.93,1.326C19.113,112.108,20.199,110.901,19.235,109.334z"/>
 					<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="#CAA49C" d="M21.405,98.601c0,0,0,1.326-1.929,1.808
 						c-1.81,0.363-9.288,4.463-9.89,4.824C9.104,105.596,10.188,94.742,21.405,98.601z"/>
-					
+
 						<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="#E6E6CF" stroke="#000000" stroke-width="0.072" stroke-linecap="round" stroke-miterlimit="2.4142" d="
 						M14.168,103.063c0.241,0.482-1.809,1.93-2.17,0.603C11.395,101.978,13.083,100.531,14.168,103.063z"/>
-					
+
 						<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="#E6E6CF" stroke="#000000" stroke-width="0.072" stroke-linecap="round" stroke-miterlimit="2.4142" d="
 						M10.552,104.993c0.119,0.603-2.292,2.048-2.292,0.722C8.259,103.304,9.947,103.183,10.552,104.993z"/>
-					
+
 						<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="#E6E6CF" stroke="#000000" stroke-width="0.072" stroke-linecap="round" stroke-miterlimit="2.4142" d="
 						M12.239,104.148c0.121,0.483-2.292,1.93-2.292,0.604C9.947,102.339,11.275,101.735,12.239,104.148z"/>
-					
+
 						<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="#E6E6CF" stroke="#000000" stroke-width="0.072" stroke-linecap="round" stroke-miterlimit="2.4142" d="
 						M16.34,102.1c0.12,0.48-1.931,1.807-2.292,0.722C13.205,100.169,15.736,100.409,16.34,102.1z"/>
-					
+
 						<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="#E6E6CF" stroke="#000000" stroke-width="0.072" stroke-linecap="round" stroke-miterlimit="2.4142" d="
 						M18.389,101.013c0.241,0.604-1.929,1.93-2.291,0.722C15.254,99.083,17.787,99.324,18.389,101.013z"/>
-					
+
 						<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="#E6E6CF" stroke="#000000" stroke-width="0.072" stroke-linecap="round" stroke-miterlimit="2.4142" d="
 						M20.561,100.048c0.362,0.604-1.93,2.052-2.291,0.724C17.787,98.601,19.235,98.12,20.561,100.048z"/>
-					
+
 						<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="#E6E6CF" stroke="#000000" stroke-width="0.072" stroke-linecap="round" stroke-miterlimit="2.4142" d="
 						M22.731,99.083c0.241,0.482-2.05,1.93-2.292,0.724C19.837,97.637,21.284,97.154,22.731,99.083z"/>
-					
+
 						<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="#E6E6E6" stroke="#000000" stroke-width="0.36" stroke-miterlimit="2.4142" d="
 						M19.596,74.12c0,0-4.945,2.411-7.718,3.737c-2.773,1.205-3.979,1.93-4.462,2.533c-0.362,0.724-4.101,5.789-4.704,6.151
 						c-0.724,0.482-2.532,6.029-2.413,7.115c0.121,1.085-0.119,6.27-0.119,7.235c0,0.965,0.602,2.654,1.446,3.377
@@ -402,46 +406,46 @@
 						c0.964,0.843,3.015,0.361,3.617,0.963c0.604,0.604,0.604,2.052,1.327,2.534c0.844,0.361,2.05,1.809,5.548,2.411
 						c3.377,0.724,4.703,2.17,7.478,0.482c2.773-1.689,2.17-4.583,2.412-5.428c0.361-0.844,0.603-0.12,1.326-0.722
 						c0.723-0.482,2.05,0,3.136-0.845C41.907,113.676,24.178,75.808,19.596,74.12z"/>
-					
+
 						<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="#4D4D4D" stroke="#000000" stroke-width="0.36" stroke-miterlimit="2.4142" d="
 						M11.154,102.218c-1.929,2.413-3.738,4.223-4.824,4.823c-1.326,0.482-3.859-2.169-4.703-2.772
 						c-0.844-0.724-1.446-2.413-1.446-3.377c0-0.965,0.24-6.15,0.119-7.235c-0.119-1.086,1.688-6.633,2.413-7.115
 						c0.121,0,0.241-0.243,0.482-0.482c0,0-4.221,13.145,1.688,15.437C10.43,103.907,11.154,102.218,11.154,102.218z"/>
-					
+
 						<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#E6E6E6" stroke-width="2.16" stroke-linecap="round" stroke-miterlimit="2.4142" d="
 						M38.892,114.76c1.568-2.773-5.789-7.719-6.513-9.406c-0.723-1.689-5.064-5.186-4.341-13.507
 						c0.724-7.597-7.598-16.162-8.562-16.523"/>
 					<g>
-						
+
 							<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#D2CBC2" stroke-width="2.16" stroke-linecap="round" stroke-miterlimit="2.4142" d="
 							M39.615,114.399c1.688-2.774-4.944-7.958-5.909-9.647c-0.845-1.689-4.944-5.548-4.463-13.629
 							c0.483-7.354-7.838-15.919-8.924-16.402"/>
-						
+
 							<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#C2B3A6" stroke-width="2.16" stroke-linecap="round" stroke-miterlimit="2.4142" d="
 							M40.46,114.038c1.688-2.773-4.342-8.08-5.428-9.89c-0.964-1.809-4.824-6.028-4.583-13.748
 							c0.121-7.115-8.201-15.68-9.166-16.163"/>
-						
+
 							<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#B29C8C" stroke-width="2.16" stroke-linecap="round" stroke-miterlimit="2.4142" d="
 							M41.184,113.676c1.808-2.894-3.499-8.2-4.704-10.13c-1.207-1.81-4.824-6.513-4.824-13.869
 							c-0.121-6.754-8.442-15.556-9.527-16.161"/>
-						
+
 							<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#A18773" stroke-width="2.16" stroke-linecap="round" stroke-miterlimit="2.4142" d="
 							M41.907,113.313c1.808-2.894-2.774-8.44-4.1-10.25c-1.448-1.929-4.705-7.117-5.065-14.11
 							c-0.241-6.513-8.563-15.315-9.648-16.041"/>
-						
+
 							<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#92745D" stroke-width="2.16" stroke-linecap="round" stroke-miterlimit="2.4142" d="
 							M42.751,112.952c1.809-2.894-2.05-8.563-3.619-10.491c-1.567-1.93-4.703-7.598-5.186-14.232
 							c-0.483-6.271-8.925-15.195-10.01-15.799"/>
-						
+
 							<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#86624C" stroke-width="2.16" stroke-linecap="round" stroke-miterlimit="2.4142" d="
 							M43.474,112.59c1.93-2.895-1.205-8.684-3.014-10.734c-1.689-1.93-4.582-8.08-5.307-14.23
 							c-0.724-6.152-9.166-15.076-10.251-15.799"/>
-						
+
 							<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#78523D" stroke-width="2.16" stroke-linecap="round" stroke-miterlimit="2.4142" d="
 							M44.198,112.229c2.051-2.895-0.483-8.925-2.412-10.855c-1.809-2.05-4.462-8.563-5.427-14.471
 							c-0.964-5.789-9.407-14.834-10.613-15.678"/>
 					</g>
-					
+
 						<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#6B432F" stroke-width="2.16" stroke-linecap="round" stroke-miterlimit="2.4142" d="
 						M45.042,111.865c2.05-2.894,0.241-9.043-1.81-11.093c-2.17-2.171-4.462-9.045-5.789-14.593
 						c-1.205-5.548-9.647-14.713-10.732-15.557"/>
@@ -479,54 +483,54 @@
 						c0.362-1.326,0.845-2.896,0.845-2.896s0.362,2.533-0.121,3.98c-0.604,1.326-1.569,4.1-1.569,4.824
 						c-0.121,0.844-1.326,2.895-1.326,2.895l0.121-0.965c0,0-1.448,1.326-1.568,2.292c-0.24,0.965-0.481,2.169-0.844,2.532
 						c-0.361,0.241-1.929,2.531-3.618,1.688c-1.809-0.844-2.171-0.965-2.653-1.205C75.072,110.058,73.625,108.61,72.781,108.61z"/>
-					
+
 						<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#E6E6E6" stroke-width="2.16" stroke-linecap="round" stroke-miterlimit="2.4142" d="
 						M111.373,180.971c19.899,26.895,33.526,34.733,45.226,33.044c11.578-1.689,16.643-18.09,17.97-24.482
 						c0.603-2.411,13.748-2.171,36.541,3.617c22.795,5.911,59.094-3.617,66.934-6.391c7.718-2.773,8.563,4.704,11.939,16.643
 						c3.256,11.939,40.883,38.954,40.883,38.954"/>
 					<g>
-						
+
 							<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#D7D0C8" stroke-width="2.16" stroke-linecap="round" stroke-miterlimit="2.4142" d="
 							M111.132,180.369c20.14,26.531,33.165,34.129,44.863,32.44c11.698-1.688,17.124-17.969,18.331-24
 							c0.604-2.413,13.508-2.652,36.181,3.137c22.793,5.789,59.095-3.74,66.935-6.393c8.2-2.654,9.647,4.462,12.904,16.401
 							c3.374,11.938,40.52,39.557,40.52,39.557"/>
-						
+
 							<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#C4B8AC" stroke-width="2.16" stroke-linecap="round" stroke-miterlimit="2.4142" d="
 							M110.891,179.886c20.381,26.049,32.803,33.286,44.501,31.597c11.699-1.687,17.608-17.849,18.814-23.395
 							c0.482-2.413,13.025-3.258,35.699,2.652c22.793,5.789,59.094-3.98,66.932-6.393c8.563-2.652,10.735,4.341,13.991,16.162
 							c3.374,11.939,39.917,40.281,39.917,40.281"/>
-						
+
 							<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#B7A393" stroke-width="2.16" stroke-linecap="round" stroke-miterlimit="2.4142" d="
 							M110.77,179.404c20.502,25.446,32.321,32.562,44.019,30.875c11.698-1.69,18.09-17.729,19.176-22.794
 							c0.482-2.532,12.662-3.859,35.336,1.93c22.793,5.908,59.094-3.98,66.933-6.393c9.048-2.414,11.821,4.219,15.075,16.04
 							c3.377,11.939,39.437,40.883,39.437,40.883"/>
-						
+
 							<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#A9917D" stroke-width="2.16" stroke-linecap="round" stroke-miterlimit="2.4142" d="
 							M110.529,178.801c20.743,25.084,32.08,31.958,43.658,30.269c11.697-1.688,18.572-17.606,19.537-22.311
 							c0.603-2.532,12.301-4.343,35.095,1.446c22.673,5.91,58.975-4.22,66.813-6.39c9.406-2.293,12.784,3.859,16.16,15.798
 							c3.257,11.938,38.833,41.607,38.833,41.607"/>
-						
+
 							<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#997D69" stroke-width="2.16" stroke-linecap="round" stroke-miterlimit="2.4142" d="
 							M110.288,178.197c20.984,24.723,31.718,31.355,43.295,29.668c11.699-1.689,19.055-17.608,20.019-21.83
 							c0.482-2.532,11.821-4.824,34.612,0.965c22.674,5.789,58.855-4.341,66.814-6.393c9.77-2.29,13.869,3.62,17.245,15.559
 							c3.377,11.939,38.351,42.211,38.351,42.211"/>
-						
+
 							<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#8E6F58" stroke-width="2.16" stroke-linecap="round" stroke-miterlimit="2.4142" d="
 							M110.046,177.715c21.105,24.24,31.357,30.512,43.054,28.944c11.578-1.687,19.416-17.488,20.26-21.347
 							c0.482-2.531,11.459-5.307,34.254,0.482c22.79,5.789,58.851-4.583,66.932-6.391c10.131-2.171,14.834,3.378,18.21,15.317
 							c3.258,11.938,37.868,42.933,37.868,42.933"/>
-						
+
 							<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#825F48" stroke-width="2.16" stroke-linecap="round" stroke-miterlimit="2.4142" d="
 							M109.926,177.232c21.226,23.638,30.873,29.788,42.572,28.101c11.577-1.689,19.898-17.367,20.621-20.745
 							c0.482-2.532,11.096-5.909,33.891-0.12c22.794,5.909,58.852-4.583,66.933-6.271c10.612-2.17,15.921,3.137,19.177,15.076
 							c3.377,11.938,37.505,43.657,37.505,43.657"/>
-						
+
 							<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#75503B" stroke-width="2.16" stroke-linecap="round" stroke-miterlimit="2.4142" d="
 							M109.684,176.628c21.467,23.155,30.513,29.188,42.21,27.499c11.698-1.689,20.381-17.367,20.984-20.262
 							c0.604-2.411,10.854-6.39,33.526-0.602c22.795,5.908,58.854-4.824,66.935-6.392c10.976-2.05,17.006,3.015,20.38,14.954
 							c3.259,11.938,36.785,44.259,36.785,44.259"/>
 					</g>
-					
+
 						<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#6B432F" stroke-width="2.16" stroke-linecap="round" stroke-miterlimit="2.4142" d="
 						M109.563,176.027c21.588,22.791,30.03,28.582,41.729,26.893s20.863-17.245,21.346-19.777
 						c0.604-2.413,10.492-6.875,33.166-1.086c22.793,5.91,58.731-4.946,66.934-6.392c11.335-1.93,18.091,2.774,21.347,14.713
@@ -556,89 +560,89 @@
 						c-0.482,1.93,0.121,7.115,0.724,7.115c0.603-0.121,1.567-2.413,1.567-2.413v2.774l-0.603,0.361l0.482,0.122l-0.724,1.447
 						l0.603-0.241c0,0-0.724,2.413-0.482,3.98c0.362,1.689,0.965,4.824,0.603,6.271c-0.241,1.568-0.482,3.013,0.604,2.652
 						C88.338,40.23,87.133,40.952,86.65,42.039z"/>
-					
+
 						<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#6B432F" stroke-width="0.72" stroke-linecap="round" stroke-miterlimit="2.4142" d="
 						M78.69,27.929c0,0,1.085-24.842,2.05-26.171c0.724-0.843,1.689,1.085,2.17,1.689c0.362,0.722,7.959,12.543,10.373,22.19"/>
 					<g>
-						
+
 							<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#603C2A" stroke-width="0.72" stroke-linecap="round" stroke-miterlimit="2.4142" d="
 							M78.69,26.724c0,0,0.603-17.61,1.567-23.277c0.241-1.087,0.482-1.689,0.724-1.809c0.241-0.241,0.602-0.122,0.965,0.241
 							c0.361,0.361,0.723,1.084,0.843,1.445c0.724,0.844,7.96,12.183,10.373,21.708"/>
-						
+
 							<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#573726" stroke-width="0.72" stroke-linecap="round" stroke-miterlimit="2.4142" d="
 							M78.69,25.637c0,0,0.603-17.728,1.567-22.673C80.62,2,80.861,1.517,81.103,1.517c0.362-0.119,0.603,0,0.844,0.363
 							c0.361,0.361,0.723,0.963,0.843,1.207c0.724,1.204,7.84,12.06,10.131,21.344"/>
-						
+
 							<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#4D3021" stroke-width="0.72" stroke-linecap="round" stroke-miterlimit="2.4142" d="
 							M78.69,24.551c0,0,0.482-17.848,1.688-22.069c0.362-0.965,0.604-1.207,0.965-0.965c0.24-0.119,0.481,0,0.723,0.363
 							c0.241,0.241,0.603,0.724,0.724,1.084c0.845,1.326,7.719,11.699,10.01,20.865"/>
-						
+
 							<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#41291D" stroke-width="0.72" stroke-linecap="round" stroke-miterlimit="2.4142" d="
 							M78.69,23.346c0,0,0.482-17.85,1.688-21.347c0.362-0.843,0.724-0.965,1.086-0.602c0.241,0,0.482,0.119,0.724,0.482
 							c0.241,0.241,0.481,0.602,0.602,0.963c1.086,1.448,7.599,11.338,9.89,20.382"/>
-						
+
 							<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#372218" stroke-width="0.72" stroke-linecap="round" stroke-miterlimit="2.4142" d="
 							M78.569,22.261c0,0,0.483-17.971,1.809-20.864c0.362-0.604,0.845-0.483,1.206-0.122c0.241,0.122,0.482,0.241,0.724,0.482
 							C82.429,2,82.669,2.36,82.79,2.604c1.207,1.809,7.478,11.095,9.769,20.019"/>
-						
+
 							<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#2E1D14" stroke-width="0.72" stroke-linecap="round" stroke-miterlimit="2.4142" d="
 							M78.569,21.175c0,0,0.362-18.088,1.809-20.26c0.483-0.604,1.086-0.241,1.447,0.242c0.241,0.119,0.363,0.36,0.482,0.602
 							c0.122,0.122,0.362,0.483,0.482,0.724c1.327,1.93,7.237,10.734,9.648,19.536"/>
 					</g>
-					
+
 						<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#241610" stroke-width="0.72" stroke-linecap="round" stroke-miterlimit="2.4142" d="
 						M78.569,19.97c0,0,0.362-18.09,1.809-19.538c0.845-0.724,1.688,0.724,2.051,1.326c0.481,0.724,7.236,10.011,9.889,19.538"/>
-					
+
 						<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000000" stroke-width="0.36" stroke-linecap="round" stroke-miterlimit="2.4142" d="
 						M93.645,27.446c0,0-0.603-8.441-5.548-16.763c-4.824-8.202-6.994-11.821-7.718-10.493c0,0-2.412,0.12-1.809,28.462"/>
-					
+
 						<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#6B432F" stroke-width="10.728" stroke-linecap="round" stroke-miterlimit="2.4142" d="
 						M109.082,79.788c0,0,25.326,62.109,62.23,31.355"/>
-					
+
 						<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#67432E" stroke-width="9.504" stroke-linecap="round" stroke-miterlimit="2.4142" d="
 						M110.046,80.51c0,0,23.758,56.321,59.818,30.392"/>
-					
+
 						<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#66422D" stroke-width="8.28" stroke-linecap="round" stroke-miterlimit="2.4142" d="
 						M111.132,81.235c0,0,22.07,50.411,57.405,29.547"/>
-					
+
 						<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#62412D" stroke-width="7.056" stroke-linecap="round" stroke-miterlimit="2.4142" d="
 						M112.097,82.079c0,0,20.5,44.381,54.994,28.46"/>
-					
+
 						<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#5F402C" stroke-width="5.832" stroke-linecap="round" stroke-miterlimit="2.4142" d="
 						M113.061,82.803c0,0,18.935,38.592,52.704,27.616"/>
-					
+
 						<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#5C402C" stroke-width="4.608" stroke-linecap="round" stroke-miterlimit="2.4142" d="
 						M114.026,83.525c0,0,17.366,32.683,50.291,26.653"/>
-					
+
 						<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#5B3F2B" stroke-width="3.384" stroke-linecap="round" stroke-miterlimit="2.4142" d="
 						M114.991,84.25c0,0,15.798,26.771,47.999,25.686"/>
-					
+
 						<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#8E734C" stroke-width="1.8" stroke-linecap="round" stroke-miterlimit="2.4142" d="
 						M166.125,104.389c-8.925,2.291-13.748-1.809-24.603-7.115c-10.733-5.306-39.074-33.527-40.762-35.818
 						c-1.689-2.172-11.336-8.321-11.336-8.321"/>
 					<g>
-						
+
 							<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#866A45" stroke-width="1.8" stroke-linecap="round" stroke-miterlimit="2.4142" d="
 							M166.125,104.389c-8.925,2.172-14.35-1.689-23.999-6.392c-10.733-5.186-36.18-29.667-38.471-32.803
 							c-3.015-3.979-14.352-12.06-14.352-12.06"/>
-						
+
 							<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#836242" stroke-width="1.8" stroke-linecap="round" stroke-miterlimit="2.4142" d="
 							M166.246,104.389c-9.046,2.052-15.075-1.567-23.638-5.667c-10.733-5.187-33.045-25.81-36.06-29.79
 							c-4.22-5.667-17.246-15.919-17.246-15.919"/>
-						
+
 							<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#7C593C" stroke-width="1.8" stroke-linecap="round" stroke-miterlimit="2.4142" d="
 							M166.366,104.389c-9.166,1.93-15.798-1.446-23.275-4.944c-10.612-5.064-30.03-21.83-33.648-26.773
 							c-5.667-7.358-20.26-19.66-20.26-19.66"/>
-						
+
 							<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#755137" stroke-width="1.8" stroke-linecap="round" stroke-miterlimit="2.4142" d="
 							M166.366,104.389c-9.166,1.809-16.521-1.206-22.792-4.22c-10.494-5.066-27.015-17.971-31.356-23.759
 							c-6.753-9.165-23.035-23.516-23.035-23.516"/>
-						
+
 							<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#714A33" stroke-width="1.8" stroke-linecap="round" stroke-miterlimit="2.4142" d="
 							M166.487,104.389c-9.287,1.689-17.246-1.085-22.312-3.498c-10.372-4.945-23.999-13.989-29.064-20.743
 							c-8.081-10.853-25.929-27.375-25.929-27.375"/>
 					</g>
-					
+
 						<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#6B432F" stroke-width="1.8" stroke-linecap="round" stroke-miterlimit="2.4142" d="
 						M166.608,104.389c-9.408,1.569-18.091-0.844-21.95-2.772c-10.372-4.945-20.983-10.131-26.652-17.729
 						C108.6,71.344,89.062,52.773,89.062,52.773"/>
@@ -649,13 +653,13 @@
 						c-0.965-0.844-3.257-0.844-4.101-0.24c-0.724,0.481-3.619,2.29-4.583,2.531c-0.965,0.241-3.739,2.654-3.498,3.619
 						c0.24,0.965,0.844,2.169,1.688,0.482c0.844-1.691,2.292-3.619,3.376-2.895c1.086,0.724,5.307,3.134,9.287,0.965
 						c0,0,1.809-0.361,2.653-0.361C66.027,67.849,66.388,66.521,64.941,66.401z"/>
-					
+
 						<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="#E5D0DB" stroke="#000000" stroke-width="0.072" stroke-linecap="round" stroke-miterlimit="2.4142" d="
 						M59.997,64.229c2.291,1.568,3.256,3.137-0.121,4.102C55.776,69.536,59.997,64.229,59.997,64.229z"/>
-					
+
 						<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="#E5D0DB" stroke="#000000" stroke-width="0.072" stroke-linecap="round" stroke-miterlimit="2.4142" d="
 						M56.981,63.988c0,0-3.618,1.93-3.256,2.292c0.483,0.482,2.413,1.448,3.256,1.93C57.827,68.571,56.981,63.988,56.981,63.988z"/>
-					
+
 						<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="#473629" stroke="#000000" stroke-width="0.072" stroke-linecap="round" stroke-miterlimit="2.4142" d="
 						M55.776,66.521c-0.362-1.809,1.447-3.618,4.1-2.533c0,0,0.965,1.085,0.965,2.171C60.6,68.692,56.259,69.296,55.776,66.521z"/>
 					<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" d="M59.515,65.194c-0.724,0.242-1.448,0.12-2.533,0.603
@@ -696,36 +700,36 @@
 					<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="#666666" d="M9.466,83.646
 						c1.086-0.482,2.653,1.205,2.653,1.205c0.121,2.052-1.808,4.825-1.93,5.067c-0.843,1.086-1.567,1.567-1.084-0.361
 						c0.241-1.206-0.845-4.463-0.845-4.463C8.139,84.733,8.622,84.129,9.466,83.646z"/>
-					
+
 						<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#4D4D4D" stroke-width="1.08" stroke-linecap="round" stroke-miterlimit="2.4142" d="
 						M2.833,87.144c0,0-1.568,2.413-1.809,4.704c-0.241,2.411-0.604,6.874-0.121,10.13c0.121,1.085,3.979,6.754,7.477,3.015"/>
 					<g>
-						
+
 							<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#5E5E5E" stroke-width="1.08" stroke-linecap="round" stroke-miterlimit="2.4142" d="
 							M3.436,86.298c0,0-1.689,2.654-2.05,4.946c-0.241,2.413-0.603,7.356,0,10.491c0.482,1.208,4.221,6.151,7.478,2.775"/>
-						
+
 							<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#737373" stroke-width="1.08" stroke-linecap="round" stroke-miterlimit="2.4142" d="
 							M4.159,85.455c0,0-2.171,2.896-2.413,5.307c-0.241,2.291-0.723,7.719,0.241,10.734c0.604,1.326,4.342,5.545,7.237,2.532"/>
-						
+
 							<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#858585" stroke-width="1.08" stroke-linecap="round" stroke-miterlimit="2.4142" d="
 							M4.882,84.611c0,0-2.412,3.257-2.774,5.546c-0.241,2.413-0.723,8.202,0.362,10.977c0.965,1.566,4.463,5.185,7.237,2.411"/>
-						
+
 							<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#999999" stroke-width="1.08" stroke-linecap="round" stroke-miterlimit="2.4142" d="
 							M5.486,83.768c0,0-2.654,3.496-3.016,5.789c-0.241,2.411-0.844,8.563,0.604,11.335c1.207,1.688,4.583,4.584,6.995,2.052"/>
-						
+
 							<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#ADADAD" stroke-width="1.08" stroke-linecap="round" stroke-miterlimit="2.4142" d="
 							M6.209,82.922c0,0-3.015,3.859-3.256,6.152c-0.362,2.411-1.086,8.923,0.603,11.578c1.567,1.687,4.824,3.979,6.996,1.809"/>
-						
+
 							<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#BFBFBF" stroke-width="1.08" stroke-linecap="round" stroke-miterlimit="2.4142" d="
 							M6.813,82.079c0,0-3.256,4.1-3.498,6.391c-0.241,2.413-1.086,9.406,0.724,11.819c1.929,1.929,5.065,3.498,6.874,1.689"/>
-						
+
 							<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#D1D1D1" stroke-width="1.08" stroke-linecap="round" stroke-miterlimit="2.4142" d="
 							M7.536,81.235c0,0-3.618,4.341-3.859,6.752c-0.241,2.292-1.207,9.769,0.964,12.061c2.051,2.052,5.066,2.896,6.754,1.326"/>
 					</g>
-					
+
 						<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#E6E6E6" stroke-width="1.08" stroke-linecap="round" stroke-miterlimit="2.4142" d="
 						M8.259,80.51c0,0-3.858,4.584-4.221,6.875c-0.241,2.411-1.206,10.13,1.207,12.421c2.291,2.171,5.185,2.293,6.632,1.085"/>
-					
+
 						<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000000" stroke-width="0.36" stroke-miterlimit="2.4142" d="
 						M12.36,100.531c-0.241,0.121-1.206,1.687-1.206,1.687c-1.929,2.413-3.738,4.223-4.824,4.823
 						c-1.326,0.482-3.859-2.169-4.703-2.772c-0.844-0.724-1.446-2.413-1.446-3.377c0-0.965,0.24-6.15,0.119-7.235
@@ -833,7 +837,7 @@
 						c-0.241,0.482-0.36,2.413-1.084,2.773c-0.604,0.241-1.086-0.724-1.207,0c-0.12,0.724,0.121,3.498-0.482,3.859
 						c-0.724,0.482-0.845,3.739,0.482,3.98c1.448,0.361,1.567,1.567,2.05,0.844c0.604-0.724,0.965-2.774,0.724-3.617
 						c0,0,1.447-1.567,1.568-2.172C154.789,315.803,154.91,313.994,154.91,313.994z"/>
-					
+
 						<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="#666666" stroke="#000000" stroke-width="0.36" stroke-miterlimit="2.4142" d="
 						M137.303,314.596c0,0,2.17-3.375,0.724-3.375c-1.568,0-2.051-0.363-2.533-0.482c-0.603-0.122,0.121,0.843,0.121,0.843
 						s-1.207-0.482-1.568-0.965c-0.241-0.602-1.689-0.482-1.567,0c0.119,0.361,0,0.844,0,0.844s-0.965-0.722-1.207-1.204
@@ -841,7 +845,7 @@
 						c0,0-0.361-0.482,0-0.965c0.482-0.361-1.085,0.482-1.085,0.482s0.241-0.965,0.845-1.205c0,0-4.583,1.928-5.428,3.859
 						c-1.086,2.411-3.136,7.838-3.136,9.286c0,1.327-1.205,3.257,3.98,4.341c5.065,0.844,4.704,1.205,5.065,0.241
 						c3.98-9.045,6.874-8.563,7.477-10.01C134.77,314.838,134.045,315.562,137.303,314.596z"/>
-					
+
 						<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="#666666" stroke="#000000" stroke-width="0.36" stroke-miterlimit="2.4142" d="
 						M151.051,322.194c0,0-1.568-3.617-3.137-3.617c-1.446,0-3.376-0.242-3.979-0.363c-0.482-0.12,0.122,0.846,0.122,0.846
 						s-1.207-0.482-1.448-0.965c-0.361-0.602-1.81-0.482-1.688,0c0.119,0.363,0,0.843,0,0.843s-0.965-0.724-1.086-1.084
@@ -852,7 +856,7 @@
 					<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="#595959" d="M150.81,322.194c0,0-1.568,0.604-1.81,1.326
 						c-0.241,0.845-0.482,1.569-0.482,1.569s0.121-3.137,0-3.619c-0.12-0.483,0.241-1.929,0.482-1.929
 						S150.568,321.59,150.81,322.194z"/>
-					
+
 						<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="#666666" stroke="#000000" stroke-width="0.36" stroke-miterlimit="2.4142" d="
 						M332.313,320.747c0,0-1.448-3.254-3.015-3.254c-1.446,0-3.376-0.244-3.98-0.363c-0.482-0.12,0.122,0.724,0.122,0.724
 						s-1.207-0.361-1.448-0.843c-0.241-0.604-1.809-0.482-1.688,0c0.118,0.361,0,0.843,0,0.843s-0.965-0.724-1.086-1.207
@@ -860,7 +864,7 @@
 						c0,0-0.482-0.482,0-0.963c0.362-0.363-1.204,0.48-1.204,0.48s0.361-0.963,0.844-1.205c0,0-3.497,1.326-4.343,3.256
 						c-0.239,0.724-2.291,4.583-3.376,8.2c-0.482,1.326-3.015,5.789,2.05,6.753c8.925,1.689,9.287,0.844,15.558-0.965
 						c0.963-0.239,3.257-3.737,3.858-5.306C330.505,325.572,329.659,321.953,332.313,320.747z"/>
-					
+
 						<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="#666666" stroke="#000000" stroke-width="0.36" stroke-miterlimit="2.4142" d="
 						M308.557,317.853c0,0-1.448-4.222-2.895-4.222c-1.447,0-3.259-0.241-3.86-0.361c-0.482-0.12,0.241,0.843,0.241,0.843
 						s-1.328-0.482-1.447-0.963c-0.363-0.482-1.809-0.363-1.689,0c0.243,0.48,0,0.843,0,0.843s-0.843-0.724-1.085-1.087
@@ -868,128 +872,128 @@
 						c0.482-0.361-1.086,0.483-1.086,0.483s0.363-0.965,0.846-1.207c0,0-3.5,1.567-4.343,3.378c-0.966,2.411-4.1,6.994-4.1,8.319
 						c0,1.208-2.171,4.584,2.651,5.428c4.945,0.965,13.147,0.121,13.991-0.122c0.965-0.24,4.101-1.565,4.943-5.546
 						C306.506,321.351,305.78,319.542,308.557,317.853z"/>
-					
+
 						<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#666666" stroke-width="1.08" stroke-linecap="round" stroke-miterlimit="2.4142" d="
 						M320.614,318.577c0,0-3.738,11.095-4.339,15.073"/>
-					
+
 						<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#666666" stroke-width="1.08" stroke-linecap="round" stroke-miterlimit="2.4142" d="
 						M315.43,318.214c0,0-4.463,10.13-5.067,13.991"/>
 					<g>
-						
+
 							<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#737373" stroke-width="1.08" stroke-linecap="round" stroke-miterlimit="2.4142" d="
 							M319.892,318.696c0,0-3.86,10.856-4.343,14.715"/>
-						
+
 							<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#7F7F7F" stroke-width="1.08" stroke-linecap="round" stroke-miterlimit="2.4142" d="
 							M319.168,318.696c0,0-3.858,10.735-4.462,14.593"/>
-						
+
 							<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#8C8C8C" stroke-width="1.08" stroke-linecap="round" stroke-miterlimit="2.4142" d="
 							M318.444,318.818c0,0-3.98,10.491-4.582,14.35"/>
 					</g>
 					<g>
-						
+
 							<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#737373" stroke-width="1.08" stroke-linecap="round" stroke-miterlimit="2.4142" d="
 							M316.031,318.458c0,0-4.46,10.129-4.942,13.988"/>
-						
+
 							<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#7F7F7F" stroke-width="1.08" stroke-linecap="round" stroke-miterlimit="2.4142" d="
 							M316.636,318.577c0,0-4.343,10.13-4.825,13.991"/>
-						
+
 							<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#8C8C8C" stroke-width="1.08" stroke-linecap="round" stroke-miterlimit="2.4142" d="
 							M317.118,318.696c0,0-4.102,10.252-4.704,14.11"/>
 					</g>
-					
+
 						<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#999999" stroke-width="1.08" stroke-linecap="round" stroke-miterlimit="2.4142" d="
 						M317.721,318.938c0,0-3.98,10.252-4.582,14.113"/>
-					
+
 						<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#666666" stroke-width="1.08" stroke-linecap="round" stroke-miterlimit="2.4142" d="
 						M296.374,314.718c0,0-4.101,10.008-4.703,13.748"/>
-					
+
 						<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#666666" stroke-width="1.08" stroke-linecap="round" stroke-miterlimit="2.4142" d="
 						M291.791,314.114c0,0-5.064,9.649-5.547,13.387"/>
 					<g>
-						
+
 							<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#737373" stroke-width="1.08" stroke-linecap="round" stroke-miterlimit="2.4142" d="
 							M295.771,314.718c0,0-4.222,9.889-4.824,13.626"/>
-						
+
 							<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#7F7F7F" stroke-width="1.08" stroke-linecap="round" stroke-miterlimit="2.4142" d="
 							M295.048,314.718c0,0-4.22,9.889-4.824,13.626"/>
-						
+
 							<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#8C8C8C" stroke-width="1.08" stroke-linecap="round" stroke-miterlimit="2.4142" d="
 							M294.445,314.718c0,0-4.344,9.767-4.943,13.506"/>
 					</g>
 					<g>
-						
+
 							<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#737373" stroke-width="1.08" stroke-linecap="round" stroke-miterlimit="2.4142" d="
 							M292.273,314.235c0,0-4.823,9.768-5.428,13.387"/>
-						
+
 							<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#7F7F7F" stroke-width="1.08" stroke-linecap="round" stroke-miterlimit="2.4142" d="
 							M292.877,314.355c0,0-4.822,9.77-5.427,13.507"/>
-						
+
 							<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#8C8C8C" stroke-width="1.08" stroke-linecap="round" stroke-miterlimit="2.4142" d="
 							M293.359,314.596c0,0-4.583,9.649-5.305,13.387"/>
 					</g>
-					
+
 						<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#999999" stroke-width="1.08" stroke-linecap="round" stroke-miterlimit="2.4142" d="
 						M293.842,314.718c0,0-4.462,9.647-5.065,13.386"/>
-					
+
 						<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#666666" stroke-width="1.08" stroke-linecap="round" stroke-miterlimit="2.4142" d="
 						M133.684,333.168c0.482-3.737,4.102-13.265,4.102-13.265"/>
-					
+
 						<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#666666" stroke-width="1.08" stroke-linecap="round" stroke-miterlimit="2.4142" d="
 						M133.322,319.06c0,0-4.582,9.406-5.185,13.145"/>
 					<g>
-						
+
 							<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#737373" stroke-width="1.08" stroke-linecap="round" stroke-miterlimit="2.4142" d="
 							M132.839,333.168c0.603-3.859,4.343-13.265,4.343-13.265"/>
-						
+
 							<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#7F7F7F" stroke-width="1.08" stroke-linecap="round" stroke-miterlimit="2.4142" d="
 							M132.115,333.05c0.604-3.741,4.343-13.147,4.343-13.147"/>
-						
+
 							<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#8C8C8C" stroke-width="1.08" stroke-linecap="round" stroke-miterlimit="2.4142" d="
 							M131.393,332.928c0.603-3.738,4.462-13.025,4.462-13.025"/>
 					</g>
 					<g>
-						
+
 							<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#737373" stroke-width="1.08" stroke-linecap="round" stroke-miterlimit="2.4142" d="
 							M133.804,319.301c0,0-4.461,9.406-5.064,13.145"/>
-						
+
 							<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#7F7F7F" stroke-width="1.08" stroke-linecap="round" stroke-miterlimit="2.4142" d="
 							M134.287,319.542c0,0-4.342,9.285-4.824,13.026"/>
-						
+
 							<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#8C8C8C" stroke-width="1.08" stroke-linecap="round" stroke-miterlimit="2.4142" d="
 							M134.77,319.783c0,0-4.101,9.165-4.703,12.902"/>
 					</g>
-					
+
 						<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#999999" stroke-width="1.08" stroke-linecap="round" stroke-miterlimit="2.4142" d="
 						M135.252,320.024c0,0-3.98,9.045-4.583,12.782"/>
-					
+
 						<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#666666" stroke-width="1.08" stroke-linecap="round" stroke-miterlimit="2.4142" d="
 						M125.002,325.813c0.602-3.741,4.1-13.389,4.1-13.389"/>
-					
+
 						<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#666666" stroke-width="1.08" stroke-linecap="round" stroke-miterlimit="2.4142" d="
 						M124.761,311.703c0,0-4.705,9.406-5.188,13.146"/>
 					<g>
-						
+
 							<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#737373" stroke-width="1.08" stroke-linecap="round" stroke-miterlimit="2.4142" d="
 							M124.278,325.692c0.602-3.619,4.22-13.145,4.22-13.145"/>
-						
+
 							<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#7F7F7F" stroke-width="1.08" stroke-linecap="round" stroke-miterlimit="2.4142" d="
 							M123.554,325.692c0.602-3.739,4.341-13.145,4.341-13.145"/>
-						
+
 							<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#8C8C8C" stroke-width="1.08" stroke-linecap="round" stroke-miterlimit="2.4142" d="
 							M122.831,325.572c0.482-3.739,4.461-13.025,4.461-13.025"/>
 					</g>
 					<g>
-						
+
 							<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#737373" stroke-width="1.08" stroke-linecap="round" stroke-miterlimit="2.4142" d="
 							M125.122,311.942c0,0-4.342,9.408-4.945,13.147"/>
-						
+
 							<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#7F7F7F" stroke-width="1.08" stroke-linecap="round" stroke-miterlimit="2.4142" d="
 							M125.604,312.186c0,0-4.221,9.285-4.824,13.023"/>
-						
+
 							<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#8C8C8C" stroke-width="1.08" stroke-linecap="round" stroke-miterlimit="2.4142" d="
 							M126.208,312.425c0,0-4.221,9.165-4.825,12.906"/>
 					</g>
-					
+
 						<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#999999" stroke-width="1.08" stroke-linecap="round" stroke-miterlimit="2.4142" d="
 						M126.568,312.668c0,0-3.858,9.043-4.461,12.904"/>
 					<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="#595959" d="M136.82,311.46c0,0-0.724,3.258-1.327,3.498
@@ -998,7 +1002,7 @@
 						c0,0,0.242,2.291-0.121,3.254c0,0,0.604-1.446,1.086-1.326C332.192,320.868,330.745,318.818,330.745,318.818z"/>
 					<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="#595959" d="M307.108,315.32
 						c0,0,0.966,1.928,1.207,2.411c0,0.122-0.363-0.12-1.689,1.689C306.626,319.42,306.506,316.405,307.108,315.32z"/>
-					
+
 						<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#3A2217" stroke-width="1.8" stroke-miterlimit="2.4142" d="
 						M345.339,159.987c-0.604,4.945-3.256,12.663-3.738,14.11c-0.604,1.688-4.344,13.387-3.982,14.474
 						c0.243,1.083-1.083,7.234-1.083,7.234c-0.121,6.511-1.93,8.563-1.93,8.563c-1.327,0.361-1.81,1.809-1.688,3.015
@@ -1006,7 +1010,7 @@
 						c1.207,2.774-0.241,1.448-0.36,1.809c-0.122,0.482,0.36,2.413,0.36,2.413c0.845,2.05-0.602,2.05-0.602,2.05
 						c-0.241,1.326,0.36,2.654,0.36,2.654c2.412,3.375-0.482,1.809-0.482,1.809c-0.36,0.963-0.48,1.807-0.48,2.532"/>
 					<g>
-						
+
 							<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#40261A" stroke-width="1.8" stroke-miterlimit="2.4142" d="
 							M345.339,158.781c-0.604,4.462-3.017,10.975-3.738,13.266c-0.122,0.361-0.241,0.603-0.363,0.722
 							c-0.482,1.689-3.619,11.458-3.858,13.872c-0.122,0.239-0.122,0.482-0.122,0.6c0.244,1.208-1.325,6.997-1.566,7.117
@@ -1017,7 +1021,7 @@
 							c0.122,0.482,0.241,0.843,0.241,0.965c0.241,0.724,0.122,1.206,0,1.447c-0.119,0.603-0.602,0.603-0.602,0.603
 							c-0.12,0.363,0,0.724,0,0.965c0.119,0.965,0.482,1.687,0.482,1.687c0.36,0.726,0.36,1.087,0.482,1.328
 							c0.481,1.326-1.085,0.482-1.085,0.602c-0.243,0.965-0.363,1.93-0.363,2.654"/>
-						
+
 							<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#45291C" stroke-width="1.8" stroke-miterlimit="2.4142" d="
 							M345.339,157.454c-0.604,4.583-3.378,11.096-4.102,13.267c-0.12,0.361-0.12,0.482-0.12,0.722
 							c-0.604,1.809-3.86,11.578-4.099,13.869c0,0.241,0,0.482,0,0.482c0.119,1.328-1.812,6.874-2.172,7.117
@@ -1028,7 +1032,7 @@
 							c0,0.483,0.119,0.846,0.119,0.965c0.241,0.846-0.119,1.207-0.119,1.448c-0.12,0.482-0.603,0.602-0.603,0.724
 							c0,0.361,0.119,0.724,0.119,0.965c0.241,0.844,0.483,1.568,0.483,1.687c0.482,0.724,0.241,0.846,0.36,1.085
 							c0.363,1.208-1.085,0.604-0.963,0.845c-0.122,1.085-0.122,2.05-0.122,2.653"/>
-						
+
 							<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#4B2D1F" stroke-width="1.8" stroke-miterlimit="2.4142" d="
 							M345.339,156.248c-0.604,4.583-3.619,11.095-4.343,13.145c-0.12,0.241-0.12,0.482-0.241,0.603
 							c-0.603,1.93-3.736,11.939-3.858,13.991c-0.122,0.241-0.122,0.361-0.122,0.482c0,1.326-2.291,6.633-2.651,6.995
@@ -1039,7 +1043,7 @@
 							c0.119,0.361,0.239,0.844,0.239,0.963c0.243,0.846-0.239,1.207-0.239,1.448c-0.122,0.482-0.482,0.604-0.482,0.724
 							c0,0.363,0.119,0.724,0.119,0.965c0.241,0.843,0.603,1.567,0.603,1.689c0.363,0.722-0.12,0.844,0,0.963
 							c0.243,1.087-0.844,0.843-0.722,1.207c-0.122,0.965,0,2.05,0,2.654"/>
-						
+
 							<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#523322" stroke-width="1.8" stroke-miterlimit="2.4142" d="
 							M345.339,155.042c-0.604,4.584-3.979,11.095-4.584,13.025c-0.12,0.242-0.241,0.361-0.241,0.602
 							c-0.722,2.052-3.858,12.061-3.979,13.991c0,0.122,0,0.361,0,0.482c-0.121,1.326-2.653,6.271-3.257,6.874
@@ -1050,7 +1054,7 @@
 							c0.12,0.48,0.241,0.963,0.241,0.963c0,0.965-0.482,1.326-0.482,1.448c-0.239,0.482-0.482,0.724-0.36,0.843
 							c0,0.482,0.121,0.843,0.121,0.965c0.361,0.965,0.722,1.57,0.722,1.689c0.241,0.844-0.36,0.724-0.36,0.844
 							c0.239,0.965-0.604,0.965-0.482,1.448c0,1.084,0.121,2.169,0.121,2.773"/>
-						
+
 							<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#583625" stroke-width="1.8" stroke-miterlimit="2.4142" d="
 							M345.217,153.837c-0.603,4.703-4.1,11.215-4.703,12.904c-0.12,0.239-0.12,0.361-0.241,0.482
 							c-0.725,2.169-3.98,12.421-3.98,13.989c0,0.241,0,0.361,0,0.482c-0.239,1.327-3.135,6.271-3.857,6.994
@@ -1061,7 +1065,7 @@
 							c0.118,0.483,0.118,0.846,0.118,0.965c0.121,1.087-0.483,1.328-0.483,1.448c-0.238,0.482-0.36,0.724-0.238,0.965
 							c0,0.36,0.121,0.724,0.121,0.843c0.482,0.965,0.722,1.567,0.722,1.811c0.241,0.843-0.604,0.602-0.604,0.722
 							c0.122,0.724-0.36,0.965-0.238,1.569c0.121,1.205,0.36,2.29,0.36,2.772"/>
-						
+
 							<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#5F3B29" stroke-width="1.8" stroke-miterlimit="2.4142" d="
 							M345.217,152.509c-0.603,4.824-4.462,11.336-5.064,12.905c0,0.118-0.122,0.361-0.122,0.483
 							c-0.721,2.289-3.978,12.541-3.978,13.989c0.12,0.241,0,0.361,0,0.483c-0.362,1.326-3.499,5.908-4.463,6.872
@@ -1072,7 +1076,7 @@
 							c0.117,0.483,0.239,0.722,0.239,0.965c0,1.084-0.722,1.326-0.722,1.448c-0.243,0.361-0.365,0.722-0.243,0.963
 							c0.121,0.482,0.36,0.843,0.36,0.843c0.482,0.965,0.727,1.569,0.727,1.93c0.121,0.724-0.966,0.361-0.844,0.482
 							c0,0.604-0.365,1.087-0.122,1.809c0.239,1.207,0.483,2.414,0.483,2.894"/>
-						
+
 							<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#643E2B" stroke-width="1.8" stroke-miterlimit="2.4142" d="
 							M345.217,151.305c-0.603,4.824-4.823,11.334-5.306,12.902c-0.119,0.121-0.119,0.243-0.119,0.483
 							c-0.846,2.291-4.102,12.664-3.98,13.869c0,0.122,0,0.243,0,0.363c-0.482,1.448-3.98,5.789-5.066,6.874
@@ -1084,285 +1088,285 @@
 							c0.121,0.482,0.36,0.846,0.36,0.966c0.604,0.965,0.848,1.448,0.848,1.808c0.117,0.846-1.208,0.363-1.208,0.363
 							c-0.12,0.602-0.12,1.204,0.121,2.169c0.239,1.206,0.722,2.413,0.722,2.896"/>
 					</g>
-					
+
 						<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#6B432F" stroke-width="1.8" stroke-miterlimit="2.4142" d="
 						M345.217,149.977c-0.603,4.944-5.064,11.458-5.547,12.904c-0.604,1.689-4.341,13.147-4.1,14.352
 						c0.361,1.086-5.911,7.478-5.911,7.478c-0.119,6.513-1.928,6.874-1.928,6.874c-1.448,0.362-1.809,3.497-1.689,4.704
 						c0.12,1.085,0,3.257-0.846,3.496c-0.843,0.363,0,2.654,0,2.654c0.122,3.739,0.483,3.739,0.483,3.739
 						c1.208,2.773,0.121,2.05,0,2.411c-0.239,0.362,0.843,2.051,0.843,2.051c0.727,2.05-0.843,2.411-0.843,2.411
 						c-0.361,1.207,0.362,2.052,0.362,2.052c2.411,3.376-0.602,2.049-0.602,2.049c-0.363,0.963,1.204,4.583,1.204,5.305"/>
-					
+
 						<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000000" stroke-width="0.36" stroke-miterlimit="2.4142" d="
 						M320.374,259.24c0,0-2.412-5.185-5.79-8.319c-3.256-3.258-7.717-11.095-8.562-11.338l0.724,1.691c0,0-8.805-8.443-9.648-9.649
 						c-0.724-1.206-2.412-4.824-3.256-5.306l0.482,1.93c0,0-3.136-3.378-4.342-6.635c-1.206-3.134-1.928-5.548-1.928-6.15
 						l-0.363,1.689c0,0-1.688-8.925-1.085-11.699c0.722-2.774-0.604-10.854-2.291-12.541"/>
-					
+
 						<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000000" stroke-width="0.36" stroke-miterlimit="2.4142" d="
 						M286.485,201.111c0,0-7.599,2.652-11.218,4.583c-3.616,1.93-6.751,4.945-8.923,5.306"/>
-					
+
 						<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000000" stroke-width="0.36" stroke-miterlimit="2.4142" d="
 						M170.829,216.911l0.724-4.584l0.603,0.604c0,0,1.205-11.819,0.724-12.665l1.327,1.086c0,0-1.087-2.773-1.087-3.617"/>
-					
+
 						<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000000" stroke-width="0.36" stroke-miterlimit="2.4142" d="
 						M138.509,312.305c0,0,0-2.049-0.241-2.171c-0.122-0.241-0.483-3.015,1.688-5.548c0,0,2.05-2.773,3.255-13.991
 						c0,0-1.085-3.737-0.844-5.545c0,0,0-3.498-1.205-6.15c0,0-0.724,3.376-0.846-3.015c0,0-1.326,2.05-0.361-1.569
 						c0,0,0.483-3.135,0.965-3.737c0,0,0-12.182-0.122-13.025c0-0.725-0.241-10.492,0-10.735l-0.843,1.087
 						c0,0-0.482-3.86-0.362-6.032c0-2.17-1.084-10.37-1.084-11.456c0,0-0.604,0.604-0.846,1.689c0,0-0.481-8.685-2.653-15.919
 						c0,0-1.207-2.413-1.689-2.776c-0.361-0.48-1.929-4.22-2.05-4.461"/>
-					
+
 						<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000000" stroke-width="0.36" stroke-miterlimit="2.4142" d="
 						M136.82,224.268c0,0-2.654-4.341-3.618-4.946c-0.846-0.724-2.533-3.135-2.654-3.498c-0.121-0.361-0.604,0.363-0.362,0.966
 						c0.122,0.602-2.17-2.414-2.531-3.257c-0.242-0.843-0.965-1.206-0.965-1.206"/>
-					
+
 						<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000000" stroke-width="0.36" stroke-miterlimit="2.4142" d="
 						M347.509,262.616c0,0,0-15.074,0.483-17.124c0.36-2.05-0.362-11.456-0.362-11.456"/>
-					
+
 						<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000000" stroke-width="0.36" stroke-miterlimit="2.4142" d="
 						M351.972,269.009c0,0-1.688-10.491-0.846-13.265"/>
-					
+
 						<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000000" stroke-width="0.36" stroke-miterlimit="2.4142" d="
 						M350.042,256.466c0,0,4.102-16.641,3.136-21.345"/>
-					
+
 						<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000000" stroke-width="0.36" stroke-miterlimit="2.4142" d="
 						M351.972,237.292c0,0-0.363-10.01-1.328-13.507"/>
-					
+
 						<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000000" stroke-width="0.36" stroke-miterlimit="2.4142" d="
 						M354.382,225.352c0,0-1.204-11.336-2.773-13.627"/>
-					
+
 						<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000000" stroke-width="0.36" stroke-miterlimit="2.4142" d="
 						M352.815,209.674c0,0-4.582-9.891-5.307-13.749"/>
-					
+
 						<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000000" stroke-width="0.36" stroke-miterlimit="2.4142" d="
 						M344.856,192.429c0,0,0.24,4.944-0.844,7.477c-0.847,2.654-1.569,7.115-1.569,7.115"/>
-					
+
 						<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000000" stroke-width="0.36" stroke-miterlimit="2.4142" d="
 						M345.941,198.818c0,0-1.085,8.926-0.725,10.734c0.241,1.809,1.086,9.167,0.966,10.01"/>
-					
+
 						<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000000" stroke-width="0.36" stroke-miterlimit="2.4142" d="
 						M343.166,213.774c0,0-1.565,11.215-0.361,15.799"/>
-					
+
 						<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000000" stroke-width="0.36" stroke-miterlimit="2.4142" d="
 						M343.287,225.593c0,0-0.121,5.91,0.726,7.839c0.722,1.93,1.326,9.406,1.204,10.493"/>
-					
+
 						<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000000" stroke-width="0.36" stroke-miterlimit="2.4142" d="
 						M348.835,204.609c0,0,1.809,5.909,2.413,10.372"/>
-					
+
 						<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#6B432F" stroke-width="0.36" stroke-linecap="round" stroke-miterlimit="2.4142" d="
 						M351.73,209.674c0,0,2.291,4.342,2.413,6.272c0.238,1.928,1.809,7.717,1.809,7.717"/>
-					
+
 						<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#6B432F" stroke-width="0.36" stroke-linecap="round" stroke-miterlimit="2.4142" d="
 						M353.78,211.604c0,0,2.172,5.787,2.893,6.511"/>
-					
+
 						<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#6B432F" stroke-width="0.36" stroke-linecap="round" stroke-miterlimit="2.4142" d="
 						M346.544,196.529c0,0,1.689,8.683,1.689,9.648c0,0.965,1.328,6.271,1.328,6.271"/>
-					
+
 						<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#6B432F" stroke-width="0.36" stroke-linecap="round" stroke-miterlimit="2.4142" d="
 						M349.196,202.316c0,0,1.087,5.066,1.69,5.669"/>
-					
+
 						<path i:knockout="Off" fill="none" stroke="#6B432F" stroke-width="0.36" stroke-linecap="round" stroke-miterlimit="2.4142" d="
 						M346.785,194.238l1.327,5.909"/>
-					
+
 						<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#6B432F" stroke-width="0.36" stroke-linecap="round" stroke-miterlimit="2.4142" d="
 						M351.972,217.392c0,0,1.567,11.338,1.567,14.595"/>
-					
+
 						<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#6B432F" stroke-width="0.36" stroke-linecap="round" stroke-miterlimit="2.4142" d="
 						M350.042,215.704c0,0,0.845,3.859,0.845,4.944"/>
-					
+
 						<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#6B432F" stroke-width="0.36" stroke-linecap="round" stroke-miterlimit="2.4142" d="
 						M354.626,228.487c0,0,0.239,9.891,0.239,11.458"/>
-					
+
 						<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#6B432F" stroke-width="0.36" stroke-linecap="round" stroke-miterlimit="2.4142" d="
 						M354.144,240.428c0,0-0.482,8.08-1.209,10.25c-0.602,2.052-0.602,5.067-0.602,5.067"/>
-					
+
 						<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#6B432F" stroke-width="0.36" stroke-linecap="round" stroke-miterlimit="2.4142" d="
 						M100.278,56.632c0,0,3.498-5.547,3.739-7.597"/>
-					
+
 						<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#6B432F" stroke-width="0.36" stroke-linecap="round" stroke-miterlimit="2.4142" d="
 						M106.549,58.802c0,0,1.447-2.292,2.412-4.702"/>
-					
+
 						<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#6B432F" stroke-width="0.36" stroke-linecap="round" stroke-miterlimit="2.4142" d="
 						M76.519,46.259c0,0-3.497-5.787-4.703-6.632"/>
-					
+
 						<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#6B432F" stroke-width="0.36" stroke-linecap="round" stroke-miterlimit="2.4142" d="
 						M73.142,47.707c0,0-2.049-1.929-2.895-2.17"/>
-					
+
 						<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#6B432F" stroke-width="0.36" stroke-linecap="round" stroke-miterlimit="2.4142" d="
 						M107.876,63.386c0,0,2.773-3.98,3.376-5.549"/>
-					
+
 						<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#6B432F" stroke-width="0.36" stroke-linecap="round" stroke-miterlimit="2.4142" d="
 						M110.408,64.953c0,0,3.859-4.704,4.462-6.391"/>
-					
+
 						<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#6B432F" stroke-width="0.36" stroke-linecap="round" stroke-miterlimit="2.4142" d="
 						M111.373,66.28c0,0,3.015-3.859,3.859-4.946"/>
-					
+
 						<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#6B432F" stroke-width="0.36" stroke-linecap="round" stroke-miterlimit="2.4142" d="
 						M118.489,63.025c0,0-3.859,4.341-5.306,5.667"/>
-					
+
 						<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#6B432F" stroke-width="0.36" stroke-linecap="round" stroke-miterlimit="2.4142" d="
 						M124.398,69.777c0,0-3.136,3.86-4.825,5.065"/>
-					
+
 						<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#6B432F" stroke-width="0.36" stroke-linecap="round" stroke-miterlimit="2.4142" d="
 						M130.067,70.623c0,0-3.859,5.545-5.669,6.632"/>
-					
+
 						<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#6B432F" stroke-width="0.36" stroke-linecap="round" stroke-miterlimit="2.4142" d="
 						M131.754,76.892c0,0-2.17,2.896-2.894,3.257"/>
-					
+
 						<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#6B432F" stroke-width="0.36" stroke-linecap="round" stroke-miterlimit="2.4142" d="
 						M130.79,73.755c0,0-3.98,5.188-5.065,5.428"/>
-					
+
 						<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#6B432F" stroke-width="0.36" stroke-linecap="round" stroke-miterlimit="2.4142" d="
 						M135.976,77.375c0,0-3.98,4.583-5.307,5.307"/>
-					
+
 						<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#6B432F" stroke-width="0.36" stroke-linecap="round" stroke-miterlimit="2.4142" d="
 						M140.438,80.149c0,0-6.875,4.702-8.563,5.185"/>
-					
+
 						<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#6B432F" stroke-width="0.36" stroke-linecap="round" stroke-miterlimit="2.4142" d="
 						M141.885,82.079c0,0-3.498,3.254-4.462,3.619"/>
-					
+
 						<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#6B432F" stroke-width="0.36" stroke-linecap="round" stroke-miterlimit="2.4142" d="
 						M143.452,84.851c0,0-3.497,2.413-5.184,3.017"/>
-					
+
 						<path i:knockout="Off" fill="none" stroke="#6B432F" stroke-width="0.36" stroke-linecap="round" stroke-miterlimit="2.4142" d="
 						M132.961,87.626l2.653-1.928"/>
-					
+
 						<path i:knockout="Off" fill="none" stroke="#6B432F" stroke-width="0.36" stroke-linecap="round" stroke-miterlimit="2.4142" d="
 						M137.544,91.848l3.979-2.534"/>
-					
+
 						<path i:knockout="Off" fill="none" stroke="#523727" stroke-width="0.36" stroke-linecap="round" stroke-miterlimit="2.4142" d="
 						M83.152,67.003l1.81,0.602"/>
-					
+
 						<path i:knockout="Off" fill="none" stroke="#523727" stroke-width="0.36" stroke-linecap="round" stroke-miterlimit="2.4142" d="
 						M82.066,64.591l1.207,0.362"/>
-					
+
 						<path i:knockout="Off" fill="none" stroke="#523727" stroke-width="0.36" stroke-linecap="round" stroke-miterlimit="2.4142" d="
 						M92.68,107.523l1.207,2.535"/>
-					
+
 						<path i:knockout="Off" fill="none" stroke="#523727" stroke-width="0.36" stroke-linecap="round" stroke-miterlimit="2.4142" d="
 						M94.971,109.213l0.483,1.93"/>
-					
+
 						<path i:knockout="Off" fill="none" stroke="#523727" stroke-width="0.36" stroke-linecap="round" stroke-miterlimit="2.4142" d="
 						M98.228,111.747l0.362,2.411"/>
-					
+
 						<path i:knockout="Off" fill="none" stroke="#523727" stroke-width="0.36" stroke-linecap="round" stroke-miterlimit="2.4142" d="
 						M100.76,114.521l0.604,2.411"/>
-					
+
 						<path i:knockout="Off" fill="none" stroke="#523727" stroke-width="0.36" stroke-linecap="round" stroke-miterlimit="2.4142" d="
 						M99.917,111.747l0.361,1.565"/>
-					
+
 						<path i:knockout="Off" fill="none" stroke="#523727" stroke-width="0.36" stroke-linecap="round" stroke-miterlimit="2.4142" d="
 						M102.207,115.001l0.846,1.93"/>
-					
+
 						<path i:knockout="Off" fill="none" stroke="#523727" stroke-width="0.36" stroke-linecap="round" stroke-miterlimit="2.4142" d="
 						M164.317,193.151l0.843,3.137"/>
-					
+
 						<path i:knockout="Off" fill="none" stroke="#523727" stroke-width="0.36" stroke-linecap="round" stroke-miterlimit="2.4142" d="
 						M165.401,191.825l0.845,1.687"/>
-					
+
 						<path i:knockout="Off" fill="none" stroke="#523727" stroke-width="0.36" stroke-linecap="round" stroke-miterlimit="2.4142" d="
 						M165.16,187.966l1.086,2.411"/>
-					
+
 						<path i:knockout="Off" fill="none" stroke="#523727" stroke-width="0.36" stroke-linecap="round" stroke-miterlimit="2.4142" d="
 						M167.091,189.051l1.446,1.931"/>
-					
+
 						<path i:knockout="Off" fill="none" stroke="#523727" stroke-width="0.36" stroke-linecap="round" stroke-miterlimit="2.4142" d="
 						M167.332,185.434l0.361,1.928"/>
-					
+
 						<path i:knockout="Off" fill="none" stroke="#523727" stroke-width="0.36" stroke-linecap="round" stroke-miterlimit="2.4142" d="
 						M168.778,183.745l0.845,2.169"/>
-					
+
 						<path i:knockout="Off" fill="none" stroke="#523727" stroke-width="0.36" stroke-linecap="round" stroke-miterlimit="2.4142" d="
 						M114.388,176.51v2.531"/>
-					
+
 						<path i:knockout="Off" fill="none" stroke="#523727" stroke-width="0.36" stroke-linecap="round" stroke-miterlimit="2.4142" d="
 						M116.077,174.821v2.772"/>
-					
+
 						<path i:knockout="Off" fill="none" stroke="#523727" stroke-width="0.36" stroke-linecap="round" stroke-miterlimit="2.4142" d="
 						M117.162,178.801l0.241,2.772"/>
-					
+
 						<path i:knockout="Off" fill="none" stroke="#523727" stroke-width="0.36" stroke-linecap="round" stroke-miterlimit="2.4142" d="
 						M116.077,180.127l-0.363,3.376"/>
-					
+
 						<path i:knockout="Off" fill="none" stroke="#523727" stroke-width="0.36" stroke-linecap="round" stroke-miterlimit="2.4142" d="
 						M113.543,172.047l-0.241,3.135"/>
-					
+
 						<path i:knockout="Off" fill="none" stroke="#523727" stroke-width="0.36" stroke-linecap="round" stroke-miterlimit="2.4142" d="
 						M112.7,177.593l0.241,2.293"/>
-					
+
 						<path i:knockout="Off" fill="none" stroke="#523727" stroke-width="0.36" stroke-linecap="round" stroke-miterlimit="2.4142" d="
 						M115.232,170.721l-0.241,2.531"/>
-					
+
 						<path i:knockout="Off" fill="none" stroke="#523727" stroke-width="0.36" stroke-linecap="round" stroke-miterlimit="2.4142" d="
 						M327.731,190.377l0.482,3.135"/>
-					
+
 						<path i:knockout="Off" fill="none" stroke="#523727" stroke-width="0.36" stroke-linecap="round" stroke-miterlimit="2.4142" d="
 						M326.522,196.288l0.848,4.341"/>
-					
+
 						<path i:knockout="Off" fill="none" stroke="#523727" stroke-width="0.36" stroke-linecap="round" stroke-miterlimit="2.4142" d="
 						M328.574,196.529l1.085,2.772"/>
-					
+
 						<path i:knockout="Off" fill="none" stroke="#523727" stroke-width="0.36" stroke-linecap="round" stroke-miterlimit="2.4142" d="
 						M332.435,180.369l0.24,3.617"/>
-					
+
 						<path i:knockout="Off" fill="none" stroke="#523727" stroke-width="0.36" stroke-linecap="round" stroke-miterlimit="2.4142" d="
 						M328.815,183.143l1.085,3.617"/>
-					
+
 						<path i:knockout="Off" fill="none" stroke="#523727" stroke-width="0.36" stroke-linecap="round" stroke-miterlimit="2.4142" d="
 						M330.505,179.282l0.24,2.774"/>
-					
+
 						<path i:knockout="Off" fill="none" stroke="#523727" stroke-width="0.36" stroke-linecap="round" stroke-miterlimit="2.4142" d="
 						M287.209,177.354l-0.603,3.376"/>
-					
+
 						<path i:knockout="Off" fill="none" stroke="#523727" stroke-width="0.36" stroke-linecap="round" stroke-miterlimit="2.4142" d="
 						M287.45,182.899l-0.604,2.293"/>
-					
+
 						<path i:knockout="Off" fill="none" stroke="#523727" stroke-width="0.36" stroke-linecap="round" stroke-miterlimit="2.4142" d="
 						M285.52,184.588l-0.238,2.535"/>
-					
+
 						<path i:knockout="Off" fill="none" stroke="#523727" stroke-width="0.36" stroke-linecap="round" stroke-miterlimit="2.4142" d="
 						M288.055,186.76l-0.604,2.291"/>
-					
+
 						<path i:knockout="Off" fill="none" stroke="#523727" stroke-width="0.36" stroke-linecap="round" stroke-miterlimit="2.4142" d="
 						M319.65,206.177l0.604,2.291"/>
-					
+
 						<path i:knockout="Off" fill="none" stroke="#523727" stroke-width="0.36" stroke-linecap="round" stroke-miterlimit="2.4142" d="
 						M319.65,202.316l1.086,2.292"/>
-					
+
 						<path i:knockout="Off" fill="none" stroke="#523727" stroke-width="0.36" stroke-linecap="round" stroke-miterlimit="2.4142" d="
 						M319.892,189.292l0.604,1.689"/>
-					
+
 						<path i:knockout="Off" fill="none" stroke="#523727" stroke-width="0.36" stroke-linecap="round" stroke-miterlimit="2.4142" d="
 						M278.043,108.61l3.256,0.361"/>
-					
+
 						<path i:knockout="Off" fill="none" stroke="#523727" stroke-width="0.36" stroke-linecap="round" stroke-miterlimit="2.4142" d="
 						M280.214,110.539l3.376,0.362"/>
-					
+
 						<path i:knockout="Off" fill="none" stroke="#523727" stroke-width="0.36" stroke-linecap="round" stroke-miterlimit="2.4142" d="
 						M290.465,110.539l3.377,0.604"/>
-					
+
 						<path i:knockout="Off" fill="none" stroke="#523727" stroke-width="0.36" stroke-linecap="round" stroke-miterlimit="2.4142" d="
 						M295.771,113.917l2.774,1.448"/>
-					
+
 						<path i:knockout="Off" fill="none" stroke="#523727" stroke-width="0.36" stroke-linecap="round" stroke-miterlimit="2.4142" d="
 						M307.47,114.76l2.171,0.846"/>
-					
+
 						<path i:knockout="Off" fill="none" stroke="#523727" stroke-width="0.36" stroke-linecap="round" stroke-miterlimit="2.4142" d="
 						M310.245,117.293l2.411,1.086"/>
-					
+
 						<path i:knockout="Off" fill="none" stroke="#523727" stroke-width="0.36" stroke-linecap="round" stroke-miterlimit="2.4142" d="
 						M299.633,112.229l1.928,0.361"/>
-					
+
 						<path i:knockout="Off" fill="none" stroke="#523727" stroke-width="0.36" stroke-linecap="round" stroke-miterlimit="2.4142" d="
 						M318.203,123.082l3.619,1.931"/>
-					
+
 						<path i:knockout="Off" fill="none" stroke="#523727" stroke-width="0.36" stroke-linecap="round" stroke-miterlimit="2.4142" d="
 						M319.409,126.46l3.014,2.172"/>
-					
+
 						<path i:knockout="Off" fill="none" stroke="#523727" stroke-width="0.36" stroke-linecap="round" stroke-miterlimit="2.4142" d="
 						M337.138,138.036l2.172,2.535"/>
-					
+
 						<path i:knockout="Off" fill="none" stroke="#523727" stroke-width="0.36" stroke-linecap="round" stroke-miterlimit="2.4142" d="
 						M337.379,141.414l1.447,2.171"/>
-					
+
 						<path i:knockout="Off" fill="none" stroke="#523727" stroke-width="0.36" stroke-linecap="round" stroke-miterlimit="2.4142" d="
 						M340.996,143.947l1.087,1.569"/>
 					<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="#CCCCCC" d="M16.219,96.55
