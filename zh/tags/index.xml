@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags | 王成军</title>
+    <link>https://chengjunwang.com/zh/tags/</link>
+      <atom:link href="https://chengjunwang.com/zh/tags/index.xml" rel="self" type="application/rss+xml" />
+    <description>Tags</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>zh-Hans</language><copyright>All rights © reserved 2019</copyright><lastBuildDate>Wed, 13 Feb 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://chengjunwang.com/img/headers/deer.webp</url>
+      <title>Tags</title>
+      <link>https://chengjunwang.com/zh/tags/</link>
+    </image>
+    
+    <item>
+      <title>news</title>
+      <link>https://chengjunwang.com/zh/tags/news/</link>
+      <pubDate>Wed, 13 Feb 2019 00:00:00 +0000</pubDate>
+      <guid>https://chengjunwang.com/zh/tags/news/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>jekyll</title>
+      <link>https://chengjunwang.com/zh/tags/jekyll/</link>
+      <pubDate>Mon, 10 Mar 2014 00:00:00 +0800</pubDate>
+      <guid>https://chengjunwang.com/zh/tags/jekyll/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

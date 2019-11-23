@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Yanto Chandra | Cheng-Jun Wang</title>
+    <link>https://chengjunwang.com/authors/yanto-chandra/</link>
+      <atom:link href="https://chengjunwang.com/authors/yanto-chandra/index.xml" rel="self" type="application/rss+xml" />
+    <description>Yanto Chandra</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>All rights © reserved 2019</copyright><lastBuildDate>Mon, 21 Mar 2016 12:22:55 +0800</lastBuildDate>
+    <image>
+      <url>https://chengjunwang.com/img/headers/deer.webp</url>
+      <title>Yanto Chandra</title>
+      <link>https://chengjunwang.com/authors/yanto-chandra/</link>
+    </image>
+    
+    <item>
+      <title>Mining Social Entrepreneurship Strategies Using Topic Modeling</title>
+      <link>https://chengjunwang.com/publication/social-entrepreneurship/</link>
+      <pubDate>Mon, 21 Mar 2016 12:22:55 +0800</pubDate>
+      <guid>https://chengjunwang.com/publication/social-entrepreneurship/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

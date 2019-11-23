@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>computational-communication | Cheng-Jun Wang</title>
+    <link>https://chengjunwang.com/tags/computational-communication/</link>
+      <atom:link href="https://chengjunwang.com/tags/computational-communication/index.xml" rel="self" type="application/rss+xml" />
+    <description>computational-communication</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>All rights © reserved 2019</copyright><lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://chengjunwang.com/img/headers/deer.webp</url>
+      <title>computational-communication</title>
+      <link>https://chengjunwang.com/tags/computational-communication/</link>
+    </image>
+    
+    <item>
+      <title>Computational Communication</title>
+      <link>https://chengjunwang.com/project/attention-networks/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>https://chengjunwang.com/project/attention-networks/</guid>
+      <description>&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;https://chengjunwang.com/publication/computational-journalism/&#34;&gt;计算社会科学视野下的新闻学研究&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://chengjunwang.com/publication/cc-origin/&#34;&gt;计算传播学的起源、概念和应用&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://chengjunwang.com/publication/cc-intro/&#34;&gt;计算传播学:作为计算社会科学的传播学&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://chengjunwang.com/publication/ccr-book/&#34;&gt;计算传播学导论&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

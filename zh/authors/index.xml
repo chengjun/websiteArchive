@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Authors | 王成军</title>
+    <link>https://chengjunwang.com/zh/authors/</link>
+      <atom:link href="https://chengjunwang.com/zh/authors/index.xml" rel="self" type="application/rss+xml" />
+    <description>Authors</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>zh-Hans</language><copyright>All rights © reserved 2019</copyright>
+    <image>
+      <url>https://chengjunwang.com/img/headers/deer.webp</url>
+      <title>Authors</title>
+      <link>https://chengjunwang.com/zh/authors/</link>
+    </image>
+    
+    <item>
+      <title></title>
+      <link>https://chengjunwang.com/zh/authors/admin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://chengjunwang.com/zh/authors/admin/</guid>
+      <description>&lt;p&gt;王成军，传播学博士。现为&lt;a href=&#34;http://jc.nju.edu.cn&#34; target=&#34;_blank&#34;&gt;南京大学新闻传播学院&lt;/a&gt;副教授，&lt;a href=&#34;https://computational-communication.com/collaboratory/&#34; target=&#34;_blank&#34;&gt;计算传播学实验中心&lt;/a&gt;主任，兼任香港城市大学&lt;a href=&#34;http://weblab.com.cityu.edu.hk&#34; target=&#34;_blank&#34;&gt;互联网挖掘实验室&lt;/a&gt;研究员。参与翻译《社会网络分析：方法与实践》(2013)、合著《社交网络上的计算传播学》(2015)、合著《计算传播学导论》(2018)。他的研究成果发表于SSCI和SCI索引的期刊，例如Scientific Reports、PloS ONE、Physica A、Cyberpsychology。2014年，王成军发起创建了&lt;a href=&#34;http://computational-communication.com&#34; target=&#34;_blank&#34;&gt;计算传播网&lt;/a&gt;。更多信息见&lt;a href=&#34;../&#34;&gt;英文页面&lt;/a&gt;或他的&lt;a href=&#34;../cv/&#34;&gt;简历&lt;/a&gt;。&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

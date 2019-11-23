@@ -1,185 +1,476 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Publications on Cheng-Jun Wang</title>
+    <title>Publications | Cheng-Jun Wang</title>
     <link>https://chengjunwang.com/publication/</link>
-    <description>Recent content in Publications on Cheng-Jun Wang</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>&amp;copy; 2016 Cheng-Jun Wang</copyright>
-    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://chengjunwang.com/publication/index.xml" rel="self" type="application/rss+xml" />
-    
+      <atom:link href="https://chengjunwang.com/publication/index.xml" rel="self" type="application/rss+xml" />
+    <description>Publications</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>All rights © reserved 2019</copyright><lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://chengjunwang.com/img/headers/deer.webp</url>
+      <title>Publications</title>
+      <link>https://chengjunwang.com/publication/</link>
+    </image>
     
     <item>
       <title>The Cinderella complex: Word embeddings reveal gender stereotypes in movies and books</title>
       <link>https://chengjunwang.com/publication/storytelling/</link>
       <pubDate>Thu, 14 Nov 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://chengjunwang.com/publication/storytelling/</guid>
-      <description>Citation  Xu H, Zhang Z, Wu L*, Wang C.J. * (2019) The Cinderella Complex: Word embeddings reveal gender stereotypes in movies and books. PLoS ONE 14(11): e0225385. doi:10.1371/journal.pone.0225385
- You can also find the manuscript of arXiv from this link https://arxiv.org/pdf/1811.04599.pdf.
-Data Availability The data underlying the results presented in the study are available from IMDB website (www.imdb.com), IMSDB website (www.imsdb.com), and the Gutenberg Project (www.gutenberg.org). All the code and processed data are available from https://github.</description>
+      <description>
+
+&lt;h3 id=&#34;citation&#34;&gt;Citation&lt;/h3&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Xu H, Zhang Z, Wu L*, &lt;em&gt;Wang C.J.&lt;/em&gt; * (2019) The Cinderella Complex: Word embeddings reveal gender stereotypes in movies and books. PLoS ONE 14(11): e0225385. &lt;a href=&#34;https://doi.org/10.1371/journal.pone.0225385&#34; target=&#34;_blank&#34;&gt;doi:10.1371/journal.pone.0225385&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;You can also find the manuscript of arXiv from this link &lt;a href=&#34;https://arxiv.org/pdf/1811.04599.pdf&#34; target=&#34;_blank&#34;&gt;https://arxiv.org/pdf/1811.04599.pdf&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&#34;data-availability&#34;&gt;Data Availability&lt;/h3&gt;
+
+&lt;p&gt;The data underlying the results presented in the study are available from IMDB website (www.imdb.com), IMSDB website (www.imsdb.com), and the Gutenberg Project (www.gutenberg.org). All the code and processed data are available from &lt;a href=&#34;https://github.com/xuhuimin2017/storyshape/&#34; target=&#34;_blank&#34;&gt;https://github.com/xuhuimin2017/storyshape/&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;claims&#34;&gt;Claims&lt;/h3&gt;
+
+&lt;p&gt;The rich literature on gender stereotypes points out the assumptions to explore in identifying and quantifying stereotypical narrative structures, including&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;1) The emotional dependency of females on males. Men and women have different social imagines. Men are agentic, and women are communal [19,29,30]; men are active, whereas women are passive; men give, and women take in relationships [29–31]. These biased images of men and women lead to biased expectations in their relationships. Those who consider women less competent would tend to believe that they are fragile and sensitive and need to be protected by men [19,32]. Following this literature, we propose to test the emotional dependency of females on males [33];&lt;/li&gt;
+&lt;li&gt;2) Men act and women appear. The English novelist John Berger [34] used this quote to describe the male-female dichotomy. Considering the stereotypical role and traits of men, one would imagine men are more likely than women to be described using verbs;&lt;/li&gt;
+&lt;li&gt;3) Social endorsement of gender stereotypes. The social and cultural roots of gender stereotypes form social force against stereotype disconfirmation from people, action, or ideas [19]. In this sense, the stories that approve gender stereotypes will gain social approval themselves, whereas the stories against stereotypes will be ignored and disapproved. Our study will test this assumption by connecting the frame of stories with their social acceptance.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;We firstly construct a vector representing the dimension of happy versus unhappy from pre-trained word vectors using Google News data [17]. The distance from this vector to other word vectors represents the “happiness score” of the corresponding words. The average of “happiness scores” over the timeline of stories quantifies their shape. Moreover, by controlling the window size to analyze only the words surrounding specific names, we can track the “happiness scores” of different characters. Using these techniques, we find that in the movie synopsis of Cinderella, the happiness of Ella (Cinderella) depends on Kit (Prince) but not vice versa. This finding supports the “Cinderella complex” [18], a narrative structure enhancing the stereotypical incompetence of women. Applying our analysis to 6,087 movie synopses, 1,109 movie scripts, and 7,226 books, we observe the vast existence of this narrative structure. Our review of the words surrounding characters unpack their stereotypical life packages; the lives of males are adventure-oriented, whereas the lives of females are romantic-relationship oriented. Finally, we reveal the social endorsement of gender stereotypes by identifying the association between the strength of gender stereotypes in movie synopses and the IMDB ratings to the analyzed movies.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://chengjunwang.com/img/2019/journal.pone.0225385.g001.PNG&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Fig 1. The Cinderella complex. a, Visualizing the sentiment landscape of the movie synopsis of Cinderella as a skyline (a black outline is added to enhance the “skyline”metaphor visually). We show sentences in a vertical schema, colored by their “happiness score”—green for happy and red for unhappy and the transparency represents the scale of the scores. Filled squares (orange for Ella and blue for Kit) indicate the co-occurrence of Ella (Cinderella) and Kit (the Prince) in the same sentence. Hollow squares indicate where only one character appears: b, The happiness curves of Ella (orange) and Kit (blue). The grey dotted lines marks the sentences in which they co-occur, corresponding to the filled squares in Panel a. We fit the increase or decrease in happiness scores across successive co-occurrences with OLS regression (see Methods for more information). Thick lines show the estimates of regression.&lt;/p&gt;
+
+&lt;p&gt;Our analysis of the words surrounding female and male characters shows that the lives of males are adventure-oriented, whereas the lives of females are romantic-relationship oriented. Finally, we demonstrate the social endorsement of gender stereotypes by showing that gender-stereotypical movies are voted more frequently and rated higher.&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>Elements of Computational Communication</title>
       <link>https://chengjunwang.com/publication/ccbook/</link>
       <pubDate>Tue, 01 Oct 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://chengjunwang.com/publication/ccbook/</guid>
-      <description>My ebook Elements of Computational Communication (In Chinese 计算传播基础） is now available online, enjoy! http://computational-class.github.io/ccbook/. It is based on two related master courses:
- https://github.com/computational-class/bigdata https://github.com/computational-class/cjc  </description>
+      <description>&lt;p&gt;&lt;img src=&#34;https://chengjunwang.com/img/headers/ccbooklogo2.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;My ebook &lt;strong&gt;Elements of Computational Communication (In Chinese 计算传播基础）&lt;/strong&gt; is now available online, enjoy! &lt;a href=&#34;http://computational-class.github.io/ccbook/&#34; target=&#34;_blank&#34;&gt;http://computational-class.github.io/ccbook/&lt;/a&gt;. It is based on two related master courses:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/computational-class/bigdata&#34; target=&#34;_blank&#34;&gt;https://github.com/computational-class/bigdata&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/computational-class/cjc&#34; target=&#34;_blank&#34;&gt;https://github.com/computational-class/cjc&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
     </item>
     
     <item>
       <title>Jumping onto the Bandwagon of Collective Gatekeepers: Testing the Bandwagon Effect of Information Diffusion on Social News Website</title>
       <link>https://chengjunwang.com/publication/bandwagon/</link>
       <pubDate>Sun, 03 Mar 2019 22:20:56 +0800</pubDate>
-      
       <guid>https://chengjunwang.com/publication/bandwagon/</guid>
-      <description>Jumping onto the Bandwagon of Collective Gatekeepers: Testing the Bandwagon Effect of Information Diffusion on Social News Website
-Cheng-Jun Wang $ ^{a,b}$ * , Jonathan J.H. Zhu ${^b}$
-$^a$ Computational Communication Collaboratory, School of Journalism and Communication, Nanjing University, Nanjing, China
-$^b$ Web Mining Lab, Department of Media and Communication, City University of Hong Kong, Hong Kong, China
-Keywords Information Diffusion; Collective Gatekeeping; Interpersonal Effects; Bandwagon Effects; Threshold Model</description>
+      <description>
+
+&lt;p&gt;&lt;strong&gt;Jumping onto the Bandwagon of Collective Gatekeepers: Testing the Bandwagon Effect of Information Diffusion on Social News Website&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Cheng-Jun Wang $ ^{a,b}$ * , Jonathan J.H. Zhu ${^b}$&lt;/p&gt;
+
+&lt;p&gt;$^a$ Computational Communication Collaboratory, School of Journalism and Communication, Nanjing University, Nanjing, China&lt;/p&gt;
+
+&lt;p&gt;$^b$ Web Mining Lab, Department of Media and Communication, City University of Hong Kong, Hong Kong, China&lt;/p&gt;
+
+&lt;h2 id=&#34;keywords&#34;&gt;Keywords&lt;/h2&gt;
+
+&lt;p&gt;Information Diffusion; Collective Gatekeeping; Interpersonal Effects; Bandwagon Effects; Threshold Model&lt;/p&gt;
+
+&lt;p&gt;The results demonstrate that the bandwagon of collective gatekeepers is the primary driver for online news diffusion. Interestingly, the bandwagon effect of collective gatekeeping is moderated by the strength of interpersonal effects. The theoretical generalizations of this research contribute to our understanding about the impact of collective gatekeeping on information diffusion.&lt;/p&gt;
+
+&lt;h2 id=&#34;highlights&#34;&gt;Highlights&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Drawing on threshold models to capture the interpersonal effects and collective gatekeeping, we test our hypothesis with two novel datasets of information diffusion on social media.&lt;/li&gt;
+&lt;li&gt;The findings demonstrate that both bandwagon effect and interpersonal effect play important roles in collective gatekeeping on social media.&lt;/li&gt;
+&lt;li&gt;The bandwagon of collective gatekeepers is the primary driver for online news diffusion&lt;/li&gt;
+&lt;li&gt;The bandwagon effect of collective gatekeeping is moderated by the strength of interpersonal effects.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Telematics and Informatics&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Received at Editorial Office 2 Jul 2018&lt;/li&gt;
+&lt;li&gt;Article 3rd revised 19 Feb 2019&lt;/li&gt;
+&lt;li&gt;Article accepted for publication
+3 Mar 2019&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Please cite this article as:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Wang, C-J. * , Zhu, J.J.H.(2019) Jumping onto the Bandwagon of Collective Gatekeepers: Testing the Bandwagon Effect of Information Diffusion on Social News Website, Telematics and Informatics. 41:34-45, doi: &lt;a href=&#34;https://doi.org/10.1016/j.tele.2019.03.001&#34; target=&#34;_blank&#34;&gt;https://doi.org/10.1016/j.tele.2019.03.001&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
     </item>
     
     <item>
       <title>找回失落的参考群体：对沉默的螺旋理论的边界条件的考察</title>
       <link>https://chengjunwang.com/publication/abm-sos/</link>
       <pubDate>Tue, 01 Jan 2019 11:33:49 +0800</pubDate>
-      
       <guid>https://chengjunwang.com/publication/abm-sos/</guid>
-      <description>[Abstract] The purpose of this study is threefold: first, to bring reference groups back into the framework of spiral of silence (SOS) by proposing an integrated framework of dual opinion climate; second, to investigate the boundary conditions of SOS; third, to identify the characteristics of SOS in terms of spatial variation and temporal evolution. Modeling SOS with agent-based models, the findings suggest that there is no guarantee of SOS with reference groups being brought back; the stable existence of SOS is contingent upon the comparative strength of mass media over reference groups; SOS is size-dependent upon reference groups and the population; the growth rate of SOS decreases over time.</description>
+      <description>&lt;p&gt;&lt;strong&gt;[Abstract]&lt;/strong&gt; The purpose of this study is threefold: first, to bring reference groups back into the framework of spiral of silence (SOS) by proposing an integrated framework of dual opinion climate; second, to investigate the boundary conditions of SOS; third, to identify the characteristics of SOS in terms of spatial variation and temporal evolution. Modeling SOS with agent-based models, the findings suggest that there is no guarantee of SOS with reference groups being brought back; the stable existence of SOS is contingent upon the comparative strength of mass media over reference groups; SOS is size-dependent upon reference groups and the population; the growth rate of SOS decreases over time. Thus, this research presents an extension of the SOS theory.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;[Key Words]&lt;/strong&gt; spiral of silence; agent-based model; reference group; size-dependent; computational communication research&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;引用&lt;/strong&gt;: 王成军，党明辉，杜骏飞 (2019) 找回失落的参考群体:对沉默的螺旋理论的边界条件的考察. 新闻大学. 156:13-29. &lt;a href=&#34;http://mall.cnki.net/magazine/Article/XWDX201904005.htm&#34; target=&#34;_blank&#34;&gt;http://mall.cnki.net/magazine/Article/XWDX201904005.htm&lt;/a&gt; （入选人大复印资料新闻与传播2019年第8期）&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>计算传播学导论</title>
       <link>https://chengjunwang.com/publication/ccr-book/</link>
       <pubDate>Wed, 17 Oct 2018 00:00:00 +0000</pubDate>
-      
       <guid>https://chengjunwang.com/publication/ccr-book/</guid>
-      <description>《计算传播学导论》
- 作者: 张伦 / 王成军 / 许小可 出版社: 北京师范大学出版社 出版年: 2018-9 页数: 239 装帧: 平装 ISBN: 9787303241200   新书发布！[号外] 11月20号入库发货！《计算传播学导论》终于在当当预售了，（点下面传媒学术网公号里的链接或者直接在当当搜索“计算传播学”）～ 通过预售链接购买（有折扣哦！)。本书里总结了我们这几年在相关课程或讲习班的主要教学经验。还有很多不完善的地方，教学相长，不断改进吧。
- &amp;ldquo;Introduction to Computational Communication&amp;rdquo; (In Chinese 计算传播学导论) now available on dangdang.com for pre-order! http://product.dangdang.com/25581097.html
-二十一世纪是计算社会科学的时代。1998年邓肯·瓦茨关于小世界网络的模型和1999年阿尔伯特·巴拉巴西关于幂律和无标度网络的研究复兴了网络科学。一石激起千层浪，在学术领域产生了深远的影响。对于万维网上的人类行为的研究也形成了一个子领域，被称之为万维网科学(Web Science)；伴随着社交媒体等数字媒体的发展，社会网络分析开始受到前所未有的重视，社交网络上的信息流动网络研究也引起广泛的兴趣；与此同时，机器学习和数据科学取得了突飞猛进的发展，进一步加速了计算化的浪潮；在新闻传播产业当中，数据驱动的新闻生产、计算广告和媒体推荐系统开始成为席卷世界的潮流。面对海量的互联网数据、持续困扰人类的重大社会问题、崭新的理论视角、诱人的物理学模型，在世界大战中发展起来的新闻传播学研究会走向什么地方？这构成了困扰我们的时代问题，而计算传播学正是试图回应这一时代叩问的一种尝试。在大数据和人工智能时代，未来的计算社会科学家更需要训练问题意识、培养计算思维、增强数据挖掘和分析的能力，而这正是本书写作的一个重要目的。
-计算传播学将传播学研究置于数据和计算方法的坚固基础上。数据作为一种新的石油，解放了社会科学家对于理论的过度依赖。随着数字媒体的发展，人类社会积累的人类传播行为数据的规模日趋庞大，详尽地记录了社会发展和人类互动的各种细节。运用这些生动的人类传播行为数据，可以从更细的颗粒度、更大的样本规模上让我们捕捉社会的发展。毫无疑问，对于数据的挖掘依赖于人类的计算能力的提高，依赖于跨学科的研究方法和研究视角。我们人类传播行为的基因恰恰隐藏在互动性当中，但这种人类传播行为的互动性本身也使得传播过程充满了复杂性。网络科学为捕捉到纷繁复杂的人类互动提供了一个很好的视角。从数据出发，借助于计算方法和好的理论视角，就可以更好地刻画人类传播行为的模式和法则。
-目标读者  致力于进行“计算社会科学” 研究的本科生与研究生 准备开设《计算传播学》或《计算社会科学》课程的青年教师 对于定量传播学研究有基本了解 对于Python、R等软件仅初步了解 致力于日后进入相关数据科学领域工作的学生  本书特色  强调跨学科合作 （传播学、网络科学、计算机科学） 引用大量发表于Science、Nature、Proceedings of National Sciences (PNAS) 等国际顶级期刊的论文 附加主要Python程序代码  书籍网站 Slides和Code见：https://github.com/computational-class/ccrbook
- Python代码
- 教案 案例  导教班及教学研讨会  2019年 培训对象：利用本书作为核心教材的青年教师  如何购买？  上市时间：10月中下旬 售价：49.</description>
+      <description>
+
+&lt;p&gt;&lt;strong&gt;《计算传播学导论》&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;作者: 张伦 / 王成军 / 许小可&lt;/li&gt;
+&lt;li&gt;出版社: 北京师范大学出版社&lt;/li&gt;
+&lt;li&gt;出版年: 2018-9&lt;/li&gt;
+&lt;li&gt;页数: 239&lt;/li&gt;
+&lt;li&gt;装帧: 平装&lt;/li&gt;
+&lt;li&gt;ISBN: 9787303241200&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;新书发布！[号外] 11月20号入库发货！《计算传播学导论》终于在当当预售了，（点下面传媒学术网公号里的链接或者直接在当当搜索“计算传播学”）～ 通过预售链接购买（有折扣哦！)。本书里总结了我们这几年在相关课程或讲习班的主要教学经验。还有很多不完善的地方，教学相长，不断改进吧。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&amp;laquo;Introduction to Computational Communication&amp;raquo; (In Chinese 计算传播学导论) now available on dangdang.com  for pre-order! &lt;a href=&#34;http://product.dangdang.com/25581097.html&#34; target=&#34;_blank&#34;&gt;http://product.dangdang.com/25581097.html&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;With the development of digital media, data-driven journalism, computational advertising, and media recommendation systems become a worldwide trend. At the same time, machine learning, as well as data science have made a big leap forward. Put together, all of these factors discussed above speed up the tide of computational communication research.&lt;/p&gt;
+
+&lt;p&gt;二十一世纪是计算社会科学的时代。1998年邓肯·瓦茨关于小世界网络的模型和1999年阿尔伯特·巴拉巴西关于幂律和无标度网络的研究复兴了网络科学。一石激起千层浪，在学术领域产生了深远的影响。对于万维网上的人类行为的研究也形成了一个子领域，被称之为万维网科学(Web Science)；伴随着社交媒体等数字媒体的发展，社会网络分析开始受到前所未有的重视，社交网络上的信息流动网络研究也引起广泛的兴趣；与此同时，机器学习和数据科学取得了突飞猛进的发展，进一步加速了计算化的浪潮；在新闻传播产业当中，数据驱动的新闻生产、计算广告和媒体推荐系统开始成为席卷世界的潮流。面对海量的互联网数据、持续困扰人类的重大社会问题、崭新的理论视角、诱人的物理学模型，在世界大战中发展起来的新闻传播学研究会走向什么地方？这构成了困扰我们的时代问题，而计算传播学正是试图回应这一时代叩问的一种尝试。在大数据和人工智能时代，未来的计算社会科学家更需要训练问题意识、培养计算思维、增强数据挖掘和分析的能力，而这正是本书写作的一个重要目的。&lt;/p&gt;
+
+&lt;p&gt;计算传播学将传播学研究置于数据和计算方法的坚固基础上。数据作为一种新的石油，解放了社会科学家对于理论的过度依赖。随着数字媒体的发展，人类社会积累的人类传播行为数据的规模日趋庞大，详尽地记录了社会发展和人类互动的各种细节。运用这些生动的人类传播行为数据，可以从更细的颗粒度、更大的样本规模上让我们捕捉社会的发展。毫无疑问，对于数据的挖掘依赖于人类的计算能力的提高，依赖于跨学科的研究方法和研究视角。我们人类传播行为的基因恰恰隐藏在互动性当中，但这种人类传播行为的互动性本身也使得传播过程充满了复杂性。网络科学为捕捉到纷繁复杂的人类互动提供了一个很好的视角。从数据出发，借助于计算方法和好的理论视角，就可以更好地刻画人类传播行为的模式和法则。&lt;/p&gt;
+
+&lt;h3 id=&#34;目标读者&#34;&gt;目标读者&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;致力于进行“计算社会科学” 研究的本科生与研究生&lt;/li&gt;
+&lt;li&gt;准备开设《计算传播学》或《计算社会科学》课程的青年教师&lt;/li&gt;
+&lt;li&gt;对于定量传播学研究有基本了解&lt;/li&gt;
+&lt;li&gt;对于Python、R等软件仅初步了解&lt;/li&gt;
+&lt;li&gt;致力于日后进入相关数据科学领域工作的学生&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;本书特色&#34;&gt;本书特色&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;强调跨学科合作 （传播学、网络科学、计算机科学）&lt;/li&gt;
+&lt;li&gt;引用大量发表于Science、Nature、Proceedings of National Sciences (PNAS) 等国际顶级期刊的论文&lt;/li&gt;
+&lt;li&gt;附加主要Python程序代码&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;书籍网站&#34;&gt;书籍网站&lt;/h3&gt;
+
+&lt;p&gt;Slides和Code见：&lt;a href=&#34;https://github.com/computational-class/ccrbook&#34; target=&#34;_blank&#34;&gt;https://github.com/computational-class/ccrbook&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Python代码&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;教案&lt;/li&gt;
+&lt;li&gt;案例&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;导教班及教学研讨会&#34;&gt;导教班及教学研讨会&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;2019年&lt;/li&gt;
+&lt;li&gt;培训对象：利用本书作为核心教材的青年教师&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;如何购买&#34;&gt;如何购买？&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;上市时间：10月中下旬&lt;/li&gt;
+&lt;li&gt;售价：49.8元&lt;/li&gt;
+&lt;li&gt;京东、当当、亚马逊、卓越  （上市新书发布期间有一定折扣）&lt;/li&gt;
+&lt;/ul&gt;
+</description>
     </item>
     
     <item>
       <title>计算社会科学视野下的新闻学研究：挑战与机遇</title>
       <link>https://chengjunwang.com/publication/computational-journalism/</link>
       <pubDate>Tue, 15 Aug 2017 11:33:49 +0800</pubDate>
-      
       <guid>https://chengjunwang.com/publication/computational-journalism/</guid>
-      <description>引用: 王成军(2017).计算社会科学视野下的新闻学研究：挑战与机遇. 新闻大学,(04):26-32 （入选人大复印资料新闻与传播2017年第10期）
-Journalism Studies in the Perspective of Computational Social Science: Challenges and Opportunities WANG Cheng-Jun1
-[Abstract] Our society has entered the brand new era of computational social science. The new style of news production and the new paradigm of computational social science created both challenges and opportunities for the development of classic journalism research, which empower journalism research in the aspects of data, computational methods, network theory, and etc.</description>
+      <description>
+
+&lt;p&gt;&lt;strong&gt;引用&lt;/strong&gt;: 王成军(2017).计算社会科学视野下的新闻学研究：挑战与机遇. 新闻大学,(04):26-32 （入选人大复印资料新闻与传播2017年第10期）&lt;/p&gt;
+
+&lt;h3 id=&#34;journalism-studies-in-the-perspective-of-computational-social-science-challenges-and-opportunities&#34;&gt;Journalism Studies in the Perspective of Computational Social Science: Challenges and Opportunities&lt;/h3&gt;
+
+&lt;p&gt;WANG Cheng-Jun&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;[Abstract]&lt;/strong&gt; Our society has entered the brand new era of computational social science. The new style of news production and the new paradigm of computational social science created both challenges and opportunities for the development of classic journalism research, which empower journalism research in the aspects of data, computational methods, network theory, and etc. This article aims to review the research on computational social science, especially its potential applications in journalism research. Finally, we offer a discussion on establishing the framework of computational communication research for better understanding of journalism research, with an emphasis on big questions, data, patterns, mechanisms, and general principles.
+&lt;strong&gt;[Key Words]&lt;/strong&gt; Computational Social Science;  Journalism;  Network Science;  Big Data； Computational Communication Research&lt;/p&gt;
+
+&lt;h1 id=&#34;参考文献&#34;&gt;参考文献&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&#34;1&#34; title=&#34;Computational Communication Collaboratory, School of Journalism and Communication, Nanjing University, Nanjing, Jiangsu, China, 210093
+&#34; target=&#34;_blank&#34;&gt;1&lt;/a&gt; Watts, D.J., “A twenty-first century science,” Nature 445(7127)  (2007): p. 489.&lt;/p&gt;
+
+&lt;p&gt;[2] Lazer, D., et al., “Life in the network: The coming age of computational social science,” Science 323(5915) (2009): p. 721-723.&lt;/p&gt;
+
+&lt;p&gt;[3] 王成军. 计算传播学:作为计算社会科学的传播学[J]. 中国网络传播研究, 2014.第193-206页&lt;/p&gt;
+
+&lt;p&gt;[4] 王成军. 计算传播学的起源、概念和应用[J]. 编辑学刊, 2016(3): 第59-64页.&lt;/p&gt;
+
+&lt;p&gt;[5] 祝建华, 彭泰权, 梁海, 王成军, 秦洁, 陈鹤鑫. 计算社会科学在新闻传播研究中的应用[J]. 科研信息化技术与应用, 2014. 5(2): 第3-13页.&lt;/p&gt;
+
+&lt;p&gt;[6] Fu, J.S., “Leveraging Social Network Analysis for Research on Journalism in the Information Age,” Journal of Communication 66(2) (2016): p. 299-313.&lt;/p&gt;
+
+&lt;p&gt;[7] Strohmaier, M. and C. Wagner, “Computational Social Science for the World Wide Web,” Intelligent Systems IEEE 29(5) (2014): p. 84-88.&lt;/p&gt;
+
+&lt;p&gt;[8] Conte, R., et al., “Manifesto of computational social science,” The European Physical Journal Special Topics 214(1) (2012): p. 325-346.&lt;/p&gt;
+
+&lt;p&gt;[9] Moran, E.F., et al., “Opinion: Building a 21st-century infrastructure for the social sciences,” Proceedings of the National Academy of Sciences of the United States of America 111(45) (2014): p. 15855-15856.&lt;/p&gt;
+
+&lt;p&gt;[10] Cioffi-Revilla, C., “Computational social science,” WILEY Interdisciplinary Reviews: Computational Statistics 2(3) (2010): p. 259-271.&lt;/p&gt;
+
+&lt;p&gt;[11] Giles, J., “Computational social science: Making the links,” Nature 488(7412) (2012): p. 448-450.&lt;/p&gt;
+
+&lt;p&gt;[12] Watts, D.J. and S.H. Strogatz, “Collective dynamics of &amp;lsquo;small-world&amp;rsquo; networks”, Nature 393(6684) (1998): p. 440-442.&lt;/p&gt;
+
+&lt;p&gt;[13] Kleinberg, J.M., “Navigation in a small world,” Nature 406(6798) (2000): p. 845.&lt;/p&gt;
+
+&lt;p&gt;[14] Ugander, J., et al., “Structural diversity in social contagion,” Proceedings of the National Academy of Sciences 109(16) (2012): p. 5962-5966.&lt;/p&gt;
+
+&lt;p&gt;[15] Eagle, N., M. Macy, and R. Claxton, “Network Diversity and Economic Development,” Science  328(5981) (2010): p. 1029-1031.&lt;/p&gt;
+
+&lt;p&gt;[16] Dzogang, F., et al., “Discovering Periodic Patterns in Historical News,” Plos One 11(11) (2016): p. e0165736.&lt;/p&gt;
+
+&lt;p&gt;[17] Michel, J.B., et al., “Quantitative analysis of culture using millions of digitized books,” Science 331(6014) (2011): p. 176-182.&lt;/p&gt;
+
+&lt;p&gt;[18] Lansdall-Welfare, T., et al., “Content analysis of 150 years of British periodicals,” Proceedings of the National Academy of Sciences 114(4) (2017) p. E457-E465.&lt;/p&gt;
+
+&lt;p&gt;[19] Wang, W., et al., “Growing pains for global monitoring of societal events,” Science 353(6307) (2016): p. 1502-1503.&lt;/p&gt;
+
+&lt;p&gt;[20] Shumate, M. and N. Contractor, “The Emergence of Multidimensional Networks,” The SAGE handbook of organizational communication, editied by L.L.P.D.K. Mumby. 2013, Thousand Oaks: CA: Sage. p. 449-474.&lt;/p&gt;
+
+&lt;p&gt;[21] Wang, C.J., et al., “The Collective Direction of Attention Diffusion”, Scientific Reports 6 (2016): p. 34059.&lt;/p&gt;
+
+&lt;p&gt;[22] Hong, T.V., G. Lei, and M.E. McCombs, “Exploring &amp;laquo;the World Outside and the Pictures in Our Heads&amp;raquo;: A Network Agenda-Setting Study,” Journalism &amp;amp; Mass Communication Quarterly 91(4) (2014): p. 669-686.&lt;/p&gt;
+
+&lt;p&gt;[23] Guo, L., “The Application of Social Network Analysis in Agenda Setting Research: A Methodological Exploration,” Journal of Broadcasting &amp;amp; Electronic Media 56(4) (2012): p. 616-631.&lt;/p&gt;
+
+&lt;p&gt;[24] Himelboim, I., T.K. Chang, and S. McCreery, “International Network of Foreign News Coverage: Old Global Hierarchies in a New Online World”, Journalism &amp;amp; Mass Communication Quarterly 87(2) (2010): p. 297-314.&lt;/p&gt;
+
+&lt;p&gt;[25] Miller, D.C., “A research note on mass communication: How our community heard about the death of president Roosevelt,” American Sociological Review 10(5) (1945): p. 691-694.&lt;/p&gt;
+
+&lt;p&gt;[26] De Fleur, M.L., “The Growth and Decline of Research on the Diffusion of the News, 1945-1985,” Communication Research 14(1) (1987): p. 109-130.&lt;/p&gt;
+
+&lt;p&gt;[27] Greenberg, B.S., “Person-to-Person Communication in the Diffusion of News Events,” Journalism Quarterly 41(4) (1964): p. 489-494.&lt;/p&gt;
+
+&lt;p&gt;[28] Wang, C.J., “Information diffusion on Microblogs: Testing the threshold hypothesis of interpersonal effects,” in Conference on Complex System (CCS&amp;rsquo;15). 2015: Tempe, Arizona, USA.&lt;/p&gt;
+
+&lt;p&gt;[29] Granovetter, M., “Threshold Models of Collective Behavior,” American Journal of Sociology 83(6) (1978): p. 1420-1443.&lt;/p&gt;
+
+&lt;p&gt;[30] Singh, P., et al., “Threshold-limited spreading in social networks with multiple initiators,” Scientific Reports 3(7) (2013): p. 2330.&lt;/p&gt;
+
+&lt;p&gt;[31] Shah, D.V., J.N. Cappella, and W.R. Neuman, “Big Data, Digital Media, and Computational Social Science: Possibilities and Perils,” Annals of the American Academy of Political &amp;amp; Social Science 659(1) (2015): p. 6-13.&lt;/p&gt;
+
+&lt;p&gt;[32] Cohen, S., Hamilton, J. T., &amp;amp; Turner, F. “Computational journalism,” Communications of the ACM 54(10) (2011): p. 66-71.&lt;/p&gt;
+
+&lt;p&gt;[33] Watts, D.J., “Should social science be more solution-oriented?” Nature Human Behaviour 1 (2017): p. 0015.&lt;/p&gt;
+
+&lt;p&gt;[34] Jake M. Hofman, Amit Sharma, and Duncan J. Watts. &amp;laquo;Prediction and explanation in social systems.&amp;raquo; Science 355(2017): p 486-488.&lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;
+&lt;div class=&#34;footnotes&#34;&gt;
+
+&lt;hr /&gt;
+
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34;&gt;Computational Communication Collaboratory, School of Journalism and Communication, Nanjing University, Nanjing, Jiangsu, China, 210093
+ &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:1&#34;&gt;&lt;sup&gt;^&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
     </item>
     
     <item>
       <title>Leveraging the Flow of Collective Attention for Computational Communication Research</title>
       <link>https://chengjunwang.com/publication/flow-network-analysis/</link>
       <pubDate>Thu, 15 Jun 2017 22:20:56 +0800</pubDate>
-      
       <guid>https://chengjunwang.com/publication/flow-network-analysis/</guid>
-      <description>The Panel of Social Networks and Computational Communication, The XXXVII Sunbelt Social Networks Conference of the International Network for Social Network Analysis(INSNA), May 30th – June 4th, 2017 Beijing, China. 网络与数据科学前沿论坛，2017年11月11-12日，西北工业大学，国际会议中心第二会议室，西安，中国  In preparing.</description>
+      <description>&lt;ul&gt;
+&lt;li&gt;The Panel of Social Networks and Computational Communication, The XXXVII Sunbelt Social Networks Conference of the International Network for Social Network Analysis(INSNA), May 30th – June 4th, 2017 Beijing, China.&lt;/li&gt;
+&lt;li&gt;网络与数据科学前沿论坛，2017年11月11-12日，西北工业大学，国际会议中心第二会议室，西安，中国&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;In preparing.&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>With Great Popularity Avoids Great Responsibility: The Influentials&#39; Participation in Public Issues on Sina Weibo</title>
       <link>https://chengjunwang.com/publication/weibo-participation/</link>
       <pubDate>Thu, 15 Jun 2017 22:20:56 +0800</pubDate>
-      
       <guid>https://chengjunwang.com/publication/weibo-participation/</guid>
-      <description>To be submitted.</description>
+      <description>&lt;p&gt;To be submitted.&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>Analyzing Mobile Phone Data With Network Science</title>
       <link>https://chengjunwang.com/publication/ica2017/</link>
       <pubDate>Sun, 14 May 2017 22:03:57 +0800</pubDate>
-      
       <guid>https://chengjunwang.com/publication/ica2017/</guid>
-      <description>2017 ICA Conference Temporal and Spatial Analysis of Mobility Data Sat, May 27, 12:30 to 13:45, Hilton San Diego Bayfront, 3, Aqua 307
-Session Submission Type: Panel
-Abstract Every human behavior, including communicative behavior, involves four basic elements (4Ws): Who does What at When and Where. Out of these 4Ws, we have accumulated some knowledge about Who and What with traditional research methods (e.g., survey, experiment, and content analysis). However, due to the unavailability of time-stamped and geo-tagged data, little is known about the When (i.</description>
+      <description>
+
+&lt;h1 id=&#34;2017-ica-conference&#34;&gt;2017 ICA Conference&lt;/h1&gt;
+
+&lt;h2 id=&#34;temporal-and-spatial-analysis-of-mobility-data&#34;&gt;Temporal and Spatial Analysis of Mobility Data&lt;/h2&gt;
+
+&lt;p&gt;Sat, May 27, 12:30 to 13:45, Hilton San Diego Bayfront, 3, Aqua 307&lt;/p&gt;
+
+&lt;p&gt;Session Submission Type: Panel&lt;/p&gt;
+
+&lt;p&gt;Abstract
+Every human behavior, including communicative behavior, involves four basic elements (4Ws): Who does What at When and Where. Out of these 4Ws, we have accumulated some knowledge about Who and What with traditional research methods (e.g., survey, experiment, and content analysis). However, due to the unavailability of time-stamped and geo-tagged data, little is known about the When (i.e., temporal) and Where (i.e., spatial) elements in human behavior. The increasing popularity of social media, the expanding capabilities of mobile devices, and the rapid advancement of computational methods provide social researchers a “social telescope” (Golder &amp;amp; Macy, 2014, Annual Review of Sociology) to examine the temporal and spatial characteristics of human behavior at different levels of granularities.&lt;/p&gt;
+
+&lt;p&gt;The proposed panel focuses on how to model the temporal and spatial features of human behavior with mobility data in a precise and parsimonious way. The interdisciplinary panelists will use empirical examples from their own studies and others’ research to demonstrate: (1) how we can conceptualize and/or operationalize temporal and spatial variables with different mobility datasets (e.g., mobile phone use and mobile apps use); (2) how we can develop empirical/mathematical models to capture and explain the temporal and spatial characteristics of human behavior; and (3) what are the theoretical and/or practical implications in the temporal and spatial analysis of mobility data. Moreover, the panelists will discuss some “critical” questions that have been voiced: What are major challenges communication researchers need to handle in analyzing mobility data? How can communication researchers work with researchers from other disciplines in mobility modeling? How can we deal with personal privacy, replicability, and other legal/ethical dilemmas?&lt;/p&gt;
+
+&lt;p&gt;The panel aims to help raise the awareness among communication scholars of opportunities and risks in the modelling of mobility data. Moreover, the panel will try to build an interdisciplinary dialogue on computational research between communication researchers, computer scientists, and research scientists from the industry.&lt;/p&gt;
+
+&lt;p&gt;Sub Unit： computational methods&lt;/p&gt;
+
+&lt;h3 id=&#34;short-bio&#34;&gt;short-bio&lt;/h3&gt;
+
+&lt;p&gt;Cheng-Jun Wang, Ph.D. He is currently an assistant research fellow in the School of Journalism and Communication, Nanjing University. He is also the director of Ogilvy Data Science Lab, Computational Communication Collaboratory. His research on computational communication appears in both SSCI and SCI indexed journals, such as Scientific Reports, PloS ONE, Physica A, Cyberpsychology, and Journal of Social and Personal Relationships.&lt;/p&gt;
+
+&lt;h2 id=&#34;notes&#34;&gt;Notes&lt;/h2&gt;
+
+&lt;p&gt;Hello everyone. My name is Xinzhi Zhang, from baptist university of hong kong. The title of our presentation is analyzing mobile phone data with network science. I will briefly introduce the authors. Cheng-Jun Wang is currently an assistant research fellow in the School of Journalism and Communication, Nanjing University. And Xinzhi Zhang is currently a Research Assistant Professor at the Department of Journalism of Hong Kong Baptist University.&lt;/p&gt;
+
+&lt;p&gt;Computational social science provides a new lens for our research of human communication behaviors. Especially, it emphasizes the perspective of network science and big data,including website logs and web-based experiment. Duncan Watts claims that “If handled appropriately, data about Internet-based communication and interactivity could revolutionize our understanding of collective human behaviour”.  D. Watts, A twenty-first century science. Nature 445, 489 (2007).&lt;/p&gt;
+
+&lt;p&gt;Network science is important for communication research because: Firstly, we live our life in networks; and complex is a mathematical representation of various social systems. More important, compared with the other computational methods, such as computer simulations, network science is more closely connected with the real world data.&lt;/p&gt;
+
+&lt;p&gt;The mobile phone widely used in contemporary society supplies many social data for our studies, including the calling &amp;amp; messaging data, the online surfing data, and the mobility data. Just as Michael Macy said, it’s been really transformative. The digital traces help understand individual and group behavior at unprecedented scales and levels of detail.&lt;/p&gt;
+
+&lt;p&gt;For the human mobility data, we have small-scale travel surveys before, it can be coupled with GPS loggers. The rapid rise and prevalence of digital media provides a lot of big data, including: Mobile hone data, social media data, smartcard data, taxi trips data, game data.&lt;/p&gt;
+
+&lt;p&gt;Mobile phone positioning is required when a user communicates with the network. When a user initiates a network connection event (e.g. a voice-call), the cellular network operator needs to know his/her location in order to determine the cell tower used to channel this event. In this way, the subsequent positions of  the user can be well documented.&lt;/p&gt;
+
+&lt;p&gt;With the aid of the available data, researchers tried to study human mobility. For example, Brockman 2006 used the trajectories of dollar bills to study the dispersal of human, and they find that the distribution of length r can not be described as levy flights. Random processes with such a single-step distribution are known as Levy flights. Levy flights assumes that there is a power-law relationship between pr and r, the power exponent beta is usually smaller than 2. The simple Levy flight picture for dispersal is incomplete, since the dispersal is weak than expected. This is because the antagonistic interplay between scale-free displacements and waiting times: people might be less likely leave larger cities, and there are long periods of rest. Instead, they tried to describe human moblity as a continuous-time random walk, CTRW. The probability Wr(r,t) of having traversed a distance r at time t, where Lα,β is a universal scaling function that represents the characteristics of the process. According to ctrw model, t^(-α/β)*W(r, t) = Lα,β= (r/t^(α/β))**-gamma. Thus, they can fit the relationship between t^(-α/β)*W(r, t) and r/t^(α/β).&lt;/p&gt;
+
+&lt;p&gt;Gonzalez 2008 tried to study individual human mobility, and find that the distribution of both displacements and radius of gyration over all users is well approximated by a truncated power-law (see the left figures and the equations, here Rg is the radius of gyration for each user). However, after After rescaling the distance and the distribution with rg (main panel), the different curves collapse (see the right figure).&lt;/p&gt;
+
+&lt;p&gt;Song 2010 further finds that the predictions of the ctrw models are in systematic conflict with the empirical results. We introduce two principles that govern human trajectories, allowing us to build a statistically self-consistent microscopic model for individual human mobility. ” Give the number of distinct locations S(t) visited by a user is expected to follow the euation, S(t) ~ t^u, individuals has two choices, i) explore new locations. p_new = ro * s^(-gamma), and ii) preferential return to old locations, p_return = 1 – p_new&lt;/p&gt;
+
+&lt;p&gt;They observed that the distribution of time intervals of mobility follows a power law distribution, implies strong bursts. q stands for the probability of unknown locations, p(q) follows a normal distribution with a mean &lt;q&gt; = .7, indicating that we have no location update for about 70% of the hourly intervals, which masks the user’s real entropy S. The big nodes in the mobility networks are those old locations the individual preferentially return to.&lt;/p&gt;
+
+&lt;p&gt;Song measure the entropy of each individual’s trajectory to understand the potential predictability in user mobility. They distinguished three kinds of entropy, i) the random entropy s_rand, ii) the temporal uncorrelated entropy, s_unc, and iii) the reall entropy S. Let ∏ (/paɪ/ ) denote the predictability, it measures how can a algorithm predict correctly. Panel a shows the distribution of three kinds of entropies; Panel b shows the distribution of the predictability. Panel C shows the relationship between ∏max and rg We can find that a 93% of potential predictability in Panel C.&lt;/p&gt;
+
+&lt;p&gt;Brockmann and Helbing 2013 uses the global mobility network to study the arrival time of epidemics. The global mobility network is constructed from the worldwide air traffic between 4069 airports with 25,453 direct connections. Let pmn denote the fraction of travelers that leave node n and arrive  at node m, we define the effective distance dnm from a node n to a connected node m as dnm  = 1 – log pmn  &amp;gt;= 1 . The effective distance between two undirectly connected nodes can be computed as the minimum value of the product of a series of dij between m and n. In this way, the arrival time of epidemics can be precisely predicted.&lt;/p&gt;
+
+&lt;p&gt;Schich 2014 construct historical migration network using the birth-death location data of 120,211 individuals, which provide historical evidence for global patterns and local instabilities in human mobility dynamics.&lt;/p&gt;
+
+&lt;p&gt;We will talk in details about the study Titled Tracing the Attention of Moving Citizens. With the widespread use of mobile computing devices in contemporary society, our trajectories in the physical space and virtual world are increasingly closely connected. Using the anonymous smartphone data of 1×105 users in a major city of China, we study the interplay between online and offline human behaviors by constructing the mobility network (offline) and the attention network (online).&lt;/p&gt;
+
+&lt;p&gt;We can find strong correlations between offline and online behaviors.To systematically study the relationship between mobile users’ online surfing behaviors and offline mobility, we constructed mobility networks. Mobility network, nodes are physical locations and edges represent the movements between locations.Attention network, nodes are websites and edges represent the switch of users between websites&lt;/p&gt;
+
+&lt;p&gt;We primarily study their difference in terms of the network structure. Most complex networks are found to be small-world, but also many networks are fractal. For example, the internet is a small world. While the WWW is fractal. Fractals look the same on all scales = `scale-invariant’. There is a famous question about how long is the coastline of Norway. The answer depends on the length of your ruler. We can study the fractal patterns using the method of box covering. The box length is lb, and the number of boxes is nb, there is a power law relationship between them.&lt;/p&gt;
+
+&lt;p&gt;Using the box-covering method in networks, we can also calculate the box dimension db from the equation of nb(lb). Using the box-covering method, song renormalize the www network and find lb = 3, ie, within three steps, the www network can be transformed to a star network. We renormalize mobility network and attention network to compute db. There are 9899 nodes and 39,083 edges in the mobility network (Density = 7.9×10−4), and there are 16,476 nodes and 144,909 edges in the attention network (Density = 10.6 × 10−4). The diameter of the mobility network is 15, and the diameter of the attention network is only 10.&lt;/p&gt;
+
+&lt;p&gt;We find that (A) The number of boxes N(lB) is a power law function of box length lB in the attention network, and these two variables show an exponential relationship in the mobility network. (B) In the mobility network, the degree correlation (measured by the Pearson correlation coefficient Cor(Knn, k)) decreases from positive to negative when lB = 4, while the correlation remains negative in the attention network. Panel (C,D) show the transition of degree correlation in details. For the mobility network &amp;copy;, the slope of data points is positive when lB ⩽ 3, and the slope turns negative when lB ⩾ 4. Meanwhile, the correlation is always negative in the attention network (D).&lt;/p&gt;
+
+&lt;p&gt;The spatial division manifests the location-based online behaviors. There are obvious spatial constrained patterns. We show the geographical distribution of three kinds of mobile Internet use behaviors. A. Shopping (red), B. Dating (blue), and C. Taxi-calling (orange). The spatial-constrained attachment is well developed in geometric network models. We use it to reproduce our findings. We use geometric network models of different linking dynamics to test our assumptions on the origins of the observed fractal and small-world patterns in individual behaviors. In all, we suggest that we find that they belong to two different classes: the mobility network is small-world, whereas the attention network is fractal. online and offline behavior could be governed by very different mechanisms.&lt;/p&gt;
+
+&lt;p&gt;Finally, we would like to highlight some resources for human mobility research. NetworkX is a Python language software package for the creation, manipulation, and study of the structure, dynamics, and functions of complex networks. &lt;a href=&#34;http://networkx.github.io/&#34; target=&#34;_blank&#34;&gt;http://networkx.github.io/&lt;/a&gt; geopy is a Python client for several popular geocoding web services.  It helps to locate the coordinates of addresses, cities, countries, and landmarks across the globe using third-party geocoders and other data sources. bandicoot (&lt;a href=&#34;http://bandicoot.mit.edu&#34; target=&#34;_blank&#34;&gt;http://bandicoot.mit.edu&lt;/a&gt;) is Python toolbox to analyze mobile phone metadata.
+With only a few lines of code, load your datasets, visualize the data, perform analyses, and export the results. Folium builds on the data wrangling strengths of the Python ecosystem and the mapping strengths of the Leaflet.js library. Manipulate your data in Python, then visualize it in on a Leaflet map via Folium.&lt;/p&gt;
+
+&lt;p&gt;Thank you for your attention. This is the end.&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>作为社会动员过程的互联网众筹公益：以腾讯乐捐为例</title>
       <link>https://chengjunwang.com/publication/crowdfunding-charity/</link>
       <pubDate>Thu, 09 Mar 2017 10:49:09 +0800</pubDate>
-      
       <guid>https://chengjunwang.com/publication/crowdfunding-charity/</guid>
-      <description>In submission.</description>
+      <description>&lt;p&gt;In submission.&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>Building Open Teams to Leverage the Power of Turnover</title>
       <link>https://chengjunwang.com/publication/team-turnover/</link>
       <pubDate>Thu, 02 Mar 2017 22:20:24 +0800</pubDate>
-      
       <guid>https://chengjunwang.com/publication/team-turnover/</guid>
-      <description>Keywords:team science; turnover; task allocation; uncertainty; collective wisdom
-This is an ongoing work under preparation.</description>
+      <description>&lt;p&gt;Keywords:team science; turnover; task allocation; uncertainty; collective wisdom&lt;/p&gt;
+
+&lt;p&gt;This is an ongoing work under preparation.&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>空间约束的人类行为</title>
       <link>https://chengjunwang.com/publication/lbs-behavior/</link>
       <pubDate>Fri, 24 Feb 2017 15:23:43 +0800</pubDate>
-      
       <guid>https://chengjunwang.com/publication/lbs-behavior/</guid>
-      <description>王成军、吴令飞(2017)空间约束的人类行为. 胡泳、王俊秀（编）《连接之后: 公共空间重建与权力再分配》.北京:人民邮电出版社. pp. 262-271</description>
+      <description>&lt;p&gt;王成军、吴令飞(2017)空间约束的人类行为. 胡泳、王俊秀（编）《连接之后: 公共空间重建与权力再分配》.北京:人民邮电出版社. pp. 262-271&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>Jumping over the Network Threshold of Information Diffusion</title>
       <link>https://chengjunwang.com/publication/weibo-threshold/</link>
       <pubDate>Sat, 18 Feb 2017 22:20:56 +0800</pubDate>
-      
       <guid>https://chengjunwang.com/publication/weibo-threshold/</guid>
-      <description>To be submitted.</description>
+      <description>&lt;p&gt;To be submitted.&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>The Landscape of Information Diffusion on Sina Weibo</title>
       <link>https://chengjunwang.com/publication/weibo-landscape/</link>
       <pubDate>Sat, 18 Feb 2017 22:13:01 +0800</pubDate>
-      
       <guid>https://chengjunwang.com/publication/weibo-landscape/</guid>
-      <description>Under review.</description>
+      <description>&lt;p&gt;Under review.&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>Tracing the Attention of Moving Citizens</title>
       <link>https://chengjunwang.com/publication/tracing-attention/</link>
       <pubDate>Fri, 09 Sep 2016 00:00:00 +0000</pubDate>
-      
       <guid>https://chengjunwang.com/publication/tracing-attention/</guid>
-      <description>More detail can easily be written here using Markdown and $\rm \LaTeX$ math code.</description>
+      <description>&lt;p&gt;More detail can easily be written here using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>The Collective Direction of Attention Diffusion</title>
       <link>https://chengjunwang.com/publication/collective-direction/</link>
       <pubDate>Mon, 05 Sep 2016 00:00:00 +0000</pubDate>
-      
       <guid>https://chengjunwang.com/publication/collective-direction/</guid>
-      <description>More detail can easily be written here using Markdown and $\rm \LaTeX$ math code.</description>
+      <description>&lt;p&gt;More detail can easily be written here using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>计算传播学的起源、概念和应用</title>
       <link>https://chengjunwang.com/publication/cc-origin/</link>
       <pubDate>Sun, 15 May 2016 11:53:36 +0800</pubDate>
-      
       <guid>https://chengjunwang.com/publication/cc-origin/</guid>
       <description></description>
     </item>
@@ -188,7 +479,6 @@ This is an ongoing work under preparation.</description>
       <title>大数据计算与《纸牌屋》生成</title>
       <link>https://chengjunwang.com/publication/big-data-house/</link>
       <pubDate>Thu, 05 May 2016 00:00:00 +0000</pubDate>
-      
       <guid>https://chengjunwang.com/publication/big-data-house/</guid>
       <description></description>
     </item>
@@ -197,7 +487,6 @@ This is an ongoing work under preparation.</description>
       <title>Self-Disclosure to Parents in Emerging Adulthood</title>
       <link>https://chengjunwang.com/publication/self-disclosure-child/</link>
       <pubDate>Fri, 01 Apr 2016 00:00:00 +0000</pubDate>
-      
       <guid>https://chengjunwang.com/publication/self-disclosure-child/</guid>
       <description></description>
     </item>
@@ -206,7 +495,6 @@ This is an ongoing work under preparation.</description>
       <title>Mining Social Entrepreneurship Strategies Using Topic Modeling</title>
       <link>https://chengjunwang.com/publication/social-entrepreneurship/</link>
       <pubDate>Mon, 21 Mar 2016 12:22:55 +0800</pubDate>
-      
       <guid>https://chengjunwang.com/publication/social-entrepreneurship/</guid>
       <description></description>
     </item>
@@ -215,25 +503,24 @@ This is an ongoing work under preparation.</description>
       <title>2015年中国新闻传播学论著评析</title>
       <link>https://chengjunwang.com/publication/com-books2015/</link>
       <pubDate>Tue, 08 Mar 2016 12:15:21 +0800</pubDate>
-      
       <guid>https://chengjunwang.com/publication/com-books2015/</guid>
-      <description>杜骏飞, 曲飞帆, 王成军（2016）2015年中国新闻传播学论著评析. 新闻与传播研究，12：108-119</description>
+      <description>&lt;p&gt;杜骏飞, 曲飞帆, &lt;strong&gt;王成军&lt;/strong&gt;（2016）2015年中国新闻传播学论著评析. 新闻与传播研究，12：108-119&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>The scaling of attention networks</title>
       <link>https://chengjunwang.com/publication/scaling-networks/</link>
       <pubDate>Thu, 31 Dec 2015 00:00:00 +0000</pubDate>
-      
       <guid>https://chengjunwang.com/publication/scaling-networks/</guid>
-      <description>More detail can easily be written here using Markdown and $\rm \LaTeX$ math code.</description>
+      <description>&lt;p&gt;More detail can easily be written here using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>“今日头条”的技术逻辑：网络爬虫&#43;矩阵筛选</title>
       <link>https://chengjunwang.com/publication/toutiao-logic/</link>
       <pubDate>Mon, 05 Oct 2015 12:15:21 +0800</pubDate>
-      
       <guid>https://chengjunwang.com/publication/toutiao-logic/</guid>
       <description></description>
     </item>
@@ -242,7 +529,6 @@ This is an ongoing work under preparation.</description>
       <title>计算传播学:作为计算社会科学的传播学</title>
       <link>https://chengjunwang.com/publication/cc-intro/</link>
       <pubDate>Fri, 13 Feb 2015 12:03:36 +0800</pubDate>
-      
       <guid>https://chengjunwang.com/publication/cc-intro/</guid>
       <description></description>
     </item>
@@ -251,7 +537,6 @@ This is an ongoing work under preparation.</description>
       <title>计算社会科学在新闻传播研究中的应用</title>
       <link>https://chengjunwang.com/publication/ccs-application/</link>
       <pubDate>Thu, 20 Mar 2014 12:18:49 +0800</pubDate>
-      
       <guid>https://chengjunwang.com/publication/ccs-application/</guid>
       <description></description>
     </item>
@@ -260,9 +545,9 @@ This is an ongoing work under preparation.</description>
       <title>Discussing Occupy Wall Street on Twitter</title>
       <link>https://chengjunwang.com/publication/dicuss-ows-tweets/</link>
       <pubDate>Thu, 12 Sep 2013 00:00:00 +0000</pubDate>
-      
       <guid>https://chengjunwang.com/publication/dicuss-ows-tweets/</guid>
-      <description>More detail can easily be written here using Markdown and $\rm \LaTeX$ math code.</description>
+      <description>&lt;p&gt;More detail can easily be written here using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
+</description>
     </item>
     
   </channel>

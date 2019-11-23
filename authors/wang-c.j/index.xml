@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Wang, C.J | Cheng-Jun Wang</title>
+    <link>https://chengjunwang.com/authors/wang-c.j/</link>
+      <atom:link href="https://chengjunwang.com/authors/wang-c.j/index.xml" rel="self" type="application/rss+xml" />
+    <description>Wang, C.J</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>All rights © reserved 2019</copyright><lastBuildDate>Tue, 01 Oct 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://chengjunwang.com/img/headers/deer.webp</url>
+      <title>Wang, C.J</title>
+      <link>https://chengjunwang.com/authors/wang-c.j/</link>
+    </image>
+    
+    <item>
+      <title>Elements of Computational Communication</title>
+      <link>https://chengjunwang.com/publication/ccbook/</link>
+      <pubDate>Tue, 01 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>https://chengjunwang.com/publication/ccbook/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://chengjunwang.com/img/headers/ccbooklogo2.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;My ebook &lt;strong&gt;Elements of Computational Communication (In Chinese 计算传播基础）&lt;/strong&gt; is now available online, enjoy! &lt;a href=&#34;http://computational-class.github.io/ccbook/&#34; target=&#34;_blank&#34;&gt;http://computational-class.github.io/ccbook/&lt;/a&gt;. It is based on two related master courses:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/computational-class/bigdata&#34; target=&#34;_blank&#34;&gt;https://github.com/computational-class/bigdata&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/computational-class/cjc&#34; target=&#34;_blank&#34;&gt;https://github.com/computational-class/cjc&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

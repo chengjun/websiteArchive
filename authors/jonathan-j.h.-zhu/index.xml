@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jonathan J.H. Zhu | Cheng-Jun Wang</title>
+    <link>https://chengjunwang.com/authors/jonathan-j.h.-zhu/</link>
+      <atom:link href="https://chengjunwang.com/authors/jonathan-j.h.-zhu/index.xml" rel="self" type="application/rss+xml" />
+    <description>Jonathan J.H. Zhu</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>All rights © reserved 2019</copyright><lastBuildDate>Sun, 03 Mar 2019 22:20:56 +0800</lastBuildDate>
+    <image>
+      <url>https://chengjunwang.com/img/headers/deer.webp</url>
+      <title>Jonathan J.H. Zhu</title>
+      <link>https://chengjunwang.com/authors/jonathan-j.h.-zhu/</link>
+    </image>
+    
+    <item>
+      <title>Jumping onto the Bandwagon of Collective Gatekeepers: Testing the Bandwagon Effect of Information Diffusion on Social News Website</title>
+      <link>https://chengjunwang.com/publication/bandwagon/</link>
+      <pubDate>Sun, 03 Mar 2019 22:20:56 +0800</pubDate>
+      <guid>https://chengjunwang.com/publication/bandwagon/</guid>
+      <description>
+
+&lt;p&gt;&lt;strong&gt;Jumping onto the Bandwagon of Collective Gatekeepers: Testing the Bandwagon Effect of Information Diffusion on Social News Website&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Cheng-Jun Wang $ ^{a,b}$ * , Jonathan J.H. Zhu ${^b}$&lt;/p&gt;
+
+&lt;p&gt;$^a$ Computational Communication Collaboratory, School of Journalism and Communication, Nanjing University, Nanjing, China&lt;/p&gt;
+
+&lt;p&gt;$^b$ Web Mining Lab, Department of Media and Communication, City University of Hong Kong, Hong Kong, China&lt;/p&gt;
+
+&lt;h2 id=&#34;keywords&#34;&gt;Keywords&lt;/h2&gt;
+
+&lt;p&gt;Information Diffusion; Collective Gatekeeping; Interpersonal Effects; Bandwagon Effects; Threshold Model&lt;/p&gt;
+
+&lt;p&gt;The results demonstrate that the bandwagon of collective gatekeepers is the primary driver for online news diffusion. Interestingly, the bandwagon effect of collective gatekeeping is moderated by the strength of interpersonal effects. The theoretical generalizations of this research contribute to our understanding about the impact of collective gatekeeping on information diffusion.&lt;/p&gt;
+
+&lt;h2 id=&#34;highlights&#34;&gt;Highlights&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Drawing on threshold models to capture the interpersonal effects and collective gatekeeping, we test our hypothesis with two novel datasets of information diffusion on social media.&lt;/li&gt;
+&lt;li&gt;The findings demonstrate that both bandwagon effect and interpersonal effect play important roles in collective gatekeeping on social media.&lt;/li&gt;
+&lt;li&gt;The bandwagon of collective gatekeepers is the primary driver for online news diffusion&lt;/li&gt;
+&lt;li&gt;The bandwagon effect of collective gatekeeping is moderated by the strength of interpersonal effects.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Telematics and Informatics&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Received at Editorial Office 2 Jul 2018&lt;/li&gt;
+&lt;li&gt;Article 3rd revised 19 Feb 2019&lt;/li&gt;
+&lt;li&gt;Article accepted for publication
+3 Mar 2019&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Please cite this article as:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Wang, C-J. * , Zhu, J.J.H.(2019) Jumping onto the Bandwagon of Collective Gatekeepers: Testing the Bandwagon Effect of Information Diffusion on Social News Website, Telematics and Informatics. 41:34-45, doi: &lt;a href=&#34;https://doi.org/10.1016/j.tele.2019.03.001&#34; target=&#34;_blank&#34;&gt;https://doi.org/10.1016/j.tele.2019.03.001&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Discussing Occupy Wall Street on Twitter</title>
+      <link>https://chengjunwang.com/publication/dicuss-ows-tweets/</link>
+      <pubDate>Thu, 12 Sep 2013 00:00:00 +0000</pubDate>
+      <guid>https://chengjunwang.com/publication/dicuss-ows-tweets/</guid>
+      <description>&lt;p&gt;More detail can easily be written here using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>陈鹤鑫 | Cheng-Jun Wang</title>
+    <link>https://chengjunwang.com/authors/%E9%99%88%E9%B9%A4%E9%91%AB/</link>
+      <atom:link href="https://chengjunwang.com/authors/%E9%99%88%E9%B9%A4%E9%91%AB/index.xml" rel="self" type="application/rss+xml" />
+    <description>陈鹤鑫</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>All rights © reserved 2019</copyright><lastBuildDate>Thu, 20 Mar 2014 12:18:49 +0800</lastBuildDate>
+    <image>
+      <url>https://chengjunwang.com/img/headers/deer.webp</url>
+      <title>陈鹤鑫</title>
+      <link>https://chengjunwang.com/authors/%E9%99%88%E9%B9%A4%E9%91%AB/</link>
+    </image>
+    
+    <item>
+      <title>计算社会科学在新闻传播研究中的应用</title>
+      <link>https://chengjunwang.com/publication/ccs-application/</link>
+      <pubDate>Thu, 20 Mar 2014 12:18:49 +0800</pubDate>
+      <guid>https://chengjunwang.com/publication/ccs-application/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

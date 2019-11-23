@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>attention-networks | Cheng-Jun Wang</title>
+    <link>https://chengjunwang.com/tags/attention-networks/</link>
+      <atom:link href="https://chengjunwang.com/tags/attention-networks/index.xml" rel="self" type="application/rss+xml" />
+    <description>attention-networks</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>All rights © reserved 2019</copyright><lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://chengjunwang.com/img/headers/deer.webp</url>
+      <title>attention-networks</title>
+      <link>https://chengjunwang.com/tags/attention-networks/</link>
+    </image>
+    
+    <item>
+      <title>Attention Networks</title>
+      <link>https://chengjunwang.com/project/computational-communication/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>https://chengjunwang.com/project/computational-communication/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://chengjunwang.com/publication/tracing-attention/&#34;&gt;Tracing the Attention of Moving Citizens&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://chengjunwang.com/publication/collective-direction/&#34;&gt;The Collective Direction of Attention Diffusion&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://chengjunwang.com/publication/scaling-networks&#34;&gt;The scaling of attention networks&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

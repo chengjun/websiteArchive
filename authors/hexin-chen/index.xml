@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hexin Chen | Cheng-Jun Wang</title>
+    <link>https://chengjunwang.com/authors/hexin-chen/</link>
+      <atom:link href="https://chengjunwang.com/authors/hexin-chen/index.xml" rel="self" type="application/rss+xml" />
+    <description>Hexin Chen</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>All rights © reserved 2019</copyright><lastBuildDate>Sat, 18 Feb 2017 22:13:01 +0800</lastBuildDate>
+    <image>
+      <url>https://chengjunwang.com/img/headers/deer.webp</url>
+      <title>Hexin Chen</title>
+      <link>https://chengjunwang.com/authors/hexin-chen/</link>
+    </image>
+    
+    <item>
+      <title>The Landscape of Information Diffusion on Sina Weibo</title>
+      <link>https://chengjunwang.com/publication/weibo-landscape/</link>
+      <pubDate>Sat, 18 Feb 2017 22:13:01 +0800</pubDate>
+      <guid>https://chengjunwang.com/publication/weibo-landscape/</guid>
+      <description>&lt;p&gt;Under review.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

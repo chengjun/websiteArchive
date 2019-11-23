@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Marco A. Janssen | Cheng-Jun Wang</title>
+    <link>https://chengjunwang.com/authors/marco-a.-janssen/</link>
+      <atom:link href="https://chengjunwang.com/authors/marco-a.-janssen/index.xml" rel="self" type="application/rss+xml" />
+    <description>Marco A. Janssen</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>All rights © reserved 2019</copyright><lastBuildDate>Mon, 05 Sep 2016 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://chengjunwang.com/img/headers/deer.webp</url>
+      <title>Marco A. Janssen</title>
+      <link>https://chengjunwang.com/authors/marco-a.-janssen/</link>
+    </image>
+    
+    <item>
+      <title>The Collective Direction of Attention Diffusion</title>
+      <link>https://chengjunwang.com/publication/collective-direction/</link>
+      <pubDate>Mon, 05 Sep 2016 00:00:00 +0000</pubDate>
+      <guid>https://chengjunwang.com/publication/collective-direction/</guid>
+      <description>&lt;p&gt;More detail can easily be written here using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

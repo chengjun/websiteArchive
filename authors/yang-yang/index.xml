@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Yang Yang | Cheng-Jun Wang</title>
+    <link>https://chengjunwang.com/authors/yang-yang/</link>
+      <atom:link href="https://chengjunwang.com/authors/yang-yang/index.xml" rel="self" type="application/rss+xml" />
+    <description>Yang Yang</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>All rights © reserved 2019</copyright><lastBuildDate>Thu, 02 Mar 2017 22:20:24 +0800</lastBuildDate>
+    <image>
+      <url>https://chengjunwang.com/img/headers/deer.webp</url>
+      <title>Yang Yang</title>
+      <link>https://chengjunwang.com/authors/yang-yang/</link>
+    </image>
+    
+    <item>
+      <title>Building Open Teams to Leverage the Power of Turnover</title>
+      <link>https://chengjunwang.com/publication/team-turnover/</link>
+      <pubDate>Thu, 02 Mar 2017 22:20:24 +0800</pubDate>
+      <guid>https://chengjunwang.com/publication/team-turnover/</guid>
+      <description>&lt;p&gt;Keywords:team science; turnover; task allocation; uncertainty; collective wisdom&lt;/p&gt;
+
+&lt;p&gt;This is an ongoing work under preparation.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2 | Cheng-Jun Wang</title>
+    <link>https://chengjunwang.com/publication_types/2/</link>
+      <atom:link href="https://chengjunwang.com/publication_types/2/index.xml" rel="self" type="application/rss+xml" />
+    <description>2</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>All rights © reserved 2019</copyright><lastBuildDate>Thu, 14 Nov 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://chengjunwang.com/img/headers/deer.webp</url>
+      <title>2</title>
+      <link>https://chengjunwang.com/publication_types/2/</link>
+    </image>
+    
+    <item>
+      <title>The Cinderella complex: Word embeddings reveal gender stereotypes in movies and books</title>
+      <link>https://chengjunwang.com/publication/storytelling/</link>
+      <pubDate>Thu, 14 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>https://chengjunwang.com/publication/storytelling/</guid>
+      <description>
+
+&lt;h3 id=&#34;citation&#34;&gt;Citation&lt;/h3&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Xu H, Zhang Z, Wu L*, &lt;em&gt;Wang C.J.&lt;/em&gt; * (2019) The Cinderella Complex: Word embeddings reveal gender stereotypes in movies and books. PLoS ONE 14(11): e0225385. &lt;a href=&#34;https://doi.org/10.1371/journal.pone.0225385&#34; target=&#34;_blank&#34;&gt;doi:10.1371/journal.pone.0225385&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;You can also find the manuscript of arXiv from this link &lt;a href=&#34;https://arxiv.org/pdf/1811.04599.pdf&#34; target=&#34;_blank&#34;&gt;https://arxiv.org/pdf/1811.04599.pdf&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&#34;data-availability&#34;&gt;Data Availability&lt;/h3&gt;
+
+&lt;p&gt;The data underlying the results presented in the study are available from IMDB website (www.imdb.com), IMSDB website (www.imsdb.com), and the Gutenberg Project (www.gutenberg.org). All the code and processed data are available from &lt;a href=&#34;https://github.com/xuhuimin2017/storyshape/&#34; target=&#34;_blank&#34;&gt;https://github.com/xuhuimin2017/storyshape/&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;claims&#34;&gt;Claims&lt;/h3&gt;
+
+&lt;p&gt;The rich literature on gender stereotypes points out the assumptions to explore in identifying and quantifying stereotypical narrative structures, including&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;1) The emotional dependency of females on males. Men and women have different social imagines. Men are agentic, and women are communal [19,29,30]; men are active, whereas women are passive; men give, and women take in relationships [29–31]. These biased images of men and women lead to biased expectations in their relationships. Those who consider women less competent would tend to believe that they are fragile and sensitive and need to be protected by men [19,32]. Following this literature, we propose to test the emotional dependency of females on males [33];&lt;/li&gt;
+&lt;li&gt;2) Men act and women appear. The English novelist John Berger [34] used this quote to describe the male-female dichotomy. Considering the stereotypical role and traits of men, one would imagine men are more likely than women to be described using verbs;&lt;/li&gt;
+&lt;li&gt;3) Social endorsement of gender stereotypes. The social and cultural roots of gender stereotypes form social force against stereotype disconfirmation from people, action, or ideas [19]. In this sense, the stories that approve gender stereotypes will gain social approval themselves, whereas the stories against stereotypes will be ignored and disapproved. Our study will test this assumption by connecting the frame of stories with their social acceptance.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;We firstly construct a vector representing the dimension of happy versus unhappy from pre-trained word vectors using Google News data [17]. The distance from this vector to other word vectors represents the “happiness score” of the corresponding words. The average of “happiness scores” over the timeline of stories quantifies their shape. Moreover, by controlling the window size to analyze only the words surrounding specific names, we can track the “happiness scores” of different characters. Using these techniques, we find that in the movie synopsis of Cinderella, the happiness of Ella (Cinderella) depends on Kit (Prince) but not vice versa. This finding supports the “Cinderella complex” [18], a narrative structure enhancing the stereotypical incompetence of women. Applying our analysis to 6,087 movie synopses, 1,109 movie scripts, and 7,226 books, we observe the vast existence of this narrative structure. Our review of the words surrounding characters unpack their stereotypical life packages; the lives of males are adventure-oriented, whereas the lives of females are romantic-relationship oriented. Finally, we reveal the social endorsement of gender stereotypes by identifying the association between the strength of gender stereotypes in movie synopses and the IMDB ratings to the analyzed movies.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://chengjunwang.com/img/2019/journal.pone.0225385.g001.PNG&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Fig 1. The Cinderella complex. a, Visualizing the sentiment landscape of the movie synopsis of Cinderella as a skyline (a black outline is added to enhance the “skyline”metaphor visually). We show sentences in a vertical schema, colored by their “happiness score”—green for happy and red for unhappy and the transparency represents the scale of the scores. Filled squares (orange for Ella and blue for Kit) indicate the co-occurrence of Ella (Cinderella) and Kit (the Prince) in the same sentence. Hollow squares indicate where only one character appears: b, The happiness curves of Ella (orange) and Kit (blue). The grey dotted lines marks the sentences in which they co-occur, corresponding to the filled squares in Panel a. We fit the increase or decrease in happiness scores across successive co-occurrences with OLS regression (see Methods for more information). Thick lines show the estimates of regression.&lt;/p&gt;
+
+&lt;p&gt;Our analysis of the words surrounding female and male characters shows that the lives of males are adventure-oriented, whereas the lives of females are romantic-relationship oriented. Finally, we demonstrate the social endorsement of gender stereotypes by showing that gender-stereotypical movies are voted more frequently and rated higher.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Jumping onto the Bandwagon of Collective Gatekeepers: Testing the Bandwagon Effect of Information Diffusion on Social News Website</title>
+      <link>https://chengjunwang.com/publication/bandwagon/</link>
+      <pubDate>Sun, 03 Mar 2019 22:20:56 +0800</pubDate>
+      <guid>https://chengjunwang.com/publication/bandwagon/</guid>
+      <description>
+
+&lt;p&gt;&lt;strong&gt;Jumping onto the Bandwagon of Collective Gatekeepers: Testing the Bandwagon Effect of Information Diffusion on Social News Website&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Cheng-Jun Wang $ ^{a,b}$ * , Jonathan J.H. Zhu ${^b}$&lt;/p&gt;
+
+&lt;p&gt;$^a$ Computational Communication Collaboratory, School of Journalism and Communication, Nanjing University, Nanjing, China&lt;/p&gt;
+
+&lt;p&gt;$^b$ Web Mining Lab, Department of Media and Communication, City University of Hong Kong, Hong Kong, China&lt;/p&gt;
+
+&lt;h2 id=&#34;keywords&#34;&gt;Keywords&lt;/h2&gt;
+
+&lt;p&gt;Information Diffusion; Collective Gatekeeping; Interpersonal Effects; Bandwagon Effects; Threshold Model&lt;/p&gt;
+
+&lt;p&gt;The results demonstrate that the bandwagon of collective gatekeepers is the primary driver for online news diffusion. Interestingly, the bandwagon effect of collective gatekeeping is moderated by the strength of interpersonal effects. The theoretical generalizations of this research contribute to our understanding about the impact of collective gatekeeping on information diffusion.&lt;/p&gt;
+
+&lt;h2 id=&#34;highlights&#34;&gt;Highlights&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Drawing on threshold models to capture the interpersonal effects and collective gatekeeping, we test our hypothesis with two novel datasets of information diffusion on social media.&lt;/li&gt;
+&lt;li&gt;The findings demonstrate that both bandwagon effect and interpersonal effect play important roles in collective gatekeeping on social media.&lt;/li&gt;
+&lt;li&gt;The bandwagon of collective gatekeepers is the primary driver for online news diffusion&lt;/li&gt;
+&lt;li&gt;The bandwagon effect of collective gatekeeping is moderated by the strength of interpersonal effects.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Telematics and Informatics&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Received at Editorial Office 2 Jul 2018&lt;/li&gt;
+&lt;li&gt;Article 3rd revised 19 Feb 2019&lt;/li&gt;
+&lt;li&gt;Article accepted for publication
+3 Mar 2019&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Please cite this article as:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Wang, C-J. * , Zhu, J.J.H.(2019) Jumping onto the Bandwagon of Collective Gatekeepers: Testing the Bandwagon Effect of Information Diffusion on Social News Website, Telematics and Informatics. 41:34-45, doi: &lt;a href=&#34;https://doi.org/10.1016/j.tele.2019.03.001&#34; target=&#34;_blank&#34;&gt;https://doi.org/10.1016/j.tele.2019.03.001&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Tracing the Attention of Moving Citizens</title>
+      <link>https://chengjunwang.com/publication/tracing-attention/</link>
+      <pubDate>Fri, 09 Sep 2016 00:00:00 +0000</pubDate>
+      <guid>https://chengjunwang.com/publication/tracing-attention/</guid>
+      <description>&lt;p&gt;More detail can easily be written here using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The Collective Direction of Attention Diffusion</title>
+      <link>https://chengjunwang.com/publication/collective-direction/</link>
+      <pubDate>Mon, 05 Sep 2016 00:00:00 +0000</pubDate>
+      <guid>https://chengjunwang.com/publication/collective-direction/</guid>
+      <description>&lt;p&gt;More detail can easily be written here using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Self-Disclosure to Parents in Emerging Adulthood</title>
+      <link>https://chengjunwang.com/publication/self-disclosure-child/</link>
+      <pubDate>Fri, 01 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>https://chengjunwang.com/publication/self-disclosure-child/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mining Social Entrepreneurship Strategies Using Topic Modeling</title>
+      <link>https://chengjunwang.com/publication/social-entrepreneurship/</link>
+      <pubDate>Mon, 21 Mar 2016 12:22:55 +0800</pubDate>
+      <guid>https://chengjunwang.com/publication/social-entrepreneurship/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The scaling of attention networks</title>
+      <link>https://chengjunwang.com/publication/scaling-networks/</link>
+      <pubDate>Thu, 31 Dec 2015 00:00:00 +0000</pubDate>
+      <guid>https://chengjunwang.com/publication/scaling-networks/</guid>
+      <description>&lt;p&gt;More detail can easily be written here using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Discussing Occupy Wall Street on Twitter</title>
+      <link>https://chengjunwang.com/publication/dicuss-ows-tweets/</link>
+      <pubDate>Thu, 12 Sep 2013 00:00:00 +0000</pubDate>
+      <guid>https://chengjunwang.com/publication/dicuss-ows-tweets/</guid>
+      <description>&lt;p&gt;More detail can easily be written here using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

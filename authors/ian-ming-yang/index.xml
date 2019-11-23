@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ian Ming Yang | Cheng-Jun Wang</title>
+    <link>https://chengjunwang.com/authors/ian-ming-yang/</link>
+      <atom:link href="https://chengjunwang.com/authors/ian-ming-yang/index.xml" rel="self" type="application/rss+xml" />
+    <description>Ian Ming Yang</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>All rights © reserved 2019</copyright><lastBuildDate>Fri, 01 Apr 2016 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://chengjunwang.com/img/headers/deer.webp</url>
+      <title>Ian Ming Yang</title>
+      <link>https://chengjunwang.com/authors/ian-ming-yang/</link>
+    </image>
+    
+    <item>
+      <title>Self-Disclosure to Parents in Emerging Adulthood</title>
+      <link>https://chengjunwang.com/publication/self-disclosure-child/</link>
+      <pubDate>Fri, 01 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>https://chengjunwang.com/publication/self-disclosure-child/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

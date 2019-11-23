@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Python | Cheng-Jun Wang</title>
+    <link>https://chengjunwang.com/tags/python/</link>
+      <atom:link href="https://chengjunwang.com/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <description>Python</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>All rights © reserved 2019</copyright><lastBuildDate>Mon, 13 Feb 2017 14:15:51 +0800</lastBuildDate>
+    <image>
+      <url>https://chengjunwang.com/img/headers/deer.webp</url>
+      <title>Python</title>
+      <link>https://chengjunwang.com/tags/python/</link>
+    </image>
+    
+    <item>
+      <title>scholarnetwork: Crawl and Visualize the Coauthor Network</title>
+      <link>https://chengjunwang.com/post/post_archive/scholarnetwork/</link>
+      <pubDate>Mon, 13 Feb 2017 14:15:51 +0800</pubDate>
+      <guid>https://chengjunwang.com/post/post_archive/scholarnetwork/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://pypi.python.org/pypi/scholarNetwork/&#34; target=&#34;_blank&#34;&gt;scholarNetwork&lt;/a&gt;, a Python package to crawl and visualize the coauthor network of Google Scholars.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>iching: Practising Divination of I Ching</title>
+      <link>https://chengjunwang.com/post/post_archive/iching/</link>
+      <pubDate>Mon, 13 Feb 2017 14:15:36 +0800</pubDate>
+      <guid>https://chengjunwang.com/post/post_archive/iching/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://pypi.python.org/pypi/iching/&#34; target=&#34;_blank&#34;&gt;iching&lt;/a&gt;, a Python package that employs the Achillea millefolium method to practise divination of I Ching (易经的蓍草卜卦方法).&lt;/p&gt;
+
+&lt;iframe src=&#34;http://nbviewer.ipython.org/github/chengjun/iching/blob/master/iching_intro.ipynb&#34; scrolling=&#34;no&#34; width=&#34;700&#34; height=&#34;6500&#34;&gt;&lt;/iframe&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
