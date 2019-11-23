@@ -3,22 +3,22 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://chengjunwang.com/zh/post/about/</loc>
-    <lastmod>2016-04-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://chengjunwang.com/zh/zh/post/about/</loc>
     <lastmod>2016-04-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://chengjunwang.com/zh/post/posts/</loc>
+    <loc>https://chengjunwang.com/zh/post/about/</loc>
     <lastmod>2016-04-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://chengjunwang.com/zh/zh/post/posts/</loc>
+    <lastmod>2016-04-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://chengjunwang.com/zh/post/posts/</loc>
     <lastmod>2016-04-20T00:00:00+00:00</lastmod>
   </url>
   
@@ -43,12 +43,12 @@
   </url>
   
   <url>
-    <loc>https://chengjunwang.com/zh/post/contact/</loc>
+    <loc>https://chengjunwang.com/zh/zh/post/contact/</loc>
     <lastmod>2016-04-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://chengjunwang.com/zh/zh/post/contact/</loc>
+    <loc>https://chengjunwang.com/zh/post/contact/</loc>
     <lastmod>2016-04-20T00:00:00+00:00</lastmod>
   </url>
   
@@ -198,12 +198,12 @@
   </url>
   
   <url>
-    <loc>https://chengjunwang.com/zh/zh/post/climate-change/</loc>
+    <loc>https://chengjunwang.com/zh/post/climate-change/</loc>
     <lastmod>2017-06-29T14:32:07+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://chengjunwang.com/zh/post/climate-change/</loc>
+    <loc>https://chengjunwang.com/zh/zh/post/climate-change/</loc>
     <lastmod>2017-06-29T14:32:07+08:00</lastmod>
   </url>
   
