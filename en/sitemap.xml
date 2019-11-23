@@ -203,21 +203,6 @@
   </url>
   
   <url>
-    <loc>https://chengjunwang.com/tags/news/</loc>
-    <lastmod>2017-12-31T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://chengjunwang.com/zh/tags/news/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://chengjunwang.com/tags/news/"
-                />
-  </url>
-  
-  <url>
     <loc>https://chengjunwang.com/note/note_archive/2015-12-31-income/</loc>
     <lastmod>2017-12-31T00:00:00+00:00</lastmod>
   </url>
@@ -240,6 +225,21 @@
   <url>
     <loc>https://chengjunwang.com/tags/%E8%A1%A5%E8%B4%B4/</loc>
     <lastmod>2017-12-11T12:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://chengjunwang.com/tags/news/</loc>
+    <lastmod>2017-10-29T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://chengjunwang.com/zh/tags/news/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://chengjunwang.com/tags/news/"
+                />
   </url>
   
   <url>

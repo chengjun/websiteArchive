@@ -82,9 +82,9 @@
     
     <item>
       <title>教学</title>
-      <link>https://chengjunwang.com/zh/post/teaching/</link>
+      <link>https://chengjunwang.com/zh/zh/post/teaching/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://chengjunwang.com/zh/post/teaching/</guid>
+      <guid>https://chengjunwang.com/zh/zh/post/teaching/</guid>
       <description>
 
 &lt;ul&gt;
@@ -139,9 +139,9 @@ python代码、PPT见&lt;a href=&#34;https://github.com/computational-class/cjc/
     
     <item>
       <title>教学</title>
-      <link>https://chengjunwang.com/zh/zh/post/teaching/</link>
+      <link>https://chengjunwang.com/zh/post/teaching/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://chengjunwang.com/zh/zh/post/teaching/</guid>
+      <guid>https://chengjunwang.com/zh/post/teaching/</guid>
       <description>
 
 &lt;ul&gt;
@@ -1518,143 +1518,6 @@ chengjuns-MacBook&lt;/p&gt;
     
     <item>
       <title>集智俱乐部暑期研读营</title>
-      <link>https://chengjunwang.com/zh/zh/post/swarma-summer-camp/</link>
-      <pubDate>Tue, 18 Jul 2017 14:32:07 +0800</pubDate>
-      <guid>https://chengjunwang.com/zh/zh/post/swarma-summer-camp/</guid>
-      <description>
-
-&lt;p&gt;&lt;img src=&#34;https://chengjunwang.com/img/qiniu/night.png&#34; alt=&#34;evening7.17&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;今年的研读营主要由吴令飞和尤亦庄负责。吴令飞主张研读营应该解决只有研读营才能做的事情。最初大家想分组搞一些研究项目，但考虑到大家因为项目的压力，每一个人都想得是一个可以deliver的东西。虫洞和weak tie有什么关联？boltzmann machine与社会计算？ising model与图灵机：一个社会系统在做计算。就人员组成而言，主要分成了社会科学组合物理学组两大阵营。&lt;/p&gt;
-
-&lt;h1 id=&#34;社科与物理两大阵营是否可以理解对方的工作&#34;&gt;社科与物理两大阵营是否可以理解对方的工作？&lt;/h1&gt;
-
-&lt;p&gt;社科和物理两大阵营作为两个组，每个组提议五对文献，任意一对论文有一篇好的，一篇是相对差的。于是两组分别出了一套题目，仅仅给出标题和摘要。&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://wiki.swarma.net/images/4/48/Group-social-papers.pdf&#34; target=&#34;_blank&#34;&gt;社会科学组出的题目&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://wiki.swarma.net/images/7/7d/Group-physics-papers.pdf&#34; target=&#34;_blank&#34;&gt;物理组出的题目&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;过程如下：首先，每个人选出自己认为正确的选项；然后，汇总并公示组内结果，每个人发表意见；最后，小组决议，投票决定。最终的结果如下图所示，社科组错了一个，物理组错了三个。&lt;/p&gt;
-
-&lt;p&gt;这个结果略微让人吃惊，因为一般人认为物理组比较难，社科的人难以理解。结果却是对于那些发表出来的文章而言，物理组更搞不清楚社科的难度（“水”）有多深。当然，第二种解读就是，社会科学太软、太水，需要太多的口耳相传的训练，仅仅习得表面的功夫就只能做表面文章。&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://chengjunwang.com/img/qiniu/bd53c2608f5ec559393a88dd7dba0ea2.png&#34; alt=&#34;社科与物理两大阵营是否可以理解对方的工作&#34; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;玻尔兹曼机&#34;&gt;玻尔兹曼机&lt;/h2&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://chengjunwang.com/img/qiniu/36eda36920ae58ce5a77995d72cef623.png&#34; alt=&#34;boltzman-machine-graph&#34; /&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;A graphical representation of an example Boltzmann machine. Each undirected edge represents dependency. In this example there are 3 hidden units and 4 visible units. This is not a restricted Boltzmann machine.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;They are named after the &lt;strong&gt;Boltzmann distribution&lt;/strong&gt; in statistical mechanics, which is used in their sampling function. It was invented by &lt;code&gt;Geoffrey Hinton&lt;/code&gt; and Terry Sejnowski in 1985.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;unsupervised&lt;/strong&gt; machine learning
-
-&lt;ul&gt;
-&lt;li&gt;unsupervised learning需要记住所有的东西&lt;/li&gt;
-&lt;li&gt;supervised learning是建立mapping&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;ising model
-
-&lt;ul&gt;
-&lt;li&gt;graph as the background geometric structure&lt;/li&gt;
-&lt;li&gt;node
-
-&lt;ul&gt;
-&lt;li&gt;there is a binary &lt;strong&gt;spin&lt;/strong&gt; on each node&lt;/li&gt;
-&lt;li&gt;$\sigma_v = 1 \; or -1$&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;edge
-
-&lt;ul&gt;
-&lt;li&gt;hamiltonian (energy)&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;$$E = -\left(\sum&lt;em&gt;{i&amp;lt;j} w&lt;/em&gt;{ij} \, s_i \, s_j + \sum_i \theta_i \, s_i \right)$$&lt;/p&gt;
-
-&lt;p&gt;Where:
-* $w_{ij}$ is the connection strength between unit $j$ and unit $i$.
-* $s_i$ is the state, $s_i \in {0,1}$, of unit $i$.
-* $\theta_i$ is the bias of unit $i$ in the global energy function. ($-\theta_i$ is the activation threshold for the unit.)&lt;/p&gt;
-
-&lt;p&gt;Often the weights are represented as a symmetric matrix $W$, with zeros along the diagonal.&lt;/p&gt;
-
-&lt;p&gt;Newmann &lt;strong&gt;q modularity&lt;/strong&gt; hamiltonian on the network&lt;/p&gt;
-
-&lt;p&gt;sbm stochastic block model&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;deepwalk &lt;a href=&#34;http://www.perozzi.net/publications/14_kdd_deepwalk.pdf&#34; target=&#34;_blank&#34;&gt;http://www.perozzi.net/publications/14_kdd_deepwalk.pdf&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;node2vector &lt;a href=&#34;http://snap.stanford.edu/node2vec/&#34; target=&#34;_blank&#34;&gt;http://snap.stanford.edu/node2vec/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;闭上眼猜测，睁开眼观察，比较二者的差别。&lt;/p&gt;
-
-&lt;h2 id=&#34;袁行远介绍雾霾预报&#34;&gt;袁行远介绍雾霾预报&lt;/h2&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://chengjunwang.com/img/qiniu/fee8f8445f3dbf217887e078ed18ac81.png&#34; alt=&#34;雾霾&#34; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;肖达介绍rnn原理&#34;&gt;肖达介绍RNN原理&lt;/h2&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://chengjunwang.com/img/qiniu/a94dd5e7b694f5bcb5ae680122ba5c9d.png&#34; alt=&#34;rnn&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://chengjunwang.com/img/qiniu/3b4701e0d6860abbb78959216c3b1d2d.png&#34; alt=&#34;xiaoda&#34; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;word2vec&#34;&gt;word2vec&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.tensorflow.org/tutorials/word2vec&#34; target=&#34;_blank&#34;&gt;https://www.tensorflow.org/tutorials/word2vec&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;为什么深度学习有效&#34;&gt;为什么深度学习有效?&lt;/h2&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://chengjunwang.com/img/qiniu/c577e1dc974990e2d7b7893293d15ea6.png&#34; alt=&#34;为什么深度学习有效&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;The humans working behind the ai curtain&lt;/p&gt;
-
-&lt;h2 id=&#34;董磊介绍城市研究&#34;&gt;董磊介绍城市研究&lt;/h2&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://chengjunwang.com/img/qiniu/90ef9b65b37fc877336c25e72113f1f4.png&#34; alt=&#34;董磊&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://chengjunwang.com/img/qiniu/ba1cceabb662ea98c1c629363f3c6736.png&#34; alt=&#34;制造业&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;制造业的衰落&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://chengjunwang.com/img/qiniu/74c1ad741f419d67ca138f463f2b4dc1.png&#34; alt=&#34;poverty&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;贫穷&lt;/p&gt;
-
-&lt;h1 id=&#34;回到北京&#34;&gt;回到北京&lt;/h1&gt;
-
-&lt;p&gt;结束了四天古北水镇的研读营，来到清华参加集智年会。&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://chengjunwang.com/img/qiniu/e7d31bd4fcfe761a74e217a8e7e9b07a.png&#34; alt=&#34;红杉假日酒店&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://chengjunwang.com/img/qiniu/15856c7ae7e5f065630ba2d673495ce1.png&#34; alt=&#34;yinyian&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://chengjunwang.com/img/qiniu/bb3f2ecdbbd34e663ea4e8fd07b20882.png&#34; alt=&#34;james&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://chengjunwang.com/img/qiniu/18eaee1d9c2c9c48cd0895ba502d06a4.png&#34; alt=&#34;substitutions&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://chengjunwang.com/img/qiniu/d65fa3234c4acc2d6ff49a6a8e492260.png&#34; alt=&#34;dashun&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://chengjunwang.com/img/qiniu/1636c0143f9fd911f1407c92ba936b44.png&#34; alt=&#34;dashun2&#34; /&gt;&lt;/p&gt;
-
-&lt;h1 id=&#34;浮光掠影&#34;&gt;浮光掠影&lt;/h1&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://chengjunwang.com/img/qiniu/05ec192dccf36de80f11b36ccc7fc38d.png&#34; alt=&#34;戚家牛杂&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;参加了夜游长城的活动。&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>集智俱乐部暑期研读营</title>
       <link>https://chengjunwang.com/zh/post/swarma-summer-camp/</link>
       <pubDate>Tue, 18 Jul 2017 14:32:07 +0800</pubDate>
       <guid>https://chengjunwang.com/zh/post/swarma-summer-camp/</guid>
@@ -1791,10 +1654,147 @@ chengjuns-MacBook&lt;/p&gt;
     </item>
     
     <item>
+      <title>集智俱乐部暑期研读营</title>
+      <link>https://chengjunwang.com/zh/zh/post/swarma-summer-camp/</link>
+      <pubDate>Tue, 18 Jul 2017 14:32:07 +0800</pubDate>
+      <guid>https://chengjunwang.com/zh/zh/post/swarma-summer-camp/</guid>
+      <description>
+
+&lt;p&gt;&lt;img src=&#34;https://chengjunwang.com/img/qiniu/night.png&#34; alt=&#34;evening7.17&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;今年的研读营主要由吴令飞和尤亦庄负责。吴令飞主张研读营应该解决只有研读营才能做的事情。最初大家想分组搞一些研究项目，但考虑到大家因为项目的压力，每一个人都想得是一个可以deliver的东西。虫洞和weak tie有什么关联？boltzmann machine与社会计算？ising model与图灵机：一个社会系统在做计算。就人员组成而言，主要分成了社会科学组合物理学组两大阵营。&lt;/p&gt;
+
+&lt;h1 id=&#34;社科与物理两大阵营是否可以理解对方的工作&#34;&gt;社科与物理两大阵营是否可以理解对方的工作？&lt;/h1&gt;
+
+&lt;p&gt;社科和物理两大阵营作为两个组，每个组提议五对文献，任意一对论文有一篇好的，一篇是相对差的。于是两组分别出了一套题目，仅仅给出标题和摘要。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://wiki.swarma.net/images/4/48/Group-social-papers.pdf&#34; target=&#34;_blank&#34;&gt;社会科学组出的题目&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://wiki.swarma.net/images/7/7d/Group-physics-papers.pdf&#34; target=&#34;_blank&#34;&gt;物理组出的题目&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;过程如下：首先，每个人选出自己认为正确的选项；然后，汇总并公示组内结果，每个人发表意见；最后，小组决议，投票决定。最终的结果如下图所示，社科组错了一个，物理组错了三个。&lt;/p&gt;
+
+&lt;p&gt;这个结果略微让人吃惊，因为一般人认为物理组比较难，社科的人难以理解。结果却是对于那些发表出来的文章而言，物理组更搞不清楚社科的难度（“水”）有多深。当然，第二种解读就是，社会科学太软、太水，需要太多的口耳相传的训练，仅仅习得表面的功夫就只能做表面文章。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://chengjunwang.com/img/qiniu/bd53c2608f5ec559393a88dd7dba0ea2.png&#34; alt=&#34;社科与物理两大阵营是否可以理解对方的工作&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;玻尔兹曼机&#34;&gt;玻尔兹曼机&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://chengjunwang.com/img/qiniu/36eda36920ae58ce5a77995d72cef623.png&#34; alt=&#34;boltzman-machine-graph&#34; /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;A graphical representation of an example Boltzmann machine. Each undirected edge represents dependency. In this example there are 3 hidden units and 4 visible units. This is not a restricted Boltzmann machine.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;They are named after the &lt;strong&gt;Boltzmann distribution&lt;/strong&gt; in statistical mechanics, which is used in their sampling function. It was invented by &lt;code&gt;Geoffrey Hinton&lt;/code&gt; and Terry Sejnowski in 1985.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;unsupervised&lt;/strong&gt; machine learning
+
+&lt;ul&gt;
+&lt;li&gt;unsupervised learning需要记住所有的东西&lt;/li&gt;
+&lt;li&gt;supervised learning是建立mapping&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;ising model
+
+&lt;ul&gt;
+&lt;li&gt;graph as the background geometric structure&lt;/li&gt;
+&lt;li&gt;node
+
+&lt;ul&gt;
+&lt;li&gt;there is a binary &lt;strong&gt;spin&lt;/strong&gt; on each node&lt;/li&gt;
+&lt;li&gt;$\sigma_v = 1 \; or -1$&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;edge
+
+&lt;ul&gt;
+&lt;li&gt;hamiltonian (energy)&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;$$E = -\left(\sum&lt;em&gt;{i&amp;lt;j} w&lt;/em&gt;{ij} \, s_i \, s_j + \sum_i \theta_i \, s_i \right)$$&lt;/p&gt;
+
+&lt;p&gt;Where:
+* $w_{ij}$ is the connection strength between unit $j$ and unit $i$.
+* $s_i$ is the state, $s_i \in {0,1}$, of unit $i$.
+* $\theta_i$ is the bias of unit $i$ in the global energy function. ($-\theta_i$ is the activation threshold for the unit.)&lt;/p&gt;
+
+&lt;p&gt;Often the weights are represented as a symmetric matrix $W$, with zeros along the diagonal.&lt;/p&gt;
+
+&lt;p&gt;Newmann &lt;strong&gt;q modularity&lt;/strong&gt; hamiltonian on the network&lt;/p&gt;
+
+&lt;p&gt;sbm stochastic block model&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;deepwalk &lt;a href=&#34;http://www.perozzi.net/publications/14_kdd_deepwalk.pdf&#34; target=&#34;_blank&#34;&gt;http://www.perozzi.net/publications/14_kdd_deepwalk.pdf&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;node2vector &lt;a href=&#34;http://snap.stanford.edu/node2vec/&#34; target=&#34;_blank&#34;&gt;http://snap.stanford.edu/node2vec/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;闭上眼猜测，睁开眼观察，比较二者的差别。&lt;/p&gt;
+
+&lt;h2 id=&#34;袁行远介绍雾霾预报&#34;&gt;袁行远介绍雾霾预报&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://chengjunwang.com/img/qiniu/fee8f8445f3dbf217887e078ed18ac81.png&#34; alt=&#34;雾霾&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;肖达介绍rnn原理&#34;&gt;肖达介绍RNN原理&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://chengjunwang.com/img/qiniu/a94dd5e7b694f5bcb5ae680122ba5c9d.png&#34; alt=&#34;rnn&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://chengjunwang.com/img/qiniu/3b4701e0d6860abbb78959216c3b1d2d.png&#34; alt=&#34;xiaoda&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;word2vec&#34;&gt;word2vec&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.tensorflow.org/tutorials/word2vec&#34; target=&#34;_blank&#34;&gt;https://www.tensorflow.org/tutorials/word2vec&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;为什么深度学习有效&#34;&gt;为什么深度学习有效?&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://chengjunwang.com/img/qiniu/c577e1dc974990e2d7b7893293d15ea6.png&#34; alt=&#34;为什么深度学习有效&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The humans working behind the ai curtain&lt;/p&gt;
+
+&lt;h2 id=&#34;董磊介绍城市研究&#34;&gt;董磊介绍城市研究&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://chengjunwang.com/img/qiniu/90ef9b65b37fc877336c25e72113f1f4.png&#34; alt=&#34;董磊&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://chengjunwang.com/img/qiniu/ba1cceabb662ea98c1c629363f3c6736.png&#34; alt=&#34;制造业&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;制造业的衰落&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://chengjunwang.com/img/qiniu/74c1ad741f419d67ca138f463f2b4dc1.png&#34; alt=&#34;poverty&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;贫穷&lt;/p&gt;
+
+&lt;h1 id=&#34;回到北京&#34;&gt;回到北京&lt;/h1&gt;
+
+&lt;p&gt;结束了四天古北水镇的研读营，来到清华参加集智年会。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://chengjunwang.com/img/qiniu/e7d31bd4fcfe761a74e217a8e7e9b07a.png&#34; alt=&#34;红杉假日酒店&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://chengjunwang.com/img/qiniu/15856c7ae7e5f065630ba2d673495ce1.png&#34; alt=&#34;yinyian&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://chengjunwang.com/img/qiniu/bb3f2ecdbbd34e663ea4e8fd07b20882.png&#34; alt=&#34;james&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://chengjunwang.com/img/qiniu/18eaee1d9c2c9c48cd0895ba502d06a4.png&#34; alt=&#34;substitutions&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://chengjunwang.com/img/qiniu/d65fa3234c4acc2d6ff49a6a8e492260.png&#34; alt=&#34;dashun&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://chengjunwang.com/img/qiniu/1636c0143f9fd911f1407c92ba936b44.png&#34; alt=&#34;dashun2&#34; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;浮光掠影&#34;&gt;浮光掠影&lt;/h1&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://chengjunwang.com/img/qiniu/05ec192dccf36de80f11b36ccc7fc38d.png&#34; alt=&#34;戚家牛杂&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;参加了夜游长城的活动。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Data Tech2017大赛</title>
-      <link>https://chengjunwang.com/zh/post/zjmobile/</link>
+      <link>https://chengjunwang.com/zh/zh/post/zjmobile/</link>
       <pubDate>Sun, 16 Jul 2017 14:32:07 +0800</pubDate>
-      <guid>https://chengjunwang.com/zh/post/zjmobile/</guid>
+      <guid>https://chengjunwang.com/zh/zh/post/zjmobile/</guid>
       <description>
 
 &lt;p&gt;Data Tech2017大赛由中国移动浙江公司与浙江大数据交易中心联合主办，大赛以“数据众智美好未来”为主题，解锁运营商数据，整合气象、交通、空间等数据， 以“开放、互联”的精神激发全社会创新能量，共创美好未来。&lt;/p&gt;
@@ -1871,9 +1871,9 @@ chengjuns-MacBook&lt;/p&gt;
     
     <item>
       <title>Data Tech2017大赛</title>
-      <link>https://chengjunwang.com/zh/zh/post/zjmobile/</link>
+      <link>https://chengjunwang.com/zh/post/zjmobile/</link>
       <pubDate>Sun, 16 Jul 2017 14:32:07 +0800</pubDate>
-      <guid>https://chengjunwang.com/zh/zh/post/zjmobile/</guid>
+      <guid>https://chengjunwang.com/zh/post/zjmobile/</guid>
       <description>
 
 &lt;p&gt;Data Tech2017大赛由中国移动浙江公司与浙江大数据交易中心联合主办，大赛以“数据众智美好未来”为主题，解锁运营商数据，整合气象、交通、空间等数据， 以“开放、互联”的精神激发全社会创新能量，共创美好未来。&lt;/p&gt;
