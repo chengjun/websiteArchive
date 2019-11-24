@@ -5,25 +5,12 @@
     <link>https://chengjunwang.com/zh/</link>
       <atom:link href="https://chengjunwang.com/zh/index.xml" rel="self" type="application/rss+xml" />
     <description>王成军</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>zh-Hans</language><copyright>All rights © reserved 2019</copyright><lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>zh-Hans</language><copyright>All rights © reserved 2019</copyright><lastBuildDate>Wed, 13 Feb 2019 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://chengjunwang.com/img/headers/rabbit.svg</url>
+      <url>https://chengjunwang.com/img/headers/deer.webp</url>
       <title>王成军</title>
       <link>https://chengjunwang.com/zh/</link>
     </image>
-    
-    <item>
-      <title></title>
-      <link>https://chengjunwang.com/zh/post/about/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://chengjunwang.com/zh/post/about/</guid>
-      <description>
-
-&lt;h1 id=&#34;王成军&#34;&gt;王成军&lt;/h1&gt;
-
-&lt;p&gt;王成军，传播学博士。现为&lt;a href=&#34;http://jc.nju.edu.cn&#34; target=&#34;_blank&#34;&gt;南京大学新闻传播学院&lt;/a&gt;副教授，&lt;a href=&#34;https://computational-communication.com/collaboratory/&#34; target=&#34;_blank&#34;&gt;计算传播学实验中心&lt;/a&gt;主任，兼任香港城市大学&lt;a href=&#34;http://weblab.com.cityu.edu.hk&#34; target=&#34;_blank&#34;&gt;互联网挖掘实验室&lt;/a&gt;研究员。参与翻译《社会网络分析：方法与实践》(2013)、合著《社交网络上的计算传播学》(2015)。他的研究成果发表于SSCI和SCI索引的期刊，例如Scientific Reports、PloS ONE、Physica A、Cyberpsychology。2014年，王成军发起创建了&lt;a href=&#34;http://computational-communication.com&#34; target=&#34;_blank&#34;&gt;计算传播网&lt;/a&gt;。更多信息见&lt;a href=&#34;../en/&#34;&gt;英文页面&lt;/a&gt;或他的&lt;a href=&#34;../cv/&#34;&gt;简历&lt;/a&gt;。&lt;/p&gt;
-</description>
-    </item>
     
     <item>
       <title></title>
@@ -39,11 +26,16 @@
     </item>
     
     <item>
-      <title>Recent Posts</title>
-      <link>https://chengjunwang.com/zh/zh/post/posts/</link>
+      <title></title>
+      <link>https://chengjunwang.com/zh/post/about/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://chengjunwang.com/zh/zh/post/posts/</guid>
-      <description></description>
+      <guid>https://chengjunwang.com/zh/post/about/</guid>
+      <description>
+
+&lt;h1 id=&#34;王成军&#34;&gt;王成军&lt;/h1&gt;
+
+&lt;p&gt;王成军，传播学博士。现为&lt;a href=&#34;http://jc.nju.edu.cn&#34; target=&#34;_blank&#34;&gt;南京大学新闻传播学院&lt;/a&gt;副教授，&lt;a href=&#34;https://computational-communication.com/collaboratory/&#34; target=&#34;_blank&#34;&gt;计算传播学实验中心&lt;/a&gt;主任，兼任香港城市大学&lt;a href=&#34;http://weblab.com.cityu.edu.hk&#34; target=&#34;_blank&#34;&gt;互联网挖掘实验室&lt;/a&gt;研究员。参与翻译《社会网络分析：方法与实践》(2013)、合著《社交网络上的计算传播学》(2015)。他的研究成果发表于SSCI和SCI索引的期刊，例如Scientific Reports、PloS ONE、Physica A、Cyberpsychology。2014年，王成军发起创建了&lt;a href=&#34;http://computational-communication.com&#34; target=&#34;_blank&#34;&gt;计算传播网&lt;/a&gt;。更多信息见&lt;a href=&#34;../en/&#34;&gt;英文页面&lt;/a&gt;或他的&lt;a href=&#34;../cv/&#34;&gt;简历&lt;/a&gt;。&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -55,10 +47,18 @@
     </item>
     
     <item>
-      <title>研究项目</title>
-      <link>https://chengjunwang.com/zh/zh/post/projects/</link>
+      <title>Recent Posts</title>
+      <link>https://chengjunwang.com/zh/zh/post/posts/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://chengjunwang.com/zh/zh/post/projects/</guid>
+      <guid>https://chengjunwang.com/zh/zh/post/posts/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>研究项目</title>
+      <link>https://chengjunwang.com/zh/post/projects/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>https://chengjunwang.com/zh/post/projects/</guid>
       <description>&lt;ul&gt;
 &lt;li&gt;国家社会科学基金青年项目, 15CXW017, 媒体融合背景下舆论形成与扩散的网络门槛研究，2015-2018, 20万元，主持&lt;/li&gt;
 &lt;li&gt;中国博士后科学基金面上项目（第57批), 找回失落的参考群体:对“沉默的螺旋”进行多主体建模，2015-2018, 5万元，主持&lt;/li&gt;
@@ -69,9 +69,9 @@
     
     <item>
       <title>研究项目</title>
-      <link>https://chengjunwang.com/zh/post/projects/</link>
+      <link>https://chengjunwang.com/zh/zh/post/projects/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://chengjunwang.com/zh/post/projects/</guid>
+      <guid>https://chengjunwang.com/zh/zh/post/projects/</guid>
       <description>&lt;ul&gt;
 &lt;li&gt;国家社会科学基金青年项目, 15CXW017, 媒体融合背景下舆论形成与扩散的网络门槛研究，2015-2018, 20万元，主持&lt;/li&gt;
 &lt;li&gt;中国博士后科学基金面上项目（第57批), 找回失落的参考群体:对“沉默的螺旋”进行多主体建模，2015-2018, 5万元，主持&lt;/li&gt;
@@ -196,14 +196,6 @@ python代码、PPT见&lt;a href=&#34;https://github.com/computational-class/cjc/
     
     <item>
       <title>联系</title>
-      <link>https://chengjunwang.com/zh/zh/post/contact/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://chengjunwang.com/zh/zh/post/contact/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>联系</title>
       <link>https://chengjunwang.com/zh/post/contact/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
       <guid>https://chengjunwang.com/zh/post/contact/</guid>
@@ -211,10 +203,18 @@ python代码、PPT见&lt;a href=&#34;https://github.com/computational-class/cjc/
     </item>
     
     <item>
+      <title>联系</title>
+      <link>https://chengjunwang.com/zh/zh/post/contact/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>https://chengjunwang.com/zh/zh/post/contact/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title></title>
-      <link>https://chengjunwang.com/zh/post/hero/</link>
+      <link>https://chengjunwang.com/zh/zh/post/hero/</link>
       <pubDate>Sun, 15 Oct 2017 00:00:00 +0800</pubDate>
-      <guid>https://chengjunwang.com/zh/post/hero/</guid>
+      <guid>https://chengjunwang.com/zh/zh/post/hero/</guid>
       <description>
 
 &lt;h1 id=&#34;quotations&#34;&gt;Quotations&lt;/h1&gt;
@@ -234,9 +234,9 @@ Don’t be afraid to really want what you desire. &amp;ndash; Slavoj Žižek spe
     
     <item>
       <title></title>
-      <link>https://chengjunwang.com/zh/zh/post/hero/</link>
+      <link>https://chengjunwang.com/zh/post/hero/</link>
       <pubDate>Sun, 15 Oct 2017 00:00:00 +0800</pubDate>
-      <guid>https://chengjunwang.com/zh/zh/post/hero/</guid>
+      <guid>https://chengjunwang.com/zh/post/hero/</guid>
       <description>
 
 &lt;h1 id=&#34;quotations&#34;&gt;Quotations&lt;/h1&gt;
@@ -1792,9 +1792,9 @@ chengjuns-MacBook&lt;/p&gt;
     
     <item>
       <title>Data Tech2017大赛</title>
-      <link>https://chengjunwang.com/zh/zh/post/zjmobile/</link>
+      <link>https://chengjunwang.com/zh/post/zjmobile/</link>
       <pubDate>Sun, 16 Jul 2017 14:32:07 +0800</pubDate>
-      <guid>https://chengjunwang.com/zh/zh/post/zjmobile/</guid>
+      <guid>https://chengjunwang.com/zh/post/zjmobile/</guid>
       <description>
 
 &lt;p&gt;Data Tech2017大赛由中国移动浙江公司与浙江大数据交易中心联合主办，大赛以“数据众智美好未来”为主题，解锁运营商数据，整合气象、交通、空间等数据， 以“开放、互联”的精神激发全社会创新能量，共创美好未来。&lt;/p&gt;
@@ -1871,9 +1871,9 @@ chengjuns-MacBook&lt;/p&gt;
     
     <item>
       <title>Data Tech2017大赛</title>
-      <link>https://chengjunwang.com/zh/post/zjmobile/</link>
+      <link>https://chengjunwang.com/zh/zh/post/zjmobile/</link>
       <pubDate>Sun, 16 Jul 2017 14:32:07 +0800</pubDate>
-      <guid>https://chengjunwang.com/zh/post/zjmobile/</guid>
+      <guid>https://chengjunwang.com/zh/zh/post/zjmobile/</guid>
       <description>
 
 &lt;p&gt;Data Tech2017大赛由中国移动浙江公司与浙江大数据交易中心联合主办，大赛以“数据众智美好未来”为主题，解锁运营商数据，整合气象、交通、空间等数据， 以“开放、互联”的精神激发全社会创新能量，共创美好未来。&lt;/p&gt;
@@ -1986,9 +1986,9 @@ chengjuns-MacBook&lt;/p&gt;
     
     <item>
       <title>气候变迁研究：数据、调查、视角</title>
-      <link>https://chengjunwang.com/zh/post/climate-change/</link>
+      <link>https://chengjunwang.com/zh/zh/post/climate-change/</link>
       <pubDate>Thu, 29 Jun 2017 14:32:07 +0800</pubDate>
-      <guid>https://chengjunwang.com/zh/post/climate-change/</guid>
+      <guid>https://chengjunwang.com/zh/zh/post/climate-change/</guid>
       <description>
 
 &lt;h2 id=&#34;data-for-climate-change&#34;&gt;Data for Climate Change&lt;/h2&gt;
@@ -2048,9 +2048,9 @@ chengjuns-MacBook&lt;/p&gt;
     
     <item>
       <title>气候变迁研究：数据、调查、视角</title>
-      <link>https://chengjunwang.com/zh/zh/post/climate-change/</link>
+      <link>https://chengjunwang.com/zh/post/climate-change/</link>
       <pubDate>Thu, 29 Jun 2017 14:32:07 +0800</pubDate>
-      <guid>https://chengjunwang.com/zh/zh/post/climate-change/</guid>
+      <guid>https://chengjunwang.com/zh/post/climate-change/</guid>
       <description>
 
 &lt;h2 id=&#34;data-for-climate-change&#34;&gt;Data for Climate Change&lt;/h2&gt;
