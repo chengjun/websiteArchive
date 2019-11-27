@@ -178,12 +178,12 @@
   </url>
   
   <url>
-    <loc>https://chengjunwang.com/authors/%E7%8E%8B%E6%88%90%E5%86%9B/</loc>
+    <loc>https://chengjunwang.com/publication/abm-sos/</loc>
     <lastmod>2019-01-01T11:33:49+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://chengjunwang.com/publication/abm-sos/</loc>
+    <loc>https://chengjunwang.com/authors/%E7%8E%8B%E6%88%90%E5%86%9B/</loc>
     <lastmod>2019-01-01T11:33:49+08:00</lastmod>
   </url>
   
@@ -430,11 +430,6 @@
   <url>
     <loc>https://chengjunwang.com/publication/lbs-behavior/</loc>
     <lastmod>2017-02-24T15:23:43+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://chengjunwang.com/cv2/</loc>
-    <lastmod>2017-02-19T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -897,6 +892,14 @@
   </url>
   
   <url>
+    <loc>https://chengjunwang.com/zh/authors/admin/</loc>
+  </url>
+  
+  <url>
+    <loc>https://chengjunwang.com/zh/home/</loc>
+  </url>
+  
+  <url>
     <loc>https://chengjunwang.com/post/en/2013-08-03-bloging-with-markdown-on-octopress/</loc>
   </url>
   
@@ -1001,6 +1004,10 @@
   
   <url>
     <loc>https://chengjunwang.com/post/en/2011-12-11-visualize-with-googlevis/</loc>
+  </url>
+  
+  <url>
+    <loc>https://chengjunwang.com/zh/</loc>
   </url>
   
 </urlset>
