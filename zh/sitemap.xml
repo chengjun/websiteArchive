@@ -3,22 +3,22 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://chengjunwang.com/zh/zh/post/about/</loc>
-    <lastmod>2016-04-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://chengjunwang.com/zh/post/about/</loc>
     <lastmod>2016-04-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://chengjunwang.com/zh/post/posts/</loc>
+    <loc>https://chengjunwang.com/zh/zh/post/about/</loc>
     <lastmod>2016-04-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://chengjunwang.com/zh/zh/post/posts/</loc>
+    <lastmod>2016-04-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://chengjunwang.com/zh/post/posts/</loc>
     <lastmod>2016-04-20T00:00:00+00:00</lastmod>
   </url>
   
@@ -33,22 +33,22 @@
   </url>
   
   <url>
-    <loc>https://chengjunwang.com/zh/zh/post/teaching/</loc>
-    <lastmod>2016-04-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://chengjunwang.com/zh/post/teaching/</loc>
     <lastmod>2016-04-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://chengjunwang.com/zh/post/contact/</loc>
+    <loc>https://chengjunwang.com/zh/zh/post/teaching/</loc>
     <lastmod>2016-04-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://chengjunwang.com/zh/zh/post/contact/</loc>
+    <lastmod>2016-04-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://chengjunwang.com/zh/post/contact/</loc>
     <lastmod>2016-04-20T00:00:00+00:00</lastmod>
   </url>
   
@@ -102,6 +102,11 @@
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="cv"
+                href="https://chengjunwang.com/cv/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="zh"
                 href="https://chengjunwang.com/zh/tags/"
                 />
@@ -119,6 +124,11 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://chengjunwang.com/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="cv"
+                href="https://chengjunwang.com/cv/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -145,16 +155,6 @@
   <url>
     <loc>https://chengjunwang.com/zh/zh/</loc>
     <lastmod>2017-12-28T14:32:07+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://chengjunwang.com/zh/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://chengjunwang.com/zh/zh/"
-                />
   </url>
   
   <url>
@@ -198,12 +198,12 @@
   </url>
   
   <url>
-    <loc>https://chengjunwang.com/zh/post/zjmobile/</loc>
+    <loc>https://chengjunwang.com/zh/zh/post/zjmobile/</loc>
     <lastmod>2017-07-16T14:32:07+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://chengjunwang.com/zh/zh/post/zjmobile/</loc>
+    <loc>https://chengjunwang.com/zh/post/zjmobile/</loc>
     <lastmod>2017-07-16T14:32:07+08:00</lastmod>
   </url>
   
@@ -213,12 +213,12 @@
   </url>
   
   <url>
-    <loc>https://chengjunwang.com/zh/zh/post/climate-change/</loc>
+    <loc>https://chengjunwang.com/zh/post/climate-change/</loc>
     <lastmod>2017-06-29T14:32:07+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://chengjunwang.com/zh/post/climate-change/</loc>
+    <loc>https://chengjunwang.com/zh/zh/post/climate-change/</loc>
     <lastmod>2017-06-29T14:32:07+08:00</lastmod>
   </url>
   
@@ -308,12 +308,12 @@
   </url>
   
   <url>
-    <loc>https://chengjunwang.com/zh/zh/post/migrate-from-jekyll/</loc>
+    <loc>https://chengjunwang.com/zh/post/migrate-from-jekyll/</loc>
     <lastmod>2014-03-10T00:00:00+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://chengjunwang.com/zh/post/migrate-from-jekyll/</loc>
+    <loc>https://chengjunwang.com/zh/zh/post/migrate-from-jekyll/</loc>
     <lastmod>2014-03-10T00:00:00+08:00</lastmod>
   </url>
   
@@ -452,11 +452,20 @@
   </url>
   
   <url>
+    <loc>https://chengjunwang.com/zh/home/</loc>
+  </url>
+  
+  <url>
     <loc>https://chengjunwang.com/zh/authors/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
                 href="https://chengjunwang.com/authors/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="cv"
+                href="https://chengjunwang.com/cv/authors/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -467,6 +476,11 @@
   
   <url>
     <loc>https://chengjunwang.com/zh/categories/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="cv"
+                href="https://chengjunwang.com/cv/categories/"
+                />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -489,6 +503,11 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://chengjunwang.com/publication_types/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="cv"
+                href="https://chengjunwang.com/cv/publication_types/"
                 />
     <xhtml:link
                 rel="alternate"

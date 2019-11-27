@@ -44,53 +44,6 @@
     </item>
     
     <item>
-      <title>简介</title>
-      <link>https://chengjunwang.com/zh/home/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://chengjunwang.com/zh/home/about/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>新闻</title>
-      <link>https://chengjunwang.com/zh/home/posts/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://chengjunwang.com/zh/home/posts/</guid>
-      <description>&lt;!-- +++
-# Recent Posts widget.
-# This widget displays recent posts from `content/post/`.
-widget = &#34;posts&#34;
-active = true
-date = &#34;2016-04-20T00:00:00&#34;
-
-title = &#34;Recent Posts&#34;
-subtitle = &#34;&#34;
-
-# Order that this section will appear in.
-weight = 40
-
-# Filter posts by tag.
-#  By default, show all recent posts.
-#  Filtering example: `tags_include = [&#34;hugo&#34;, &#34;academic&#34;]`
-tags_include = [&#34;news&#34;]
-tags_exclude = [&#34;hidden&#34;]
-
-# Number of posts to list.
-count = 5
-
-+++ --&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>联系</title>
-      <link>https://chengjunwang.com/zh/home/contact/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://chengjunwang.com/zh/home/contact/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>The Cinderella complex: Word embeddings reveal gender stereotypes in movies and books</title>
       <link>https://chengjunwang.com/publication/storytelling/</link>
       <pubDate>Thu, 14 Nov 2019 00:00:00 +0000</pubDate>
@@ -4828,9 +4781,9 @@ Lazer等一批学者2009年在Science上发表题为“计算社会科学”的�
     
     <item>
       <title>Cheng-Jun Wang</title>
-      <link>https://chengjunwang.com/cv/</link>
+      <link>https://chengjunwang.com/cv2/</link>
       <pubDate>Sun, 19 Feb 2017 00:00:00 +0000</pubDate>
-      <guid>https://chengjunwang.com/cv/</guid>
+      <guid>https://chengjunwang.com/cv2/</guid>
       <description>
 
 &lt;p&gt;&lt;img src=&#34;https://chengjunwang.com/img/headers/chengjunwang2.png&#34; alt=&#34;Cheng-Jun Wang&#34; /&gt;&lt;/p&gt;

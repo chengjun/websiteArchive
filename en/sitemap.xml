@@ -8,24 +8,6 @@
   </url>
   
   <url>
-    <loc>https://chengjunwang.com/zh/home/about/</loc>
-  </url>
-  
-  <url>
-    <loc>https://chengjunwang.com/zh/home/posts/</loc>
-  </url>
-  
-  <url>
-    <loc>https://chengjunwang.com/zh/home/contact/</loc>
-    <lastmod>2016-04-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://chengjunwang.com/authors/cheng-jun-wang/</loc>
-    <lastmod>2019-11-14T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://chengjunwang.com/publication_types/2/</loc>
     <lastmod>2019-11-14T00:00:00+00:00</lastmod>
   </url>
@@ -33,6 +15,11 @@
   <url>
     <loc>https://chengjunwang.com/authors/</loc>
     <lastmod>2019-11-14T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="cv"
+                href="https://chengjunwang.com/cv/authors/"
+                />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -55,9 +42,19 @@
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="cv"
+                href="https://chengjunwang.com/cv/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="en"
                 href="https://chengjunwang.com/"
                 />
+  </url>
+  
+  <url>
+    <loc>https://chengjunwang.com/authors/cheng-jun-wang/</loc>
+    <lastmod>2019-11-14T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -73,6 +70,11 @@
   <url>
     <loc>https://chengjunwang.com/publication_types/</loc>
     <lastmod>2019-11-14T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="cv"
+                href="https://chengjunwang.com/cv/publication_types/"
+                />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -102,6 +104,11 @@
                 rel="alternate"
                 hreflang="zh"
                 href="https://chengjunwang.com/zh/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="cv"
+                href="https://chengjunwang.com/cv/tags/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -171,12 +178,12 @@
   </url>
   
   <url>
-    <loc>https://chengjunwang.com/publication/abm-sos/</loc>
+    <loc>https://chengjunwang.com/authors/%E7%8E%8B%E6%88%90%E5%86%9B/</loc>
     <lastmod>2019-01-01T11:33:49+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://chengjunwang.com/authors/%E7%8E%8B%E6%88%90%E5%86%9B/</loc>
+    <loc>https://chengjunwang.com/publication/abm-sos/</loc>
     <lastmod>2019-01-01T11:33:49+08:00</lastmod>
   </url>
   
@@ -426,7 +433,7 @@
   </url>
   
   <url>
-    <loc>https://chengjunwang.com/cv/</loc>
+    <loc>https://chengjunwang.com/cv2/</loc>
     <lastmod>2017-02-19T00:00:00+00:00</lastmod>
   </url>
   
@@ -643,21 +650,6 @@
   <url>
     <loc>https://chengjunwang.com/post/post_archive/writing-markdown-latex/</loc>
     <lastmod>2016-04-20T10:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://chengjunwang.com/zh/</loc>
-    <lastmod>2016-04-20T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://chengjunwang.com/zh/zh/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://chengjunwang.com/zh/"
-                />
   </url>
   
   <url>
@@ -905,19 +897,16 @@
   </url>
   
   <url>
-    <loc>https://chengjunwang.com/authors/user/</loc>
-  </url>
-  
-  <url>
-    <loc>https://chengjunwang.com/cv2/</loc>
-  </url>
-  
-  <url>
     <loc>https://chengjunwang.com/post/en/2013-08-03-bloging-with-markdown-on-octopress/</loc>
   </url>
   
   <url>
     <loc>https://chengjunwang.com/categories/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="cv"
+                href="https://chengjunwang.com/cv/categories/"
+                />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
