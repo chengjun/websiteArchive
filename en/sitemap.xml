@@ -897,6 +897,10 @@
   </url>
   
   <url>
+    <loc>https://chengjunwang.com/zh/authors/admin/</loc>
+  </url>
+  
+  <url>
     <loc>https://chengjunwang.com/post/en/2013-08-03-bloging-with-markdown-on-octopress/</loc>
   </url>
   
@@ -1001,6 +1005,10 @@
   
   <url>
     <loc>https://chengjunwang.com/post/en/2011-12-11-visualize-with-googlevis/</loc>
+  </url>
+  
+  <url>
+    <loc>https://chengjunwang.com/zh/</loc>
   </url>
   
 </urlset>
