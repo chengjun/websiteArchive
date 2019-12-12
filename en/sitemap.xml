@@ -8,11 +8,6 @@
   </url>
   
   <url>
-    <loc>https://chengjunwang.com/authors/cheng-jun-wang/</loc>
-    <lastmod>2019-11-14T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://chengjunwang.com/publication_types/2/</loc>
     <lastmod>2019-11-14T00:00:00+00:00</lastmod>
   </url>
@@ -55,6 +50,11 @@
                 hreflang="en"
                 href="https://chengjunwang.com/"
                 />
+  </url>
+  
+  <url>
+    <loc>https://chengjunwang.com/authors/cheng-jun-wang/</loc>
+    <lastmod>2019-11-14T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -608,7 +608,7 @@
   </url>
   
   <url>
-    <loc>https://chengjunwang.com/project/computational-communication/</loc>
+    <loc>https://chengjunwang.com/project/attention-networks/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
   </url>
   
@@ -618,7 +618,7 @@
   </url>
   
   <url>
-    <loc>https://chengjunwang.com/project/attention-networks/</loc>
+    <loc>https://chengjunwang.com/project/computational-communication/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
   </url>
   
