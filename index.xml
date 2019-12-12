@@ -9144,14 +9144,6 @@ $ git log --pretty=oneline --abbrev-commit --decorate HEAD..upstream/master
     </item>
     
     <item>
-      <title></title>
-      <link>https://chengjunwang.com/zh/home/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://chengjunwang.com/zh/home/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Blogging with markdown on Octopress</title>
       <link>https://chengjunwang.com/post/en/2013-08-03-bloging-with-markdown-on-octopress/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

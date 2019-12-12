@@ -8,7 +8,17 @@
   </url>
   
   <url>
+    <loc>https://chengjunwang.com/zh/zh/post/about/</loc>
+    <lastmod>2016-04-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://chengjunwang.com/zh/post/posts/</loc>
+    <lastmod>2016-04-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://chengjunwang.com/zh/zh/post/posts/</loc>
     <lastmod>2016-04-20T00:00:00+00:00</lastmod>
   </url>
   
@@ -18,7 +28,22 @@
   </url>
   
   <url>
+    <loc>https://chengjunwang.com/zh/zh/post/projects/</loc>
+    <lastmod>2016-04-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://chengjunwang.com/zh/zh/post/teaching/</loc>
+    <lastmod>2016-04-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://chengjunwang.com/zh/post/teaching/</loc>
+    <lastmod>2016-04-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://chengjunwang.com/zh/zh/post/contact/</loc>
     <lastmod>2016-04-20T00:00:00+00:00</lastmod>
   </url>
   
@@ -29,6 +54,11 @@
   
   <url>
     <loc>https://chengjunwang.com/zh/post/hero/</loc>
+    <lastmod>2017-10-15T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://chengjunwang.com/zh/zh/post/hero/</loc>
     <lastmod>2017-10-15T00:00:00+08:00</lastmod>
   </url>
   
@@ -113,7 +143,17 @@
   </url>
   
   <url>
+    <loc>https://chengjunwang.com/zh/zh/post/news2017/</loc>
+    <lastmod>2017-12-28T14:32:07+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://chengjunwang.com/zh/post/news2017/</loc>
+    <lastmod>2017-12-28T14:32:07+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://chengjunwang.com/zh/zh/</loc>
     <lastmod>2017-12-28T14:32:07+08:00</lastmod>
   </url>
   
@@ -153,6 +193,16 @@
   </url>
   
   <url>
+    <loc>https://chengjunwang.com/zh/zh/post/swarma-summer-camp/</loc>
+    <lastmod>2017-07-18T14:32:07+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://chengjunwang.com/zh/zh/post/zjmobile/</loc>
+    <lastmod>2017-07-16T14:32:07+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://chengjunwang.com/zh/post/zjmobile/</loc>
     <lastmod>2017-07-16T14:32:07+08:00</lastmod>
   </url>
@@ -164,6 +214,11 @@
   
   <url>
     <loc>https://chengjunwang.com/zh/post/climate-change/</loc>
+    <lastmod>2017-06-29T14:32:07+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://chengjunwang.com/zh/zh/post/climate-change/</loc>
     <lastmod>2017-06-29T14:32:07+08:00</lastmod>
   </url>
   
@@ -254,6 +309,11 @@
   
   <url>
     <loc>https://chengjunwang.com/zh/post/migrate-from-jekyll/</loc>
+    <lastmod>2014-03-10T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://chengjunwang.com/zh/zh/post/migrate-from-jekyll/</loc>
     <lastmod>2014-03-10T00:00:00+08:00</lastmod>
   </url>
   
