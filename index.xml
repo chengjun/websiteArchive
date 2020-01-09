@@ -287,7 +287,7 @@ Don’t be afraid to really want what you desire. &amp;ndash; Slavoj Žižek spe
 &lt;h1 id=&#34;软件开发&#34;&gt;软件开发&lt;/h1&gt;
 
 &lt;ol&gt;
-&lt;li&gt;&lt;a href=&#34;https://pypi.python.org/pypi/flownetwork&#34; target=&#34;_blank&#34;&gt;flownetwork&lt;/a&gt;, 一个分析刘流网络的Python包.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://pypi.python.org/pypi/flownetwork&#34; target=&#34;_blank&#34;&gt;flownetwork&lt;/a&gt;, 一个分析流网络的Python包.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://pypi.python.org/pypi/iching/&#34; target=&#34;_blank&#34;&gt;iching&lt;/a&gt;,一个实现易经的蓍草卜卦方法的Python包.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/chengjun/networkdiffusion&#34; target=&#34;_blank&#34;&gt;networkdiffusion&lt;/a&gt;, 一个可视化和模拟网络信息扩散的R包&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://pypi.python.org/pypi/scholarNetwork/&#34; target=&#34;_blank&#34;&gt;scholarNetwork&lt;/a&gt;,一个抓取和可视化谷歌学术（Google Scholars）合作者网络的Python包.&lt;/li&gt;
