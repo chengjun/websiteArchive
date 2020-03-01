@@ -1,137 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Zhs | Cheng-Jun Wang</title>
+    <title>Cheng-Jun Wang</title>
     <link>https://chengjunwang.com/zh/</link>
       <atom:link href="https://chengjunwang.com/zh/index.xml" rel="self" type="application/rss+xml" />
-    <description>Zhs</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><copyright>All rights © reserved 2020</copyright><lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <description>Cheng-Jun Wang</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><copyright>All rights © reserved 2020</copyright><lastBuildDate>Wed, 20 Apr 2016 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://chengjunwang.com/img/headers/deer.webp</url>
-      <title>Zhs</title>
+      <title>Cheng-Jun Wang</title>
       <link>https://chengjunwang.com/zh/</link>
     </image>
-    
-    <item>
-      <title></title>
-      <link>https://chengjunwang.com/zh/post/about.zh/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://chengjunwang.com/zh/post/about.zh/</guid>
-      <description>
-
-&lt;h1 id=&#34;王成军&#34;&gt;王成军&lt;/h1&gt;
-
-&lt;p&gt;王成军，传播学博士。现为&lt;a href=&#34;http://jc.nju.edu.cn&#34; target=&#34;_blank&#34;&gt;南京大学新闻传播学院&lt;/a&gt;副教授，&lt;a href=&#34;https://computational-communication.com/collaboratory/&#34; target=&#34;_blank&#34;&gt;计算传播学实验中心&lt;/a&gt;主任，兼任香港城市大学&lt;a href=&#34;http://weblab.com.cityu.edu.hk&#34; target=&#34;_blank&#34;&gt;互联网挖掘实验室&lt;/a&gt;研究员。参与翻译《社会网络分析：方法与实践》(2013)、合著《社交网络上的计算传播学》(2015)。他的研究成果发表于SSCI和SCI索引的期刊，例如Scientific Reports、PloS ONE、Physica A、Cyberpsychology。2014年，王成军发起创建了&lt;a href=&#34;http://computational-communication.com&#34; target=&#34;_blank&#34;&gt;计算传播网&lt;/a&gt;。更多信息见&lt;a href=&#34;../en/&#34;&gt;英文页面&lt;/a&gt;或他的&lt;a href=&#34;../cv/&#34;&gt;简历&lt;/a&gt;。&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Recent Posts</title>
-      <link>https://chengjunwang.com/zh/post/posts.zh/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://chengjunwang.com/zh/post/posts.zh/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>研究项目</title>
-      <link>https://chengjunwang.com/zh/post/projects.zh/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://chengjunwang.com/zh/post/projects.zh/</guid>
-      <description>&lt;ul&gt;
-&lt;li&gt;国家社会科学基金青年项目, 15CXW017, 媒体融合背景下舆论形成与扩散的网络门槛研究，2015-2018, 20万元，主持&lt;/li&gt;
-&lt;li&gt;中国博士后科学基金面上项目（第57批), 找回失落的参考群体:对“沉默的螺旋”进行多主体建模，2015-2018, 5万元，主持&lt;/li&gt;
-&lt;li&gt;国家自然科学基金（常规面上项目），61673070，互联网上的集体注意力流研究，2017-2020,￥655200, 参与&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>教学</title>
-      <link>https://chengjunwang.com/zh/post/teaching.zh/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://chengjunwang.com/zh/post/teaching.zh/</guid>
-      <description>
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;复旦大学《计算新闻传播学》课程
-&lt;div class=&#34;alert alert-note&#34;&gt;
-&lt;div&gt;
-python代码、PPT见&lt;a href=&#34;https://github.com/computational-class/cjc/&#34; target=&#34;_blank&#34;&gt;GitHub&lt;/a&gt; 。课程内容包括：计算传播学导论、大数据简介、数据科学的编程工具、数据抓取、数据清洗、统计分析、机器学习、文本挖掘、推荐系统、网络科学多个部分。
-&lt;/div&gt;
-&lt;/div&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;南京大学研究生课程 &lt;strong&gt;《大数据挖掘与分析》&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/computational-class/bigdata/&#34; target=&#34;_blank&#34;&gt;2018 春季&lt;/a&gt; 周二 第5-6节&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;南京大学本科生课程 &lt;strong&gt;《计算传播》&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/computational-class/cc2018/&#34; target=&#34;_blank&#34;&gt;2018 春季&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/computational-class/cc2017/&#34; target=&#34;_blank&#34;&gt;2017 春季&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;南京大学本科生课程 &lt;strong&gt;《数据新闻》&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/data-journalism/dj2017/&#34; target=&#34;_blank&#34;&gt;2017 秋季&lt;/a&gt; 周一 第3-4节 逸B-210 1-18周&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/data-journalism/dj2016&#34; target=&#34;_blank&#34;&gt;2016 秋季&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/data-journalism/djclass2015/&#34; target=&#34;_blank&#34;&gt;2015 秋季&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;南京大学人文艺术传播类《媒介案例研究》&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;《计算传播》案例部分 每周二7、8节（4-18周）逸B-104&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;学生&#34;&gt;学生&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;研究生(在读)：秦强、陈志聪&lt;/li&gt;
-&lt;li&gt;已毕业研究生：周纬(2017)&lt;/li&gt;
-&lt;li&gt;本科生（指导毕业论文）：
-
-&lt;ul&gt;
-&lt;li&gt;2017：沈越、曾维靓&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>联系</title>
-      <link>https://chengjunwang.com/zh/post/contact.zh/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://chengjunwang.com/zh/post/contact.zh/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://chengjunwang.com/zh/post/hero.zh/</link>
-      <pubDate>Sun, 15 Oct 2017 00:00:00 +0800</pubDate>
-      <guid>https://chengjunwang.com/zh/post/hero.zh/</guid>
-      <description>
-
-&lt;h1 id=&#34;quotations&#34;&gt;Quotations&lt;/h1&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;Before &lt;strong&gt;God&lt;/strong&gt; we are all equally wise
-and equally foolish. Do not worry about
-your difficulties in Mathematics. I can
-assure you mine are still greater. &amp;ndash; Albert Einstein 🚀&lt;/p&gt;
-
-&lt;p&gt;We know that people often desire
-something but do not really want it.
-Don’t be afraid to really want what you desire. &amp;ndash; Slavoj Žižek speaks at Occupy Wall Street 🚀&lt;/p&gt;
-&lt;/blockquote&gt;
-</description>
-    </item>
     
     <item>
       <title>王成军</title>
@@ -306,9 +185,9 @@ Don’t be afraid to really want what you desire. &amp;ndash; Slavoj Žižek spe
     
     <item>
       <title>学折纸、学开车</title>
-      <link>https://chengjunwang.com/zh/post/cn/2019-02-14-lovers-day.zh/</link>
+      <link>https://chengjunwang.com/zh/cn/2019-02-14-lovers-day.zh/</link>
       <pubDate>Wed, 13 Feb 2019 00:00:00 +0000</pubDate>
-      <guid>https://chengjunwang.com/zh/post/cn/2019-02-14-lovers-day.zh/</guid>
+      <guid>https://chengjunwang.com/zh/cn/2019-02-14-lovers-day.zh/</guid>
       <description>
 
 &lt;p&gt;2019年来了，农历新年过去了，今天是情人节。米粒马上四岁，米果也快要满两岁了。再过两年，牛年一到，我也要36岁了。岁月太可怕了，总以为自己还有很多时间，却似乎一转眼就要40岁了。&lt;/p&gt;
@@ -433,9 +312,9 @@ Don’t be afraid to really want what you desire. &amp;ndash; Slavoj Žižek spe
     
     <item>
       <title>2019系统科学大会的计算传播学Panel</title>
-      <link>https://chengjunwang.com/zh/post/cn/2018-12-07-ccr-panel.zh/</link>
+      <link>https://chengjunwang.com/zh/cn/2018-12-07-ccr-panel.zh/</link>
       <pubDate>Thu, 06 Dec 2018 00:00:00 +0000</pubDate>
-      <guid>https://chengjunwang.com/zh/post/cn/2018-12-07-ccr-panel.zh/</guid>
+      <guid>https://chengjunwang.com/zh/cn/2018-12-07-ccr-panel.zh/</guid>
       <description>&lt;p&gt;第三届中国系统科学大会拟于2019年5月18-19日在湖南长沙举行。大会由上海系统科学研究院主办,国防科技大学承办,中国科学院数学与系统科学研究院系统科学研究所、北京师范大学系统科学学院、北京交通大学交通系统科学与工程研究院、中国船舶工业系统工程研究院、中国系统工程学会、中国自动化学会控制理论专业委员会等单位协办。旨在为系统科学及其相关领域的国内外专家学者提供一个学术交流平台，促进相关学科的交流、发展和融合，促进新方向、新领域的产生。会议将采取大会报告、专题研讨、会前专题讲座、分组报告等形式进行交流。
 &lt;a href=&#34;http://iss.amss.cas.cn/cssc2019/zwtz/&#34; target=&#34;_blank&#34;&gt;http://iss.amss.cas.cn/cssc2019/zwtz/&lt;/a&gt;&lt;/p&gt;
 
@@ -458,9 +337,9 @@ Don’t be afraid to really want what you desire. &amp;ndash; Slavoj Žižek spe
     
     <item>
       <title>2017年“大事记”</title>
-      <link>https://chengjunwang.com/zh/post/news2017.zh/</link>
+      <link>https://chengjunwang.com/zh/cn/news2017.zh/</link>
       <pubDate>Thu, 28 Dec 2017 14:32:07 +0800</pubDate>
-      <guid>https://chengjunwang.com/zh/post/news2017.zh/</guid>
+      <guid>https://chengjunwang.com/zh/cn/news2017.zh/</guid>
       <description>
 
 &lt;p&gt;计算传播2017非毕业班的同学们：我8月8日登陆教务处系统录入成绩，发现系统暂时关闭了成绩录入；联系教务处（025-89682303）回复说因为系统原因，我需要开学后才能给你们录入成绩。&lt;/p&gt;
@@ -569,9 +448,9 @@ Don’t be afraid to really want what you desire. &amp;ndash; Slavoj Žižek spe
     
     <item>
       <title>2017年社科项目进展</title>
-      <link>https://chengjunwang.com/zh/post/cn/2017-11-25-cn-project.zh/</link>
+      <link>https://chengjunwang.com/zh/cn/2017-11-25-cn-project.zh/</link>
       <pubDate>Sat, 25 Nov 2017 00:00:00 +0000</pubDate>
-      <guid>https://chengjunwang.com/zh/post/cn/2017-11-25-cn-project.zh/</guid>
+      <guid>https://chengjunwang.com/zh/cn/2017-11-25-cn-project.zh/</guid>
       <description>&lt;ol&gt;
 &lt;li&gt;文献综述：采用引文分析等方法系统整理舆论扩散研究领域的论文和成果。尤其是针对舆论扩散的讨论模型进行了系统的总结，从参与者、议题、行动三个维度刻画了舆论扩散的过程。&lt;/li&gt;
 &lt;li&gt;数据获取：基本完成数据收集方案，获取1千万新浪微博用户的数据信息，建立新浪微博舆论扩散数据库；收集了占领华尔街这一主题的推特数据库；收集了Digg新闻扩散数据库。&lt;/li&gt;
@@ -584,9 +463,9 @@ Don’t be afraid to really want what you desire. &amp;ndash; Slavoj Žižek spe
     
     <item>
       <title>2017年黑客马拉松之turkserver</title>
-      <link>https://chengjunwang.com/zh/post/cn/2017-12-14-turkserver.zh/</link>
+      <link>https://chengjunwang.com/zh/cn/2017-12-14-turkserver.zh/</link>
       <pubDate>Sun, 29 Oct 2017 00:00:00 +0000</pubDate>
-      <guid>https://chengjunwang.com/zh/post/cn/2017-12-14-turkserver.zh/</guid>
+      <guid>https://chengjunwang.com/zh/cn/2017-12-14-turkserver.zh/</guid>
       <description>
 
 &lt;p&gt;turkserver&lt;/p&gt;
@@ -687,9 +566,9 @@ chengjuns-MacBook&lt;/p&gt;
     
     <item>
       <title>中国大百科：计算传播学</title>
-      <link>https://chengjunwang.com/zh/post/cn/2017-10-29-ccr.zh/</link>
+      <link>https://chengjunwang.com/zh/cn/2017-10-29-ccr.zh/</link>
       <pubDate>Sun, 29 Oct 2017 00:00:00 +0000</pubDate>
-      <guid>https://chengjunwang.com/zh/post/cn/2017-10-29-ccr.zh/</guid>
+      <guid>https://chengjunwang.com/zh/cn/2017-10-29-ccr.zh/</guid>
       <description>
 
 &lt;ul&gt;
@@ -763,9 +642,9 @@ chengjuns-MacBook&lt;/p&gt;
     
     <item>
       <title>后记</title>
-      <link>https://chengjunwang.com/zh/post/cn/2017-12-05-backwords.zh/</link>
+      <link>https://chengjunwang.com/zh/cn/2017-12-05-backwords.zh/</link>
       <pubDate>Sun, 29 Oct 2017 00:00:00 +0000</pubDate>
-      <guid>https://chengjunwang.com/zh/post/cn/2017-12-05-backwords.zh/</guid>
+      <guid>https://chengjunwang.com/zh/cn/2017-12-05-backwords.zh/</guid>
       <description>&lt;p&gt;2010年9月，我作为博士生进入到香港城市大学互联网挖掘实验室以来，切身感受到了传播学研究者在互联网时代的身份焦虑。1998年邓肯-瓦茨关于小世界网络的模型和1999年阿尔伯特-巴拉巴西关于幂律和无标度网络的研究复兴了网络科学。一石激起千层浪，在学术领域产生了深远的影响。对于万维网上的人类行为的研究也形成了一个子领域，被称之为万维网科学(Web Science);伴随着社交媒体等数字媒体的发展，对于社会学而言，社会网络分析开始受到前所未有的重视，对于传播学而言，社交网络上的信息流动网络研究也引起广泛的兴趣；与此同时，机器学习和数据科学取得了突飞猛进的发展，进一步加速了计算化的浪潮；在新闻传播产业当中，数据驱动的新闻生产、计算广告和媒体推荐系统开始成为席卷世界的潮流。面对海量的互联网数据、持续困扰人类的重大社会问题、崭新的理论视角、诱人的物理学模型，在世界大战中发展起来的新闻传播学研究会走向什么地方？这构成了困扰我们的时代问题。&lt;/p&gt;
 
 &lt;p&gt;面对这些挑战，或许很多人可以做一群鸵鸟，只盯住让自己感觉舒适的领域，当危险来的时候干脆把头埋进沙子里，但是年轻人没有逃避的理由。年轻研究者必须敢于冒险，才能走出不一样的路来。计算传播学正是回应这一时代叩问的一种尝试，它也给了传播学这个领域一个革命的火种。&lt;/p&gt;
@@ -779,9 +658,9 @@ chengjuns-MacBook&lt;/p&gt;
     
     <item>
       <title>扶贫数据</title>
-      <link>https://chengjunwang.com/zh/post/cn/2017-11-20-poverty.zh/</link>
+      <link>https://chengjunwang.com/zh/cn/2017-11-20-poverty.zh/</link>
       <pubDate>Sun, 29 Oct 2017 00:00:00 +0000</pubDate>
-      <guid>https://chengjunwang.com/zh/post/cn/2017-11-20-poverty.zh/</guid>
+      <guid>https://chengjunwang.com/zh/cn/2017-11-20-poverty.zh/</guid>
       <description>&lt;p&gt;党的十九大报告再次对打赢脱贫攻坚战作出部署，明确指出重点攻克深度贫困地区脱贫任务，确保到2020年我国现行标准下农村人口实现脱贫，贫困县全部摘帽，解决区域性整体贫困，做到脱真贫、真脱贫。&lt;/p&gt;
 
 &lt;p&gt;全国6000多万贫困人口稳定脱贫，贫困发生率从10.2%下降到4%以下。精准扶贫，不仅要精准施策，而且要精准到户。&lt;/p&gt;
@@ -792,9 +671,9 @@ chengjuns-MacBook&lt;/p&gt;
     
     <item>
       <title>JCR2017 for COMMUNICATION</title>
-      <link>https://chengjunwang.com/zh/post/cn/2017-09-06-jcr.zh/</link>
+      <link>https://chengjunwang.com/zh/cn/2017-09-06-jcr.zh/</link>
       <pubDate>Wed, 06 Sep 2017 00:00:00 +0000</pubDate>
-      <guid>https://chengjunwang.com/zh/post/cn/2017-09-06-jcr.zh/</guid>
+      <guid>https://chengjunwang.com/zh/cn/2017-09-06-jcr.zh/</guid>
       <description>
 
 &lt;h1 id=&#34;jcr&#34;&gt;JCR&lt;/h1&gt;
@@ -1457,9 +1336,9 @@ chengjuns-MacBook&lt;/p&gt;
     
     <item>
       <title>集智俱乐部暑期研读营</title>
-      <link>https://chengjunwang.com/zh/post/swarma-summer-camp.zh/</link>
+      <link>https://chengjunwang.com/zh/cn/swarma-summer-camp.zh/</link>
       <pubDate>Tue, 18 Jul 2017 14:32:07 +0800</pubDate>
-      <guid>https://chengjunwang.com/zh/post/swarma-summer-camp.zh/</guid>
+      <guid>https://chengjunwang.com/zh/cn/swarma-summer-camp.zh/</guid>
       <description>
 
 &lt;p&gt;&lt;img src=&#34;https://chengjunwang.com/img/qiniu/night.png&#34; alt=&#34;evening7.17&#34; /&gt;&lt;/p&gt;
@@ -1594,9 +1473,9 @@ chengjuns-MacBook&lt;/p&gt;
     
     <item>
       <title>Data Tech2017大赛</title>
-      <link>https://chengjunwang.com/zh/post/zjmobile.zh/</link>
+      <link>https://chengjunwang.com/zh/cn/zjmobile.zh/</link>
       <pubDate>Sun, 16 Jul 2017 14:32:07 +0800</pubDate>
-      <guid>https://chengjunwang.com/zh/post/zjmobile.zh/</guid>
+      <guid>https://chengjunwang.com/zh/cn/zjmobile.zh/</guid>
       <description>
 
 &lt;p&gt;Data Tech2017大赛由中国移动浙江公司与浙江大数据交易中心联合主办，大赛以“数据众智美好未来”为主题，解锁运营商数据，整合气象、交通、空间等数据， 以“开放、互联”的精神激发全社会创新能量，共创美好未来。&lt;/p&gt;
@@ -1673,9 +1552,9 @@ chengjuns-MacBook&lt;/p&gt;
     
     <item>
       <title>王成军参与组织数字人文大会</title>
-      <link>https://chengjunwang.com/zh/post/cn/2017-07-01-digital-humanities.zh/</link>
+      <link>https://chengjunwang.com/zh/cn/2017-07-01-digital-humanities.zh/</link>
       <pubDate>Sat, 01 Jul 2017 00:00:00 +0000</pubDate>
-      <guid>https://chengjunwang.com/zh/post/cn/2017-07-01-digital-humanities.zh/</guid>
+      <guid>https://chengjunwang.com/zh/cn/2017-07-01-digital-humanities.zh/</guid>
       <description>&lt;p&gt;2017年7月1日—2日南京大学数字人文大会在仙林校区国际会议中心召开。此次大会主题为“数字人文：大数据时代学术前沿与探索”。“数字人文”是目前国际最具潜力的新兴学科和前沿研究领域，具有创新性强、多学科交叉、研究者年轻化的特点。近十多年来，越来越多独立的“数字人文中心（系）”在北美和欧洲开设，比如美国的斯坦福大学、弗吉尼亚大学、加州大学，英国的国王学院，加拿大的阿尔伯特大学等等。这些机构不仅拥有专职研究人员和技术工程师，同时还开展了很多跨学科项目，涉及历史、考古、艺术史、文学、建筑等多个学术领域，并开始招收、培养硕士和博士研究生。&lt;/p&gt;
 
 &lt;p&gt;视频回放，&lt;a href=&#34;http://zb.shixiutv.com/Play.aspx?pid=hy516044&amp;amp;code=011LXDxQ0TtXeb2df7wQ0ADHxQ0LXDxi&amp;amp;state=1&#34; target=&#34;_blank&#34;&gt;链接&lt;/a&gt;， 密码5954&lt;/p&gt;
@@ -1709,9 +1588,9 @@ chengjuns-MacBook&lt;/p&gt;
     
     <item>
       <title>气候变迁研究：数据、调查、视角</title>
-      <link>https://chengjunwang.com/zh/post/climate-change.zh/</link>
+      <link>https://chengjunwang.com/zh/cn/climate-change.zh/</link>
       <pubDate>Thu, 29 Jun 2017 14:32:07 +0800</pubDate>
-      <guid>https://chengjunwang.com/zh/post/climate-change.zh/</guid>
+      <guid>https://chengjunwang.com/zh/cn/climate-change.zh/</guid>
       <description>
 
 &lt;h2 id=&#34;data-for-climate-change&#34;&gt;Data for Climate Change&lt;/h2&gt;
@@ -1771,9 +1650,9 @@ chengjuns-MacBook&lt;/p&gt;
     
     <item>
       <title>社会行为研究在线实验平台</title>
-      <link>https://chengjunwang.com/zh/post/cn/2017-6-24-turk.zh/</link>
+      <link>https://chengjunwang.com/zh/cn/2017-6-24-turk.zh/</link>
       <pubDate>Sat, 24 Jun 2017 00:00:00 +0000</pubDate>
-      <guid>https://chengjunwang.com/zh/post/cn/2017-6-24-turk.zh/</guid>
+      <guid>https://chengjunwang.com/zh/cn/2017-6-24-turk.zh/</guid>
       <description>
 
 &lt;h1 id=&#34;实验法&#34;&gt;实验法&lt;/h1&gt;
@@ -1829,9 +1708,9 @@ chengjuns-MacBook&lt;/p&gt;
     
     <item>
       <title>手机用户在真实与虚拟空间中的移动</title>
-      <link>https://chengjunwang.com/zh/post/cn/cn_archive/2015-12-02-renormalization.zh/</link>
+      <link>https://chengjunwang.com/zh/archive/2015-12-02-renormalization.zh/</link>
       <pubDate>Wed, 02 Dec 2015 00:00:00 +0000</pubDate>
-      <guid>https://chengjunwang.com/zh/post/cn/cn_archive/2015-12-02-renormalization.zh/</guid>
+      <guid>https://chengjunwang.com/zh/archive/2015-12-02-renormalization.zh/</guid>
       <description>&lt;p&gt;思考手机用户在真实和虚拟世界的移动本身有什么价值:比较两种类型的网络结构，一个是分形的，一个是小世界的。二者之间不是完全对立的，而是可以平滑过渡的，因而可以计算从小世界到分形的连续变量的取值，即网络增长的过程中，新节点多大程度上按照小世界规则加入网络，多大程度上按照分形加入网络（Song, 2006）。&lt;/p&gt;
 
 &lt;p&gt;自相似或者说分形是本研究切入的重点，分形的特点是在不同尺度上具有相同的特征，这种自相似的特征往往表现为系统特征与观测尺度之间的对应关系。一般对于分形网络而言，重整化之后的盒子数量log(N)与盒子大小log(L)之间存在无标度关系。我们确实也发现人在移动互联网站构成的网络重整化过程中，盒子数量与盒子大小之间具有这种无标度关系，但是人在现实世界的物理移动构成的网络经过重整化，其盒子数量与盒子大小之间则是指数分布。由此可见二者网络结构是如何不同的，前者接近分形，后者接近小世界。&lt;/p&gt;
@@ -1888,17 +1767,17 @@ for n in range(1,generation+1):
     
     <item>
       <title>iching：一个用来算卦的python包</title>
-      <link>https://chengjunwang.com/zh/post/cn/cn_archive/2015-07-04-iching-python.zh/</link>
+      <link>https://chengjunwang.com/zh/archive/2015-07-04-iching-python.zh/</link>
       <pubDate>Sat, 04 Jul 2015 00:00:00 +0000</pubDate>
-      <guid>https://chengjunwang.com/zh/post/cn/cn_archive/2015-07-04-iching-python.zh/</guid>
+      <guid>https://chengjunwang.com/zh/archive/2015-07-04-iching-python.zh/</guid>
       <description>&lt;iframe src=&#34;http://nbviewer.ipython.org/github/chengjun/iching/blob/master/iching_intro.ipynb&#34; scrolling=&#34;no&#34; width=&#34;700&#34; height=&#34;6500&#34;&gt;&lt;/iframe&gt;</description>
     </item>
     
     <item>
       <title>打包发布python软件包</title>
-      <link>https://chengjunwang.com/zh/post/cn/cn_archive/2015-02-22-distribute-python-package.zh/</link>
+      <link>https://chengjunwang.com/zh/archive/2015-02-22-distribute-python-package.zh/</link>
       <pubDate>Sun, 22 Feb 2015 00:00:00 +0000</pubDate>
-      <guid>https://chengjunwang.com/zh/post/cn/cn_archive/2015-02-22-distribute-python-package.zh/</guid>
+      <guid>https://chengjunwang.com/zh/archive/2015-02-22-distribute-python-package.zh/</guid>
       <description>&lt;p&gt;我们经常写一些程序碎片，却很少有动力把它们整合起来。前段时间写了一个爬取并可视化谷歌学术网的python程序。今天想不如把它整合一下，虽然非常简单（只有一个函数）。主要参考python官网的&lt;a href=&#34;https://packaging.python.org/en/latest/distributing.html#uploading-your-project-to-pypi&#34; target=&#34;_blank&#34;&gt;发布指南&lt;/a&gt;。&lt;/p&gt;
 
 &lt;p&gt;##注册
@@ -1938,9 +1817,9 @@ $ twine upload dist/*
     
     <item>
       <title>表达、检索、练习——写给Python的初学者</title>
-      <link>https://chengjunwang.com/zh/post/cn/cn_archive/2015-02-22-fresh-python.zh/</link>
+      <link>https://chengjunwang.com/zh/archive/2015-02-22-fresh-python.zh/</link>
       <pubDate>Sun, 22 Feb 2015 00:00:00 +0000</pubDate>
-      <guid>https://chengjunwang.com/zh/post/cn/cn_archive/2015-02-22-fresh-python.zh/</guid>
+      <guid>https://chengjunwang.com/zh/archive/2015-02-22-fresh-python.zh/</guid>
       <description>&lt;p&gt;三年前，我写过一篇小日志，介绍如何从零开始学习R语言。后来我的工作越来越多的使用python，于是摸爬滚打自己探索了挺久的。身边也越来越多的人问起新手如何从零学习python的问题。我想练习、检索、表达这三点依旧是关键，只不过顺序稍有不同。很多人说，学习python，你来推荐一些资料吧。我想了想，资料还不是关键，关键是自身。&lt;/p&gt;
 
 &lt;h2 id=&#34;看书还是上手&#34;&gt;看书还是上手？&lt;/h2&gt;
@@ -1991,9 +1870,9 @@ $ twine upload dist/*
     
     <item>
       <title>再次尝试shinyApp</title>
-      <link>https://chengjunwang.com/zh/post/cn/cn_archive/2015-01-11-shinyapp.zh/</link>
+      <link>https://chengjunwang.com/zh/archive/2015-01-11-shinyapp.zh/</link>
       <pubDate>Sun, 11 Jan 2015 00:00:00 +0000</pubDate>
-      <guid>https://chengjunwang.com/zh/post/cn/cn_archive/2015-01-11-shinyapp.zh/</guid>
+      <guid>https://chengjunwang.com/zh/archive/2015-01-11-shinyapp.zh/</guid>
       <description>&lt;p&gt;昨天收到了shinyapp的一封邮件，想起之前自己做的关于网络扩散的东西，就想把它转化为app的形式。最直接的办法还是看tutorial，比如（&lt;a href=&#34;http://shiny.rstudio.com/tutorial）。&#34; target=&#34;_blank&#34;&gt;http://shiny.rstudio.com/tutorial）。&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;现学现卖，于是我马上做了一个使用igraph绘制BA网络的小应用：&lt;/p&gt;
@@ -2023,9 +1902,9 @@ $ twine upload dist/*
     
     <item>
       <title>Echarts使用简介</title>
-      <link>https://chengjunwang.com/zh/post/cn/cn_archive/2015-01-10-myecharts.zh/</link>
+      <link>https://chengjunwang.com/zh/archive/2015-01-10-myecharts.zh/</link>
       <pubDate>Sat, 10 Jan 2015 00:00:00 +0000</pubDate>
-      <guid>https://chengjunwang.com/zh/post/cn/cn_archive/2015-01-10-myecharts.zh/</guid>
+      <guid>https://chengjunwang.com/zh/archive/2015-01-10-myecharts.zh/</guid>
       <description>&lt;p&gt;昨天听谈和讲解了echarts的使用，他的讲解非常直接简单，就是直接修改echarts的实例。之后，我发现林峰将echarts的实例的html代码写得非常复杂，但其实单独调用一个js的时候，却非常简单。具体做法如下：&lt;/p&gt;
 
 &lt;ul&gt;
@@ -2115,9 +1994,9 @@ $ twine upload dist/*
     
     <item>
       <title>使用Python快速分割数据的方法</title>
-      <link>https://chengjunwang.com/zh/post/cn/cn_archive/2014-08-31-fast-split-data-with-python.zh/</link>
+      <link>https://chengjunwang.com/zh/archive/2014-08-31-fast-split-data-with-python.zh/</link>
       <pubDate>Sun, 31 Aug 2014 00:00:00 +0000</pubDate>
-      <guid>https://chengjunwang.com/zh/post/cn/cn_archive/2014-08-31-fast-split-data-with-python.zh/</guid>
+      <guid>https://chengjunwang.com/zh/archive/2014-08-31-fast-split-data-with-python.zh/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;http://chengjun.qiniudn.com/longcat.PNG&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;分割数据最慢的过程其实是打开和关闭一个文件，因此尽量减少这种操作可以飞速的提升分割数据的速度。之前在&lt;a href=&#34;http://stackoverflow.com/questions/519633/lazy-method-for-reading-big-file-in-python?lq=1&#34; target=&#34;_blank&#34;&gt;stackoverflow上看到一种方法&lt;/a&gt;非常高效，放在这里研究一下。&lt;/p&gt;
@@ -2161,9 +2040,9 @@ $ twine upload dist/*
     
     <item>
       <title>使用d3network做网络可视化</title>
-      <link>https://chengjunwang.com/zh/post/cn/cn_archive/2014-08-27-d3network.zh/</link>
+      <link>https://chengjunwang.com/zh/archive/2014-08-27-d3network.zh/</link>
       <pubDate>Wed, 27 Aug 2014 00:00:00 +0000</pubDate>
-      <guid>https://chengjunwang.com/zh/post/cn/cn_archive/2014-08-27-d3network.zh/</guid>
+      <guid>https://chengjunwang.com/zh/archive/2014-08-27-d3network.zh/</guid>
       <description>&lt;p&gt;在之前的&lt;a href=&#34;http://chengjun.github.io/cn/2014/07/chinese-university-friendship-network/&#34; target=&#34;_blank&#34;&gt;一个博客&lt;/a&gt;中，我介绍了使用R进行社区划分并可视化的方法。这里使用相同的数据，介绍如何使用d3network实现网络可视化的方法。&lt;/p&gt;
 
 &lt;p&gt;首先，安装d3network&lt;/p&gt;
@@ -2227,9 +2106,9 @@ links$value = log(links$value)
     
     <item>
       <title>NetworkX初步：创建网络、提取属性和绘图</title>
-      <link>https://chengjunwang.com/zh/post/cn/cn_archive/2014-08-14-networkx-intro.zh/</link>
+      <link>https://chengjunwang.com/zh/archive/2014-08-14-networkx-intro.zh/</link>
       <pubDate>Thu, 14 Aug 2014 00:00:00 +0000</pubDate>
-      <guid>https://chengjunwang.com/zh/post/cn/cn_archive/2014-08-14-networkx-intro.zh/</guid>
+      <guid>https://chengjunwang.com/zh/archive/2014-08-14-networkx-intro.zh/</guid>
       <description>&lt;p&gt;NetworkX是使用python分析网络数据的重要武器。它的使用非常简单。&lt;/p&gt;
 
 &lt;p&gt;首先，创建网络对象：&lt;/p&gt;
@@ -2325,9 +2204,9 @@ def flowDistanceDT(G): #input a balanced nx graph
     
     <item>
       <title>中国高校间的友谊网络：大学排名、地理位置和演化规律</title>
-      <link>https://chengjunwang.com/zh/post/cn/cn_archive/2014-07-21-chinese-university-friendship-network.zh/</link>
+      <link>https://chengjunwang.com/zh/archive/2014-07-21-chinese-university-friendship-network.zh/</link>
       <pubDate>Mon, 21 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>https://chengjunwang.com/zh/post/cn/cn_archive/2014-07-21-chinese-university-friendship-network.zh/</guid>
+      <guid>https://chengjunwang.com/zh/archive/2014-07-21-chinese-university-friendship-network.zh/</guid>
       <description>&lt;p&gt;许小可老师和我决定使用可视化的方法分析一下中国高校之间的友谊关系网络。我们是想通过这个图从一个侧面说明各个大学在社交网络上的影响力和关系：所以节点大小表示每个大学在该网络中的友谊关系数量，连边宽度表示节点之间的连接关系，节点颜色的不同可以表示节点的影响力大小（介度中心性指标）。&lt;/p&gt;
 
 &lt;p&gt;###数据清洗
@@ -2419,9 +2298,9 @@ dev.off()
     
     <item>
       <title>网络残缺度：共同好友间可否两步到达？</title>
-      <link>https://chengjunwang.com/zh/post/cn/cn_archive/2014-05-05-network-dispersion.zh/</link>
+      <link>https://chengjunwang.com/zh/archive/2014-05-05-network-dispersion.zh/</link>
       <pubDate>Mon, 05 May 2014 00:00:00 +0000</pubDate>
-      <guid>https://chengjunwang.com/zh/post/cn/cn_archive/2014-05-05-network-dispersion.zh/</guid>
+      <guid>https://chengjunwang.com/zh/archive/2014-05-05-network-dispersion.zh/</guid>
       <description>&lt;p&gt;网络是由节点和关系构成的，而对于关系的描述是社会网络的关键。我们已经知道对于节点的网络特性可以从中心度、近度、介度、特征度（eigenvalue centrality）等方式描述。那么对于关系呢？最简单的就是直接关系的强度了。&lt;/p&gt;
 
 &lt;h2 id=&#34;关系强度-tie-strength&#34;&gt;关系强度（&lt;code&gt;tie strength&lt;/code&gt;)&lt;/h2&gt;
@@ -2477,9 +2356,9 @@ $$&lt;/p&gt;
     
     <item>
       <title>空间分析初步：使用D3可视化</title>
-      <link>https://chengjunwang.com/zh/post/cn/cn_archive/2014-03-15-d3-map.zh/</link>
+      <link>https://chengjunwang.com/zh/archive/2014-03-15-d3-map.zh/</link>
       <pubDate>Sat, 15 Mar 2014 00:00:00 +0000</pubDate>
-      <guid>https://chengjunwang.com/zh/post/cn/cn_archive/2014-03-15-d3-map.zh/</guid>
+      <guid>https://chengjunwang.com/zh/archive/2014-03-15-d3-map.zh/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;http://bgc-dml.wdfiles.com/local--files/d3/D3.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;图1 &lt;a href=&#34;http://d3js.org/&#34; target=&#34;_blank&#34;&gt;D3 examples&lt;/a&gt;&lt;/p&gt;
@@ -2537,9 +2416,9 @@ D3是数据驱动文件（Data-Driven Documents）的缩写。作为一个javasc
     
     <item>
       <title>空间分析初步：空间点类型分析</title>
-      <link>https://chengjunwang.com/zh/post/cn/cn_archive/2014-03-12-first-step-spatial-analysis-with-r.zh/</link>
+      <link>https://chengjunwang.com/zh/archive/2014-03-12-first-step-spatial-analysis-with-r.zh/</link>
       <pubDate>Wed, 12 Mar 2014 00:00:00 +0000</pubDate>
-      <guid>https://chengjunwang.com/zh/post/cn/cn_archive/2014-03-12-first-step-spatial-analysis-with-r.zh/</guid>
+      <guid>https://chengjunwang.com/zh/archive/2014-03-12-first-step-spatial-analysis-with-r.zh/</guid>
       <description>&lt;h3 id=&#34;引言&#34;&gt;引言&lt;/h3&gt;
 
 &lt;p&gt;空间分析（spatial analysis）对于扩散研究非常重要，它揭示了传播在空间维度上的分布。令人略感惊奇的是空间分析的研究者越来越多地使用R软件。其中一个原因是R包罗万象，而空间分析仍在发展且神情未定。在这个时候难以判定哪种方法最优。此时，策略当然是博观约取。R因其囊括众多统计方法而成为连接不同分析套路的首选；另外在R当中使用者可以继续开发新的数据分析包。可谓一举两得。　&lt;/p&gt;
@@ -2875,9 +2754,9 @@ summary(kernels)
     
     <item>
       <title>Migrate from Jekyll to Hugo</title>
-      <link>https://chengjunwang.com/zh/post/migrate-from-jekyll.zh/</link>
+      <link>https://chengjunwang.com/zh/cn/migrate-from-jekyll.zh/</link>
       <pubDate>Mon, 10 Mar 2014 00:00:00 +0800</pubDate>
-      <guid>https://chengjunwang.com/zh/post/migrate-from-jekyll.zh/</guid>
+      <guid>https://chengjunwang.com/zh/cn/migrate-from-jekyll.zh/</guid>
       <description>
 
 &lt;p&gt;Here are a few tips for migrating an existing website from Jekyll to Hugo. These tips can be applied in conjunction with following Hugo Academic&amp;rsquo;s [getting started guide].&lt;/p&gt;
@@ -2918,9 +2797,9 @@ With Jekyll, something that looked like&lt;/p&gt;
     
     <item>
       <title>使用R模拟网络扩散</title>
-      <link>https://chengjunwang.com/zh/post/cn/cn_archive/2014-02-28-simulate-network-diffusion-with-r.zh/</link>
+      <link>https://chengjunwang.com/zh/archive/2014-02-28-simulate-network-diffusion-with-r.zh/</link>
       <pubDate>Fri, 28 Feb 2014 00:00:00 +0000</pubDate>
-      <guid>https://chengjunwang.com/zh/post/cn/cn_archive/2014-02-28-simulate-network-diffusion-with-r.zh/</guid>
+      <guid>https://chengjunwang.com/zh/archive/2014-02-28-simulate-network-diffusion-with-r.zh/</guid>
       <description>&lt;p&gt;与普通的扩散研究不同，网络扩散开始考虑网络结构对于扩散过程的影响。&lt;/p&gt;
 
 &lt;p&gt;这里介绍一个使用R模拟网络扩散的例子。基本的算法非常简单：&lt;/p&gt;
@@ -3110,9 +2989,9 @@ saveGIF({
     
     <item>
       <title>东风夜放花千树：对宋词进行主题分析初探</title>
-      <link>https://chengjunwang.com/zh/post/cn/cn_archive/2013-09-27-topic-modeling-of-song-peom.zh/</link>
+      <link>https://chengjunwang.com/zh/archive/2013-09-27-topic-modeling-of-song-peom.zh/</link>
       <pubDate>Fri, 27 Sep 2013 00:00:00 +0000</pubDate>
-      <guid>https://chengjunwang.com/zh/post/cn/cn_archive/2013-09-27-topic-modeling-of-song-peom.zh/</guid>
+      <guid>https://chengjunwang.com/zh/archive/2013-09-27-topic-modeling-of-song-peom.zh/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;http://forum.eedu.org.cn/upload/2008/02/27/90815055.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;邱怡轩在统计之都中展示了对宋词进行的分析（参见&lt;a href=&#34;http://cos.name/tag/%E5%AE%8B%E8%AF%8D/），因为当时缺乏中文分词的工具，他独辟蹊径，假设宋词中任意两个相邻的汉字构成一个词语，进而找到了宋词当中的高频词。本文则尝试使用他所提供的宋词语料（http://cos.name/wp-content/uploads/2011/03/SongPoem.tar.gz），分析一下使用R进行中文分词、构建词云、高频词语聚类以及主题模型分析。&#34; target=&#34;_blank&#34;&gt;http://cos.name/tag/%E5%AE%8B%E8%AF%8D/），因为当时缺乏中文分词的工具，他独辟蹊径，假设宋词中任意两个相邻的汉字构成一个词语，进而找到了宋词当中的高频词。本文则尝试使用他所提供的宋词语料（http://cos.name/wp-content/uploads/2011/03/SongPoem.tar.gz），分析一下使用R进行中文分词、构建词云、高频词语聚类以及主题模型分析。&lt;/a&gt;&lt;/p&gt;
@@ -3419,9 +3298,9 @@ dev.off()
     
     <item>
       <title>使用聚类分析为主题模型划分主题类型</title>
-      <link>https://chengjunwang.com/zh/post/cn/cn_archive/2013-09-08-using-cluster-analysis-to-classify-topics-generated-by-topic-modeling.zh/</link>
+      <link>https://chengjunwang.com/zh/archive/2013-09-08-using-cluster-analysis-to-classify-topics-generated-by-topic-modeling.zh/</link>
       <pubDate>Sun, 08 Sep 2013 00:00:00 +0000</pubDate>
-      <guid>https://chengjunwang.com/zh/post/cn/cn_archive/2013-09-08-using-cluster-analysis-to-classify-topics-generated-by-topic-modeling.zh/</guid>
+      <guid>https://chengjunwang.com/zh/archive/2013-09-08-using-cluster-analysis-to-classify-topics-generated-by-topic-modeling.zh/</guid>
       <description>&lt;p&gt;使用主题模型（topic models）可以较为高效地划分文本的主题，但一个不得不面对的问题是有时候主题的划分过细，使得解读和归类成为困难。其实，聚类分析作为一个“古老”的分析方法可以较为简洁的解决这个问题。&lt;/p&gt;
 
 &lt;p&gt;举一个小例子，我们主要使用tm这个R包来完成文本挖掘的前期任务。在得到DocumentTermMatrix之后，可以通过计算cosine 相似度的方法来计算文本之间的不一致性（dissimilarity）。&lt;/p&gt;
@@ -3544,9 +3423,9 @@ rect.hclust(hc, k=k, border=&amp;quot;red&amp;quot;) # draw dendogram with red b
     
     <item>
       <title>文本挖掘基础：使用openNLP进行词性标注</title>
-      <link>https://chengjunwang.com/zh/post/cn/cn_archive/2013-09-07-part-of-speech-analysis-with-opennlp.zh/</link>
+      <link>https://chengjunwang.com/zh/archive/2013-09-07-part-of-speech-analysis-with-opennlp.zh/</link>
       <pubDate>Sat, 07 Sep 2013 00:00:00 +0000</pubDate>
-      <guid>https://chengjunwang.com/zh/post/cn/cn_archive/2013-09-07-part-of-speech-analysis-with-opennlp.zh/</guid>
+      <guid>https://chengjunwang.com/zh/archive/2013-09-07-part-of-speech-analysis-with-opennlp.zh/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;http://upload.wikimedia.org/wikipedia/en/thumb/6/62/LF_OpenNLP_Parser.jpg/800px-LF_OpenNLP_Parser.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;使用R软件进行自然语言处理（文本挖掘）是比较方便的。其中一个比较基础的分析是采用part-of-speech tagging的思路进行词性标注。在本文中，我将简单地介绍使用R软件及其子包openNLP进行词性标注。这里的测试语料依然是英文，采用的算法主要是最大熵的方法。&lt;/p&gt;
@@ -3623,9 +3502,9 @@ corpus_nnvb &amp;lt;- Corpus(   VectorSource( data$nnvb )  )
     
     <item>
       <title>使用R做主题模型：词语筛选和主题数量确定</title>
-      <link>https://chengjunwang.com/zh/post/cn/cn_archive/2013-08-31-topic-modeling-with-r.zh/</link>
+      <link>https://chengjunwang.com/zh/archive/2013-08-31-topic-modeling-with-r.zh/</link>
       <pubDate>Sat, 31 Aug 2013 00:00:00 +0000</pubDate>
-      <guid>https://chengjunwang.com/zh/post/cn/cn_archive/2013-08-31-topic-modeling-with-r.zh/</guid>
+      <guid>https://chengjunwang.com/zh/archive/2013-08-31-topic-modeling-with-r.zh/</guid>
       <description>&lt;h2 id=&#34;1-筛选单词&#34;&gt;1. 筛选单词&lt;/h2&gt;
 
 &lt;p&gt;在数据清理（pre-processing）之后，需要对数据进行适当筛选。对数据的筛选包括至少两个步骤：&lt;/p&gt;
@@ -3788,9 +3667,9 @@ R is running for topic 100 fold 3 2013-08-31 19:06:28
     
     <item>
       <title>使用R做主题模型：举一个处理Encoding问题的例子</title>
-      <link>https://chengjunwang.com/zh/post/cn/cn_archive/2013-08-29-encoding-in-r-for-text-mining.zh/</link>
+      <link>https://chengjunwang.com/zh/archive/2013-08-29-encoding-in-r-for-text-mining.zh/</link>
       <pubDate>Thu, 29 Aug 2013 00:00:00 +0000</pubDate>
-      <guid>https://chengjunwang.com/zh/post/cn/cn_archive/2013-08-29-encoding-in-r-for-text-mining.zh/</guid>
+      <guid>https://chengjunwang.com/zh/archive/2013-08-29-encoding-in-r-for-text-mining.zh/</guid>
       <description>&lt;h2 id=&#34;引言&#34;&gt;引言&lt;/h2&gt;
 
 &lt;h3 id=&#34;遭遇-邪恶的拉丁引号&#34;&gt;遭遇“邪恶的拉丁引号”&lt;/h3&gt;
@@ -3952,9 +3831,9 @@ text1 = gsub(&amp;quot;[.]&amp;quot;, &amp;quot; &amp;quot;, text, fixed = TRUE 
     
     <item>
       <title>探寻社交网络中的关系: 统计网络模型初探</title>
-      <link>https://chengjunwang.com/zh/post/cn/cn_archive/2013-08-09-sna-book-chapter.zh/</link>
+      <link>https://chengjunwang.com/zh/archive/2013-08-09-sna-book-chapter.zh/</link>
       <pubDate>Fri, 09 Aug 2013 00:00:00 +0000</pubDate>
-      <guid>https://chengjunwang.com/zh/post/cn/cn_archive/2013-08-09-sna-book-chapter.zh/</guid>
+      <guid>https://chengjunwang.com/zh/archive/2013-08-09-sna-book-chapter.zh/</guid>
       <description>&lt;p&gt;王成军&lt;/p&gt;
 
 &lt;p&gt;香港城市大学媒体与传播系&lt;/p&gt;
@@ -4580,9 +4459,9 @@ A  | B | C
     
     <item>
       <title>QAP检验：计算两个网络的关联</title>
-      <link>https://chengjunwang.com/zh/post/cn/cn_archive/2013-08-04-qap-test-of-network-analysis.zh/</link>
+      <link>https://chengjunwang.com/zh/archive/2013-08-04-qap-test-of-network-analysis.zh/</link>
       <pubDate>Sun, 04 Aug 2013 00:00:00 +0000</pubDate>
-      <guid>https://chengjunwang.com/zh/post/cn/cn_archive/2013-08-04-qap-test-of-network-analysis.zh/</guid>
+      <guid>https://chengjunwang.com/zh/archive/2013-08-04-qap-test-of-network-analysis.zh/</guid>
       <description>&lt;h3 id=&#34;qap检验-两个网络之间的关联&#34;&gt;QAP检验：两个网络之间的关联&lt;/h3&gt;
 
 &lt;p&gt;通常一组个体具有多种类型的关系，例如友谊关系和经济往来关系。我们通常会对这两种网络关系在多大程度上相互关联感兴趣。当我们知道一组个体之间的两种关系网络，我们就可以计算这个两个关系网络之间的相关程度。在统计学当中，皮尔森相关系数是用来反映两个变量线性相关程度的统计量。与之类似，对于由一组个体所组成的两个网络，也可以计算其相应的相关皮尔逊相关系数。当然，还可以计算其他你感兴趣的统计量，如协相关系数。&lt;/p&gt;
@@ -4638,9 +4517,9 @@ plot(q.13)
     
     <item>
       <title>互联网的法则：网络生态学的起点</title>
-      <link>https://chengjunwang.com/zh/post/cn/cn_archive/2012-12-06-intenet-ecology.zh/</link>
+      <link>https://chengjunwang.com/zh/archive/2012-12-06-intenet-ecology.zh/</link>
       <pubDate>Sun, 16 Dec 2012 00:00:00 +0000</pubDate>
-      <guid>https://chengjunwang.com/zh/post/cn/cn_archive/2012-12-06-intenet-ecology.zh/</guid>
+      <guid>https://chengjunwang.com/zh/archive/2012-12-06-intenet-ecology.zh/</guid>
       <description>&lt;p&gt;作者： 黠之大者（网名），王成军，香港城市大学博士（在读）&lt;/p&gt;
 
 &lt;p&gt;本文载于《数字媒体阅读报告》&lt;/p&gt;
@@ -4672,9 +4551,9 @@ plot(q.13)
     
     <item>
       <title>“众说纷纭”抑或“一言九鼎”？——以卡扎菲官邸攻陷事件在新浪微博上的信息扩散为例</title>
-      <link>https://chengjunwang.com/zh/post/cn/cn_archive/2011-08-22-gaddafi-diffusion.zh/</link>
+      <link>https://chengjunwang.com/zh/archive/2011-08-22-gaddafi-diffusion.zh/</link>
       <pubDate>Sat, 15 Dec 2012 00:00:00 +0000</pubDate>
-      <guid>https://chengjunwang.com/zh/post/cn/cn_archive/2011-08-22-gaddafi-diffusion.zh/</guid>
+      <guid>https://chengjunwang.com/zh/archive/2011-08-22-gaddafi-diffusion.zh/</guid>
       <description>&lt;p&gt;本文载于《传媒透视》&lt;/p&gt;
 
 &lt;p&gt;作者：王成军、张昕之 （作者皆为 香港城市大学 媒体与传播系 博士候选人）&lt;/p&gt;
@@ -4721,9 +4600,9 @@ plot(q.13)
     
     <item>
       <title>通往统计语言学的桥梁——写在《数学之美》的边缘上</title>
-      <link>https://chengjunwang.com/zh/post/cn/cn_archive/2012-12-15-beautiful-math.zh/</link>
+      <link>https://chengjunwang.com/zh/archive/2012-12-15-beautiful-math.zh/</link>
       <pubDate>Sat, 15 Dec 2012 00:00:00 +0000</pubDate>
-      <guid>https://chengjunwang.com/zh/post/cn/cn_archive/2012-12-15-beautiful-math.zh/</guid>
+      <guid>https://chengjunwang.com/zh/archive/2012-12-15-beautiful-math.zh/</guid>
       <description>&lt;p&gt;本文载于《数字媒体阅读报告》&lt;/p&gt;
 
 &lt;p&gt;王成军&lt;/p&gt;
@@ -4762,9 +4641,9 @@ plot(q.13)
     
     <item>
       <title>爆发：人类行为在时间尺度上的特征</title>
-      <link>https://chengjunwang.com/zh/post/cn/cn_archive/2012-08-31-burst.zh/</link>
+      <link>https://chengjunwang.com/zh/archive/2012-08-31-burst.zh/</link>
       <pubDate>Fri, 31 Aug 2012 00:00:00 +0000</pubDate>
-      <guid>https://chengjunwang.com/zh/post/cn/cn_archive/2012-08-31-burst.zh/</guid>
+      <guid>https://chengjunwang.com/zh/archive/2012-08-31-burst.zh/</guid>
       <description>&lt;p&gt;本文载于《数字媒体阅读报告》&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;http://crowdbehaviordotorg.files.wordpress.com/2011/11/burst-the-hidden-pattern-behind-everything-we-do.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
@@ -4797,9 +4676,9 @@ plot(q.13)
     
     <item>
       <title>第4章 派系、聚类和组元</title>
-      <link>https://chengjunwang.com/zh/post/cn/cn_archive/2012-07-01-snabook-chapter4.zh/</link>
+      <link>https://chengjunwang.com/zh/archive/2012-07-01-snabook-chapter4.zh/</link>
       <pubDate>Sun, 01 Jul 2012 00:00:00 +0000</pubDate>
-      <guid>https://chengjunwang.com/zh/post/cn/cn_archive/2012-07-01-snabook-chapter4.zh/</guid>
+      <guid>https://chengjunwang.com/zh/archive/2012-07-01-snabook-chapter4.zh/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;在前面章节中，我们主要分析了社会网络中的个体特征。从这一章开始， 我们将开始循序渐进探讨网络中的更大的分析单元，不仅分析个体及其相互联系特征，还要分析所有子图和聚类的特征。我们将探索处于一个三元组当中到底意味着什么，以及作为结构洞的好处和压力。&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -5546,9 +5425,9 @@ def create_hc(G, t=1.0):
     
     <item>
       <title>第5章 二模网络</title>
-      <link>https://chengjunwang.com/zh/post/cn/cn_archive/2012-07-01-snabook-chapter5.zh/</link>
+      <link>https://chengjunwang.com/zh/archive/2012-07-01-snabook-chapter5.zh/</link>
       <pubDate>Sun, 01 Jul 2012 00:00:00 +0000</pubDate>
-      <guid>https://chengjunwang.com/zh/post/cn/cn_archive/2012-07-01-snabook-chapter5.zh/</guid>
+      <guid>https://chengjunwang.com/zh/archive/2012-07-01-snabook-chapter5.zh/</guid>
       <description>&lt;p&gt;在本章中，我们将探索分析具有两种及两种以上节点类型的复杂网络的方法。但首先，我们先从一个故事开始。&lt;/p&gt;
 
 &lt;p&gt;###竞选资金是否影响选举？&lt;/p&gt;
@@ -5822,9 +5701,9 @@ cc_graph = net.Graph(cc)   #从一个邻接矩阵中重新创作一个NetworkX�
     
     <item>
       <title>第6章 信息扩散：像病毒一样传播开来</title>
-      <link>https://chengjunwang.com/zh/post/cn/cn_archive/2012-07-01-snabook-chapter6.zh/</link>
+      <link>https://chengjunwang.com/zh/archive/2012-07-01-snabook-chapter6.zh/</link>
       <pubDate>Sun, 01 Jul 2012 00:00:00 +0000</pubDate>
-      <guid>https://chengjunwang.com/zh/post/cn/cn_archive/2012-07-01-snabook-chapter6.zh/</guid>
+      <guid>https://chengjunwang.com/zh/archive/2012-07-01-snabook-chapter6.zh/</guid>
       <description>&lt;p&gt;这一章或许是你挑选这本书的首要原因。很多人好奇事物（视频、网站、新闻等）如何像病毒一样在网络上传播开来——迅速扩散并成为文化中的一部分（同时在这个过程中，使得创造它们的作者富有）。我们应该预先告诉你我们并没有现成的答案。实际上没有任何人知道答案，并且这个过程中有一些运气的成分在——但在本章中，我们将要尝试使你更加理解驱动扩散的原因以及你的决策如何驱动购买行为。&lt;/p&gt;
 
 &lt;p&gt;##6.1病毒视频剖析
@@ -6307,9 +6186,9 @@ plot.hist([e[&#39;weight&#39;] for f,t,e in g.edges(data=True)]
     
     <item>
       <title>重返沙堆：通往理解信息扩散的实在之路</title>
-      <link>https://chengjunwang.com/zh/post/cn/cn_archive/2012-05-16-return-to-the-sandpile.zh/</link>
+      <link>https://chengjunwang.com/zh/archive/2012-05-16-return-to-the-sandpile.zh/</link>
       <pubDate>Wed, 16 May 2012 00:00:00 +0000</pubDate>
-      <guid>https://chengjunwang.com/zh/post/cn/cn_archive/2012-05-16-return-to-the-sandpile.zh/</guid>
+      <guid>https://chengjunwang.com/zh/archive/2012-05-16-return-to-the-sandpile.zh/</guid>
       <description>&lt;p&gt;本文载于《数字媒体阅读报告》&lt;/p&gt;
 
 &lt;p&gt;How Nature Works: The Science of Self-Organized Criticality 作者: Per Bak&lt;/p&gt;
@@ -6372,9 +6251,9 @@ It puzzles me that geophysicists show little interest in underlying principles o
     
     <item>
       <title>计算传播学：宣言与版图 </title>
-      <link>https://chengjunwang.com/zh/post/cn/cn_archive/2012-02-19-computational-communication.zh/</link>
+      <link>https://chengjunwang.com/zh/archive/2012-02-19-computational-communication.zh/</link>
       <pubDate>Thu, 09 Feb 2012 00:00:00 +0000</pubDate>
-      <guid>https://chengjunwang.com/zh/post/cn/cn_archive/2012-02-19-computational-communication.zh/</guid>
+      <guid>https://chengjunwang.com/zh/archive/2012-02-19-computational-communication.zh/</guid>
       <description>&lt;p&gt;本文载于《数字媒体阅读报告》&lt;/p&gt;
 
 &lt;p&gt;黠之大者&lt;/p&gt;
@@ -6443,9 +6322,9 @@ A person acts morally when he or she acts as if his or her conduct was establish
     
     <item>
       <title>媒介控制：呓语抑或现实？</title>
-      <link>https://chengjunwang.com/zh/post/cn/cn_archive/2011-11-17-media-control.zh/</link>
+      <link>https://chengjunwang.com/zh/archive/2011-11-17-media-control.zh/</link>
       <pubDate>Thu, 17 Nov 2011 00:00:00 +0000</pubDate>
-      <guid>https://chengjunwang.com/zh/post/cn/cn_archive/2011-11-17-media-control.zh/</guid>
+      <guid>https://chengjunwang.com/zh/archive/2011-11-17-media-control.zh/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;https://covers.openlibrary.org/w/id/936145-M.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;本文载于《数字媒体阅读报告》&lt;/p&gt;
@@ -6471,9 +6350,9 @@ A person acts morally when he or she acts as if his or her conduct was establish
     
     <item>
       <title>呓语与幻想：传播学疆界的扩张</title>
-      <link>https://chengjunwang.com/zh/post/cn/cn_archive/2011-07-09-universal-communication.zh/</link>
+      <link>https://chengjunwang.com/zh/archive/2011-07-09-universal-communication.zh/</link>
       <pubDate>Tue, 19 Jul 2011 00:00:00 +0000</pubDate>
-      <guid>https://chengjunwang.com/zh/post/cn/cn_archive/2011-07-09-universal-communication.zh/</guid>
+      <guid>https://chengjunwang.com/zh/archive/2011-07-09-universal-communication.zh/</guid>
       <description>&lt;p&gt;本文载于《数字媒体阅读报告》&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;http://upload.wikimedia.org/wikipedia/zh/0/0f/Threebody.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
@@ -6514,9 +6393,9 @@ A person acts morally when he or she acts as if his or her conduct was establish
     
     <item>
       <title>通识与考据：论社会科学知识的如何增长 </title>
-      <link>https://chengjunwang.com/zh/post/cn/cn_archive/2011-05-15-historical-insights.zh/</link>
+      <link>https://chengjunwang.com/zh/archive/2011-05-15-historical-insights.zh/</link>
       <pubDate>Sun, 15 May 2011 00:00:00 +0000</pubDate>
-      <guid>https://chengjunwang.com/zh/post/cn/cn_archive/2011-05-15-historical-insights.zh/</guid>
+      <guid>https://chengjunwang.com/zh/archive/2011-05-15-historical-insights.zh/</guid>
       <description>&lt;p&gt;本文载于《数字媒体阅读报告》&lt;/p&gt;
 
 &lt;p&gt;——读《治史三书》&lt;/p&gt;
@@ -6548,9 +6427,9 @@ A person acts morally when he or she acts as if his or her conduct was establish
     
     <item>
       <title>遭遇巨人歌利亚——读《链接：网络新科学》</title>
-      <link>https://chengjunwang.com/zh/post/cn/cn_archive/2011-03-10-network-giant.zh/</link>
+      <link>https://chengjunwang.com/zh/archive/2011-03-10-network-giant.zh/</link>
       <pubDate>Thu, 10 Mar 2011 00:00:00 +0000</pubDate>
-      <guid>https://chengjunwang.com/zh/post/cn/cn_archive/2011-03-10-network-giant.zh/</guid>
+      <guid>https://chengjunwang.com/zh/archive/2011-03-10-network-giant.zh/</guid>
       <description>&lt;p&gt;本文载于《数字媒体阅读报告》&lt;/p&gt;
 
 &lt;p&gt;黠之大者&lt;/p&gt;
@@ -6631,9 +6510,9 @@ A person acts morally when he or she acts as if his or her conduct was establish
     
     <item>
       <title>从概念到真实：SNS的形式蜕变</title>
-      <link>https://chengjunwang.com/zh/post/cn/cn_archive/2011-03-02-sns-as-a-bridge.zh/</link>
+      <link>https://chengjunwang.com/zh/archive/2011-03-02-sns-as-a-bridge.zh/</link>
       <pubDate>Wed, 02 Mar 2011 00:00:00 +0000</pubDate>
-      <guid>https://chengjunwang.com/zh/post/cn/cn_archive/2011-03-02-sns-as-a-bridge.zh/</guid>
+      <guid>https://chengjunwang.com/zh/archive/2011-03-02-sns-as-a-bridge.zh/</guid>
       <description>&lt;p&gt;本文载于《数字媒体阅读报告》&lt;/p&gt;
 
 &lt;p&gt;本文是作者从技术和资本角度对于SNS浪潮的反思。其中部分内容取自作者硕士毕业论文，虽然名为《正在爆发的互联网革命》一书的读书笔记，但并不限于此。&lt;/p&gt;
@@ -6725,9 +6604,9 @@ A person acts morally when he or she acts as if his or her conduct was establish
     
     <item>
       <title>民国时期的土匪</title>
-      <link>https://chengjunwang.com/zh/post/cn/cn_archive/2011-01-08-bandit-in-the-chinese-of-republic.zh/</link>
+      <link>https://chengjunwang.com/zh/archive/2011-01-08-bandit-in-the-chinese-of-republic.zh/</link>
       <pubDate>Sat, 08 Jan 2011 00:00:00 +0000</pubDate>
-      <guid>https://chengjunwang.com/zh/post/cn/cn_archive/2011-01-08-bandit-in-the-chinese-of-republic.zh/</guid>
+      <guid>https://chengjunwang.com/zh/archive/2011-01-08-bandit-in-the-chinese-of-republic.zh/</guid>
       <description>&lt;p&gt;民国时期的土匪（Bandits in Republican China，1988）英国学者贝思飞（Phil Billingsley）历时十年的作品，令人忍俊不禁、倍感亲切的是他边照顾孩子边写作的场景，这在大仲马是根本不可能的，想来贝思飞是一个模范好男人，他试图展现土匪群体的出现与壮大对现实的合理的反应，本书是根据其博士论文为雏形完成的，可见，学术大多是积累起来的。&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;http://wenshi.dzwww.com/wenhuazhuanti/dzws/sdtf_1/zuixinbaodao/201301/W020130118360470713311.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
@@ -6770,9 +6649,9 @@ A person acts morally when he or she acts as if his or her conduct was establish
     
     <item>
       <title>我们能走多远——读王晓明的《鲁迅传》</title>
-      <link>https://chengjunwang.com/zh/post/cn/cn_archive/2009-02-14-read-luxun-in-text.zh/</link>
+      <link>https://chengjunwang.com/zh/archive/2009-02-14-read-luxun-in-text.zh/</link>
       <pubDate>Sat, 14 Feb 2009 00:00:00 +0000</pubDate>
-      <guid>https://chengjunwang.com/zh/post/cn/cn_archive/2009-02-14-read-luxun-in-text.zh/</guid>
+      <guid>https://chengjunwang.com/zh/archive/2009-02-14-read-luxun-in-text.zh/</guid>
       <description>&lt;p&gt;我不再像先前那样&lt;strong&gt;崇拜&lt;/strong&gt;他了，但我自觉在深层的心理和情感距离上，似乎是离他越来越近；我也不再将他视作一个偶像，&lt;em&gt;他分明就在我们中间，和我们一样在深重的危机中苦苦挣扎。&lt;/em&gt; ——王晓明
 　　&lt;/p&gt;
 
@@ -6826,17 +6705,68 @@ A person acts morally when he or she acts as if his or her conduct was establish
     
     <item>
       <title></title>
-      <link>https://chengjunwang.com/zh/home/</link>
+      <link>https://chengjunwang.com/zh/cn/teaching/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://chengjunwang.com/zh/home/</guid>
-      <description></description>
+      <guid>https://chengjunwang.com/zh/cn/teaching/</guid>
+      <description>
+
+&lt;h1 id=&#34;教学&#34;&gt;教学&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;复旦大学《计算新闻传播学》课程
+&lt;div class=&#34;alert alert-note&#34;&gt;
+&lt;div&gt;
+python代码、PPT见&lt;a href=&#34;https://github.com/computational-class/cjc/&#34; target=&#34;_blank&#34;&gt;GitHub&lt;/a&gt; 。课程内容包括：计算传播学导论、大数据简介、数据科学的编程工具、数据抓取、数据清洗、统计分析、机器学习、文本挖掘、推荐系统、网络科学多个部分。
+&lt;/div&gt;
+&lt;/div&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;南京大学研究生课程 &lt;strong&gt;《大数据挖掘与分析》&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/computational-class/bigdata/&#34; target=&#34;_blank&#34;&gt;2018 春季&lt;/a&gt; 周二 第5-6节&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;南京大学本科生课程 &lt;strong&gt;《计算传播》&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/computational-class/cc2018/&#34; target=&#34;_blank&#34;&gt;2018 春季&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/computational-class/cc2017/&#34; target=&#34;_blank&#34;&gt;2017 春季&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;南京大学本科生课程 &lt;strong&gt;《数据新闻》&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/data-journalism/dj2017/&#34; target=&#34;_blank&#34;&gt;2017 秋季&lt;/a&gt; 周一 第3-4节 逸B-210 1-18周&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/data-journalism/dj2016&#34; target=&#34;_blank&#34;&gt;2016 秋季&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/data-journalism/djclass2015/&#34; target=&#34;_blank&#34;&gt;2015 秋季&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;南京大学人文艺术传播类《媒介案例研究》&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;《计算传播》案例部分 每周二7、8节（4-18周）逸B-104&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;学生&#34;&gt;学生&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;研究生(在读)：秦强、陈志聪&lt;/li&gt;
+&lt;li&gt;已毕业研究生：周纬(2017)&lt;/li&gt;
+&lt;li&gt;本科生（指导毕业论文）：
+
+&lt;ul&gt;
+&lt;li&gt;2017：沈越、曾维靓&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
     </item>
     
     <item>
       <title>Parsing Githubarchive Data using Python</title>
-      <link>https://chengjunwang.com/zh/post/cn/cn_archive/2016-06-18-parsing-githubarchive-json.zh/</link>
+      <link>https://chengjunwang.com/zh/archive/2016-06-18-parsing-githubarchive-json.zh/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://chengjunwang.com/zh/post/cn/cn_archive/2016-06-18-parsing-githubarchive-json.zh/</guid>
+      <guid>https://chengjunwang.com/zh/archive/2016-06-18-parsing-githubarchive-json.zh/</guid>
       <description>&lt;p&gt;Githubarchive整理了github的历史数据，每一个小时一个数据文件，我下载了2011-2014年四年的数据，结果发现2012年的多数数据存在错误换行的问题，需要清洗。一般而言，正确的情况是一个字典格式的数据占一行，错误的情况就会是所有的字典格式的数据合并为了一行。似乎是缺乏换行符造成的。&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://stackoverflow.com/questions/10432432/yajl-parse-error-with-githubarchive-org-json-stream-in-python#&#34; target=&#34;_blank&#34;&gt;http://stackoverflow.com/questions/10432432/yajl-parse-error-with-githubarchive-org-json-stream-in-python#&lt;/a&gt; 这里详细记录了这个问题。&lt;/p&gt;
@@ -6904,9 +6834,9 @@ else:
     
     <item>
       <title>写在《袁氏当国》之后</title>
-      <link>https://chengjunwang.com/zh/post/cn/cn_archive/2008-09-25-yuan-shikai.zh/</link>
+      <link>https://chengjunwang.com/zh/archive/2008-09-25-yuan-shikai.zh/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://chengjunwang.com/zh/post/cn/cn_archive/2008-09-25-yuan-shikai.zh/</guid>
+      <guid>https://chengjunwang.com/zh/archive/2008-09-25-yuan-shikai.zh/</guid>
       <description>&lt;p&gt;“袁世凯在中国近代的历时转型期中，也算是一个悲剧人物。”——唐德刚
 　　&lt;/p&gt;
 
@@ -6990,9 +6920,9 @@ else:
     
     <item>
       <title>围城里的快乐</title>
-      <link>https://chengjunwang.com/zh/post/cn/cn_archive/2008-05-01-happy-city.zh/</link>
+      <link>https://chengjunwang.com/zh/archive/2008-05-01-happy-city.zh/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://chengjunwang.com/zh/post/cn/cn_archive/2008-05-01-happy-city.zh/</guid>
+      <guid>https://chengjunwang.com/zh/archive/2008-05-01-happy-city.zh/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;http://farm8.staticflickr.com/7409/9458136252_09cfae4b16_o.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;黠之大者&lt;/p&gt;

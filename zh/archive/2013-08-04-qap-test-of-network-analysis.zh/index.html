@@ -1,0 +1,945 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 4.6.1">
+
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Cheng-Jun Wang">
+
+  
+  
+  
+    
+  
+  <meta name="description" content="">
+
+  
+  <link rel="alternate" hreflang="en-us" href="https://chengjunwang.com/zh/archive/2013-08-04-qap-test-of-network-analysis.zh/">
+
+  
+
+
+  
+  
+  
+  <meta name="theme-color" content="#2962ff">
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" integrity="sha256-+N4/V/SbAFiW1MPBCXnfnP9QSN3+Keu+NlB+0ev/YKQ=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+        
+      
+    
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.5.1/leaflet.css" integrity="sha256-SHMGCYmST46SoyGgo4YR/9AlK1vf3ff84Aq9yK4hdqM=" crossorigin="anonymous">
+    
+
+    
+
+  
+
+  
+  
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CRoboto:400,400italic,700%7CRoboto+Mono&display=swap">
+  
+
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/academic.css">
+
+  
+
+
+
+
+  
+
+
+  
+
+  <link rel="manifest" href="/index.webmanifest">
+  <link rel="icon" type="image/png" href="/img/icon-32.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+
+  <link rel="canonical" href="https://chengjunwang.com/zh/archive/2013-08-04-qap-test-of-network-analysis.zh/">
+
+  
+  
+  
+  
+    
+  
+  
+  <meta property="twitter:card" content="summary_large_image">
+  
+  <meta property="twitter:site" content="@ChengJunWang">
+  <meta property="twitter:creator" content="@ChengJunWang">
+  
+  <meta property="og:site_name" content="Cheng-Jun Wang">
+  <meta property="og:url" content="https://chengjunwang.com/zh/archive/2013-08-04-qap-test-of-network-analysis.zh/">
+  <meta property="og:title" content="QAP检验：计算两个网络的关联 | Cheng-Jun Wang">
+  <meta property="og:description" content=""><meta property="og:image" content="https://chengjunwang.com/img/headers/deer.webp">
+  <meta property="twitter:image" content="https://chengjunwang.com/img/headers/deer.webp"><meta property="og:locale" content="en-us">
+  
+    
+      <meta property="article:published_time" content="2013-08-04T00:00:00&#43;00:00">
+    
+    <meta property="article:modified_time" content="2013-08-04T00:00:00&#43;00:00">
+  
+
+  
+
+
+
+  
+
+
+  
+
+
+  
+
+
+
+
+
+  <title>QAP检验：计算两个网络的关联 | Cheng-Jun Wang</title>
+
+</head>
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" >
+
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search">
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+  
+<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+  <div class="container">
+
+    
+    
+    
+      <a class="navbar-brand" href="/">Cheng-Jun Wang</a>
+    
+
+    
+    <button type="button" class="navbar-toggler" data-toggle="collapse"
+            data-target="#navbar-content" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span><i class="fas fa-bars"></i></span>
+    </button>
+    
+
+    
+    
+    <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+
+      
+      <ul class="navbar-nav d-md-inline-flex">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#about"><span>Home</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#featured"><span>Publications</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#posts"><span>News</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#projects"><span>Projects</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/files/cv.pdf"><span>CV</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#contact"><span>Contact</span></a>
+        </li>
+
+        
+        
+
+      
+
+        
+      </ul>
+    </div>
+
+    <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+      
+      <li class="nav-item">
+        <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+      </li>
+      
+
+      
+      <li class="nav-item">
+        <a class="nav-link js-dark-toggle" href="#"><i class="fas fa-moon" aria-hidden="true"></i></a>
+      </li>
+      
+
+      
+
+    </ul>
+
+  </div>
+</nav>
+
+
+  <article class="article">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1>QAP检验：计算两个网络的关联</h1>
+
+  
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    Aug 4, 2013
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+
+  
+  
+
+</div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style">
+      <h3 id="qap检验-两个网络之间的关联">QAP检验：两个网络之间的关联</h3>
+
+<p>通常一组个体具有多种类型的关系，例如友谊关系和经济往来关系。我们通常会对这两种网络关系在多大程度上相互关联感兴趣。当我们知道一组个体之间的两种关系网络，我们就可以计算这个两个关系网络之间的相关程度。在统计学当中，皮尔森相关系数是用来反映两个变量线性相关程度的统计量。与之类似，对于由一组个体所组成的两个网络，也可以计算其相应的相关皮尔逊相关系数。当然，还可以计算其他你感兴趣的统计量，如协相关系数。</p>
+
+<p>我们使用sna这个R软件包来计算网络相关系数（并调用qaptest命令）。通过安装和使用statnet这个R软件包，就会自动加载sna等子软件包。另外，statnet当中还集成了其他的几个相关的R软件包，包括进行动态网络建模的tergm子软件包。</p>
+
+<pre><code># R程序11-8：计算网络的皮尔逊相关系数
+install.packages(&quot;statnet&quot;)
+library(statnet)  
+# 首先随机生成3个由10个节点构成的有向网络
+g=array(dim=c(3,10,10))
+g[1,,] = rgraph(10)
+g[2,,] = rgraph(10,tprob=g[1,,]*0.8) # 设置g1和g2两个网络强相关
+g[3,,] = 1; g[3,1,2] = 0 # g3接近于一个派系（clique）
+# 绘制这3个网络
+par(mfrow=c(1,3))
+for(i in 1:3) {
+    gplot(g[i,,],usecurv=TRUE, mode = &quot;fruchtermanreingold&quot;,
+          vertex.sides=3:8)}
+#计算网络的相关矩阵
+gcor(g)
+</code></pre>
+
+<p>在通常使用皮尔逊相关系数的时候，可以用t统计量对总体相关系数为0的原假设进行检验。但在计算网络的相关系数（graph correlations）时，经典的零假设检验方法往往会带来偏差，因而并不适用。通常使用非参数检验的方法，比如QAP(Quadratic Assignment Procedure)检验。</p>
+
+<p>矩阵的随机排列（Random matrix permutations）是QAP检验的关键部分，在子软件包sna中主要通过rmperm来进行。通过矩阵的随机排列，可以对网络中的节点编号（而不是链接！！）进行随机置换（relabelling）或重新“洗牌”（reshuffling），并得到<strong>一组</strong>（比如1000个）重连后的网络。因为只是置换节点，这种操作只是重新标记节点的编号（relabelling）。</p>
+
+<pre><code># R程序11-9：矩阵的随机置换方法
+j = rgraph(5) # 随机生成一个网络
+j  #看一下这个网络的矩阵形式
+rmperm(j) #随机置换后的网络的矩阵形式
+</code></pre>
+
+<p>对这一组重构的网络可以计算其网络级别的参数（如两个网络的相关参数，协相关参数），并因此得到<strong>一个参数分布</strong>。QAP检验的零假设是实际观测到的网络参数（如）来自于这<strong>一个参数分布</strong>。也就是说，原假设认为这种观测到的相关关系是由随机因素带来的，因而这种网络相关并不显著。拒绝原假设，就从统计的角度证明了观测到的网络相关系数是显著的。</p>
+
+<pre><code># R程序11-10：QAP检验
+q.12 = qaptest(g, gcor, g1 = 1, g2 = 2)
+q.13 = qaptest(g, gcor, g1 = 1, g2 = 3)   
+# 看一下QAP输出的结果
+par(mfrow=c(1,2))
+summary(q.12)
+plot(q.12)
+# 拒绝原假设，图1和图2显著相关
+summary(q.13)
+plot(q.13)
+# 接受原假设，图1和图3不相关
+</code></pre>
+
+<p>在检验这个关于两个网络是否存在相关的零假设的时候，我们计算置换后的参数分布中大于这个实际观测到的参数的比例，以及小于这个实际观测到的参数的比例。QAP检验返回实际数据中观测到的参数f(d)、通过置换所得到的参数f(perm)的数学分布、以及单尾的P值。其中单尾的p值包括两种情况：p(f(perm) &gt;= f(d))和p(f(perm) &lt;= f(d))。</p>
+
+<p>其中P(f(perm) &gt;= f(d))表示随机置换矩阵的相关系数的大于与等于观测值的p值，也就是本研究的检验显著性。一般而言，当p(f(perm) &gt;= f(d))小于p(f(perm) &lt;= f(d))时，拒绝原假设。</p>
+    </div>
+
+    
+
+
+
+
+
+
+
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=https://chengjunwang.com/zh/archive/2013-08-04-qap-test-of-network-analysis.zh/&amp;text=QAP%e6%a3%80%e9%aa%8c%ef%bc%9a%e8%ae%a1%e7%ae%97%e4%b8%a4%e4%b8%aa%e7%bd%91%e7%bb%9c%e7%9a%84%e5%85%b3%e8%81%94" target="_blank" rel="noopener" class="share-btn-twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=https://chengjunwang.com/zh/archive/2013-08-04-qap-test-of-network-analysis.zh/&amp;t=QAP%e6%a3%80%e9%aa%8c%ef%bc%9a%e8%ae%a1%e7%ae%97%e4%b8%a4%e4%b8%aa%e7%bd%91%e7%bb%9c%e7%9a%84%e5%85%b3%e8%81%94" target="_blank" rel="noopener" class="share-btn-facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=QAP%e6%a3%80%e9%aa%8c%ef%bc%9a%e8%ae%a1%e7%ae%97%e4%b8%a4%e4%b8%aa%e7%bd%91%e7%bb%9c%e7%9a%84%e5%85%b3%e8%81%94&amp;body=https://chengjunwang.com/zh/archive/2013-08-04-qap-test-of-network-analysis.zh/" target="_blank" rel="noopener" class="share-btn-email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=https://chengjunwang.com/zh/archive/2013-08-04-qap-test-of-network-analysis.zh/&amp;title=QAP%e6%a3%80%e9%aa%8c%ef%bc%9a%e8%ae%a1%e7%ae%97%e4%b8%a4%e4%b8%aa%e7%bd%91%e7%bb%9c%e7%9a%84%e5%85%b3%e8%81%94" target="_blank" rel="noopener" class="share-btn-linkedin">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://web.whatsapp.com/send?text=QAP%e6%a3%80%e9%aa%8c%ef%bc%9a%e8%ae%a1%e7%ae%97%e4%b8%a4%e4%b8%aa%e7%bd%91%e7%bb%9c%e7%9a%84%e5%85%b3%e8%81%94%20https://chengjunwang.com/zh/archive/2013-08-04-qap-test-of-network-analysis.zh/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=https://chengjunwang.com/zh/archive/2013-08-04-qap-test-of-network-analysis.zh/&amp;title=QAP%e6%a3%80%e9%aa%8c%ef%bc%9a%e8%ae%a1%e7%ae%97%e4%b8%a4%e4%b8%aa%e7%bd%91%e7%bb%9c%e7%9a%84%e5%85%b3%e8%81%94" target="_blank" rel="noopener" class="share-btn-weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+  
+  <div class="media author-card content-widget-hr">
+    
+      
+      <img class="portrait mr-3" src="/authors/admin/avatar_hudd12f2352811943b67d6d42ef6240e45_28224_250x250_fill_q90_lanczos_center.jpg" alt="Avatar">
+    
+
+    <div class="media-body">
+      <h5 class="card-title"><a href="https://chengjunwang.com/">Cheng-Jun Wang</a></h5>
+      <h6 class="card-subtitle">Associate Professor</h6>
+      <p class="card-text">Cheng-Jun Wang is currently an associate  professor in the <a href="http://jc.nju.edu.cn" target="_blank">School of Journalism and Communication, Nanjing University</a>.</p>
+      <ul class="network-icon" aria-hidden="true">
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+    <li>
+      <a href="mailto:%20wangchengjun@nju.edu.cn" >
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://twitter.com/ChengJunWang" target="_blank" rel="noopener">
+        <i class="fab fa-twitter"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://scholar.google.co.uk/citations?user=nNdt_G8AAAAJ" target="_blank" rel="noopener">
+        <i class="ai ai-google-scholar"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://github.com/chengjun" target="_blank" rel="noopener">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://www.researchgate.net/profile/Cheng_Jun_Wang" target="_blank" rel="noopener">
+        <i class="fab fa-researchgate"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://www.douban.com/people/1558440/" target="_blank" rel="noopener">
+        <i class="fab fa-douban"></i>
+      </a>
+    </li>
+  
+</ul>
+
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+  </div>
+</article>
+
+      
+
+    
+    
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin="anonymous"></script>
+
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/highlight.min.js" integrity="sha256-1zu+3BnLYV9LdiY85uXMzii3bdrkelyp37e0ZyTAQh0=" crossorigin="anonymous"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/languages/r.min.js"></script>
+        
+      
+
+      
+      
+    
+
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.5.1/leaflet.js" integrity="sha256-EErZamuLefUnbMBQbsEqu1USa+btR2oIlCpBJbyD4/g=" crossorigin="anonymous"></script>
+    
+
+    
+    
+    <script>const code_highlighting = true;</script>
+    
+
+    
+    
+    
+    
+    
+    
+    <script>
+      const search_config = {"indexURI":"/index.json","minLength":1,"threshold":0.3};
+      const i18n = {"no_results":"No results found","placeholder":"Search...","results":"results found"};
+      const content_type = {
+        'post': "Posts",
+        'project': "Projects",
+        'publication' : "Publications",
+        'talk' : "Talks"
+        };
+    </script>
+    
+
+    
+    
+
+    
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    
+    
+    
+    <script src="/js/academic.min.3d0750632391ba55d8fd99a18dab4a0d.js"></script>
+
+    
+
+
+
+
+
+
+  
+  
+  <div class="container">
+    <footer class="site-footer">
+  
+
+  <p class="powered-by">
+    All rights &copy; reserved 2020 &middot; 
+
+    Powered by the
+    <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+    <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+    
+    <span class="float-right" aria-hidden="true">
+      <a href="#" class="back-to-top">
+        <span class="button_icon">
+          <i class="fas fa-chevron-up fa-2x"></i>
+        </span>
+      </a>
+    </span>
+    
+  </p>
+</footer>
+
+  </div>
+  
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

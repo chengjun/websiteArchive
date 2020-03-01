@@ -1,0 +1,946 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 4.6.1">
+
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Cheng-Jun Wang">
+
+  
+  
+  
+    
+  
+  <meta name="description" content="思考手机用户在真实和虚拟世界的移动本身有什么价值:比较两种类型的网络结构，一个是分形的，一个是小世界的。二者之间不是完全对立的，而是可以平滑过渡的，因而可以计算从小世界到分形的连续变量的取值，即网络增长的过程中，新节点多大程度上按照小世界规则加入网络，多大程度上按照分形加入网络（Song, 2006）。">
+
+  
+  <link rel="alternate" hreflang="en-us" href="https://chengjunwang.com/zh/archive/2015-12-02-renormalization.zh/">
+
+  
+
+
+  
+  
+  
+  <meta name="theme-color" content="#2962ff">
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" integrity="sha256-+N4/V/SbAFiW1MPBCXnfnP9QSN3+Keu+NlB+0ev/YKQ=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+        
+      
+    
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.5.1/leaflet.css" integrity="sha256-SHMGCYmST46SoyGgo4YR/9AlK1vf3ff84Aq9yK4hdqM=" crossorigin="anonymous">
+    
+
+    
+
+  
+
+  
+  
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CRoboto:400,400italic,700%7CRoboto+Mono&display=swap">
+  
+
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/academic.css">
+
+  
+
+
+
+
+  
+
+
+  
+
+  <link rel="manifest" href="/index.webmanifest">
+  <link rel="icon" type="image/png" href="/img/icon-32.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+
+  <link rel="canonical" href="https://chengjunwang.com/zh/archive/2015-12-02-renormalization.zh/">
+
+  
+  
+  
+  
+    
+  
+  
+  <meta property="twitter:card" content="summary_large_image">
+  
+  <meta property="twitter:site" content="@ChengJunWang">
+  <meta property="twitter:creator" content="@ChengJunWang">
+  
+  <meta property="og:site_name" content="Cheng-Jun Wang">
+  <meta property="og:url" content="https://chengjunwang.com/zh/archive/2015-12-02-renormalization.zh/">
+  <meta property="og:title" content="手机用户在真实与虚拟空间中的移动 | Cheng-Jun Wang">
+  <meta property="og:description" content="思考手机用户在真实和虚拟世界的移动本身有什么价值:比较两种类型的网络结构，一个是分形的，一个是小世界的。二者之间不是完全对立的，而是可以平滑过渡的，因而可以计算从小世界到分形的连续变量的取值，即网络增长的过程中，新节点多大程度上按照小世界规则加入网络，多大程度上按照分形加入网络（Song, 2006）。"><meta property="og:image" content="https://chengjunwang.com/img/headers/deer.webp">
+  <meta property="twitter:image" content="https://chengjunwang.com/img/headers/deer.webp"><meta property="og:locale" content="en-us">
+  
+    
+      <meta property="article:published_time" content="2015-12-02T00:00:00&#43;00:00">
+    
+    <meta property="article:modified_time" content="2015-12-02T00:00:00&#43;00:00">
+  
+
+  
+
+
+
+  
+
+
+  
+
+
+  
+
+
+
+
+
+  <title>手机用户在真实与虚拟空间中的移动 | Cheng-Jun Wang</title>
+
+</head>
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" >
+
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search">
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+  
+<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+  <div class="container">
+
+    
+    
+    
+      <a class="navbar-brand" href="/">Cheng-Jun Wang</a>
+    
+
+    
+    <button type="button" class="navbar-toggler" data-toggle="collapse"
+            data-target="#navbar-content" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span><i class="fas fa-bars"></i></span>
+    </button>
+    
+
+    
+    
+    <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+
+      
+      <ul class="navbar-nav d-md-inline-flex">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#about"><span>Home</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#featured"><span>Publications</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#posts"><span>News</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#projects"><span>Projects</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/files/cv.pdf"><span>CV</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#contact"><span>Contact</span></a>
+        </li>
+
+        
+        
+
+      
+
+        
+      </ul>
+    </div>
+
+    <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+      
+      <li class="nav-item">
+        <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+      </li>
+      
+
+      
+      <li class="nav-item">
+        <a class="nav-link js-dark-toggle" href="#"><i class="fas fa-moon" aria-hidden="true"></i></a>
+      </li>
+      
+
+      
+
+    </ul>
+
+  </div>
+</nav>
+
+
+  <article class="article">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1>手机用户在真实与虚拟空间中的移动</h1>
+
+  
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    Dec 2, 2015
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+
+  
+  
+
+</div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style">
+      <p>思考手机用户在真实和虚拟世界的移动本身有什么价值:比较两种类型的网络结构，一个是分形的，一个是小世界的。二者之间不是完全对立的，而是可以平滑过渡的，因而可以计算从小世界到分形的连续变量的取值，即网络增长的过程中，新节点多大程度上按照小世界规则加入网络，多大程度上按照分形加入网络（Song, 2006）。</p>
+
+<p>自相似或者说分形是本研究切入的重点，分形的特点是在不同尺度上具有相同的特征，这种自相似的特征往往表现为系统特征与观测尺度之间的对应关系。一般对于分形网络而言，重整化之后的盒子数量log(N)与盒子大小log(L)之间存在无标度关系。我们确实也发现人在移动互联网站构成的网络重整化过程中，盒子数量与盒子大小之间具有这种无标度关系，但是人在现实世界的物理移动构成的网络经过重整化，其盒子数量与盒子大小之间则是指数分布。由此可见二者网络结构是如何不同的，前者接近分形，后者接近小世界。</p>
+
+<p>衡量小世界和分形的重要方法是度相关。分形意味着较强的异配性，而小世界则是同配性。正向的度相关意味着同配性和小世界，负向意味着分形。对于同配性的网络度相关通过重整化，一般会被抹平。有趣的是我们发现真实移动网络会由正变负。即当盒子比较大的时候，局部地区的同配性消失，表现出异配性。</p>
+
+<p>Song（2006）将网络增长与重整化看成一个逆过程，网络增长的过程可以看成重整化的尺度由大变小的过程。小世界网络增长的过程中，网络的平均直径L与网络中的节点数量具有对数关系，L ~ Log(N)。重整化需要的步数约等于最终网络的平均直径，例如一个直径是14的网络，大约经过14步重整化会由一个完整的网络坍缩为一个节点。在重整化过程中，所选择的盒子的大小l的取值范围约等于最终网络的平均直径range(L)。</p>
+
+<p><a href="http://www-levich.engr.ccny.cuny.edu/webpage/hmakse/" target="_blank">Hernan Makse</a>是City College of New York的物理学教授，主要从事复杂网络的研究，他和Song Chaoming就分形网络发表了两篇重要论文(Song 2005&amp;2006)。他非常注重代码和数据的分享。我一直关注的是第一作者Song和鼎鼎大名的Havlin，并没有注意到Hernan， 后来搜索实现fractal_model的python代码的时候才找到他，恍然发现他是两篇论文的通讯作者。</p>
+
+<p>在这个算法里面，主要有四个参数：世代（generation)、新增子代数量(m)、子代间新增链接的数量(x)、断开父代链接的比例(e)。每一代是一个操作过程：以这一代的每一条边为单位，该边上的两个节点a和b各自新增子代m个，其中m对子代间形成（x-1)个链接，若随机概率大于e，那么断开父代节点a和b之间的链接，同时增加一条m对子代间链接。</p>
+
+<pre><code>generation, m, x, e = 2, 1, 1, 0
+G=nx.Graph()
+G.add_edge(0,1) #Two seed nodes(generation 0), then add m offsprings to these seed nodes.
+node_index = 2
+for n in range(1,generation+1):
+    print 'STEP:', n, '\n'
+    all_links = G.edges()
+    while all_links:
+            link = all_links.pop() # [(0, 1)] ----&gt; (0, 1)
+            print link
+            new_nodes_a = range(node_index,node_index + m)
+            print link[0], new_nodes_a
+            #random.shuffle(new_nodes_a)
+            node_index += m
+            new_nodes_b = range(node_index,node_index + m)
+            #random.shuffle(new_nodes_b)
+            print link[1], new_nodes_b
+            node_index += m
+            G.add_edges_from([(link[0],node) for node in new_nodes_a])
+            G.add_edges_from([(link[1],node) for node in new_nodes_b])
+            repulsive_links = zip(new_nodes_a,new_nodes_b) # 相斥的的链接
+            print repulsive_links
+            add_repulsive_links = [repulsive_links.pop() for i in range(x-1)]
+            G.add_edges_from(add_repulsive_links) # add edges between offsprings
+            print 'add repusive edges', add_repulsive_links
+            if random.random() &gt; e: # 当概率大于e的时候，断开hub间的链接
+                print 'delete', link
+                G.remove_edge(*link) # 减少一对hub的链接
+                add_a_repulsive_link = repulsive_links.pop()
+                print 'add_a_repulsive_link', add_a_repulsive_link
+                G.add_edge(*add_a_repulsive_link) #相应得，增加一对其子代的链接
+</code></pre>
+
+<p>真实世界的移动网络是小世界的。例如Vito Latora 等（2002）分析了波斯顿地铁网络的结构（小世界）。随机网平均直径低，规则网聚类系数高。小世界网络在平均路径长度方面接近随机网，而在聚类系数方面接近规则网。Latora等认为我们对于小世界的两种衡量方式（平均直径L和聚类系数C）有缺陷（ill-defined），因为仅仅强调了链接是否存在，而忽略了链接的<code>权重</code>，比如链接的实际长度（the physical length of the link）。他们试图提出一种考虑权重的衡量小世界特征的测量:邻接矩阵 $ a<em>{ij} $ 表示任意两个节点i、j之间是否有链接; $ l</em>{ij} $  表示任意两个节点i、j之间的权重（比如地铁站之间的空间距离;使用邻接矩阵  $ a<em>{ij} $  可以得到节点间的最短路径矩阵  $ d</em>{ij} $ 。</p>
+
+<p>此时，无法算出聚类系数，因为很多地铁站只有两个邻居，算出的平均直径的信息也很少， $ \varepsilon<em>{ij} = \frac{1}{N(N-1)d</em>{ij}}  $  表示输运效率，可以在globa和local两个层面计算，分别对应平均路径长度L和聚类系数C。当两个节点无链接时，其 $ d<em>{ij} $ 无穷大， $ \varepsilon</em>{ij} = 0 $ 。避免了计算平均路径长度无穷大的问题。同时可以定义输运成本 $ cost = \frac{\sum<em>{i\neq j} a</em>{ij}l<em>{ij}}{\sum</em>{i\neq j}l_{ij} } $ 。如此计算波斯顿地铁的MBTA全局输运效率为0.63，局部输运效率为0.03，成本为0.002。即网络整体输运效率可以达到理想情况的63%，但是局部输运效率很差，不过整个网络的成本很小。如果加上公交网络MBTA+bus，全局效率上升为 0.72，局部效率大幅度上升为0.46，花费的成本仅仅上升为0.004。</p>
+
+<h3 id="参考文献">参考文献</h3>
+
+<p>Vito Latora（2002）Is the Boston subway a small-world network? Physica A</p>
+    </div>
+
+    
+
+
+
+
+
+
+
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=https://chengjunwang.com/zh/archive/2015-12-02-renormalization.zh/&amp;text=%e6%89%8b%e6%9c%ba%e7%94%a8%e6%88%b7%e5%9c%a8%e7%9c%9f%e5%ae%9e%e4%b8%8e%e8%99%9a%e6%8b%9f%e7%a9%ba%e9%97%b4%e4%b8%ad%e7%9a%84%e7%a7%bb%e5%8a%a8" target="_blank" rel="noopener" class="share-btn-twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=https://chengjunwang.com/zh/archive/2015-12-02-renormalization.zh/&amp;t=%e6%89%8b%e6%9c%ba%e7%94%a8%e6%88%b7%e5%9c%a8%e7%9c%9f%e5%ae%9e%e4%b8%8e%e8%99%9a%e6%8b%9f%e7%a9%ba%e9%97%b4%e4%b8%ad%e7%9a%84%e7%a7%bb%e5%8a%a8" target="_blank" rel="noopener" class="share-btn-facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=%e6%89%8b%e6%9c%ba%e7%94%a8%e6%88%b7%e5%9c%a8%e7%9c%9f%e5%ae%9e%e4%b8%8e%e8%99%9a%e6%8b%9f%e7%a9%ba%e9%97%b4%e4%b8%ad%e7%9a%84%e7%a7%bb%e5%8a%a8&amp;body=https://chengjunwang.com/zh/archive/2015-12-02-renormalization.zh/" target="_blank" rel="noopener" class="share-btn-email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=https://chengjunwang.com/zh/archive/2015-12-02-renormalization.zh/&amp;title=%e6%89%8b%e6%9c%ba%e7%94%a8%e6%88%b7%e5%9c%a8%e7%9c%9f%e5%ae%9e%e4%b8%8e%e8%99%9a%e6%8b%9f%e7%a9%ba%e9%97%b4%e4%b8%ad%e7%9a%84%e7%a7%bb%e5%8a%a8" target="_blank" rel="noopener" class="share-btn-linkedin">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://web.whatsapp.com/send?text=%e6%89%8b%e6%9c%ba%e7%94%a8%e6%88%b7%e5%9c%a8%e7%9c%9f%e5%ae%9e%e4%b8%8e%e8%99%9a%e6%8b%9f%e7%a9%ba%e9%97%b4%e4%b8%ad%e7%9a%84%e7%a7%bb%e5%8a%a8%20https://chengjunwang.com/zh/archive/2015-12-02-renormalization.zh/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=https://chengjunwang.com/zh/archive/2015-12-02-renormalization.zh/&amp;title=%e6%89%8b%e6%9c%ba%e7%94%a8%e6%88%b7%e5%9c%a8%e7%9c%9f%e5%ae%9e%e4%b8%8e%e8%99%9a%e6%8b%9f%e7%a9%ba%e9%97%b4%e4%b8%ad%e7%9a%84%e7%a7%bb%e5%8a%a8" target="_blank" rel="noopener" class="share-btn-weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+  
+  <div class="media author-card content-widget-hr">
+    
+      
+      <img class="portrait mr-3" src="/authors/admin/avatar_hudd12f2352811943b67d6d42ef6240e45_28224_250x250_fill_q90_lanczos_center.jpg" alt="Avatar">
+    
+
+    <div class="media-body">
+      <h5 class="card-title"><a href="https://chengjunwang.com/">Cheng-Jun Wang</a></h5>
+      <h6 class="card-subtitle">Associate Professor</h6>
+      <p class="card-text">Cheng-Jun Wang is currently an associate  professor in the <a href="http://jc.nju.edu.cn" target="_blank">School of Journalism and Communication, Nanjing University</a>.</p>
+      <ul class="network-icon" aria-hidden="true">
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+    <li>
+      <a href="mailto:%20wangchengjun@nju.edu.cn" >
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://twitter.com/ChengJunWang" target="_blank" rel="noopener">
+        <i class="fab fa-twitter"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://scholar.google.co.uk/citations?user=nNdt_G8AAAAJ" target="_blank" rel="noopener">
+        <i class="ai ai-google-scholar"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://github.com/chengjun" target="_blank" rel="noopener">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://www.researchgate.net/profile/Cheng_Jun_Wang" target="_blank" rel="noopener">
+        <i class="fab fa-researchgate"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://www.douban.com/people/1558440/" target="_blank" rel="noopener">
+        <i class="fab fa-douban"></i>
+      </a>
+    </li>
+  
+</ul>
+
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+  </div>
+</article>
+
+      
+
+    
+    
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin="anonymous"></script>
+
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/highlight.min.js" integrity="sha256-1zu+3BnLYV9LdiY85uXMzii3bdrkelyp37e0ZyTAQh0=" crossorigin="anonymous"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/languages/r.min.js"></script>
+        
+      
+
+      
+      
+    
+
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.5.1/leaflet.js" integrity="sha256-EErZamuLefUnbMBQbsEqu1USa+btR2oIlCpBJbyD4/g=" crossorigin="anonymous"></script>
+    
+
+    
+    
+    <script>const code_highlighting = true;</script>
+    
+
+    
+    
+    
+    
+    
+    
+    <script>
+      const search_config = {"indexURI":"/index.json","minLength":1,"threshold":0.3};
+      const i18n = {"no_results":"No results found","placeholder":"Search...","results":"results found"};
+      const content_type = {
+        'post': "Posts",
+        'project': "Projects",
+        'publication' : "Publications",
+        'talk' : "Talks"
+        };
+    </script>
+    
+
+    
+    
+
+    
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    
+    
+    
+    <script src="/js/academic.min.3d0750632391ba55d8fd99a18dab4a0d.js"></script>
+
+    
+
+
+
+
+
+
+  
+  
+  <div class="container">
+    <footer class="site-footer">
+  
+
+  <p class="powered-by">
+    All rights &copy; reserved 2020 &middot; 
+
+    Powered by the
+    <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+    <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+    
+    <span class="float-right" aria-hidden="true">
+      <a href="#" class="back-to-top">
+        <span class="button_icon">
+          <i class="fas fa-chevron-up fa-2x"></i>
+        </span>
+      </a>
+    </span>
+    
+  </p>
+</footer>
+
+  </div>
+  
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

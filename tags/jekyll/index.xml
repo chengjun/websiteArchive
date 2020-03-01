@@ -57,9 +57,9 @@ With Jekyll, something that looked like&lt;/p&gt;
     
     <item>
       <title>Migrate from Jekyll to Hugo</title>
-      <link>https://chengjunwang.com/zh/post/migrate-from-jekyll.zh/</link>
+      <link>https://chengjunwang.com/zh/cn/migrate-from-jekyll.zh/</link>
       <pubDate>Mon, 10 Mar 2014 00:00:00 +0800</pubDate>
-      <guid>https://chengjunwang.com/zh/post/migrate-from-jekyll.zh/</guid>
+      <guid>https://chengjunwang.com/zh/cn/migrate-from-jekyll.zh/</guid>
       <description>
 
 &lt;p&gt;Here are a few tips for migrating an existing website from Jekyll to Hugo. These tips can be applied in conjunction with following Hugo Academic&amp;rsquo;s [getting started guide].&lt;/p&gt;

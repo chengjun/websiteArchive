@@ -1,0 +1,1575 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 4.6.1">
+
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Cheng-Jun Wang">
+
+  
+  
+  
+    
+  
+  <meta name="description" content=" 
+">
+
+  
+  <link rel="alternate" hreflang="en-us" href="https://chengjunwang.com/%E8%AE%A1%E7%AE%97%E6%96%B0%E9%97%BB/%E4%BD%BF%E7%94%A8python%E7%8E%A9%E9%A3%9E%E6%9C%BA%E5%A4%A7%E6%88%98%E6%B8%B8%E6%88%8F/">
+
+  
+
+
+  
+  
+  
+  <meta name="theme-color" content="#2962ff">
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" integrity="sha256-+N4/V/SbAFiW1MPBCXnfnP9QSN3+Keu+NlB+0ev/YKQ=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+        
+      
+    
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.5.1/leaflet.css" integrity="sha256-SHMGCYmST46SoyGgo4YR/9AlK1vf3ff84Aq9yK4hdqM=" crossorigin="anonymous">
+    
+
+    
+
+  
+
+  
+  
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CRoboto:400,400italic,700%7CRoboto+Mono&display=swap">
+  
+
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/academic.css">
+
+  
+
+
+
+
+  
+
+
+  
+
+  <link rel="manifest" href="/index.webmanifest">
+  <link rel="icon" type="image/png" href="/img/icon-32.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+
+  <link rel="canonical" href="https://chengjunwang.com/%E8%AE%A1%E7%AE%97%E6%96%B0%E9%97%BB/%E4%BD%BF%E7%94%A8python%E7%8E%A9%E9%A3%9E%E6%9C%BA%E5%A4%A7%E6%88%98%E6%B8%B8%E6%88%8F/">
+
+  
+  
+  
+  
+    
+  
+  
+  <meta property="twitter:card" content="summary_large_image">
+  
+  <meta property="twitter:site" content="@ChengJunWang">
+  <meta property="twitter:creator" content="@ChengJunWang">
+  
+  <meta property="og:site_name" content="Cheng-Jun Wang">
+  <meta property="og:url" content="https://chengjunwang.com/%E8%AE%A1%E7%AE%97%E6%96%B0%E9%97%BB/%E4%BD%BF%E7%94%A8python%E7%8E%A9%E9%A3%9E%E6%9C%BA%E5%A4%A7%E6%88%98%E6%B8%B8%E6%88%8F/">
+  <meta property="og:title" content="使用python玩飞机大战游戏 | Cheng-Jun Wang">
+  <meta property="og:description" content=" 
+"><meta property="og:image" content="https://chengjunwang.com/img/headers/neza.svg">
+  <meta property="twitter:image" content="https://chengjunwang.com/img/headers/neza.svg"><meta property="og:locale" content="en-us">
+  
+    
+      <meta property="article:published_time" content="2020-02-13T00:00:00&#43;00:00">
+    
+    <meta property="article:modified_time" content="2020-02-13T00:00:00&#43;00:00">
+  
+
+  
+
+
+
+  
+
+
+  
+
+
+  
+
+
+
+
+
+  <title>使用python玩飞机大战游戏 | Cheng-Jun Wang</title>
+
+</head>
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" >
+
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search">
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+  
+<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+  <div class="container">
+
+    
+    
+    
+      <a class="navbar-brand" href="/">Cheng-Jun Wang</a>
+    
+
+    
+    <button type="button" class="navbar-toggler" data-toggle="collapse"
+            data-target="#navbar-content" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span><i class="fas fa-bars"></i></span>
+    </button>
+    
+
+    
+    
+    <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+
+      
+      <ul class="navbar-nav d-md-inline-flex">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#about"><span>Home</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#featured"><span>Publications</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#posts"><span>News</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#projects"><span>Projects</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/files/cv.pdf"><span>CV</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#contact"><span>Contact</span></a>
+        </li>
+
+        
+        
+
+      
+
+        
+      </ul>
+    </div>
+
+    <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+      
+      <li class="nav-item">
+        <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+      </li>
+      
+
+      
+      <li class="nav-item">
+        <a class="nav-link js-dark-toggle" href="#"><i class="fas fa-moon" aria-hidden="true"></i></a>
+      </li>
+      
+
+      
+
+    </ul>
+
+  </div>
+</nav>
+
+
+  <article class="article">
+
+  
+
+
+
+
+
+
+
+
+
+<div class="article-header">
+  
+  
+  <img src="/img/headers/neza.svg" class="article-banner" alt="">
+  
+
+  <span class="article-header-caption">Image credit: <a href="https://github.com/gcushen/hugo-academic/" target="_blank"><strong>Academic</strong></a></span>
+</div>
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1>使用python玩飞机大战游戏</h1>
+
+  
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    Feb 13, 2020
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+
+  
+  
+
+</div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style">
+      
+
+<p> </p>
+
+<h2 id="安装pygame">安装pygame</h2>
+
+<p>首先尝试：
+&gt; pip install pygame -i <a href="http://pypi.douban.com/simple" target="_blank">http://pypi.douban.com/simple</a></p>
+
+<p>如果出错，尝试
+&gt; pip install pygame -i <a href="http://pypi.douban.com/simple" target="_blank">http://pypi.douban.com/simple</a> &ndash;trusted-host pypi.douban.com</p>
+
+<h2 id="下载游戏代码">下载游戏代码</h2>
+
+<p><a href="https://github.com/computational-class/aircraftbattle" target="_blank">https://github.com/computational-class/aircraftbattle</a></p>
+
+<p>推荐使用Github Desktop下载到本机，例如我放在/github/aircraftbattle文件夹当中。</p>
+
+<h2 id="运行游戏">运行游戏</h2>
+
+<p>在terminal当中打开游戏所在文件夹（<strong>注意</strong>：根据你的本地文件所在位置）</p>
+
+<blockquote>
+<p>cd github/aircraftbattle</p>
+</blockquote>
+
+<p><img src="https://upload-images.jianshu.io/upload_images/38934-3b6a7888d729c946.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="terminal" /></p>
+
+<p>运行aircraftbattle.py</p>
+
+<blockquote>
+<p>python aircraftbattle.py</p>
+</blockquote>
+
+<h2 id="enjoy-your-game">Enjoy your game!</h2>
+
+<p><img src="https://upload-images.jianshu.io/upload_images/38934-2b63fcfc01978124.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="飞机大战游戏" /></p>
+
+<h2 id="想要理解背后的代码">想要理解背后的代码</h2>
+
+<p><a href="https://www.bilibili.com/video/av14184325?p=461" target="_blank">https://www.bilibili.com/video/av14184325?p=461</a></p>
+
+<pre><code>#导入模块
+import pygame
+import random
+from pygame.locals import *
+from os import path
+
+#######################################基本参数配置#######################################
+
+#获取图片库和声音库路径
+img_dir = path.join(path.dirname(__file__),'pic')
+sound_folder = path.join(path.dirname(__file__),'sounds')
+
+#定义游戏窗口、玩家血量条尺寸，游戏运行速度、炮火持续时间等参数
+WIDTH = 480
+HEIGHT = 600
+FPS = 60
+POWERUP_TIME = 5000
+BAR_LENGTH = 100
+BAR_HEIGHT = 10
+
+#定义白、黑、红、绿、蓝、黄的RGB参数
+WHITE = (255, 255, 255)
+BLACK = (0, 0, 0)
+RED = (255, 0, 0)
+GREEN = (0, 255, 0)
+BLUE = (0, 0, 255)
+YELLOW = (255, 255, 0)
+
+#初始化pygame模块，创建游戏窗口、游戏窗口命名、创建跟踪时间对象
+pygame.init()
+pygame.mixer.init()  #初始化音效
+screen = pygame.display.set_mode((WIDTH,HEIGHT))
+pygame.display.set_caption(&quot;Aircraft Battle&quot;)
+clock = pygame.time.Clock()
+
+#定义文本字体
+font_name = pygame.font.match_font('arial')
+
+#######################################加载图片#######################################
+
+#加载游戏进行中背景图片
+background = pygame.image.load(path.join(img_dir,'starfield.png')).convert()
+background = pygame.transform.scale(background,(WIDTH,1536))
+height = -936
+
+#加载玩家图片
+player_img = pygame.image.load(path.join(img_dir,'player.png')).convert()
+player_mini_img = pygame.transform.scale(player_img,(25, 19))
+player_mini_img.set_colorkey(BLACK)
+
+#加载玩家炮弹、导弹图片
+bullet_img = pygame.image.load(path.join(img_dir,'bullet.png')).convert()
+missile_img = pygame.image.load(path.join(img_dir,'missile.png')).convert_alpha()
+
+#加载敌机炮弹图片
+enemies_bullet_img = pygame.image.load(path.join(img_dir,'enemies_bullet.png')).convert()
+
+#加载盾牌、闪电图片
+powerup_images = {}
+powerup_images['shield'] = pygame.image.load(path.join(img_dir, 'shield.png')).convert()
+powerup_images['gun'] = pygame.image.load(path.join(img_dir, 'bolt.png')).convert()
+
+#加载敌机和火山石图片
+enemies_images = []
+lava_images = []
+#敌机
+enemies_list = [
+    'enemies1.png',
+    'enemies2.png',
+    'enemies3.png'
+]
+#火山石
+lava_list = [
+    'lava_med.png',
+    'lava_small1.png',
+    'lava_small2.png',
+    'lava_tiny.png'
+]
+for image in enemies_list:
+    enemies_img = pygame.image.load(path.join(img_dir,image)).convert()
+    enemies_img = pygame.transform.scale(enemies_img,(80, 60))
+    enemies_images.append(enemies_img)
+for image in lava_list:
+    lava_images.append(pygame.image.load(path.join(img_dir,image)).convert())
+
+#加载爆炸图片
+explosion_anim = {}
+explosion_anim['lg'] = []
+explosion_anim['sm'] = []
+explosion_anim['player'] = []
+for i in range(9):
+    #敌机、火山石爆炸
+    filename = 'regularExplosion0{}.png'.format(i)
+    img = pygame.image.load(path.join(img_dir,filename)).convert()
+    img.set_colorkey(BLACK)
+    #大爆炸    
+    img_lg = pygame.transform.scale(img,(75,75))
+    explosion_anim['lg'].append(img_lg)
+    #小爆炸
+    img_sm = pygame.transform.scale(img,(32,32))
+    explosion_anim['sm'].append(img_sm)
+    #玩家爆炸
+    filename = 'sonicExplosion0{}.png'.format(i)
+    img = pygame.image.load(path.join(img_dir,filename)).convert()
+    img.set_colorkey(BLACK)
+    explosion_anim['player'].append(img)
+
+#######################################加载声音#######################################
+
+#加载炮弹、导弹发射声音
+shooting_sound = pygame.mixer.Sound(path.join(sound_folder,'pew.wav'))
+missile_sound = pygame.mixer.Sound(path.join(sound_folder,'rocket.ogg'))
+
+#加载敌机、火山石爆炸声音
+expl_sounds = []
+for sound in ['expl3.wav', 'expl6.wav']:
+    expl_sounds.append(pygame.mixer.Sound(path.join(sound_folder,sound)))
+#调低音量
+pygame.mixer.music.set_volume(0.2)
+
+#加载玩家爆炸声音
+player_die_sound = pygame.mixer.Sound(path.join(sound_folder,'rumble1.ogg'))
+
+#######################################函数区#######################################
+
+#游戏初始界面和准备开始界面函数
+def main_menu():
+    global screen
+    #加载游戏初始界面背景音乐
+    menu_song = pygame.mixer.music.load(path.join(sound_folder,&quot;menu.ogg&quot;))
+    #循环播放
+    pygame.mixer.music.play(-1)
+    #加载游戏初始界面背景图片
+    title = pygame.image.load(path.join(img_dir,&quot;main.png&quot;)).convert()
+    title = pygame.transform.scale(title,(WIDTH, HEIGHT),screen)
+    screen.blit(title,(0,0))
+    pygame.display.update()
+    #检测玩家操作事件
+    while True:
+        ev = pygame.event.poll()
+        if ev.type == pygame.KEYDOWN:
+            if ev.key == pygame.K_RETURN:
+                break
+        elif ev.type == pygame.QUIT:
+                pygame.quit()
+                quit()
+        else:
+            draw_text(screen, &quot;Press [ENTER] To Begin&quot;, 30, WIDTH/2, HEIGHT/2)
+            draw_text(screen, &quot;[A] ←  [S] ↓  [D] →  [W] ↑&quot;, 30, WIDTH/2, 2*HEIGHT/3)
+            draw_text(screen, &quot;[Space] fire&quot;, 30, WIDTH/2, 3*HEIGHT/4)           
+            pygame.display.update()
+    #加载准备声音
+    ready = pygame.mixer.Sound(path.join(sound_folder,'getready.ogg'))
+    ready.play()
+    #加载准备开始界面背景颜色和文本
+    screen.fill(BLACK)
+    draw_text(screen, &quot;GET READY!&quot;, 40, WIDTH/2, HEIGHT/3)
+    pygame.display.update()
+
+#设置文本属性函数
+def draw_text(surf,text,size,x,y):
+    #定义文本参数
+    font = pygame.font.Font(font_name,size)
+    text_surface = font.render(text,True,WHITE)
+    text_rect = text_surface.get_rect()
+    text_rect.midtop = (x,y)
+    surf.blit(text_surface,text_rect)
+
+#设置玩家血量条属性函数
+def draw_shield_bar(surf,x,y,pct):
+    pct = max(pct,0)
+    fill = (pct/100)*BAR_LENGTH
+    outline_rect = pygame.Rect(x,y,BAR_LENGTH,BAR_HEIGHT)
+    fill_rect = pygame.Rect(x,y,fill,BAR_HEIGHT)
+    pygame.draw.rect(surf,GREEN,fill_rect)
+    pygame.draw.rect(surf,WHITE,outline_rect,2)
+
+#设置玩家生命数量属性函数
+def draw_lives(surf,x,y,lives,img):
+    for i in range(lives):
+        img_rect = img.get_rect()
+        img_rect.x = x+30*i
+        img_rect.y = y
+        surf.blit(img,img_rect)
+
+#添加敌机函数
+def newmob():
+    mob_element = Mob()
+    all_sprites.add(mob_element)
+    mobs.add(mob_element)
+
+#添加火山石函数
+def newlava():
+    lava_element = Lava()
+    all_sprites.add(lava_element)
+    lavas.add(lava_element)
+
+#######################################类区#######################################
+
+class Explosion(pygame.sprite.Sprite):
+    '''创建爆炸类'''
+    def __init__(self,center,size):
+        pygame.sprite.Sprite.__init__(self)
+        self.size = size
+        self.image = explosion_anim[self.size][0]
+        self.rect = self.image.get_rect()
+        self.rect.center = center
+        self.frame = 0
+        self.last_update = pygame.time.get_ticks()
+        self.frame_rate = 75
+
+    def update(self):        
+        now = pygame.time.get_ticks()
+        if now - self.last_update &gt; self.frame_rate:
+            self.last_update = now
+            self.frame += 1
+            if self.frame == len(explosion_anim[self.size]):
+                self.kill()
+            else:
+                center = self.rect.center
+                self.image = explosion_anim[self.size][self.frame]
+                self.rect = self.image.get_rect()
+                self.rect.center = center
+
+class Player(pygame.sprite.Sprite):
+    '''创建玩家类'''
+    def __init__(self):
+        pygame.sprite.Sprite.__init__(self)
+        self.image = pygame.transform.scale(player_img,(50, 38))
+        self.image.set_colorkey(BLACK)
+        self.rect = self.image.get_rect()
+        self.radius = 20
+        self.rect.centerx = WIDTH/2
+        self.rect.bottom = HEIGHT-10
+        self.speedx = 0
+        self.speedy = 0
+        self.shield = 100
+        self.shoot_delay = 250
+        self.last_shot = pygame.time.get_ticks()
+        self.lives = 3
+        self.hidden = False
+        self.hide_timer = pygame.time.get_ticks()
+        self.power = 1
+        self.power_timer = pygame.time.get_ticks()
+
+    def update(self):
+        if self.power &gt;= 2 and pygame.time.get_ticks() - self.power_time &gt; POWERUP_TIME:
+            self.power -= 1
+            self.power_time = pygame.time.get_ticks()
+        if self.hidden and pygame.time.get_ticks() - self.hide_timer &gt; 1000:
+            self.hidden = False
+            self.rect.centerx = WIDTH/2
+            self.rect.bottom = HEIGHT-30
+        self.speedx = 0
+        self.speedy = 0
+        #方向控制：A控制左、D控制右、W控制上、S控制下、A+W控制左上、A+S控制左下、D+W控制右上、D+S控制右下
+        keystate = pygame.key.get_pressed()
+        if keystate[K_a]:
+            self.speedx = -5
+        if keystate[K_d]:
+            self.speedx = 5
+        if keystate[K_w]:
+            self.speedy = -5
+        if keystate[K_s]:
+            self.speedy = 5
+        #发射控制：空格
+        if keystate[pygame.K_SPACE]:
+            self.shoot()
+        #设置玩家移动边界
+        if self.rect.right &gt; WIDTH:
+            self.rect.right = WIDTH
+        if self.rect.left &lt; 0:
+            self.rect.left = 0
+        if self.rect.top &lt; 10:
+            self.rect.top = 10
+        if self.rect.bottom &gt; HEIGHT-10:
+            self.rect.bottom = HEIGHT-10
+        self.rect.x += self.speedx
+        self.rect.y += self.speedy
+
+    def shoot(self):
+        now = pygame.time.get_ticks()
+        if now-self.last_shot &gt; self.shoot_delay:
+            self.last_shot = now
+            #单火力
+            if self.power == 1:
+                bullet = Bullet(self.rect.centerx, self.rect.top)
+                all_sprites.add(bullet)
+                bullets.add(bullet)
+                shooting_sound.play()
+            #双火力
+            if self.power == 2:
+                bullet1 = Bullet(self.rect.left, self.rect.centery)
+                bullet2 = Bullet(self.rect.right, self.rect.centery)
+                all_sprites.add(bullet1)
+                all_sprites.add(bullet2)
+                bullets.add(bullet1)
+                bullets.add(bullet2)
+                shooting_sound.play()
+            #三火力
+            if self.power &gt;= 3:
+                bullet1 = Bullet(self.rect.left, self.rect.centery)
+                bullet2 = Bullet(self.rect.right, self.rect.centery)
+                missile1 = Missile(self.rect.centerx, self.rect.top) # 导弹
+                all_sprites.add(bullet1)
+                all_sprites.add(bullet2)
+                all_sprites.add(missile1)
+                bullets.add(bullet1)
+                bullets.add(bullet2)
+                bullets.add(missile1)
+                shooting_sound.play()
+                missile_sound.play()
+
+    def powerup(self):
+        self.power += 1
+        self.power_time = pygame.time.get_ticks()
+
+    def hide(self):
+        self.hidden = True
+        self.hide_timer = pygame.time.get_ticks()
+        self.rect.center = (WIDTH/2, HEIGHT+200)
+
+class Mob(pygame.sprite.Sprite):
+    '''创建敌机类'''
+    def __init__(self):
+        pygame.sprite.Sprite.__init__(self)
+        self.image_orig = random.choice(enemies_images)
+        self.image_orig.set_colorkey(BLACK)
+        self.image = self.image_orig.copy()
+        self.rect = self.image.get_rect()
+        self.radius = int(self.rect.width*.90/2)
+        self.rect.x = random.randrange(0, WIDTH-self.rect.width)
+        self.rect.y = random.randrange(-150,-100)       
+        self.speedy = random.randrange(5,10)
+        self.speedx = random.randrange(-3,3)
+        self.shoot_delay = 1000
+        self.last_shot = pygame.time.get_ticks()        
+
+    def update(self):
+        self.rect.x += self.speedx
+        self.rect.y += self.speedy
+        if random.randrange(10) &gt;= 6:
+            self.enemies_shoot()        
+        if (self.rect.top &gt; HEIGHT+10) or (self.rect.left &lt; -25) or (self.rect.right &gt; WIDTH+20):
+            self.rect.x = random.randrange(0,WIDTH-self.rect.width)
+            self.rect.y = random.randrange(-100,-40)
+            self.speedy = random.randrange(1,8)
+
+    def enemies_shoot(self):
+        now = pygame.time.get_ticks()
+        if now-self.last_shot &gt; self.shoot_delay:
+            self.last_shot = now
+            enemies_bullet = EnemiesBullet(self.rect.centerx, self.rect.bottom)
+            all_sprites.add(enemies_bullet)
+            enemies_bullets.add(enemies_bullet)
+            shooting_sound.play()
+
+class Lava(pygame.sprite.Sprite):
+    '''创建火山石类'''
+    def __init__(self):
+        pygame.sprite.Sprite.__init__(self)
+        self.image_orig = random.choice(lava_images)
+        self.image_orig.set_colorkey(BLACK)
+        self.image = self.image_orig.copy()
+        self.rect = self.image.get_rect()
+        self.radius = int(self.rect.width*.90/2)
+        self.rect.x = random.randrange(0, WIDTH-self.rect.width)
+        self.rect.y = random.randrange(-150,-100)       
+        self.speedy = random.randrange(5,10)
+        self.speedx = random.randrange(-3,3)
+        self.rotation = 0
+        self.rotation_speed = random.randrange(-8, 8)
+        self.last_update = pygame.time.get_ticks()
+
+    #添加火山石旋转效果
+    def rotate(self):
+        time_now = pygame.time.get_ticks()
+        if time_now-self.last_update &gt; 50:
+            self.last_update = time_now
+            self.rotation = (self.rotation+self.rotation_speed)%360
+            new_image = pygame.transform.rotate(self.image_orig,self.rotation)
+            old_center = self.rect.center
+            self.image = new_image
+            self.rect = self.image.get_rect()
+            self.rect.center = old_center                
+
+    def update(self):
+        self.rotate()
+        self.rect.x += self.speedx
+        self.rect.y += self.speedy               
+        if (self.rect.top &gt; HEIGHT+10) or (self.rect.left &lt; -25) or (self.rect.right &gt; WIDTH+20):
+            self.rect.x = random.randrange(0,WIDTH-self.rect.width)
+            self.rect.y = random.randrange(-100,-40)
+            self.speedy = random.randrange(1,8)       
+
+class Bullet(pygame.sprite.Sprite):
+    '''创建玩家炮弹类'''
+    def __init__(self, x, y):
+        pygame.sprite.Sprite.__init__(self)
+        self.image = bullet_img
+        self.image.set_colorkey(BLACK)
+        self.rect = self.image.get_rect()
+        self.rect.bottom = y
+        self.rect.centerx = x
+        self.speedy = -10
+
+    def update(self):
+        self.rect.y += self.speedy
+        if self.rect.bottom &lt; 0:
+            self.kill()
+
+class EnemiesBullet(pygame.sprite.Sprite):
+    '''创建敌机炮弹类'''
+    def __init__(self, x, y):
+        pygame.sprite.Sprite.__init__(self)
+        self.image = enemies_bullet_img
+        self.image.set_colorkey(BLACK)
+        self.rect = self.image.get_rect()
+        self.rect.top = y
+        self.rect.centerx = x
+        self.speedy = 10
+
+    def update(self):
+        self.rect.y += self.speedy
+        if self.rect.top &gt; 600:
+            self.kill()
+
+class Missile(pygame.sprite.Sprite):
+    '''创建导弹类'''
+    def __init__(self, x, y):
+        pygame.sprite.Sprite.__init__(self)
+        self.image = missile_img
+        self.image.set_colorkey(BLACK)
+        self.rect = self.image.get_rect()
+        self.rect.bottom = y
+        self.rect.centerx = x
+        self.speedy = -10
+
+    def update(self):
+        self.rect.y += self.speedy
+        if self.rect.bottom &lt; 0:
+            self.kill()
+
+class Pow(pygame.sprite.Sprite):
+    '''创建补给类'''
+    def __init__(self, center):
+        pygame.sprite.Sprite.__init__(self)
+        self.type = random.choice(['shield', 'gun'])
+        self.image = powerup_images[self.type]
+        self.image.set_colorkey(BLACK)
+        self.rect = self.image.get_rect()
+        self.rect.center = center
+        self.speedy = 4
+
+    def update(self):
+        self.rect.y += self.speedy
+        if self.rect.top &gt; HEIGHT:
+            self.kill()
+
+#######################################主循环#######################################
+
+#定义游戏开始界面标识
+running = True
+menu_display = True
+
+while running:
+    if menu_display:
+        main_menu()
+        pygame.time.wait(3000)
+        pygame.mixer.music.stop()
+        pygame.mixer.music.load(path.join(sound_folder,'tgfcoder-FrozenJam-SeamlessLoop.ogg'))
+        pygame.mixer.music.play(-1)
+        menu_display = False
+
+        all_sprites = pygame.sprite.Group()
+        player = Player()
+        all_sprites.add(player)        
+        mobs = pygame.sprite.Group()
+        for i in range(4):
+            newmob()
+        lavas = pygame.sprite.Group()
+        for i in range(4):
+            newlava()
+        bullets = pygame.sprite.Group()
+        enemies_bullets = pygame.sprite.Group()
+        powerups = pygame.sprite.Group()
+
+        score = 0   
+
+    clock.tick(FPS)
+
+    for event in pygame.event.get():
+        if event.type == pygame.QUIT:
+            running = False
+        if event.type == pygame.KEYDOWN:
+            if event.key == pygame.K_ESCAPE:
+                running = False
+
+    all_sprites.update()
+
+    #敌机与玩家炮弹碰撞检测
+    hits = pygame.sprite.groupcollide(mobs,bullets,True,True)    
+    for hit in hits:
+        score += 50-hit.radius
+        random.choice(expl_sounds).play()       
+        expl = Explosion(hit.rect.center,'lg')
+        all_sprites.add(expl)
+        if random.random() &gt; 0.9:
+            pow = Pow(hit.rect.center)
+            all_sprites.add(pow)
+            powerups.add(pow)
+        newmob()
+
+    #火山石与玩家炮弹碰撞检测
+    hits = pygame.sprite.groupcollide(lavas,bullets,True,True)    
+    for hit in hits:
+        score += 50-hit.radius
+        random.choice(expl_sounds).play()      
+        expl = Explosion(hit.rect.center,'lg')
+        all_sprites.add(expl)
+        if random.random() &gt; 0.9:
+            pow = Pow(hit.rect.center)
+            all_sprites.add(pow)
+            powerups.add(pow)
+        newlava()
+
+    #玩家与敌机碰撞检测
+    hits = pygame.sprite.spritecollide(player,mobs,True,pygame.sprite.collide_circle)
+    for hit in hits:
+        player.shield -= hit.radius*2
+        expl = Explosion(hit.rect.center,'sm')
+        all_sprites.add(expl)
+        newmob()
+        if player.shield &lt;= 0:
+            player_die_sound.play()
+            death_explosion = Explosion(player.rect.center,'player')
+            all_sprites.add(death_explosion)
+            player.hide()
+            player.lives -= 1
+            player.shield = 100
+
+    #玩家与火山石碰撞检测
+    hits = pygame.sprite.spritecollide(player,lavas,True,pygame.sprite.collide_circle)
+    for hit in hits:
+        player.shield -= hit.radius*2
+        expl = Explosion(hit.rect.center,'sm')
+        all_sprites.add(expl)
+        newlava()
+        if player.shield &lt;= 0:
+            player_die_sound.play()
+            death_explosion = Explosion(player.rect.center,'player')
+            all_sprites.add(death_explosion)
+            player.hide()
+            player.lives -= 1
+            player.shield = 100
+
+    #玩家与敌机炮弹碰撞检测
+    hits = pygame.sprite.spritecollide(player,enemies_bullets,True,pygame.sprite.collide_circle)
+    for hit in hits:
+        player.shield -= hit.radius*2
+        expl = Explosion(hit.rect.center,'sm')
+        all_sprites.add(expl)        
+        if player.shield &lt;= 0:
+            player_die_sound.play()
+            death_explosion = Explosion(player.rect.center,'player')
+            all_sprites.add(death_explosion)
+            player.hide()
+            player.lives -= 1
+            player.shield = 100
+
+    #玩家与补给碰撞检测
+    hits = pygame.sprite.spritecollide(player,powerups,True)
+    for hit in hits:
+        if hit.type == 'shield':
+            player.shield += random.randrange(10,30)
+            if player.shield &gt;= 100:
+                player.shield = 100
+        if hit.type == 'gun':
+            player.powerup()
+
+    if player.lives == 0 and not death_explosion.alive():
+        pygame.time.wait(1000)
+        screen.fill(BLACK)
+        draw_text(screen, &quot;Game Over&quot;, 40, WIDTH/2, HEIGHT/3)
+        pygame.display.update()
+        pygame.time.wait(3000)
+        menu_display = True
+
+    #背景画卷向下滚动
+    screen.fill(BLACK)    
+    screen.blit(background,(0,height))
+    height += 2
+    if height &gt;= -168:
+        height = -936
+
+    all_sprites.draw(screen)
+    draw_text(screen,str(score),18,WIDTH/2,10)
+    draw_shield_bar(screen,5,5,player.shield)    
+    draw_lives(screen,WIDTH-100,5,player.lives,player_mini_img)
+
+    pygame.display.flip()    
+
+pygame.quit()
+</code></pre>
+
+    </div>
+
+    
+
+
+
+
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="/tags/news/">news</a>
+  
+</div>
+
+
+
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=https://chengjunwang.com/%E8%AE%A1%E7%AE%97%E6%96%B0%E9%97%BB/%E4%BD%BF%E7%94%A8python%E7%8E%A9%E9%A3%9E%E6%9C%BA%E5%A4%A7%E6%88%98%E6%B8%B8%E6%88%8F/&amp;text=%e4%bd%bf%e7%94%a8python%e7%8e%a9%e9%a3%9e%e6%9c%ba%e5%a4%a7%e6%88%98%e6%b8%b8%e6%88%8f" target="_blank" rel="noopener" class="share-btn-twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=https://chengjunwang.com/%E8%AE%A1%E7%AE%97%E6%96%B0%E9%97%BB/%E4%BD%BF%E7%94%A8python%E7%8E%A9%E9%A3%9E%E6%9C%BA%E5%A4%A7%E6%88%98%E6%B8%B8%E6%88%8F/&amp;t=%e4%bd%bf%e7%94%a8python%e7%8e%a9%e9%a3%9e%e6%9c%ba%e5%a4%a7%e6%88%98%e6%b8%b8%e6%88%8f" target="_blank" rel="noopener" class="share-btn-facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=%e4%bd%bf%e7%94%a8python%e7%8e%a9%e9%a3%9e%e6%9c%ba%e5%a4%a7%e6%88%98%e6%b8%b8%e6%88%8f&amp;body=https://chengjunwang.com/%E8%AE%A1%E7%AE%97%E6%96%B0%E9%97%BB/%E4%BD%BF%E7%94%A8python%E7%8E%A9%E9%A3%9E%E6%9C%BA%E5%A4%A7%E6%88%98%E6%B8%B8%E6%88%8F/" target="_blank" rel="noopener" class="share-btn-email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=https://chengjunwang.com/%E8%AE%A1%E7%AE%97%E6%96%B0%E9%97%BB/%E4%BD%BF%E7%94%A8python%E7%8E%A9%E9%A3%9E%E6%9C%BA%E5%A4%A7%E6%88%98%E6%B8%B8%E6%88%8F/&amp;title=%e4%bd%bf%e7%94%a8python%e7%8e%a9%e9%a3%9e%e6%9c%ba%e5%a4%a7%e6%88%98%e6%b8%b8%e6%88%8f" target="_blank" rel="noopener" class="share-btn-linkedin">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://web.whatsapp.com/send?text=%e4%bd%bf%e7%94%a8python%e7%8e%a9%e9%a3%9e%e6%9c%ba%e5%a4%a7%e6%88%98%e6%b8%b8%e6%88%8f%20https://chengjunwang.com/%E8%AE%A1%E7%AE%97%E6%96%B0%E9%97%BB/%E4%BD%BF%E7%94%A8python%E7%8E%A9%E9%A3%9E%E6%9C%BA%E5%A4%A7%E6%88%98%E6%B8%B8%E6%88%8F/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=https://chengjunwang.com/%E8%AE%A1%E7%AE%97%E6%96%B0%E9%97%BB/%E4%BD%BF%E7%94%A8python%E7%8E%A9%E9%A3%9E%E6%9C%BA%E5%A4%A7%E6%88%98%E6%B8%B8%E6%88%8F/&amp;title=%e4%bd%bf%e7%94%a8python%e7%8e%a9%e9%a3%9e%e6%9c%ba%e5%a4%a7%e6%88%98%e6%b8%b8%e6%88%8f" target="_blank" rel="noopener" class="share-btn-weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+  
+  <div class="media author-card content-widget-hr">
+    
+      
+      <img class="portrait mr-3" src="/authors/admin/avatar_hudd12f2352811943b67d6d42ef6240e45_28224_250x250_fill_q90_lanczos_center.jpg" alt="Avatar">
+    
+
+    <div class="media-body">
+      <h5 class="card-title"><a href="https://chengjunwang.com/">Cheng-Jun Wang</a></h5>
+      <h6 class="card-subtitle">Associate Professor</h6>
+      <p class="card-text">Cheng-Jun Wang is currently an associate  professor in the <a href="http://jc.nju.edu.cn" target="_blank">School of Journalism and Communication, Nanjing University</a>.</p>
+      <ul class="network-icon" aria-hidden="true">
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+    <li>
+      <a href="mailto:%20wangchengjun@nju.edu.cn" >
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://twitter.com/ChengJunWang" target="_blank" rel="noopener">
+        <i class="fab fa-twitter"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://scholar.google.co.uk/citations?user=nNdt_G8AAAAJ" target="_blank" rel="noopener">
+        <i class="ai ai-google-scholar"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://github.com/chengjun" target="_blank" rel="noopener">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://www.researchgate.net/profile/Cheng_Jun_Wang" target="_blank" rel="noopener">
+        <i class="fab fa-researchgate"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://www.douban.com/people/1558440/" target="_blank" rel="noopener">
+        <i class="fab fa-douban"></i>
+      </a>
+    </li>
+  
+</ul>
+
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+  
+  
+  <div class="article-widget content-widget-hr">
+    <h3>Related</h3>
+    <ul>
+      
+      <li><a href="/%E8%AE%A1%E7%AE%97%E6%96%B0%E9%97%BB/2019ncov%E7%A1%AE%E8%AF%8A%E4%BA%BA%E6%95%B0%E6%9C%80%E5%A4%9A%E7%9A%84%E5%B0%8F%E5%8C%BA%E6%98%AF%E5%93%AA%E4%B8%80%E4%B8%AA/">2019确诊人数最多的小区是哪一个？</a></li>
+      
+      <li><a href="/%E8%AE%A1%E7%AE%97%E6%96%B0%E9%97%BB/causal-inferencewhat-if-%E7%94%B5%E5%AD%90%E4%B9%A6%E4%BB%A3%E7%A0%81%E6%95%B0%E6%8D%AE/">Causal Inference: 电子书、代码、数据</a></li>
+      
+      <li><a href="/%E8%AE%A1%E7%AE%97%E6%96%B0%E9%97%BB/covid-19%E6%95%B0%E6%8D%AE%E6%9D%A5%E6%BA%90%E4%B8%8D%E6%96%AD%E6%95%B4%E7%90%86%E5%BD%93%E4%B8%AD/">Covid-19数据来源（更新当中）</a></li>
+      
+      <li><a href="/%E8%AE%A1%E7%AE%97%E6%96%B0%E9%97%BB/2019ncov%E7%BB%86%E9%A2%97%E7%B2%92%E5%BA%A6%E5%8E%86%E5%8F%B2%E6%95%B0%E6%8D%AE/">Covid-19细颗粒度历史数据</a></li>
+      
+      <li><a href="/%E8%AE%A1%E7%AE%97%E6%96%B0%E9%97%BB/pygame%E5%86%85%E7%BD%AE%E5%B0%8F%E6%B8%B8%E6%88%8F%E5%A4%96%E6%98%9F%E4%BA%BA/">Pygame内置小游戏：外星人</a></li>
+      
+    </ul>
+  </div>
+  
+
+
+
+  </div>
+</article>
+
+      
+
+    
+    
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin="anonymous"></script>
+
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/highlight.min.js" integrity="sha256-1zu+3BnLYV9LdiY85uXMzii3bdrkelyp37e0ZyTAQh0=" crossorigin="anonymous"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/languages/r.min.js"></script>
+        
+      
+
+      
+      
+    
+
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.5.1/leaflet.js" integrity="sha256-EErZamuLefUnbMBQbsEqu1USa+btR2oIlCpBJbyD4/g=" crossorigin="anonymous"></script>
+    
+
+    
+    
+    <script>const code_highlighting = true;</script>
+    
+
+    
+    
+    
+    
+    
+    
+    <script>
+      const search_config = {"indexURI":"/index.json","minLength":1,"threshold":0.3};
+      const i18n = {"no_results":"No results found","placeholder":"Search...","results":"results found"};
+      const content_type = {
+        'post': "Posts",
+        'project': "Projects",
+        'publication' : "Publications",
+        'talk' : "Talks"
+        };
+    </script>
+    
+
+    
+    
+
+    
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    
+    
+    
+    <script src="/js/academic.min.3d0750632391ba55d8fd99a18dab4a0d.js"></script>
+
+    
+
+
+
+
+
+
+  
+  
+  <div class="container">
+    <footer class="site-footer">
+  
+
+  <p class="powered-by">
+    All rights &copy; reserved 2020 &middot; 
+
+    Powered by the
+    <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+    <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+    
+    <span class="float-right" aria-hidden="true">
+      <a href="#" class="back-to-top">
+        <span class="button_icon">
+          <i class="fas fa-chevron-up fa-2x"></i>
+        </span>
+      </a>
+    </span>
+    
+  </p>
+</footer>
+
+  </div>
+  
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

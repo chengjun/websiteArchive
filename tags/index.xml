@@ -5,12 +5,20 @@
     <link>https://chengjunwang.com/tags/</link>
       <atom:link href="https://chengjunwang.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <description>Tags</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><copyright>All rights © reserved 2020</copyright><lastBuildDate>Mon, 11 Nov 2019 12:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><copyright>All rights © reserved 2020</copyright><lastBuildDate>Thu, 13 Feb 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://chengjunwang.com/img/headers/deer.webp</url>
       <title>Tags</title>
       <link>https://chengjunwang.com/tags/</link>
     </image>
+    
+    <item>
+      <title>news</title>
+      <link>https://chengjunwang.com/tags/news/</link>
+      <pubDate>Thu, 13 Feb 2020 00:00:00 +0000</pubDate>
+      <guid>https://chengjunwang.com/tags/news/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>专著</title>
@@ -41,14 +49,6 @@
       <link>https://chengjunwang.com/tags/jcr/</link>
       <pubDate>Thu, 11 Jul 2019 00:00:00 +0000</pubDate>
       <guid>https://chengjunwang.com/tags/jcr/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>news</title>
-      <link>https://chengjunwang.com/tags/news/</link>
-      <pubDate>Wed, 13 Feb 2019 00:00:00 +0000</pubDate>
-      <guid>https://chengjunwang.com/tags/news/</guid>
       <description></description>
     </item>
     

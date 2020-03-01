@@ -1,0 +1,1196 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 4.6.1">
+
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Cheng-Jun Wang">
+
+  
+  
+  
+    
+  
+  <meta name="description" content="">
+
+  
+  <link rel="alternate" hreflang="en-us" href="https://chengjunwang.com/zh/archive/2013-09-27-topic-modeling-of-song-peom.zh/">
+
+  
+
+
+  
+  
+  
+  <meta name="theme-color" content="#2962ff">
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" integrity="sha256-+N4/V/SbAFiW1MPBCXnfnP9QSN3+Keu+NlB+0ev/YKQ=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+        
+      
+    
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.5.1/leaflet.css" integrity="sha256-SHMGCYmST46SoyGgo4YR/9AlK1vf3ff84Aq9yK4hdqM=" crossorigin="anonymous">
+    
+
+    
+
+  
+
+  
+  
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CRoboto:400,400italic,700%7CRoboto+Mono&display=swap">
+  
+
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/academic.css">
+
+  
+
+
+
+
+  
+
+
+  
+
+  <link rel="manifest" href="/index.webmanifest">
+  <link rel="icon" type="image/png" href="/img/icon-32.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+
+  <link rel="canonical" href="https://chengjunwang.com/zh/archive/2013-09-27-topic-modeling-of-song-peom.zh/">
+
+  
+  
+  
+  
+    
+  
+  
+  <meta property="twitter:card" content="summary_large_image">
+  
+  <meta property="twitter:site" content="@ChengJunWang">
+  <meta property="twitter:creator" content="@ChengJunWang">
+  
+  <meta property="og:site_name" content="Cheng-Jun Wang">
+  <meta property="og:url" content="https://chengjunwang.com/zh/archive/2013-09-27-topic-modeling-of-song-peom.zh/">
+  <meta property="og:title" content="东风夜放花千树：对宋词进行主题分析初探 | Cheng-Jun Wang">
+  <meta property="og:description" content=""><meta property="og:image" content="https://chengjunwang.com/img/headers/deer.webp">
+  <meta property="twitter:image" content="https://chengjunwang.com/img/headers/deer.webp"><meta property="og:locale" content="en-us">
+  
+    
+      <meta property="article:published_time" content="2013-09-27T00:00:00&#43;00:00">
+    
+    <meta property="article:modified_time" content="2013-09-27T00:00:00&#43;00:00">
+  
+
+  
+
+
+
+  
+
+
+  
+
+
+  
+
+
+
+
+
+  <title>东风夜放花千树：对宋词进行主题分析初探 | Cheng-Jun Wang</title>
+
+</head>
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" >
+
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search">
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+  
+<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+  <div class="container">
+
+    
+    
+    
+      <a class="navbar-brand" href="/">Cheng-Jun Wang</a>
+    
+
+    
+    <button type="button" class="navbar-toggler" data-toggle="collapse"
+            data-target="#navbar-content" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span><i class="fas fa-bars"></i></span>
+    </button>
+    
+
+    
+    
+    <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+
+      
+      <ul class="navbar-nav d-md-inline-flex">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#about"><span>Home</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#featured"><span>Publications</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#posts"><span>News</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#projects"><span>Projects</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/files/cv.pdf"><span>CV</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#contact"><span>Contact</span></a>
+        </li>
+
+        
+        
+
+      
+
+        
+      </ul>
+    </div>
+
+    <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+      
+      <li class="nav-item">
+        <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+      </li>
+      
+
+      
+      <li class="nav-item">
+        <a class="nav-link js-dark-toggle" href="#"><i class="fas fa-moon" aria-hidden="true"></i></a>
+      </li>
+      
+
+      
+
+    </ul>
+
+  </div>
+</nav>
+
+
+  <article class="article">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1>东风夜放花千树：对宋词进行主题分析初探</h1>
+
+  
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    Sep 27, 2013
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+
+  
+  
+
+</div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style">
+      <p><img src="http://forum.eedu.org.cn/upload/2008/02/27/90815055.jpg" alt="" /></p>
+
+<p>邱怡轩在统计之都中展示了对宋词进行的分析（参见<a href="http://cos.name/tag/%E5%AE%8B%E8%AF%8D/），因为当时缺乏中文分词的工具，他独辟蹊径，假设宋词中任意两个相邻的汉字构成一个词语，进而找到了宋词当中的高频词。本文则尝试使用他所提供的宋词语料（http://cos.name/wp-content/uploads/2011/03/SongPoem.tar.gz），分析一下使用R进行中文分词、构建词云、高频词语聚类以及主题模型分析。" target="_blank">http://cos.name/tag/%E5%AE%8B%E8%AF%8D/），因为当时缺乏中文分词的工具，他独辟蹊径，假设宋词中任意两个相邻的汉字构成一个词语，进而找到了宋词当中的高频词。本文则尝试使用他所提供的宋词语料（http://cos.name/wp-content/uploads/2011/03/SongPoem.tar.gz），分析一下使用R进行中文分词、构建词云、高频词语聚类以及主题模型分析。</a></p>
+
+<p>首先要载入使用的R包并读入数据。</p>
+
+<pre><code>library(Rwordseg)
+require(rJava)
+library(tm)
+library(slam)
+library(topicmodels)
+library(wordcloud)
+library(igraph)
+setwd(&quot;D:/github/text mining/song&quot;) # 更改为你的工作路径，并存放数据在此。
+txt=read.csv(&quot;SongPoem.csv&quot;,colClasses=&quot;character&quot;)
+</code></pre>
+
+<p>{:lang=&laquo;ruby&raquo;}</p>
+
+<p>然后进行对数据的操作。当然，第一步是进行中文分词，主要使用Rwordseg这个R包，其分词效果不错。分词的过程可以自动去掉标点符号。</p>
+
+<pre><code>poem_words &lt;- lapply(1:length(txt$Sentence), function(i) segmentCN(txt$Sentence[i], nature = TRUE))
+</code></pre>
+
+<p>{:lang=&laquo;ruby&raquo;}</p>
+
+<p>然后，我们将数据通过tm这个R包转化为文本-词矩阵（DocumentTermMatrix）。
+    wordcorpus &lt;- Corpus(VectorSource(poem_words), encoding = &laquo;UTF-8&raquo;) # 组成语料库格式</p>
+
+<pre><code>Sys.setlocale(locale=&quot;Chinese&quot;)
+dtm1 &lt;- DocumentTermMatrix(wordcorpus,
+                          control = list(
+                            wordLengths=c(1, Inf), # to allow long words
+                            bounds = list(global = c(5,Inf)), # each term appears in at least 5 docs
+                            removeNumbers = TRUE,
+                            # removePunctuation  = list(preserve_intra_word_dashes = FALSE),
+                            weighting = weightTf,
+                            encoding = &quot;UTF-8&quot;)
+)
+
+colnames(dtm1)
+findFreqTerms(dtm1, 1000) # 看一下高频词
+</code></pre>
+
+<p>{:lang=&laquo;ruby&raquo;}</p>
+
+<p>这里需要注意的是，这里我们默认词语的长度为1到无穷大，稍后，我们可以对其长度进行修改。例如，本文中，作者对改为长度为2以上以及长度为3以上，分别得到另外两个文本-词矩阵：dtm2和dtm3。随后，我们可以在文本-词矩阵进行一系列的分析。这里，先做一个简单的词云分析。为更好展示效果，最多只列出100个词。</p>
+
+<pre><code>m &lt;- as.matrix(dtm1)
+v &lt;- sort(colSums(m), decreasing=TRUE)
+myNames &lt;- names(v)
+d &lt;- data.frame(word=myNames, freq=v)
+par(mar = rep(2, 4))
+
+png(paste(getwd(), &quot;/wordcloud50_&quot;,  &quot;.png&quot;, sep = ''),
+    width=10, height=10,
+    units=&quot;in&quot;, res=700)
+
+pal2 &lt;- brewer.pal(8,&quot;Dark2&quot;)
+wordcloud(d$word,d$freq, scale=c(5,.2), min.freq=mean(d$freq),
+          max.words=100, random.order=FALSE, rot.per=.15, colors=pal2)
+dev.off()
+</code></pre>
+
+<p>{:lang=&laquo;ruby&raquo;}</p>
+
+<p>我们可以看一下效果，如下图所示，主要是一个字长度的词。最多的是“人”和“不”， 然后是“春”和“花”。</p>
+
+<p><img src="http://farm6.staticflickr.com/5480/9953518693_004590d6e3_z.jpg" alt="" /></p>
+
+<p>但我们也许对长度大于2的词以及长度大于3的词更感兴趣（同时这样也可以和邱怡轩做的结果做一下比较）。使用前面步骤中生成的dtm2重复构建词云的R程序，我们可以得到以下两个词云：</p>
+
+<p><img src="http://farm3.staticflickr.com/2821/9953413634_9a0d9020f7_z.jpg" alt="" /></p>
+
+<p>同样，对dtm3构建词云，效果如下：</p>
+
+<p><img src="http://farm8.staticflickr.com/7442/9953417766_8e6f160461_z.jpg" alt="" /></p>
+
+<p>以上结果和邱怡轩得到的结果类似，可见对高频词的处理方面，他的方法的确有创见。对词云分析之后，我们还可以尝试根据词与词之间共同出现的概率对词进行聚类。这里我们展示长度大于2的词的聚类结果。</p>
+
+<pre><code>dtm01 &lt;- weightTfIdf(dtm2)
+N = 0.9
+dtm02 &lt;- removeSparseTerms(dtm01, N);dtm02
+# 注意，为展示方便，这里我调节N的大小，使得dtm02中的词语数量在50左右。
+tdm = as.TermDocumentMatrix(dtm02)
+tdm &lt;- weightTfIdf(tdm)
+# convert the sparse term-document matrix to a standard data frame
+mydata.df &lt;- as.data.frame(inspect(tdm))
+mydata.df.scale &lt;- scale(mydata.df)
+d &lt;- dist(mydata.df.scale, method = &quot;euclidean&quot;) # distance matrix
+fit &lt;- hclust(d, method=&quot;ward&quot;)
+
+png(paste(&quot;d:/chengjun/honglou/honglou_termcluster_50_&quot;, &quot;.png&quot;, sep = ''),
+    width=10, height=10,
+    units=&quot;in&quot;, res=700)
+plot(fit) # display dendogram?
+dev.off()
+</code></pre>
+
+<p>{:lang=&laquo;ruby&raquo;}</p>
+
+<p>对长度大于2的词的聚类结果如下图所示，可见宋词的确注重“风流倜傥”，连分类都和风向有关系。</p>
+
+<p><img src="http://farm3.staticflickr.com/2875/9953397625_abdc6e9874_z.jpg" alt="" /></p>
+
+<p>当然读者还可以尝试对长度大于1词和长度大于3的词聚类，对长度大于1词聚类的效果图如下所示：</p>
+
+<p><img src="http://farm6.staticflickr.com/5548/9953397345_05a8944455_z.jpg" alt="" /></p>
+
+<p>长度大于3的词聚类结果如下：</p>
+
+<p><img src="http://farm8.staticflickr.com/7375/9953419256_f80a00e9e8_z.jpg" alt="" /></p>
+
+<p>完成这一步之后，作者还尝试对宋词进行简单的主题模型分析，首先还是从长度大于2的词开始吧。第一步是确定主题的数量。先对文本-词矩阵进行简单处理，以消除高频词被高估和低频词被低估的问题。</p>
+
+<pre><code>dtm = dtm2
+term_tfidf &lt;-tapply(dtm$v/row_sums(dtm)[dtm$i], dtm$j, mean) * log2(nDocs(dtm)/col_sums(dtm &gt; 0))
+l1=term_tfidf &gt;= quantile(term_tfidf, 0.5)       # second quantile, ie. median
+dtm &lt;- dtm[,l1]
+dtm = dtm[row_sums(dtm)&gt;0, ]; dim(dtm) # 2246 6210
+summary(col_sums(dtm))
+</code></pre>
+
+<p>{:lang=&laquo;ruby&raquo;}</p>
+
+<p>之后就可以正式地开始确定主题数量的R程序了。这里，笔者主要参考了朱雪宁《微博名人那些事儿》一文中的R程序（<a href="http://cos.name/2013/08/something_about_weibo/）。" target="_blank">http://cos.name/2013/08/something_about_weibo/）。</a></p>
+
+<pre><code>fold_num = 10
+kv_num =  c(5, 10*c(1:5, 10))
+seed_num = 2003
+try_num = 1
+
+smp&lt;-function(cross=fold_num,n,seed)
+{
+  set.seed(seed)
+  dd=list()
+  aa0=sample(rep(1:cross,ceiling(n/cross))[1:n],n)
+  for (i in 1:cross) dd[[i]]=(1:n)[aa0==i]
+  return(dd)
+}
+
+selectK&lt;-function(dtm,kv=kv_num,SEED=seed_num,cross=fold_num,sp) # change 60 to 15
+{
+  per_ctm=NULL
+  log_ctm=NULL
+  for (k in kv)
+  {
+    per=NULL
+    loglik=NULL
+    for (i in 1:try_num)  #only run for 3 replications#
+    {
+      cat(&quot;R is running for&quot;, &quot;topic&quot;, k, &quot;fold&quot;, i,
+          as.character(as.POSIXlt(Sys.time(), &quot;Asia/Shanghai&quot;)),&quot;\n&quot;)
+      te=sp[[i]]
+      tr=setdiff(1:dtm$nrow, te) # setdiff(nrow(dtm),te)  ## fix here when restart r session
+
+      # VEM = LDA(dtm[tr, ], k = k, control = list(seed = SEED)),
+      # VEM_fixed = LDA(dtm[tr,], k = k, control = list(estimate.alpha = FALSE, seed = SEED)),
+
+      #       CTM = CTM(dtm[tr,], k = k,
+      #                 control = list(seed = SEED, var = list(tol = 10^-4), em = list(tol = 10^-3)))  
+      #       
+      Gibbs = LDA(dtm[tr,], k = k, method = &quot;Gibbs&quot;,
+                  control = list(seed = SEED, burnin = 1000,thin = 100, iter = 1000))
+
+      per=c(per,perplexity(Gibbs,newdata=dtm[te,]))
+      loglik=c(loglik,logLik(Gibbs,newdata=dtm[te,]))
+    }
+    per_ctm=rbind(per_ctm,per)
+    log_ctm=rbind(log_ctm,loglik)
+  }
+  return(list(perplex=per_ctm,loglik=log_ctm))
+}
+
+sp=smp(n=dtm$nrow, seed=seed_num) # n = nrow(dtm)
+
+system.time((ctmK=selectK(dtm=dtm,kv=kv_num,SEED=seed_num,cross=fold_num,sp=sp)))
+
+## plot the perplexity
+
+m_per=apply(ctmK[[1]],1,mean)
+m_log=apply(ctmK[[2]],1,mean)
+
+k=c(kv_num)
+df = ctmK[[1]]  # perplexity matrix
+logLik = ctmK[[2]]  # perplexity matrix
+
+
+write.csv(data.frame(k, df, logLik), paste(getwd(), &quot;/Perplexity2_&quot;,&quot;gibbs5_100&quot;, &quot;.csv&quot;, sep = &quot;&quot;))
+
+# save the figure
+png(paste(getwd(), &quot;/Perplexity2_&quot;,try_num, &quot;_gibbs5_100&quot;,&quot;.png&quot;, sep = ''),
+    width=5, height=5,
+    units=&quot;in&quot;, res=700)
+
+
+matplot(k, df, type = c(&quot;b&quot;), xlab = &quot;Number of topics&quot;,
+        ylab = &quot;Perplexity&quot;, pch=1:try_num,col = 1, main = '')       
+legend(&quot;topright&quot;, legend = paste(&quot;fold&quot;, 1:try_num), col=1, pch=1:try_num)
+
+dev.off()
+
+png(paste(getwd(), &quot;/LogLikelihood2_&quot;, &quot;gibbs5_100&quot;,&quot;.png&quot;, sep = ''),
+    width=5, height=5,
+    units=&quot;in&quot;, res=700)
+matplot(k, logLik, type = c(&quot;b&quot;), xlab = &quot;Number of topics&quot;,
+        ylab = &quot;Log-Likelihood&quot;, pch=1:try_num,col = 1, main = '')       
+legend(&quot;topright&quot;, legend = paste(&quot;fold&quot;, 1:try_num), col=1, pch=1:try_num)
+dev.off()
+</code></pre>
+
+<p>{:lang=&laquo;ruby&raquo;}</p>
+
+<p>于是可以得到对数似然率和主题数量的关系图，如下所示。可见选择10作为主题数量是比较合适的。</p>
+
+<p><img src="http://farm4.staticflickr.com/3727/9953452316_6518296960.jpg" alt="" /></p>
+
+<p>以下，我们将主要对主题数量为10的主题模型进行估计。topicmodels这个R包是由Bettina Grun和
+Johannes Kepler两个人贡献的，目前支持VEM, VEM (fixed alpha)，Gibbs和CTM四种主题模型，关于其详细介绍，可以阅读他们的论文，关于主题模型的更多背景知识可以阅读Blei的相关文章。闲话少叙，看一下R代码：</p>
+
+<pre><code># 'Refer to http://cos.name/2013/08/something_about_weibo/'
+k = 10
+SEED &lt;- 2003
+jss_TM2 &lt;- list(
+  VEM = LDA(dtm, k = k, control = list(seed = SEED)),
+  VEM_fixed = LDA(dtm, k = k, control = list(estimate.alpha = FALSE, seed = SEED)),
+  Gibbs = LDA(dtm, k = k, method = &quot;Gibbs&quot;,
+              control = list(seed = SEED, burnin = 1000, thin = 100, iter = 1000)),
+  CTM = CTM(dtm, k = k,
+            control = list(seed = SEED, var = list(tol = 10^-4), em = list(tol = 10^-3))) )   
+save(jss_TM2, file = paste(getwd(), &quot;/jss_TM2.Rdata&quot;, sep = &quot;&quot;))
+save(jss_TM, file = paste(getwd(), &quot;/jss_TM1.Rdata&quot;, sep = &quot;&quot;))
+
+termsForSave1&lt;- terms(jss_TM2[[&quot;VEM&quot;]], 10)
+termsForSave2&lt;- terms(jss_TM2[[&quot;VEM_fixed&quot;]], 10)
+termsForSave3&lt;- terms(jss_TM2[[&quot;Gibbs&quot;]], 10)
+termsForSave4&lt;- terms(jss_TM2[[&quot;CTM&quot;]], 10)
+
+write.csv(as.data.frame(t(termsForSave1)),
+          paste(getwd(), &quot;/topic-document_&quot;, &quot;_VEM_&quot;, k, &quot;_2.csv&quot;, sep=&quot;&quot;),
+          fileEncoding = &quot;UTF-8&quot;)
+
+write.csv(as.data.frame(t(termsForSave2)),
+          paste(getwd(), &quot;/topic-document_&quot;, &quot;_VEM_fixed_&quot;, k, &quot;_2.csv&quot;, sep=&quot;&quot;),
+          fileEncoding = &quot;UTF-8&quot;)
+
+write.csv(as.data.frame(t(termsForSave3)),
+          paste(getwd(), &quot;/topic-document_&quot;, &quot;_Gibbs_&quot;, k, &quot;_2.csv&quot;, sep=&quot;&quot;),
+          fileEncoding = &quot;UTF-8&quot;)
+write.csv(as.data.frame(t(termsForSave4)),
+          paste(getwd(), &quot;/topic-document_&quot;, &quot;_CTM_&quot;, k, &quot;_2.csv&quot;, sep=&quot;&quot;),
+          fileEncoding = &quot;UTF-8&quot;)
+</code></pre>
+
+<p>{:lang=&laquo;ruby&raquo;}</p>
+
+<p>对主题模型进行估计之后，一般选择展示每个主题的前10个词语。因为主题之间可以共享相同词语，所以构成网络关系，因此这里我选择用网络的方法展示其结果。首先看一下吉布斯抽样算法得到的主题网络图，其R程序如下：</p>
+
+<pre><code>#'topic graphs'
+
+
+tfs = as.data.frame(termsForSave3, stringsAsFactors = F); tfs[,1]
+adjacent_list = lapply(1:10, function(i) embed(tfs[,i], 2)[, 2:1])
+edgelist = as.data.frame(do.call(rbind, adjacent_list), stringsAsFactors =F)
+# topic = unlist(lapply(1:10, function(i) rep(i, 9)))
+edgelist$topic = topic
+g &lt;-graph.data.frame(edgelist,directed=T )
+l&lt;-layout.fruchterman.reingold(g)
+# edge.color=&quot;black&quot;
+nodesize = centralization.degree(g)$res
+V(g)$size = log( centralization.degree(g)$res )
+
+nodeLabel = V(g)$name
+E(g)$color =  unlist(lapply(sample(colors()[26:137], 10), function(i) rep(i, 9))); unique(E(g)$color)
+
+# 保存图片格式
+png(  paste(getwd(), &quot;/topic_graph_gibbs.png&quot;, sep=&quot;&quot;）,
+    width=5, height=5,
+    units=&quot;in&quot;, res=700)
+
+plot(g, vertex.label= nodeLabel,  edge.curved=TRUE,
+     vertex.label.cex =0.5,  edge.arrow.size=0.2, layout=l )
+
+# 结束保存图片
+dev.off()
+</code></pre>
+
+<p>{:lang=&laquo;ruby&raquo;}</p>
+
+<p>得到的图形如下：</p>
+
+<p><img src="http://farm8.staticflickr.com/7330/9953452256_fb1baaa16d_c.jpg" alt="" /></p>
+
+<p>当然，我们还可以看一下其他算法得到的网络图，这里我们看一下根据VEM和CTM两个主题模型得到的网络图。</p>
+
+<p>CTM模型的主题网络图：</p>
+
+<p><img src="http://farm8.staticflickr.com/7425/9953448564_d24b8e348a_c.jpg" alt="" /></p>
+
+<p>VEM模型的主题网络图：</p>
+
+<p><img src="http://farm4.staticflickr.com/3727/9953448704_ec8291a0e3_c.jpg" alt="" /></p>
+    </div>
+
+    
+
+
+
+
+
+
+
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=https://chengjunwang.com/zh/archive/2013-09-27-topic-modeling-of-song-peom.zh/&amp;text=%e4%b8%9c%e9%a3%8e%e5%a4%9c%e6%94%be%e8%8a%b1%e5%8d%83%e6%a0%91%ef%bc%9a%e5%af%b9%e5%ae%8b%e8%af%8d%e8%bf%9b%e8%a1%8c%e4%b8%bb%e9%a2%98%e5%88%86%e6%9e%90%e5%88%9d%e6%8e%a2" target="_blank" rel="noopener" class="share-btn-twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=https://chengjunwang.com/zh/archive/2013-09-27-topic-modeling-of-song-peom.zh/&amp;t=%e4%b8%9c%e9%a3%8e%e5%a4%9c%e6%94%be%e8%8a%b1%e5%8d%83%e6%a0%91%ef%bc%9a%e5%af%b9%e5%ae%8b%e8%af%8d%e8%bf%9b%e8%a1%8c%e4%b8%bb%e9%a2%98%e5%88%86%e6%9e%90%e5%88%9d%e6%8e%a2" target="_blank" rel="noopener" class="share-btn-facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=%e4%b8%9c%e9%a3%8e%e5%a4%9c%e6%94%be%e8%8a%b1%e5%8d%83%e6%a0%91%ef%bc%9a%e5%af%b9%e5%ae%8b%e8%af%8d%e8%bf%9b%e8%a1%8c%e4%b8%bb%e9%a2%98%e5%88%86%e6%9e%90%e5%88%9d%e6%8e%a2&amp;body=https://chengjunwang.com/zh/archive/2013-09-27-topic-modeling-of-song-peom.zh/" target="_blank" rel="noopener" class="share-btn-email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=https://chengjunwang.com/zh/archive/2013-09-27-topic-modeling-of-song-peom.zh/&amp;title=%e4%b8%9c%e9%a3%8e%e5%a4%9c%e6%94%be%e8%8a%b1%e5%8d%83%e6%a0%91%ef%bc%9a%e5%af%b9%e5%ae%8b%e8%af%8d%e8%bf%9b%e8%a1%8c%e4%b8%bb%e9%a2%98%e5%88%86%e6%9e%90%e5%88%9d%e6%8e%a2" target="_blank" rel="noopener" class="share-btn-linkedin">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://web.whatsapp.com/send?text=%e4%b8%9c%e9%a3%8e%e5%a4%9c%e6%94%be%e8%8a%b1%e5%8d%83%e6%a0%91%ef%bc%9a%e5%af%b9%e5%ae%8b%e8%af%8d%e8%bf%9b%e8%a1%8c%e4%b8%bb%e9%a2%98%e5%88%86%e6%9e%90%e5%88%9d%e6%8e%a2%20https://chengjunwang.com/zh/archive/2013-09-27-topic-modeling-of-song-peom.zh/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=https://chengjunwang.com/zh/archive/2013-09-27-topic-modeling-of-song-peom.zh/&amp;title=%e4%b8%9c%e9%a3%8e%e5%a4%9c%e6%94%be%e8%8a%b1%e5%8d%83%e6%a0%91%ef%bc%9a%e5%af%b9%e5%ae%8b%e8%af%8d%e8%bf%9b%e8%a1%8c%e4%b8%bb%e9%a2%98%e5%88%86%e6%9e%90%e5%88%9d%e6%8e%a2" target="_blank" rel="noopener" class="share-btn-weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+  
+  <div class="media author-card content-widget-hr">
+    
+      
+      <img class="portrait mr-3" src="/authors/admin/avatar_hudd12f2352811943b67d6d42ef6240e45_28224_250x250_fill_q90_lanczos_center.jpg" alt="Avatar">
+    
+
+    <div class="media-body">
+      <h5 class="card-title"><a href="https://chengjunwang.com/">Cheng-Jun Wang</a></h5>
+      <h6 class="card-subtitle">Associate Professor</h6>
+      <p class="card-text">Cheng-Jun Wang is currently an associate  professor in the <a href="http://jc.nju.edu.cn" target="_blank">School of Journalism and Communication, Nanjing University</a>.</p>
+      <ul class="network-icon" aria-hidden="true">
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+    <li>
+      <a href="mailto:%20wangchengjun@nju.edu.cn" >
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://twitter.com/ChengJunWang" target="_blank" rel="noopener">
+        <i class="fab fa-twitter"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://scholar.google.co.uk/citations?user=nNdt_G8AAAAJ" target="_blank" rel="noopener">
+        <i class="ai ai-google-scholar"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://github.com/chengjun" target="_blank" rel="noopener">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://www.researchgate.net/profile/Cheng_Jun_Wang" target="_blank" rel="noopener">
+        <i class="fab fa-researchgate"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://www.douban.com/people/1558440/" target="_blank" rel="noopener">
+        <i class="fab fa-douban"></i>
+      </a>
+    </li>
+  
+</ul>
+
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+  </div>
+</article>
+
+      
+
+    
+    
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin="anonymous"></script>
+
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/highlight.min.js" integrity="sha256-1zu+3BnLYV9LdiY85uXMzii3bdrkelyp37e0ZyTAQh0=" crossorigin="anonymous"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/languages/r.min.js"></script>
+        
+      
+
+      
+      
+    
+
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.5.1/leaflet.js" integrity="sha256-EErZamuLefUnbMBQbsEqu1USa+btR2oIlCpBJbyD4/g=" crossorigin="anonymous"></script>
+    
+
+    
+    
+    <script>const code_highlighting = true;</script>
+    
+
+    
+    
+    
+    
+    
+    
+    <script>
+      const search_config = {"indexURI":"/index.json","minLength":1,"threshold":0.3};
+      const i18n = {"no_results":"No results found","placeholder":"Search...","results":"results found"};
+      const content_type = {
+        'post': "Posts",
+        'project': "Projects",
+        'publication' : "Publications",
+        'talk' : "Talks"
+        };
+    </script>
+    
+
+    
+    
+
+    
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    
+    
+    
+    <script src="/js/academic.min.3d0750632391ba55d8fd99a18dab4a0d.js"></script>
+
+    
+
+
+
+
+
+
+  
+  
+  <div class="container">
+    <footer class="site-footer">
+  
+
+  <p class="powered-by">
+    All rights &copy; reserved 2020 &middot; 
+
+    Powered by the
+    <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+    <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+    
+    <span class="float-right" aria-hidden="true">
+      <a href="#" class="back-to-top">
+        <span class="button_icon">
+          <i class="fas fa-chevron-up fa-2x"></i>
+        </span>
+      </a>
+    </span>
+    
+  </p>
+</footer>
+
+  </div>
+  
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

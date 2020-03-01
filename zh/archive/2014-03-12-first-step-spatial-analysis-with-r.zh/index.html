@@ -1,0 +1,1225 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 4.6.1">
+
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Cheng-Jun Wang">
+
+  
+  
+  
+    
+  
+  <meta name="description" content="">
+
+  
+  <link rel="alternate" hreflang="en-us" href="https://chengjunwang.com/zh/archive/2014-03-12-first-step-spatial-analysis-with-r.zh/">
+
+  
+
+
+  
+  
+  
+  <meta name="theme-color" content="#2962ff">
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" integrity="sha256-+N4/V/SbAFiW1MPBCXnfnP9QSN3+Keu+NlB+0ev/YKQ=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+        
+      
+    
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.5.1/leaflet.css" integrity="sha256-SHMGCYmST46SoyGgo4YR/9AlK1vf3ff84Aq9yK4hdqM=" crossorigin="anonymous">
+    
+
+    
+
+  
+
+  
+  
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CRoboto:400,400italic,700%7CRoboto+Mono&display=swap">
+  
+
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/academic.css">
+
+  
+
+
+
+
+  
+
+
+  
+
+  <link rel="manifest" href="/index.webmanifest">
+  <link rel="icon" type="image/png" href="/img/icon-32.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+
+  <link rel="canonical" href="https://chengjunwang.com/zh/archive/2014-03-12-first-step-spatial-analysis-with-r.zh/">
+
+  
+  
+  
+  
+    
+  
+  
+  <meta property="twitter:card" content="summary_large_image">
+  
+  <meta property="twitter:site" content="@ChengJunWang">
+  <meta property="twitter:creator" content="@ChengJunWang">
+  
+  <meta property="og:site_name" content="Cheng-Jun Wang">
+  <meta property="og:url" content="https://chengjunwang.com/zh/archive/2014-03-12-first-step-spatial-analysis-with-r.zh/">
+  <meta property="og:title" content="空间分析初步：空间点类型分析 | Cheng-Jun Wang">
+  <meta property="og:description" content=""><meta property="og:image" content="https://chengjunwang.com/img/headers/deer.webp">
+  <meta property="twitter:image" content="https://chengjunwang.com/img/headers/deer.webp"><meta property="og:locale" content="en-us">
+  
+    
+      <meta property="article:published_time" content="2014-03-12T00:00:00&#43;00:00">
+    
+    <meta property="article:modified_time" content="2014-03-12T00:00:00&#43;00:00">
+  
+
+  
+
+
+
+  
+
+
+  
+
+
+  
+
+
+
+
+
+  <title>空间分析初步：空间点类型分析 | Cheng-Jun Wang</title>
+
+</head>
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" >
+
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search">
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+  
+<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+  <div class="container">
+
+    
+    
+    
+      <a class="navbar-brand" href="/">Cheng-Jun Wang</a>
+    
+
+    
+    <button type="button" class="navbar-toggler" data-toggle="collapse"
+            data-target="#navbar-content" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span><i class="fas fa-bars"></i></span>
+    </button>
+    
+
+    
+    
+    <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+
+      
+      <ul class="navbar-nav d-md-inline-flex">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#about"><span>Home</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#featured"><span>Publications</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#posts"><span>News</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#projects"><span>Projects</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/files/cv.pdf"><span>CV</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#contact"><span>Contact</span></a>
+        </li>
+
+        
+        
+
+      
+
+        
+      </ul>
+    </div>
+
+    <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+      
+      <li class="nav-item">
+        <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+      </li>
+      
+
+      
+      <li class="nav-item">
+        <a class="nav-link js-dark-toggle" href="#"><i class="fas fa-moon" aria-hidden="true"></i></a>
+      </li>
+      
+
+      
+
+    </ul>
+
+  </div>
+</nav>
+
+
+  <article class="article">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1>空间分析初步：空间点类型分析</h1>
+
+  
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    Mar 12, 2014
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+
+  
+  
+
+</div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style">
+      <h3 id="引言">引言</h3>
+
+<p>空间分析（spatial analysis）对于扩散研究非常重要，它揭示了传播在空间维度上的分布。令人略感惊奇的是空间分析的研究者越来越多地使用R软件。其中一个原因是R包罗万象，而空间分析仍在发展且神情未定。在这个时候难以判定哪种方法最优。此时，策略当然是博观约取。R因其囊括众多统计方法而成为连接不同分析套路的首选；另外在R当中使用者可以继续开发新的数据分析包。可谓一举两得。　</p>
+
+<h3 id="数据读入">数据读入</h3>
+
+<p>我使用的是2013年米兰城12月份推特用户的地理信息数据。该数据来自<a href="http://www.telecomitalia.com/tit/en/bigdatachallenge/contest/dataset.html" target="_blank">Big Data Challenge</a> of Telecommunication。使用Python写很简单的script从其服务器api接口读取数据:</p>
+
+<pre><code># Download milano tweets data using python
+# chengjun wang @ cmc
+# 2014 Mar 11
+
+import urllib2
+import json
+
+f = open('D:/chengjun/Milan/Social pulse/Milano_sample.csv', 'w')
+for offset in range(0,269290/100 +1):
+    print &quot;working on offset: &quot;, offset
+    req_url = 'https://api.dandelion.eu/datagem/social-pulse-milano/data/v1/?$limit=100&amp;$offset='+str(offset)+'&amp;$app_id=d...a&amp;$app_key=2e...7c'
+    jstr = urllib2.urlopen(req_url).read() # json string
+    &quot;&quot;&quot; these are flickr-specific &quot;&quot;&quot;
+    jinfo = json.loads( jstr )
+    for i in range(0, len(jinfo['items'])):
+        lan = jinfo['items'][i]['language']
+        time = jinfo['items'][i]['created']
+        geo = jinfo['items'][i]['geometry']['coordinates']
+        timestamp = jinfo['items'][i]['timestamp']
+        municipality_name = jinfo['items'][i]['municipality']['name']
+        municipality_id = jinfo['items'][i]['municipality']['acheneID']
+        entities = jinfo['items'][i]['entities']
+        user = jinfo['items'][i]['user']
+        print &gt;&gt;f, &quot;%s;%s;%s;%s;%s;%s;'%s';%s&quot; % (lan, time, geo, timestamp, municipality_name, municipality_id, entities, user)
+f.close()
+</code></pre>
+
+<p>首先，读入点的时空分布数据。　</p>
+
+<pre><code># read data
+library(maptools)
+library(sp)
+library(rgdal)
+
+setwd(&quot;D:/chengjun/Milan&quot;)
+dat = read.csv(&quot;./Social pulse/Milano_sample.csv&quot;, header = FALSE, stringsAsFactors = FALSE, sep = &quot;;&quot;, quote = &quot;&quot;)
+names(dat) = c(&quot;lan&quot;, &quot;time&quot;, &quot;geo&quot;, &quot;timestamp&quot;, &quot;mname&quot;, &quot;mid&quot;, &quot;entities&quot;, &quot;user&quot;)
+</code></pre>
+
+<p>进行简单的清洗：</p>
+
+<pre><code># clean data
+dat = subset(dat, dat$time &gt;= as.POSIXlt(&quot;2013-12-01 00:00:00&quot;)); dim(dat)
+dat$time = do.call(rbind, strsplit(dat$time, split = &quot;\\.&quot;))[,1]
+dat$time = gsub(&quot;T&quot;, &quot; &quot;, dat$time)
+dat$time = as.POSIXlt(dat$time)
+dat$geo = gsub(&quot;[&quot;, &quot;&quot;, dat$geo, fixed = T)
+dat$geo = gsub(&quot;]&quot;, &quot;&quot;, dat$geo, fixed = T)
+</code></pre>
+
+<p>从openstreetmap下载米兰城的交通地理信息。使用rgdal这个R包读入数据：</p>
+
+<pre><code># download shp data from
+# http://metro.teczno.com/#milan
+ost=readOGR(&quot;./Milano Grid/milano-grid/milan.imposm-shapefiles/milan.osm-mainroads.shp&quot;, layer = &quot;milan.osm-mainroads&quot;) #will load the shapefile
+</code></pre>
+
+<p>要把地理信息转为经纬度的数据表示形式：</p>
+
+<pre><code>spl = spTransform(ost, CRS(&quot;+proj=longlat&quot;)) # convert to longitude and latitude
+</code></pre>
+
+<p>如果要画出spl的话，速度有点慢, 因为绘制的点比较多。</p>
+
+<p>用了其中一个小数据(涵盖一天中的几个小时)，为了展现了每个小时的<a href="http://chengjun.github.io/big_data_challenge/visualization.html" target="_blank">动态变化</a>，使用CartoDB网站来制作了一个简单的可视化。顺便找了一遍各种javascript的库和其它包（googleVis, Echarts等），发现都不实用，所以还是用R吧。</p>
+
+<p>设置绘图的函数，来看一下数据的形式：</p>
+
+<pre><code># plot function
+make_plot = function(){
+  tz = as.POSIXlt(&quot;2013-12-01 00:00:00&quot;)
+  end_time = as.POSIXlt(&quot;2013-12-02 00:00:00&quot;)
+  while(tz &lt;= end_time){
+    print(tz)
+    datd = subset(dat, dat$time &gt; tz&amp; dat$time &lt;= tz + 3600)
+    plot(spl, col = &quot;pink&quot;)
+    title(tz)
+    p = do.call(rbind, strsplit(datd$geo, split=','))
+    p1 = as.numeric(p[,1])
+    p2 = as.numeric(p[,2])
+    points(p2~p1, pch = 1, col = &quot;red&quot;, cex = 0.1)
+    tz = tz + 3600
+  }
+}
+
+# save figures
+png(file = &quot;./linear%2d.png&quot;,
+    width=5, height=5,
+    units=&quot;in&quot;, res=700)
+make_plot()
+dev.off()
+</code></pre>
+
+<p>读者也可以直接使用animation这个R包来绘图。我在实验室的机器上安装ImageMagick有点问题，干脆存为图片了，再转为gif了。</p>
+
+<p><img src="http://farm3.staticflickr.com/2610/13103072964_078e5abcc6_o.gif" alt="米兰城12月1日每个小时发推特的时空分布" /></p>
+
+<p><strong>图1</strong> 米兰城一天当中的发推特的时空分布</p>
+
+<p>把12月31天的数据累积起来，我们可以得到米兰城2013年12月当中的发推特的空间分布。</p>
+
+<pre><code># the overall geographical distribution
+png(&quot;./milano_social_pulse_December.png&quot;,
+    width=10, height=10,
+    units=&quot;in&quot;, res=700)
+plot(spl, col = &quot;purple&quot;)
+p = do.call(rbind, strsplit(dat$geo, split=','))
+p1 = as.numeric(p[,1])
+p2 = as.numeric(p[,2])
+points(p2~p1, pch = 1, col = &quot;red&quot;, cex = 0.01)
+dev.off()
+</code></pre>
+
+<p><img src="http://farm8.staticflickr.com/7349/13103304784_11e17eae38.jpg" alt="" /></p>
+
+<p><strong>图2</strong> 米兰城2013年12月当中的发推特的空间分布</p>
+
+<p>这个图还是有点意思的：街道是城市人流的管道（Tube,伦敦好像把地铁直接称为tube）,人的移动等行为（包括社会媒体使用行为）则是穿行其间的流。推特聚集的地方与街道的轮廓高度契合。城市的中心推特的密度大（因为人流的密度大？）。所以可以检验下点的分布是否是随机的。</p>
+
+<h3 id="空间点类型分析">空间点类型分析</h3>
+
+<p>这里涉及到空间点类型分析（spatial point pattern analysis）。检验下点的分布是否是随机的最简单的方法是进行完全空间随机（complete spatial randomness， CSR）分析。</p>
+
+<p><strong>G方程方法</strong></p>
+
+<p>这里说的最近邻居，英文当中却成为nearest event。把一个点的存在称之为事件也挺好玩。我们知道两个节点$$E_i$$和$$E_j$$的距离为:</p>
+
+<p>$$d(E_i, E_j) = \sqrt{(x_i - x_j)^2 + (y_i-y_j)^2}$$</p>
+
+<p>平均最近邻居距离可以表示为:</p>
+
+<p>$$\overline{d}<em>{min} = \frac{\sum</em>{i}^{n}d_{min}(X_i)}{n}$$</p>
+
+<p>于是可以定义事件-事件最近邻居距离，即任意一个事件到它的最近事件之间的距离。任意一个事件$$E_i$$的事件-事件最近邻居距离：</p>
+
+<p>$$d_i = {min}<em>j {d</em>{ij}, \forall j\neq i }$$</p>
+
+<p>对于一个距离d, 可定义G(d)为最近邻居距离的累计频数分布：</p>
+
+<p>$$ G(d) = \frac{# d_{min}E_i&lt;d}{n} $$</p>
+
+<p>说以G方程方法测量的最近邻居距离小于d的事件的比率。当事件分布存在聚集的情况的时候，G在距离较小的时候就增长特别快；当事件分布均匀时，距离较小的时候G增长缓慢，当距离达到使得多数事件分隔的大小后，G开始快速增长。</p>
+
+<p><strong>F方程方法</strong></p>
+
+<p>另外一个有用的测度是F方程。F方程测量了从空间中任意一个<strong>点</strong>到与它最近的<strong>事件</strong>之间的距离，因而它测量的是<strong>点-事件最近邻居距离</strong>。据此，F方程也被称之为空虚空间距离。</p>
+
+<p>计算F方程或点-事件距离的时候要先随机的抽取一些空间中的点, 计算它的最短距离，然后统计其中满足最短距离小于d的比率。</p>
+
+<p>$$F(d) = \frac{#d_{min}(x_i&lt;d)}{m}$$</p>
+
+<p>因为F方程是随机抽取空间中的点来统计，因而可以应对较大的数据规模。一个小的事件的聚集会导致G方程快速增长，但其实其它多数空间都是空的，所以F方程增长会较慢。当然了，对于规则分布的点，这种对比的结果则可能相反。</p>
+
+<p>使用G和F方程可以测量事件分布的实际情况，我们的零假设是事件分布是随机的，符合泊松分布:</p>
+
+<p>$$f(k, \lambda) = \frac{\lambda^k e^{-\lambda}}{k!}$$</p>
+
+<p>用$$\lambda$$表示事件的空间分布密度，在一个半径为d的平面$$\pi d^2$$里面理论上存在的事件数量是$$\lambda \pi d^2$$。</p>
+
+<p>此处推导略去（汗，我不会啊。），那么G和F的理论值按照泊松分布应该是：</p>
+
+<p>$$G = F = 1-e^{-\lambda \pi d^2}$$</p>
+
+<p>有了理论值，有了实际值，我们就可以对比二者之间的差距。进而推论空间事件的点分布是否是随机的了。</p>
+
+<p>这个推断的过程使用spatstat这个R包进行：</p>
+
+<pre><code>require(spatstat)
+#the analysis of point patterns
+geo = data.frame(dat$p1, dat$p2)
+# Convert data to ppp format
+geo_ppp = ppp(geo[,1], geo[,2],
+               c(min(geo[,1]), max(geo[,1])),
+               c(min(geo[,2]), max(geo[,2]))
+               ) # slow
+# G function method
+g = Gest(geo_ppp)
+plot(g)
+
+# F function method
+f = Fest(geo_ppp)
+plot(f)
+</code></pre>
+
+<p>这里可以使用envelope的方法，使用蒙特卡洛的方法，根据一些算法来随机生成n个（比如100个）数据，以保证分析的准确性。</p>
+
+<pre><code>g = envelope(geo_ppp, Gest, nsim = 100)
+plot(g)
+</code></pre>
+
+<p><img src="http://farm4.staticflickr.com/3824/13124103465_64f43f59bc.jpg" alt="" /></p>
+
+<pre><code>f = envelope(geo_ppp, Fest, nsim = 100)
+plot(f)
+</code></pre>
+
+<p><img src="http://farm8.staticflickr.com/7362/13124385414_f32593880e.jpg" alt="" /></p>
+
+<p>显然发推特的空间位置的分布并非随机的，具有较明显的聚集现象，所以G方程一开始就增长很快，而虚空空间函数F方程则增长缓慢。</p>
+
+<h3 id="空间点过程分析">空间点过程分析</h3>
+
+<p>这毕竟还是有点不够形象，有没有高大上的形象的方法？试试<a href="http://cran.at.r-project.org/web/packages/spatstat/vignettes/getstart.pdf" target="_blank">kernel smoother of point density</a>:</p>
+
+<pre><code>plot(density.ppp(geo_ppp), main = &quot;&quot;)
+</code></pre>
+
+<p><img src="http://farm3.staticflickr.com/2636/13124643824_4ee4b447d5_c.jpg" alt="" /></p>
+
+<p>注意density.ppp返回的不是一个概率密度。它是对点密度的估计。密度是每个单位空间里随机点的期望。密度通常与空间位置有关。使用空间面积对密度函数积分，得到的是落入该区域的点的数量。</p>
+
+<p>于是乎，规律就更明显了：不仅仅是简单的点聚集，而且是箭靶形式的聚集，像北京环城路一样。越是中心，点就越密集。</p>
+
+<p>不过不要高兴太早，因为这个结果还是太粗糙。我们明明看到点的聚集情况并非如此完美的圆环。因为使用kernel平滑方法估计点的密度这种方法对于频宽（bandwidth）的大小特别敏感。有必要加以控制。另外，这里涉及到两种kernel的方法：四次多项式平滑和高斯平滑。这里要使用splancs这个R包。</p>
+
+<pre><code>##############
+&quot;quartic and Gaussian kernels&quot;
+##############
+
+library(splancs)
+</code></pre>
+
+<p>抱怨一下，因为以下用到的bw.diggle这个用来为kernel密度来选择经过交叉检验的频宽（Cross Validated Bandwidth Selection for Kernel Density）的命令，我不得不使用部分数据，因为它实在太消耗内存了。</p>
+
+<pre><code># subset a week-long small data
+dat1 = subset(dat, dat$day &gt;=as.Date(&quot;2013-12-01&quot;)&amp;dat$day &lt;=as.Date(&quot;2013-12-07&quot;))
+
+geo = data.frame(dat1$p1, dat1$p2)
+geo_ppp = ppp(geo[,1], geo[,2],
+  c(min(geo[,1]), max(geo[,1])),
+  c(min(geo[,2]), max(geo[,2]))
+) # slow
+
+## Quartic kernel
+mserwq&lt;-mse2d(as.points(coordinates(geo)),
+  as.points(list(x=c(0,1,1,0), y=c(0,0,1,1))), 100, range = .001) # flexible range
+bwq&lt;-mserwq$h[which.min(mserwq$mse)]
+bwq
+
+## Gaussian kernel
+mserw&lt;-bw.diggle(as(geo_ppp, &quot;ppp&quot;)) #   Reached total allocation of 32765Mb: see help(memory.size)
+bw&lt;-as.numeric(mserw)
+bw
+
+&quot;plot the Mean Square Error-Bandwidth&quot;
+par(mfrow=c(1, 2))
+plot(mserwq$h, mserwq$mse, xlab=&quot;Bandwidth&quot;, ylab=&quot;MSE&quot;, type=&quot;l&quot;, main=&quot;Quartic kernel&quot;)
+i&lt;-which.min(mserwq$mse)
+points(mserwq$h[i], mserwq$mse[i], col = &quot;red&quot;)
+plot(mserw, main=&quot;Gaussian kernel&quot;, xlab=&quot;Bandwidth&quot;, ylab=&quot;MSE&quot;)
+points(attr(mserw, &quot;h&quot;)[attr(mserw, &quot;iopt&quot;)], bw, col = &quot;red&quot;)
+</code></pre>
+
+<p><img src="http://farm8.staticflickr.com/7310/13145953075_2b2ae6a1e1.jpg" alt="" /></p>
+
+<p>看，最优化的频宽选择并不太有用，不过频宽真得很小。</p>
+
+<pre><code>geos = SpatialPointsDataFrame(geo, geo)
+poly = as.points(list(x = c(0, 0, 1, 1), y = c(0, 1, 1, 0)))
+
+sG &lt;- Sobj_SpatialGrid(geos, maxDim=100)$SG
+grd &lt;- slot(sG, &quot;grid&quot;)
+summary(grd)
+
+# k0 &lt;- spkernel2d(geos, poly, h0=bw, grd)
+# k1 &lt;- spkernel2d(geos, poly, h0=.05, grd)
+# k2 &lt;- spkernel2d(geos, poly, h0=.1, grd)
+# k3 &lt;- spkernel2d(geos, poly, h0=.15, grd)
+# df &lt;- data.frame(k0=k0, k1=k1, k2=k2, k3=k3)
+# kernels &lt;- SpatialGridDataFrame(grd, data=df)
+# summary(kernels)
+# 这里都是NA,四次多项式的结果并不好
+
+##################################
+cc &lt;- coordinates(sG); head(cc)
+xy&lt;-list(x=cc[,1], y=cc[,2])
+k0&lt;-density(as(geos, &quot;ppp&quot;), .5*bw, dimyx=c(100, 100), xy=xy)
+k1&lt;-density(as(geos, &quot;ppp&quot;), .5*bw*200, dimyx=c(100, 100), xy=xy)
+k2&lt;-density(as(geos, &quot;ppp&quot;), .5*bw*500, dimyx=c(100, 100), xy=xy)
+k3&lt;-density(as(geos, &quot;ppp&quot;), .5*bw*600, dimyx=c(100, 100), xy=xy)
+k4&lt;-density(as(geos, &quot;ppp&quot;), .5*bw*800, dimyx=c(100, 100), xy=xy)
+k5&lt;-density(as(geos, &quot;ppp&quot;), .5*bw*1000, dimyx=c(100, 100), xy=xy)
+k6&lt;-density(as(geos, &quot;ppp&quot;), .5*bw*1500, dimyx=c(100, 100), xy=xy)
+k7&lt;-density(as(geos, &quot;ppp&quot;), .5*bw*2000, dimyx=c(100, 100), xy=xy)
+&quot;plot the MSE-Bandwidth&quot;
+png(file = &quot;./gaussian_kernel_density_first_week_in_december2.png&quot;,
+width=8, height=16,
+units=&quot;in&quot;, res=700)
+
+par(mfrow=c(4, 2), mar=rep(1, 4))
+plot(k0)
+plot(k1)
+plot(k2)
+plot(k3)
+plot(k4)
+plot(k5)
+plot(k6)
+plot(k7)
+
+dev.off()
+</code></pre>
+
+<p><img src="http://farm8.staticflickr.com/7408/13145698615_5559e6ba2c_o.png" alt="" /></p>
+
+<p>这里列出几个比较小的频宽的核密度图：这与我们的观察比较一致。</p>
+
+<pre><code># kernels$k7&lt;-as(k7, &quot;SpatialGridDataFrame&quot;)$v
+df &lt;- data.frame(k0=k0, k1=k1, k2=k2, k3=k3, k4=k4, k5=k5， k6 = k6, k7 = k7)
+kernels &lt;- SpatialGridDataFrame(grd, data=df)
+summary(kernels)
+</code></pre>
+
+<p>参考文献</p>
+
+<blockquote>
+<p>Lloyd，D.C.(2007) Local Models for Spatial Analysis. CRC press</p>
+
+<p>Baddeley, A. (2010) Analysing spatial point patterns in R. Workshop notes. CSIRO online technical publication. URL: www.csiro.au/resources/pf16h.html</p>
+
+<p>Diggle, P.J. (1985) A kernel method for smoothing point process data. Applied Statistics (Journal of the Royal Statistical Society, Series C) 34 (1985) 138–147.</p>
+
+<p>Diggle, P.J. (2003) Statistical analysis of spatial point patterns, Second edition. Arnold.</p>
+</blockquote>
+    </div>
+
+    
+
+
+
+
+
+
+
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=https://chengjunwang.com/zh/archive/2014-03-12-first-step-spatial-analysis-with-r.zh/&amp;text=%e7%a9%ba%e9%97%b4%e5%88%86%e6%9e%90%e5%88%9d%e6%ad%a5%ef%bc%9a%e7%a9%ba%e9%97%b4%e7%82%b9%e7%b1%bb%e5%9e%8b%e5%88%86%e6%9e%90" target="_blank" rel="noopener" class="share-btn-twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=https://chengjunwang.com/zh/archive/2014-03-12-first-step-spatial-analysis-with-r.zh/&amp;t=%e7%a9%ba%e9%97%b4%e5%88%86%e6%9e%90%e5%88%9d%e6%ad%a5%ef%bc%9a%e7%a9%ba%e9%97%b4%e7%82%b9%e7%b1%bb%e5%9e%8b%e5%88%86%e6%9e%90" target="_blank" rel="noopener" class="share-btn-facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=%e7%a9%ba%e9%97%b4%e5%88%86%e6%9e%90%e5%88%9d%e6%ad%a5%ef%bc%9a%e7%a9%ba%e9%97%b4%e7%82%b9%e7%b1%bb%e5%9e%8b%e5%88%86%e6%9e%90&amp;body=https://chengjunwang.com/zh/archive/2014-03-12-first-step-spatial-analysis-with-r.zh/" target="_blank" rel="noopener" class="share-btn-email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=https://chengjunwang.com/zh/archive/2014-03-12-first-step-spatial-analysis-with-r.zh/&amp;title=%e7%a9%ba%e9%97%b4%e5%88%86%e6%9e%90%e5%88%9d%e6%ad%a5%ef%bc%9a%e7%a9%ba%e9%97%b4%e7%82%b9%e7%b1%bb%e5%9e%8b%e5%88%86%e6%9e%90" target="_blank" rel="noopener" class="share-btn-linkedin">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://web.whatsapp.com/send?text=%e7%a9%ba%e9%97%b4%e5%88%86%e6%9e%90%e5%88%9d%e6%ad%a5%ef%bc%9a%e7%a9%ba%e9%97%b4%e7%82%b9%e7%b1%bb%e5%9e%8b%e5%88%86%e6%9e%90%20https://chengjunwang.com/zh/archive/2014-03-12-first-step-spatial-analysis-with-r.zh/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=https://chengjunwang.com/zh/archive/2014-03-12-first-step-spatial-analysis-with-r.zh/&amp;title=%e7%a9%ba%e9%97%b4%e5%88%86%e6%9e%90%e5%88%9d%e6%ad%a5%ef%bc%9a%e7%a9%ba%e9%97%b4%e7%82%b9%e7%b1%bb%e5%9e%8b%e5%88%86%e6%9e%90" target="_blank" rel="noopener" class="share-btn-weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+  
+  <div class="media author-card content-widget-hr">
+    
+      
+      <img class="portrait mr-3" src="/authors/admin/avatar_hudd12f2352811943b67d6d42ef6240e45_28224_250x250_fill_q90_lanczos_center.jpg" alt="Avatar">
+    
+
+    <div class="media-body">
+      <h5 class="card-title"><a href="https://chengjunwang.com/">Cheng-Jun Wang</a></h5>
+      <h6 class="card-subtitle">Associate Professor</h6>
+      <p class="card-text">Cheng-Jun Wang is currently an associate  professor in the <a href="http://jc.nju.edu.cn" target="_blank">School of Journalism and Communication, Nanjing University</a>.</p>
+      <ul class="network-icon" aria-hidden="true">
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+    <li>
+      <a href="mailto:%20wangchengjun@nju.edu.cn" >
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://twitter.com/ChengJunWang" target="_blank" rel="noopener">
+        <i class="fab fa-twitter"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://scholar.google.co.uk/citations?user=nNdt_G8AAAAJ" target="_blank" rel="noopener">
+        <i class="ai ai-google-scholar"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://github.com/chengjun" target="_blank" rel="noopener">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://www.researchgate.net/profile/Cheng_Jun_Wang" target="_blank" rel="noopener">
+        <i class="fab fa-researchgate"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://www.douban.com/people/1558440/" target="_blank" rel="noopener">
+        <i class="fab fa-douban"></i>
+      </a>
+    </li>
+  
+</ul>
+
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+  </div>
+</article>
+
+      
+
+    
+    
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin="anonymous"></script>
+
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/highlight.min.js" integrity="sha256-1zu+3BnLYV9LdiY85uXMzii3bdrkelyp37e0ZyTAQh0=" crossorigin="anonymous"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/languages/r.min.js"></script>
+        
+      
+
+      
+      
+    
+
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.5.1/leaflet.js" integrity="sha256-EErZamuLefUnbMBQbsEqu1USa+btR2oIlCpBJbyD4/g=" crossorigin="anonymous"></script>
+    
+
+    
+    
+    <script>const code_highlighting = true;</script>
+    
+
+    
+    
+    
+    
+    
+    
+    <script>
+      const search_config = {"indexURI":"/index.json","minLength":1,"threshold":0.3};
+      const i18n = {"no_results":"No results found","placeholder":"Search...","results":"results found"};
+      const content_type = {
+        'post': "Posts",
+        'project': "Projects",
+        'publication' : "Publications",
+        'talk' : "Talks"
+        };
+    </script>
+    
+
+    
+    
+
+    
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    
+    
+    
+    <script src="/js/academic.min.3d0750632391ba55d8fd99a18dab4a0d.js"></script>
+
+    
+
+
+
+
+
+
+  
+  
+  <div class="container">
+    <footer class="site-footer">
+  
+
+  <p class="powered-by">
+    All rights &copy; reserved 2020 &middot; 
+
+    Powered by the
+    <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+    <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+    
+    <span class="float-right" aria-hidden="true">
+      <a href="#" class="back-to-top">
+        <span class="button_icon">
+          <i class="fas fa-chevron-up fa-2x"></i>
+        </span>
+      </a>
+    </span>
+    
+  </p>
+</footer>
+
+  </div>
+  
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
