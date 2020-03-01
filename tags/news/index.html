@@ -465,8 +465,7 @@
     <h2><a href="/%E8%AE%A1%E7%AE%97%E6%96%B0%E9%97%BB/2019ncov%E7%BB%86%E9%A2%97%E7%B2%92%E5%BA%A6%E5%8E%86%E5%8F%B2%E6%95%B0%E6%8D%AE/">Covid-19细颗粒度历史数据</a></h2>
     <div class="article-style">
       
-      epidemic_hist_all() NCP细化到地市的细颗粒数据 https://github.com/norratek/Ncov2020HistoryData https://docs.google.com/spreadsheets/d/1JNQnFYJpR7PxQo5K5lwXTuE0F6jprhMXuy7DPnV9H90/edit#gid=0 :return: 返回每日的历史数据 :rtype: pandas.DataFrame
- import akshare as ak import pylab as plt plt.style.use('fivethirtyeight') epidemic_hist_all_df = ak.epidemic_hist_all()  提取江苏省的历史数据 epidemic_hist_all_df = epidemic_hist_all_df.sort_values(by='date') js = epidemic_hist_all_df[epidemic_hist_all_df['Province']=='江苏省'] js.head()  看一下南京市的数据 plt.figure(figsize=(12, 6), dpi = 200) i = '南京' df = js[js['City']==i] plt.plot(df['date'], df['Confirmed'], 'r-s', label = '累计确诊') plt.plot(df['date'], df['Cured'], 'g-o', label = '累计治愈') plt.title(i, fontsize =20) plt.legend() # plt.yscale('log') plt.xticks(rotation=60) plt.ylabel('数量', fontsize = 20) plt.show()  江苏所有地级市数据 cols = [ '#bd2309', '#bbb12d', '#1480fa', '#14fa2f', '#000000', '#faf214', '#2edfea', '#ea2ec4', '#ea2e40', '#cdcdcd', '#577a4d', '#2e46c0', '#f59422', '#219774', '#8086d9' ] plt.
+       
       
     </div>
   </div>

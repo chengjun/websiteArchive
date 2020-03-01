@@ -28,8 +28,7 @@
   
     
   
-  <meta name="description" content="epidemic_hist_all() NCP细化到地市的细颗粒数据 https://github.com/norratek/Ncov2020HistoryData https://docs.google.com/spreadsheets/d/1JNQnFYJpR7PxQo5K5lwXTuE0F6jprhMXuy7DPnV9H90/edit#gid=0 :return: 返回每日的历史数据 :rtype: pandas.DataFrame
- import akshare as ak import pylab as plt plt.style.use(&#39;fivethirtyeight&#39;) epidemic_hist_all_df = ak.epidemic_hist_all()  提取江苏省的历史数据 epidemic_hist_all_df = epidemic_hist_all_df.sort_values(by=&#39;date&#39;) js = epidemic_hist_all_df[epidemic_hist_all_df[&#39;Province&#39;]==&#39;江苏省&#39;] js.head()  看一下南京市的数据 plt.figure(figsize=(12, 6), dpi = 200) i = &#39;南京&#39; df = js[js[&#39;City&#39;]==i] plt.plot(df[&#39;date&#39;], df[&#39;Confirmed&#39;], &#39;r-s&#39;, label = &#39;累计确诊&#39;) plt.plot(df[&#39;date&#39;], df[&#39;Cured&#39;], &#39;g-o&#39;, label = &#39;累计治愈&#39;) plt.title(i, fontsize =20) plt.legend() # plt.yscale(&#39;log&#39;) plt.xticks(rotation=60) plt.ylabel(&#39;数量&#39;, fontsize = 20) plt.show()  江苏所有地级市数据 cols = [ &#39;#bd2309&#39;, &#39;#bbb12d&#39;, &#39;#1480fa&#39;, &#39;#14fa2f&#39;, &#39;#000000&#39;, &#39;#faf214&#39;, &#39;#2edfea&#39;, &#39;#ea2ec4&#39;, &#39;#ea2e40&#39;, &#39;#cdcdcd&#39;, &#39;#577a4d&#39;, &#39;#2e46c0&#39;, &#39;#f59422&#39;, &#39;#219774&#39;, &#39;#8086d9&#39; ] plt.">
+  <meta name="description" content=" ">
 
   
   <link rel="alternate" hreflang="en-us" href="https://chengjunwang.com/%E8%AE%A1%E7%AE%97%E6%96%B0%E9%97%BB/2019ncov%E7%BB%86%E9%A2%97%E7%B2%92%E5%BA%A6%E5%8E%86%E5%8F%B2%E6%95%B0%E6%8D%AE/">
@@ -118,8 +117,7 @@
   <meta property="og:site_name" content="Cheng-Jun Wang">
   <meta property="og:url" content="https://chengjunwang.com/%E8%AE%A1%E7%AE%97%E6%96%B0%E9%97%BB/2019ncov%E7%BB%86%E9%A2%97%E7%B2%92%E5%BA%A6%E5%8E%86%E5%8F%B2%E6%95%B0%E6%8D%AE/">
   <meta property="og:title" content="Covid-19细颗粒度历史数据 | Cheng-Jun Wang">
-  <meta property="og:description" content="epidemic_hist_all() NCP细化到地市的细颗粒数据 https://github.com/norratek/Ncov2020HistoryData https://docs.google.com/spreadsheets/d/1JNQnFYJpR7PxQo5K5lwXTuE0F6jprhMXuy7DPnV9H90/edit#gid=0 :return: 返回每日的历史数据 :rtype: pandas.DataFrame
- import akshare as ak import pylab as plt plt.style.use(&#39;fivethirtyeight&#39;) epidemic_hist_all_df = ak.epidemic_hist_all()  提取江苏省的历史数据 epidemic_hist_all_df = epidemic_hist_all_df.sort_values(by=&#39;date&#39;) js = epidemic_hist_all_df[epidemic_hist_all_df[&#39;Province&#39;]==&#39;江苏省&#39;] js.head()  看一下南京市的数据 plt.figure(figsize=(12, 6), dpi = 200) i = &#39;南京&#39; df = js[js[&#39;City&#39;]==i] plt.plot(df[&#39;date&#39;], df[&#39;Confirmed&#39;], &#39;r-s&#39;, label = &#39;累计确诊&#39;) plt.plot(df[&#39;date&#39;], df[&#39;Cured&#39;], &#39;g-o&#39;, label = &#39;累计治愈&#39;) plt.title(i, fontsize =20) plt.legend() # plt.yscale(&#39;log&#39;) plt.xticks(rotation=60) plt.ylabel(&#39;数量&#39;, fontsize = 20) plt.show()  江苏所有地级市数据 cols = [ &#39;#bd2309&#39;, &#39;#bbb12d&#39;, &#39;#1480fa&#39;, &#39;#14fa2f&#39;, &#39;#000000&#39;, &#39;#faf214&#39;, &#39;#2edfea&#39;, &#39;#ea2ec4&#39;, &#39;#ea2e40&#39;, &#39;#cdcdcd&#39;, &#39;#577a4d&#39;, &#39;#2e46c0&#39;, &#39;#f59422&#39;, &#39;#219774&#39;, &#39;#8086d9&#39; ] plt."><meta property="og:image" content="https://chengjunwang.com/img/headers/neza.svg">
+  <meta property="og:description" content=" "><meta property="og:image" content="https://chengjunwang.com/img/headers/neza.svg">
   <meta property="twitter:image" content="https://chengjunwang.com/img/headers/neza.svg"><meta property="og:locale" content="en-us">
   
     
