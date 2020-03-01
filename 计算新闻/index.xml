@@ -207,7 +207,7 @@ js = epidemic_hist_all_df[epidemic_hist_all_df[&#39;Province&#39;]==&#39;江苏�
 js.head()
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://upload-images.jianshu.io/upload_images/38934-9d77dfc7f7017353.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240&#34; alt=&#34;江苏历史数据&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://upload-images.jianshu.io/upload_images/38934-9d77dfc7f7017353.png&#34; alt=&#34;江苏历史数据&#34; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;看一下南京市的数据&#34;&gt;看一下南京市的数据&lt;/h2&gt;
 
@@ -226,7 +226,7 @@ plt.ylabel(&#39;数量&#39;, fontsize = 20)
 plt.show()
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://upload-images.jianshu.io/upload_images/38934-35ffdf5545111033.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240&#34; alt=&#34;南京市&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://upload-images.jianshu.io/upload_images/38934-35ffdf5545111033.png&#34; alt=&#34;南京市&#34; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;江苏所有地级市数据&#34;&gt;江苏所有地级市数据&lt;/h2&gt;
 
@@ -247,7 +247,7 @@ plt.ylabel(&#39;累计确诊数量&#39;, fontsize = 20)
 plt.show()
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://upload-images.jianshu.io/upload_images/38934-3928a50dae64878b.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240&#34; alt=&#34;江苏所有地级市&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://upload-images.jianshu.io/upload_images/38934-3928a50dae64878b.png&#34; alt=&#34;江苏所有地级市&#34; /&gt;&lt;/p&gt;
 </description>
     </item>
     
