@@ -1597,9 +1597,12 @@ index_df3 = ak.baidu_media_index(word=&amp;quot;螺纹钢&amp;quot;, start_date=
 
 &lt;p&gt;已有 24688 次阅读 2020-1-24 08:44 |系统分类:&lt;a href=&#34;http://blog.sciencenet.cn/home.php?mod=space&amp;amp;do=blog&amp;amp;view=all&amp;amp;uid=3075&amp;amp;catid=1&#34; target=&#34;_blank&#34;&gt;科研笔记&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;有人已经注意到了海外研究团队基于现有公开数据对武汉当地感染武汉肺炎的实际人数进行估计。目前影响比较大，大家讨论比较多的分析报告主要有两个来源：
-- 一是Alessandro Vespignani教授领衔的西北大学研究组的系列报告[1]，
-- 二是以一个帝国理工的日本妹子（Natsuko Imai博士）为第一作者的系列报告[2]。为了方便，后文称为帝国理工报告和西北大学报告。&lt;a href=&#34;https://www.imperial.ac.uk/media/imperial-college/medicine/sph/ide/gida-fellowships/2019-nCoV-outbreak-report-22-01-2020.pdf&#34; target=&#34;_blank&#34;&gt;Estimating the potential total number of novel Coronavirus in Wuhan City, China&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;有人已经注意到了海外研究团队基于现有公开数据对武汉当地感染武汉肺炎的实际人数进行估计。目前影响比较大，大家讨论比较多的分析报告主要有两个来源：&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;一是Alessandro Vespignani教授领衔的西北大学研究组的系列报告[1]，&lt;/li&gt;
+&lt;li&gt;二是以一个帝国理工的日本妹子（Natsuko Imai博士）为第一作者的系列报告[2]。为了方便，后文称为帝国理工报告和西北大学报告。&lt;a href=&#34;https://www.imperial.ac.uk/media/imperial-college/medicine/sph/ide/gida-fellowships/2019-nCoV-outbreak-report-22-01-2020.pdf&#34; target=&#34;_blank&#34;&gt;Estimating the potential total number of novel Coronavirus in Wuhan City, China&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;p&gt;两个报告采用的数据都是公开报道的武汉出境人员被确诊感染2019-nCoV的记录，但使用的方法有所不同。但是两个报告的结论惊人一致。
 1. 帝国理工报告认为武汉全市在2020年1月18日左右差不多开始出现症状的2019-nCoV实际感染人数约为&lt;strong&gt;4000人&lt;/strong&gt;，不确定性是1000-9700（通过参数敏感性分析得到的）；
