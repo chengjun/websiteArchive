@@ -28,8 +28,15 @@
   
     
   
-  <meta name="description" content=" 
-">
+  <meta name="description" content="来回答一个问题：已经开放的数据当中，确诊人数最多的小区是哪一个？
+前文介绍了akshare的安装和简单使用，本文介绍使用akshare获取细化到每个小区的确诊人数数据。腾讯提供了一个公开的数据，可以供查询。为此，我们将使用到akshare的epidemic_area_detail接口。
+ epidemic_area_detail() 细化到每个小区的确诊人数 需要遍历每个页面, 如非必要, 请勿运行 https://ncov.html5.qq.com/community?channelid=1&amp;from=singlemessage&amp;isappinstalled=0 :return: 全国每个小区的确诊人数 :rtype: pandas.DataFrame
+ import akshare as ak epidemic_area_detail_df = ak.epidemic_area_detail() print(epidemic_area_detail_df)  一共1070, 要等待一会儿。
+下载完成后，我们可以看一下江苏的数据：
+先看一下每个小区的确诊人数：
+epidemic_area_detail_df[&#39;cnt_sum_certain&#39;].unique()   array([&lsquo;2&rsquo;, &lsquo;4&rsquo;, &lsquo;1&rsquo;, &lsquo;-1&rsquo;, &lsquo;3&rsquo;, &lsquo;5&rsquo;, &lsquo;7&rsquo;, &lsquo;10&rsquo;, &lsquo;6&rsquo;, &lsquo;8&rsquo;, &lsquo;9&rsquo;, &lsquo;12&rsquo;, &lsquo;14&rsquo;, &lsquo;19&rsquo;, &lsquo;13&rsquo;, &lsquo;11&rsquo;, &lsquo;256&rsquo;, &lsquo;119&rsquo;, &lsquo;31&rsquo;, &lsquo;15&rsquo;, &lsquo;22&rsquo;, &lsquo;16&rsquo;, &lsquo;39&rsquo;, &lsquo;17&rsquo;, &lsquo;23&rsquo;], dtype=object)
+ 发现：1. 数据是字符串格式；2.含有 ‘-1’，应该是不详。
+import numpy as np vlist = [] for i in epidemic_area_detail_df[&#39;cnt_sum_certain&#39;]: if i !">
 
   
   <link rel="alternate" hreflang="en-us" href="https://chengjunwang.com/%E8%AE%A1%E7%AE%97%E6%96%B0%E9%97%BB/2019ncov%E7%A1%AE%E8%AF%8A%E4%BA%BA%E6%95%B0%E6%9C%80%E5%A4%9A%E7%9A%84%E5%B0%8F%E5%8C%BA%E6%98%AF%E5%93%AA%E4%B8%80%E4%B8%AA/">
@@ -118,8 +125,15 @@
   <meta property="og:site_name" content="Cheng-Jun Wang">
   <meta property="og:url" content="https://chengjunwang.com/%E8%AE%A1%E7%AE%97%E6%96%B0%E9%97%BB/2019ncov%E7%A1%AE%E8%AF%8A%E4%BA%BA%E6%95%B0%E6%9C%80%E5%A4%9A%E7%9A%84%E5%B0%8F%E5%8C%BA%E6%98%AF%E5%93%AA%E4%B8%80%E4%B8%AA/">
   <meta property="og:title" content="2019确诊人数最多的小区是哪一个？ | Cheng-Jun Wang">
-  <meta property="og:description" content=" 
-"><meta property="og:image" content="https://chengjunwang.com/img/headers/neza.svg">
+  <meta property="og:description" content="来回答一个问题：已经开放的数据当中，确诊人数最多的小区是哪一个？
+前文介绍了akshare的安装和简单使用，本文介绍使用akshare获取细化到每个小区的确诊人数数据。腾讯提供了一个公开的数据，可以供查询。为此，我们将使用到akshare的epidemic_area_detail接口。
+ epidemic_area_detail() 细化到每个小区的确诊人数 需要遍历每个页面, 如非必要, 请勿运行 https://ncov.html5.qq.com/community?channelid=1&amp;from=singlemessage&amp;isappinstalled=0 :return: 全国每个小区的确诊人数 :rtype: pandas.DataFrame
+ import akshare as ak epidemic_area_detail_df = ak.epidemic_area_detail() print(epidemic_area_detail_df)  一共1070, 要等待一会儿。
+下载完成后，我们可以看一下江苏的数据：
+先看一下每个小区的确诊人数：
+epidemic_area_detail_df[&#39;cnt_sum_certain&#39;].unique()   array([&lsquo;2&rsquo;, &lsquo;4&rsquo;, &lsquo;1&rsquo;, &lsquo;-1&rsquo;, &lsquo;3&rsquo;, &lsquo;5&rsquo;, &lsquo;7&rsquo;, &lsquo;10&rsquo;, &lsquo;6&rsquo;, &lsquo;8&rsquo;, &lsquo;9&rsquo;, &lsquo;12&rsquo;, &lsquo;14&rsquo;, &lsquo;19&rsquo;, &lsquo;13&rsquo;, &lsquo;11&rsquo;, &lsquo;256&rsquo;, &lsquo;119&rsquo;, &lsquo;31&rsquo;, &lsquo;15&rsquo;, &lsquo;22&rsquo;, &lsquo;16&rsquo;, &lsquo;39&rsquo;, &lsquo;17&rsquo;, &lsquo;23&rsquo;], dtype=object)
+ 发现：1. 数据是字符串格式；2.含有 ‘-1’，应该是不详。
+import numpy as np vlist = [] for i in epidemic_area_detail_df[&#39;cnt_sum_certain&#39;]: if i !"><meta property="og:image" content="https://chengjunwang.com/img/headers/neza.svg">
   <meta property="twitter:image" content="https://chengjunwang.com/img/headers/neza.svg"><meta property="og:locale" content="en-us">
   
     
@@ -564,7 +578,7 @@ epidemic_area_detail_df['cnt_sum_certain'] = vlist
 
 <div class="article-tags">
   
-  <a class="badge badge-light" href="/tags/news/">news</a>
+  <a class="badge badge-light" href=""></a>
   
 </div>
 
@@ -815,7 +829,7 @@ epidemic_area_detail_df['cnt_sum_certain'] = vlist
       
       <li><a href="/%E8%AE%A1%E7%AE%97%E6%96%B0%E9%97%BB/pygame%E5%86%85%E7%BD%AE%E5%B0%8F%E6%B8%B8%E6%88%8F%E5%A4%96%E6%98%9F%E4%BA%BA/">Pygame内置小游戏：外星人</a></li>
       
-      <li><a href="/%E8%AE%A1%E7%AE%97%E6%96%B0%E9%97%BB/%E7%9F%B3%E5%A4%B4%E6%B1%A4%E8%A1%8C%E5%8A%A8%E5%92%8C%E5%88%86%E4%BA%AB%E7%9A%84%E5%8A%9B%E9%87%8F/">《石头汤》</a></li>
+      <li><a href="/%E8%AE%A1%E7%AE%97%E6%96%B0%E9%97%BB/%E7%9F%B3%E5%A4%B4%E6%B1%A4/">《石头汤》</a></li>
       
     </ul>
   </div>

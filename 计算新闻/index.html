@@ -435,8 +435,15 @@
     <h2><a href="/%E8%AE%A1%E7%AE%97%E6%96%B0%E9%97%BB/2019ncov%E7%A1%AE%E8%AF%8A%E4%BA%BA%E6%95%B0%E6%9C%80%E5%A4%9A%E7%9A%84%E5%B0%8F%E5%8C%BA%E6%98%AF%E5%93%AA%E4%B8%80%E4%B8%AA/">2019确诊人数最多的小区是哪一个？</a></h2>
     <div class="article-style">
       
-       
-
+      来回答一个问题：已经开放的数据当中，确诊人数最多的小区是哪一个？
+前文介绍了akshare的安装和简单使用，本文介绍使用akshare获取细化到每个小区的确诊人数数据。腾讯提供了一个公开的数据，可以供查询。为此，我们将使用到akshare的epidemic_area_detail接口。
+ epidemic_area_detail() 细化到每个小区的确诊人数 需要遍历每个页面, 如非必要, 请勿运行 https://ncov.html5.qq.com/community?channelid=1&amp;from=singlemessage&amp;isappinstalled=0 :return: 全国每个小区的确诊人数 :rtype: pandas.DataFrame
+ import akshare as ak epidemic_area_detail_df = ak.epidemic_area_detail() print(epidemic_area_detail_df)  一共1070, 要等待一会儿。
+下载完成后，我们可以看一下江苏的数据：
+先看一下每个小区的确诊人数：
+epidemic_area_detail_df['cnt_sum_certain'].unique()   array([&lsquo;2&rsquo;, &lsquo;4&rsquo;, &lsquo;1&rsquo;, &lsquo;-1&rsquo;, &lsquo;3&rsquo;, &lsquo;5&rsquo;, &lsquo;7&rsquo;, &lsquo;10&rsquo;, &lsquo;6&rsquo;, &lsquo;8&rsquo;, &lsquo;9&rsquo;, &lsquo;12&rsquo;, &lsquo;14&rsquo;, &lsquo;19&rsquo;, &lsquo;13&rsquo;, &lsquo;11&rsquo;, &lsquo;256&rsquo;, &lsquo;119&rsquo;, &lsquo;31&rsquo;, &lsquo;15&rsquo;, &lsquo;22&rsquo;, &lsquo;16&rsquo;, &lsquo;39&rsquo;, &lsquo;17&rsquo;, &lsquo;23&rsquo;], dtype=object)
+ 发现：1. 数据是字符串格式；2.含有 ‘-1’，应该是不详。
+import numpy as np vlist = [] for i in epidemic_area_detail_df['cnt_sum_certain']: if i !
       
     </div>
   </div>
@@ -445,8 +452,8 @@
     <h2><a href="/%E8%AE%A1%E7%AE%97%E6%96%B0%E9%97%BB/causal-inferencewhat-if-%E7%94%B5%E5%AD%90%E4%B9%A6%E4%BB%A3%E7%A0%81%E6%95%B0%E6%8D%AE/">Causal Inference: 电子书、代码、数据</a></h2>
     <div class="article-style">
       
-       
-
+      Causal Inference Book 来源：https://www.hsph.harvard.edu/miguel-hernan/causal-inference-book/
+Miguel Hernan &amp; Jamie Robinshave written a book that provides a cohesive presentation of concepts of, and methods for, causal inference. Much of this material is currently scattered across journals in several disciplines or confined to technical articles. We expect that the book will be of interest to anyone interested in causal inference, e.g., epidemiologists, statisticians, psychologists, economists, sociologists, political scientists, computer scientists… The book is divided in 3 parts of increasing difficulty: causal inference without models, causal inference with models, and causal inference from complex longitudinal data.
       
     </div>
   </div>
@@ -455,8 +462,8 @@
     <h2><a href="/%E8%AE%A1%E7%AE%97%E6%96%B0%E9%97%BB/covid-19%E6%95%B0%E6%8D%AE%E6%9D%A5%E6%BA%90%E4%B8%8D%E6%96%AD%E6%95%B4%E7%90%86%E5%BD%93%E4%B8%AD/">Covid-19数据来源（更新当中）</a></h2>
     <div class="article-style">
       
-       
-
+        数据来源 不断更新当中：
+ https://github.com/CSSEGISandData/COVID-19 https://github.com/data-journalism/WuHan2019nCov https://github.com/AaronWard/covid-19-analysis 澎湃 839-Studio  Noval-Coronavirus-763-Cases Novel-Coronavirus-Updates   可视化  http://vis.pku.edu.cn/ncov/home.html  538数据新闻项目  fivethirtyeight/data  
       
     </div>
   </div>
@@ -474,18 +481,21 @@
     <h2><a href="/%E8%AE%A1%E7%AE%97%E6%96%B0%E9%97%BB/pygame%E5%86%85%E7%BD%AE%E5%B0%8F%E6%B8%B8%E6%88%8F%E5%A4%96%E6%98%9F%E4%BA%BA/">Pygame内置小游戏：外星人</a></h2>
     <div class="article-style">
       
-       
-
+        安装pygame 首先尝试： &gt; pip install pygame -i http://pypi.douban.com/simple
+如果出错，尝试 &gt; pip install pygame -i http://pypi.douban.com/simple &ndash;trusted-host pypi.douban.com
+开始玩游戏！ https://www.pygame.org/
+ python3 -m pygame.examples.aliens
+ 想要学习更多东西？ Below are unofficial tutorials and guides. Anything with wrong install instructions is not allowed.
+General Tutorials[](https://www.pygame.org/wiki/tutorials#General%20Tutorials &laquo;Permalink to this definition&raquo;)  Tutorials by DR0ID PyGame object oriented tutorials by przemo_li Thepythongamebook tutorial about Pygame  Pygame Tutorials on Specific Topics[](https://www.pygame.org/wiki/tutorials#Pygame%20Tutorials%20on%20Specific%20Topics &laquo;Permalink to this definition&raquo;)  Screencasts and tutorials at Scriptedfun, making an arkanoid type game A tutorial on making a top-down tile-based game PyGame Physics Youtube Tutorials by maaack YouTube series creating a top down racing game with Python 3  
       
     </div>
   </div>
   
   <div>
-    <h2><a href="/%E8%AE%A1%E7%AE%97%E6%96%B0%E9%97%BB/%E7%9F%B3%E5%A4%B4%E6%B1%A4%E8%A1%8C%E5%8A%A8%E5%92%8C%E5%88%86%E4%BA%AB%E7%9A%84%E5%8A%9B%E9%87%8F/">《石头汤》</a></h2>
+    <h2><a href="/%E8%AE%A1%E7%AE%97%E6%96%B0%E9%97%BB/%E7%9F%B3%E5%A4%B4%E6%B1%A4/">《石头汤》</a></h2>
     <div class="article-style">
       
        
-
       
     </div>
   </div>
@@ -494,8 +504,8 @@
     <h2><a href="/%E8%AE%A1%E7%AE%97%E6%96%B0%E9%97%BB/%E4%B8%AD%E5%9B%BD%E7%9A%84%E7%BB%8F%E6%B5%8E%E6%94%BF%E7%AD%96%E4%B8%8D%E7%A1%AE%E5%AE%9A%E6%80%A7%E6%95%B0%E6%8D%AE/">中国经济政策不确定性数据</a></h2>
     <div class="article-style">
       
-       
-
+      数据来源：http://www.policyuncertainty.com/scmp_monthly.html
+import akshare as ak epu_index_df = ak.article_epu_index(index=&quot;China&quot;) # 注意单词第一个字母大写 epu_index_df.head()  文献  Baker, Scott, Nicholas Bloom and Steven J. Davis, &laquo;Measuring Economic Policy Uncertainty,&raquo; Quarterly Journal of Economics, November 2016, Vol 131, Issue 4   We develop a new index of economic policy uncertainty (EPU) based on newspaper coverage frequency. Several types of evidence—including human readings of 12,000 newspaper articles—indicate that our index proxies for movements in policy-related economic uncertainty.
       
     </div>
   </div>
@@ -513,8 +523,12 @@
     <h2><a href="/%E8%AE%A1%E7%AE%97%E6%96%B0%E9%97%BB/%E4%BD%BF%E7%94%A8akshare%E5%88%86%E6%9E%902019ncov%E7%96%AB%E6%83%85%E5%BE%AE%E5%8D%9A%E6%8C%87%E6%95%B0/">使用akshare分析covid19微博指数</a></h2>
     <div class="article-style">
       
-       
-
+      AkShare  AkShare 是基于 Python 的开源金融数据接口库, 目的是实现对股票, 期货, 期权, 基金, 外汇, 债券, 指数, 数字货币等金融产品的基本面数据、实时和历史行情数据、衍生数据从数据采集, 数据清洗, 到数据落地的一套开源工具, 满足金融数据科学家, 数据科学爱好者在金融数据获取方面的需求.
+ AkShare 的特点是获取的是相对权威的金融数据网站公布的原始数据, 广大数据科学家可以利用原始数据进行各数据源之间的交叉验证, 进而再加工, 从而得出科学的结论.
+针对新型冠状病毒肺炎疫情，akshare开发了事件接口，链接如下：
+https://akshare.readthedocs.io/zh_CN/latest/data/event/event.html
+安装 pip install akshare --upgrade  对于国内用户anaconda使用者，推荐使用以下方法：
+pip install akshare -i http://mirrors.aliyun.com/pypi/simple/ --trusted-host=mirrors.aliyun.com --user --upgrade  使用 import akshare as ak import pylab as plt import pandas as pd import seaborn as sns # 提取数据 df_index4 = ak.weibo_index(word=&quot;武汉&quot;, time_type=&quot;3month&quot;) df_index6 = ak.weibo_index(word=&quot;CDC&quot;, time_type=&quot;3month&quot;) df_index7 = ak.
       
     </div>
   </div>
@@ -523,8 +537,8 @@
     <h2><a href="/%E8%AE%A1%E7%AE%97%E6%96%B0%E9%97%BB/%E4%BD%BF%E7%94%A8python%E6%A8%A1%E6%8B%9F%E4%BC%A0%E6%9F%93%E7%97%85%E6%A8%A1%E5%9E%8B/">使用python模拟传染病模型</a></h2>
     <div class="article-style">
       
-       
-
+      Doraemon：本文尝试使用python对经典传染病模型进行实现，因传染病模型研究属于传染病动力学研究方向，不是本人的工作范围，因此，本人只是将模型中的微分方程，用Python进行实现，想起到抛砖引玉的效果。来源： https://zhuanlan.zhihu.com/p/104091330
+ SI模型 import scipy.integrate as spi import numpy as np import matplotlib.pyplot as plt # N为人群总数 N = 10000 # β为传染率系数 beta = 0.25 # gamma为恢复率系数 gamma = 0 # I_0为感染者的初始人数 I_0 = 1 # S_0为易感者的初始人数 S_0 = N - I_0 # T为传播时间 T = 150 # INI为初始状态下的数组 INI = (S_0,I_0) def funcSI(inivalue,_): Y = np.zeros(2) X = inivalue # 易感个体变化 Y[0] = - (beta * X[0] * X[1]) / N + gamma * X[1] # 感染个体变化 Y[1] = (beta * X[0] * X[1]) / N - gamma * X[1] return Y T_range = np.
       
     </div>
   </div>

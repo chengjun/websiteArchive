@@ -435,8 +435,16 @@
     <h2><a href="/%E8%AE%A1%E7%AE%97%E6%96%B0%E9%97%BB/%E4%BD%BF%E7%94%A8python%E7%8E%A9%E9%A3%9E%E6%9C%BA%E5%A4%A7%E6%88%98%E6%B8%B8%E6%88%8F/">使用python玩飞机大战游戏</a></h2>
     <div class="article-style">
       
-       
-
+      安装pygame 首先尝试： &gt; pip install pygame -i http://pypi.douban.com/simple
+如果出错，尝试 &gt; pip install pygame -i http://pypi.douban.com/simple &ndash;trusted-host pypi.douban.com
+下载游戏代码 https://github.com/computational-class/aircraftbattle
+推荐使用Github Desktop下载到本机，例如我放在/github/aircraftbattle文件夹当中。
+运行游戏 在terminal当中打开游戏所在文件夹（注意：根据你的本地文件所在位置）
+ cd github/aircraftbattle
+ 运行aircraftbattle.py
+ python aircraftbattle.py
+ Enjoy your game! 想要理解背后的代码 https://www.bilibili.com/video/av14184325?p=461
+#导入模块 import pygame import random from pygame.locals import * from os import path #######################################基本参数配置####################################### #获取图片库和声音库路径 img_dir = path.join(path.dirname(__file__),'pic') sound_folder = path.join(path.dirname(__file__),'sounds') #定义游戏窗口、玩家血量条尺寸，游戏运行速度、炮火持续时间等参数 WIDTH = 480 HEIGHT = 600 FPS = 60 POWERUP_TIME = 5000 BAR_LENGTH = 100 BAR_HEIGHT = 10 #定义白、黑、红、绿、蓝、黄的RGB参数 WHITE = (255, 255, 255) BLACK = (0, 0, 0) RED = (255, 0, 0) GREEN = (0, 255, 0) BLUE = (0, 0, 255) YELLOW = (255, 255, 0) #初始化pygame模块，创建游戏窗口、游戏窗口命名、创建跟踪时间对象 pygame.
       
     </div>
   </div>
@@ -446,7 +454,6 @@
     <div class="article-style">
       
        
-
       
     </div>
   </div>
@@ -455,16 +462,7 @@
     <h2><a href="/%E8%AE%A1%E7%AE%97%E6%96%B0%E9%97%BB/%E5%B8%9D%E5%9B%BD%E7%90%86%E5%B7%A5%E5%92%8C%E8%A5%BF%E5%8C%97%E5%A4%A7%E5%AD%A6%E7%9A%84%E6%A8%A1%E5%9E%8B/">帝国理工和西北大学估算武汉实际感染人数的模型</a></h2>
     <div class="article-style">
       
-      已有 24688 次阅读 2020-1-24 08:44 |系统分类:科研笔记
-有人已经注意到了海外研究团队基于现有公开数据对武汉当地感染武汉肺炎的实际人数进行估计。目前影响比较大，大家讨论比较多的分析报告主要有两个来源：
- 一是Alessandro Vespignani教授领衔的西北大学研究组的系列报告[1]， 二是以一个帝国理工的日本妹子（Natsuko Imai博士）为第一作者的系列报告[2]。为了方便，后文称为帝国理工报告和西北大学报告。Estimating the potential total number of novel Coronavirus in Wuhan City, China  两个报告采用的数据都是公开报道的武汉出境人员被确诊感染2019-nCoV的记录，但使用的方法有所不同。但是两个报告的结论惊人一致。 1. 帝国理工报告认为武汉全市在2020年1月18日左右差不多开始出现症状的2019-nCoV实际感染人数约为4000人，不确定性是1000-9700（通过参数敏感性分析得到的）； 2. 西北大学报告认为武汉全市在2020年1月20日左右2019-nCoV实际感染人数约为4050人，95%置信区间为1700-7950。估计这两天随着越南等地新确诊病例的出现，武汉感染人数的估计值还会上升。
-两个系列报告所使用的数据其实否非常简单（他们暂未获得或者暂未使用国内传播的数据，可能是因为传播路径太复杂），就是经由国际航班出境，且在境外被确诊的2019-nCoV感染人数。但两者使用的方法不太一样。下面我尽可能用科普的方法介绍两种方法的基本思路，并分析现有方法存在的缺陷。
-帝国理工报告的方法非常简单。Imai团队列出了一个简单的关系：
- 境外确诊的病人数 = 武汉总感染人数 * 武汉人每天坐飞机出境的概率 * 可以供武汉感染者出境且在境外才被发现的时间窗口长度（天数）。
- 只需要更新海外确诊病人数量，就可以估计武汉的实际病人数量。感兴趣的同学可以试一下：自己动手估计一下
-oversea_num = range(100) wuhan_num = [19000000*i/(10*3301) for i in oversea_range] plt.plot(oversea_num, wuhan_num, color = 'darkblue', marker = '.') plt.title('帝国理工估计方法') plt.xlabel('海外确诊数') plt.ylabel('武汉实际患病人数') plt.show()  其中，可以供武汉感染者出境且在境外才被发现的时间窗口长度（天数）就是染病潜伏未出现症状的时期（Imai等人认为是5-6天，是用的SARS[3]和MERS[4]的结果）以及出现症状到医院确诊的时期（Imai等人认为是4-5天，这个时合理的，因为防控早期，感冒发热不影响出境，大家也不当回事儿），大约为10天。武汉人每天做飞机出境的概率就用武汉每天国际航班出境人数除以武汉国际机场覆盖的人口数。
-Imai小组用武汉总人口（含流动人口）1900万作为武汉国际机场能够覆盖的人口数（有那么多人如果出国会选择从武汉国际机场出去），武汉国际机场出境游客平均每天3301人，截止1月21日下午4点，境外确诊病例7例（泰国3，日本1，韩国1，台湾1，美国1）。如果记武汉总人数为N，就有了一个显然的关系
-7=N*10*3301/19000000， 得到 N = (19000000*7)/(10*3301)=4029
+       
       
     </div>
   </div>
@@ -473,8 +471,10 @@ Imai小组用武汉总人口（含流动人口）1900万作为武汉国际机场
     <h2><a href="/%E8%AE%A1%E7%AE%97%E6%96%B0%E9%97%BB/%E5%BE%AE%E5%8D%9A%E8%AE%A8%E8%AE%BA%E5%92%8C2019ncov%E7%96%AB%E6%83%85%E6%9C%89%E5%A4%9A%E5%A4%A7%E5%85%B3%E7%B3%BB/">微博讨论与covid19疫情的关联</a></h2>
     <div class="article-style">
       
-       
-
+      import akshare as ak import pylab as plt import numpy as np plt.style.use('fivethirtyeight') epidemic_hist_all_df = ak.epidemic_hist_all() df = ak.epidemic_163(indicator=&quot;历史&quot;) df.head()  获取每日新增数量
+alist = df['confirm'].tolist() daily_conf = [] for k, i in enumerate(alist): if k == 0: daily_conf.append(i) if k &gt; 0: daily_conf.append(i - alist[k-1]) df['confirm_daily'] = daily_conf  获取微博指数数据
+df_index = ak.weibo_index(word=&quot;疫情&quot;, time_type=&quot;3month&quot;) df_index.head()  合并数据
+dat = df_index.merge(df, how='inner', left_index = True, right_index = True ) dat.
       
     </div>
   </div>
@@ -484,7 +484,6 @@ Imai小组用武汉总人口（含流动人口）1900万作为武汉国际机场
     <div class="article-style">
       
        
-
       
     </div>
   </div>
@@ -493,8 +492,17 @@ Imai小组用武汉总人口（含流动人口）1900万作为武汉国际机场
     <h2><a href="/%E8%AE%A1%E7%AE%97%E6%96%B0%E9%97%BB/%E8%AE%A1%E7%AE%97%E6%96%B0%E9%97%BB%E5%9C%A8%E8%A1%8C%E5%8A%A8/">计算新闻在行动</a></h2>
     <div class="article-style">
       
-       
-
+        这是南京大学《数据新闻》班级的作品展示，很多东西是半成品，欢迎提意见！
+ 苏格拉底说：了解你自己！
+ 疫情如火  2019年底，围绕武汉市为核心爆发了新型冠状病毒肺炎疫情。 2020年1月20日，国家卫健委高级别专家组组长、中国工程院院士、呼吸病学专家钟南山说“肯定‘人传人’。” 来源：财新网 陈宝成    钟南山表示，判断依据就是目前的资料。他在接受央视《新闻一加一》采访时也举例称，在广东有两个病例没有去过武汉，但他们的家人去了武汉，回到家里，这两个家庭都有人染上了新型冠状病毒。经过基因病毒的检测，是一致的。因此“现在可以说，肯定有人传人现象。”
+  武汉封城
+   自2020年1月23日10时起，全市城市公交、地铁、轮渡、长途客运暂停运营；无特殊原因，市民不要离开武汉，机场、火车站离汉通道暂时关闭。恢复时间另行通告。更多信息
+  返程复工  数据来源 不断更新当中：
+ 澎湃 839-Studio
+ Noval-Coronavirus-763-Cases Novel-Coronavirus-Updates  fivethirtyeight/data
+  为什么选择简书？ 1. Markdown的支持 import pandas ad pd print('hello world')  2. 数学公式 $$E = MC^2$$
+3. 直接粘贴图片 更重要的是：同学们觉得知乎账号太隐私了，不适合分享个人做的东西！Orz 为师震惊了。
+学生分组 武汉加油 
       
     </div>
   </div>
@@ -503,8 +511,7 @@ Imai小组用武汉总人口（含流动人口）1900万作为武汉国际机场
     <h2><a href="/%E8%AE%A1%E7%AE%97%E6%96%B0%E9%97%BB/%E8%AE%B0%E7%96%AB%E4%B8%80%E4%B8%AA%E5%BE%88%E6%A3%92%E7%9A%84%E6%95%B0%E6%8D%AE%E6%96%B0%E9%97%BB%E4%BD%9C%E5%93%81/">记疫：一个数据新闻作品</a></h2>
     <div class="article-style">
       
-       
-
+      http://h5.oeeee.com/h5/v20/nCovTimeline/
       
     </div>
   </div>

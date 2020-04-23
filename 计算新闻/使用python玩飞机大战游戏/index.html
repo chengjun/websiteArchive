@@ -28,8 +28,16 @@
   
     
   
-  <meta name="description" content=" 
-">
+  <meta name="description" content="安装pygame 首先尝试： &gt; pip install pygame -i http://pypi.douban.com/simple
+如果出错，尝试 &gt; pip install pygame -i http://pypi.douban.com/simple &ndash;trusted-host pypi.douban.com
+下载游戏代码 https://github.com/computational-class/aircraftbattle
+推荐使用Github Desktop下载到本机，例如我放在/github/aircraftbattle文件夹当中。
+运行游戏 在terminal当中打开游戏所在文件夹（注意：根据你的本地文件所在位置）
+ cd github/aircraftbattle
+ 运行aircraftbattle.py
+ python aircraftbattle.py
+ Enjoy your game! 想要理解背后的代码 https://www.bilibili.com/video/av14184325?p=461
+#导入模块 import pygame import random from pygame.locals import * from os import path #######################################基本参数配置####################################### #获取图片库和声音库路径 img_dir = path.join(path.dirname(__file__),&#39;pic&#39;) sound_folder = path.join(path.dirname(__file__),&#39;sounds&#39;) #定义游戏窗口、玩家血量条尺寸，游戏运行速度、炮火持续时间等参数 WIDTH = 480 HEIGHT = 600 FPS = 60 POWERUP_TIME = 5000 BAR_LENGTH = 100 BAR_HEIGHT = 10 #定义白、黑、红、绿、蓝、黄的RGB参数 WHITE = (255, 255, 255) BLACK = (0, 0, 0) RED = (255, 0, 0) GREEN = (0, 255, 0) BLUE = (0, 0, 255) YELLOW = (255, 255, 0) #初始化pygame模块，创建游戏窗口、游戏窗口命名、创建跟踪时间对象 pygame.">
 
   
   <link rel="alternate" hreflang="en-us" href="https://chengjunwang.com/%E8%AE%A1%E7%AE%97%E6%96%B0%E9%97%BB/%E4%BD%BF%E7%94%A8python%E7%8E%A9%E9%A3%9E%E6%9C%BA%E5%A4%A7%E6%88%98%E6%B8%B8%E6%88%8F/">
@@ -118,8 +126,16 @@
   <meta property="og:site_name" content="Cheng-Jun Wang">
   <meta property="og:url" content="https://chengjunwang.com/%E8%AE%A1%E7%AE%97%E6%96%B0%E9%97%BB/%E4%BD%BF%E7%94%A8python%E7%8E%A9%E9%A3%9E%E6%9C%BA%E5%A4%A7%E6%88%98%E6%B8%B8%E6%88%8F/">
   <meta property="og:title" content="使用python玩飞机大战游戏 | Cheng-Jun Wang">
-  <meta property="og:description" content=" 
-"><meta property="og:image" content="https://chengjunwang.com/img/headers/neza.svg">
+  <meta property="og:description" content="安装pygame 首先尝试： &gt; pip install pygame -i http://pypi.douban.com/simple
+如果出错，尝试 &gt; pip install pygame -i http://pypi.douban.com/simple &ndash;trusted-host pypi.douban.com
+下载游戏代码 https://github.com/computational-class/aircraftbattle
+推荐使用Github Desktop下载到本机，例如我放在/github/aircraftbattle文件夹当中。
+运行游戏 在terminal当中打开游戏所在文件夹（注意：根据你的本地文件所在位置）
+ cd github/aircraftbattle
+ 运行aircraftbattle.py
+ python aircraftbattle.py
+ Enjoy your game! 想要理解背后的代码 https://www.bilibili.com/video/av14184325?p=461
+#导入模块 import pygame import random from pygame.locals import * from os import path #######################################基本参数配置####################################### #获取图片库和声音库路径 img_dir = path.join(path.dirname(__file__),&#39;pic&#39;) sound_folder = path.join(path.dirname(__file__),&#39;sounds&#39;) #定义游戏窗口、玩家血量条尺寸，游戏运行速度、炮火持续时间等参数 WIDTH = 480 HEIGHT = 600 FPS = 60 POWERUP_TIME = 5000 BAR_LENGTH = 100 BAR_HEIGHT = 10 #定义白、黑、红、绿、蓝、黄的RGB参数 WHITE = (255, 255, 255) BLACK = (0, 0, 0) RED = (255, 0, 0) GREEN = (0, 255, 0) BLUE = (0, 0, 255) YELLOW = (255, 255, 0) #初始化pygame模块，创建游戏窗口、游戏窗口命名、创建跟踪时间对象 pygame."><meta property="og:image" content="https://chengjunwang.com/img/headers/neza.svg">
   <meta property="twitter:image" content="https://chengjunwang.com/img/headers/neza.svg"><meta property="og:locale" content="en-us">
   
     
@@ -1147,7 +1163,7 @@ pygame.quit()
 
 <div class="article-tags">
   
-  <a class="badge badge-light" href="/tags/news/">news</a>
+  <a class="badge badge-light" href=""></a>
   
 </div>
 

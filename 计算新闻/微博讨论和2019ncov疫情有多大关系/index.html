@@ -28,8 +28,10 @@
   
     
   
-  <meta name="description" content=" 
-">
+  <meta name="description" content="import akshare as ak import pylab as plt import numpy as np plt.style.use(&#39;fivethirtyeight&#39;) epidemic_hist_all_df = ak.epidemic_hist_all() df = ak.epidemic_163(indicator=&quot;历史&quot;) df.head()  获取每日新增数量
+alist = df[&#39;confirm&#39;].tolist() daily_conf = [] for k, i in enumerate(alist): if k == 0: daily_conf.append(i) if k &gt; 0: daily_conf.append(i - alist[k-1]) df[&#39;confirm_daily&#39;] = daily_conf  获取微博指数数据
+df_index = ak.weibo_index(word=&quot;疫情&quot;, time_type=&quot;3month&quot;) df_index.head()  合并数据
+dat = df_index.merge(df, how=&#39;inner&#39;, left_index = True, right_index = True ) dat.">
 
   
   <link rel="alternate" hreflang="en-us" href="https://chengjunwang.com/%E8%AE%A1%E7%AE%97%E6%96%B0%E9%97%BB/%E5%BE%AE%E5%8D%9A%E8%AE%A8%E8%AE%BA%E5%92%8C2019ncov%E7%96%AB%E6%83%85%E6%9C%89%E5%A4%9A%E5%A4%A7%E5%85%B3%E7%B3%BB/">
@@ -118,8 +120,10 @@
   <meta property="og:site_name" content="Cheng-Jun Wang">
   <meta property="og:url" content="https://chengjunwang.com/%E8%AE%A1%E7%AE%97%E6%96%B0%E9%97%BB/%E5%BE%AE%E5%8D%9A%E8%AE%A8%E8%AE%BA%E5%92%8C2019ncov%E7%96%AB%E6%83%85%E6%9C%89%E5%A4%9A%E5%A4%A7%E5%85%B3%E7%B3%BB/">
   <meta property="og:title" content="微博讨论与covid19疫情的关联 | Cheng-Jun Wang">
-  <meta property="og:description" content=" 
-"><meta property="og:image" content="https://chengjunwang.com/img/headers/neza.svg">
+  <meta property="og:description" content="import akshare as ak import pylab as plt import numpy as np plt.style.use(&#39;fivethirtyeight&#39;) epidemic_hist_all_df = ak.epidemic_hist_all() df = ak.epidemic_163(indicator=&quot;历史&quot;) df.head()  获取每日新增数量
+alist = df[&#39;confirm&#39;].tolist() daily_conf = [] for k, i in enumerate(alist): if k == 0: daily_conf.append(i) if k &gt; 0: daily_conf.append(i - alist[k-1]) df[&#39;confirm_daily&#39;] = daily_conf  获取微博指数数据
+df_index = ak.weibo_index(word=&quot;疫情&quot;, time_type=&quot;3month&quot;) df_index.head()  合并数据
+dat = df_index.merge(df, how=&#39;inner&#39;, left_index = True, right_index = True ) dat."><meta property="og:image" content="https://chengjunwang.com/img/headers/neza.svg">
   <meta property="twitter:image" content="https://chengjunwang.com/img/headers/neza.svg"><meta property="og:locale" content="en-us">
   
     
@@ -573,7 +577,7 @@ plt.show()
 
 <div class="article-tags">
   
-  <a class="badge badge-light" href="/tags/news/">news</a>
+  <a class="badge badge-light" href=""></a>
   
 </div>
 

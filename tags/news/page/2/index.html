@@ -122,7 +122,7 @@
   <meta property="og:description" content="Associate Professor"><meta property="og:image" content="https://chengjunwang.com/img/headers/deer.webp">
   <meta property="twitter:image" content="https://chengjunwang.com/img/headers/deer.webp"><meta property="og:locale" content="en-us">
   
-    <meta property="og:updated_time" content="2020-02-13T00:00:00&#43;00:00">
+    <meta property="og:updated_time" content="2019-02-13T00:00:00&#43;00:00">
   
 
   
@@ -432,108 +432,99 @@
   
   
   <div>
-    <h2><a href="/%E8%AE%A1%E7%AE%97%E6%96%B0%E9%97%BB/%E4%BD%BF%E7%94%A8python%E7%8E%A9%E9%A3%9E%E6%9C%BA%E5%A4%A7%E6%88%98%E6%B8%B8%E6%88%8F/">使用python玩飞机大战游戏</a></h2>
+    <h2><a href="/zh/cn/swarma-summer-camp.zh/">集智俱乐部暑期研读营</a></h2>
     <div class="article-style">
       
-       
+      
 
       
     </div>
   </div>
   
   <div>
-    <h2><a href="/%E8%AE%A1%E7%AE%97%E6%96%B0%E9%97%BB/%E4%BD%BF%E7%94%A8%E7%99%BE%E5%BA%A6%E6%8C%87%E6%95%B0%E4%BA%86%E8%A7%A3%E5%88%86%E7%9C%81%E5%92%8C%E5%9F%8E%E5%B8%82%E7%9A%84%E7%A4%BE%E4%BC%9A%E4%BA%8B%E4%BB%B6/">使用百度指数了解社会事件</a></h2>
+    <h2><a href="/zh/cn/zjmobile.zh/">Data Tech2017大赛</a></h2>
     <div class="article-style">
       
-       
+      
 
       
     </div>
   </div>
   
   <div>
-    <h2><a href="/%E8%AE%A1%E7%AE%97%E6%96%B0%E9%97%BB/%E5%B8%9D%E5%9B%BD%E7%90%86%E5%B7%A5%E5%92%8C%E8%A5%BF%E5%8C%97%E5%A4%A7%E5%AD%A6%E7%9A%84%E6%A8%A1%E5%9E%8B/">帝国理工和西北大学估算武汉实际感染人数的模型</a></h2>
+    <h2><a href="/zh/cn/2017-07-01-digital-humanities.zh/">王成军参与组织数字人文大会</a></h2>
     <div class="article-style">
       
-      已有 24688 次阅读 2020-1-24 08:44 |系统分类:科研笔记
-有人已经注意到了海外研究团队基于现有公开数据对武汉当地感染武汉肺炎的实际人数进行估计。目前影响比较大，大家讨论比较多的分析报告主要有两个来源：
- 一是Alessandro Vespignani教授领衔的西北大学研究组的系列报告[1]， 二是以一个帝国理工的日本妹子（Natsuko Imai博士）为第一作者的系列报告[2]。为了方便，后文称为帝国理工报告和西北大学报告。Estimating the potential total number of novel Coronavirus in Wuhan City, China  两个报告采用的数据都是公开报道的武汉出境人员被确诊感染2019-nCoV的记录，但使用的方法有所不同。但是两个报告的结论惊人一致。 1. 帝国理工报告认为武汉全市在2020年1月18日左右差不多开始出现症状的2019-nCoV实际感染人数约为4000人，不确定性是1000-9700（通过参数敏感性分析得到的）； 2. 西北大学报告认为武汉全市在2020年1月20日左右2019-nCoV实际感染人数约为4050人，95%置信区间为1700-7950。估计这两天随着越南等地新确诊病例的出现，武汉感染人数的估计值还会上升。
-两个系列报告所使用的数据其实否非常简单（他们暂未获得或者暂未使用国内传播的数据，可能是因为传播路径太复杂），就是经由国际航班出境，且在境外被确诊的2019-nCoV感染人数。但两者使用的方法不太一样。下面我尽可能用科普的方法介绍两种方法的基本思路，并分析现有方法存在的缺陷。
-帝国理工报告的方法非常简单。Imai团队列出了一个简单的关系：
- 境外确诊的病人数 = 武汉总感染人数 * 武汉人每天坐飞机出境的概率 * 可以供武汉感染者出境且在境外才被发现的时间窗口长度（天数）。
- 只需要更新海外确诊病人数量，就可以估计武汉的实际病人数量。感兴趣的同学可以试一下：自己动手估计一下
-oversea_num = range(100) wuhan_num = [19000000*i/(10*3301) for i in oversea_range] plt.plot(oversea_num, wuhan_num, color = 'darkblue', marker = '.') plt.title('帝国理工估计方法') plt.xlabel('海外确诊数') plt.ylabel('武汉实际患病人数') plt.show()  其中，可以供武汉感染者出境且在境外才被发现的时间窗口长度（天数）就是染病潜伏未出现症状的时期（Imai等人认为是5-6天，是用的SARS[3]和MERS[4]的结果）以及出现症状到医院确诊的时期（Imai等人认为是4-5天，这个时合理的，因为防控早期，感冒发热不影响出境，大家也不当回事儿），大约为10天。武汉人每天做飞机出境的概率就用武汉每天国际航班出境人数除以武汉国际机场覆盖的人口数。
-Imai小组用武汉总人口（含流动人口）1900万作为武汉国际机场能够覆盖的人口数（有那么多人如果出国会选择从武汉国际机场出去），武汉国际机场出境游客平均每天3301人，截止1月21日下午4点，境外确诊病例7例（泰国3，日本1，韩国1，台湾1，美国1）。如果记武汉总人数为N，就有了一个显然的关系
-7=N*10*3301/19000000， 得到 N = (19000000*7)/(10*3301)=4029
-      
-    </div>
-  </div>
-  
-  <div>
-    <h2><a href="/%E8%AE%A1%E7%AE%97%E6%96%B0%E9%97%BB/%E5%BE%AE%E5%8D%9A%E8%AE%A8%E8%AE%BA%E5%92%8C2019ncov%E7%96%AB%E6%83%85%E6%9C%89%E5%A4%9A%E5%A4%A7%E5%85%B3%E7%B3%BB/">微博讨论与covid19疫情的关联</a></h2>
-    <div class="article-style">
-      
-       
+      2017年7月1日—2日南京大学数字人文大会在仙林校区国际会议中心召开。此次大会主题为“数字人文：大数据时代学术前沿与探索”。“数字人文”是目前国际最具潜力的新兴学科和前沿研究领域，具有创新性强、多学科交叉、研究者年轻化的特点。
 
       
     </div>
   </div>
   
   <div>
-    <h2><a href="/%E8%AE%A1%E7%AE%97%E6%96%B0%E9%97%BB/%E8%88%86%E8%AE%BA%E4%BA%8B%E4%BB%B6%E7%83%AD%E5%BA%A6%E5%AF%B9%E6%96%B0%E5%86%A0%E8%82%BA%E7%82%8E%E6%96%B0%E5%A2%9E%E7%A1%AE%E8%AF%8A%E6%95%B0%E9%87%8F%E6%9C%89%E5%BD%B1%E5%93%8D%E5%90%97/">舆论热点预测疫情感染？</a></h2>
+    <h2><a href="/zh/cn/climate-change.zh/">气候变迁研究：数据、调查、视角</a></h2>
     <div class="article-style">
       
-       
+      
 
       
     </div>
   </div>
   
   <div>
-    <h2><a href="/%E8%AE%A1%E7%AE%97%E6%96%B0%E9%97%BB/%E8%AE%A1%E7%AE%97%E6%96%B0%E9%97%BB%E5%9C%A8%E8%A1%8C%E5%8A%A8/">计算新闻在行动</a></h2>
+    <h2><a href="/zh/cn/2017-6-24-turk.zh/">社会行为研究在线实验平台</a></h2>
     <div class="article-style">
       
-       
+      通过互联网平台招募实验参与者，通过智能的程序匹配实验者、实验对象，允许实验对象在虚拟的网络环境内进行互动共同完成一个实验任务，允许实验者进行灵活的实验控制，可以较低的价格吸引更多的实验设计者和参与者。采用这一思路最成功的案例来自于亚马逊的[Mechanic Turk](https://www.mturk.com/mturk/welcome)（机械驱动的土耳其人）平台。
 
       
     </div>
   </div>
   
   <div>
-    <h2><a href="/%E8%AE%A1%E7%AE%97%E6%96%B0%E9%97%BB/%E8%AE%B0%E7%96%AB%E4%B8%80%E4%B8%AA%E5%BE%88%E6%A3%92%E7%9A%84%E6%95%B0%E6%8D%AE%E6%96%B0%E9%97%BB%E4%BD%9C%E5%93%81/">记疫：一个数据新闻作品</a></h2>
+    <h2><a href="/post/post_archive/news-map/">News Map of China</a></h2>
     <div class="article-style">
       
-       
+      [News Map](http://chengjunwang.com/newsmap/#edu/2011) is built upon cartogram.js to visualize the Chinese provinces.
 
       
     </div>
   </div>
   
   <div>
-    <h2><a href="/zh/cn/2019-02-14-lovers-day.zh/">学折纸、学开车</a></h2>
+    <h2><a href="/post/post_archive/global-terrorism/">Visualizing Global Terrorism using googleVis</a></h2>
     <div class="article-style">
       
-      2019年来了，农历新年过去了。米粒马上四岁，米果也快要满两岁了。再过两年，牛年一到，我也要36岁了。岁月太可怕了，总以为自己还有很多时间，却似乎一转眼就要40岁了。今天是情人节，晓青出差，我去驾校。
+      Using the Data from Global Terrorism Database (GTD) and googleVis-0.5.8, I visualize the global terrorism attacks over time. The remarkable negative relationship between kills and political stability can clearly observed.
 
       
     </div>
   </div>
   
   <div>
-    <h2><a href="/zh/cn/2018-12-07-ccr-panel.zh/">2019系统科学大会的计算传播学Panel</a></h2>
+    <h2><a href="/post/post_archive/networkdiffusion/">networkdiffusion: Simulating and Visualizing Network Diffusion Using R</a></h2>
     <div class="article-style">
       
-      人类和疾病的传播行为之所以难以理解主要的原因在于其中卷入了海量的异质性的个体及其相互之间的互动，而复杂系统和网络科学为理解人类信息扩散和疾病传播提供了丰富的理论视角。
-
+      networkdiffusion, an R package which can help simulate and visualize the network diffusion. Slides.
+Related Activity Wang, C.J. (2017) networkdiffusion: Simulating and Visualizing Network Diffusion Using R. The 10th China R Conference. Beijing, May 20-21.
       
     </div>
   </div>
   
   <div>
-    <h2><a href="/zh/cn/news2017.zh/">2017年“大事记”</a></h2>
+    <h2><a href="/post/post_archive/scholarnetwork/">scholarnetwork: Crawl and Visualize the Coauthor Network</a></h2>
     <div class="article-style">
       
+      scholarNetwork, a Python package to crawl and visualize the coauthor network of Google Scholars.
       
+    </div>
+  </div>
+  
+  <div>
+    <h2><a href="/post/post_archive/iching/">iching: Practising Divination of I Ching</a></h2>
+    <div class="article-style">
+      
+      [iching](https://pypi.python.org/pypi/iching/), a Python package that employs the Achillea millefolium method to practise divination of I Ching (易经的蓍草卜卦方法).
 
       
     </div>

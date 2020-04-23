@@ -28,8 +28,8 @@
   
     
   
-  <meta name="description" content=" 
-">
+  <meta name="description" content="Doraemon：本文尝试使用python对经典传染病模型进行实现，因传染病模型研究属于传染病动力学研究方向，不是本人的工作范围，因此，本人只是将模型中的微分方程，用Python进行实现，想起到抛砖引玉的效果。来源： https://zhuanlan.zhihu.com/p/104091330
+ SI模型 import scipy.integrate as spi import numpy as np import matplotlib.pyplot as plt # N为人群总数 N = 10000 # β为传染率系数 beta = 0.25 # gamma为恢复率系数 gamma = 0 # I_0为感染者的初始人数 I_0 = 1 # S_0为易感者的初始人数 S_0 = N - I_0 # T为传播时间 T = 150 # INI为初始状态下的数组 INI = (S_0,I_0) def funcSI(inivalue,_): Y = np.zeros(2) X = inivalue # 易感个体变化 Y[0] = - (beta * X[0] * X[1]) / N &#43; gamma * X[1] # 感染个体变化 Y[1] = (beta * X[0] * X[1]) / N - gamma * X[1] return Y T_range = np.">
 
   
   <link rel="alternate" hreflang="en-us" href="https://chengjunwang.com/%E8%AE%A1%E7%AE%97%E6%96%B0%E9%97%BB/%E4%BD%BF%E7%94%A8python%E6%A8%A1%E6%8B%9F%E4%BC%A0%E6%9F%93%E7%97%85%E6%A8%A1%E5%9E%8B/">
@@ -118,8 +118,8 @@
   <meta property="og:site_name" content="Cheng-Jun Wang">
   <meta property="og:url" content="https://chengjunwang.com/%E8%AE%A1%E7%AE%97%E6%96%B0%E9%97%BB/%E4%BD%BF%E7%94%A8python%E6%A8%A1%E6%8B%9F%E4%BC%A0%E6%9F%93%E7%97%85%E6%A8%A1%E5%9E%8B/">
   <meta property="og:title" content="使用python模拟传染病模型 | Cheng-Jun Wang">
-  <meta property="og:description" content=" 
-"><meta property="og:image" content="https://chengjunwang.com/img/headers/neza.svg">
+  <meta property="og:description" content="Doraemon：本文尝试使用python对经典传染病模型进行实现，因传染病模型研究属于传染病动力学研究方向，不是本人的工作范围，因此，本人只是将模型中的微分方程，用Python进行实现，想起到抛砖引玉的效果。来源： https://zhuanlan.zhihu.com/p/104091330
+ SI模型 import scipy.integrate as spi import numpy as np import matplotlib.pyplot as plt # N为人群总数 N = 10000 # β为传染率系数 beta = 0.25 # gamma为恢复率系数 gamma = 0 # I_0为感染者的初始人数 I_0 = 1 # S_0为易感者的初始人数 S_0 = N - I_0 # T为传播时间 T = 150 # INI为初始状态下的数组 INI = (S_0,I_0) def funcSI(inivalue,_): Y = np.zeros(2) X = inivalue # 易感个体变化 Y[0] = - (beta * X[0] * X[1]) / N &#43; gamma * X[1] # 感染个体变化 Y[1] = (beta * X[0] * X[1]) / N - gamma * X[1] return Y T_range = np."><meta property="og:image" content="https://chengjunwang.com/img/headers/neza.svg">
   <meta property="twitter:image" content="https://chengjunwang.com/img/headers/neza.svg"><meta property="og:locale" content="en-us">
   
     
@@ -782,7 +782,7 @@ plt.show()
 
 <div class="article-tags">
   
-  <a class="badge badge-light" href="/tags/news/">news</a>
+  <a class="badge badge-light" href=""></a>
   
 </div>
 
