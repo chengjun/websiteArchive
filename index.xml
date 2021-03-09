@@ -5,12 +5,43 @@
     <link>https://chengjunwang.com/</link>
       <atom:link href="https://chengjunwang.com/index.xml" rel="self" type="application/rss+xml" />
     <description>Cheng-Jun Wang</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><copyright>All rights © reserved 2021</copyright><lastBuildDate>Thu, 13 Feb 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><copyright>All rights © reserved 2021</copyright><lastBuildDate>Thu, 18 Feb 2021 22:20:56 +0800</lastBuildDate>
     <image>
       <url>https://chengjunwang.com/img/headers/deer.webp</url>
       <title>Cheng-Jun Wang</title>
       <link>https://chengjunwang.com/</link>
     </image>
+    
+    <item>
+      <title>Jumping over the Network Threshold of Information Diffusion</title>
+      <link>https://chengjunwang.com/publication/weibo-threshold/</link>
+      <pubDate>Thu, 18 Feb 2021 22:20:56 +0800</pubDate>
+      <guid>https://chengjunwang.com/publication/weibo-threshold/</guid>
+      <description>
+
+&lt;h3 id=&#34;jumping-over-the-network-threshold-of-information-diffusion-testing-the-threshold-hypothesis-of-social-influence&#34;&gt;Jumping over the network threshold of information diffusion: testing the threshold hypothesis of social influence&lt;/h3&gt;
+
+&lt;p&gt;Cheng-Jun Wang, Jonathan J.H. Zhu&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Internet Research&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;ISSN: 1066-2243&lt;/p&gt;
+
+&lt;p&gt;Publication date: 18 February 2021 Reprints &amp;amp; Permissions&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Social influence plays a key role in determining the size of information diffusion. We test this hypothesis using a large dataset of information diffusion on social media. It finds that large network threshold, limited diffusion depth, and strong bursts become the bottlenecks that constrain online information diffusion.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&#34;acknowledgements&#34;&gt;Acknowledgements&lt;/h3&gt;
+
+&lt;p&gt;Cheng-Jun Wang was supported by the Major Project of the National Social Science Fund of China (19ZDA324), the National Social Science Foundation of Jiangsu Province (19JD001), and the Fundamental Research Funds for the Central Universities (011014370119). Jonathan Zhu was supported in part by GRF11505119 from Hong Kong SAR Research Grants Council and HKIDS9360163 from City University of Hong Kong.&lt;/p&gt;
+
+&lt;h3 id=&#34;citation&#34;&gt;Citation&lt;/h3&gt;
+
+&lt;p&gt;Wang, C.-J. and Zhu, J.J.H. (2021), &amp;laquo;Jumping over the network threshold of information diffusion: testing the threshold hypothesis of social influence&amp;raquo;, Internet Research, Vol. ahead-of-print No. ahead-of-print. &lt;a href=&#34;https://doi.org/10.1108/INTR-08-2019-0313&#34; target=&#34;_blank&#34;&gt;https://doi.org/10.1108/INTR-08-2019-0313&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>2019确诊人数最多的小区是哪一个？</title>
@@ -3716,7 +3747,7 @@ print(&#39;hello world&#39;)
 
 &lt;h3 id=&#34;书籍网站&#34;&gt;书籍网站&lt;/h3&gt;
 
-&lt;p&gt;Slides和Code见：&lt;a href=&#34;https://github.com/computational-class/ccrbook&#34; target=&#34;_blank&#34;&gt;https://github.com/computational-class/ccrbook&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Slides和Code见：&lt;a href=&#34;https://github.com/SocratesAcademy/ccrbook&#34; target=&#34;_blank&#34;&gt;https://github.com/SocratesAcademy/ccrbook&lt;/a&gt;&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Python代码&lt;br /&gt;&lt;/li&gt;
@@ -8546,7 +8577,7 @@ Lazer等一批学者2009年在Science上发表题为“计算社会科学”的�
 &lt;li&gt;&lt;strong&gt;Wang C.J.&lt;/strong&gt;, Wu, L.*(2016) The Scaling of Attention Networks. Physica A: Statistical Mechanics and its Applications.448:196–204, &lt;a href=&#34;http://dx.doi.org/10.1016/j.physa.2015.12.081&#34; target=&#34;_blank&#34;&gt;doi: 10.1016/j.physa.2015.12.081&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Chandra Y.*, Jiang, C.L., &lt;strong&gt;Wang C.J.&lt;/strong&gt; (2016) Mining Social Entrepreneurship Strategies Using Topic Modeling, PLOS ONE, 11(3):e0151342, &lt;a href=&#34;http://dx.doi.org/10.1371/journal.pone.0151342&#34; target=&#34;_blank&#34;&gt;doi: 10.1371/journal.pone.0151342&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Wang C.J.&lt;/strong&gt; *, Wang, P.P, Zhu, J.J.H (2013). Discussing Occupy Wall Street on Twitter: Longitudinal network analysis of equality, emotion, and stability of public discussion. Cyberpsychology, Behavior, and Social Networking, 16(9): 679-685. &lt;a href=&#34;http://online.liebertpub.com/doi/abs/10.1089/cyber.2012.0409&#34; target=&#34;_blank&#34;&gt;doi:10.1089/cyber.2012.0409&lt;/a&gt;. [SSCI, Ranking &lt;sup&gt;4&lt;/sup&gt;&amp;frasl;&lt;sub&gt;72&lt;/sub&gt; in Communication by 5-year IF].&lt;/li&gt;
-&lt;li&gt;王成军 * (2021) 寻找公众注意力爆发的起源：以YouTube视频扩散为例. 东岳论坛. 42(2):174:185.&lt;/li&gt;
+&lt;li&gt;王成军 * (2021) 寻找公众注意力爆发的起源：以YouTube视频扩散为例. 东岳论坛. 42(2):174-185.&lt;/li&gt;
 &lt;li&gt;卢功靖, 卢林艳, 李媛媛, &lt;strong&gt;王成军&lt;/strong&gt; *（2021）基于议题类型的临近预测：使用社交媒体预测新冠确诊人数. 中国网络传播研究.&lt;/li&gt;
 &lt;li&gt;卢林艳, 李媛媛, 卢功靖, 刘熠, &lt;strong&gt;王成军&lt;/strong&gt; * (2020) 社交机器人驱动的计算宣传：社交机器人识别及其行为特征分析. 中国传媒大学学报（自然科学版). 5.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;王成军&lt;/strong&gt;，党明辉，杜骏飞 (2019) &lt;a href=&#34;http://mall.cnki.net/magazine/Article/XWDX201904005.htm&#34; target=&#34;_blank&#34;&gt;找回失落的参考群体:对沉默的螺旋理论的边界条件的考察&lt;/a&gt;. 新闻大学. 156:13-29. （入选人大复印资料新闻与传播2019年第8期）&lt;/li&gt;
@@ -8693,15 +8724,6 @@ Lazer等一批学者2009年在Science上发表题为“计算社会科学”的�
       <pubDate>Sun, 19 Feb 2017 00:00:00 +0000</pubDate>
       <guid>https://chengjunwang.com/tweet/</guid>
       <description>&lt;p&gt;借助评论功能，发一些个人的只言片语、胡言乱语、风言风语。&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Jumping over the Network Threshold of Information Diffusion</title>
-      <link>https://chengjunwang.com/publication/weibo-threshold/</link>
-      <pubDate>Sat, 18 Feb 2017 22:20:56 +0800</pubDate>
-      <guid>https://chengjunwang.com/publication/weibo-threshold/</guid>
-      <description>&lt;p&gt;To be submitted.&lt;/p&gt;
 </description>
     </item>
     

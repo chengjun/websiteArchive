@@ -5,7 +5,7 @@
     <link>https://chengjunwang.com/authors/</link>
       <atom:link href="https://chengjunwang.com/authors/index.xml" rel="self" type="application/rss+xml" />
     <description>Authors</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><copyright>All rights © reserved 2021</copyright><lastBuildDate>Thu, 14 Nov 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><copyright>All rights © reserved 2021</copyright><lastBuildDate>Thu, 18 Feb 2021 22:20:56 +0800</lastBuildDate>
     <image>
       <url>https://chengjunwang.com/img/headers/deer.webp</url>
       <title>Authors</title>
@@ -13,10 +13,18 @@
     </image>
     
     <item>
-      <title>Cheng-Jun Wang*</title>
+      <title>Cheng-Jun Wang</title>
       <link>https://chengjunwang.com/authors/cheng-jun-wang/</link>
-      <pubDate>Thu, 14 Nov 2019 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 18 Feb 2021 22:20:56 +0800</pubDate>
       <guid>https://chengjunwang.com/authors/cheng-jun-wang/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Jonathan J.H. Zhu</title>
+      <link>https://chengjunwang.com/authors/jonathan-j.h.-zhu/</link>
+      <pubDate>Thu, 18 Feb 2021 22:20:56 +0800</pubDate>
+      <guid>https://chengjunwang.com/authors/jonathan-j.h.-zhu/</guid>
       <description></description>
     </item>
     
@@ -49,14 +57,6 @@
       <link>https://chengjunwang.com/authors/wang-c.j/</link>
       <pubDate>Tue, 01 Oct 2019 00:00:00 +0000</pubDate>
       <guid>https://chengjunwang.com/authors/wang-c.j/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Jonathan J.H. Zhu</title>
-      <link>https://chengjunwang.com/authors/jonathan-j.h.-zhu/</link>
-      <pubDate>Sun, 03 Mar 2019 22:20:56 +0800</pubDate>
-      <guid>https://chengjunwang.com/authors/jonathan-j.h.-zhu/</guid>
       <description></description>
     </item>
     
