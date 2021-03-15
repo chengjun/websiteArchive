@@ -5,7 +5,7 @@
     <link>https://chengjunwang.com/authors/</link>
       <atom:link href="https://chengjunwang.com/authors/index.xml" rel="self" type="application/rss+xml" />
     <description>Authors</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><copyright>All rights © reserved 2021</copyright><lastBuildDate>Thu, 18 Feb 2021 22:20:56 +0800</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><copyright>All rights © reserved 2021</copyright><lastBuildDate>Sat, 13 Mar 2021 22:20:56 +0800</lastBuildDate>
     <image>
       <url>https://chengjunwang.com/img/headers/deer.webp</url>
       <title>Authors</title>
@@ -13,10 +13,18 @@
     </image>
     
     <item>
-      <title>Cheng-Jun Wang</title>
+      <title>Cheng-Jun Wang*</title>
       <link>https://chengjunwang.com/authors/cheng-jun-wang/</link>
-      <pubDate>Thu, 18 Feb 2021 22:20:56 +0800</pubDate>
+      <pubDate>Sat, 13 Mar 2021 22:20:56 +0800</pubDate>
       <guid>https://chengjunwang.com/authors/cheng-jun-wang/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Xue-Fei Yan</title>
+      <link>https://chengjunwang.com/authors/xue-fei-yan/</link>
+      <pubDate>Sat, 13 Mar 2021 22:20:56 +0800</pubDate>
+      <guid>https://chengjunwang.com/authors/xue-fei-yan/</guid>
       <description></description>
     </item>
     
@@ -61,7 +69,7 @@
     </item>
     
     <item>
-      <title>王成军</title>
+      <title>王成军 *</title>
       <link>https://chengjunwang.com/authors/%E7%8E%8B%E6%88%90%E5%86%9B/</link>
       <pubDate>Tue, 01 Jan 2019 11:33:49 +0800</pubDate>
       <guid>https://chengjunwang.com/authors/%E7%8E%8B%E6%88%90%E5%86%9B/</guid>
@@ -81,14 +89,6 @@
       <link>https://chengjunwang.com/authors/%E8%AE%B8%E5%B0%8F%E5%8F%AF/</link>
       <pubDate>Wed, 17 Oct 2018 00:00:00 +0000</pubDate>
       <guid>https://chengjunwang.com/authors/%E8%AE%B8%E5%B0%8F%E5%8F%AF/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Xue-Fei Yan</title>
-      <link>https://chengjunwang.com/authors/xue-fei-yan/</link>
-      <pubDate>Thu, 15 Jun 2017 22:20:56 +0800</pubDate>
-      <guid>https://chengjunwang.com/authors/xue-fei-yan/</guid>
       <description></description>
     </item>
     
