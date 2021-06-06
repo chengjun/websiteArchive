@@ -3,11 +3,6 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://chengjunwang.com/zh/</loc>
-    <lastmod>2016-04-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://chengjunwang.com/publication_types/2/</loc>
     <lastmod>2021-03-13T22:20:56+08:00</lastmod>
   </url>
@@ -148,11 +143,6 @@
   </url>
   
   <url>
-    <loc>https://chengjunwang.com/zh/cv/</loc>
-    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://chengjunwang.com/authors/huimin-xu/</loc>
     <lastmod>2019-11-14T00:00:00+00:00</lastmod>
   </url>
@@ -173,31 +163,6 @@
   </url>
   
   <url>
-    <loc>https://chengjunwang.com/note/2019-11-16-diffusion-book/</loc>
-    <lastmod>2019-11-11T12:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://chengjunwang.com/tags/%E4%B8%93%E8%91%97/</loc>
-    <lastmod>2019-11-11T12:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://chengjunwang.com/tags/%E5%87%BA%E7%89%88%E7%A4%BE/</loc>
-    <lastmod>2019-11-11T12:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://chengjunwang.com/tags/css/</loc>
-    <lastmod>2019-11-08T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://chengjunwang.com/post/en/2019-11-09-css-videos/</loc>
-    <lastmod>2019-11-08T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://chengjunwang.com/publication_types/4/</loc>
     <lastmod>2019-10-01T00:00:00+00:00</lastmod>
   </url>
@@ -213,28 +178,8 @@
   </url>
   
   <url>
-    <loc>https://chengjunwang.com/tags/jcr/</loc>
-    <lastmod>2019-07-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://chengjunwang.com/post/en/2019-07-11-jcr/</loc>
-    <lastmod>2019-07-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://chengjunwang.com/publication/bandwagon/</loc>
     <lastmod>2019-03-03T22:20:56+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://chengjunwang.com/tags/news/</loc>
-    <lastmod>2019-02-13T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://chengjunwang.com/zh/cn/2019-02-14-lovers-day.zh/</loc>
-    <lastmod>2019-02-13T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -245,11 +190,6 @@
   <url>
     <loc>https://chengjunwang.com/authors/%E7%8E%8B%E6%88%90%E5%86%9B/</loc>
     <lastmod>2019-01-01T11:33:49+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://chengjunwang.com/zh/cn/2018-12-07-ccr-panel.zh/</loc>
-    <lastmod>2018-12-06T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -268,158 +208,8 @@
   </url>
   
   <url>
-    <loc>https://chengjunwang.com/note/note_archive/2015-12-30-house/</loc>
-    <lastmod>2018-10-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://chengjunwang.com/note/note_archive/2014-08-29-her-words/</loc>
-    <lastmod>2018-09-04T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://chengjunwang.com/note/note_archive/2015-10-30-on-teaching/</loc>
-    <lastmod>2018-01-16T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://chengjunwang.com/tags/%E6%95%99%E5%AD%A6/</loc>
-    <lastmod>2018-01-16T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://chengjunwang.com/note/note_archive/2015-12-31-income/</loc>
-    <lastmod>2017-12-31T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://chengjunwang.com/zh/cn/news2017.zh/</loc>
-    <lastmod>2017-12-28T14:32:07+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://chengjunwang.com/tags/%E5%85%AC%E7%A7%AF%E9%87%91/</loc>
-    <lastmod>2017-12-11T12:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://chengjunwang.com/tags/%E5%8D%97%E4%BA%AC/</loc>
-    <lastmod>2017-12-11T12:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://chengjunwang.com/note/2017-12-12-housing-accumulation-fund/</loc>
-    <lastmod>2017-12-11T12:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://chengjunwang.com/tags/%E8%A1%A5%E8%B4%B4/</loc>
-    <lastmod>2017-12-11T12:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://chengjunwang.com/zh/cn/2017-11-25-cn-project.zh/</loc>
-    <lastmod>2017-11-25T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://chengjunwang.com/zh/cn/2017-12-14-turkserver.zh/</loc>
-    <lastmod>2017-10-29T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://chengjunwang.com/post/en/2015-02-22-scholarnetwork/</loc>
-    <lastmod>2017-10-29T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://chengjunwang.com/zh/cn/2017-10-29-ccr.zh/</loc>
-    <lastmod>2017-10-29T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://chengjunwang.com/zh/cn/2017-12-05-backwords.zh/</loc>
-    <lastmod>2017-10-29T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://chengjunwang.com/zh/cn/2017-11-20-poverty.zh/</loc>
-    <lastmod>2017-10-29T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://chengjunwang.com/note/note_archive/2015-08-13-self-intro/</loc>
-    <lastmod>2017-09-13T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://chengjunwang.com/zh/cn/2017-09-06-jcr.zh/</loc>
-    <lastmod>2017-09-06T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://chengjunwang.com/note/2017-8-27-public-opinion/</loc>
-    <lastmod>2017-08-27T12:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://chengjunwang.com/tags/%E5%87%BA%E5%B7%AE/</loc>
-    <lastmod>2017-08-16T12:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://chengjunwang.com/note/2017-8-16-nanjing-tourist/</loc>
-    <lastmod>2017-08-16T12:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://chengjunwang.com/note/2017-8-16-tavel/</loc>
-    <lastmod>2017-08-16T12:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://chengjunwang.com/tags/%E6%99%AF%E5%8C%BA/</loc>
-    <lastmod>2017-08-16T12:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://chengjunwang.com/tags/%E6%9C%BA%E7%A5%A8/</loc>
-    <lastmod>2017-08-16T12:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://chengjunwang.com/publication/computational-journalism/</loc>
     <lastmod>2017-08-15T11:33:49+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://chengjunwang.com/zh/cn/swarma-summer-camp.zh/</loc>
-    <lastmod>2017-07-18T14:32:07+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://chengjunwang.com/zh/cn/zjmobile.zh/</loc>
-    <lastmod>2017-07-16T14:32:07+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://chengjunwang.com/note/note_archive/2017-07-02-body-building-health-care/</loc>
-    <lastmod>2017-07-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://chengjunwang.com/zh/cn/2017-07-01-digital-humanities.zh/</loc>
-    <lastmod>2017-07-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://chengjunwang.com/zh/cn/climate-change.zh/</loc>
-    <lastmod>2017-06-29T14:32:07+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://chengjunwang.com/zh/cn/2017-6-24-turk.zh/</loc>
-    <lastmod>2017-06-24T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -430,11 +220,6 @@
   <url>
     <loc>https://chengjunwang.com/publication/flow-network-analysis/</loc>
     <lastmod>2017-06-15T22:20:56+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://chengjunwang.com/note/note_archive/2017-06-14-school-building/</loc>
-    <lastmod>2017-06-14T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -450,46 +235,6 @@
   <url>
     <loc>https://chengjunwang.com/authors/xinzhi-zhang/</loc>
     <lastmod>2017-05-14T22:03:57+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://chengjunwang.com/note/note_archive/2017-05-07-lab-thinktank/</loc>
-    <lastmod>2017-05-07T12:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://chengjunwang.com/note/note_archive/2017-04-01-conference-host/</loc>
-    <lastmod>2017-04-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://chengjunwang.com/note/note_archive/2017-03-20-ndcw/</loc>
-    <lastmod>2017-03-20T11:18:42+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://chengjunwang.com/note/2017-7-10-postdoc/</loc>
-    <lastmod>2017-03-15T12:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://chengjunwang.com/tags/%E5%B7%A5%E4%BD%9C/</loc>
-    <lastmod>2017-03-15T12:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://chengjunwang.com/tags/%E6%88%B7%E5%8F%A3/</loc>
-    <lastmod>2017-03-15T12:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://chengjunwang.com/note/note_archive/2017-03-15-job/</loc>
-    <lastmod>2017-03-15T12:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://chengjunwang.com/note/note_archive/2017-03-21-my-children/</loc>
-    <lastmod>2017-03-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -553,93 +298,13 @@
   </url>
   
   <url>
-    <loc>https://chengjunwang.com/note/note_archive/2017-02-17-data-insight/</loc>
-    <lastmod>2017-02-17T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://chengjunwang.com/post/post_archive/news-map/</loc>
-    <lastmod>2017-02-13T14:32:07+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://chengjunwang.com/post/post_archive/global-terrorism/</loc>
-    <lastmod>2017-02-13T14:32:07+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://chengjunwang.com/post/post_archive/networkdiffusion/</loc>
-    <lastmod>2017-02-13T14:16:05+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://chengjunwang.com/tags/r/</loc>
-    <lastmod>2017-02-13T14:16:05+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://chengjunwang.com/tags/python/</loc>
-    <lastmod>2017-02-13T14:15:51+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://chengjunwang.com/post/post_archive/scholarnetwork/</loc>
-    <lastmod>2017-02-13T14:15:51+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://chengjunwang.com/post/post_archive/iching/</loc>
-    <lastmod>2017-02-13T14:15:36+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://chengjunwang.com/post/post_archive/hugo2github/</loc>
-    <lastmod>2017-02-13T12:54:27+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://chengjunwang.com/tags/hugo/</loc>
-    <lastmod>2017-09-03T00:00:00+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://chengjunwang.com/note/</loc>
-    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://chengjunwang.com/tags/academic/</loc>
-    <lastmod>2017-09-03T00:00:00+08:00</lastmod>
+    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://chengjunwang.com/publication/</loc>
     <lastmod>2017-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://chengjunwang.com/post/</loc>
-    <lastmod>2017-01-01T00:00:00+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://chengjunwang.com/note/note_archive/2016-12-31-summary/</loc>
-    <lastmod>2016-12-31T12:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://chengjunwang.com/tags/%E8%AE%B0%E5%BD%95/</loc>
-    <lastmod>2016-12-31T12:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://chengjunwang.com/note/note_archive/2016-10-13-swarma-camp/</loc>
-    <lastmod>2016-10-13T12:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://chengjunwang.com/tags/%E9%9B%86%E6%99%BA%E4%BF%B1%E4%B9%90%E9%83%A8/</loc>
-    <lastmod>2016-10-13T12:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -663,11 +328,6 @@
   </url>
   
   <url>
-    <loc>https://chengjunwang.com/note/note_archive/2016-08-03-github/</loc>
-    <lastmod>2016-08-03T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://chengjunwang.com/publication/cc-origin/</loc>
     <lastmod>2016-05-15T11:53:36+08:00</lastmod>
   </url>
@@ -675,16 +335,6 @@
   <url>
     <loc>https://chengjunwang.com/publication/big-data-house/</loc>
     <lastmod>2016-05-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://chengjunwang.com/note/note_archive/2016-05-04-atom/</loc>
-    <lastmod>2016-05-04T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://chengjunwang.com/note/note_archive/2016-05-04-sr-revising/</loc>
-    <lastmod>2016-05-04T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -713,46 +363,6 @@
   </url>
   
   <url>
-    <loc>https://chengjunwang.com/post/post_archive/getting-started/</loc>
-    <lastmod>2016-04-20T12:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://chengjunwang.com/post/post_archive/widgets/</loc>
-    <lastmod>2016-04-20T11:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://chengjunwang.com/post/post_archive/managing-content/</loc>
-    <lastmod>2016-04-20T11:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://chengjunwang.com/post/post_archive/writing-markdown-latex/</loc>
-    <lastmod>2016-04-20T10:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://chengjunwang.com/post/getting-started/</loc>
-    <lastmod>2017-09-03T00:00:00+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://chengjunwang.com/post/widgets/</loc>
-    <lastmod>2016-04-19T00:00:00+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://chengjunwang.com/post/managing-content/</loc>
-    <lastmod>2016-04-18T00:00:00+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://chengjunwang.com/post/writing-markdown-latex/</loc>
-    <lastmod>2016-04-17T00:00:00+08:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://chengjunwang.com/authors/ian-ming-yang/</loc>
     <lastmod>2016-04-01T00:00:00+00:00</lastmod>
   </url>
@@ -778,11 +388,6 @@
   </url>
   
   <url>
-    <loc>https://chengjunwang.com/note/note_archive/2016-03-19-wordpress-error/</loc>
-    <lastmod>2016-03-19T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://chengjunwang.com/publication/com-books2015/</loc>
     <lastmod>2016-03-08T12:15:21+08:00</lastmod>
   </url>
@@ -798,33 +403,8 @@
   </url>
   
   <url>
-    <loc>https://chengjunwang.com/note/note_archive/2016-02-17-allowmetric-growth/</loc>
-    <lastmod>2016-02-17T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://chengjunwang.com/publication/scaling-networks/</loc>
     <lastmod>2015-12-31T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://chengjunwang.com/zh/archive/2015-12-02-renormalization.zh/</loc>
-    <lastmod>2015-12-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://chengjunwang.com/note/note_archive/2016-07-17-xiaoqing-job/</loc>
-    <lastmod>2015-11-18T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://chengjunwang.com/note/note_archive/2015-11-18-fighting-life/</loc>
-    <lastmod>2015-11-18T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://chengjunwang.com/note/note_archive/2015-11-13-data-journalism/</loc>
-    <lastmod>2015-11-13T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -833,113 +413,8 @@
   </url>
   
   <url>
-    <loc>https://chengjunwang.com/note/note_archive/2015-10-02-ccs2015/</loc>
-    <lastmod>2015-10-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://chengjunwang.com/note/note_archive/2015-08-06-readingclub/</loc>
-    <lastmod>2015-08-06T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://chengjunwang.com/zh/archive/2015-07-04-iching-python.zh/</loc>
-    <lastmod>2015-07-04T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://chengjunwang.com/note/note_archive/2015-05-02-bible-verses/</loc>
-    <lastmod>2015-05-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://chengjunwang.com/note/note_archive/2015-04-11-last-words/</loc>
-    <lastmod>2015-04-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://chengjunwang.com/zh/archive/2015-02-22-distribute-python-package.zh/</loc>
-    <lastmod>2015-02-22T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://chengjunwang.com/zh/archive/2015-02-22-fresh-python.zh/</loc>
-    <lastmod>2015-02-22T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://chengjunwang.com/publication/cc-intro/</loc>
     <lastmod>2015-02-13T12:03:36+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://chengjunwang.com/note/note_archive/2015-01-27-no-money-no-time/</loc>
-    <lastmod>2015-01-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://chengjunwang.com/zh/archive/2015-01-11-shinyapp.zh/</loc>
-    <lastmod>2015-01-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://chengjunwang.com/zh/archive/2015-01-10-myecharts.zh/</loc>
-    <lastmod>2015-01-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://chengjunwang.com/note/note_archive/2014-09-14-nanjing-housing/</loc>
-    <lastmod>2014-09-14T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://chengjunwang.com/zh/archive/2014-08-31-fast-split-data-with-python.zh/</loc>
-    <lastmod>2014-08-31T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://chengjunwang.com/zh/archive/2014-08-27-d3network.zh/</loc>
-    <lastmod>2014-08-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://chengjunwang.com/zh/archive/2014-08-14-networkx-intro.zh/</loc>
-    <lastmod>2014-08-14T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://chengjunwang.com/zh/archive/2014-07-21-chinese-university-friendship-network.zh/</loc>
-    <lastmod>2014-07-21T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://chengjunwang.com/note/note_archive/2014-07-17-xi-an-another-hometown/</loc>
-    <lastmod>2014-07-17T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://chengjunwang.com/note/note_archive/2014-07-01-life-is-hard/</loc>
-    <lastmod>2014-07-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://chengjunwang.com/note/note_archive/2014-06-09-my-teacher/</loc>
-    <lastmod>2014-06-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://chengjunwang.com/note/note_archive/2014-05-14-tencent-reflection/</loc>
-    <lastmod>2014-05-14T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://chengjunwang.com/note/note_archive/2014-05-07-my-hometown/</loc>
-    <lastmod>2014-05-08T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://chengjunwang.com/zh/archive/2014-05-05-network-dispersion.zh/</loc>
-    <lastmod>2014-05-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -973,41 +448,6 @@
   </url>
   
   <url>
-    <loc>https://chengjunwang.com/zh/archive/2014-03-15-d3-map.zh/</loc>
-    <lastmod>2014-03-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://chengjunwang.com/zh/archive/2014-03-12-first-step-spatial-analysis-with-r.zh/</loc>
-    <lastmod>2014-03-12T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://chengjunwang.com/tags/jekyll/</loc>
-    <lastmod>2014-03-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://chengjunwang.com/post/post_archive/migrate-from-jekyll/</loc>
-    <lastmod>2014-03-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://chengjunwang.com/zh/cn/migrate-from-jekyll.zh/</loc>
-    <lastmod>2014-03-10T00:00:00+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://chengjunwang.com/zh/archive/2014-02-28-simulate-network-diffusion-with-r.zh/</loc>
-    <lastmod>2014-02-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://chengjunwang.com/zh/archive/2013-09-27-topic-modeling-of-song-peom.zh/</loc>
-    <lastmod>2013-09-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://chengjunwang.com/publication/dicuss-ows-tweets/</loc>
     <lastmod>2013-09-12T00:00:00+00:00</lastmod>
   </url>
@@ -1018,240 +458,11 @@
   </url>
   
   <url>
-    <loc>https://chengjunwang.com/zh/archive/2013-09-08-using-cluster-analysis-to-classify-topics-generated-by-topic-modeling.zh/</loc>
-    <lastmod>2013-09-08T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://chengjunwang.com/zh/archive/2013-09-07-part-of-speech-analysis-with-opennlp.zh/</loc>
-    <lastmod>2013-09-07T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://chengjunwang.com/zh/archive/2013-08-31-topic-modeling-with-r.zh/</loc>
-    <lastmod>2013-08-31T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://chengjunwang.com/zh/archive/2013-08-29-encoding-in-r-for-text-mining.zh/</loc>
-    <lastmod>2013-08-29T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://chengjunwang.com/zh/archive/2013-08-09-sna-book-chapter.zh/</loc>
-    <lastmod>2013-08-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://chengjunwang.com/zh/archive/2013-08-04-qap-test-of-network-analysis.zh/</loc>
-    <lastmod>2013-08-04T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://chengjunwang.com/zh/archive/2012-12-06-intenet-ecology.zh/</loc>
-    <lastmod>2012-12-16T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://chengjunwang.com/zh/archive/2011-08-22-gaddafi-diffusion.zh/</loc>
-    <lastmod>2012-12-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://chengjunwang.com/zh/archive/2012-12-15-beautiful-math.zh/</loc>
-    <lastmod>2012-12-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://chengjunwang.com/zh/archive/2012-08-31-burst.zh/</loc>
-    <lastmod>2012-08-31T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://chengjunwang.com/zh/archive/2012-07-01-snabook-chapter4.zh/</loc>
-    <lastmod>2012-07-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://chengjunwang.com/zh/archive/2012-07-01-snabook-chapter5.zh/</loc>
-    <lastmod>2012-07-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://chengjunwang.com/zh/archive/2012-07-01-snabook-chapter6.zh/</loc>
-    <lastmod>2012-07-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://chengjunwang.com/zh/archive/2012-05-16-return-to-the-sandpile.zh/</loc>
-    <lastmod>2012-05-16T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://chengjunwang.com/zh/archive/2012-02-19-computational-communication.zh/</loc>
-    <lastmod>2012-02-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://chengjunwang.com/zh/archive/2011-11-17-media-control.zh/</loc>
-    <lastmod>2011-11-17T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://chengjunwang.com/zh/archive/2011-07-09-universal-communication.zh/</loc>
-    <lastmod>2011-07-19T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://chengjunwang.com/zh/archive/2011-05-15-historical-insights.zh/</loc>
-    <lastmod>2011-05-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://chengjunwang.com/zh/archive/2011-03-10-network-giant.zh/</loc>
-    <lastmod>2011-03-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://chengjunwang.com/zh/archive/2011-03-02-sns-as-a-bridge.zh/</loc>
-    <lastmod>2011-03-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://chengjunwang.com/zh/archive/2011-01-08-bandit-in-the-chinese-of-republic.zh/</loc>
-    <lastmod>2011-01-08T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://chengjunwang.com/note/note_archive/2010-03-30-startup/</loc>
-    <lastmod>2010-03-30T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://chengjunwang.com/note/note_archive/2010-01-10-markdown-name/</loc>
-    <lastmod>2010-01-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://chengjunwang.com/zh/archive/2009-02-14-read-luxun-in-text.zh/</loc>
-    <lastmod>2009-02-14T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://chengjunwang.com/note/note_archive/2000-04-20-getting-started/</loc>
-    <lastmod>2000-04-20T00:00:00+08:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://chengjunwang.com/authors/admin/</loc>
   </url>
   
   <url>
-    <loc>https://chengjunwang.com/zh/cn/teaching/</loc>
-  </url>
-  
-  <url>
-    <loc>https://chengjunwang.com/post/en/2013-08-03-bloging-with-markdown-on-octopress/</loc>
-  </url>
-  
-  <url>
     <loc>https://chengjunwang.com/categories/</loc>
-  </url>
-  
-  <url>
-    <loc>https://chengjunwang.com/post/en/2014-03-17-fit-power-law/</loc>
-  </url>
-  
-  <url>
-    <loc>https://chengjunwang.com/post/en/2013-08-12-generating-networks-with-igraph/</loc>
-  </url>
-  
-  <url>
-    <loc>https://chengjunwang.com/post/en/2013-08-06-present-pandoc-slides-on-octopress/</loc>
-  </url>
-  
-  <url>
-    <loc>https://chengjunwang.com/post/en/2013-03-14-learn-basic-epidemic-models-with-python/</loc>
-  </url>
-  
-  <url>
-    <loc>https://chengjunwang.com/post/en/2014-04-06-vison-statement/</loc>
-  </url>
-  
-  <url>
-    <loc>https://chengjunwang.com/zh/archive/2016-06-18-parsing-githubarchive-json.zh/</loc>
-  </url>
-  
-  <url>
-    <loc>https://chengjunwang.com/post/en/2013-08-16-plot-regression-coefficient-with-r/</loc>
-  </url>
-  
-  <url>
-    <loc>https://chengjunwang.com/post/en/2013-08-14-recoding-in-r/</loc>
-  </url>
-  
-  <url>
-    <loc>https://chengjunwang.com/post/en/2014-03-16-scraping-weibo-using-python/</loc>
-  </url>
-  
-  <url>
-    <loc>https://chengjunwang.com/post/en/2012-04-23-scraping-newyork-times-with-python/</loc>
-  </url>
-  
-  <url>
-    <loc>https://chengjunwang.com/post/en/2013-01-20-scraping-tweets-from-twitter/</loc>
-  </url>
-  
-  <url>
-    <loc>https://chengjunwang.com/post/en/2014-04-07-sentiment-analysis-with-machine-learning-in-r/</loc>
-  </url>
-  
-  <url>
-    <loc>https://chengjunwang.com/post/en/2012-03-19-sentiment-analysi-with-python/</loc>
-  </url>
-  
-  <url>
-    <loc>https://chengjunwang.com/post/en/2014-03-09-simulate-network-diffusion-with-r/</loc>
-  </url>
-  
-  <url>
-    <loc>https://chengjunwang.com/post/en/2014-08-20-ashoka-fellows-worldwide/</loc>
-  </url>
-  
-  <url>
-    <loc>https://chengjunwang.com/post/en/2014-09-03-subscribe-by-email/</loc>
-  </url>
-  
-  <url>
-    <loc>https://chengjunwang.com/post/en/2011-03-18-craft-of-writing/</loc>
-  </url>
-  
-  <url>
-    <loc>https://chengjunwang.com/post/en/2014-03-14-weibo-landscape/</loc>
-  </url>
-  
-  <url>
-    <loc>https://chengjunwang.com/post/en/2012-04-26-understanding-bass-diffusion-model-with-r/</loc>
-  </url>
-  
-  <url>
-    <loc>https://chengjunwang.com/post/en/2013-08-18-using-slidify-to-publish-html5-presentations/</loc>
-  </url>
-  
-  <url>
-    <loc>https://chengjunwang.com/post/en/2013-08-06-using-the-front-page-of-octopress-instead-of-the-blog-page/</loc>
-  </url>
-  
-  <url>
-    <loc>https://chengjunwang.com/post/en/2011-12-11-visualize-with-googlevis/</loc>
-  </url>
-  
-  <url>
-    <loc>https://chengjunwang.com/zh/archive/2008-09-25-yuan-shikai.zh/</loc>
-  </url>
-  
-  <url>
-    <loc>https://chengjunwang.com/zh/archive/2008-05-01-happy-city.zh/</loc>
   </url>
   
 </urlset>
